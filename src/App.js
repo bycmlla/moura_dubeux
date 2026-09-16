@@ -33,6 +33,8 @@ const CONTACT_API_BASE_URL = (
 ).replace(/\/$/, '');
 const CONTACT_API_URL = `${CONTACT_API_BASE_URL}/api/contact`;
 const PRIVACY_POLICY_HASH = '#politica-de-privacidade';
+const PUBLIC_ASSET_BASE = process.env.PUBLIC_URL || '';
+const createPublicAssetPath = (path) => `${PUBLIC_ASSET_BASE}${path.startsWith('/') ? path : `/${path}`}`;
 
 const heroSlides = [
   { src: heroEvening, position: 'center center', alt: 'Elleve Horto ao anoitecer, com Salvador ao fundo' },
@@ -41,12 +43,12 @@ const heroSlides = [
 ];
 
 const createBookPages = (slug, total) => Array.from({ length: total }, (_, index) => ({
-  src: `/book-pages/${slug}/page-${String(index + 1).padStart(2, '0')}.jpg`,
+  src: createPublicAssetPath(`/book-pages/${slug}/page-${String(index + 1).padStart(2, '0')}.jpg`),
   label: `Página ${String(index + 1).padStart(2, '0')}`,
 }));
 
 const createBookPagesFrom = (slug, pages, labels = {}) => pages.map((page) => ({
-  src: `/book-pages/${slug}/page-${String(page).padStart(2, '0')}.jpg`,
+  src: createPublicAssetPath(`/book-pages/${slug}/page-${String(page).padStart(2, '0')}.jpg`),
   label: labels[page] || `Página ${String(page).padStart(2, '0')}`,
 }));
 
