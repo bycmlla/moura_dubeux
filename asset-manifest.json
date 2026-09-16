@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/moura_dubeux/static/css/main.5430b590.css",
-    "main.js": "/moura_dubeux/static/js/main.3b274c7b.js",
+    "main.js": "/moura_dubeux/static/js/main.808ac58c.js",
     "static/js/453.63edb33b.chunk.js": "/moura_dubeux/static/js/453.63edb33b.chunk.js",
     "static/media/book.pdf": "/moura_dubeux/static/media/book.38e806071155b09bebb8.pdf",
     "static/media/video.mp4": "/moura_dubeux/static/media/video.71366ece8b00ad31b35c.mp4",
@@ -23,11 +23,11 @@
     "static/media/logo-branco-dm-transparente.png": "/moura_dubeux/static/media/logo-branco-dm-transparente.5e27ffb8f5214d618eb3.png",
     "index.html": "/moura_dubeux/index.html",
     "main.5430b590.css.map": "/moura_dubeux/static/css/main.5430b590.css.map",
-    "main.3b274c7b.js.map": "/moura_dubeux/static/js/main.3b274c7b.js.map",
+    "main.808ac58c.js.map": "/moura_dubeux/static/js/main.808ac58c.js.map",
     "453.63edb33b.chunk.js.map": "/moura_dubeux/static/js/453.63edb33b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5430b590.css",
-    "static/js/main.3b274c7b.js"
+    "static/js/main.808ac58c.js"
   ]
 }
