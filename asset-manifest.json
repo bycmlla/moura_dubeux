@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/moura_dubeux/static/css/main.5430b590.css",
+    "main.js": "/moura_dubeux/static/js/main.3b274c7b.js",
+    "static/js/453.63edb33b.chunk.js": "/moura_dubeux/static/js/453.63edb33b.chunk.js",
+    "static/media/book.pdf": "/moura_dubeux/static/media/book.38e806071155b09bebb8.pdf",
+    "static/media/video.mp4": "/moura_dubeux/static/media/video.71366ece8b00ad31b35c.mp4",
+    "static/media/elleve-horto-piscina.png": "/moura_dubeux/static/media/elleve-horto-piscina.5fa97466df04b9fafd6a.png",
+    "static/media/banner4.png": "/moura_dubeux/static/media/banner4.954ab7b4bfc534bb5216.png",
+    "static/media/banner2.png": "/moura_dubeux/static/media/banner2.f2f40d6a71ae02696a9e.png",
+    "static/media/banner5.png": "/moura_dubeux/static/media/banner5.2f71215df0467a333f5d.png",
+    "static/media/banner3.png": "/moura_dubeux/static/media/banner3.68ffb77943e50325d793.png",
+    "static/media/elleve-horto-academia.png": "/moura_dubeux/static/media/elleve-horto-academia.8cae82d37e45d53a9437.png",
+    "static/media/01_-_Fachada.webp": "/moura_dubeux/static/media/01_-_Fachada.f0264b5ac87834e473cd.webp",
+    "static/media/MOUBO_08_Fachada_Cidade_High_1_CaBJKhz.webp": "/moura_dubeux/static/media/MOUBO_08_Fachada_Cidade_High_1_CaBJKhz.b4d7665a36a9bade6a10.webp",
+    "static/media/elleve-horto-Fachada-3.webp": "/moura_dubeux/static/media/elleve-horto-Fachada-3.a9c50ff5b7882d92bf5d.webp",
+    "static/media/infinity-business-cover.jpg": "/moura_dubeux/static/media/infinity-business-cover.bced76b96c51dfe491cc.jpg",
+    "static/media/06_-_Embasamento.webp": "/moura_dubeux/static/media/06_-_Embasamento.6bc07a7f22af4ad9d85f.webp",
+    "static/media/elleve-horto-Lobby_Elevadores.webp": "/moura_dubeux/static/media/elleve-horto-Lobby_Elevadores.e14c048fec2b4c5ca144.webp",
+    "static/media/Casa_Sombreiros_PNG_Fachada.webp": "/moura_dubeux/static/media/Casa_Sombreiros_PNG_Fachada.ae1e8a19f18a9a8d54ab.webp",
+    "static/media/dione-foto1.jpg": "/moura_dubeux/static/media/dione-foto1.ebdab7c319451ffb631f.jpg",
+    "static/media/logo-azul-dm-transparente.png": "/moura_dubeux/static/media/logo-azul-dm-transparente.076015c8878e26ea9c13.png",
+    "static/media/logo-branco-dm-transparente.png": "/moura_dubeux/static/media/logo-branco-dm-transparente.5e27ffb8f5214d618eb3.png",
+    "index.html": "/moura_dubeux/index.html",
+    "main.5430b590.css.map": "/moura_dubeux/static/css/main.5430b590.css.map",
+    "main.3b274c7b.js.map": "/moura_dubeux/static/js/main.3b274c7b.js.map",
+    "453.63edb33b.chunk.js.map": "/moura_dubeux/static/js/453.63edb33b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5430b590.css",
+    "static/js/main.3b274c7b.js"
+  ]
+}
