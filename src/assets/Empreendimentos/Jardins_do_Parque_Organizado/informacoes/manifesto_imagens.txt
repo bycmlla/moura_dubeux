@@ -1,0 +1,188 @@
+MANIFESTO DE IMAGENS - JARDINS DO PARQUE
+As plantas foram mantidas separadas das imagens do empreendimento.
+Use o campo 'Título' para exibir uma legenda amigável no site.
+
+capa/capa_jardins_do_parque.png
+  Título: Jardins do Parque - fachada das torres
+  Página do book: 4
+  Dimensões: 1600x900
+
+imagens_empreendimento/fachada/fachada_torres_orquideas_e_hortensias.png
+  Título: Fachada - Torres Orquídeas e Hortênsias
+  Página do book: 4
+  Dimensões: 1217x1400
+
+imagens_empreendimento/fachada/perspectiva_torre_jardins_do_parque.png
+  Título: Perspectiva da torre - Jardins do Parque
+  Página do book: 3
+  Dimensões: 1200x675
+
+imagens_empreendimento/areas_comuns/area_lazer_vista_aerea.png
+  Título: Área de lazer - vista aérea
+  Página do book: 8
+  Dimensões: 1200x474
+
+imagens_empreendimento/areas_comuns/piscina_adulto_prainha_solarium.png
+  Título: Piscina adulto com prainha e solarium
+  Página do book: 9
+  Dimensões: 1200x674
+
+imagens_empreendimento/areas_comuns/piscina_infantil.png
+  Título: Piscina infantil
+  Página do book: 10
+  Dimensões: 1200x676
+
+imagens_empreendimento/areas_comuns/gourmet_vip_com_piscina.png
+  Título: Gourmet VIP com piscina
+  Página do book: 11
+  Dimensões: 1200x675
+
+imagens_empreendimento/areas_comuns/gourmets.png
+  Título: Gourmets
+  Página do book: 12
+  Dimensões: 1200x676
+
+imagens_empreendimento/areas_comuns/playground.png
+  Título: Playground
+  Página do book: 13
+  Dimensões: 1200x675
+
+imagens_empreendimento/areas_comuns/miniquadra_recreativa.png
+  Título: Miniquadra recreativa
+  Página do book: 14
+  Dimensões: 1200x677
+
+imagens_empreendimento/areas_comuns/pet_place.png
+  Título: Pet place
+  Página do book: 15
+  Dimensões: 1200x674
+
+imagens_empreendimento/areas_comuns/hall_torre_hortensias.png
+  Título: Hall da Torre Hortênsias
+  Página do book: 16
+  Dimensões: 1200x824
+
+imagens_empreendimento/areas_comuns/sports_bar.png
+  Título: Sports bar
+  Página do book: 17
+  Dimensões: 1200x1197
+
+imagens_empreendimento/areas_comuns/academia.png
+  Título: Academia
+  Página do book: 18
+  Dimensões: 1200x491
+
+imagens_empreendimento/areas_comuns/brinquedoteca.png
+  Título: Brinquedoteca
+  Página do book: 19
+  Dimensões: 1200x923
+
+imagens_empreendimento/areas_comuns/salao_de_festas.png
+  Título: Salão de festas
+  Página do book: 20
+  Dimensões: 1200x830
+
+imagens_empreendimento/areas_comuns/terraco_salao_de_festas.png
+  Título: Terraço do salão de festas
+  Página do book: 21
+  Dimensões: 1200x675
+
+imagens_empreendimento/areas_comuns/minimarket.png
+  Título: Minimarket
+  Página do book: 22
+  Dimensões: 1200x900
+
+imagens_empreendimento/apartamentos/apartamento_81m_sala_estar_jantar.png
+  Título: Apartamento 81 m² - sala de estar e jantar
+  Página do book: 26
+  Dimensões: 1200x621
+
+imagens_empreendimento/apartamentos/apartamento_81m_suite.png
+  Título: Apartamento 81 m² - suíte
+  Página do book: 27
+  Dimensões: 1200x903
+
+imagens_empreendimento/apartamentos/apartamento_81m_quarto_filhos.png
+  Título: Apartamento 81 m² - quarto / filhos
+  Página do book: 28
+  Dimensões: 1200x903
+
+imagens_empreendimento/apartamentos/apartamento_81m_quarto_office.png
+  Título: Apartamento 81 m² - quarto / office
+  Página do book: 29
+  Dimensões: 1200x903
+
+imagens_empreendimento/apartamentos/apartamento_81m_varanda.png
+  Título: Apartamento 81 m² - varanda
+  Página do book: 30
+  Dimensões: 1200x800
+
+imagens_empreendimento/apartamentos/apartamento_60m_sala_estar_jantar.png
+  Título: Apartamento 60 m² - sala de estar e jantar
+  Página do book: 32
+  Dimensões: 1200x902
+
+imagens_empreendimento/apartamentos/apartamento_60m_suite.png
+  Título: Apartamento 60 m² - suíte
+  Página do book: 33
+  Dimensões: 1200x901
+
+imagens_empreendimento/apartamentos/apartamento_60m_quarto.png
+  Título: Apartamento 60 m² - quarto
+  Página do book: 34
+  Dimensões: 1125x1200
+
+imagens_empreendimento/apartamentos/apartamento_60m_varanda.png
+  Título: Apartamento 60 m² - varanda
+  Página do book: 35
+  Dimensões: 1200x800
+
+plantas/implantacao_pavimento_terreo.png
+  Título: Implantação - pavimento térreo
+  Página do book: 23
+  Dimensões: 1389x1600
+
+plantas/planta_81m_3_quartos_1_suite_terminacao_01.png
+  Título: Planta 81 m² - 3 quartos (1 suíte) - terminação 01
+  Página do book: 25
+  Dimensões: 1579x1600
+
+plantas/planta_60m_2_quartos_1_suite_terminacao_04.png
+  Título: Planta 60 m² - 2 quartos (1 suíte) - terminação 04
+  Página do book: 31
+  Dimensões: 1600x1210
+
+plantas/implantacao_geral_torres.png
+  Título: Implantação geral - Torres Orquídeas e Hortênsias
+  Página do book: 36
+  Dimensões: 1600x1535
+
+plantas/pavimento_tipo_torre_orquideas.png
+  Título: Pavimento tipo - Torre Orquídeas
+  Página do book: 37
+  Dimensões: 1600x1067
+
+plantas/pavimento_tipo_torre_hortensias.png
+  Título: Pavimento tipo - Torre Hortênsias
+  Página do book: 38
+  Dimensões: 1600x1067
+
+localizacao/entorno_comercio_e_servicos.png
+  Título: Entorno - comércio e serviços
+  Página do book: 5
+  Dimensões: 926x615
+
+localizacao/praia_cruz_das_almas.png
+  Título: Praia de Cruz das Almas
+  Página do book: 5
+  Dimensões: 928x615
+
+localizacao/vista_aerea_proximidade_mar_e_shopping.png
+  Título: Vista aérea - proximidade do mar e do Parque Shopping
+  Página do book: 6
+  Dimensões: 1200x913
+
+localizacao/mapa_entorno_pontos_de_interesse.png
+  Título: Mapa do entorno e pontos de interesse
+  Página do book: 7
+  Dimensões: 1400x788

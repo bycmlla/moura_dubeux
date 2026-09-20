@@ -1,0 +1,123 @@
+MANIFESTO DE IMAGENS - MANSÃO OTHON
+Use o campo 'Título' como legenda amigável no site.
+As plantas foram mantidas separadas da galeria comum.
+
+capa/capa_mansao_othon.png
+  Título: Mansão Othon - fachada e vista para o mar
+  Página de origem no book: 14
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/fachadas/fachada_noturna_frente_mar.png
+  Título: Fachada noturna do Mansão Othon frente ao mar
+  Página de origem no book: 13
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/fachadas/fachada_avenida_oceanica.png
+  Título: Fachada do Mansão Othon pela Avenida Oceânica
+  Página de origem no book: 20
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/fachadas/acesso_principal_avenida_oceanica.png
+  Título: Acesso principal pela Avenida Oceânica
+  Página de origem no book: 21
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/area_lazer_piscina_vista_aerea.png
+  Título: Área de lazer com piscina - vista aérea
+  Página de origem no book: 15
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/piscina_adulto_vista_mar.png
+  Título: Piscina adulto com vista para o mar
+  Página de origem no book: 25
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/quadras_tenis_e_beach_tennis.png
+  Título: Quadras de tênis e beach tennis
+  Página de origem no book: 27
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/entrada_lobby.png
+  Título: Entrada do lobby
+  Página de origem no book: 28
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/spa_piscina_aquecida_coberta.png
+  Título: SPA com piscina aquecida coberta
+  Página de origem no book: 29
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/academia.png
+  Título: Academia
+  Página de origem no book: 30
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/brinquedoteca.png
+  Título: Brinquedoteca
+  Página de origem no book: 31
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/kids_play_externo.png
+  Título: Kids Play externo
+  Página de origem no book: 32
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/salao_de_festas.png
+  Título: Salão de festas
+  Página de origem no book: 33
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/apartamentos/living_estar_vista_mar.png
+  Título: Living estar com vista para o mar
+  Página de origem no book: 39
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/apartamentos/living_jantar_vista_mar.png
+  Título: Living jantar com vista para o mar
+  Página de origem no book: 40
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/apartamentos/sala_intima.png
+  Título: Sala íntima
+  Página de origem no book: 41
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/apartamentos/suite_master_vista_mar.png
+  Título: Suíte master com vista para o mar
+  Página de origem no book: 42
+  Dimensões do PNG: 1400x788
+
+plantas/implantacao_area_lazer.png
+  Título: Implantação geral da área de lazer
+  Página de origem no book: 18
+  Dimensões do PNG: 1800x1012
+
+plantas/garagem_g1.png
+  Título: Pavimento G1 - garagem e acessos
+  Página de origem no book: 19
+  Dimensões do PNG: 1800x1012
+
+plantas/pavimento_lazer_wellness.png
+  Título: Pavimento de lazer e wellness
+  Página de origem no book: 23
+  Dimensões do PNG: 1800x1012
+
+plantas/pavimento_tipo_2_unidades.png
+  Título: Pavimento tipo - 2 unidades por andar
+  Página de origem no book: 36
+  Dimensões do PNG: 1800x1012
+
+plantas/planta_padrao_572m2_5_suites.png
+  Título: Planta padrão - 572 m² - 5 suítes
+  Página de origem no book: 37
+  Dimensões do PNG: 1800x1012
+
+plantas/planta_opcao_4_suites_ampliada.png
+  Título: Opção de planta - 4 suítes ampliadas com banheiro e closet Sr. e Sra.
+  Página de origem no book: 38
+  Dimensões do PNG: 1800x1012
+
+localizacao/orla_de_ondina_salvador.png
+  Título: Orla de Ondina - Salvador
+  Página de origem no book: 7
+  Dimensões do PNG: 1600x900

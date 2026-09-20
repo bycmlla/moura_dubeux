@@ -1,0 +1,148 @@
+MANIFESTO DE IMAGENS - MIRAT MARTINS DE SÁ
+Use o campo 'Título' como legenda amigável no site.
+As plantas foram mantidas separadas da galeria comum.
+
+capa/capa_mirat_martins_de_sa.png
+  Título: Mirat Martins de Sá - fachada principal
+  Página de origem no book: 7
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/fachadas/fachada_torre_mirat.png
+  Título: Fachada da torre Mirat Martins de Sá
+  Página de origem no book: 7
+  Dimensões do PNG: 620x1083
+
+imagens_empreendimento/fachadas/acesso_principal_paisagismo.png
+  Título: Acesso principal e paisagismo
+  Página de origem no book: 10
+  Dimensões do PNG: 1560x1083
+
+imagens_empreendimento/areas_comuns/hall_social.png
+  Título: Hall social
+  Página de origem no book: 11
+  Dimensões do PNG: 1560x1082
+
+imagens_empreendimento/areas_comuns/piscinas_adulto_e_infantil.png
+  Título: Piscinas adulto e infantil
+  Página de origem no book: 13
+  Dimensões do PNG: 1562x1082
+
+imagens_empreendimento/areas_comuns/piscina_raia_20m_e_hidros.png
+  Título: Piscina com raia de 20 m e hidromassagem
+  Página de origem no book: 14
+  Dimensões do PNG: 1562x1080
+
+imagens_empreendimento/areas_comuns/fitness_130m2.png
+  Título: Fitness - 130 m²
+  Página de origem no book: 15
+  Dimensões do PNG: 1562x1080
+
+imagens_empreendimento/areas_comuns/minicampo.png
+  Título: Minicampo
+  Página de origem no book: 16
+  Dimensões do PNG: 1562x1080
+
+imagens_empreendimento/areas_comuns/brinquedoteca.png
+  Título: Brinquedoteca
+  Página de origem no book: 17
+  Dimensões do PNG: 1562x1080
+
+imagens_empreendimento/areas_comuns/playground.png
+  Título: Playground
+  Página de origem no book: 18
+  Dimensões do PNG: 1562x1080
+
+imagens_empreendimento/areas_comuns/salao_de_festas.png
+  Título: Salão de festas
+  Página de origem no book: 19
+  Dimensões do PNG: 1562x847
+
+imagens_empreendimento/areas_comuns/confraria_salao_de_jogos.png
+  Título: Confraria / salão de jogos
+  Página de origem no book: 20
+  Dimensões do PNG: 1600x867
+
+imagens_empreendimento/areas_comuns/spa_ofuro_hidromassagem.png
+  Título: SPA com ofurô e hidromassagem
+  Página de origem no book: 21
+  Dimensões do PNG: 1562x847
+
+imagens_empreendimento/areas_comuns/pet_play.png
+  Título: Pet Play
+  Página de origem no book: 22
+  Dimensões do PNG: 1562x1080
+
+imagens_empreendimento/areas_comuns/pet_care.png
+  Título: Pet Care
+  Página de origem no book: 23
+  Dimensões do PNG: 1600x546
+
+imagens_empreendimento/areas_comuns/bicicletario.png
+  Título: Bicicletário
+  Página de origem no book: 23
+  Dimensões do PNG: 1600x550
+
+imagens_empreendimento/apartamentos/varanda_gourmet.png
+  Título: Varanda gourmet
+  Página de origem no book: 28
+  Dimensões do PNG: 1562x847
+
+imagens_empreendimento/apartamentos/living.png
+  Título: Living
+  Página de origem no book: 29
+  Dimensões do PNG: 1562x660
+
+imagens_empreendimento/apartamentos/suite_master.png
+  Título: Suíte master
+  Página de origem no book: 30
+  Dimensões do PNG: 1560x849
+
+imagens_empreendimento/apartamentos/suite_master_ampliada.png
+  Título: Suíte master ampliada
+  Página de origem no book: 31
+  Dimensões do PNG: 1562x847
+
+imagens_empreendimento/apartamentos/closet.png
+  Título: Closet
+  Página de origem no book: 32
+  Dimensões do PNG: 947x1080
+
+plantas/implantacao_lazer.png
+  Título: Implantação geral do lazer
+  Página de origem no book: 24
+  Dimensões do PNG: 1800x1235
+
+plantas/planta_espaco_wellness_confraria_spa.png
+  Título: Planta do espaço Wellness - confraria, terraço gourmet, massagens e SPA
+  Página de origem no book: 25
+  Dimensões do PNG: 1506x937
+
+plantas/planta_espaco_wellness_fitness.png
+  Título: Planta do espaço Wellness - fitness, lutas / dança e terraço funcional
+  Página de origem no book: 26
+  Dimensões do PNG: 1314x823
+
+plantas/planta_padrao_253m2_4_suites.png
+  Título: Planta padrão - 253,15 m² - 4 suítes
+  Página de origem no book: 33
+  Dimensões do PNG: 837x871
+
+plantas/planta_sugestao_2_253m2_3_suites.png
+  Título: Planta sugestão 2 - 253,15 m² - 3 suítes - sala e suíte ampliadas
+  Página de origem no book: 34
+  Dimensões do PNG: 837x871
+
+plantas/planta_sugestao_3_253m2_3_suites.png
+  Título: Planta sugestão 3 - 253,15 m² - 3 suítes - suíte ampliada com W.C. Sr. e Sra.
+  Página de origem no book: 35
+  Dimensões do PNG: 837x871
+
+localizacao/vista_aerea_horto_florestal.png
+  Título: Vista aérea do Horto Florestal
+  Página de origem no book: 8
+  Dimensões do PNG: 1562x525
+
+localizacao/vista_planejada_salvador_mar.png
+  Título: Vista planejada de Salvador e do mar
+  Página de origem no book: 9
+  Dimensões do PNG: 1562x536

@@ -1,0 +1,142 @@
+BEACH CLASS JAGUARIBE
+
+IDENTIFICAÇÃO
+Empreendimento: Beach Class Jaguaribe
+Construtora / incorporadora: Moura Dubeux
+Endereço: Rua Desembargador Lafayette Velloso, 80 - Jaguaribe - Salvador - BA
+Localização: em frente à Praia de Jaguaribe
+Acesso de pedestres e veículos: Rua Desembargador Lafayette Velloso
+Guarita: blindada
+
+CONCEITO
+Empreendimento da linha Beach Class com proposta de integrar estilo praiano, praticidade, conforto, lazer e vida urbana, de frente para o mar.
+
+DADOS GERAIS
+- 1 torre
+- 73 metros de altura
+- 21 pavimentos
+- 202 unidades
+- Área do terreno: 2.800,28 m²
+- 194 vagas de garagem
+- 10 vagas para carros elétricos
+- 19 vagas para bicicletas
+- 4 elevadores
+
+DISTRIBUIÇÃO DOS PAVIMENTOS
+- 10 apartamentos por pavimento no primeiro tipo, do 1º ao 16º andar
+- 10 apartamentos no 17º andar escalonado
+- 8 apartamentos no 18º andar escalonado
+- 8 apartamentos do 19º ao 21º andar escalonado
+
+TIPOLOGIAS
+- 1 quarto
+- 2 quartos com 1 suíte
+- 2 suítes
+- Apartamentos de 1 e 2 quartos de 39 m² a 76 m²
+- Opções de 2 quartos de 97 m² a 110 m² com terraço ao ar livre e vista para o mar
+
+PLANTAS DESTACADAS NO BOOK
+- 74 m² - 2 quartos, sendo 1 suíte - frente para o mar - terminação 1
+- 64 m² - 2 suítes - terminação 3
+- 40 m² - 1 suíte - terminação 7
+- 65 m² - 2 quartos, sendo 1 suíte - terminação 10
+
+PAVIMENTO TÉRREO
+- Acesso a carros
+- Acesso a pedestres
+- Clausura
+- Portaria com guarita blindada
+- Hall social
+- Delivery
+- Minimarket
+- Administração
+- Lavanderia
+- Pet Care
+- Guarderia
+- Estacionamento
+- Pet Place, acesso pelo G2
+- Vagas para carro elétrico
+- Lixo orgânico e reciclável
+
+PAVIMENTO DE LAZER
+- Salão de festas gourmet
+- Terraço do salão de festas
+- Coliving e coworking com Grab and Go
+- WCs sociais
+- Copa para festas
+- Sala de reuniões
+- Fitness
+- Playground
+- Lounge externo
+- Estar externo
+- Gourmet externo
+- WCs externos
+- Piscina com borda infinita
+- Solarium
+- SPA
+- Piscina infantil
+
+LAZER E CONFORTO
+- Piscina com borda infinita
+- Piscina infantil
+- Solarium
+- SPA
+- Prainha
+- Fitness
+- Sala de reuniões
+- Playground
+- Bicicletário
+- Salas de delivery e e-commerce
+- Lavanderia
+- Guarderia para pranchas
+- Coliving e coworking com Grab and Go
+- Lounge externo
+- Salão de festas com copa, espaço gourmet e terraço
+- Espaço gourmet externo
+- Lobby / Hall social
+- Minimarket
+- Pet Care
+- Pet Place
+
+SEGURANÇA, INOVAÇÃO E SUSTENTABILIDADE
+- Vagas para veículos elétricos
+- Clausura para controle de acesso de pedestres
+- Projeto de segurança
+- Acesso de pedestre por biometria ou tag
+- Portaria blindada
+- Fechadura eletrônica nas portas das unidades
+- Estação para carregamento de bicicleta elétrica
+- Medição de água individualizada
+- Reaproveitamento das águas pluviais e drenos de ar-condicionado
+- Louças e metais com dispositivos economizadores de água
+- Sistema inteligente de iluminação das áreas comuns
+- Uso de fonte de energia renovável por placas solares
+- Pavimentação permeável em parte da área de passeio
+
+PROJETO / EQUIPE CITADA NO BOOK
+Paisagismo:
+- Takeda
+
+Arquitetura / projeto:
+- GAM Arquitetos
+
+REGISTRO
+Registro de Incorporação sob o R-1 da matrícula nº 64.267 do 7º Registro de Imóveis de Salvador-BA.
+
+OBSERVAÇÕES DO MATERIAL
+- As características e imagens do empreendimento têm caráter ilustrativo e promocional.
+- As ilustrações são representações artísticas e podem sofrer alterações de cor, textura, acabamento e composição.
+- Decorações, móveis, utensílios e equipamentos ilustrados não integram necessariamente o contrato nem os apartamentos à venda.
+- As áreas indicadas nas plantas são áreas privativas da unidade.
+
+ORGANIZAÇÃO DESTE PACOTE
+- capa/: imagem principal recomendada
+- imagens_empreendimento/fachadas/: fachadas e acessos
+- imagens_empreendimento/areas_comuns/: lazer e áreas compartilhadas
+- imagens_empreendimento/apartamentos/: ambientes internos
+- plantas/: somente plantas, pavimentos e implantações
+- localizacao/: imagem de contexto/localização frente ao mar
+- informacoes/: dados organizados e manifesto de imagens
+
+IMPORTANTE
+As imagens da pasta plantas/ não devem ser misturadas com as imagens da galeria comum do empreendimento.

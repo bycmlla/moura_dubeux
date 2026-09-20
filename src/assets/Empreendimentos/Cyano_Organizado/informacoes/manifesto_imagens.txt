@@ -1,0 +1,163 @@
+MANIFESTO DE IMAGENS - CYANO
+Use o campo 'Título' como legenda no site.
+As plantas foram separadas das imagens do empreendimento.
+
+capa/capa_cyano.png
+  Título: Cyano - vista geral do empreendimento frente ao mar
+  Página de origem no book: 4
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/fachadas/vista_geral_empreendimento_frente_mar.png
+  Título: Vista geral do empreendimento frente ao mar
+  Página de origem no book: 4
+  Dimensões do PNG: 1440x810
+
+imagens_empreendimento/fachadas/fachada_residencial_curvas_varandas.png
+  Título: Fachada residencial - curvas e varandas
+  Página de origem no book: 5
+  Dimensões do PNG: 1440x810
+
+imagens_empreendimento/fachadas/conjunto_torres_frente_mar.png
+  Título: Conjunto das torres do Cyano frente ao mar
+  Página de origem no book: 9
+  Dimensões do PNG: 1440x810
+
+imagens_empreendimento/fachadas/acesso_rua_da_fonte_do_boi.png
+  Título: Acesso pela Rua da Fonte do Boi
+  Página de origem no book: 12
+  Dimensões do PNG: 1440x810
+
+imagens_empreendimento/fachadas/vista_noturna_conjunto_cyano.png
+  Título: Vista noturna do conjunto Cyano
+  Página de origem no book: 40
+  Dimensões do PNG: 1440x810
+
+imagens_empreendimento/areas_comuns/piscina_borda_infinita_vista_mar.png
+  Título: Piscina com borda infinita e vista para o mar
+  Página de origem no book: 15
+  Dimensões do PNG: 1440x810
+
+imagens_empreendimento/areas_comuns/rooftop_vista_mar.png
+  Título: Rooftop com vista para o mar
+  Página de origem no book: 16
+  Dimensões do PNG: 1440x810
+
+imagens_empreendimento/areas_comuns/espaco_gourmet_vista_mar.png
+  Título: Espaço gourmet com vista para o mar
+  Página de origem no book: 17
+  Dimensões do PNG: 1440x810
+
+imagens_empreendimento/areas_comuns/academia_185m2.png
+  Título: Academia - 185 m²
+  Página de origem no book: 19
+  Dimensões do PNG: 1440x810
+
+imagens_empreendimento/areas_comuns/area_de_lazer_quadra.png
+  Título: Área de lazer com quadra
+  Página de origem no book: 20
+  Dimensões do PNG: 1440x810
+
+imagens_empreendimento/areas_comuns/salao_de_festas_175m2.png
+  Título: Salão de festas - 175 m²
+  Página de origem no book: 21
+  Dimensões do PNG: 1440x810
+
+imagens_empreendimento/areas_comuns/brinquedoteca_com_terraco.png
+  Título: Brinquedoteca com terraço
+  Página de origem no book: 22
+  Dimensões do PNG: 1440x810
+
+imagens_empreendimento/areas_comuns/espaco_gourmet_externo.png
+  Título: Espaço gourmet externo
+  Página de origem no book: 23
+  Dimensões do PNG: 1440x810
+
+imagens_empreendimento/apartamentos/apartamento_4_suites_living_integrado_varanda.png
+  Título: Apartamento 4 suítes - living integrado à varanda
+  Página de origem no book: 28
+  Dimensões do PNG: 1440x810
+
+imagens_empreendimento/apartamentos/apartamento_4_suites_suite_master.png
+  Título: Apartamento 4 suítes - suíte master
+  Página de origem no book: 29
+  Dimensões do PNG: 1440x810
+
+imagens_empreendimento/apartamentos/apartamento_3_suites_living.png
+  Título: Apartamento 3 suítes - living
+  Página de origem no book: 31
+  Dimensões do PNG: 1440x810
+
+imagens_empreendimento/apartamentos/apartamento_3_suites_suite_master.png
+  Título: Apartamento 3 suítes - suíte master
+  Página de origem no book: 32
+  Dimensões do PNG: 1440x810
+
+imagens_empreendimento/apartamentos/apartamento_3_suites_living_cozinha_integrada.png
+  Título: Apartamento 3 suítes - living com cozinha integrada
+  Página de origem no book: 34
+  Dimensões do PNG: 1440x810
+
+plantas/implantacao_geral_torres.png
+  Título: Implantação geral - Torres Oceano, Atlântico e Mar
+  Página de origem no book: 11
+  Dimensões do PNG: 1440x810
+
+plantas/rooftop_torre_mar.png
+  Título: Planta do rooftop - Torre Mar
+  Página de origem no book: 14
+  Dimensões do PNG: 1440x810
+
+plantas/pavimento_lazer_torre_oceano.png
+  Título: Pavimento de lazer - Torre Oceano
+  Página de origem no book: 18
+  Dimensões do PNG: 1440x810
+
+plantas/pavimento_terreo.png
+  Título: Pavimento térreo
+  Página de origem no book: 24
+  Dimensões do PNG: 1440x810
+
+plantas/planta_4_suites_182m2.png
+  Título: Planta 4 suítes - 182 m²
+  Página de origem no book: 26
+  Dimensões do PNG: 1440x810
+
+plantas/planta_4_suites_garden_204m2.png
+  Título: Planta 4 suítes garden - 204 m²
+  Página de origem no book: 27
+  Dimensões do PNG: 1440x810
+
+plantas/planta_3_suites_133m2.png
+  Título: Planta 3 suítes - 133 m²
+  Página de origem no book: 30
+  Dimensões do PNG: 1440x810
+
+plantas/planta_opcao_3_suites_cozinha_integrada_133m2.png
+  Título: Opção de planta 3 suítes com cozinha integrada - 133 m²
+  Página de origem no book: 33
+  Dimensões do PNG: 1440x810
+
+plantas/planta_3_suites_garden_155m2.png
+  Título: Planta 3 suítes garden - 155 m²
+  Página de origem no book: 35
+  Dimensões do PNG: 1440x810
+
+plantas/pavimento_tipo_torre_mar.png
+  Título: Pavimento tipo - Torre Mar
+  Página de origem no book: 36
+  Dimensões do PNG: 1440x810
+
+plantas/pavimento_tipo_torre_atlantico.png
+  Título: Pavimento tipo - Torre Atlântico
+  Página de origem no book: 37
+  Dimensões do PNG: 1440x810
+
+plantas/pavimento_tipo_torre_oceano.png
+  Título: Pavimento tipo - Torre Oceano
+  Página de origem no book: 38
+  Dimensões do PNG: 1440x810
+
+localizacao/localizacao_rio_vermelho_salvador.png
+  Título: Localização do Cyano no Rio Vermelho - Salvador
+  Página de origem no book: 6
+  Dimensões do PNG: 1440x810

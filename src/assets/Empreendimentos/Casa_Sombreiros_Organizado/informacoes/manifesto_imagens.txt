@@ -1,0 +1,138 @@
+MANIFESTO DE IMAGENS - CASA SOMBREIROS
+Use o campo 'Título' como legenda amigável no site.
+As plantas foram mantidas separadas da galeria comum do empreendimento.
+
+capa/capa_casa_sombreiros.png
+  Título: Casa Sombreiros - fachada e acesso pela Alameda dos Sombreiros
+  Página de origem no book: 10
+  Dimensões do PNG: 1900x1069
+
+imagens_empreendimento/fachadas/torre_casa_sombreiros.png
+  Título: Torre Casa Sombreiros
+  Página de origem no book: 9
+  Dimensões do PNG: 704x1083
+
+imagens_empreendimento/fachadas/fachada_embasamento_alameda_dos_sombreiros.png
+  Título: Fachada e embasamento - Alameda dos Sombreiros
+  Página de origem no book: 10
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/fachadas/detalhe_fachada_varandas.png
+  Título: Detalhe da fachada e varandas
+  Página de origem no book: 11
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/piscina_adulto_raia_25m.png
+  Título: Piscina adulto com raia de 25 m
+  Página de origem no book: 12
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/piscina_vista_aerea.png
+  Título: Piscina - vista aérea
+  Página de origem no book: 13
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/quadra_recreativa.png
+  Título: Quadra recreativa
+  Página de origem no book: 14
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/gourmet_apoio_quadra.png
+  Título: Gourmet de apoio à quadra
+  Página de origem no book: 15
+  Dimensões do PNG: 1800x1012
+
+imagens_empreendimento/areas_comuns/parque_infantil.png
+  Título: Parque infantil
+  Página de origem no book: 16
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/lobby.png
+  Título: Lobby
+  Página de origem no book: 17
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/academia.png
+  Título: Academia
+  Página de origem no book: 18
+  Dimensões do PNG: 1800x1012
+
+imagens_empreendimento/areas_comuns/sala_de_jogos.png
+  Título: Sala de jogos
+  Página de origem no book: 19
+  Dimensões do PNG: 1800x1014
+
+imagens_empreendimento/areas_comuns/brinquedoteca.png
+  Título: Brinquedoteca
+  Página de origem no book: 20
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/salao_de_festas.png
+  Título: Salão de festas
+  Página de origem no book: 21
+  Dimensões do PNG: 1800x1012
+
+imagens_empreendimento/areas_comuns/circulacao_externa_pavimento_lazer.png
+  Título: Circulação externa do pavimento de lazer
+  Página de origem no book: 22
+  Dimensões do PNG: 1800x1012
+
+imagens_empreendimento/apartamentos/living.png
+  Título: Living
+  Página de origem no book: 31
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/apartamentos/suite_master_ampliada_com_closet.png
+  Título: Suíte master ampliada com closet
+  Página de origem no book: 32
+  Dimensões do PNG: 1800x721
+
+imagens_empreendimento/apartamentos/living_ampliado_cozinha_integrada.png
+  Título: Living ampliado com cozinha integrada
+  Página de origem no book: 34
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/apartamentos/living_ampliado.png
+  Título: Living ampliado
+  Página de origem no book: 35
+  Dimensões do PNG: 1800x667
+
+plantas/implantacao_pavimento_lazer.png
+  Título: Implantação do pavimento de lazer
+  Página de origem no book: 24
+  Dimensões do PNG: 1339x1017
+
+plantas/pavimento_g1_acessos_garagem.png
+  Título: Pavimento G1 - acessos e garagem
+  Página de origem no book: 25
+  Dimensões do PNG: 1339x1017
+
+plantas/pavimento_tipo_terminacoes_01_02.png
+  Título: Pavimento tipo - terminações 01 e 02
+  Página de origem no book: 27
+  Dimensões do PNG: 1513x851
+
+plantas/planta_padrao_168m2_4_suites.png
+  Título: Planta padrão - 168 m² - 4 suítes
+  Página de origem no book: 28
+  Dimensões do PNG: 802x940
+
+plantas/planta_opcao_1_168m2_3_suites_sala_cozinha_ampliadas.png
+  Título: Opção 1 - 168 m² - 3 suítes com sala e cozinha ampliadas
+  Página de origem no book: 29
+  Dimensões do PNG: 834x970
+
+plantas/planta_opcao_2_168m2_3_suites_master_ampliada.png
+  Título: Opção 2 - 168 m² - 3 suítes com suíte master ampliada, banheiro Sr. e Sra. e closet
+  Página de origem no book: 30
+  Dimensões do PNG: 828x958
+
+plantas/planta_opcao_3_168m2_3_suites_sala_cozinha_integrada.png
+  Título: Opção 3 - 168 m² - 3 suítes com sala ampliada, cozinha integrada e área de serviço ampliada
+  Página de origem no book: 33
+  Dimensões do PNG: 798x947
+
+localizacao/vista_aerea_caminho_das_arvores.png
+  Título: Vista aérea do Caminho das Árvores e entorno
+  Página de origem no book: 6
+  Dimensões do PNG: 1900x833
