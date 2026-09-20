@@ -1,0 +1,160 @@
+CYANO - SALVADOR LUXURY RESIDENCE
+
+INFORMAÇÕES DO EMPREENDIMENTO
+Nome: Cyano
+Construtora / incorporadora: Moura Dubeux
+Cidade: Salvador - BA
+Localização: Rua da Fonte do Boi, Rio Vermelho, Salvador - BA
+Conceito: empreendimento residencial de luxo frente ao mar, no Rio Vermelho.
+Área do terreno: 8.004,75 m²
+
+TORRES
+- Torre Oceano
+- Torre Atlântico
+- Torre Mar
+
+TIPOLOGIAS
+O book apresenta apartamentos de 133 m² a 204 m², com 3 ou 4 suítes, incluindo opções garden.
+
+Torre Oceano - 24 apartamentos
+1º pavimento:
+- Colunas 01, 02, 03 e 04
+- 4 suítes garden
+- 204 m²
+- Total: 4 unidades
+2º, 3º, 4º, 5º e 6º pavimentos:
+- Colunas 01, 02, 03 e 04
+- 4 suítes padrão
+- 182 m²
+- Total: 20 unidades
+
+Torre Atlântico - 24 apartamentos
+1º pavimento:
+- Colunas 01 e 02
+- 3 suítes garden
+- 155 m²
+- Total: 2 unidades
+- Colunas 03 e 04
+- 4 suítes garden
+- 204 m²
+- Total: 2 unidades
+2º, 3º, 4º, 5º e 6º pavimentos:
+- Colunas 01 e 02
+- 3 suítes padrão
+- 133 m²
+- Total: 10 unidades
+- Colunas 03 e 04
+- 4 suítes padrão
+- 182 m²
+- Total: 10 unidades
+
+Torre Mar - 20 apartamentos
+1º pavimento:
+- Pavimento de lazer, sem apartamentos
+2º pavimento:
+- Colunas 01, 02, 03 e 04
+- 3 suítes garden
+- 155 m²
+- Total: 4 unidades
+3º, 4º, 5º e 6º pavimentos:
+- Colunas 01, 02, 03 e 04
+- 3 suítes padrão
+- 133 m²
+- Total: 16 unidades
+
+TOTAL DE APARTAMENTOS
+- Torre Oceano: 24
+- Torre Atlântico: 24
+- Torre Mar: 20
+- Total geral: 68 apartamentos
+
+ESTACIONAMENTO
+Total de 186 vagas de estacionamento:
+- Apartamentos de 4 suítes: 3 vagas
+- Apartamentos de 3 suítes: 2 vagas
+- 14 vagas condominiais / visitantes
+
+ÁREAS DE LAZER - PAVIMENTO TÉRREO
+- Lobbies sociais e de elevadores
+- Lounges externos integrados ao paisagismo
+- Pet care
+- Pet place
+- Bicicletários
+
+PAVIMENTO DE LAZER - TORRE MAR
+- Lobby social
+- Salão de festas
+- Academia
+- Fitness externo
+- Brinquedoteca
+- Terraço da brinquedoteca
+- Playground
+- Quadra
+- Espaço gourmet da quadra
+- Quadra poliesportiva
+- Lounges externos integrados ao paisagismo
+
+ROOFTOP
+- Lobby social com vista para o mar
+- Espaço gourmet rooftop com vista para o mar
+- Espaço gourmet com piscina
+- Piscina com prainha e hidromassagem
+- Deck com vista para o mar
+- Sauna úmida
+- Lounge com champanheira
+
+ITENS MOSTRADOS NO ROOFTOP DA TORRE MAR
+- Deck com vista para o mar
+- Hidromassagem
+- Prainha
+- Piscina adulto com borda infinita
+- Lounge com champanheira
+- Espaço gourmet com piscina
+- Sauna úmida
+- Lobby social vista mar
+- Espaço gourmet rooftop com vista mar
+- Sanitários
+
+PAVIMENTO DE LAZER - TORRE OCEANO
+- Lobby social do pavimento de lazer
+- Salão de festas - 175 m²
+- Academia - 185 m²
+- Fitness externo
+- Lounges externos
+- Brinquedoteca
+- Terraço da brinquedoteca
+- Playground
+- Espaço gourmet externo
+- Quadra esportiva
+
+PAVIMENTO TÉRREO - SERVIÇOS E ACESSOS
+- Acesso social de pedestres
+- Acesso de veículos
+- Guarita
+- Lobby social de elevadores Torre Atlântico
+- Lobby social para acesso ao pavimento de lazer
+- Lobby social de elevadores Torre Oceano
+- Pet care
+- Pet place
+- Lobby social de elevadores Torre Mar
+- Acesso de serviço
+- Vagas de visitantes e aplicativo
+
+PROJETOS
+O book cita Architects + Co como responsável por arquitetura e ambientação.
+Paisagismo: Takeda Design.
+
+OBSERVAÇÕES DO MATERIAL
+- As imagens das áreas comuns e apartamentos possuem caráter ilustrativo e sugestivo.
+- O projeto pode sofrer ajustes ou alterações conforme necessidades técnicas, legais e de instalações.
+- Os apartamentos serão entregues conforme contrato, especificação técnica e planta contratual.
+- A bancada da varanda não é entregue no apartamento padrão, podendo ser adquirida na etapa de personalização.
+- Dimensões, louças, metais, revestimentos e ambientações apresentados nas imagens são ilustrativos.
+
+ARQUIVOS DESTE PACOTE
+- capa/: imagem principal recomendada para o empreendimento
+- imagens_empreendimento/fachadas/: fachadas e visuais externos
+- imagens_empreendimento/areas_comuns/: lazer e áreas compartilhadas
+- imagens_empreendimento/apartamentos/: ambientes internos
+- plantas/: somente plantas, implantações e pavimentos
+- localizacao/: imagens de localização

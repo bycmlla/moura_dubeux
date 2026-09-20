@@ -1,0 +1,218 @@
+MANIFESTO DE IMAGENS - HORTO ESSENCE
+Use o campo 'Título' como legenda amigável no site.
+As plantas foram mantidas separadas da galeria comum do empreendimento.
+
+capa/capa_horto_essence.png
+  Título: Horto Essence - torre principal
+  Página de origem no book: 8
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/fachadas/boulevard_de_acesso_bambus.png
+  Título: Boulevard de acesso com bambus
+  Página de origem no book: 3
+  Dimensões do PNG: 1700x1134
+
+imagens_empreendimento/fachadas/torre_horto_essence.png
+  Título: Torre Horto Essence
+  Página de origem no book: 8
+  Dimensões do PNG: 761x1137
+
+imagens_empreendimento/fachadas/acesso_empreendimento_parque_lucaia.png
+  Título: Acesso ao empreendimento pelo Parque Lucaia
+  Página de origem no book: 10
+  Dimensões do PNG: 1319x1069
+
+imagens_empreendimento/fachadas/guarita_acesso_rua_sapucaia.png
+  Título: Guarita de acesso à Rua da Sapucaia
+  Página de origem no book: 11
+  Dimensões do PNG: 1311x982
+
+imagens_empreendimento/fachadas/fachada_area_piscina.png
+  Título: Fachada integrada à área da piscina
+  Página de origem no book: 12
+  Dimensões do PNG: 1412x837
+
+imagens_empreendimento/areas_comuns/lobby.png
+  Título: Lobby
+  Página de origem no book: 16
+  Dimensões do PNG: 1604x902
+
+imagens_empreendimento/areas_comuns/pocket_parque.png
+  Título: Pocket Parque
+  Página de origem no book: 17
+  Dimensões do PNG: 1700x919
+
+imagens_empreendimento/areas_comuns/lounge_bar.png
+  Título: Lounge Bar
+  Página de origem no book: 18
+  Dimensões do PNG: 1249x937
+
+imagens_empreendimento/areas_comuns/quadra_poliesportiva_tenis.png
+  Título: Quadra poliesportiva / tênis
+  Página de origem no book: 19
+  Dimensões do PNG: 1700x959
+
+imagens_empreendimento/areas_comuns/gourmet_da_piscina.png
+  Título: Gourmet da piscina
+  Página de origem no book: 20
+  Dimensões do PNG: 1683x896
+
+imagens_empreendimento/areas_comuns/salao_de_festas.png
+  Título: Salão de festas
+  Página de origem no book: 21
+  Dimensões do PNG: 1580x924
+
+imagens_empreendimento/areas_comuns/brinquedoteca.png
+  Título: Brinquedoteca
+  Página de origem no book: 22
+  Dimensões do PNG: 1700x1001
+
+imagens_empreendimento/areas_comuns/parque_infantil.png
+  Título: Parque infantil
+  Página de origem no book: 23
+  Dimensões do PNG: 1700x963
+
+imagens_empreendimento/areas_comuns/espaco_musculacao.png
+  Título: Espaço musculação
+  Página de origem no book: 24
+  Dimensões do PNG: 1235x917
+
+imagens_empreendimento/areas_comuns/espaco_crossfit.png
+  Título: Espaço CrossFit
+  Página de origem no book: 25
+  Dimensões do PNG: 1700x922
+
+imagens_empreendimento/areas_comuns/sala_de_massagem.png
+  Título: Sala de massagem
+  Página de origem no book: 26
+  Dimensões do PNG: 1700x1002
+
+imagens_empreendimento/areas_comuns/espaco_beauty.png
+  Título: Espaço Beauty
+  Página de origem no book: 27
+  Dimensões do PNG: 1700x1003
+
+imagens_empreendimento/areas_comuns/horta.png
+  Título: Horta
+  Página de origem no book: 28
+  Dimensões do PNG: 1700x922
+
+imagens_empreendimento/areas_comuns/pet_parque.png
+  Título: Pet Parque
+  Página de origem no book: 29
+  Dimensões do PNG: 1233x694
+
+imagens_empreendimento/areas_comuns/pet_care.png
+  Título: Pet Care
+  Página de origem no book: 30
+  Dimensões do PNG: 1700x882
+
+imagens_empreendimento/apartamentos/varanda_133m2_3_suites.png
+  Título: Varanda - apartamento 133 m² - 3 suítes
+  Página de origem no book: 34
+  Dimensões do PNG: 1442x1034
+
+imagens_empreendimento/apartamentos/living_133m2_3_suites.png
+  Título: Living - apartamento 133 m² - 3 suítes
+  Página de origem no book: 35
+  Dimensões do PNG: 1700x912
+
+imagens_empreendimento/apartamentos/suite_master_133m2_3_suites.png
+  Título: Suíte master - apartamento 133 m² - 3 suítes
+  Página de origem no book: 36
+  Dimensões do PNG: 1593x1005
+
+imagens_empreendimento/apartamentos/cozinha_133m2_3_suites.png
+  Título: Cozinha - apartamento 133 m² - 3 suítes
+  Página de origem no book: 37
+  Dimensões do PNG: 1700x923
+
+imagens_empreendimento/apartamentos/home_office_133m2_3_suites.png
+  Título: Home office - apartamento 133 m² - 3 suítes
+  Página de origem no book: 38
+  Dimensões do PNG: 1700x923
+
+imagens_empreendimento/apartamentos/varanda_167m2_4_suites.png
+  Título: Varanda - apartamento 167 m² - 4 suítes
+  Página de origem no book: 41
+  Dimensões do PNG: 1362x991
+
+imagens_empreendimento/apartamentos/living_167m2_4_suites.png
+  Título: Living - apartamento 167 m² - 4 suítes
+  Página de origem no book: 42
+  Dimensões do PNG: 1700x923
+
+imagens_empreendimento/apartamentos/suite_master_167m2_4_suites.png
+  Título: Suíte master - apartamento 167 m² - 4 suítes
+  Página de origem no book: 43
+  Dimensões do PNG: 1700x1001
+
+imagens_empreendimento/apartamentos/cozinha_167m2_4_suites.png
+  Título: Cozinha - apartamento 167 m² - 4 suítes
+  Página de origem no book: 44
+  Dimensões do PNG: 1700x979
+
+imagens_empreendimento/apartamentos/home_office_167m2_4_suites.png
+  Título: Home office - apartamento 167 m² - 4 suítes
+  Página de origem no book: 45
+  Dimensões do PNG: 1700x1001
+
+imagens_empreendimento/apartamentos/living_ampliado_167m2.png
+  Título: Living ampliado - apartamento 167 m²
+  Página de origem no book: 46
+  Dimensões do PNG: 1700x525
+
+imagens_empreendimento/apartamentos/suite_master_ampliada_167m2.png
+  Título: Suíte master ampliada - apartamento 167 m²
+  Página de origem no book: 47
+  Dimensões do PNG: 1700x935
+
+plantas/implantacao_pavimento_playground.png
+  Título: Implantação - pavimento Playground
+  Página de origem no book: 13
+  Dimensões do PNG: 1235x631
+
+plantas/implantacao_pavimento_wellness_ss3.png
+  Título: Implantação - pavimento Wellness SS3
+  Página de origem no book: 14
+  Dimensões do PNG: 896x1011
+
+plantas/implantacao_acesso_parque_lucaia_ss4.png
+  Título: Implantação - acesso ao Parque Lucaia SS4
+  Página de origem no book: 15
+  Dimensões do PNG: 1061x1045
+
+plantas/planta_133m2_3_suites.png
+  Título: Planta - 133 m² - 3 suítes
+  Página de origem no book: 32
+  Dimensões do PNG: 974x964
+
+plantas/planta_133m2_3_suites_cozinha_aberta_home_office.png
+  Título: Planta - 133 m² - 3 suítes - cozinha aberta e home office
+  Página de origem no book: 33
+  Dimensões do PNG: 974x964
+
+plantas/planta_167m2_4_suites.png
+  Título: Planta - 167 m² - 4 suítes
+  Página de origem no book: 39
+  Dimensões do PNG: 1062x949
+
+plantas/planta_167m2_4_suites_cozinha_aberta_sala_suites_ampliadas.png
+  Título: Planta - 167 m² - 4 suítes - cozinha aberta, sala e suítes ampliadas
+  Página de origem no book: 40
+  Dimensões do PNG: 1062x949
+
+localizacao/mapa_entorno_horto_florestal.png
+  Título: Mapa do entorno - Horto Florestal
+  Página de origem no book: 6
+  Dimensões do PNG: 1091x912
+
+localizacao/vista_aerea_horto_florestal.png
+  Título: Vista aérea do Horto Florestal
+  Página de origem no book: 7
+  Dimensões do PNG: 1703x668
+
+localizacao/parque_lucaia.png
+  Título: Parque Lucaia
+  Página de origem no book: 9
+  Dimensões do PNG: 1701x1135

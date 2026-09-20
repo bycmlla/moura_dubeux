@@ -1,0 +1,178 @@
+MANIFESTO DE IMAGENS - BEACH CLASS JAGUARIBE
+Use o campo 'Título' como legenda amigável no site.
+As plantas foram mantidas separadas da galeria comum do empreendimento.
+
+capa/capa_beach_class_jaguaribe.png
+  Título: Beach Class Jaguaribe - empreendimento em frente à praia
+  Página de origem no book: 6
+  Dimensões do PNG: 1184x1083
+
+imagens_empreendimento/fachadas/fachada_principal_torre.png
+  Título: Fachada principal do Beach Class Jaguaribe
+  Página de origem no book: 5
+  Dimensões do PNG: 991x1083
+
+imagens_empreendimento/fachadas/torre_frente_mar.png
+  Título: Torre do Beach Class Jaguaribe em frente ao mar
+  Página de origem no book: 6
+  Dimensões do PNG: 1184x1083
+
+imagens_empreendimento/fachadas/acesso_rua_desembargador_lafayette_velloso.png
+  Título: Acesso pela Rua Desembargador Lafayette Velloso
+  Página de origem no book: 7
+  Dimensões do PNG: 1800x1015
+
+imagens_empreendimento/areas_comuns/lazer_vista_aerea_noturna.png
+  Título: Área de lazer - vista aérea noturna
+  Página de origem no book: 9
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/piscina_borda_infinita_vista_aerea.png
+  Título: Piscina com borda infinita - vista aérea
+  Página de origem no book: 10
+  Dimensões do PNG: 1800x1014
+
+imagens_empreendimento/areas_comuns/piscina_borda_infinita_frente_mar.png
+  Título: Piscina com borda infinita frente ao mar
+  Página de origem no book: 11
+  Dimensões do PNG: 1800x1014
+
+imagens_empreendimento/areas_comuns/piscina_vista_mar.png
+  Título: Piscina com vista para o mar
+  Página de origem no book: 12
+  Dimensões do PNG: 1800x1014
+
+imagens_empreendimento/areas_comuns/lounge_externo.png
+  Título: Lounge externo
+  Página de origem no book: 13
+  Dimensões do PNG: 1800x1014
+
+imagens_empreendimento/areas_comuns/gourmet_externo.png
+  Título: Gourmet externo
+  Página de origem no book: 14
+  Dimensões do PNG: 1640x1083
+
+imagens_empreendimento/areas_comuns/terraco_salao_de_festas.png
+  Título: Terraço do salão de festas
+  Página de origem no book: 15
+  Dimensões do PNG: 1800x1014
+
+imagens_empreendimento/areas_comuns/salao_de_festas_gourmet.png
+  Título: Salão de festas gourmet
+  Página de origem no book: 16
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/playground.png
+  Título: Playground
+  Página de origem no book: 17
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/hall_social.png
+  Título: Hall social
+  Página de origem no book: 18
+  Dimensões do PNG: 1800x1015
+
+imagens_empreendimento/areas_comuns/coliving_coworking.png
+  Título: Coliving e coworking
+  Página de origem no book: 19
+  Dimensões do PNG: 1621x1081
+
+imagens_empreendimento/areas_comuns/grab_and_go.png
+  Título: Grab and Go
+  Página de origem no book: 20
+  Dimensões do PNG: 1640x1083
+
+imagens_empreendimento/areas_comuns/fitness.png
+  Título: Fitness
+  Página de origem no book: 21
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/guarderia_pranchas.png
+  Título: Guarderia para pranchas
+  Página de origem no book: 24
+  Dimensões do PNG: 1440x1082
+
+imagens_empreendimento/apartamentos/living_apartamento_2_quartos_frente_mar.png
+  Título: Living do apartamento de 2 quartos - frente para o mar
+  Página de origem no book: 30
+  Dimensões do PNG: 1404x1084
+
+imagens_empreendimento/apartamentos/suite_apartamento_2_quartos_frente_mar.png
+  Título: Suíte do apartamento de 2 quartos - frente para o mar
+  Página de origem no book: 31
+  Dimensões do PNG: 1512x1012
+
+imagens_empreendimento/apartamentos/living_apartamento_2_suites.png
+  Título: Living do apartamento de 2 suítes
+  Página de origem no book: 33
+  Dimensões do PNG: 1404x1083
+
+imagens_empreendimento/apartamentos/living_apartamento_1_suite.png
+  Título: Living do apartamento de 1 suíte
+  Página de origem no book: 35
+  Dimensões do PNG: 1582x1083
+
+imagens_empreendimento/apartamentos/suite_apartamento_1_suite.png
+  Título: Suíte do apartamento de 1 suíte
+  Página de origem no book: 36
+  Dimensões do PNG: 1577x1083
+
+plantas/implantacao_pavimento_terreo.png
+  Título: Implantação - pavimento térreo
+  Página de origem no book: 25
+  Dimensões do PNG: 1545x1029
+
+plantas/implantacao_pavimento_lazer.png
+  Título: Implantação - pavimento de lazer
+  Página de origem no book: 26
+  Dimensões do PNG: 1527x1024
+
+plantas/planta_indicativa_colunas_tipologias_1_ao_16.png
+  Título: Planta indicativa de colunas e tipologias - 1º ao 16º andar
+  Página de origem no book: 27
+  Dimensões do PNG: 1811x1083
+
+plantas/pavimento_tipo_1_1_ao_16_andar.png
+  Título: Pavimento tipo 1 - 1º ao 16º andar
+  Página de origem no book: 29
+  Dimensões do PNG: 1700x673
+
+plantas/planta_74m2_2_quartos_1_suite_terminacao_1.png
+  Título: Planta 74 m² - 2 quartos (1 suíte) - terminação 1
+  Página de origem no book: 32
+  Dimensões do PNG: 1060x829
+
+plantas/planta_64m2_2_suites_terminacao_3.png
+  Título: Planta 64 m² - 2 suítes - terminação 3
+  Página de origem no book: 34
+  Dimensões do PNG: 1075x833
+
+plantas/planta_40m2_1_suite_terminacao_7.png
+  Título: Planta 40 m² - 1 suíte - terminação 7
+  Página de origem no book: 37
+  Dimensões do PNG: 804x1014
+
+plantas/planta_65m2_2_quartos_1_suite_terminacao_10.png
+  Título: Planta 65 m² - 2 quartos (1 suíte) - terminação 10
+  Página de origem no book: 38
+  Dimensões do PNG: 1012x777
+
+plantas/pavimento_tipo_2_17_andar.png
+  Título: Pavimento tipo 2 - 17º andar
+  Página de origem no book: 39
+  Dimensões do PNG: 1755x714
+
+plantas/pavimento_tipo_3_18_andar.png
+  Título: Pavimento tipo 3 - 18º andar
+  Página de origem no book: 40
+  Dimensões do PNG: 1705x676
+
+plantas/pavimento_tipo_4_19_ao_21_andar.png
+  Título: Pavimento tipo 4 - 19º ao 21º andar
+  Página de origem no book: 41
+  Dimensões do PNG: 1704x675
+
+localizacao/frente_mar_praia_jaguaribe.png
+  Título: Localização frente ao mar - Praia de Jaguaribe
+  Página de origem no book: 6
+  Dimensões do PNG: 1184x1083

@@ -1,0 +1,159 @@
+MANIFESTO DE IMAGENS - BEACH CLASS BAHIA
+Use o campo "Título" como legenda amigável no site.
+As plantas estão separadas da galeria comum do empreendimento.
+O book é material preliminar e sujeito a alteração.
+
+capa/capa_beach_class_bahia.png
+  Título: Beach Class Bahia - fachada principal
+  Página de origem no book: 7
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/fachadas/fachada_perspectiva_empreendimento.png
+  Título: Perspectiva do Beach Class Bahia
+  Página de origem no book: 6
+  Dimensões do PNG: 1200x655
+
+imagens_empreendimento/fachadas/fachada_principal.png
+  Título: Fachada principal do Beach Class Bahia
+  Página de origem no book: 7
+  Dimensões do PNG: 1200x655
+
+imagens_empreendimento/fachadas/acesso_rua_clarival_prado_valadares.png
+  Título: Acesso pela Rua Clarival do Prado Valadares
+  Página de origem no book: 12
+  Dimensões do PNG: 1200x588
+
+imagens_empreendimento/fachadas/acesso_rua_da_alfazema.png
+  Título: Acesso pela Rua da Alfazema
+  Página de origem no book: 13
+  Dimensões do PNG: 1200x588
+
+imagens_empreendimento/areas_comuns/area_da_piscina.png
+  Título: Área da piscina
+  Página de origem no book: 17
+  Dimensões do PNG: 1200x588
+
+imagens_empreendimento/areas_comuns/piscina.png
+  Título: Piscina
+  Página de origem no book: 18
+  Dimensões do PNG: 1200x588
+
+imagens_empreendimento/areas_comuns/quadra_beach_tennis.png
+  Título: Quadra de beach tennis
+  Página de origem no book: 19
+  Dimensões do PNG: 1200x588
+
+imagens_empreendimento/areas_comuns/alameda_de_acesso_vista_superior.png
+  Título: Alameda de acesso - vista superior
+  Página de origem no book: 20
+  Dimensões do PNG: 1200x588
+
+imagens_empreendimento/areas_comuns/alameda_de_acesso.png
+  Título: Alameda de acesso
+  Página de origem no book: 21
+  Dimensões do PNG: 1200x588
+
+imagens_empreendimento/areas_comuns/lobby_e_recepcao.png
+  Título: Lobby e recepção
+  Página de origem no book: 24
+  Dimensões do PNG: 1200x588
+
+imagens_empreendimento/areas_comuns/recepcao.png
+  Título: Recepção
+  Página de origem no book: 25
+  Dimensões do PNG: 1200x588
+
+imagens_empreendimento/areas_comuns/lobby.png
+  Título: Lobby
+  Página de origem no book: 27
+  Dimensões do PNG: 1200x588
+
+imagens_empreendimento/areas_comuns/spa_rooftop.png
+  Título: Spa no rooftop
+  Página de origem no book: 33
+  Dimensões do PNG: 1200x588
+
+imagens_empreendimento/areas_comuns/piscina_aquecida_rooftop.png
+  Título: Piscina aquecida no rooftop
+  Página de origem no book: 34
+  Dimensões do PNG: 1200x587
+
+imagens_empreendimento/areas_comuns/academia_rooftop_200m2.png
+  Título: Academia no rooftop - 200 m²
+  Página de origem no book: 36
+  Dimensões do PNG: 1200x588
+
+imagens_empreendimento/apartamentos/studio_25_86m2.png
+  Título: Studio - 25,86 m²
+  Página de origem no book: 40
+  Dimensões do PNG: 1200x588
+
+imagens_empreendimento/apartamentos/quarto_e_sala_35m2.png
+  Título: Quarto e sala - 35 m²
+  Página de origem no book: 42
+  Dimensões do PNG: 1200x588
+
+imagens_empreendimento/apartamentos/residence_2_quartos_61m2.png
+  Título: Residence - 2 quartos - 61 m²
+  Página de origem no book: 47
+  Dimensões do PNG: 1200x588
+
+plantas/implantacao_pavimento_lazer.png
+  Título: Implantação - pavimento de lazer
+  Página de origem no book: 16
+  Dimensões do PNG: 1400x772
+
+plantas/planta_mezanino_7_pavimento.png
+  Título: Planta - mezanino - 7º pavimento
+  Página de origem no book: 29
+  Dimensões do PNG: 1400x772
+
+plantas/planta_rooftop_wellness_42_andar.png
+  Título: Planta - rooftop wellness - 42º andar
+  Página de origem no book: 32
+  Dimensões do PNG: 1400x772
+
+plantas/pavimento_apartments_1_ao_27_andar.png
+  Título: Pavimento Apartments - 1º ao 27º andar
+  Página de origem no book: 38
+  Dimensões do PNG: 1400x772
+
+plantas/planta_studio_25_86m2.png
+  Título: Planta - Studio - 25,86 m²
+  Página de origem no book: 39
+  Dimensões do PNG: 1400x772
+
+plantas/planta_quarto_e_sala_35m2.png
+  Título: Planta - Quarto e sala - 35 m²
+  Página de origem no book: 41
+  Dimensões do PNG: 1400x772
+
+plantas/pavimento_residences_28_ao_40_andar.png
+  Título: Pavimento Residences - 28º ao 40º andar
+  Página de origem no book: 44
+  Dimensões do PNG: 1400x772
+
+plantas/planta_2_quartos_61m2_colunas_02_04_05_06_07_08_09.png
+  Título: Planta - 2 quartos - 61 m² - colunas 02, 04, 05, 06, 07, 08 e 09
+  Página de origem no book: 45
+  Dimensões do PNG: 1400x772
+
+plantas/planta_2_quartos_61m2_colunas_01_03.png
+  Título: Planta - 2 quartos - 61 m² - colunas 01 e 03
+  Página de origem no book: 46
+  Dimensões do PNG: 1400x772
+
+plantas/planta_garagem_1_pavimento.png
+  Título: Planta - garagem - 1º pavimento
+  Página de origem no book: 49
+  Dimensões do PNG: 1400x772
+
+plantas/planta_garagem_2_pavimento.png
+  Título: Planta - garagem - 2º pavimento
+  Página de origem no book: 50
+  Dimensões do PNG: 1400x772
+
+localizacao/localizacao_caminho_das_arvores_shopping_da_bahia.png
+  Título: Localização - Caminho das Árvores e Shopping da Bahia
+  Página de origem no book: 10
+  Dimensões do PNG: 1400x772

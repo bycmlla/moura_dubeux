@@ -1,0 +1,83 @@
+MANIFESTO DE IMAGENS - INFINITY SALVADOR BUSINESS
+Use o campo 'Título' como legenda amigável no site.
+As plantas foram mantidas separadas da galeria comum do empreendimento.
+
+capa/capa_infinity_salvador_business.png
+  Título: Infinity Salvador - torre Business e conjunto mixed-use
+  Página de origem no book: 12
+  Dimensões do PNG: 2000x1153
+
+imagens_empreendimento/fachadas/conjunto_infinity_salvador.png
+  Título: Conjunto Infinity Salvador
+  Página de origem no book: 12
+  Dimensões do PNG: 1800x1036
+
+imagens_empreendimento/fachadas/embasamento_e_acesso_torre_business.png
+  Título: Embasamento e acesso da torre Business
+  Página de origem no book: 13
+  Dimensões do PNG: 1800x1025
+
+imagens_empreendimento/fachadas/torre_business_e_distribuicao_pavimentos.png
+  Título: Torre Business e distribuição dos pavimentos
+  Página de origem no book: 15
+  Dimensões do PNG: 1800x1024
+
+imagens_empreendimento/areas_comuns/lobby_oceanica.png
+  Título: Lobby Oceânica
+  Página de origem no book: 19
+  Dimensões do PNG: 1800x979
+
+imagens_empreendimento/ambientes_comerciais/consultorio_odontologico_1_coluna.png
+  Título: Consultório odontológico - 1 coluna
+  Página de origem no book: 20
+  Dimensões do PNG: 1800x743
+
+imagens_empreendimento/ambientes_comerciais/escritorio_2_colunas_integradas.png
+  Título: Escritório - 2 colunas integradas
+  Página de origem no book: 21
+  Dimensões do PNG: 1800x742
+
+imagens_empreendimento/ambientes_comerciais/escritorio_4_colunas_integradas.png
+  Título: Escritório - 4 colunas integradas
+  Página de origem no book: 27
+  Dimensões do PNG: 1800x982
+
+plantas/implantacao_geral_complexo.png
+  Título: Implantação geral do complexo Infinity Salvador
+  Página de origem no book: 16
+  Dimensões do PNG: 2000x1139
+
+plantas/pavimento_acesso_terreo_business.png
+  Título: Pavimento de acesso térreo - Business
+  Página de origem no book: 17
+  Dimensões do PNG: 2000x1138
+
+plantas/planta_consultorio_odontologico.png
+  Título: Planta - consultório odontológico
+  Página de origem no book: 22
+  Dimensões do PNG: 1816x1022
+
+plantas/planta_escritorio_integrado.png
+  Título: Planta - escritório integrado
+  Página de origem no book: 23
+  Dimensões do PNG: 1277x1022
+
+plantas/pavimento_tipo_business.png
+  Título: Pavimento tipo Business
+  Página de origem no book: 24
+  Dimensões do PNG: 2000x1138
+
+plantas/pavimento_garden_business.png
+  Título: Pavimento Garden Business
+  Página de origem no book: 25
+  Dimensões do PNG: 2000x1138
+
+localizacao/vista_aerea_orla_ondina.png
+  Título: Vista aérea da orla de Ondina e do empreendimento
+  Página de origem no book: 14
+  Dimensões do PNG: 1900x1080
+
+localizacao/contexto_empreendimentos_orla_ondina.png
+  Título: Contexto dos empreendimentos na orla de Ondina
+  Página de origem no book: 30
+  Dimensões do PNG: 1900x1081

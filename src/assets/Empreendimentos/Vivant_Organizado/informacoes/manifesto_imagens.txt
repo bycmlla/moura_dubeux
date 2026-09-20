@@ -1,0 +1,208 @@
+MANIFESTO DE IMAGENS - VIVANT
+Use o campo 'Título' como legenda amigável no site.
+As plantas foram mantidas separadas da galeria comum do empreendimento.
+
+capa/capa_vivant.png
+  Título: Vivant - fachada e acesso pela Rua Clara Nunes
+  Página de origem no book: 7
+  Dimensões do PNG: 1502x1082
+
+imagens_empreendimento/fachadas/torre_vivant_vista_noturna.png
+  Título: Torre Vivant - vista noturna
+  Página de origem no book: 3
+  Dimensões do PNG: 676x1083
+
+imagens_empreendimento/fachadas/fachada_acesso_rua_clara_nunes.png
+  Título: Fachada e acesso pela Rua Clara Nunes
+  Página de origem no book: 7
+  Dimensões do PNG: 1502x1082
+
+imagens_empreendimento/fachadas/portaria_alameda_das_catabas.png
+  Título: Portaria pela Alameda das Catabas
+  Página de origem no book: 9
+  Dimensões do PNG: 1724x1080
+
+imagens_empreendimento/fachadas/minibosque_acesso_praca_aquarius.png
+  Título: Minibosque com acesso à Praça Aquarius
+  Página de origem no book: 11
+  Dimensões do PNG: 1350x1080
+
+imagens_empreendimento/areas_comuns/plato_zen.png
+  Título: Platô Zen
+  Página de origem no book: 12
+  Dimensões do PNG: 1800x1012
+
+imagens_empreendimento/areas_comuns/plato_kids.png
+  Título: Platô Kids
+  Página de origem no book: 13
+  Dimensões do PNG: 1800x1012
+
+imagens_empreendimento/areas_comuns/plato_barbecue.png
+  Título: Platô Barbecue
+  Página de origem no book: 14
+  Dimensões do PNG: 1800x1012
+
+imagens_empreendimento/areas_comuns/plato_pet.png
+  Título: Platô Pet
+  Página de origem no book: 15
+  Dimensões do PNG: 1800x1014
+
+imagens_empreendimento/areas_comuns/lazer_externo_vista_aerea.png
+  Título: Área de lazer externa - vista aérea
+  Página de origem no book: 16
+  Dimensões do PNG: 1496x1083
+
+imagens_empreendimento/areas_comuns/piscina_raia_22m_hidromassagem.png
+  Título: Piscina adulto com raia de 22 m e hidromassagem
+  Página de origem no book: 17
+  Dimensões do PNG: 1800x1014
+
+imagens_empreendimento/areas_comuns/piscina_adulto_infantil.png
+  Título: Piscina adulto e infantil
+  Página de origem no book: 18
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/gourmet_da_piscina.png
+  Título: Gourmet da piscina
+  Página de origem no book: 19
+  Dimensões do PNG: 1800x1012
+
+imagens_empreendimento/areas_comuns/quadra_esportiva_quiosque_barbecue.png
+  Título: Quadra esportiva com quiosque barbecue
+  Página de origem no book: 20
+  Dimensões do PNG: 1800x1012
+
+imagens_empreendimento/areas_comuns/parque_infantil.png
+  Título: Parque infantil
+  Página de origem no book: 21
+  Dimensões do PNG: 1800x1012
+
+imagens_empreendimento/areas_comuns/lobby_energie.png
+  Título: Lobby Energie
+  Página de origem no book: 22
+  Dimensões do PNG: 1800x1015
+
+imagens_empreendimento/areas_comuns/salao_de_festas.png
+  Título: Salão de festas
+  Página de origem no book: 23
+  Dimensões do PNG: 1800x1012
+
+imagens_empreendimento/areas_comuns/confraria.png
+  Título: Confraria
+  Página de origem no book: 24
+  Dimensões do PNG: 1800x1011
+
+imagens_empreendimento/areas_comuns/teen_lounge.png
+  Título: Teen Lounge
+  Página de origem no book: 25
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/brinquedoteca.png
+  Título: Brinquedoteca
+  Página de origem no book: 26
+  Dimensões do PNG: 1800x1011
+
+imagens_empreendimento/areas_comuns/fitness.png
+  Título: Fitness
+  Página de origem no book: 27
+  Dimensões do PNG: 1800x877
+
+imagens_empreendimento/areas_comuns/crossfit.png
+  Título: Crossfit
+  Página de origem no book: 28
+  Dimensões do PNG: 1800x704
+
+imagens_empreendimento/areas_comuns/pet_care.png
+  Título: Pet Care
+  Página de origem no book: 29
+  Dimensões do PNG: 1800x1012
+
+imagens_empreendimento/areas_comuns/coworking.png
+  Título: Coworking
+  Página de origem no book: 30
+  Dimensões do PNG: 1800x1015
+
+imagens_empreendimento/apartamentos/varanda_gourmet_vista_34_andar.png
+  Título: Varanda gourmet - vista simulada do 34º pavimento
+  Página de origem no book: 37
+  Dimensões do PNG: 1800x1011
+
+imagens_empreendimento/apartamentos/living.png
+  Título: Living
+  Página de origem no book: 38
+  Dimensões do PNG: 1800x786
+
+imagens_empreendimento/apartamentos/suite_master.png
+  Título: Suíte master
+  Página de origem no book: 39
+  Dimensões do PNG: 1496x1082
+
+imagens_empreendimento/apartamentos/home_theater_office.png
+  Título: Home theater / office - ambiente sugerido
+  Página de origem no book: 41
+  Dimensões do PNG: 1800x1015
+
+imagens_empreendimento/apartamentos/suite_master_ampliada.png
+  Título: Suíte master ampliada - ambiente sugerido
+  Página de origem no book: 43
+  Dimensões do PNG: 1377x1083
+
+plantas/implantacao_pavimento_catabas.png
+  Título: Implantação - Pavimento Catabas
+  Página de origem no book: 31
+  Dimensões do PNG: 1503x1083
+
+plantas/implantacao_pavimento_wellness.png
+  Título: Implantação - Pavimento Wellness
+  Página de origem no book: 32
+  Dimensões do PNG: 802x504
+
+plantas/implantacao_pavimento_clara_nunes.png
+  Título: Implantação - Pavimento Clara Nunes
+  Página de origem no book: 33
+  Dimensões do PNG: 1258x393
+
+plantas/pavimento_tipo_implantado.png
+  Título: Pavimento tipo implantado - Torres Energie e Harmonie
+  Página de origem no book: 34
+  Dimensões do PNG: 1442x1083
+
+plantas/planta_padrao_116m2_3_suites.png
+  Título: Planta padrão - 116 m² - 3 suítes
+  Página de origem no book: 36
+  Dimensões do PNG: 1135x772
+
+plantas/planta_opcao_home_116m2_2_suites.png
+  Título: Planta opção com home - 116 m² - 2 suítes
+  Página de origem no book: 40
+  Dimensões do PNG: 1135x772
+
+plantas/planta_opcao_suite_ampliada_116m2_2_suites.png
+  Título: Planta opção com suíte ampliada - 116 m² - 2 suítes
+  Página de origem no book: 42
+  Dimensões do PNG: 1135x772
+
+localizacao/mapa_entorno_caminho_das_arvores.png
+  Título: Mapa do entorno - Caminho das Árvores
+  Página de origem no book: 5
+  Dimensões do PNG: 1800x1013
+
+localizacao/entorno_av_tancredo_neves.png
+  Título: Entorno - Avenida Tancredo Neves e principais pontos
+  Página de origem no book: 6
+  Dimensões do PNG: 1800x508
+
+localizacao/praca_aquarius_jardins.png
+  Título: Praça Aquarius - jardins
+  Página de origem no book: 8
+  Dimensões do PNG: 678x725
+
+localizacao/praca_aquarius_caminhos.png
+  Título: Praça Aquarius - caminhos e áreas verdes
+  Página de origem no book: 8
+  Dimensões do PNG: 718x540
+
+localizacao/praca_aquarius_area_verde.png
+  Título: Praça Aquarius - área verde
+  Página de origem no book: 8
+  Dimensões do PNG: 718x540

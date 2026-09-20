@@ -1,0 +1,139 @@
+BEACH CLASS BAHIA
+
+AVISO IMPORTANTE
+O próprio book está marcado como "MATERIAL PRELIMINAR | SUJEITO A ALTERAÇÃO".
+As informações abaixo foram organizadas a partir desse material e devem ser tratadas como preliminares.
+
+IDENTIFICAÇÃO
+Empreendimento: Beach Class Bahia
+Construtora / incorporadora: Moura Dubeux
+Bairro / região: Caminho das Árvores - Salvador / BA
+Referência principal: conectado ao Shopping da Bahia
+Acessos indicados no material:
+- Rua Clarival do Prado Valadares
+- Rua da Alfazema
+
+CONCEITO
+O Beach Class Bahia é apresentado como um empreendimento de uso residencial com proposta de integrar moradia, lazer, trabalho, conveniência, gastronomia, wellness, hospitalidade e potencial de rentabilidade, em uma localização conectada ao Shopping da Bahia.
+
+DADOS GERAIS - FICHA TÉCNICA
+Área total do terreno: 5.847,47 m²
+
+Número de pavimentos:
+- 5 pavimentos de garagem: G1, G2, G3, G4 e G5
+- Pavimento de lazer
+- Mezanino
+- 27 pavimentos Apartments: studios e 1 quarto / quarto e sala
+- 14 pavimentos Residences: 2 quartos
+- Rooftop
+- Cobertura / telhado
+
+UNIDADES
+1º ao 27º pavimento:
+- 9 apartamentos studio e 9 apartamentos quarto e sala por pavimento
+- Coluna 01 - quarto e sala - 27 unidades - 37,06 m²
+- Colunas 02, 03, 05, 07, 10, 11, 14 e 15 - studio - 216 unidades - 25,83 m²
+- Colunas 04, 09, 16 e 17 - quarto e sala - 108 unidades - 35,28 m²
+- Coluna 06 - quarto e sala - 27 unidades - 44,78 m²
+- Colunas 08, 12 e 13 - quarto e sala - 81 unidades - 35,94 m²
+
+28º ao 41º pavimento:
+- 9 unidades por andar
+- Todas de 2 quartos
+- 126 unidades de 2 quartos no total
+- 28 unidades de 61,79 m²
+- 42 unidades de 61,77 m²
+- 56 unidades de 61,11 m²
+
+Total geral:
+- 612 apartamentos
+
+GARAGEM
+- Direito de uso de uma vaga rotativa para todas as unidades
+- Deck Park com 484 vagas
+
+ÁREAS DE LAZER - PAVIMENTO DE LAZER
+- Praça interna ao empreendimento
+- Lobbies sociais
+- E-commerce
+- Delivery
+- Espaço para operação de restaurante
+- Piscina externa com solário / deck
+- Espaço gourmet da piscina
+- Quadra de beach tennis
+
+MEZANINO
+- Coworking
+- Sala de reunião
+- Pet wash
+- Espaço para operação de lavanderia compartilhada
+- Espaço para operação de mini market
+- Sala multiuso
+- Áreas administrativo / operacional
+
+ROOFTOP / WELLNESS
+- Piscina aquecida
+- Sauna úmida
+- Hidromassagem
+- Banheira de imersão para banho de gelo
+- Sala de relaxamento
+- Academia
+- Coliving
+- Espaço para operação de Grab and Go
+
+COMODIDADES
+- Embarque e desembarque coberto
+- Praça interna ao empreendimento
+- Espaço e-commerce e delivery
+- Espaço gourmet
+- Pet wash
+- Espaço para operação de mini market e Grab and Go
+- Espaço para possível instalação de restaurante
+- Espaço para operação de lavanderia
+
+TECNOLOGIA E SEGURANÇA
+- Infraestrutura seca para Wi-Fi nas áreas comuns sociais
+- Infraestrutura seca para controle de acesso de pessoas
+- Infraestrutura seca para controle de acesso de veículos
+- Infraestrutura para sistema de câmeras em parte das áreas comuns e elevadores
+- Fechadura eletrônica na porta de acesso dos apartamentos
+
+SUSTENTABILIDADE
+- Louças e metais com redução de vazão de água
+- Reaproveitamento de água do gotejamento de condensadoras dos aparelhos de ar-condicionado
+- Sensores de presença para iluminação em parte das áreas comuns
+- O material exibe referência ao IPTU Verde
+
+EQUIPE / PROJETOS CITADOS
+- Abbud - paisagismo
+- Ricardo Farias - arquitetura
+- Zirpolli - arquitetura
+- Daniel Arruda - design da fachada
+
+TIPOLOGIAS / PLANTAS QUE APARECEM NO BOOK
+- Studio - 25,86 m²
+- Quarto e sala - 35 m²
+- Residences - 2 quartos - 61 m²
+- Pavimento Apartments - 1º ao 27º andar
+- Pavimento Residences - 28º ao 40º andar
+- Pavimento de lazer
+- Mezanino - 7º pavimento
+- Rooftop Wellness - 42º andar
+- Garagens - 1º e 2º pavimentos
+
+OBSERVAÇÕES
+- O material é preliminar e está sujeito a alterações.
+- As medidas dos ambientes indicadas nas plantas podem sofrer variações.
+- Não foi identificado no book um número de endereço completo; o material informa a localização em Caminho das Árvores, os acessos pelas ruas Clarival do Prado Valadares e da Alfazema e a conexão com o Shopping da Bahia.
+
+ORGANIZAÇÃO DESTE PACOTE
+- capa/: melhor imagem selecionada para card / destaque
+- imagens_empreendimento/fachadas/: fachadas e acessos
+- imagens_empreendimento/areas_comuns/: lazer, lobby, piscina, wellness e academia
+- imagens_empreendimento/apartamentos/: ambientes internos
+- plantas/: somente plantas, pavimentos, implantações e garagens
+- localizacao/: imagem de localização / entorno
+- informacoes/: dados organizados e manifesto de imagens
+
+IMPORTANTE PARA O SITE
+As imagens da pasta plantas/ não devem ser misturadas com a galeria de imagens do empreendimento.

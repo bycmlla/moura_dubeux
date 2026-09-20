@@ -1,0 +1,213 @@
+MANIFESTO DE IMAGENS - RIVÊ
+Use o campo Título como legenda amigável no site.
+As plantas foram mantidas separadas da galeria comum do empreendimento.
+
+capa/capa_rive.png
+  Título: Rivê - fachada e localização no Rio Vermelho
+  Página de origem no book: 7
+  Dimensões do PNG: 1920x1083
+
+imagens_empreendimento/fachadas/fachada_rive_contexto_rio_vermelho.png
+  Título: Fachada do Rivê no Rio Vermelho
+  Página de origem no book: 7
+  Dimensões do PNG: 1800x1015
+
+imagens_empreendimento/fachadas/torre_rive_perspectiva_noturna.png
+  Título: Torre Rivê - perspectiva noturna
+  Página de origem no book: 13
+  Dimensões do PNG: 1379x1082
+
+imagens_empreendimento/fachadas/torre_rive_perspectiva_rua.png
+  Título: Torre Rivê - perspectiva da rua
+  Página de origem no book: 14
+  Dimensões do PNG: 867x1082
+
+imagens_empreendimento/fachadas/acesso_principal_rive.png
+  Título: Acesso principal do Rivê
+  Página de origem no book: 16
+  Dimensões do PNG: 1800x1014
+
+imagens_empreendimento/fachadas/fachada_varandas_vista_mar.png
+  Título: Fachada e varandas com vista para o mar
+  Página de origem no book: 35
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/rooftop_vista_mar.png
+  Título: Rooftop com vista para o mar
+  Página de origem no book: 18
+  Dimensões do PNG: 1800x601
+
+imagens_empreendimento/areas_comuns/rooftop_panoramico.png
+  Título: Rooftop panorâmico
+  Página de origem no book: 20
+  Dimensões do PNG: 1800x601
+
+imagens_empreendimento/areas_comuns/piscina_borda_infinita.png
+  Título: Piscina com borda infinita
+  Página de origem no book: 21
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/espaco_gourmet_rooftop.png
+  Título: Espaço gourmet do rooftop
+  Página de origem no book: 22
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/academia_rooftop.png
+  Título: Academia no rooftop
+  Página de origem no book: 23
+  Dimensões do PNG: 1800x915
+
+imagens_empreendimento/areas_comuns/academia_vista_mar.png
+  Título: Academia com vista para o mar
+  Página de origem no book: 24
+  Dimensões do PNG: 1800x904
+
+imagens_empreendimento/areas_comuns/lobby.png
+  Título: Lobby
+  Página de origem no book: 26
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/playground_mirante.png
+  Título: Playground mirante
+  Página de origem no book: 28
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/playground_salao_festas.png
+  Título: Playground junto ao salão de festas
+  Página de origem no book: 29
+  Dimensões do PNG: 1800x900
+
+imagens_empreendimento/areas_comuns/salao_de_festas.png
+  Título: Salão de festas
+  Página de origem no book: 30
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/sala_de_jogos.png
+  Título: Sala de jogos
+  Página de origem no book: 31
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/areas_comuns/brinquedoteca.png
+  Título: Brinquedoteca
+  Página de origem no book: 32
+  Dimensões do PNG: 1800x1014
+
+imagens_empreendimento/areas_comuns/quadra_esportiva.png
+  Título: Quadra esportiva
+  Página de origem no book: 33
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/apartamentos/varanda_apartamento_3_quartos.png
+  Título: Varanda - apartamento de 3 quartos
+  Página de origem no book: 38
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/apartamentos/suite_master_apartamento_3_quartos.png
+  Título: Suíte master - apartamento de 3 quartos
+  Página de origem no book: 39
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/apartamentos/living_apartamento_3_quartos.png
+  Título: Living - apartamento de 3 quartos
+  Página de origem no book: 40
+  Dimensões do PNG: 1800x857
+
+imagens_empreendimento/apartamentos/varanda_garden_3_quartos.png
+  Título: Varanda garden - apartamento de 3 quartos
+  Página de origem no book: 44
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/apartamentos/varanda_apartamento_4_quartos.png
+  Título: Varanda - apartamento de 4 quartos
+  Página de origem no book: 47
+  Dimensões do PNG: 1800x782
+
+imagens_empreendimento/apartamentos/suite_master_apartamento_4_quartos.png
+  Título: Suíte master - apartamento de 4 quartos
+  Página de origem no book: 48
+  Dimensões do PNG: 1800x1013
+
+imagens_empreendimento/apartamentos/living_apartamento_4_quartos.png
+  Título: Living - apartamento de 4 quartos
+  Página de origem no book: 51
+  Dimensões do PNG: 1793x1083
+
+plantas/implantacao_geral_torres.png
+  Título: Implantação geral - Torres Amado, Sereia e Maré
+  Página de origem no book: 12
+  Dimensões do PNG: 1279x1080
+
+plantas/planta_rooftop.png
+  Título: Planta do rooftop
+  Página de origem no book: 19
+  Dimensões do PNG: 1571x656
+
+plantas/implantacao_terreo_g2.png
+  Título: Implantação - térreo / G2
+  Página de origem no book: 25
+  Dimensões do PNG: 1279x1080
+
+plantas/implantacao_pavimento_lazer.png
+  Título: Implantação - pavimento de lazer
+  Página de origem no book: 27
+  Dimensões do PNG: 1279x1080
+
+plantas/pavimento_tipo_torres_mare_sereia_3_quartos.png
+  Título: Pavimento tipo - Torres Maré e Sereia - 3 quartos
+  Página de origem no book: 36
+  Dimensões do PNG: 1591x692
+
+plantas/planta_97m2_3_quartos_padrao.png
+  Título: Planta padrão - 97 m² - 3 quartos
+  Página de origem no book: 37
+  Dimensões do PNG: 859x893
+
+plantas/planta_97m2_2_suites_banheiro_senhor_senhora.png
+  Título: Opção de planta - 97 m² - 2 suítes com banheiro senhor e senhora
+  Página de origem no book: 41
+  Dimensões do PNG: 859x893
+
+plantas/planta_97m2_2_suites_gabinete.png
+  Título: Opção de planta - 97 m² - 2 suítes com gabinete
+  Página de origem no book: 42
+  Dimensões do PNG: 859x893
+
+plantas/planta_garden_130m2_3_quartos.png
+  Título: Planta garden - 130 m² - 3 quartos
+  Página de origem no book: 43
+  Dimensões do PNG: 951x1038
+
+plantas/pavimento_tipo_torre_amado_4_quartos.png
+  Título: Pavimento tipo - Torre Amado - 4 quartos
+  Página de origem no book: 45
+  Dimensões do PNG: 1322x944
+
+plantas/planta_143m2_4_quartos_padrao.png
+  Título: Planta padrão - 143 m² - 4 quartos
+  Página de origem no book: 46
+  Dimensões do PNG: 1063x1033
+
+plantas/planta_143m2_3_suites_lavabo_sala_ampliada.png
+  Título: Opção de planta - 143 m² - 3 suítes com lavabo e sala ampliada
+  Página de origem no book: 49
+  Dimensões do PNG: 1021x1020
+
+plantas/planta_143m2_3_quartos_cozinha_integrada_suite_master_ampliada.png
+  Título: Opção de planta - 143 m² - 3 quartos com cozinha integrada e suíte master ampliada
+  Página de origem no book: 50
+  Dimensões do PNG: 1021x1020
+
+localizacao/vista_aerea_rio_vermelho.png
+  Título: Vista aérea do Rio Vermelho
+  Página de origem no book: 5
+  Dimensões do PNG: 1800x1014
+
+localizacao/localizacao_200m_do_mar.png
+  Título: Localização do Rivê - a 200 metros do mar
+  Página de origem no book: 6
+  Dimensões do PNG: 1442x1080
+
+localizacao/mapa_entorno_rio_vermelho.png
+  Título: Mapa do entorno e pontos de interesse
+  Página de origem no book: 8
+  Dimensões do PNG: 1800x1013
