@@ -1,0 +1,80 @@
+MOOD COLINA
+===========
+
+EMPREENDIMENTO
+Nome: Mood Colina
+Marca: Mood - uma empresa Moura Dubeux
+Cidade: Salvador
+Estado: Bahia (BA)
+Região/Bairro: Patamares / Colina A
+Localização: próximo ao mar e à orla de Salvador.
+
+DESCRIÇÃO
+O Mood Colina é um empreendimento residencial com duas torres, implantado em uma
+região elevada de Patamares, com proposta de integração entre arquitetura,
+paisagismo e qualidade de vida. O projeto valoriza a vista para o mar, ventilação
+natural, iluminação e áreas comuns de convivência e lazer.
+
+FICHA TÉCNICA
+Área do terreno: 5.305,31 m²
+Configuração: 2 torres
+Gabarito: térreo + 21 pavimentos tipo
+Apartamentos por andar: 6
+Total de apartamentos: 258
+Vagas: 1 vaga de estacionamento por apartamento
+
+TIPOLOGIAS
+- Apartamento 3 quartos (1 suíte): 66,90 m² - 168 unidades
+- Apartamento 2 quartos (1 suíte): 57,65 m² - 84 unidades
+
+UNIDADES GARDEN
+- 3 quartos (1 suíte): 136,22 m²
+- 3 quartos (1 suíte): 153,25 m²
+- 3 quartos (1 suíte): 148,54 m²
+- 3 quartos (1 suíte): 138,31 m²
+- 2 quartos (1 suíte): 117,82 m²
+- 2 quartos (1 suíte): 131,27 m²
+
+ÁREAS COMUNS E LAZER
+- Guarita com clausura
+- E-commerce
+- Lobby
+- Salão de festas com terraço
+- Brinquedoteca com área externa
+- Mini Market
+- Coworking
+- Lavanderia
+- Academia
+- Sala funcional
+- Salão de jogos
+- Pet Care
+- Pet Place
+- Bicicletário
+- Piscina com deck molhado e raia de 20 m
+- Piscina infantil
+- Gourmet piscina
+- Parque infantil
+- Lounges de convivência
+- Horta
+- Quadra recreativa
+- Apoio da quadra com gourmet
+- Estacionamento privativo (Deck Park)
+- Praça pública
+- Acesso de pedestres
+- Acesso de veículos
+
+PROJETOS
+Projeto de arquitetura: Alessandro Grimaldi
+Projeto de paisagismo: Takeda Design
+Projeto de ambientação e interiores: Todos Arquitetura
+
+OBSERVAÇÕES DO MATERIAL
+- O book está identificado como "ESTUDO PRELIMINAR - SUJEITO A ALTERAÇÃO".
+- As imagens dos apartamentos e áreas comuns têm caráter ilustrativo e sugestivo.
+- O empreendimento possui referência a soluções sustentáveis e IPTU Verde da Prefeitura de Salvador.
+- As características finais devem seguir contrato, especificações técnicas e documentos oficiais do empreendimento.
+
+ORGANIZAÇÃO DESTE PACOTE
+- foto_capa.png: fachada principal escolhida como capa.
+- imagens_empreendimento/: somente fotos/renders do empreendimento e ambientes.
+- plantas/: somente implantação e plantas; nenhuma planta está misturada na pasta de imagens.

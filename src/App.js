@@ -1,5 +1,6 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import './App.css';
+import { getStateNameFromLocation, getStateNameFromUf, getUfFromLocation } from './utils/location';
 
 import dionePhoto from './assets/dione-foto1.jpg';
 import homeVideo from './assets/video.mp4';
@@ -8,6 +9,10 @@ import logoLight from './assets/logo1.png';
 import logoRed from './assets/logo2vermelho.png';
 import logoComplementLight from './assets/logocomplementar1.png';
 import logoComplementRed from './assets/logocomplementar2.png';
+import brazilMap from './assets/mapa.png';
+import bahiaFlag from './assets/Bandeira_da_Bahia.png';
+import pernambucoFlag from './assets/Bandeira_de_Pernambuco.svg';
+import cearaFlag from './assets/Bandeira_do_Ceará.svg';
 import heroSunset from './assets/novobanner1.webp';
 import heroCoast from './assets/novobanner2.jpg';
 import elleveBook from './assets/Empreendimentos/elleve-horto/book.pdf';
@@ -75,7 +80,6 @@ import sombreirosOptionThreePlan from './assets/Empreendimentos/Casa_Sombreiros_
 import sombreirosLocation from './assets/Empreendimentos/Casa_Sombreiros_Organizado/localizacao/vista_aerea_caminho_das_arvores.png';
 import infinityBook from './assets/Empreendimentos/infinity-business/book.pdf';
 import infinityOrganizedCover from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/capa/capa_infinity_salvador_business.png';
-import infinityComplex from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/imagens_empreendimento/fachadas/conjunto_infinity_salvador.png';
 import infinityBusinessBase from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/imagens_empreendimento/fachadas/embasamento_e_acesso_torre_business.png';
 import infinityBusinessTower from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/imagens_empreendimento/fachadas/torre_business_e_distribuicao_pavimentos.png';
 import infinityLobby from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/imagens_empreendimento/areas_comuns/lobby_oceanica.png';
@@ -516,6 +520,53 @@ import beachClassJaguaribeTypicalFloor2 from './assets/Empreendimentos/Beach_Cla
 import beachClassJaguaribeTypicalFloor3 from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/plantas/pavimento_tipo_3_18_andar.png';
 import beachClassJaguaribeTypicalFloor4 from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/plantas/pavimento_tipo_4_19_ao_21_andar.png';
 import beachClassJaguaribeLocation from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/localizacao/frente_mar_praia_jaguaribe.png';
+import unicaCardealCover from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/foto_capa.png';
+import unicaCardealAcademy from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/academia.png';
+import unicaCardealAccess from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/acesso_empreendimento.png';
+import unicaCardealPlayroom from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/brinquedoteca.png';
+import unicaCardealGourmet from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/espaco_gourmet.png';
+import unicaCardealTowers from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/fachada_torres.png';
+import unicaCardealOutdoorFitness from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/fitness_externo.png';
+import unicaCardealMinicampo from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/minicampo.png';
+import unicaCardealPool from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/piscina.png';
+import unicaCardealPlayground from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/playground.png';
+import unicaCardealHomeBedroom from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/quarto_casal_apto_home.png';
+import unicaCardealLivingBedroom from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/quarto_casal_apto_living.png';
+import unicaCardealPartyRoom from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/salao_de_festas.png';
+import unicaCardealHomeLiving from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/sala_apto_home.png';
+import unicaCardealLiving from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/sala_apto_living.png';
+import unicaCardealGamesRoom from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/sala_de_jogos.png';
+import unicaCardealHomeSecondBedroom from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/segundo_quarto_apto_home.png';
+import unicaCardealLivingSecondBedroom from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/segundo_quarto_apto_living.png';
+import unicaCardealBalcony from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/varanda_apto_living.png';
+import unicaCardealLeisureAerial from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/vista_aerea_area_de_lazer.png';
+import unicaCardealSeaView from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/vista_empreendimento_e_mar.png';
+import unicaCardealGeneralPlan from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/plantas/implantacao_geral.png';
+import unicaCardealLeisurePlan from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/plantas/implantacao_lazer.png';
+import unicaCardealTowersPlan from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/plantas/implantacao_torres.png';
+import unicaCardealGroundPlan from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/plantas/pavimento_terreo.png';
+import unicaCardealTypicalFloorPlan from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/plantas/pavimento_tipo.png';
+import unicaCardealHomePlan from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/plantas/planta_apto_home_41_1m2.png';
+import unicaCardealLivingPlan from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/plantas/planta_apto_living_44_7m2.png';
+import unicaCardealHomeGardenPlan from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/plantas/planta_home_garden_58_99m2.png';
+import unicaCardealLivingGardenPlan from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/plantas/planta_living_garden_63_64m2.png';
+import moodColinaCover from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/foto_capa.png';
+import moodColinaAccess from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/imagens_empreendimento/04_acesso_principal.png';
+import moodColinaLeisureAerial from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/imagens_empreendimento/02_vista_aerea_mood_colina.png';
+import moodColinaPlayground from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/imagens_empreendimento/07_parque_infantil.png';
+import moodColinaPool from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/imagens_empreendimento/06_piscina_area_lazer.png';
+import moodColinaPoolAerial from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/imagens_empreendimento/05_piscina_vista_aerea.png';
+import moodColinaCourt from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/imagens_empreendimento/08_quadra_recreativa.png';
+import moodColinaBedroom from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/imagens_empreendimento/11_quarto_apto_57_65m2.png';
+import moodColinaLiving from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/imagens_empreendimento/09_sala_estar_apto_66_90m2.png';
+import moodColinaSuite from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/imagens_empreendimento/10_suite_apto_66_90m2.png';
+import moodColinaOrlaView from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/imagens_empreendimento/01_vista_orla_patamares.png';
+import moodColinaGeneralPlan from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/plantas/01_implantacao_geral.png';
+import moodColinaLeisurePlan from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/plantas/02_pavimento_lazer.png';
+import moodColinaTypicalFloorPlan from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/plantas/03_pavimento_tipo_57_65_e_66_90m2.png';
+import moodColinaComfortExpandedPlan from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/plantas/05_planta_apto_comfort_66_90m2_sala_ampliada_2_quartos.png';
+import moodColinaComfortPlan from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/plantas/04_planta_apto_comfort_66_90m2_3_quartos.png';
+import moodColinaSmartPlan from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/plantas/06_planta_apto_smart_57_65m2_2_quartos.png';
 
 const CONTACT_EMAIL = 'dimenezescomercial@gmail.com';
 const WHATSAPP_DISPLAY = '(71) 98780-3690';
@@ -573,6 +624,30 @@ const createDevelopment = (development) => ({
   bookPages: [],
   ...development,
 });
+
+const AVAILABLE_STATES = [
+  { uf: 'BA', name: 'Bahia', flag: bahiaFlag },
+  { uf: 'PE', name: 'Pernambuco', flag: pernambucoFlag },
+  { uf: 'CE', name: 'Ceará', flag: cearaFlag },
+];
+const ALL_STATES_OPTION = { uf: 'ALL', name: 'Todos os estados', filterName: 'Todos' };
+const STATE_FILTER_OPTIONS = [ALL_STATES_OPTION, ...AVAILABLE_STATES];
+const SELECTED_STATE_SESSION_KEY = 'selectedState';
+const getStateOption = (uf) => STATE_FILTER_OPTIONS.find((state) => state.uf === uf) || null;
+const readSelectedStateFromSession = () => {
+  try {
+    return getStateOption(window.sessionStorage.getItem(SELECTED_STATE_SESSION_KEY))?.uf || null;
+  } catch (error) {
+    return null;
+  }
+};
+const saveSelectedStateToSession = (uf) => {
+  try {
+    window.sessionStorage.setItem(SELECTED_STATE_SESSION_KEY, uf);
+  } catch (error) {
+    // A escolha continua válida durante a montagem atual quando o armazenamento não estiver disponível.
+  }
+};
 
 const additionalDevelopments = [
   createDevelopment({
@@ -1342,6 +1417,111 @@ const additionalDevelopments = [
       { src: jardinsDoParqueInterestMap, titulo: 'Mapa do entorno e pontos de interesse' },
     ],
   }),
+  createDevelopment({
+    slug: 'unica-cardeal', name: 'Única Cardeal', image: unicaCardealCover,
+    city: 'Salvador, BA', neighborhood: 'Federação', locationTitle: 'Avenida Cardeal da Silva - Salvador/BA',
+    address: 'Avenida Cardeal da Silva, Salvador/BA',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Avenida%20Cardeal%20da%20Silva%20Salvador%20BA',
+    area: '41,1 a 63,64 m²', profile: '1 ou 2 quartos, com opções Garden', detail: '4 torres e mais de 1.000 m² de lazer',
+    description: 'O Única Cardeal é um empreendimento residencial na Avenida Cardeal da Silva, em Salvador, com quatro torres, apartamentos compactos e opções Garden. O projeto reúne lazer, praticidade e localização estratégica, próximo a praias, serviços, hospitais, escolas e universidades.',
+    highlights: ['41,1 a 63,64 m²', '1 ou 2 quartos', '4 torres', 'Mais de 1.000 m² de lazer'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Avenida Cardeal da Silva'], ['Torres', 'Essenza, Move, Flow e Urban'], ['Lazer', 'Mais de 1.000 m²']],
+    technical: [
+      ['Área do terreno', '10.259,00 m²'],
+      ['Torres', '4: Essenza, Move, Flow e Urban'],
+      ['Pavimentos', 'Térreo + 20 pavimentos'],
+      ['Tipologias', 'Apto Living de 44,7 m²; Apto Home de 41,1 m²'],
+      ['Unidades Garden', 'Living Garden de 63,64 m² e Home Garden de 58,99 m²'],
+      ['Vagas', 'Vagas rotativas'],
+      ['Diferenciais', 'Laje para ar-condicionado e mais de 1.000 m² de áreas de lazer'],
+      ['Material', 'Preliminar para treinamento de corretores; imagens ilustrativas'],
+    ],
+    amenities: ['Salão de festas', 'Brinquedoteca', 'Sala de jogos', 'Academia', 'Parque infantil', 'Espaço gourmet', 'Minicampo', 'Fitness externo', 'Piscina adulto e infantil com prainha', 'Gourmet da piscina com churrasqueira', 'Praça', 'Redário', 'Pet place'],
+    security: ['Guarita com controle de acesso', 'Vagas rotativas'],
+    sustainability: ['Soluções sustentáveis', 'Referência ao IPTU Verde'],
+    projectTeam: [],
+    gallery: [
+      { src: unicaCardealCover, titulo: 'Única Cardeal - vista geral do empreendimento' },
+      { src: unicaCardealTowers, titulo: 'Fachada das torres do Única Cardeal' },
+      { src: unicaCardealAccess, titulo: 'Acesso ao empreendimento' },
+      { src: unicaCardealSeaView, titulo: 'Vista do empreendimento e do mar' },
+      { src: unicaCardealLeisureAerial, titulo: 'Área de lazer - vista aérea' },
+      { src: unicaCardealPool, titulo: 'Piscina adulto e infantil com prainha' },
+      { src: unicaCardealGourmet, titulo: 'Espaço gourmet' },
+      { src: unicaCardealMinicampo, titulo: 'Minicampo' },
+      { src: unicaCardealOutdoorFitness, titulo: 'Fitness externo' },
+      { src: unicaCardealPlayground, titulo: 'Parque infantil' },
+      { src: unicaCardealPartyRoom, titulo: 'Salão de festas' },
+      { src: unicaCardealPlayroom, titulo: 'Brinquedoteca' },
+      { src: unicaCardealGamesRoom, titulo: 'Sala de jogos' },
+      { src: unicaCardealAcademy, titulo: 'Academia' },
+      { src: unicaCardealLiving, titulo: 'Living do apartamento Living' },
+      { src: unicaCardealLivingBedroom, titulo: 'Quarto do apartamento Living' },
+      { src: unicaCardealBalcony, titulo: 'Varanda do apartamento Living' },
+      { src: unicaCardealHomeLiving, titulo: 'Sala do apartamento Home' },
+      { src: unicaCardealHomeBedroom, titulo: 'Quarto de casal do apartamento Home' },
+      { src: unicaCardealHomeSecondBedroom, titulo: 'Segundo quarto do apartamento Home' },
+      { src: unicaCardealLivingSecondBedroom, titulo: 'Segundo quarto do apartamento Living' },
+    ],
+    floorPlans: [
+      { src: unicaCardealGeneralPlan, titulo: 'Implantação geral do empreendimento' },
+      { src: unicaCardealLeisurePlan, titulo: 'Implantação do lazer' },
+      { src: unicaCardealTowersPlan, titulo: 'Implantação das torres' },
+      { src: unicaCardealGroundPlan, titulo: 'Pavimento térreo' },
+      { src: unicaCardealTypicalFloorPlan, titulo: 'Pavimento tipo' },
+      { src: unicaCardealHomePlan, titulo: 'Planta apartamento Home - 41,1 m²' },
+      { src: unicaCardealLivingPlan, titulo: 'Planta apartamento Living - 44,7 m²' },
+      { src: unicaCardealHomeGardenPlan, titulo: 'Planta Home Garden - 58,99 m²' },
+      { src: unicaCardealLivingGardenPlan, titulo: 'Planta Living Garden - 63,64 m²' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'mood-colina', name: 'Mood Colina', image: moodColinaCover,
+    city: 'Salvador, BA', neighborhood: 'Patamares / Colina A', locationTitle: 'Patamares, próximo à praia',
+    address: 'Região de Patamares / Colina A, Salvador/BA',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Patamares%20Colina%20A%20Salvador%20BA',
+    area: '57,65 a 153,25 m²', profile: '2 ou 3 quartos, com opções Garden', detail: '258 apartamentos em 2 torres',
+    description: 'O Mood Colina é um empreendimento residencial em Patamares, Salvador, próximo à praia, com duas torres e estrutura completa de lazer. O projeto valoriza a vista para o mar, a ventilação natural, a iluminação e a integração com a paisagem.',
+    highlights: ['57,65 a 153,25 m²', '2 ou 3 quartos', '258 apartamentos', '2 torres em Patamares'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Patamares / Colina A'], ['Unidades', '258 apartamentos'], ['Garagem', '1 vaga por apartamento']],
+    technical: [
+      ['Área do terreno', '5.305,31 m²'],
+      ['Torres', '2 torres'],
+      ['Pavimentos', 'Térreo + 21 pavimentos tipo'],
+      ['Unidades por andar', '6 apartamentos por andar'],
+      ['Unidades', '258 apartamentos'],
+      ['Tipologias', '3 quartos com 1 suíte de 66,90 m²; 2 quartos com 1 suíte de 57,65 m²'],
+      ['Opções Garden', '3 quartos de 136,22 m², 153,25 m², 148,54 m² e 138,31 m²; 2 quartos de 117,82 m² e 131,27 m²'],
+      ['Garagem', '1 vaga de estacionamento por apartamento'],
+      ['Registro de incorporação', 'R-1 da matrícula nº 71.278 do 7º Ofício de Registro de Imóveis de Salvador'],
+      ['Material', 'Estudo preliminar sujeito a alteração; imagens ilustrativas e promocionais'],
+    ],
+    amenities: ['Guarita com clausura', 'E-commerce', 'Lobby', 'Salão de festas com terraço', 'Brinquedoteca com área externa', 'Mini Market', 'Coworking', 'Lavanderia', 'Academia', 'Sala funcional', 'Salão de jogos', 'Pet Care', 'Pet Place', 'Bicicletário', 'Piscina com deck molhado e raia de 20 m', 'Piscina infantil', 'Gourmet da piscina', 'Parque infantil', 'Lounges de convivência', 'Horta', 'Quadra recreativa', 'Apoio da quadra'],
+    security: ['Guarita com clausura', '1 vaga de estacionamento por apartamento'],
+    sustainability: ['Certificação IPTU Verde indicada no material', 'Ventilação natural e integração com a paisagem'],
+    projectTeam: [],
+    gallery: [
+      { src: moodColinaCover, titulo: 'Mood Colina - vista geral do empreendimento' },
+      { src: moodColinaAccess, titulo: 'Acesso ao empreendimento' },
+      { src: moodColinaLeisureAerial, titulo: 'Área de lazer - vista aérea' },
+      { src: moodColinaPoolAerial, titulo: 'Piscina - vista aérea' },
+      { src: moodColinaPool, titulo: 'Piscina com deck molhado e raia de 20 m' },
+      { src: moodColinaCourt, titulo: 'Quadra recreativa' },
+      { src: moodColinaPlayground, titulo: 'Parque infantil' },
+      { src: moodColinaLiving, titulo: 'Sala do apartamento de 66,90 m²' },
+      { src: moodColinaSuite, titulo: 'Suíte do apartamento de 66,90 m²' },
+      { src: moodColinaBedroom, titulo: 'Quarto do apartamento de 57,65 m²' },
+      { src: moodColinaOrlaView, titulo: 'Vista da orla de Patamares' },
+    ],
+    floorPlans: [
+      { src: moodColinaGeneralPlan, titulo: 'Implantação geral do empreendimento' },
+      { src: moodColinaLeisurePlan, titulo: 'Pavimento de lazer' },
+      { src: moodColinaTypicalFloorPlan, titulo: 'Pavimento tipo' },
+      { src: moodColinaComfortExpandedPlan, titulo: 'Planta Comfort - 66,90 m² - 2 quartos com sala ampliada' },
+      { src: moodColinaComfortPlan, titulo: 'Planta Comfort - 66,90 m² - 3 quartos' },
+      { src: moodColinaSmartPlan, titulo: 'Planta Smart - 57,65 m² - 2 quartos' },
+    ],
+  }),
 ];
 
 const developments = [
@@ -1537,7 +1717,6 @@ const developments = [
     projectTeam: ['Sidney Quintela | Arquitetura', 'Hanazaki | Paisagismo', 'Zirpolli Arquitetura | Interiores'],
     gallery: [
       { src: infinityOrganizedCover, titulo: 'Infinity Salvador - torre Business e conjunto mixed-use' },
-      { src: infinityComplex, titulo: 'Conjunto Infinity Salvador' },
       { src: infinityBusinessBase, titulo: 'Embasamento e acesso da torre Business' },
       { src: infinityBusinessTower, titulo: 'Torre Business e distribuição dos pavimentos' },
       { src: infinityLobby, titulo: 'Lobby Oceânica' },
@@ -1561,6 +1740,28 @@ const developments = [
   },
   ...additionalDevelopments,
 ];
+
+const getDevelopmentsByState = (uf) => {
+  if (uf === ALL_STATES_OPTION.uf) return developments;
+  return developments.filter((development) => getUfFromLocation(development.city) === uf);
+};
+const getDevelopmentGroupsByState = (items) => {
+  const groups = new Map();
+
+  items.forEach((development) => {
+    const uf = getUfFromLocation(development.city) || 'OTHER';
+    if (!groups.has(uf)) {
+      groups.set(uf, {
+        uf,
+        name: getStateNameFromUf(uf) || 'Outros estados',
+        developments: [],
+      });
+    }
+    groups.get(uf).developments.push(development);
+  });
+
+  return Array.from(groups.values());
+};
 
 function Icon({ name, size = 20, strokeWidth = 1.8 }) {
   const paths = {
@@ -1606,26 +1807,103 @@ function Brand({ variant = 'auto' }) {
   );
 }
 
-function Header({ scrolled, activeSection, menuOpen, setMenuOpen, headerProgress = 0 }) {
+function StateFlag({ state, className = '' }) {
+  if (!state?.flag) return null;
+
+  return <img className={`state-flag ${className}`.trim()} src={state.flag} alt="" aria-hidden="true" />;
+}
+
+function StateSelector({ selectedState, onSelectState }) {
+  const [isOpen, setIsOpen] = useState(false);
+  const selectorRef = useRef(null);
+  const selectedStateOption = getStateOption(selectedState);
+
+  useEffect(() => {
+    if (!isOpen) return undefined;
+    const closeOnOutsideClick = (event) => {
+      if (!selectorRef.current?.contains(event.target)) setIsOpen(false);
+    };
+    const closeOnEscape = (event) => {
+      if (event.key === 'Escape') setIsOpen(false);
+    };
+    document.addEventListener('pointerdown', closeOnOutsideClick);
+    document.addEventListener('keydown', closeOnEscape);
+    return () => {
+      document.removeEventListener('pointerdown', closeOnOutsideClick);
+      document.removeEventListener('keydown', closeOnEscape);
+    };
+  }, [isOpen]);
+
+  if (!selectedStateOption) return null;
+
+  return (
+    <div className={`state-selector ${isOpen ? 'is-open' : ''}`} ref={selectorRef}>
+      <button
+        className="state-selector__trigger"
+        type="button"
+        aria-haspopup="menu"
+        aria-expanded={isOpen}
+        onClick={() => setIsOpen((open) => !open)}
+      >
+        <StateFlag state={selectedStateOption} />
+        <span>{selectedStateOption.name}</span>
+        <span className="state-selector__chevron" aria-hidden="true">⌄</span>
+      </button>
+      {isOpen && (
+        <div className="state-selector__menu" role="menu" aria-label="Selecionar estado">
+          {STATE_FILTER_OPTIONS.map((state) => (
+            <button
+              key={state.uf}
+              type="button"
+              role="menuitem"
+              className={state.uf === selectedState ? 'is-selected' : ''}
+              onClick={() => {
+                onSelectState(state.uf);
+                setIsOpen(false);
+              }}
+            >
+              <span className="state-option__label"><StateFlag state={state} />{state.name}</span>
+              {state.uf === selectedState && <span aria-label="Selecionado">✓</span>}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function Header({ scrolled, activeSection, menuOpen, setMenuOpen, headerProgress = 0, selectedState, onSelectState, onNavigateToDevelopments }) {
   const headerStyle = {
     '--header-surface-alpha': headerProgress,
     '--header-shadow-alpha': (headerProgress * 0.09).toFixed(3),
     '--header-shadow-deep-alpha': (headerProgress * 0.08).toFixed(3),
     '--header-blur': `${Math.round(headerProgress * 24)}px`,
   };
-  const navItems = [['inicio', 'Início'], ['empreendimentos', 'Empreendimentos'], ['sobre', 'Sobre'], ['contato', 'Contato']];
+  const navItems = [['inicio', 'Início'], ['empreendimentos', 'Empreendimentos', '#todos-empreendimentos'], ['sobre', 'Sobre'], ['contato', 'Contato']];
   return (
     <header className={`site-header ${scrolled ? 'site-header--scrolled' : ''} ${menuOpen ? 'site-header--menu-open' : ''}`} style={headerStyle}>
       <div className="container site-header__inner">
         <a href="#inicio" className="site-header__brand" onClick={() => setMenuOpen(false)}><Brand /></a>
         <nav className={`site-nav ${menuOpen ? 'site-nav--open' : ''}`} aria-label="Navegação principal">
-          {navItems.map(([id, label]) => (
-            <a key={id} href={`#${id}`} className={activeSection === id ? 'is-active' : ''} onClick={() => setMenuOpen(false)}>{label}</a>
+          {navItems.map(([id, label, href]) => (
+            <a
+              key={id}
+              href={href || `#${id}`}
+              className={activeSection === id ? 'is-active' : ''}
+              onClick={(event) => {
+                setMenuOpen(false);
+                if (id === 'empreendimentos') {
+                  event.preventDefault();
+                  onNavigateToDevelopments();
+                }
+              }}
+            >{label}</a>
           ))}
           <a className="button button--header button--mobile-contact" href={WHATSAPP_URL} target="_blank" rel="noreferrer">
             <Icon name="whatsapp" size={19} /> Falar no WhatsApp
           </a>
         </nav>
+        <StateSelector selectedState={selectedState} onSelectState={onSelectState} />
         <a className="button button--header site-header__contact" href={WHATSAPP_URL} target="_blank" rel="noreferrer">
           <Icon name="whatsapp" size={19} /> Falar no WhatsApp
         </a>
@@ -1638,7 +1916,7 @@ function Header({ scrolled, activeSection, menuOpen, setMenuOpen, headerProgress
   );
 }
 
-function Hero({ currentSlide, setCurrentSlide }) {
+function Hero({ currentSlide, setCurrentSlide, onNavigateToDevelopments }) {
   return (
     <section className="hero" id="inicio" aria-labelledby="hero-title">
       <div className="hero__media" aria-hidden="true">
@@ -1653,7 +1931,10 @@ function Hero({ currentSlide, setCurrentSlide }) {
           <h1 id="hero-title"><span className="hero__title-main">Seu próximo endereço começa com a</span><em>escolha certa.</em></h1>
           <p className="hero__description">Atendimento especializado para você encontrar o imóvel Moura Dubeux ideal, com orientação personalizada, segurança, transparência e acompanhamento em cada etapa da sua compra.</p>
           <div className="hero__actions">
-            <a className="button button--primary" href="#empreendimentos">Ver empreendimentos <Icon name="arrow" /></a>
+            <a className="button button--primary" href="#todos-empreendimentos" onClick={(event) => {
+              event.preventDefault();
+              onNavigateToDevelopments();
+            }}>Ver empreendimentos <Icon name="arrow" /></a>
             <a className="button button--outline-light" href="#sobre">Conhecer a Dione</a>
           </div>
         </div>
@@ -1673,6 +1954,8 @@ function Hero({ currentSlide, setCurrentSlide }) {
 }
 
 function DevelopmentCard({ development, index }) {
+  const stateName = getStateNameFromLocation(development.city);
+
   return (
     <a className="development-card" href={`#empreendimento/${development.slug}`} style={{ '--card-delay': `${index * 90}ms` }}>
       <div className="development-card__media">
@@ -1688,7 +1971,7 @@ function DevelopmentCard({ development, index }) {
       </div>
       <div className="development-card__body">
         <div className="development-card__heading">
-          <div><p><Icon name="pin" size={16} /> {development.city}</p><h3>{development.name}</h3></div>
+          <div><p><Icon name="pin" size={16} /> {development.city}{stateName && <span className="development-card__state"> · {stateName}</span>}</p><h3>{development.name}</h3></div>
           <span className="development-card__arrow" aria-hidden="true"><Icon name="arrow" size={19} /></span>
         </div>
         <div className="development-card__facts">
@@ -1702,7 +1985,7 @@ function DevelopmentCard({ development, index }) {
   );
 }
 
-function Developments() {
+function Developments({ onNavigateToDevelopments }) {
   const featuredDevelopments = developments.slice(0, 3);
 
   return (
@@ -1717,14 +2000,59 @@ function Developments() {
         </div>
         <div className="developments__bottom">
           <p><strong>Não encontrou o que procura?</strong> Veja todas as opções disponíveis.</p>
-          <a className="developments__cta" href="#todos-empreendimentos">Ver todos os empreendimentos <Icon name="arrow" size={19} /></a>
+          <a className="developments__cta" href="#todos-empreendimentos" onClick={(event) => {
+            event.preventDefault();
+            onNavigateToDevelopments();
+          }}>Ver todos os empreendimentos <Icon name="arrow" size={19} /></a>
         </div>
       </div>
     </section>
   );
 }
 
-function AllDevelopmentsPage() {
+function StateSelectionPage({ onSelectState }) {
+  return (
+    <main className="state-selection-page" id="conteudo">
+      <section className="state-selection section" aria-labelledby="state-selection-title">
+        <div className="container state-selection__layout">
+          <div className="state-selection__map-column">
+            <p className="eyebrow"><span /> Encontre seu próximo endereço</p>
+            <div className="state-selection__map-wrap">
+              <img className="state-selection__map" src={brazilMap} alt="Mapa do Brasil com Bahia, Pernambuco e Ceará disponíveis" />
+              <button className="state-map-hotspot state-map-hotspot--ba" type="button" aria-label="Selecionar Bahia" onClick={() => onSelectState('BA')}><span>Bahia</span></button>
+              <button className="state-map-hotspot state-map-hotspot--pe" type="button" aria-label="Selecionar Pernambuco" onClick={() => onSelectState('PE')}><span>Pernambuco</span></button>
+              <button className="state-map-hotspot state-map-hotspot--ce" type="button" aria-label="Selecionar Ceará" onClick={() => onSelectState('CE')}><span>Ceará</span></button>
+            </div>
+          </div>
+          <div className="state-selection__copy">
+            <p className="eyebrow eyebrow--warm"><span /> Escolha seu estado</p>
+            <h1 id="state-selection-title">Qual será o seu próximo endereço?</h1>
+            <p>Selecione o estado para conhecer os empreendimentos disponíveis e encontrar a oportunidade que combina com o seu momento.</p>
+            <div className="state-selection__options" aria-label="Estados disponíveis">
+              {AVAILABLE_STATES.map((state) => (
+                <button key={state.uf} type="button" onClick={() => onSelectState(state.uf)}>
+                  <span className="state-option__label"><StateFlag state={state} />{state.name}</span>
+                  <Icon name="arrow" size={18} />
+                </button>
+              ))}
+            </div>
+            <button className="state-selection__all-option" type="button" onClick={() => onSelectState(ALL_STATES_OPTION.uf)}>
+              <span>Ver todos os empreendimentos</span>
+              <Icon name="arrow" size={17} />
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
+}
+
+function AllDevelopmentsPage({ selectedState, onSelectState }) {
+  const stateOption = getStateOption(selectedState);
+  const stateDevelopments = getDevelopmentsByState(selectedState);
+  const isAllStates = selectedState === ALL_STATES_OPTION.uf;
+  const stateGroups = isAllStates ? getDevelopmentGroupsByState(stateDevelopments) : [];
+
   return (
     <main className="all-developments-page" id="conteudo">
       <section className="all-developments-hero">
@@ -1739,12 +2067,52 @@ function AllDevelopmentsPage() {
       <section className="all-developments-list section" aria-labelledby="all-developments-title">
         <div className="container">
           <div className="section-heading section-heading--split">
-            <div><p className="eyebrow"><span /> Salvador / BA</p><h2 id="all-developments-title">Escolha seu próximo endereço</h2></div>
+            <div><p className="eyebrow"><span /> {stateOption?.name || 'Estados disponíveis'}</p><h2 id="all-developments-title">Escolha seu próximo endereço</h2></div>
             <p className="section-heading__intro">Abra cada empreendimento para ver imagens, plantas, localização e informações completas.</p>
           </div>
-          <div className="developments__grid">
-            {developments.map((development, index) => <DevelopmentCard key={development.name} development={development} index={index} />)}
+          <div className="state-filter" role="group" aria-label="Filtrar empreendimentos por estado">
+            <span className="state-filter__label">Filtrar por estado</span>
+            <div className="state-filter__options">
+              {STATE_FILTER_OPTIONS.map((state) => (
+                <button
+                  key={state.uf}
+                  type="button"
+                  className={state.uf === selectedState ? 'is-selected' : ''}
+                  aria-pressed={state.uf === selectedState}
+                  onClick={() => onSelectState(state.uf)}
+                >
+                  <StateFlag state={state} />
+                  <span>{state.filterName || state.name}</span>
+                </button>
+              ))}
+            </div>
           </div>
+          {isAllStates ? (
+            <div className="all-developments-groups">
+              {stateGroups.map((group) => (
+                <section className="all-developments-group" key={group.uf} aria-labelledby={`state-group-${group.uf}`}>
+                  <div className="all-developments-group__heading">
+                    <p className="eyebrow"><span /> Estado</p>
+                    <h3 id={`state-group-${group.uf}`}><StateFlag state={getStateOption(group.uf)} />{group.name}</h3>
+                    <span>{group.developments.length} {group.developments.length === 1 ? 'empreendimento' : 'empreendimentos'}</span>
+                  </div>
+                  <div className="developments__grid">
+                    {group.developments.map((development, index) => <DevelopmentCard key={development.slug} development={development} index={index} />)}
+                  </div>
+                </section>
+              ))}
+            </div>
+          ) : stateDevelopments.length > 0 ? (
+            <div className="developments__grid">
+              {stateDevelopments.map((development, index) => <DevelopmentCard key={development.slug} development={development} index={index} />)}
+            </div>
+          ) : (
+            <div className="state-empty-state">
+              <span className="state-empty-state__mark" aria-hidden="true"><Icon name="building" size={28} /></span>
+              <h3>{stateOption ? 'Ainda não há empreendimentos disponíveis neste estado.' : 'Escolha um estado para ver os empreendimentos.'}</h3>
+              <p>{stateOption ? `Em breve, novas oportunidades chegarão para ${stateOption.name}.` : 'Clique em Empreendimentos no menu para selecionar Bahia, Pernambuco ou Ceará.'}</p>
+            </div>
+          )}
         </div>
       </section>
     </main>
@@ -1860,7 +2228,7 @@ function DevelopmentDetail({ development }) {
   const touchStartX = useRef(null);
   const activeImages = activeLightbox ? lightboxGroups[activeLightbox.group] : [];
   const activeImage = activeLightbox ? activeImages[activeLightbox.index] : null;
-  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon'].includes(development?.slug);
+  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina'].includes(development?.slug);
   const visibleGalleryImages = lightboxGroups.gallery.slice(0, 5);
   const remainingGalleryCount = Math.max(0, lightboxGroups.gallery.length - visibleGalleryImages.length);
   const visibleFloorPlans = showAllOrganizedImages
@@ -2500,6 +2868,8 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('inicio');
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [selectedState, setSelectedState] = useState(readSelectedStateFromSession);
+  const [stateSelectionOpen, setStateSelectionOpen] = useState(false);
   const [route, setRoute] = useState(() => decodeURIComponent(window.location.hash.replace(/^#/, '')));
   const sectionIds = useMemo(() => ['inicio', 'empreendimentos', 'sobre', 'contato'], []);
   const selectedDevelopment = route.startsWith('empreendimento/')
@@ -2508,6 +2878,22 @@ function App() {
   const isDetailPage = route.startsWith('empreendimento/');
   const isAllDevelopmentsPage = route === 'todos-empreendimentos';
   const isPrivacyPage = route === 'politica-de-privacidade';
+  const handleSelectState = useCallback((nextState) => {
+    const stateOption = getStateOption(nextState);
+    if (!stateOption) return;
+
+    setSelectedState(stateOption.uf);
+    saveSelectedStateToSession(stateOption.uf);
+    setStateSelectionOpen(false);
+  }, []);
+  const handleNavigateToDevelopments = useCallback(() => {
+    const savedState = readSelectedStateFromSession();
+    setSelectedState(savedState);
+    setStateSelectionOpen(!savedState);
+    if (window.location.hash !== '#todos-empreendimentos') {
+      window.location.hash = '#todos-empreendimentos';
+    }
+  }, []);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -2626,14 +3012,19 @@ function App() {
         activeSection={activeSection}
         menuOpen={menuOpen}
         setMenuOpen={setMenuOpen}
+        selectedState={selectedState}
+        onSelectState={handleSelectState}
+        onNavigateToDevelopments={handleNavigateToDevelopments}
       />
       {isDetailPage
         ? <DevelopmentDetail development={selectedDevelopment} />
         : isAllDevelopmentsPage
-          ? <AllDevelopmentsPage />
-          : isPrivacyPage
-            ? <PrivacyPolicyPage />
-            : <main id="conteudo"><Hero currentSlide={currentSlide} setCurrentSlide={setCurrentSlide} /><Developments /><About /><ContactFormApi /><HomeVideo /></main>}
+              ? stateSelectionOpen
+              ? <StateSelectionPage onSelectState={handleSelectState} />
+              : <AllDevelopmentsPage selectedState={selectedState} onSelectState={handleSelectState} />
+            : isPrivacyPage
+              ? <PrivacyPolicyPage />
+            : <main id="conteudo"><Hero currentSlide={currentSlide} setCurrentSlide={setCurrentSlide} onNavigateToDevelopments={handleNavigateToDevelopments} /><Developments onNavigateToDevelopments={handleNavigateToDevelopments} /><About /><ContactFormApi /><HomeVideo /></main>}
       <SiteFooter />
       <a className="floating-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noreferrer" aria-label="Falar com Dione no WhatsApp"><Icon name="whatsapp" size={27} /><span>Fale comigo</span></a>
     </div>

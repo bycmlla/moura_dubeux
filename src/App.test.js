@@ -1,23 +1,29 @@
-import { fireEvent, render, screen, waitFor } from '@testing-library/react';
+import { fireEvent, render, screen, waitFor, within } from '@testing-library/react';
 import App from './App';
+import { getStateNameFromLocation, getUfFromLocation } from './utils/location';
 
 beforeEach(() => {
   window.location.hash = '';
+  window.sessionStorage.clear();
   Element.prototype.scrollIntoView = jest.fn();
   window.scrollTo = jest.fn();
 });
 
 afterEach(() => {
+  window.sessionStorage.clear();
   jest.restoreAllMocks();
 });
 
 test('renders the homepage and featured developments', () => {
-  render(<App />);
+  const { container } = render(<App />);
+  const header = within(container.querySelector('.site-header'));
   expect(screen.getByRole('heading', { name: /seu próximo endereço começa/i })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: /empreendimentos em destaque/i })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Elleve Horto' })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Casa Sombreiros' })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Infinity Salvador Business' })).toBeInTheDocument();
+  expect(header.getByRole('link', { name: 'Empreendimentos' })).toHaveAttribute('href', '#todos-empreendimentos');
+  expect(screen.getAllByText(/Bahia/i).length).toBeGreaterThanOrEqual(3);
   expect(screen.getByRole('link', { name: /ver todos os empreendimentos/i })).toHaveAttribute('href', '#todos-empreendimentos');
   expect(screen.getByRole('heading', { name: /solicitar informações/i })).toBeInTheDocument();
   expect(screen.getAllByText(/\(71\) 98780-3690/i).length).toBeGreaterThan(0);
@@ -28,9 +34,38 @@ test('renders the homepage and featured developments', () => {
   expect(screen.getByLabelText(/vídeo de apresentação dione menezes/i)).toBeInTheDocument();
 });
 
-test('renders the all developments page from the see all link', () => {
+test('derives the full state name from the development location UF', () => {
+  expect(getStateNameFromLocation('Salvador, BA')).toBe('Bahia');
+  expect(getStateNameFromLocation('Recife, PE')).toBe('Pernambuco');
+  expect(getStateNameFromLocation('Fortaleza, CE')).toBe('Ceará');
+  expect(getStateNameFromLocation('Cidade sem UF')).toBeNull();
+  expect(getUfFromLocation('Salvador, BA')).toBe('BA');
+  expect(getUfFromLocation('Cidade sem UF')).toBeNull();
+});
+
+test('opens the state selection page from the header navigation', async () => {
+  const { container } = render(<App />);
+  const header = within(container.querySelector('.site-header'));
+
+  fireEvent.click(header.getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('heading', { name: /qual será o seu próximo endereço/i })).toBeInTheDocument());
+  expect(window.location.hash).toBe('#todos-empreendimentos');
+});
+
+test('does not open the state selection automatically on initial load', () => {
   window.location.hash = '#todos-empreendimentos';
   render(<App />);
+
+  expect(screen.queryByRole('heading', { name: /qual será o seu próximo endereço/i })).not.toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: /todos os empreendimentos/i })).toBeInTheDocument();
+});
+
+test('renders the all developments page from the see all link', async () => {
+  render(<App />);
+  fireEvent.click(screen.getByRole('link', { name: /ver todos os empreendimentos/i }));
+  await waitFor(() => expect(screen.getByRole('heading', { name: /qual será o seu próximo endereço/i })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Bahia' }));
 
   expect(screen.getByRole('heading', { name: /todos os empreendimentos/i })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Elleve Horto' })).toBeInTheDocument();
@@ -38,9 +73,86 @@ test('renders the all developments page from the see all link', () => {
   expect(screen.getByRole('heading', { name: 'Infinity Salvador Business' })).toBeInTheDocument();
 });
 
-test('renders the additional book-based developments', () => {
-  window.location.hash = '#todos-empreendimentos';
+test('asks for a state on the first access and filters Pernambuco without mixing Bahia', async () => {
   render(<App />);
+  const header = within(document.querySelector('.site-header'));
+  fireEvent.click(header.getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('heading', { name: /qual será o seu próximo endereço/i })).toBeInTheDocument());
+  expect(screen.getByRole('button', { name: 'Bahia' })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'Pernambuco' })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'Ceará' })).toBeInTheDocument();
+  expect(screen.queryByRole('heading', { name: /todos os empreendimentos/i })).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: 'Pernambuco' }));
+
+  expect(screen.getByRole('heading', { name: /todos os empreendimentos/i })).toBeInTheDocument();
+  expect(screen.getByText(/ainda não há empreendimentos disponíveis neste estado/i)).toBeInTheDocument();
+  expect(screen.queryByRole('heading', { name: 'Elleve Horto' })).not.toBeInTheDocument();
+});
+
+test('opens all developments grouped by state and keeps Todos selected', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Ver todos os empreendimentos' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Ver todos os empreendimentos' }));
+
+  expect(window.sessionStorage.getItem('selectedState')).toBe('ALL');
+  expect(screen.getByRole('button', { name: 'Todos os estados' })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'Todos', pressed: true })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Bahia', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Alagoas', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Jardins do Parque' })).toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: 'Bahia', pressed: false }));
+  expect(window.sessionStorage.getItem('selectedState')).toBe('BA');
+  expect(screen.getByRole('button', { name: 'Bahia', pressed: true })).toBeInTheDocument();
+});
+
+test('uses the map and header dropdown to change the selected state', async () => {
+  render(<App />);
+  const header = within(document.querySelector('.site-header'));
+  fireEvent.click(header.getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Bahia' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Bahia' }));
+  expect(screen.getByRole('heading', { name: 'Elleve Horto' })).toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /Bahia/, expanded: false }));
+  fireEvent.click(screen.getByRole('menuitem', { name: 'Ceará' }));
+
+  expect(screen.getByText(/ainda não há empreendimentos disponíveis neste estado/i)).toBeInTheDocument();
+});
+
+test('shows the state selection again after a new visit', async () => {
+  const { unmount } = render(<App />);
+
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Bahia' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Bahia' }));
+  expect(screen.getByRole('heading', { name: /todos os empreendimentos/i })).toBeInTheDocument();
+
+  unmount();
+  const secondVisit = render(<App />);
+
+  expect(screen.getByRole('heading', { name: /todos os empreendimentos/i })).toBeInTheDocument();
+  expect(screen.queryByRole('heading', { name: /qual será o seu próximo endereço/i })).not.toBeInTheDocument();
+
+  window.sessionStorage.clear();
+  secondVisit.unmount();
+  window.location.hash = '';
+  render(<App />);
+
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+  await waitFor(() => expect(screen.getByRole('heading', { name: /qual será o seu próximo endereço/i })).toBeInTheDocument());
+});
+
+test('renders the additional book-based developments', async () => {
+  render(<App />);
+  fireEvent.click(screen.getByRole('link', { name: /ver todos os empreendimentos/i }));
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Bahia' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Bahia' }));
 
   [
     'Beach Class Bahia',
@@ -54,7 +166,6 @@ test('renders the additional book-based developments', () => {
     'Rivê',
     'Salvador 220',
     'Vivant',
-    'Jardins do Parque',
   ].forEach((name) => expect(screen.getByRole('heading', { name, level: 3 })).toBeInTheDocument());
 });
 
@@ -240,13 +351,13 @@ test('uses the organized Infinity Salvador Business assets by section and title'
   render(<App />);
 
   expect(screen.getByRole('heading', { name: 'Infinity Salvador Business', level: 1 })).toBeInTheDocument();
-  expect(screen.getByText('+3 fotos')).toBeInTheDocument();
+  expect(screen.getByText('+2 fotos')).toBeInTheDocument();
   expect(screen.getAllByText(/Pavimento tipo Business/i).length).toBeGreaterThan(0);
   expect(screen.getAllByText(/Avenida Oceânica - Ondina/i).length).toBeGreaterThan(0);
   expect(screen.getByText(/Qualidade urbana/i)).toBeInTheDocument();
 
   fireEvent.click(screen.getByRole('button', { name: /ampliar infinity salvador - torre business/i }));
-  Array.from({ length: 4 }).forEach(() => fireEvent.click(screen.getByRole('button', { name: /próxima imagem/i })));
+  Array.from({ length: 3 }).forEach(() => fireEvent.click(screen.getByRole('button', { name: /próxima imagem/i })));
   expect(screen.getByRole('dialog', { name: /lobby oceânica/i })).toBeInTheDocument();
 });
 
@@ -385,4 +496,34 @@ test('uses the organized Mansão Othon assets by section and title', () => {
   fireEvent.click(screen.getByRole('button', { name: /ampliar mansão othon - fachada e vista para o mar/i }));
   Array.from({ length: 5 }).forEach(() => fireEvent.click(screen.getByRole('button', { name: /próxima imagem/i })));
   expect(screen.getByRole('dialog', { name: /piscina adulto com vista para o mar/i })).toBeInTheDocument();
+});
+
+test('uses the organized Única Cardeal assets by section and title', () => {
+  window.location.hash = '#empreendimento/unica-cardeal';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Única Cardeal', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('+16 fotos')).toBeInTheDocument();
+  expect(screen.getAllByText(/4 torres/i).length).toBeGreaterThan(0);
+  expect(screen.getByText(/Planta Home Garden - 58,99 m²/i)).toBeInTheDocument();
+  expect(screen.getByText(/Guarita com controle de acesso/i)).toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar única cardeal - vista geral/i }));
+  Array.from({ length: 5 }).forEach(() => fireEvent.click(screen.getByRole('button', { name: /próxima imagem/i })));
+  expect(screen.getByRole('dialog', { name: /piscina adulto e infantil com prainha/i })).toBeInTheDocument();
+});
+
+test('uses the organized Mood Colina assets by section and title', () => {
+  window.location.hash = '#empreendimento/mood-colina';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Mood Colina', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('+6 fotos')).toBeInTheDocument();
+  expect(screen.getAllByText(/258 apartamentos/i).length).toBeGreaterThan(0);
+  expect(screen.getByText(/Planta Smart - 57,65 m² - 2 quartos/i)).toBeInTheDocument();
+  expect(screen.getByText(/Certificação IPTU Verde indicada no material/i)).toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar mood colina - vista geral/i }));
+  Array.from({ length: 4 }).forEach(() => fireEvent.click(screen.getByRole('button', { name: /próxima imagem/i })));
+  expect(screen.getByRole('dialog', { name: /piscina com deck molhado e raia de 20 m/i })).toBeInTheDocument();
 });
