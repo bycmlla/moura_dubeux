@@ -1,0 +1,180 @@
+SALVADOR 220
+Informações organizadas a partir do book digital fornecido.
+
+IDENTIFICAÇÃO
+Empreendimento: Salvador 220
+Construtora / incorporadora: Moura Dubeux
+Endereço: Rua Fonte do Boi, 220 - Rio Vermelho, Salvador - Bahia
+Conceito: empreendimento retrofit residencial frente ao mar, no Rio Vermelho.
+
+TIPOLOGIAS GERAIS
+O book apresenta as seguintes tipologias:
+- 1 quarto
+- 1 quarto com varanda
+- 1 quarto com lavabo
+- 1 quarto garden com lavabo
+- 2 quartos com 1 suíte
+- 2 suítes com lavabo
+
+TORRES / BLOCOS
+Torre Retrofit:
+- 22 pavimentos
+- 418 apartamentos
+
+Anexo Retrofit (Lanai):
+- 2 pavimentos
+- 20 apartamentos
+
+Número total de unidades:
+- 438 apartamentos
+
+GARAGEM
+- 281 vagas de garagem rotativas
+
+DISTRIBUIÇÃO - TORRE RETROFIT
+1º pavimento:
+- Total: 6 unidades
+- 4 unidades: 1 quarto com varanda
+- 2 unidades: 1 quarto garden com lavabo
+
+2º ao 6º pavimentos:
+- Total: 22 unidades
+- 19 unidades: 1 quarto
+- 2 unidades: 2 suítes com lavabo
+- 1 unidade: 2 quartos com 1 suíte
+
+7º ao 20º pavimentos:
+- Total: 20 unidades
+- 15 unidades: 1 quarto
+- 2 unidades: 2 suítes com lavabo
+- 3 unidades: 2 quartos com 1 suíte
+
+21º pavimento:
+- Total: 14 unidades
+- 7 unidades: 1 quarto
+- 4 unidades: 2 suítes com lavabo
+- 3 unidades: 2 quartos com 1 suíte
+
+22º pavimento:
+- Total: 8 unidades
+- 3 unidades: 1 quarto
+- 3 unidades: 1 quarto garden com lavabo
+- 2 unidades: 1 quarto com lavabo
+
+ÁREA PRIVATIVA - TORRE RETROFIT
+1 quarto - 315 unidades:
+- 33 m²: 222 unidades
+- 34 m²: 70 unidades
+- 45 m²: 2 unidades
+- 47 m²: 1 unidade
+- 48 m²: 20 unidades
+
+1 quarto com varanda - 4 unidades:
+- 43 m²: 2 unidades
+- 44 m²: 2 unidades
+
+1 quarto com lavabo - 2 unidades:
+- 88 m²: 2 unidades
+
+1 quarto garden com lavabo - 5 unidades:
+- 98 m²: 1 unidade
+- 108 m²: 1 unidade
+- 111 m²: 1 unidade
+- 133 m²: 1 unidade
+- 136 m²: 1 unidade
+
+2 quartos com 1 suíte - 50 unidades:
+- 69 m²: 20 unidades
+- 73 m²: 30 unidades
+
+2 suítes com lavabo - 42 unidades:
+- 74 m²: 10 unidades
+- 102 m²: 2 unidades
+- 106 m²: 2 unidades
+- 136 m²: 28 unidades
+
+ANEXO LANAI - 20 UNIDADES
+1 quarto:
+- 33 m²: 18 unidades
+- 37 m²: 2 unidades
+
+PAVIMENTO LOBBY / TÉRREO
+- Embarque / desembarque
+- Acesso lobby
+- Recepção
+- Co-living
+- Acesso ao pavimento de lazer
+- Jardim contemplação externo
+- Via para acesso ao subsolo / estacionamento
+- Viaduto existente para acesso ao empreendimento
+- Acesso ao Lanai
+- Apartamentos Lanai
+- Salas de reunião
+- Deck Park
+- Delivery
+- Guarita
+- Elevador de transbordo Deck Park
+- Elevadores de acesso à torre
+- Vagas para aplicativo e visitantes
+
+PAVIMENTO DE LAZER
+- Coffee Shop com cozinha de apoio
+- Solarium
+- Deck mar
+- Piscina com borda infinita
+- Piscina infantil
+- Hidromassagem
+- Sauna
+- Salas de massagem
+- Brinquedoteca
+- Espaço gourmet
+- Academia
+- Sala funcional
+- Espaço para eventos
+- Deck Park
+- Elevador de transbordo
+- Banheiros sociais
+- Elevadores de acesso à torre
+
+ROOFTOP
+- Lounge / espaço gourmet
+- Depósito
+
+SEGURANÇA
+- Guarita com vidros blindados
+- Infraestrutura para circuito interno de TV
+- Infraestrutura para portaria remota
+- Controle de acesso de veículos
+- Controle de acesso em parte dos ambientes sociais das áreas comuns
+- Fechadura eletrônica nas portas sociais dos apartamentos
+
+CONVENIÊNCIA
+- Espaço para operação de mini market
+- Espaço para operação de lavanderia
+- Pet care
+- Beauty room
+- Sala de reunião
+- Co-living com Wi-Fi
+
+PROJETOS / EQUIPE CITADA NO BOOK
+- André Sá e Francisco Mota - arquitetos
+- Thiago Martins e Caio Bandeira - arquitetura e ambientação
+- Takeda Design - paisagismo
+
+OBSERVAÇÕES DO BOOK
+- Por se tratar de retrofit, dimensões de pés-direitos, esquadrias, elementos estruturais e outros elementos construtivos dos apartamentos e áreas comuns poderão sofrer variações.
+- O projeto poderá sofrer ajustes ou alterações necessárias para cumprimento de exigências legais, normativas ou adequações estruturais e de instalações.
+- A taxa de implantação da ambientação das áreas comuns será um custo extra e não está incluída no orçamento do condomínio.
+- As imagens dos apartamentos, seus layouts e itens apresentados são ilustrativos e sugestivos.
+- Os apartamentos serão entregues conforme planta e especificações anexas ao contrato.
+
+ORGANIZAÇÃO DAS IMAGENS DESTE PACOTE
+- capa/: imagem principal
+- imagens_empreendimento/fachadas/: fachadas e imagens externas
+- imagens_empreendimento/areas_comuns/: lazer e áreas compartilhadas
+- imagens_empreendimento/apartamentos/: ambientes internos
+- plantas/: somente plantas, pavimentos e implantações
+- localizacao/: localização e entorno
+
+IMPORTANTE PARA O SITE
+As imagens da pasta plantas/ não devem ser misturadas à galeria de imagens do empreendimento.

@@ -1,0 +1,188 @@
+MANIFESTO DE IMAGENS - SALVADOR 220
+Use o campo 'Título' para exibir a legenda de cada imagem no site.
+As plantas estão separadas da galeria comum do empreendimento.
+
+capa/capa_salvador_220.png
+  Título: Salvador 220 - vista geral do empreendimento frente ao mar
+  Página de origem no book: 7
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/fachadas/vista_geral_salvador_220.png
+  Título: Vista geral do Salvador 220 frente ao mar
+  Página de origem no book: 7
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/fachadas/acesso_lobby_fachada.png
+  Título: Acesso ao lobby e fachada
+  Página de origem no book: 12
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/fachadas/torre_salvador_220.png
+  Título: Torre Salvador 220
+  Página de origem no book: 25
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/fachadas/fachada_salvador_220_frente_mar.png
+  Título: Fachada do Salvador 220 frente ao mar
+  Página de origem no book: 47
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/recepcao.png
+  Título: Recepção
+  Página de origem no book: 13
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/co_living.png
+  Título: Co-living
+  Página de origem no book: 14
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/gourmet.png
+  Título: Espaço gourmet
+  Página de origem no book: 16
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/academia.png
+  Título: Academia
+  Página de origem no book: 17
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/academia_com_vista_mar.png
+  Título: Academia com vista para o mar
+  Página de origem no book: 18
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/spa_com_sauna_e_sala_massagem.png
+  Título: Spa com sauna e sala de massagem
+  Página de origem no book: 19
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/piscina_borda_infinita.png
+  Título: Piscina com borda infinita
+  Página de origem no book: 20
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/vista_aerea_piscina.png
+  Título: Vista aérea da piscina
+  Página de origem no book: 21
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/vista_rooftop.png
+  Título: Vista do rooftop
+  Página de origem no book: 23
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/areas_comuns/espaco_gourmet_rooftop.png
+  Título: Espaço gourmet rooftop
+  Página de origem no book: 24
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/apartamentos/apartamento_1_quarto_33_34m2.png
+  Título: Apartamento de 1 quarto - 33 m² e 34 m²
+  Página de origem no book: 27
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/apartamentos/apartamento_1_quarto_48m2.png
+  Título: Apartamento de 1 quarto - 48 m²
+  Página de origem no book: 29
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/apartamentos/apartamento_2_suites_com_lavabo_74m2.png
+  Título: Apartamento de 2 suítes com lavabo - 74 m²
+  Página de origem no book: 31
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/apartamentos/suite_apartamento_2_suites_74m2.png
+  Título: Suíte - apartamento de 2 suítes com lavabo - 74 m²
+  Página de origem no book: 32
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/apartamentos/apartamento_2_quartos_1_suite_73m2.png
+  Título: Apartamento de 2 quartos com 1 suíte - 73 m²
+  Página de origem no book: 34
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/apartamentos/suite_apartamento_2_quartos_1_suite_73m2.png
+  Título: Suíte - apartamento de 2 quartos com 1 suíte - 73 m²
+  Página de origem no book: 35
+  Dimensões do PNG: 1400x788
+
+imagens_empreendimento/apartamentos/lanai_apartamento_1_quarto_32m2.png
+  Título: Lanai - apartamento de 1 quarto - 32 m²
+  Página de origem no book: 38
+  Dimensões do PNG: 1400x788
+
+plantas/implantacao_pavimento_lobby_terreo.png
+  Título: Implantação - pavimento lobby / térreo
+  Página de origem no book: 11
+  Dimensões do PNG: 1800x1013
+
+plantas/implantacao_pavimento_lazer.png
+  Título: Implantação - pavimento de lazer
+  Página de origem no book: 15
+  Dimensões do PNG: 1800x1013
+
+plantas/planta_rooftop_22_pavimento.png
+  Título: Planta do rooftop - 22º pavimento
+  Página de origem no book: 22
+  Dimensões do PNG: 1800x1013
+
+plantas/planta_1_quarto_33_34m2.png
+  Título: Planta - 1 quarto - 33 m² e 34 m²
+  Página de origem no book: 26
+  Dimensões do PNG: 1800x1013
+
+plantas/planta_1_quarto_48m2.png
+  Título: Planta - 1 quarto - 48 m²
+  Página de origem no book: 28
+  Dimensões do PNG: 1800x1013
+
+plantas/planta_2_suites_com_lavabo_74m2.png
+  Título: Planta - 2 suítes com lavabo - 74 m²
+  Página de origem no book: 30
+  Dimensões do PNG: 1800x1013
+
+plantas/planta_2_quartos_1_suite_73m2.png
+  Título: Planta - 2 quartos com 1 suíte - 73 m²
+  Página de origem no book: 33
+  Dimensões do PNG: 1800x1013
+
+plantas/planta_2_quartos_1_suite_69m2.png
+  Título: Planta - 2 quartos com 1 suíte - 69 m²
+  Página de origem no book: 36
+  Dimensões do PNG: 1800x1013
+
+plantas/implantacao_lanai_2_pavimentos.png
+  Título: Lanai - implantação com 2 pavimentos
+  Página de origem no book: 37
+  Dimensões do PNG: 1800x1013
+
+plantas/pavimento_primeiro.png
+  Título: Planta do 1º pavimento
+  Página de origem no book: 39
+  Dimensões do PNG: 1800x1013
+
+plantas/pavimento_tipo_2_ao_6_andar.png
+  Título: Pavimento tipo - 2º ao 6º andar
+  Página de origem no book: 40
+  Dimensões do PNG: 1800x1013
+
+plantas/pavimento_tipo_7_ao_20_andar.png
+  Título: Pavimento tipo - 7º ao 20º andar
+  Página de origem no book: 41
+  Dimensões do PNG: 1800x1013
+
+plantas/pavimento_tipo_21_andar.png
+  Título: Pavimento tipo - 21º andar
+  Página de origem no book: 42
+  Dimensões do PNG: 1800x1013
+
+plantas/rooftop_cobertura_22_andar.png
+  Título: Rooftop e cobertura - 22º andar
+  Página de origem no book: 43
+  Dimensões do PNG: 1800x1013
+
+localizacao/localizacao_salvador_220_rio_vermelho.png
+  Título: Localização do Salvador 220 no Rio Vermelho
+  Página de origem no book: 8
+  Dimensões do PNG: 1600x900

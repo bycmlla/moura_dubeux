@@ -1,0 +1,168 @@
+MANIFESTO DE IMAGENS - BEACH CLASS RIO VERMELHO
+Use o campo 'Título' como legenda amigável no site.
+As plantas foram mantidas separadas da galeria comum do empreendimento.
+
+capa/capa_beach_class_rio_vermelho.png
+  Título: Beach Class Rio Vermelho - fachada e orla
+  Página de origem no book: 9
+  Dimensões do PNG: 1800x1012
+
+imagens_empreendimento/fachadas/fachada_torre_e_orla.png
+  Título: Fachada do Beach Class Rio Vermelho e orla
+  Página de origem no book: 9
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/fachadas/acesso_integrado_a_cidade.png
+  Título: Acesso integrado à cidade
+  Página de origem no book: 23
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/areas_comuns/rooftop_lounge.png
+  Título: Rooftop Lounge
+  Página de origem no book: 11
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/areas_comuns/piscina_aquecida_spa_vista_mar.png
+  Título: Piscina aquecida e SPA com vista para o mar
+  Página de origem no book: 12
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/areas_comuns/sky_lounge.png
+  Título: Sky Lounge
+  Página de origem no book: 13
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/areas_comuns/espaco_confraria_rooftop.png
+  Título: Espaço Confraria no rooftop
+  Página de origem no book: 14
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/areas_comuns/sky_fitness_esteiras.png
+  Título: Sky Fitness - área de esteiras
+  Página de origem no book: 15
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/areas_comuns/sky_fitness.png
+  Título: Sky Fitness
+  Página de origem no book: 16
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/areas_comuns/hall_concierge.png
+  Título: Hall do Concierge
+  Página de origem no book: 17
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/areas_comuns/coffee_shop_lounge_coworking.png
+  Título: Coffee Shop Lounge + Coworking
+  Página de origem no book: 18
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/areas_comuns/coffee_shop_coworking.png
+  Título: Coffee Shop e Coworking
+  Página de origem no book: 19
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/areas_comuns/lounge_garden.png
+  Título: Lounge Garden
+  Página de origem no book: 20
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/areas_comuns/app_car_point.png
+  Título: App Car Point
+  Página de origem no book: 22
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/areas_comuns/mini_market.png
+  Título: Mini Market
+  Página de origem no book: 24
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/areas_comuns/espaco_bike_scooter.png
+  Título: Espaço Bike & Scooter
+  Página de origem no book: 25
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/areas_comuns/laundry_omo.png
+  Título: Laundry OMO
+  Página de origem no book: 26
+  Dimensões do PNG: 1600x960
+
+imagens_empreendimento/areas_comuns/pet_care.png
+  Título: Pet Care
+  Página de origem no book: 27
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/apartamentos/apartamento_studio.png
+  Título: Apartamento Studio
+  Página de origem no book: 33
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/apartamentos/apartamento_quarto_e_sala_living.png
+  Título: Apartamento quarto e sala - living
+  Página de origem no book: 35
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/apartamentos/apartamento_quarto_e_sala_quarto.png
+  Título: Apartamento quarto e sala - quarto
+  Página de origem no book: 36
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/apartamentos/apartamento_2_quartos_sala_varanda.png
+  Título: Apartamento 2 quartos - sala e varanda
+  Página de origem no book: 38
+  Dimensões do PNG: 1600x900
+
+imagens_empreendimento/apartamentos/apartamento_2_quartos_quarto.png
+  Título: Apartamento 2 quartos - quarto
+  Página de origem no book: 39
+  Dimensões do PNG: 1600x900
+
+plantas/implantacao_terreo_acessos_estacionamento.png
+  Título: Implantação térreo - acessos e estacionamento
+  Página de origem no book: 28
+  Dimensões do PNG: 1800x1012
+
+plantas/implantacao_terreo_areas_comuns.png
+  Título: Implantação térreo - áreas comuns e serviços
+  Página de origem no book: 29
+  Dimensões do PNG: 1800x1012
+
+plantas/implantacao_rooftop.png
+  Título: Implantação do rooftop
+  Página de origem no book: 30
+  Dimensões do PNG: 1800x1012
+
+plantas/planta_studio_26m2.png
+  Título: Planta Studio - 26 m²
+  Página de origem no book: 32
+  Dimensões do PNG: 1800x1012
+
+plantas/planta_quarto_e_sala_37m2.png
+  Título: Planta quarto e sala - 37 m²
+  Página de origem no book: 34
+  Dimensões do PNG: 1800x1012
+
+plantas/planta_2_quartos_67m2.png
+  Título: Planta 2 quartos - 67 m²
+  Página de origem no book: 37
+  Dimensões do PNG: 1800x1012
+
+plantas/pavimento_tipo.png
+  Título: Pavimento tipo
+  Página de origem no book: 40
+  Dimensões do PNG: 1800x1012
+
+plantas/implantacao_pavimento_tipo.png
+  Título: Implantação do pavimento tipo
+  Página de origem no book: 41
+  Dimensões do PNG: 1800x1012
+
+localizacao/rio_vermelho_orla_e_bairro.png
+  Título: Rio Vermelho - orla e bairro
+  Página de origem no book: 3
+  Dimensões do PNG: 1800x1012
+
+localizacao/mapa_localizacao_rio_vermelho.png
+  Título: Mapa de localização - Rio Vermelho
+  Página de origem no book: 5
+  Dimensões do PNG: 1800x1012

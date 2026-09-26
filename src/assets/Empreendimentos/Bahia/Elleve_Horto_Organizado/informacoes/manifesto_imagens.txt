@@ -1,0 +1,173 @@
+MANIFESTO DE IMAGENS - ELLEVE HORTO
+Use o campo 'Título' como legenda amigável no site.
+As plantas foram mantidas separadas da galeria comum.
+
+imagens_empreendimento/fachadas/fachada_torre_elleve_horto.png
+  Título: Fachada da torre Elleve Horto
+  Página de origem no book: 3
+  Dimensões do PNG: 1922x1083
+
+localizacao/mapa_horto_florestal_entorno.png
+  Título: Mapa do Horto Florestal e pontos de interesse
+  Página de origem no book: 5
+  Dimensões do PNG: 1928x1222
+
+localizacao/vista_aerea_horto_florestal.png
+  Título: Vista aérea do Elleve Horto no Horto Florestal
+  Página de origem no book: 7
+  Dimensões do PNG: 1923x1082
+
+plantas/implantacao_geral.png
+  Título: Implantação geral do empreendimento
+  Página de origem no book: 12
+  Dimensões do PNG: 1463x1083
+
+plantas/pavimento_g1_garagem.png
+  Título: Pavimento G1 - garagem
+  Página de origem no book: 13
+  Dimensões do PNG: 1498x1075
+
+plantas/pavimento_g2_garagem.png
+  Título: Pavimento G2 - garagem
+  Página de origem no book: 14
+  Dimensões do PNG: 1503x1083
+
+capa/capa_elleve_horto.png
+  Título: Elleve Horto - fachada e acesso principal
+  Página de origem no book: 15
+  Dimensões do PNG: 1568x882
+
+imagens_empreendimento/fachadas/acesso_principal_rua_piratancara.png
+  Título: Acesso principal pela Rua Piratancará
+  Página de origem no book: 15
+  Dimensões do PNG: 1568x882
+
+plantas/pavimento_lazer.png
+  Título: Pavimento de lazer
+  Página de origem no book: 17
+  Dimensões do PNG: 1251x1083
+
+imagens_empreendimento/areas_comuns/piscina_adulto_raia_25m.png
+  Título: Piscina adulto com raia de 25 m
+  Página de origem no book: 18
+  Dimensões do PNG: 1920x1081
+
+imagens_empreendimento/areas_comuns/pavimento_lazer_vista_aerea.png
+  Título: Pavimento de lazer - vista aérea
+  Página de origem no book: 19
+  Dimensões do PNG: 1920x1012
+
+imagens_empreendimento/areas_comuns/lounge_externo_com_cascata.png
+  Título: Lounge externo com cascata
+  Página de origem no book: 20
+  Dimensões do PNG: 1827x1083
+
+imagens_empreendimento/areas_comuns/parque_infantil.png
+  Título: Parque infantil
+  Página de origem no book: 21
+  Dimensões do PNG: 1920x1081
+
+imagens_empreendimento/areas_comuns/quadra_recreativa.png
+  Título: Quadra recreativa
+  Página de origem no book: 22
+  Dimensões do PNG: 1920x1082
+
+imagens_empreendimento/areas_comuns/lobby_social_elevadores.png
+  Título: Lobby social dos elevadores
+  Página de origem no book: 23
+  Dimensões do PNG: 1920x1081
+
+imagens_empreendimento/areas_comuns/salao_de_festas.png
+  Título: Salão de festas
+  Página de origem no book: 25
+  Dimensões do PNG: 1920x830
+
+imagens_empreendimento/areas_comuns/brinquedoteca.png
+  Título: Brinquedoteca
+  Página de origem no book: 27
+  Dimensões do PNG: 1920x1081
+
+imagens_empreendimento/areas_comuns/sala_de_jogos.png
+  Título: Sala de jogos
+  Página de origem no book: 28
+  Dimensões do PNG: 1923x1082
+
+imagens_empreendimento/areas_comuns/academia.png
+  Título: Academia
+  Página de origem no book: 29
+  Dimensões do PNG: 1922x890
+
+imagens_empreendimento/areas_comuns/gourmet_piscina.png
+  Título: Gourmet da piscina
+  Página de origem no book: 30
+  Dimensões do PNG: 1923x1082
+
+imagens_empreendimento/areas_comuns/apoio_quadra.png
+  Título: Apoio da quadra
+  Página de origem no book: 31
+  Dimensões do PNG: 1920x1081
+
+plantas/pavimento_tipo_colunas_1_e_2.png
+  Título: Pavimento tipo - Colunas 1 e 2
+  Página de origem no book: 33
+  Dimensões do PNG: 1780x1541
+
+plantas/planta_119m2_3_suites_padrao.png
+  Título: Planta padrão - 119,06 m² - 3 suítes
+  Página de origem no book: 34
+  Dimensões do PNG: 1179x786
+
+imagens_empreendimento/apartamentos/suite_master_apartamento_119m2.png
+  Título: Suíte master - apartamento de 119 m²
+  Página de origem no book: 35
+  Dimensões do PNG: 1920x1082
+
+plantas/planta_119m2_2_suites_sala_tv_gabinete.png
+  Título: Opção de planta - 119 m² - 2 suítes com sala de TV / gabinete
+  Página de origem no book: 36
+  Dimensões do PNG: 1185x782
+
+imagens_empreendimento/apartamentos/living_apartamento_119m2.png
+  Título: Living - apartamento de 119 m²
+  Página de origem no book: 37
+  Dimensões do PNG: 1923x1083
+
+plantas/planta_119m2_2_suites_cozinha_integrada.png
+  Título: Opção de planta - 119 m² - 2 suítes com cozinha integrada e suíte master ampliada
+  Página de origem no book: 38
+  Dimensões do PNG: 1184x775
+
+plantas/planta_150m2_4_suites_padrao.png
+  Título: Planta padrão - 150,54 m² - 4 suítes
+  Página de origem no book: 40
+  Dimensões do PNG: 1164x688
+
+plantas/planta_150m2_3_suites_sala_tv_gabinete.png
+  Título: Opção de planta - 150 m² - 3 suítes com sala de TV / gabinete
+  Página de origem no book: 41
+  Dimensões do PNG: 1201x654
+
+imagens_empreendimento/apartamentos/living_apartamento_150m2.png
+  Título: Living - apartamento de 150 m²
+  Página de origem no book: 42
+  Dimensões do PNG: 1920x768
+
+plantas/planta_150m2_3_suites_cozinha_ampliada.png
+  Título: Opção de planta - 150 m² - 3 suítes com cozinha ampliada e suíte master ampliada
+  Página de origem no book: 43
+  Dimensões do PNG: 1201x711
+
+imagens_empreendimento/apartamentos/living_opcao_apartamento_150m2.png
+  Título: Living - opção de planta do apartamento de 150 m²
+  Página de origem no book: 44
+  Dimensões do PNG: 1920x1081
+
+imagens_empreendimento/apartamentos/suite_master_apartamento_150m2.png
+  Título: Suíte master - apartamento de 150 m²
+  Página de origem no book: 45
+  Dimensões do PNG: 1920x1083
+
+imagens_empreendimento/fachadas/detalhe_fachada_varandas.png
+  Título: Detalhe da fachada e varandas
+  Página de origem no book: 46
+  Dimensões do PNG: 1920x1083
