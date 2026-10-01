@@ -11,10 +11,10 @@ import logoComplementLight from './assets/logocomplementar1.png';
 import logoComplementRed from './assets/logocomplementar2.png';
 import brazilMap from './assets/mapa.png';
 import bahiaFlag from './assets/Bandeira_da_Bahia.png';
-import pernambucoFlag from './assets/Bandeira_de_Pernambuco.svg';
-import cearaFlag from './assets/Bandeira_do_Ceará.svg';
-import heroSunset from './assets/novobanner1.webp';
-import heroCoast from './assets/novobanner2.jpg';
+import alagoasFlag from './assets/Bandeira_de_Alagoas.svg';
+import heroBanner1 from './assets/banners/novobanner1.webp';
+import heroBanner2 from './assets/banners/novobanner2.jpg';
+import heroBanner3 from './assets/banners/novobanner3.png';
 import elleveBook from './assets/Empreendimentos/elleve-horto/book.pdf';
 import elleveOrganizedCover from './assets/Empreendimentos/Elleve_Horto_Organizado/capa/capa_elleve_horto.png';
 import elleveFacade from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/fachadas/fachada_torre_elleve_horto.png';
@@ -98,6 +98,15 @@ import beachClassBahiaBook from './assets/Empreendimentos/beachclassbahia/MD_Bea
 import beachClassJaguaribeBook from './assets/Empreendimentos/beachclassjaguaribe/MD0024_22_Book_1920x1080_19.pdf';
 import beachClassRioVermelhoBook from './assets/Empreendimentos/beachclassriovermelho/BOOK-DIGITAL-1920x1080-RV-MD-2.pdf';
 import cyanoBook from './assets/Empreendimentos/Cyano/BOOK_CYANO.pdf';
+import beachClassBahiaVideo1 from './assets/Empreendimentos/Bahia/videos/beachclassbahiabahiavideo1.mp4';
+import beachClassBahiaVideo2 from './assets/Empreendimentos/Bahia/videos/beachclassbahiabahiavideo2.mp4';
+import beachClassJaguaribeVideo from './assets/Empreendimentos/Bahia/videos/beachclassjaguaribevideo.mp4';
+import elleveVideo from './assets/Empreendimentos/Bahia/videos/ellevevideo.mp4';
+import miratMartinsVideo from './assets/Empreendimentos/Bahia/videos/miratmartinsvideo.mp4';
+import moodCostaAzulVideo from './assets/Empreendimentos/Bahia/videos/moodcostaazulvideo.mp4';
+import moodSolBahiaVideo1 from './assets/Empreendimentos/Bahia/videos/moodsolbahia.mp4';
+import moodSolBahiaVideo2 from './assets/Empreendimentos/Bahia/videos/moodsolbahiavideo2.mp4';
+import salvador220Video from './assets/Empreendimentos/Bahia/videos/salvador220video.mp4';
 import hortoEssenceBook from './assets/Empreendimentos/hortoessence/MD0037_21_BOOK_DIGITAL_14_-_FINALIZADO_2.pdf';
 import mansaoOthonBook from './assets/Empreendimentos/mansaoothon/MD-MansaoOthon-Book.2.pdf';
 import miratMartinsBook from './assets/Empreendimentos/miratmartins/Book_Mirat_Digital_Final2.pdf';
@@ -567,6 +576,62 @@ import moodColinaTypicalFloorPlan from './assets/Empreendimentos/Bahia/Mood_Coli
 import moodColinaComfortExpandedPlan from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/plantas/05_planta_apto_comfort_66_90m2_sala_ampliada_2_quartos.png';
 import moodColinaComfortPlan from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/plantas/04_planta_apto_comfort_66_90m2_3_quartos.png';
 import moodColinaSmartPlan from './assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/plantas/06_planta_apto_smart_57_65m2_2_quartos.png';
+import moodClubCover from './assets/Empreendimentos/Bahia/Mood_Club_organizado/00_capa/capa_mood_club_acesso_principal.png';
+import moodClubAccess from './assets/Empreendimentos/Bahia/Mood_Club_organizado/01_imagens_empreendimento/01_acesso_principal.png';
+import moodClubGarden from './assets/Empreendimentos/Bahia/Mood_Club_organizado/01_imagens_empreendimento/02_unidade_garden_area_externa.png';
+import moodClubComfortLiving from './assets/Empreendimentos/Bahia/Mood_Club_organizado/01_imagens_empreendimento/03_living_apto_comfort_65_59m2.png';
+import moodClubSmartLiving from './assets/Empreendimentos/Bahia/Mood_Club_organizado/01_imagens_empreendimento/04_living_apto_smart_53_30m2.png';
+import moodClubComfortPlan from './assets/Empreendimentos/Bahia/Mood_Club_organizado/02_plantas/apartamentos/01_planta_apto_comfort_65_59m2_3_quartos.png';
+import moodClubSmartPlan from './assets/Empreendimentos/Bahia/Mood_Club_organizado/02_plantas/apartamentos/02_planta_apto_smart_53_30m2_2_quartos.png';
+import moodClubSitePlan from './assets/Empreendimentos/Bahia/Mood_Club_organizado/02_plantas/implantacao_e_areas_comuns/01_implantacao_no_terreno.png';
+import moodClubGroundPlan from './assets/Empreendimentos/Bahia/Mood_Club_organizado/02_plantas/implantacao_e_areas_comuns/02_implantacao_terreo_geral.png';
+import moodClubLeisurePlan from './assets/Empreendimentos/Bahia/Mood_Club_organizado/02_plantas/implantacao_e_areas_comuns/03_pavimento_terreo_lazer_e_servicos.png';
+import moodClubGardenPlan from './assets/Empreendimentos/Bahia/Mood_Club_organizado/02_plantas/implantacao_e_areas_comuns/04_pavimento_garden_torre_a.png';
+import moodClubTypicalPlan from './assets/Empreendimentos/Bahia/Mood_Club_organizado/02_plantas/implantacao_e_areas_comuns/05_pavimento_tipo_torre_a.png';
+import moodClubAerialLocation from './assets/Empreendimentos/Bahia/Mood_Club_organizado/03_localizacao/01_vista_aerea_localizacao_terreno.png';
+import moodClubLocationMap from './assets/Empreendimentos/Bahia/Mood_Club_organizado/03_localizacao/02_mapa_localizacao_e_pontos_proximos.png';
+import moodCostaAzulCover from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/00_capa/capa_mood_costa_azul_fachada_torres_vista_mar.png';
+import moodCostaAzulFacade from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/fachadas_e_acesso/01_fachada_duas_torres_vista_mar.png';
+import moodCostaAzulAccess from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/fachadas_e_acesso/02_acesso_fachada_principal.png';
+import moodCostaAzulPool from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/01_piscina_borda_infinita_vista_mar.png';
+import moodCostaAzulPoolBetween from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/02_piscina_entre_torres.png';
+import moodCostaAzulGym from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/05_academia.png';
+import moodCostaAzulPartyRoom from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/06_salao_de_festas.png';
+import moodCostaAzulLiving100 from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/apartamentos_decorados/01_sala_apto_100m2_sala_ampliada.png';
+import moodCostaAzulLiving80 from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/apartamentos_decorados/03_sala_apto_80m2_sala_ampliada.png';
+import moodCostaAzulLiving73 from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/apartamentos_decorados/05_sala_apto_73m2.png';
+import moodCostaAzulPlan100 from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/02_plantas/apartamentos/01_planta_apto_comfort_plus_100m2_3_quartos_home_office.png';
+import moodCostaAzulPlan100Expanded from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/02_plantas/apartamentos/02_planta_apto_comfort_plus_100m2_sala_ampliada_2_quartos.png';
+import moodCostaAzulPlan80 from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/02_plantas/apartamentos/03_planta_apto_comfort_80m2_3_quartos.png';
+import moodCostaAzulPlan80Expanded from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/02_plantas/apartamentos/04_planta_apto_comfort_80m2_sala_ampliada_2_quartos.png';
+import moodCostaAzulPlan73 from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/02_plantas/apartamentos/05_planta_apto_smart_73m2_3_quartos.png';
+import moodCostaAzulPlan73Expanded from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/02_plantas/apartamentos/06_planta_apto_smart_73m2_sala_ampliada_2_quartos.png';
+import moodCostaAzulSitePlan from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/02_plantas/implantacao_e_areas_comuns/01_implantacao_geral_torres_coral_e_brisa.png';
+import moodCostaAzulLeisurePlan from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/02_plantas/implantacao_e_areas_comuns/02_pavimento_lazer_implantacao.png';
+import moodCostaAzulGardenPlan from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/02_plantas/implantacao_e_areas_comuns/03_pavimento_lazer_apartamentos_garden.png';
+import moodCostaAzulLocationBeach from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/03_localizacao/01_localizacao_170m_da_praia.png';
+import moodCostaAzulLocationMap from './assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/03_localizacao/02_localizacao_costa_azul_orla.png';
+import moodSolBahiaCover from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/00_capa/capa_mood_sol_bahia_torres_vista_mar.png';
+import moodSolBahiaAerial from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/01_vista_aerea_empreendimento_e_orla.png';
+import moodSolBahiaFacade from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/02_fachada_vista_mar.png';
+import moodSolBahiaNight from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/03_torres_vista_noturna.png';
+import moodSolBahiaAccess from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/04_acesso_portaria.png';
+import moodSolBahiaHall from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/05_hall_de_entrada.png';
+import moodSolBahiaLeisure from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/06_lazer_vista_aerea.png';
+import moodSolBahiaPool from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/12_piscina_vista_aerea.png';
+import moodSolBahiaTerrace from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/08_terraco_vista_mar.png';
+import moodSolBahiaComfortLiving from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/24_living_apto_65_59m2.png';
+import moodSolBahiaSmartLiving from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/27_living_apto_53_30m2.png';
+import moodSolBahiaGarden from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/30_apartamento_garden_area_externa.png';
+import moodSolBahiaComfortPlan from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/apartamentos/01_planta_apto_65_59m2_3_quartos_1_suite.png';
+import moodSolBahiaSmartPlan from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/apartamentos/02_planta_apto_53_30m2_2_quartos_1_suite.png';
+import moodSolBahiaTypicalPlan from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/apartamentos/03_pavimento_tipo_torres_mar_sol_brisa.png';
+import moodSolBahiaGroundPlan from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/apartamentos/04_pavimento_terreo_apartamentos_garden.png';
+import moodSolBahiaSitePlan from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/implantacao_e_areas_comuns/08_implantacao_geral_3_torres.png';
+import moodSolBahiaLeisurePlan from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/implantacao_e_areas_comuns/05_lazer_bem_viver_torre_sol.png';
+import moodSolBahiaGymPlan from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/implantacao_e_areas_comuns/07_academia_layout_e_equipamentos.png';
+import moodSolBahiaAerialLocation from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/03_localizacao/01_vista_aerea_orla_patamares_pituacu.png';
+import moodSolBahiaLocationMap from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/03_localizacao/02_mapa_localizacao_e_entorno.png';
 
 const CONTACT_EMAIL = 'dimenezescomercial@gmail.com';
 const WHATSAPP_DISPLAY = '(71) 98780-3690';
@@ -584,8 +649,9 @@ const PUBLIC_ASSET_BASE = process.env.PUBLIC_URL || '';
 const createPublicAssetPath = (path) => `${PUBLIC_ASSET_BASE}${path.startsWith('/') ? path : `/${path}`}`;
 
 const heroSlides = [
-  { src: heroSunset, position: 'center center', alt: 'Empreendimento com vista para o mar ao pôr do sol' },
-  { src: heroCoast, position: 'center center', alt: 'Empreendimento à beira-mar com vista para a costa de Salvador' },
+  { src: heroBanner1, position: 'center center', alt: 'Empreendimento residencial ao pôr do sol' },
+  { src: heroBanner2, position: 'center center', alt: 'Empreendimento à beira-mar em Salvador' },
+  { src: heroBanner3, position: 'center center', alt: 'Torres residenciais em meio à cidade' },
 ];
 
 const createBookPages = (slug, total) => Array.from({ length: total }, (_, index) => ({
@@ -627,8 +693,7 @@ const createDevelopment = (development) => ({
 
 const AVAILABLE_STATES = [
   { uf: 'BA', name: 'Bahia', flag: bahiaFlag },
-  { uf: 'PE', name: 'Pernambuco', flag: pernambucoFlag },
-  { uf: 'CE', name: 'Ceará', flag: cearaFlag },
+  { uf: 'AL', name: 'Alagoas', flag: alagoasFlag },
 ];
 const ALL_STATES_OPTION = { uf: 'ALL', name: 'Todos os estados', filterName: 'Todos' };
 const STATE_FILTER_OPTIONS = [ALL_STATES_OPTION, ...AVAILABLE_STATES];
@@ -706,6 +771,8 @@ const additionalDevelopments = [
       { src: beachClassBahiaTwoBedroomPlanColumnsAlt, titulo: 'Planta - 2 quartos - 61 m² - colunas 01 e 03' },
       { src: beachClassBahiaGaragePlan1, titulo: 'Planta - garagem - 1º pavimento' },
       { src: beachClassBahiaGaragePlan2, titulo: 'Planta - garagem - 2º pavimento' },
+      { src: beachClassBahiaVideo1, type: 'video', poster: beachClassBahiaOrganizedCover, titulo: 'Vídeo do Beach Class Bahia' },
+      { src: beachClassBahiaVideo2, type: 'video', poster: beachClassBahiaOrganizedCover, titulo: 'Beach Class Bahia - vídeo 2' },
     ],
     locationImages: [
       { src: beachClassBahiaLocation, titulo: 'Localização - Caminho das Árvores e Shopping da Bahia' },
@@ -745,6 +812,7 @@ const additionalDevelopments = [
       { src: beachClassJaguaribeSeaPool, titulo: 'Piscina com borda infinita frente ao mar' },
       { src: beachClassJaguaribePoolView, titulo: 'Piscina com vista para o mar' },
       { src: beachClassJaguaribeLounge, titulo: 'Lounge externo' },
+      { src: beachClassJaguaribeVideo, type: 'video', poster: beachClassJaguaribeOrganizedCover, titulo: 'Vídeo do Beach Class Jaguaribe' },
       { src: beachClassJaguaribeExternalGourmet, titulo: 'Gourmet externo' },
       { src: beachClassJaguaribePartyTerrace, titulo: 'Terraço do salão de festas' },
       { src: beachClassJaguaribePartyRoom, titulo: 'Salão de festas gourmet' },
@@ -1043,6 +1111,7 @@ const additionalDevelopments = [
       { src: miratMainAccess, titulo: 'Acesso principal e paisagismo' },
       { src: miratSocialHall, titulo: 'Hall social' },
       { src: miratPools, titulo: 'Piscinas adulto e infantil' },
+      { src: miratMartinsVideo, type: 'video', poster: miratMartinsOrganizedCover, titulo: 'Vídeo do Mirat Martins de Sá' },
       { src: miratPoolLane, titulo: 'Piscina com raia de 20 m e hidromassagem' },
       { src: miratFitness, titulo: 'Fitness - 130 m²' },
       { src: miratMinicampo, titulo: 'Minicampo' },
@@ -1240,6 +1309,7 @@ const additionalDevelopments = [
       { src: salvador220ApartmentTwoBedrooms, titulo: 'Apartamento de 2 quartos com 1 suíte - 73 m²' },
       { src: salvador220SuiteTwoBedrooms, titulo: 'Suíte - apartamento de 2 quartos com 1 suíte - 73 m²' },
       { src: salvador220LanaiApartment, titulo: 'Lanai - apartamento de 1 quarto - 32 m²' },
+      { src: salvador220Video, type: 'video', poster: salvador220OrganizedCover, titulo: 'Vídeo do Salvador 220' },
     ],
     floorPlans: [
       { src: salvador220LobbyPlan, titulo: 'Implantação - pavimento lobby / térreo' },
@@ -1522,6 +1592,150 @@ const additionalDevelopments = [
       { src: moodColinaSmartPlan, titulo: 'Planta Smart - 57,65 m² - 2 quartos' },
     ],
   }),
+  createDevelopment({
+    slug: 'mood-club', name: 'Mood Club', image: moodClubCover,
+    city: 'Salvador, BA', neighborhood: 'Costa Azul', locationTitle: 'Costa Azul, próximo à Av. Professor Magalhães Neto',
+    address: 'Rua Arthur de Azevedo Machado, Costa Azul, Salvador/BA',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Rua%20Arthur%20de%20Azevedo%20Machado%20Costa%20Azul%20Salvador%20BA',
+    area: '53,30 a 90,17 m²', profile: 'Apartamentos de 2 ou 3 quartos, com opções Garden', detail: '522 apartamentos em 3 torres',
+    description: 'O Mood Club é um empreendimento residencial em Costa Azul, Salvador, com proposta de encontro, lazer e bem-estar. O material disponível o identifica como estudo preliminar sujeito a alterações.',
+    highlights: ['53,30 e 65,59 m²', '2 ou 3 quartos', 'Opções Garden', '3 torres em Costa Azul'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Costa Azul'], ['Unidades', '522 apartamentos (estudo preliminar)'], ['Garagem', '535 vagas indicadas no Deck Park']],
+    technical: [
+      ['Torres', '3 torres residenciais: A, B e C'],
+      ['Pavimentos', 'Térreo + 21 pavimentos tipo'],
+      ['Unidades', '522 apartamentos, 174 por torre'],
+      ['Tipologias', '53,30 m² com 2 quartos; 65,59 m² com 3 quartos'],
+      ['Opções Garden', '79,63 m², 90,00 m² e 90,17 m²'],
+      ['Garagem', '535 vagas indicadas no Deck Park'],
+      ['Material', 'Estudo preliminar sujeito a alterações'],
+    ],
+    amenities: ['Piscina com raia de 20 m e piscina infantil', 'Área gourmet', 'Playground', 'Salão de festas com terraço', 'Pet place e Pet Care', 'Academia', 'Lavanderia', 'Coworking', 'Minimarket', 'Salão de jogos', 'Brinquedoteca', 'Bicicletário', 'Quadra recreativa'],
+    security: [], sustainability: [], projectTeam: [],
+    gallery: [
+      { src: moodClubCover, titulo: 'Mood Club - acesso principal' },
+      { src: moodClubAccess, titulo: 'Acesso principal do empreendimento' },
+      { src: moodClubGarden, titulo: 'Unidade Garden - área externa' },
+      { src: moodClubComfortLiving, titulo: 'Living do apartamento Comfort - 65,59 m²' },
+      { src: moodClubSmartLiving, titulo: 'Living do apartamento Smart - 53,30 m²' },
+    ],
+    floorPlans: [
+      { src: moodClubSitePlan, titulo: 'Implantação no terreno' },
+      { src: moodClubGroundPlan, titulo: 'Implantação do térreo' },
+      { src: moodClubLeisurePlan, titulo: 'Pavimento térreo - lazer e serviços' },
+      { src: moodClubGardenPlan, titulo: 'Pavimento Garden - Torre A' },
+      { src: moodClubTypicalPlan, titulo: 'Pavimento tipo - Torre A' },
+      { src: moodClubComfortPlan, titulo: 'Planta Comfort - 65,59 m² - 3 quartos' },
+      { src: moodClubSmartPlan, titulo: 'Planta Smart - 53,30 m² - 2 quartos' },
+    ],
+    locationImages: [
+      { src: moodClubAerialLocation, titulo: 'Vista aérea da localização do terreno' },
+      { src: moodClubLocationMap, titulo: 'Mapa de localização e pontos próximos' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'mood-costa-azul', name: 'Mood Costa Azul', image: moodCostaAzulCover,
+    city: 'Salvador, BA', neighborhood: 'Costa Azul', locationTitle: 'Aproximadamente 170 m da praia',
+    address: 'Rua Professor Isaías Alves de Almeida, 201 - Costa Azul, Salvador/BA',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Rua%20Professor%20Isaias%20Alves%20de%20Almeida%20201%20Costa%20Azul%20Salvador%20BA',
+    area: '73 a 100 m², com opções Garden', profile: 'Apartamentos de 3 quartos e opções de sala ampliada', detail: '239 unidades em 2 torres',
+    description: 'O Mood Costa Azul reúne duas torres residenciais no bairro Costa Azul, a aproximadamente 170 metros da praia. O projeto combina áreas de lazer, vista para o mar e plantas de 73, 80 e 100 m².',
+    highlights: ['73, 80 e 100 m²', '2 torres residenciais', '239 unidades', 'Aproximadamente 170 m da praia'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Costa Azul'], ['Unidades', '239 apartamentos'], ['Garagem', '407 vagas para automóveis']],
+    technical: [
+      ['Área do terreno', '5.438,84 m²'],
+      ['Torres', 'Torre Coral (A), com 19 pavimentos tipo, e Torre Brisa (B), com 20 pavimentos tipo'],
+      ['Unidades', '239 apartamentos, com 6 unidades por andar'],
+      ['Tipologias', '73 m² com 3 quartos; 80 m² com 3 quartos; 100 m² com 3 quartos e home office'],
+      ['Opções de planta', 'Opções de sala ampliada para as tipologias de 73, 80 e 100 m²'],
+      ['Apartamentos Garden', '5 unidades Garden indicadas no material'],
+      ['Vagas', '407 vagas para automóveis e 11 vagas para motos'],
+      ['Sustentabilidade', 'Certificação IPTU Verde indicada no material'],
+    ],
+    amenities: ['Piscina com borda infinita e vista para o mar', 'Piscina infantil', 'Prainha e solário', 'Academia com vista para o mar', 'Coworking', 'Salão de festas', 'Salão de festas infantil', 'Espaço gourmet', 'Quadra recreativa', 'Quiosque da piscina', 'Playground', 'Brinquedoteca', 'Salão de jogos', 'Pet Care e Pet Place', 'Horta', 'Lavanderia', 'Minimarket', 'Bicicletário', 'Sala de delivery e e-commerce'],
+    security: [], sustainability: ['Certificação IPTU Verde indicada no material.'],
+    projectTeam: ['Carlos Campelo | Arquitetura', 'Takeda Design | Paisagismo', 'Todos Arquitetura | Ambientação e fachada'],
+    gallery: [
+      { src: moodCostaAzulCover, titulo: 'Mood Costa Azul - torres e vista para o mar' },
+      { src: moodCostaAzulFacade, titulo: 'Fachada das torres Coral e Brisa' },
+      { src: moodCostaAzulAccess, titulo: 'Acesso e fachada principal' },
+      { src: moodCostaAzulPool, titulo: 'Piscina com borda infinita e vista para o mar' },
+      { src: moodCostaAzulPoolBetween, titulo: 'Piscina entre as torres' },
+      { src: moodCostaAzulVideo, type: 'video', poster: moodCostaAzulCover, titulo: 'Vídeo do Mood Costa Azul' },
+      { src: moodCostaAzulGym, titulo: 'Academia' },
+      { src: moodCostaAzulPartyRoom, titulo: 'Salão de festas' },
+      { src: moodCostaAzulLiving100, titulo: 'Sala ampliada - apartamento de 100 m²' },
+      { src: moodCostaAzulLiving80, titulo: 'Sala ampliada - apartamento de 80 m²' },
+      { src: moodCostaAzulLiving73, titulo: 'Apartamento de 73 m²' },
+    ],
+    floorPlans: [
+      { src: moodCostaAzulSitePlan, titulo: 'Implantação geral das torres Coral e Brisa' },
+      { src: moodCostaAzulLeisurePlan, titulo: 'Implantação do pavimento de lazer' },
+      { src: moodCostaAzulGardenPlan, titulo: 'Pavimento de lazer e apartamentos Garden' },
+      { src: moodCostaAzulPlan100, titulo: 'Planta Comfort Plus - 100 m² - 3 quartos e home office' },
+      { src: moodCostaAzulPlan100Expanded, titulo: 'Planta Comfort Plus - 100 m² - sala ampliada' },
+      { src: moodCostaAzulPlan80, titulo: 'Planta Comfort - 80 m² - 3 quartos' },
+      { src: moodCostaAzulPlan80Expanded, titulo: 'Planta Comfort - 80 m² - sala ampliada' },
+      { src: moodCostaAzulPlan73, titulo: 'Planta Smart - 73 m² - 3 quartos' },
+      { src: moodCostaAzulPlan73Expanded, titulo: 'Planta Smart - 73 m² - sala ampliada' },
+    ],
+    locationImages: [
+      { src: moodCostaAzulLocationBeach, titulo: 'Localização a aproximadamente 170 m da praia' },
+      { src: moodCostaAzulLocationMap, titulo: 'Mapa da localização no Costa Azul' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'mood-sol-bahia', name: 'Mood Sol Bahia', image: moodSolBahiaCover,
+    city: 'Salvador, BA', neighborhood: 'Pituaçu', locationTitle: 'Entre Patamares e Pituaçu, próximo à orla',
+    address: 'Rua Manoel Antônio Galvão, 1075 - Pituaçu, Salvador/BA',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Rua%20Manoel%20Antonio%20Galvao%201075%20Pitua%C3%A7u%20Salvador%20BA',
+    area: '53,30 a 90,10 m²', profile: 'Apartamentos de 2 ou 3 quartos, com opções Garden', detail: '522 apartamentos em 3 torres',
+    description: 'O Mood Sol Bahia fica entre Patamares e Pituaçu, próximo à orla e ao Parque de Pituaçu. O projeto reúne três torres residenciais, áreas verdes, lazer e apartamentos Smart, Comfort e Garden.',
+    highlights: ['53,30 e 65,59 m²', '2 ou 3 quartos', '3 torres residenciais', 'Próximo ao Parque de Pituaçu'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Pituaçu'], ['Unidades', '522 apartamentos'], ['Garagem', '1 vaga por apartamento']],
+    technical: [
+      ['Área do terreno', '15.391,67 m²'],
+      ['Torres', '3 torres residenciais: Mar, Sol e Brisa'],
+      ['Pavimentos', 'Térreo + 21 pavimentos tipo'],
+      ['Unidades', '522 apartamentos, com 8 unidades por andar'],
+      ['Apartamento Smart', '53,30 m², 2 quartos, 1 suíte e 1 vaga'],
+      ['Apartamento Comfort', '65,59 m², 3 quartos, 1 suíte e 1 vaga'],
+      ['Apartamentos Garden', '81,05 m² com 2 quartos; 90,10 m² com 3 quartos'],
+      ['Garagem', '553 vagas no total, incluindo 4 vagas externas'],
+    ],
+    amenities: ['Mais de 2.800 m² de lazer a céu aberto', 'Piscina com raia de 20 m', 'Piscinas adulto e infantil', 'Salão de festas e Festas Kids', 'Brinquedoteca', 'Gourmet piscina e gourmet interno', 'Mirante, redário e área para piquenique', 'Horta coletiva', 'Pet place e Pet Care', 'Salão de jogos', 'Quadra recreativa', 'Academia', 'Coworking', 'Minimarket', 'Lavanderia', 'Bicicletário'],
+    security: [], sustainability: ['O material apresenta diretrizes de sustentabilidade, relação com a cidade e bem-estar.'],
+    projectTeam: ['Ricardo Farias | Arquitetura', 'Takeda Design | Paisagismo', 'Tenari Arquitetura | Ambientação'],
+    gallery: [
+      { src: moodSolBahiaCover, titulo: 'Mood Sol Bahia - torres com vista para o mar' },
+      { src: moodSolBahiaAerial, titulo: 'Vista aérea do empreendimento e da orla' },
+      { src: moodSolBahiaFacade, titulo: 'Fachada com vista para o mar' },
+      { src: moodSolBahiaNight, titulo: 'Torres do Mood Sol Bahia à noite' },
+      { src: moodSolBahiaAccess, titulo: 'Acesso e portaria' },
+      { src: moodSolBahiaHall, titulo: 'Hall de entrada' },
+      { src: moodSolBahiaLeisure, titulo: 'Área de lazer - vista aérea' },
+      { src: moodSolBahiaPool, titulo: 'Piscina - vista aérea' },
+      { src: moodSolBahiaTerrace, titulo: 'Terraço com vista para o mar' },
+      { src: moodSolBahiaVideo1, type: 'video', poster: moodSolBahiaCover, titulo: 'Vídeo do Mood Sol Bahia' },
+      { src: moodSolBahiaVideo2, type: 'video', poster: moodSolBahiaCover, titulo: 'Mood Sol Bahia - vídeo 2' },
+      { src: moodSolBahiaComfortLiving, titulo: 'Living do apartamento Comfort - 65,59 m²' },
+      { src: moodSolBahiaSmartLiving, titulo: 'Living do apartamento Smart - 53,30 m²' },
+      { src: moodSolBahiaGarden, titulo: 'Área externa de apartamento Garden' },
+    ],
+    floorPlans: [
+      { src: moodSolBahiaSitePlan, titulo: 'Implantação geral das três torres' },
+      { src: moodSolBahiaGroundPlan, titulo: 'Pavimento térreo - apartamentos Garden' },
+      { src: moodSolBahiaTypicalPlan, titulo: 'Pavimento tipo - torres Mar, Sol e Brisa' },
+      { src: moodSolBahiaLeisurePlan, titulo: 'Área de lazer - Torre Sol' },
+      { src: moodSolBahiaGymPlan, titulo: 'Layout e equipamentos da academia' },
+      { src: moodSolBahiaComfortPlan, titulo: 'Planta Comfort - 65,59 m² - 3 quartos' },
+      { src: moodSolBahiaSmartPlan, titulo: 'Planta Smart - 53,30 m² - 2 quartos' },
+    ],
+    locationImages: [
+      { src: moodSolBahiaAerialLocation, titulo: 'Vista aérea da orla de Patamares e Pituaçu' },
+      { src: moodSolBahiaLocationMap, titulo: 'Mapa de localização e entorno' },
+    ],
+  }),
 ];
 
 const developments = [
@@ -1587,6 +1801,7 @@ const developments = [
       { src: elleveLiving150, titulo: 'Living - apartamento de 150 m²' },
       { src: elleveLiving150Option, titulo: 'Living - opção de planta do apartamento de 150 m²' },
       { src: elleveMasterSuite150, titulo: 'Suíte master - apartamento de 150 m²' },
+      { src: elleveVideo, type: 'video', poster: elleveOrganizedCover, titulo: 'Vídeo do Elleve Horto' },
     ],
     floorPlans: [
       { src: elleveGeneralPlan, titulo: 'Implantação geral do empreendimento' },
@@ -1745,6 +1960,11 @@ const getDevelopmentsByState = (uf) => {
   if (uf === ALL_STATES_OPTION.uf) return developments;
   return developments.filter((development) => getUfFromLocation(development.city) === uf);
 };
+const normalizeSearchText = (value) => value
+  .normalize('NFD')
+  .replace(/[\u0300-\u036f]/g, '')
+  .toLocaleLowerCase('pt-BR')
+  .trim();
 const getDevelopmentGroupsByState = (items) => {
   const groups = new Map();
 
@@ -1763,7 +1983,7 @@ const getDevelopmentGroupsByState = (items) => {
   return Array.from(groups.values());
 };
 
-function Icon({ name, size = 20, strokeWidth = 1.8 }) {
+function Icon({ name, size = 20, strokeWidth = 1.8, className = '' }) {
   const paths = {
     arrow: <><path d="M5 12h14" /><path d="m14 7 5 5-5 5" /></>,
     pin: <><path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z" /><circle cx="12" cy="10" r="2.4" /></>,
@@ -1777,6 +1997,8 @@ function Icon({ name, size = 20, strokeWidth = 1.8 }) {
     handshake: <><path d="m8 12 3 3a2 2 0 0 0 3 0l4-4" /><path d="m2 12 5-5 4 2 2-2 4 2 5 5M5 15l2 2M9 16l2 2M13 16l1 1" /></>,
     whatsapp: <><path d="M21 11.5a9 9 0 0 1-13.3 7.9L3 21l1.6-4.5A9 9 0 1 1 21 11.5Z" /><path d="M8.2 7.8c.3 3.8 2.2 5.7 6 6.4.5.1 1-.8 1.3-1.2-.9-.4-1.7-.8-2.5-1.3-.3.4-.6.8-.9.8-1.1-.5-2.1-1.5-2.6-2.6 0-.3.4-.7.8-1-.5-.8-.9-1.6-1.3-2.4-.4.2-.9.8-.8 1.3Z" /></>,
     instagram: <><rect x="4" y="4" width="16" height="16" rx="4" /><circle cx="12" cy="12" r="3.2" /><path d="M16.8 7.2h.01" /></>,
+    calendar: <><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M16 3v4M8 3v4M3 10h18M8 14h.01M12 14h.01M16 14h.01M8 17h.01M12 17h.01" /></>,
+    youtube: <><rect x="3" y="5" width="18" height="14" rx="4" /><path d="m10 9 5 3-5 3z" /></>,
     mail: <><rect x="3.5" y="5.5" width="17" height="13" rx="2" /><path d="m4 7 8 6 8-6" /></>,
     menu: <><path d="M4 7h16M4 12h16M4 17h16" /></>,
     close: <><path d="m6 6 12 12M18 6 6 18" /></>,
@@ -1784,7 +2006,7 @@ function Icon({ name, size = 20, strokeWidth = 1.8 }) {
   };
 
   return (
-    <svg className="icon" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor"
+    <svg className={`icon ${className}`.trim()} width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor"
       strokeWidth={strokeWidth} strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
       {paths[name]}
     </svg>
@@ -1937,11 +2159,14 @@ function Hero({ currentSlide, setCurrentSlide, onNavigateToDevelopments }) {
             }}>Ver empreendimentos <Icon name="arrow" /></a>
             <a className="button button--outline-light" href="#sobre">Conhecer a Dione</a>
           </div>
+          <a className="hero__instagram-link" href="https://www.instagram.com/mdione.imoveis/" target="_blank" rel="noreferrer">
+            <Icon name="instagram" size={17} /> Siga @mdione.imoveis
+          </a>
         </div>
         <div className="hero__side-note" aria-hidden="true"><span /><p>Mais que imóveis,<br />novos capítulos<br />começam aqui.</p></div>
       </div>
       <div className="container hero__footer">
-        <div className="hero__controls" aria-label="Selecionar imagem do empreendimento">
+        <div className="hero__controls" aria-label="Selecionar banner da página inicial">
           {heroSlides.map((slide, index) => (
             <button key={slide.src} type="button" className={currentSlide === index ? 'is-active' : ''}
               onClick={() => setCurrentSlide(index)} aria-label={`Exibir imagem ${index + 1}: ${slide.alt}`}
@@ -2018,10 +2243,9 @@ function StateSelectionPage({ onSelectState }) {
           <div className="state-selection__map-column">
             <p className="eyebrow"><span /> Encontre seu próximo endereço</p>
             <div className="state-selection__map-wrap">
-              <img className="state-selection__map" src={brazilMap} alt="Mapa do Brasil com Bahia, Pernambuco e Ceará disponíveis" />
+              <img className="state-selection__map" src={brazilMap} alt="Mapa do Brasil com Bahia e Alagoas disponíveis" />
               <button className="state-map-hotspot state-map-hotspot--ba" type="button" aria-label="Selecionar Bahia" onClick={() => onSelectState('BA')}><span>Bahia</span></button>
-              <button className="state-map-hotspot state-map-hotspot--pe" type="button" aria-label="Selecionar Pernambuco" onClick={() => onSelectState('PE')}><span>Pernambuco</span></button>
-              <button className="state-map-hotspot state-map-hotspot--ce" type="button" aria-label="Selecionar Ceará" onClick={() => onSelectState('CE')}><span>Ceará</span></button>
+              <button className="state-map-hotspot state-map-hotspot--al" type="button" aria-label="Selecionar Alagoas" onClick={() => onSelectState('AL')}><span>Alagoas</span></button>
             </div>
           </div>
           <div className="state-selection__copy">
@@ -2048,10 +2272,17 @@ function StateSelectionPage({ onSelectState }) {
 }
 
 function AllDevelopmentsPage({ selectedState, onSelectState }) {
+  const [searchTerm, setSearchTerm] = useState('');
   const stateOption = getStateOption(selectedState);
   const stateDevelopments = getDevelopmentsByState(selectedState);
   const isAllStates = selectedState === ALL_STATES_OPTION.uf;
-  const stateGroups = isAllStates ? getDevelopmentGroupsByState(stateDevelopments) : [];
+  const normalizedSearchTerm = normalizeSearchText(searchTerm);
+  const filteredDevelopments = useMemo(() => (
+    normalizedSearchTerm
+      ? stateDevelopments.filter((development) => normalizeSearchText(development.name).includes(normalizedSearchTerm))
+      : stateDevelopments
+  ), [normalizedSearchTerm, stateDevelopments]);
+  const stateGroups = isAllStates ? getDevelopmentGroupsByState(filteredDevelopments) : [];
 
   return (
     <main className="all-developments-page" id="conteudo">
@@ -2087,7 +2318,17 @@ function AllDevelopmentsPage({ selectedState, onSelectState }) {
               ))}
             </div>
           </div>
-          {isAllStates ? (
+          <label className="developments-search">
+            <span>Buscar por nome do empreendimento</span>
+            <input
+              type="search"
+              value={searchTerm}
+              onChange={(event) => setSearchTerm(event.target.value)}
+              placeholder="Ex.: Mood Costa Azul"
+              aria-label="Buscar empreendimentos pelo nome"
+            />
+          </label>
+          {isAllStates && filteredDevelopments.length > 0 ? (
             <div className="all-developments-groups">
               {stateGroups.map((group) => (
                 <section className="all-developments-group" key={group.uf} aria-labelledby={`state-group-${group.uf}`}>
@@ -2102,15 +2343,15 @@ function AllDevelopmentsPage({ selectedState, onSelectState }) {
                 </section>
               ))}
             </div>
-          ) : stateDevelopments.length > 0 ? (
+          ) : !isAllStates && filteredDevelopments.length > 0 ? (
             <div className="developments__grid">
-              {stateDevelopments.map((development, index) => <DevelopmentCard key={development.slug} development={development} index={index} />)}
+              {filteredDevelopments.map((development, index) => <DevelopmentCard key={development.slug} development={development} index={index} />)}
             </div>
           ) : (
             <div className="state-empty-state">
               <span className="state-empty-state__mark" aria-hidden="true"><Icon name="building" size={28} /></span>
-              <h3>{stateOption ? 'Ainda não há empreendimentos disponíveis neste estado.' : 'Escolha um estado para ver os empreendimentos.'}</h3>
-              <p>{stateOption ? `Em breve, novas oportunidades chegarão para ${stateOption.name}.` : 'Clique em Empreendimentos no menu para selecionar Bahia, Pernambuco ou Ceará.'}</p>
+              <h3>{normalizedSearchTerm ? 'Nenhum empreendimento encontrado.' : stateOption ? 'Ainda não há empreendimentos disponíveis neste estado.' : 'Escolha um estado para ver os empreendimentos.'}</h3>
+              <p>{normalizedSearchTerm ? 'Tente buscar por outro nome.' : stateOption ? `Em breve, novas oportunidades chegarão para ${stateOption.name}.` : 'Clique em Empreendimentos no menu para selecionar Bahia ou Alagoas.'}</p>
             </div>
           )}
         </div>
@@ -2219,16 +2460,17 @@ function PrivacyPolicyPage() {
 function DevelopmentDetail({ development }) {
   const lightboxGroups = useMemo(() => (
     development ? {
-      gallery: development.gallery,
+      gallery: development.gallery.filter((item) => item.type !== 'video'),
       floorPlans: development.floorPlans,
       locationImages: development.locationImages || [],
     } : { gallery: [], floorPlans: [], locationImages: [] }
   ), [development]);
+  const videoGalleryItems = development?.gallery.filter((item) => item.type === 'video') || [];
   const [activeLightbox, setActiveLightbox] = useState(null);
   const touchStartX = useRef(null);
   const activeImages = activeLightbox ? lightboxGroups[activeLightbox.group] : [];
   const activeImage = activeLightbox ? activeImages[activeLightbox.index] : null;
-  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina'].includes(development?.slug);
+  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia'].includes(development?.slug);
   const visibleGalleryImages = lightboxGroups.gallery.slice(0, 5);
   const remainingGalleryCount = Math.max(0, lightboxGroups.gallery.length - visibleGalleryImages.length);
   const visibleFloorPlans = showAllOrganizedImages
@@ -2456,6 +2698,22 @@ function DevelopmentDetail({ development }) {
               </div>
             )}
           </div>
+          {videoGalleryItems.length > 0 && (
+            <div className="detail-gallery__videos">
+              <h3>Conheça o empreendimento em vídeo</h3>
+              <div className="detail-gallery__video-grid">
+                {videoGalleryItems.map((item) => (
+                  <article className="detail-gallery__video-card" key={item.src}>
+                    <video controls playsInline preload="metadata" poster={item.poster} aria-label={getImageTitle(item)}>
+                      <source src={item.src} type="video/mp4" />
+                      Seu navegador não oferece suporte à reprodução de vídeos.
+                    </video>
+                    <p>{getImageTitle(item)}</p>
+                  </article>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </section>
 
@@ -2595,6 +2853,14 @@ function ContactForm() {
           <p className="eyebrow eyebrow--light"><span /> Contato</p>
           <h2 id="contact-title">Vamos encontrar o imóvel ideal <em>para você.</em></h2>
           <p>Preencha o formulário ao lado ou fale diretamente comigo no WhatsApp. Vou entender o seu momento e indicar as melhores opções com segurança e transparência.</p>
+          <a className="contact-form__instagram" href="https://www.instagram.com/mdione.imoveis/" target="_blank" rel="noreferrer">
+            <span className="contact-form__instagram-icon"><Icon name="instagram" size={24} /></span>
+            <span className="contact-form__instagram-copy">
+              <strong>Acompanhe a Dione no Instagram</strong>
+              <small>Lançamentos, imóveis e novidades em primeira mão</small>
+              <b>@mdione.imoveis <Icon name="arrow" size={18} /></b>
+            </span>
+          </a>
           <div className="contact-form__details">
             <a href={WHATSAPP_URL} target="_blank" rel="noreferrer"><Icon name="whatsapp" size={25} /><span><small>WhatsApp</small>{WHATSAPP_DISPLAY}</span></a>
             <a href={`mailto:${CONTACT_EMAIL}`}><Icon name="mail" size={25} /><span><small>E-mail</small>{CONTACT_EMAIL}</span></a>
@@ -2701,6 +2967,14 @@ function ContactFormApi() {
           <p className="eyebrow eyebrow--light"><span /> Contato</p>
           <h2 id="contact-title">Vamos encontrar o imóvel ideal <em>para você.</em></h2>
           <p>Preencha o formulário ao lado ou fale diretamente comigo no WhatsApp. Vou entender o seu momento e indicar as melhores opções com segurança e transparência.</p>
+          <a className="contact-form__instagram" href="https://www.instagram.com/mdione.imoveis/" target="_blank" rel="noreferrer">
+            <span className="contact-form__instagram-icon"><Icon name="instagram" size={24} /></span>
+            <span className="contact-form__instagram-copy">
+              <strong>Acompanhe a Dione no Instagram</strong>
+              <small>Lançamentos, imóveis e novidades em primeira mão</small>
+              <b>@mdione.imoveis <Icon name="arrow" size={18} /></b>
+            </span>
+          </a>
           <div className="contact-form__details">
             <a href={WHATSAPP_URL} target="_blank" rel="noreferrer"><Icon name="whatsapp" size={25} /><span><small>WhatsApp</small>{WHATSAPP_DISPLAY}</span></a>
             <a href={`mailto:${CONTACT_EMAIL}`}><Icon name="mail" size={25} /><span><small>E-mail</small>{CONTACT_EMAIL}</span></a>
@@ -2862,6 +3136,85 @@ function SiteFooter() {
   );
 }
 
+function LinkBioPage() {
+  const bookingUrl = `https://wa.me/5571987803690?text=${encodeURIComponent('Olá, Dione! Gostaria de agendar um atendimento sobre os empreendimentos Moura Dubeux.')}`;
+  const linkItems = [
+    { title: 'Falar no WhatsApp', subtitle: 'Atendimento rápido e personalizado', icon: 'whatsapp', href: WHATSAPP_URL, external: true, primary: true },
+    { title: 'Ver empreendimentos', subtitle: 'Conheça os lançamentos da Moura Dubeux', icon: 'building', href: '/#todos-empreendimentos', onClick: () => saveSelectedStateToSession(ALL_STATES_OPTION.uf) },
+    { title: 'Acompanhar no Instagram', subtitle: 'Dicas, novidades e bastidores', icon: 'instagram', href: 'https://www.instagram.com/mdione.imoveis/', external: true },
+    { title: 'Agendar atendimento', subtitle: 'Escolha o melhor dia e horário', icon: 'calendar', href: bookingUrl, external: true },
+    { title: 'Conheça a Dione', subtitle: 'Minha trajetória e como posso te ajudar', icon: 'user', href: '/#sobre' },
+    { title: 'Fale comigo', subtitle: 'E-mail, telefone e localização', icon: 'mail', href: '/#contato' },
+  ];
+  const stateLinks = [
+    { uf: 'BA', title: 'Imóveis Bahia' },
+    { uf: 'AL', title: 'Imóveis Alagoas' },
+  ];
+
+  return (
+    <main className="link-bio-page" id="conteudo">
+      <div className="link-bio__container">
+        <a className="link-bio__brand" href="/" aria-label="Dione Menezes — ir para o site oficial">
+          <Brand variant="red" />
+        </a>
+
+        <header className="link-bio__profile">
+          <div className="link-bio__portrait-wrap">
+            <img className="link-bio__portrait" src={dionePhoto} alt="Dione Menezes" />
+          </div>
+          <h1>Dione Menezes</h1>
+          <p className="link-bio__role">Especialista de Vendas<br />Moura Dubeux</p>
+          <span className="link-bio__divider" aria-hidden="true" />
+          <p className="link-bio__description">Te ajudo a encontrar o imóvel ideal da Moura Dubeux, com atendimento personalizado e em todas as etapas da sua compra.</p>
+        </header>
+
+        <nav className="link-bio__links" aria-label="Links de Dione Menezes">
+          {linkItems.map((item) => (
+            <a
+              className={`link-bio__button${item.primary ? ' link-bio__button--primary' : ''}`}
+              href={item.href}
+              key={item.title}
+              onClick={item.onClick}
+              target={item.external ? '_blank' : undefined}
+              rel={item.external ? 'noopener noreferrer' : undefined}
+            >
+              <Icon name={item.icon} size={28} />
+              <span><strong>{item.title}</strong><small>{item.subtitle}</small></span>
+              <Icon className="link-bio__arrow" name="arrow" size={21} />
+            </a>
+          ))}
+        </nav>
+
+        <nav className="link-bio__regions" aria-label="Empreendimentos por estado">
+          {stateLinks.map((state) => (
+            <a
+              className="link-bio__region"
+              href="/#todos-empreendimentos"
+              key={state.uf}
+              onClick={() => saveSelectedStateToSession(state.uf)}
+            >
+              {state.title}<Icon name="arrow" size={17} />
+            </a>
+          ))}
+        </nav>
+
+        <a className="link-bio__email" href={`mailto:${CONTACT_EMAIL}`}>
+          <Icon name="mail" size={17} /> {CONTACT_EMAIL}
+        </a>
+
+        <div className="link-bio__socials" aria-label="Redes e contato">
+          <a href="https://www.instagram.com/mdione.imoveis/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><Icon name="instagram" size={20} /></a>
+          <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><Icon name="whatsapp" size={20} /></a>
+          <a href={`mailto:${CONTACT_EMAIL}`} aria-label="E-mail"><Icon name="mail" size={20} /></a>
+        </div>
+
+        <a className="link-bio__site" href="/">dionemenezes.com.br</a>
+        <p className="link-bio__location"><Icon name="pin" size={15} /> Salvador · Feira de Santana e região</p>
+      </div>
+    </main>
+  );
+}
+
 function App() {
   const [scrolled, setScrolled] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -2871,6 +3224,7 @@ function App() {
   const [selectedState, setSelectedState] = useState(readSelectedStateFromSession);
   const [stateSelectionOpen, setStateSelectionOpen] = useState(false);
   const [route, setRoute] = useState(() => decodeURIComponent(window.location.hash.replace(/^#/, '')));
+  const isLinkBioPage = window.location.pathname.replace(/\/+$/, '') === '/links';
   const sectionIds = useMemo(() => ['inicio', 'empreendimentos', 'sobre', 'contato'], []);
   const selectedDevelopment = route.startsWith('empreendimento/')
     ? developments.find((development) => development.slug === route.split('/')[1])
@@ -3006,7 +3360,7 @@ function App() {
   return (
     <div className="app-shell">
       <a className="skip-link" href="#conteudo">Pular para o conteúdo</a>
-      <Header
+      {!isLinkBioPage && <Header
         scrolled={scrolled || isDetailPage || isAllDevelopmentsPage || isPrivacyPage}
         headerProgress={isDetailPage || isAllDevelopmentsPage || isPrivacyPage ? 1 : scrollProgress}
         activeSection={activeSection}
@@ -3015,8 +3369,10 @@ function App() {
         selectedState={selectedState}
         onSelectState={handleSelectState}
         onNavigateToDevelopments={handleNavigateToDevelopments}
-      />
-      {isDetailPage
+      />}
+      {isLinkBioPage
+        ? <LinkBioPage />
+        : isDetailPage
         ? <DevelopmentDetail development={selectedDevelopment} />
         : isAllDevelopmentsPage
               ? stateSelectionOpen
@@ -3025,8 +3381,8 @@ function App() {
             : isPrivacyPage
               ? <PrivacyPolicyPage />
             : <main id="conteudo"><Hero currentSlide={currentSlide} setCurrentSlide={setCurrentSlide} onNavigateToDevelopments={handleNavigateToDevelopments} /><Developments onNavigateToDevelopments={handleNavigateToDevelopments} /><About /><ContactFormApi /><HomeVideo /></main>}
-      <SiteFooter />
-      <a className="floating-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noreferrer" aria-label="Falar com Dione no WhatsApp"><Icon name="whatsapp" size={27} /><span>Fale comigo</span></a>
+      {!isLinkBioPage && <SiteFooter />}
+      {!isLinkBioPage && <a className="floating-whatsapp" href={WHATSAPP_URL} target="_blank" rel="noreferrer" aria-label="Falar com Dione no WhatsApp"><Icon name="whatsapp" size={27} /><span>Fale comigo</span></a>}
     </div>
   );
 }

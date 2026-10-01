@@ -1,0 +1,20 @@
+ESTRUTURA DO PACOTE - MOOD COSTA AZUL
+======================================
+
+00_capa
+- Melhor imagem geral do empreendimento para uso como capa.
+
+01_imagens_empreendimento
+- Somente renders/imagens de como o empreendimento e os ambientes ficarão.
+- NÃO contém plantas.
+- Subdividido em fachadas/acesso, lazer/áreas comuns e apartamentos decorados.
+
+02_plantas
+- Somente plantas, implantação, pavimento de lazer, gardens e garagens.
+- NÃO contém renders promocionais.
+
+03_localizacao
+- Imagens do book referentes à localização e proximidade da orla.
+
+04_informacoes
+- TXT com as principais informações técnicas e comerciais extraídas do book.

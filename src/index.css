@@ -34,5 +34,5 @@ select {
 
 ::selection {
   color: #ffffff;
-  background: var(--brand-red);
+  background: var(--brand-primary);
 }

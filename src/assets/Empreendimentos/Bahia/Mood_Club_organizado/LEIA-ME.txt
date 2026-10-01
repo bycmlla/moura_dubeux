@@ -1,0 +1,17 @@
+ESTRUTURA DO PACOTE
+
+00_capa
+- Foto escolhida como capa do empreendimento.
+
+01_imagens_empreendimento
+- Somente renders/imagens de como ficará o empreendimento e os apartamentos.
+- NÃO contém plantas.
+
+02_plantas
+- Implantação, pavimentos, Garden e plantas dos apartamentos.
+
+03_localizacao
+- Imagens de localização e mapa de pontos próximos.
+
+04_informacoes
+- Informações do empreendimento em TXT.

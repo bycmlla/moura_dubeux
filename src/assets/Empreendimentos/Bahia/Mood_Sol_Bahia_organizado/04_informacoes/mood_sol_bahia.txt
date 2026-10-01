@@ -1,0 +1,133 @@
+MOOD SOL BAHIA - INFORMACOES DO EMPREENDIMENTO
+===================================================
+
+IDENTIFICACAO
+- Empreendimento: Mood Sol Bahia
+- Marca: Mood
+- Grupo: MDNE
+- Cidade: Salvador - Bahia
+- Endereco informado no book: R. Manoel Antonio Galvao, 1075 - Pituacu
+- Regiao: entre Patamares e Pituacu, proximo a orla e ao Parque de Pituacu.
+
+CONCEITO E LOCALIZACAO
+- O projeto combina proximidade do mar, areas verdes e acesso a servicos urbanos.
+- O endereco ocupou anteriormente o Hotel Sol Bahia Sleep, empreendimento hoteleiro inaugurado na decada de 1990.
+- O Parque de Pituacu e apresentado no material como uma das maiores areas verdes urbanas de Salvador, com mais de 400 hectares.
+
+DISTANCIAS DO ENTORNO INFORMADAS NO BOOK
+- Paris Delicatessen: 60 m
+- HiperIdeal: 210 m
+- Drogasil: 270 m
+- Atakarejo: 280 m
+- Hammer Fitness: 500 m
+- Faculdade Diplomata: 550 m
+- Faculdade UNIRB: 600 m
+- Teatro Diplomata: 650 m
+- Praia de Patamares: 750 m
+- Colegio Marista: 1,2 km
+
+FICHA TECNICA
+- Area do terreno: 15.391,67 m2
+- Configuracao: 3 torres residenciais - Mar, Sol e Brisa
+- Gabarito: terreo + 21 pavimentos tipo
+- 8 apartamentos por andar
+- Total: 522 apartamentos
+- 1 vaga de estacionamento por apartamento
+- Total de vagas: 553
+- Vagas externas: 4
+- Vagas para bicicleta: 80
+
+TIPOLOGIAS
+1) Apartamento Smart
+- 53,30 m2
+- 2 quartos
+- 1 suite
+- 1 vaga
+- 252 unidades
+
+2) Apartamento Comfort
+- 65,59 m2
+- 3 quartos
+- 1 suite
+- 1 vaga
+- 252 unidades
+
+3) Apartamentos Garden
+- 81,05 m2 - 2 quartos, 1 suite
+- 90,10 m2 - 3 quartos, 1 suite
+- 1 vaga por unidade
+
+LAZER E AREAS COMUNS
+- Mais de 2.800 m2 de areas de lazer a ceu aberto
+- Salao de festas
+- Terraco
+- Playground / parque infantil
+- Festas Kids
+- Brinquedoteca
+- Areas de convivencia
+- Piscina com raia de 20 m
+- Piscina adulto e infantil
+- Gourmet piscina / gourmets com churrasqueira
+- Gourmet interno
+- Espaco mirante com redario e piquenique
+- Praca arborizada
+- Horta coletiva
+- Pet place
+- Pet care
+- Salao de jogos
+- Quadra recreativa
+- Academia
+- Coworking
+- Mini market
+- Lavanderia
+- Bicicletario
+
+PROJETOS
+- Projeto de Arquitetura: Ricardo Farias
+- Projeto de Paisagismo: Takeda Design
+- Projeto de Ambientacao: Tenari Arquitetura
+- A academia possui consultoria de projeto indicada no book pela Matrix Fitness.
+
+ACADEMIA - EQUIPAMENTOS INDICADOS NO BOOK
+- Smith Machine
+- Cross Over
+- Peitoral / Dorsal
+- Puxador 2x1
+- Leg Press
+- Adutor / Abdutor
+- Flexora / Extensora
+- Esteiras profissionais
+- Eliptico profissional
+- Bicicleta horizontal
+- Spinning
+
+VARANDAS E ENTREGA
+- As unidades possuem varanda com infraestrutura de instalacoes para bancada gourmet.
+- O book informa que a bancada e os metais da varanda nao fazem parte da entrega padrao; ficam previstas as infraestruturas de agua, esgoto e eletrica.
+- As areas dos ambientes indicadas nas plantas sao areas privativas.
+- Paredes estruturais / de concreto nao podem ser removidas.
+
+SUSTENTABILIDADE
+- O material apresenta o empreendimento como projetado com diretrizes voltadas a sustentabilidade, relacao harmoniosa com a cidade e bem-estar.
+
+OBSERVACOES DO MATERIAL
+- As imagens e perspectivas sao ilustrativas e promocionais e podem sofrer ajustes conforme exigencias legais, normativas, estruturais ou de instalacoes.
+- Mobiliario, utensilios, equipamentos e decoracoes ilustrados nao integram necessariamente o contrato ou as unidades.
+- A entrega dos apartamentos deve seguir o memorial descritivo, especificacoes tecnicas e plantas anexadas ao contrato.
+
+ORGANIZACAO DESTE ZIP
+- 00_capa: melhor imagem escolhida para uso como capa/hero.
+- 01_imagens_empreendimento: renders limpos do empreendimento, lazer, areas comuns e interiores; nenhuma planta foi misturada nesta pasta.
+- 02_plantas/apartamentos: plantas de apartamentos, pavimento tipo e gardens.
+- 02_plantas/implantacao_e_areas_comuns: implantacoes, diagramas das torres e layouts de lazer/academia.
+- 03_localizacao: vista aerea da regiao e mapa do entorno.
+- 04_informacoes: este arquivo de texto.
+
+PAGINAS DE ORIGEM PRINCIPAIS NO BOOK
+- Localizacao e entorno: paginas 3 a 5
+- Visuais gerais das torres: paginas 5 a 8
+- Implantacao / acessos: paginas 9 a 11 e 37
+- Lazer e areas comuns: paginas 12 a 35
+- Plantas e interiores dos apartamentos: paginas 38 a 48
+- Ficha tecnica: pagina 51
+- Endereco / aviso legal: pagina 53
