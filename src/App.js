@@ -101,12 +101,17 @@ import cyanoBook from './assets/Empreendimentos/Cyano/BOOK_CYANO.pdf';
 import beachClassBahiaVideo1 from './assets/Empreendimentos/Bahia/videos/beachclassbahiabahiavideo1.mp4';
 import beachClassBahiaVideo2 from './assets/Empreendimentos/Bahia/videos/beachclassbahiabahiavideo2.mp4';
 import beachClassJaguaribeVideo from './assets/Empreendimentos/Bahia/videos/beachclassjaguaribevideo.mp4';
+import sombreirosVideo from './assets/Empreendimentos/Bahia/videos/casa_sombreiros.mp4';
 import elleveVideo from './assets/Empreendimentos/Bahia/videos/ellevevideo.mp4';
+import infinityVideo from './assets/Empreendimentos/Bahia/videos/Infinity Salvador.mp4';
 import miratMartinsVideo from './assets/Empreendimentos/Bahia/videos/miratmartinsvideo.mp4';
 import moodCostaAzulVideo from './assets/Empreendimentos/Bahia/videos/moodcostaazulvideo.mp4';
 import moodSolBahiaVideo1 from './assets/Empreendimentos/Bahia/videos/moodsolbahia.mp4';
 import moodSolBahiaVideo2 from './assets/Empreendimentos/Bahia/videos/moodsolbahiavideo2.mp4';
+import poemeHortoVideo from './assets/Empreendimentos/Bahia/videos/poeme.mp4';
 import salvador220Video from './assets/Empreendimentos/Bahia/videos/salvador220video.mp4';
+import unicaCardealVideo from './assets/Empreendimentos/Bahia/videos/unica_cardeal.mp4';
+import vivantVideo from './assets/Empreendimentos/Bahia/videos/Vivant.mp4';
 import hortoEssenceBook from './assets/Empreendimentos/hortoessence/MD0037_21_BOOK_DIGITAL_14_-_FINALIZADO_2.pdf';
 import mansaoOthonBook from './assets/Empreendimentos/mansaoothon/MD-MansaoOthon-Book.2.pdf';
 import miratMartinsBook from './assets/Empreendimentos/miratmartins/Book_Mirat_Digital_Final2.pdf';
@@ -1176,6 +1181,7 @@ const additionalDevelopments = [
       { src: poemeHortoApartment173Expanded, titulo: 'Sala ampliada - apartamento 173,18 m²' },
       { src: poemeHortoApartment173Kitchen, titulo: 'Cozinha aberta - apartamento 173,18 m², opção de planta' },
       { src: poemeHortoSuite173, titulo: 'Suíte master - apartamento 173,18 m²' },
+      { src: poemeHortoVideo, type: 'video', poster: poemeHortoOrganizedCover, titulo: 'Vídeo do Poème Horto' },
     ],
     floorPlans: [
       { src: poemeHortoGroundPlan, titulo: 'Implantação - térreo' },
@@ -1411,6 +1417,7 @@ const additionalDevelopments = [
       { src: vivantMasterSuite, titulo: 'Suíte master' },
       { src: vivantHomeTheater, titulo: 'Home theater / office - ambiente sugerido' },
       { src: vivantExpandedSuite, titulo: 'Suíte master ampliada - ambiente sugerido' },
+      { src: vivantVideo, type: 'video', poster: vivantOrganizedCover, titulo: 'Vídeo do Vivant' },
     ],
     floorPlans: [
       { src: vivantCatabasPlan, titulo: 'Implantação - Pavimento Catabas' },
@@ -1532,6 +1539,7 @@ const additionalDevelopments = [
       { src: unicaCardealHomeBedroom, titulo: 'Quarto de casal do apartamento Home' },
       { src: unicaCardealHomeSecondBedroom, titulo: 'Segundo quarto do apartamento Home' },
       { src: unicaCardealLivingSecondBedroom, titulo: 'Segundo quarto do apartamento Living' },
+      { src: unicaCardealVideo, type: 'video', poster: unicaCardealCover, titulo: 'Vídeo do Única Cardeal' },
     ],
     floorPlans: [
       { src: unicaCardealGeneralPlan, titulo: 'Implantação geral do empreendimento' },
@@ -1879,6 +1887,7 @@ const developments = [
       { src: sombreirosMasterSuite, titulo: 'Suíte master ampliada com closet' },
       { src: sombreirosLivingIntegrated, titulo: 'Living ampliado com cozinha integrada' },
       { src: sombreirosLivingExpanded, titulo: 'Living ampliado' },
+      { src: sombreirosVideo, type: 'video', poster: sombreirosOrganizedCover, titulo: 'Vídeo do Casa Sombreiros' },
     ],
     floorPlans: [
       { src: sombreirosLeisurePlan, titulo: 'Implantação do pavimento de lazer' },
@@ -1938,6 +1947,7 @@ const developments = [
       { src: infinityDentalOffice, titulo: 'Consultório odontológico - 1 coluna' },
       { src: infinityOfficeTwoColumns, titulo: 'Escritório - 2 colunas integradas' },
       { src: infinityOfficeFourColumns, titulo: 'Escritório - 4 colunas integradas' },
+      { src: infinityVideo, type: 'video', poster: infinityOrganizedCover, titulo: 'Vídeo do Infinity Salvador' },
     ],
     floorPlans: [
       { src: infinityGeneralPlan, titulo: 'Implantação geral do complexo Infinity Salvador' },
