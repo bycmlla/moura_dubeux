@@ -1,18 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.4664ad5c.css",
-    "main.js": "/static/js/main.b6ae81c8.js",
+    "main.js": "/static/js/main.1debe5b7.js",
     "static/js/453.6d910dab.chunk.js": "/static/js/453.6d910dab.chunk.js",
+    "static/media/Vivant.mp4": "/static/media/Vivant.5c0684c151e6125cd573.mp4",
+    "static/media/Infinity Salvador.mp4": "/static/media/Infinity Salvador.f050f965ecaf6eacfb71.mp4",
     "static/media/Book-_Jardins_do_Parque_1_TEjna4X.pdf": "/static/media/Book-_Jardins_do_Parque_1_TEjna4X.cc6a7aa234267e25ac4c.pdf",
+    "static/media/unica_cardeal.mp4": "/static/media/unica_cardeal.40c2031902a7eb09b65c.mp4",
     "static/media/MD0037_21_BOOK_DIGITAL_14_-_FINALIZADO_2.pdf": "/static/media/MD0037_21_BOOK_DIGITAL_14_-_FINALIZADO_2.ebbbfd727280a88b6897.pdf",
     "static/media/book.pdf": "/static/media/book.38e806071155b09bebb8.pdf",
     "static/media/MD_Beach_Class_Bahia_Book_v47_.pdf": "/static/media/MD_Beach_Class_Bahia_Book_v47_.399f5323ca35c52f7b41.pdf",
     "static/media/MD-MansaoOthon-Book.2.pdf": "/static/media/MD-MansaoOthon-Book.2.18178a4e246a5920466f.pdf",
     "static/media/MD0024_22_Book_1920x1080_19.pdf": "/static/media/MD0024_22_Book_1920x1080_19.15a2bbaca6ef1f5e15f9.pdf",
+    "static/media/poeme.mp4": "/static/media/poeme.e0d1b249ee66874c9aa2.mp4",
     "static/media/video.mp4": "/static/media/video.71366ece8b00ad31b35c.mp4",
     "static/media/Book_Digital_Poeme-11b.pdf": "/static/media/Book_Digital_Poeme-11b.77715f66525aae37e7e6.pdf",
     "static/media/Book_Digital_Vivant-Final_1.pdf": "/static/media/Book_Digital_Vivant-Final_1.98945f4aeb16421423d7.pdf",
     "static/media/BOOK_SALVADOR_220_1.pdf": "/static/media/BOOK_SALVADOR_220_1.d1adcfa6dcfbe99c54a3.pdf",
+    "static/media/casa_sombreiros.mp4": "/static/media/casa_sombreiros.ca28137e8896d240fac0.mp4",
     "static/media/beachclassbahiabahiavideo1.mp4": "/static/media/beachclassbahiabahiavideo1.b7f40dd8950f90a056d7.mp4",
     "static/media/Book_Digital_Rive-21.pdf": "/static/media/Book_Digital_Rive-21.8edffb92fe2cd4506d04.pdf",
     "static/media/miratmartinsvideo.mp4": "/static/media/miratmartinsvideo.db96444f5556b42c2ea2.mp4",
@@ -564,11 +569,11 @@
     "static/media/logo1.png": "/static/media/logo1.addc499d2735b97c70c5.png",
     "index.html": "/index.html",
     "main.4664ad5c.css.map": "/static/css/main.4664ad5c.css.map",
-    "main.b6ae81c8.js.map": "/static/js/main.b6ae81c8.js.map",
+    "main.1debe5b7.js.map": "/static/js/main.1debe5b7.js.map",
     "453.6d910dab.chunk.js.map": "/static/js/453.6d910dab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4664ad5c.css",
-    "static/js/main.b6ae81c8.js"
+    "static/js/main.1debe5b7.js"
   ]
 }
