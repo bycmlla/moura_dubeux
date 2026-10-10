@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4664ad5c.css",
-    "main.js": "/static/js/main.1debe5b7.js",
+    "main.css": "/static/css/main.71ce2415.css",
+    "main.js": "/static/js/main.a80a90c8.js",
     "static/js/453.6d910dab.chunk.js": "/static/js/453.6d910dab.chunk.js",
     "static/media/Vivant.mp4": "/static/media/Vivant.5c0684c151e6125cd573.mp4",
     "static/media/Infinity Salvador.mp4": "/static/media/Infinity Salvador.f050f965ecaf6eacfb71.mp4",
@@ -562,18 +562,18 @@
     "static/media/implantacao_pavimento_wellness.png": "/static/media/implantacao_pavimento_wellness.40eaa4e32f3c6e5b66ce.png",
     "static/media/Bandeira_de_Alagoas.svg": "/static/media/Bandeira_de_Alagoas.edde2b6ec22f41d54c0db0e9cc62da70.svg",
     "static/media/laundry_omo.png": "/static/media/laundry_omo.d40f11280abb12220070.png",
+    "static/media/logocomplementar2bkp.png": "/static/media/logocomplementar2bkp.76d24c09a4aa569d2cd3.png",
     "static/media/dione-foto1.jpg": "/static/media/dione-foto1.ebdab7c319451ffb631f.jpg",
-    "static/media/logocomplementar2.png": "/static/media/logocomplementar2.4891087ff85443a5dd64.png",
     "static/media/logocomplementar1.png": "/static/media/logocomplementar1.c696508472208c0f3a10.png",
     "static/media/logo2vermelho.png": "/static/media/logo2vermelho.2035784ef3088ec6a500.png",
     "static/media/logo1.png": "/static/media/logo1.addc499d2735b97c70c5.png",
     "index.html": "/index.html",
-    "main.4664ad5c.css.map": "/static/css/main.4664ad5c.css.map",
-    "main.1debe5b7.js.map": "/static/js/main.1debe5b7.js.map",
+    "main.71ce2415.css.map": "/static/css/main.71ce2415.css.map",
+    "main.a80a90c8.js.map": "/static/js/main.a80a90c8.js.map",
     "453.6d910dab.chunk.js.map": "/static/js/453.6d910dab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4664ad5c.css",
-    "static/js/main.1debe5b7.js"
+    "static/css/main.71ce2415.css",
+    "static/js/main.a80a90c8.js"
   ]
 }
