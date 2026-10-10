@@ -6,7 +6,8 @@ body,
 
 body {
   margin: 0;
-  background: #ffffff;
+  color: var(--ink);
+  background: var(--paper);
   font-family: 'DM Sans', 'Segoe UI', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -33,6 +34,6 @@ select {
 }
 
 ::selection {
-  color: #ffffff;
+  color: var(--surface);
   background: var(--brand-primary);
 }

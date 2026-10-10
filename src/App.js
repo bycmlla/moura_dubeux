@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { FaWhatsapp } from 'react-icons/fa';
 import './App.css';
 import { getStateNameFromLocation, getStateNameFromUf, getUfFromLocation } from './utils/location';
 
@@ -8,7 +9,7 @@ import homeVideoThumbnail from './assets/thumb.png';
 import logoLight from './assets/logo1.png';
 import logoRed from './assets/logo2vermelho.png';
 import logoComplementLight from './assets/logocomplementar1.png';
-import logoComplementRed from './assets/logocomplementar2.png';
+import logoComplementRed from './assets/logocomplementar2bkp.png';
 import brazilMap from './assets/mapa.png';
 import bahiaFlag from './assets/Bandeira_da_Bahia.png';
 import alagoasFlag from './assets/Bandeira_de_Alagoas.svg';
@@ -655,7 +656,7 @@ const createPublicAssetPath = (path) => `${PUBLIC_ASSET_BASE}${path.startsWith('
 
 const heroSlides = [
   { src: heroBanner1, position: 'center center', alt: 'Empreendimento residencial ao pôr do sol' },
-  { src: heroBanner2, position: 'center center', alt: 'Empreendimento à beira-mar em Salvador' },
+  { src: heroBanner2, position: 'center 25%', alt: 'Empreendimento à beira-mar em Salvador' },
   { src: heroBanner3, position: 'center center', alt: 'Torres residenciais em meio à cidade' },
 ];
 
@@ -2028,12 +2029,12 @@ function Brand({ variant = 'auto' }) {
     <span className={`brand brand--${variant}`} aria-label="Dione Menezes">
       <span className="brand__mark" aria-hidden="true">
         <img className="brand__logo brand__logo--light" src={logoLight} alt="" />
-        <img className="brand__logo brand__logo--red" src={logoRed} alt="" />
+        <span className="brand__logo brand__logo--red" style={{ maskImage: `url(${logoRed})` }} />
       </span>
       <span className="brand__divider" aria-hidden="true" />
       <span className="brand__complement" aria-hidden="true">
         <img className="brand__complement-logo brand__complement-logo--light" src={logoComplementLight} alt="" />
-        <img className="brand__complement-logo brand__complement-logo--red" src={logoComplementRed} alt="" />
+        <span className="brand__complement-logo brand__complement-logo--red" style={{ maskImage: `url(${logoComplementRed})` }} />
       </span>
     </span>
   );
@@ -2132,12 +2133,12 @@ function Header({ scrolled, activeSection, menuOpen, setMenuOpen, headerProgress
             >{label}</a>
           ))}
           <a className="button button--header button--mobile-contact" href={WHATSAPP_URL} target="_blank" rel="noreferrer">
-            <Icon name="whatsapp" size={19} /> Falar no WhatsApp
+            <FaWhatsapp size={22} aria-hidden="true" /> Falar no WhatsApp
           </a>
         </nav>
         <StateSelector selectedState={selectedState} onSelectState={onSelectState} />
         <a className="button button--header site-header__contact" href={WHATSAPP_URL} target="_blank" rel="noreferrer">
-          <Icon name="whatsapp" size={19} /> Falar no WhatsApp
+          <FaWhatsapp size={22} aria-hidden="true" /> Falar no WhatsApp
         </a>
         <button className="menu-toggle" type="button" aria-label={menuOpen ? 'Fechar menu' : 'Abrir menu'}
           aria-expanded={menuOpen} onClick={() => setMenuOpen((open) => !open)}>
@@ -2154,7 +2155,7 @@ function Hero({ currentSlide, setCurrentSlide, onNavigateToDevelopments }) {
       <div className="hero__media" aria-hidden="true">
         {heroSlides.map((slide, index) => (
           <img key={slide.src} src={slide.src} alt="" className={currentSlide === index ? 'is-active' : ''}
-            style={{ objectPosition: slide.position }} fetchPriority={index === 0 ? 'high' : 'auto'} />
+            style={{ objectPosition: slide.position }} fetchPriority={currentSlide === index ? 'high' : 'auto'} />
         ))}
       </div>
       <div className="hero__overlay" />
@@ -2920,7 +2921,7 @@ function ContactForm() {
           </label>
           <button className="button contact-form__submit" type="submit">Enviar solicitação <Icon name="arrow" size={19} /></button>
           <div className="contact-form__divider"><span>ou</span></div>
-          <a className="contact-form__alternate" href={WHATSAPP_URL} target="_blank" rel="noreferrer"><Icon name="whatsapp" size={22} /> Ou, se preferir, converse pelo <strong>WhatsApp.</strong></a>
+          <a className="contact-form__alternate" href={WHATSAPP_URL} target="_blank" rel="noreferrer"><FaWhatsapp size={22} aria-hidden="true" /> Ou, se preferir, converse pelo <strong>WhatsApp.</strong></a>
         </form>
       </div>
     </section>
@@ -3041,7 +3042,7 @@ function ContactFormApi() {
             </p>
           )}
           <div className="contact-form__divider"><span>ou</span></div>
-          <a className="contact-form__alternate" href={WHATSAPP_URL} target="_blank" rel="noreferrer"><Icon name="whatsapp" size={22} /> Ou, se preferir, converse pelo <strong>WhatsApp.</strong></a>
+          <a className="contact-form__alternate" href={WHATSAPP_URL} target="_blank" rel="noreferrer"><FaWhatsapp size={22} aria-hidden="true" /> Ou, se preferir, converse pelo <strong>WhatsApp.</strong></a>
         </form>
       </div>
     </section>
@@ -3230,7 +3231,7 @@ function App() {
   const [scrollProgress, setScrollProgress] = useState(0);
   const [menuOpen, setMenuOpen] = useState(false);
   const [activeSection, setActiveSection] = useState('inicio');
-  const [currentSlide, setCurrentSlide] = useState(0);
+  const [currentSlide, setCurrentSlide] = useState(1);
   const [selectedState, setSelectedState] = useState(readSelectedStateFromSession);
   const [stateSelectionOpen, setStateSelectionOpen] = useState(false);
   const [route, setRoute] = useState(() => decodeURIComponent(window.location.hash.replace(/^#/, '')));
