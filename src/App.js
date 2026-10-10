@@ -13,9 +13,16 @@ import logoComplementRed from './assets/logocomplementar2bkp.png';
 import brazilMap from './assets/mapa.png';
 import bahiaFlag from './assets/Bandeira_da_Bahia.png';
 import alagoasFlag from './assets/Bandeira_de_Alagoas.svg';
-import heroBanner1 from './assets/banners/novobanner1.webp';
-import heroBanner2 from './assets/banners/novobanner2.jpg';
-import heroBanner3 from './assets/banners/novobanner3.png';
+import heroBanner1 from './assets/banners/banner1.jpg';
+import heroBanner2 from './assets/banners/banner2.webp';
+import heroBanner3 from './assets/banners/banner3.png';
+import heroBanner4 from './assets/banners/banner4.png';
+import heroBanner5 from './assets/banners/banner5.png';
+import heroBanner6 from './assets/banners/banner6.png';
+import heroBanner7 from './assets/banners/banner7.png';
+import heroBanner8 from './assets/banners/banner8.jpg';
+import heroBanner9 from './assets/banners/banner9.png';
+import heroBanner10 from './assets/banners/banner10.png';
 import elleveBook from './assets/Empreendimentos/elleve-horto/book.pdf';
 import elleveOrganizedCover from './assets/Empreendimentos/Elleve_Horto_Organizado/capa/capa_elleve_horto.png';
 import elleveFacade from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/fachadas/fachada_torre_elleve_horto.png';
@@ -655,9 +662,16 @@ const PUBLIC_ASSET_BASE = process.env.PUBLIC_URL || '';
 const createPublicAssetPath = (path) => `${PUBLIC_ASSET_BASE}${path.startsWith('/') ? path : `/${path}`}`;
 
 const heroSlides = [
-  { src: heroBanner1, position: 'center center', alt: 'Empreendimento residencial ao pôr do sol' },
-  { src: heroBanner2, position: 'center 25%', alt: 'Empreendimento à beira-mar em Salvador' },
-  { src: heroBanner3, position: 'center center', alt: 'Torres residenciais em meio à cidade' },
+  { src: heroBanner1, position: 'center center', sideNote: 'blue', alt: 'Torre residencial à beira-mar sobre o costão rochoso' },
+  { src: heroBanner2, position: 'center center', sideNote: 'white', alt: 'Duas torres residenciais ao anoitecer com vista para o mar' },
+  { src: heroBanner3, position: 'center center', sideNote: 'white', alt: 'Varandas iluminadas com a cidade ao fundo ao anoitecer' },
+  { src: heroBanner4, position: 'center center', sideNote: 'white', alt: 'Varandas com vista para a cidade ao pôr do sol' },
+  { src: heroBanner5, position: 'center center', sideNote: 'white', alt: 'Varandas com vista para o mar e a orla' },
+  { src: heroBanner6, position: 'center center', sideNote: 'white', alt: 'Rooftop com piscina e vista para o mar ao pôr do sol' },
+  { src: heroBanner7, position: 'center center', sideNote: 'white', alt: 'Empreendimento à beira-mar com orla e coqueiros' },
+  { src: heroBanner8, position: 'center center', sideNote: 'white', alt: 'Torre residencial com área de lazer ao entardecer' },
+  { src: heroBanner9, position: 'center center', sideNote: 'white', alt: 'Fachada com varandas e vista para a praia' },
+  { src: heroBanner10, position: 'center center', sideNote: 'blue', alt: 'Torre residencial em meio à cidade com o mar ao fundo' },
 ];
 
 const createBookPages = (slug, total) => Array.from({ length: total }, (_, index) => ({
@@ -2174,7 +2188,7 @@ function Hero({ currentSlide, setCurrentSlide, onNavigateToDevelopments }) {
             <Icon name="instagram" size={17} /> Siga @mdione.imoveis
           </a>
         </div>
-        <div className="hero__side-note" aria-hidden="true"><span /><p>Mais que imóveis,<br />novos capítulos<br />começam aqui.</p></div>
+        <div className={`hero__side-note hero__side-note--${heroSlides[currentSlide].sideNote}`} aria-hidden="true"><span /><p>Mais que imóveis,<br />novos capítulos<br />começam aqui.</p></div>
       </div>
       <div className="container hero__footer">
         <div className="hero__controls" aria-label="Selecionar banner da página inicial">
