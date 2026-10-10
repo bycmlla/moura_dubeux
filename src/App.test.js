@@ -73,21 +73,20 @@ test('renders the all developments page from the see all link', async () => {
   expect(screen.getByRole('heading', { name: 'Infinity Salvador Business' })).toBeInTheDocument();
 });
 
-test('asks for a state on the first access and filters Pernambuco without mixing Bahia', async () => {
+test('asks for a state on the first access and filters Alagoas without mixing Bahia', async () => {
   render(<App />);
   const header = within(document.querySelector('.site-header'));
   fireEvent.click(header.getByRole('link', { name: 'Empreendimentos' }));
 
   await waitFor(() => expect(screen.getByRole('heading', { name: /qual será o seu próximo endereço/i })).toBeInTheDocument());
   expect(screen.getByRole('button', { name: 'Bahia' })).toBeInTheDocument();
-  expect(screen.getByRole('button', { name: 'Pernambuco' })).toBeInTheDocument();
-  expect(screen.getByRole('button', { name: 'Ceará' })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'Alagoas' })).toBeInTheDocument();
   expect(screen.queryByRole('heading', { name: /todos os empreendimentos/i })).not.toBeInTheDocument();
 
-  fireEvent.click(screen.getByRole('button', { name: 'Pernambuco' }));
+  fireEvent.click(screen.getByRole('button', { name: 'Alagoas' }));
 
   expect(screen.getByRole('heading', { name: /todos os empreendimentos/i })).toBeInTheDocument();
-  expect(screen.getByText(/ainda não há empreendimentos disponíveis neste estado/i)).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Jardins do Parque' })).toBeInTheDocument();
   expect(screen.queryByRole('heading', { name: 'Elleve Horto' })).not.toBeInTheDocument();
 });
 
@@ -120,9 +119,10 @@ test('uses the map and header dropdown to change the selected state', async () =
   expect(screen.getByRole('heading', { name: 'Elleve Horto' })).toBeInTheDocument();
 
   fireEvent.click(screen.getByRole('button', { name: /Bahia/, expanded: false }));
-  fireEvent.click(screen.getByRole('menuitem', { name: 'Ceará' }));
+  fireEvent.click(screen.getByRole('menuitem', { name: 'Alagoas' }));
 
-  expect(screen.getByText(/ainda não há empreendimentos disponíveis neste estado/i)).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Jardins do Parque' })).toBeInTheDocument();
+  expect(screen.queryByRole('heading', { name: 'Elleve Horto' })).not.toBeInTheDocument();
 });
 
 test('shows the state selection again after a new visit', async () => {
