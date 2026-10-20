@@ -1,0 +1,24 @@
+PACOTE BEACH CLASS CUMBUCO
+========================
+Total de 43 imagens PNG e arquivos de texto/catálogo.
+
+PASTAS
+01_Capa - foto conceitual principal escolhida: vista aérea à beira-mar (página 11)
+02_Imagens_Empreendimento - 23 perspectivas dos ambientes previstos; NÃO inclui plantas
+03_Plantas_e_Implantacao - 13 plantas com os rótulos e medidas do book; NÃO inclui imagens de divulgação
+04_Contexto_Praia_Cumbuco - 5 fotografias de praia/kitesurf (NÃO são imagens do empreendimento)
+05_Localizacao - mapa de localização ilustrativo (página 8)
+
+ARQUIVOS PRINCIPAIS
+informacoes_empreendimento.txt - informação estruturada fiel ao PDF
+manifesto_imagens.csv - inventário de todas as imagens, páginas de origem e nomes
+
+PROCESSAMENTO
+- Cada cena da pasta de perspectivas foi extraída de sua imagem embutida no PDF e convertida para PNG.
+- As plantas foram exportadas de suas páginas completas para preservar títulos, observações, legendas, metragens e vínculos entre pavimentos.
+- O arquivo de capa é uma duplicação intencional da melhor vista aérea de empreendimento.
+- Não houve geração por IA nem adição de elementos novos.
+- Algumas cenas publicitárias do PDF são perspectivas ARTÍSTICAS / ilustrativas, não fotos de construção pronta.
+- Cada PNG identifica um ambiente ou uma prancha; a classificação de páginas está no manifesto.
+
+ARQUIVO ORIGINAL: Book Digital BC Cumbuco-11.pdf

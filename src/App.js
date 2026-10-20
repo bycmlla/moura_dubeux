@@ -13,6 +13,8 @@ import logoComplementRed from './assets/logocomplementar2bkp.png';
 import brazilMap from './assets/mapa.png';
 import bahiaFlag from './assets/Bandeira_da_Bahia.png';
 import alagoasFlag from './assets/Bandeira_de_Alagoas.svg';
+import pernambucoFlag from './assets/Bandeira_de_Pernambuco.svg';
+import cearaFlag from './assets/Bandeira_do_Ceará.svg';
 import heroBanner1 from './assets/banners/banner1.jpg';
 import heroBanner2 from './assets/banners/banner2.webp';
 import heroBanner3 from './assets/banners/banner3.png';
@@ -23,89 +25,82 @@ import heroBanner7 from './assets/banners/banner7.png';
 import heroBanner8 from './assets/banners/banner8.jpg';
 import heroBanner9 from './assets/banners/banner9.png';
 import heroBanner10 from './assets/banners/banner10.png';
-import elleveBook from './assets/Empreendimentos/elleve-horto/book.pdf';
-import elleveOrganizedCover from './assets/Empreendimentos/Elleve_Horto_Organizado/capa/capa_elleve_horto.png';
-import elleveFacade from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/fachadas/fachada_torre_elleve_horto.png';
-import elleveAccess from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/fachadas/acesso_principal_rua_piratancara.png';
-import elleveFacadeDetail from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/fachadas/detalhe_fachada_varandas.png';
-import ellevePool from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/piscina_adulto_raia_25m.png';
-import elleveLeisureAerial from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/pavimento_lazer_vista_aerea.png';
-import elleveLoungeCascade from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/lounge_externo_com_cascata.png';
-import ellevePlayground from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/parque_infantil.png';
-import elleveCourt from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/quadra_recreativa.png';
-import elleveLobby from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/lobby_social_elevadores.png';
-import ellevePartyRoom from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas.png';
-import ellevePlayroom from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca.png';
-import elleveGamesRoom from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/sala_de_jogos.png';
-import elleveGym from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/academia.png';
-import ellevePoolGourmet from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/gourmet_piscina.png';
-import elleveCourtSupport from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/apoio_quadra.png';
-import elleveLiving119 from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/apartamentos/living_apartamento_119m2.png';
-import elleveLiving150 from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/apartamentos/living_apartamento_150m2.png';
-import elleveLiving150Option from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/apartamentos/living_opcao_apartamento_150m2.png';
-import elleveMasterSuite119 from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/apartamentos/suite_master_apartamento_119m2.png';
-import elleveMasterSuite150 from './assets/Empreendimentos/Elleve_Horto_Organizado/imagens_empreendimento/apartamentos/suite_master_apartamento_150m2.png';
-import elleveLocationMap from './assets/Empreendimentos/Elleve_Horto_Organizado/localizacao/mapa_horto_florestal_entorno.png';
-import elleveLocationAerial from './assets/Empreendimentos/Elleve_Horto_Organizado/localizacao/vista_aerea_horto_florestal.png';
-import elleveGeneralPlan from './assets/Empreendimentos/Elleve_Horto_Organizado/plantas/implantacao_geral.png';
-import elleveGarageG1Plan from './assets/Empreendimentos/Elleve_Horto_Organizado/plantas/pavimento_g1_garagem.png';
-import elleveGarageG2Plan from './assets/Empreendimentos/Elleve_Horto_Organizado/plantas/pavimento_g2_garagem.png';
-import elleveLeisurePlan from './assets/Empreendimentos/Elleve_Horto_Organizado/plantas/pavimento_lazer.png';
-import elleveTypicalFloorPlan from './assets/Empreendimentos/Elleve_Horto_Organizado/plantas/pavimento_tipo_colunas_1_e_2.png';
-import ellevePlan119Standard from './assets/Empreendimentos/Elleve_Horto_Organizado/plantas/planta_119m2_3_suites_padrao.png';
-import ellevePlan119OptionTv from './assets/Empreendimentos/Elleve_Horto_Organizado/plantas/planta_119m2_2_suites_sala_tv_gabinete.png';
-import ellevePlan119OptionKitchen from './assets/Empreendimentos/Elleve_Horto_Organizado/plantas/planta_119m2_2_suites_cozinha_integrada.png';
-import ellevePlan150Standard from './assets/Empreendimentos/Elleve_Horto_Organizado/plantas/planta_150m2_4_suites_padrao.png';
-import ellevePlan150OptionTv from './assets/Empreendimentos/Elleve_Horto_Organizado/plantas/planta_150m2_3_suites_sala_tv_gabinete.png';
-import ellevePlan150OptionKitchen from './assets/Empreendimentos/Elleve_Horto_Organizado/plantas/planta_150m2_3_suites_cozinha_ampliada.png';
-import sombreirosBook from './assets/Empreendimentos/casa-sombreiros/book.pdf';
-import sombreirosOrganizedCover from './assets/Empreendimentos/Casa_Sombreiros_Organizado/capa/capa_casa_sombreiros.png';
-import sombreirosTower from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/fachadas/torre_casa_sombreiros.png';
-import sombreirosEmbasement from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/fachadas/fachada_embasamento_alameda_dos_sombreiros.png';
-import sombreirosFacadeDetail from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/fachadas/detalhe_fachada_varandas.png';
-import sombreirosGym from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/academia.png';
-import sombreirosPlayroom from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca.png';
-import sombreirosLeisureCirculation from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/circulacao_externa_pavimento_lazer.png';
-import sombreirosCourtGourmet from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/gourmet_apoio_quadra.png';
-import sombreirosLobby from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/lobby.png';
-import sombreirosPlayground from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/parque_infantil.png';
-import sombreirosAdultPool from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/piscina_adulto_raia_25m.png';
-import sombreirosPoolAerial from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/piscina_vista_aerea.png';
-import sombreirosCourt from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/quadra_recreativa.png';
-import sombreirosPartyRoom from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas.png';
-import sombreirosGamesRoom from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/sala_de_jogos.png';
-import sombreirosLiving from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/apartamentos/living.png';
-import sombreirosLivingExpanded from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/apartamentos/living_ampliado.png';
-import sombreirosLivingIntegrated from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/apartamentos/living_ampliado_cozinha_integrada.png';
-import sombreirosMasterSuite from './assets/Empreendimentos/Casa_Sombreiros_Organizado/imagens_empreendimento/apartamentos/suite_master_ampliada_com_closet.png';
-import sombreirosLeisurePlan from './assets/Empreendimentos/Casa_Sombreiros_Organizado/plantas/implantacao_pavimento_lazer.png';
-import sombreirosGaragePlan from './assets/Empreendimentos/Casa_Sombreiros_Organizado/plantas/pavimento_g1_acessos_garagem.png';
-import sombreirosTypicalFloorPlan from './assets/Empreendimentos/Casa_Sombreiros_Organizado/plantas/pavimento_tipo_terminacoes_01_02.png';
-import sombreirosStandardPlan from './assets/Empreendimentos/Casa_Sombreiros_Organizado/plantas/planta_padrao_168m2_4_suites.png';
-import sombreirosOptionOnePlan from './assets/Empreendimentos/Casa_Sombreiros_Organizado/plantas/planta_opcao_1_168m2_3_suites_sala_cozinha_ampliadas.png';
-import sombreirosOptionTwoPlan from './assets/Empreendimentos/Casa_Sombreiros_Organizado/plantas/planta_opcao_2_168m2_3_suites_master_ampliada.png';
-import sombreirosOptionThreePlan from './assets/Empreendimentos/Casa_Sombreiros_Organizado/plantas/planta_opcao_3_168m2_3_suites_sala_cozinha_integrada.png';
-import sombreirosLocation from './assets/Empreendimentos/Casa_Sombreiros_Organizado/localizacao/vista_aerea_caminho_das_arvores.png';
-import infinityBook from './assets/Empreendimentos/infinity-business/book.pdf';
-import infinityOrganizedCover from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/capa/capa_infinity_salvador_business.png';
-import infinityBusinessBase from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/imagens_empreendimento/fachadas/embasamento_e_acesso_torre_business.png';
-import infinityBusinessTower from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/imagens_empreendimento/fachadas/torre_business_e_distribuicao_pavimentos.png';
-import infinityLobby from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/imagens_empreendimento/areas_comuns/lobby_oceanica.png';
-import infinityDentalOffice from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/imagens_empreendimento/ambientes_comerciais/consultorio_odontologico_1_coluna.png';
-import infinityOfficeTwoColumns from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/imagens_empreendimento/ambientes_comerciais/escritorio_2_colunas_integradas.png';
-import infinityOfficeFourColumns from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/imagens_empreendimento/ambientes_comerciais/escritorio_4_colunas_integradas.png';
-import infinityGeneralPlan from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/plantas/implantacao_geral_complexo.png';
-import infinityGroundPlan from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/plantas/pavimento_acesso_terreo_business.png';
-import infinityDentalPlan from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/plantas/planta_consultorio_odontologico.png';
-import infinityIntegratedOfficePlan from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/plantas/planta_escritorio_integrado.png';
-import infinityTypicalPlan from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/plantas/pavimento_tipo_business.png';
-import infinityGardenPlan from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/plantas/pavimento_garden_business.png';
-import infinityAerialLocation from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/localizacao/vista_aerea_orla_ondina.png';
-import infinityUrbanContext from './assets/Empreendimentos/Infinity_Salvador_Business_Organizado/localizacao/contexto_empreendimentos_orla_ondina.png';
-import beachClassBahiaBook from './assets/Empreendimentos/beachclassbahia/MD_Beach_Class_Bahia_Book_v47_.pdf';
-import beachClassJaguaribeBook from './assets/Empreendimentos/beachclassjaguaribe/MD0024_22_Book_1920x1080_19.pdf';
-import beachClassRioVermelhoBook from './assets/Empreendimentos/beachclassriovermelho/BOOK-DIGITAL-1920x1080-RV-MD-2.pdf';
-import cyanoBook from './assets/Empreendimentos/Cyano/BOOK_CYANO.pdf';
+import elleveOrganizedCover from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/capa/capa_elleve_horto.png';
+import elleveFacade from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/fachadas/fachada_torre_elleve_horto.png';
+import elleveAccess from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/fachadas/acesso_principal_rua_piratancara.png';
+import elleveFacadeDetail from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/fachadas/detalhe_fachada_varandas.png';
+import ellevePool from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/piscina_adulto_raia_25m.png';
+import elleveLeisureAerial from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/pavimento_lazer_vista_aerea.png';
+import elleveLoungeCascade from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/lounge_externo_com_cascata.png';
+import ellevePlayground from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/parque_infantil.png';
+import elleveCourt from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/quadra_recreativa.png';
+import elleveLobby from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/lobby_social_elevadores.png';
+import ellevePartyRoom from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas.png';
+import ellevePlayroom from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca.png';
+import elleveGamesRoom from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/sala_de_jogos.png';
+import elleveGym from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/academia.png';
+import ellevePoolGourmet from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/gourmet_piscina.png';
+import elleveCourtSupport from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/areas_comuns/apoio_quadra.png';
+import elleveLiving119 from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/apartamentos/living_apartamento_119m2.png';
+import elleveLiving150 from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/apartamentos/living_apartamento_150m2.png';
+import elleveLiving150Option from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/apartamentos/living_opcao_apartamento_150m2.png';
+import elleveMasterSuite119 from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/apartamentos/suite_master_apartamento_119m2.png';
+import elleveMasterSuite150 from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/apartamentos/suite_master_apartamento_150m2.png';
+import elleveLocationMap from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/localizacao/mapa_horto_florestal_entorno.png';
+import elleveLocationAerial from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/localizacao/vista_aerea_horto_florestal.png';
+import elleveGeneralPlan from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/plantas/implantacao_geral.png';
+import elleveGarageG1Plan from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/plantas/pavimento_g1_garagem.png';
+import elleveGarageG2Plan from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/plantas/pavimento_g2_garagem.png';
+import elleveLeisurePlan from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/plantas/pavimento_lazer.png';
+import elleveTypicalFloorPlan from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/plantas/pavimento_tipo_colunas_1_e_2.png';
+import ellevePlan119Standard from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/plantas/planta_119m2_3_suites_padrao.png';
+import ellevePlan119OptionTv from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/plantas/planta_119m2_2_suites_sala_tv_gabinete.png';
+import ellevePlan119OptionKitchen from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/plantas/planta_119m2_2_suites_cozinha_integrada.png';
+import ellevePlan150Standard from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/plantas/planta_150m2_4_suites_padrao.png';
+import ellevePlan150OptionTv from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/plantas/planta_150m2_3_suites_sala_tv_gabinete.png';
+import ellevePlan150OptionKitchen from './assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/plantas/planta_150m2_3_suites_cozinha_ampliada.png';
+import sombreirosOrganizedCover from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/capa/capa_casa_sombreiros.png';
+import sombreirosTower from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/fachadas/torre_casa_sombreiros.png';
+import sombreirosEmbasement from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/fachadas/fachada_embasamento_alameda_dos_sombreiros.png';
+import sombreirosFacadeDetail from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/fachadas/detalhe_fachada_varandas.png';
+import sombreirosGym from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/academia.png';
+import sombreirosPlayroom from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca.png';
+import sombreirosLeisureCirculation from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/circulacao_externa_pavimento_lazer.png';
+import sombreirosCourtGourmet from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/gourmet_apoio_quadra.png';
+import sombreirosLobby from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/lobby.png';
+import sombreirosPlayground from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/parque_infantil.png';
+import sombreirosAdultPool from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/piscina_adulto_raia_25m.png';
+import sombreirosPoolAerial from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/piscina_vista_aerea.png';
+import sombreirosCourt from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/quadra_recreativa.png';
+import sombreirosPartyRoom from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas.png';
+import sombreirosGamesRoom from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/areas_comuns/sala_de_jogos.png';
+import sombreirosLiving from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/apartamentos/living.png';
+import sombreirosLivingExpanded from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/apartamentos/living_ampliado.png';
+import sombreirosLivingIntegrated from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/apartamentos/living_ampliado_cozinha_integrada.png';
+import sombreirosMasterSuite from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/imagens_empreendimento/apartamentos/suite_master_ampliada_com_closet.png';
+import sombreirosLeisurePlan from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/plantas/implantacao_pavimento_lazer.png';
+import sombreirosGaragePlan from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/plantas/pavimento_g1_acessos_garagem.png';
+import sombreirosTypicalFloorPlan from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/plantas/pavimento_tipo_terminacoes_01_02.png';
+import sombreirosStandardPlan from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/plantas/planta_padrao_168m2_4_suites.png';
+import sombreirosOptionOnePlan from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/plantas/planta_opcao_1_168m2_3_suites_sala_cozinha_ampliadas.png';
+import sombreirosOptionTwoPlan from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/plantas/planta_opcao_2_168m2_3_suites_master_ampliada.png';
+import sombreirosOptionThreePlan from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/plantas/planta_opcao_3_168m2_3_suites_sala_cozinha_integrada.png';
+import sombreirosLocation from './assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/localizacao/vista_aerea_caminho_das_arvores.png';
+import infinityOrganizedCover from './assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/capa/capa_infinity_salvador_business.png';
+import infinityBusinessBase from './assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/imagens_empreendimento/fachadas/embasamento_e_acesso_torre_business.png';
+import infinityBusinessTower from './assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/imagens_empreendimento/fachadas/torre_business_e_distribuicao_pavimentos.png';
+import infinityLobby from './assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/imagens_empreendimento/areas_comuns/lobby_oceanica.png';
+import infinityDentalOffice from './assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/imagens_empreendimento/ambientes_comerciais/consultorio_odontologico_1_coluna.png';
+import infinityOfficeTwoColumns from './assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/imagens_empreendimento/ambientes_comerciais/escritorio_2_colunas_integradas.png';
+import infinityOfficeFourColumns from './assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/imagens_empreendimento/ambientes_comerciais/escritorio_4_colunas_integradas.png';
+import infinityGeneralPlan from './assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/plantas/implantacao_geral_complexo.png';
+import infinityGroundPlan from './assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/plantas/pavimento_acesso_terreo_business.png';
+import infinityDentalPlan from './assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/plantas/planta_consultorio_odontologico.png';
+import infinityIntegratedOfficePlan from './assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/plantas/planta_escritorio_integrado.png';
+import infinityTypicalPlan from './assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/plantas/pavimento_tipo_business.png';
+import infinityGardenPlan from './assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/plantas/pavimento_garden_business.png';
+import infinityAerialLocation from './assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/localizacao/vista_aerea_orla_ondina.png';
+import infinityUrbanContext from './assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/localizacao/contexto_empreendimentos_orla_ondina.png';
 import beachClassBahiaVideo1 from './assets/Empreendimentos/Bahia/videos/beachclassbahiabahiavideo1.mp4';
 import beachClassBahiaVideo2 from './assets/Empreendimentos/Bahia/videos/beachclassbahiabahiavideo2.mp4';
 import beachClassJaguaribeVideo from './assets/Empreendimentos/Bahia/videos/beachclassjaguaribevideo.mp4';
@@ -120,428 +115,420 @@ import poemeHortoVideo from './assets/Empreendimentos/Bahia/videos/poeme.mp4';
 import salvador220Video from './assets/Empreendimentos/Bahia/videos/salvador220video.mp4';
 import unicaCardealVideo from './assets/Empreendimentos/Bahia/videos/unica_cardeal.mp4';
 import vivantVideo from './assets/Empreendimentos/Bahia/videos/Vivant.mp4';
-import hortoEssenceBook from './assets/Empreendimentos/hortoessence/MD0037_21_BOOK_DIGITAL_14_-_FINALIZADO_2.pdf';
-import mansaoOthonBook from './assets/Empreendimentos/mansaoothon/MD-MansaoOthon-Book.2.pdf';
-import miratMartinsBook from './assets/Empreendimentos/miratmartins/Book_Mirat_Digital_Final2.pdf';
-import poemeHortoBook from './assets/Empreendimentos/poeme-horto/Book_Digital_Poeme-11b.pdf';
-import poemeHortoOrganizedCover from './assets/Empreendimentos/Poeme_Horto_Organizado/capa/capa_poeme_horto.png';
-import poemeHortoAccess from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/acesso_principal.png';
-import poemeHortoPlayroom from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/brinquedoteca.png';
-import poemeHortoFacadeAccess from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/fachada_torre_acesso.png';
-import poemeHortoFacade from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/fachada_torre_completa.png';
-import poemeHortoFitness from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/fitness_espaco_funcional.png';
-import poemeHortoGamesGourmet from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/jogos_gourmet.png';
-import poemeHortoAerialLeisure from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/lazer_vista_aerea.png';
-import poemeHortoLobby from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/lobby_acesso.png';
-import poemeHortoPool from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/piscina_raia_25m.png';
-import poemeHortoCourt from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/quadra_tenis_poliesportiva.png';
-import poemeHortoPartyRoom from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/salao_de_festas.png';
-import poemeHortoApartment173Expanded from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/sala_apto_173_ampliada.png';
-import poemeHortoApartment173Kitchen from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/sala_apto_173_cozinha_aberta.png';
-import poemeHortoApartment173Standard from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/sala_apto_173_padrao.png';
-import poemeHortoApartment203Expanded from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/sala_apto_203_sala_ampliada.png';
-import poemeHortoSuite173 from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/suite_master_apto_173.png';
-import poemeHortoSuite203 from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/suite_master_apto_203.png';
-import poemeHortoBalcony203 from './assets/Empreendimentos/Poeme_Horto_Organizado/imagens_empreendimento/varanda_gourmet_apto_203.png';
-import poemeHortoGroundPlan from './assets/Empreendimentos/Poeme_Horto_Organizado/plantas/implantacao_terreo.png';
-import poemeHortoMezzaninePlan from './assets/Empreendimentos/Poeme_Horto_Organizado/plantas/implantacao_mezanino.png';
-import poemeHortoTypicalFloorPlan from './assets/Empreendimentos/Poeme_Horto_Organizado/plantas/implantacao_pavimento_tipo.png';
-import poemeHortoFloor173203 from './assets/Empreendimentos/Poeme_Horto_Organizado/plantas/pavimento_tipo_173_203.png';
-import poemeHortoPlan203Standard from './assets/Empreendimentos/Poeme_Horto_Organizado/plantas/planta_203_padrao_4_suites.png';
-import poemeHortoPlan203Option from './assets/Empreendimentos/Poeme_Horto_Organizado/plantas/planta_203_opcao_3_suites.png';
-import poemeHortoPlan173Standard from './assets/Empreendimentos/Poeme_Horto_Organizado/plantas/planta_173_padrao_4_suites.png';
-import poemeHortoPlan173Option from './assets/Empreendimentos/Poeme_Horto_Organizado/plantas/planta_173_opcao_3_suites.png';
-import poemeHortoLocationMap from './assets/Empreendimentos/Poeme_Horto_Organizado/localizacao/mapa_aereo_entorno.png';
-import poemeHortoLocationAerial from './assets/Empreendimentos/Poeme_Horto_Organizado/localizacao/vista_aerea_localizacao.png';
-import poemeHortoAerial from './assets/Empreendimentos/Poeme_Horto_Organizado/localizacao/vista_aerea_poeme_horto.png';
-import riveBook from './assets/Empreendimentos/rive/Book_Digital_Rive-21.pdf';
-import salvador220Book from './assets/Empreendimentos/salvador220/BOOK_SALVADOR_220_1.pdf';
-import vivantBook from './assets/Empreendimentos/vivant/Book_Digital_Vivant-Final_1.pdf';
-import jardinsDoParqueBook from './assets/Empreendimentos/jardinsdoparque/Book-_Jardins_do_Parque_1_TEjna4X.pdf';
-import beachClassBahiaOrganizedCover from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/capa/capa_beach_class_bahia.png';
-import beachClassBahiaPerspective from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/fachadas/fachada_perspectiva_empreendimento.png';
-import beachClassBahiaFacade from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/fachadas/fachada_principal.png';
-import beachClassBahiaClarivalAccess from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/fachadas/acesso_rua_clarival_prado_valadares.png';
-import beachClassBahiaAlfazemaAccess from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/fachadas/acesso_rua_da_alfazema.png';
-import beachClassBahiaPoolArea from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/area_da_piscina.png';
-import beachClassBahiaPool from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/piscina.png';
-import beachClassBahiaBeachTennis from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/quadra_beach_tennis.png';
-import beachClassBahiaAlamedaAerial from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/alameda_de_acesso_vista_superior.png';
-import beachClassBahiaAlameda from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/alameda_de_acesso.png';
-import beachClassBahiaLobbyReception from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/lobby_e_recepcao.png';
-import beachClassBahiaReception from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/recepcao.png';
-import beachClassBahiaLobby from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/lobby.png';
-import beachClassBahiaSpa from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/spa_rooftop.png';
-import beachClassBahiaRooftopPool from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/piscina_aquecida_rooftop.png';
-import beachClassBahiaGym from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/academia_rooftop_200m2.png';
-import beachClassBahiaStudio from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/apartamentos/studio_25_86m2.png';
-import beachClassBahiaOneBedroom from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/apartamentos/quarto_e_sala_35m2.png';
-import beachClassBahiaResidence from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/imagens_empreendimento/apartamentos/residence_2_quartos_61m2.png';
-import beachClassBahiaLeisurePlan from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/plantas/implantacao_pavimento_lazer.png';
-import beachClassBahiaMezzaninePlan from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/plantas/planta_mezanino_7_pavimento.png';
-import beachClassBahiaRooftopPlan from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/plantas/planta_rooftop_wellness_42_andar.png';
-import beachClassBahiaApartmentsPlan from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/plantas/pavimento_apartments_1_ao_27_andar.png';
-import beachClassBahiaStudioPlan from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/plantas/planta_studio_25_86m2.png';
-import beachClassBahiaOneBedroomPlan from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/plantas/planta_quarto_e_sala_35m2.png';
-import beachClassBahiaResidencesPlan from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/plantas/pavimento_residences_28_ao_40_andar.png';
-import beachClassBahiaTwoBedroomPlanColumns from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/plantas/planta_2_quartos_61m2_colunas_02_04_05_06_07_08_09.png';
-import beachClassBahiaTwoBedroomPlanColumnsAlt from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/plantas/planta_2_quartos_61m2_colunas_01_03.png';
-import beachClassBahiaGaragePlan1 from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/plantas/planta_garagem_1_pavimento.png';
-import beachClassBahiaGaragePlan2 from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/plantas/planta_garagem_2_pavimento.png';
-import beachClassBahiaLocation from './assets/Empreendimentos/Beach_Class_Bahia_Organizado/localizacao/localizacao_caminho_das_arvores_shopping_da_bahia.png';
-import beachClassRioVermelhoOrganizedCover from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/capa/capa_beach_class_rio_vermelho.png';
-import beachClassRioVermelhoFacade from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/fachadas/fachada_torre_e_orla.png';
-import beachClassRioVermelhoAccess from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/fachadas/acesso_integrado_a_cidade.png';
-import beachClassRioVermelhoRooftopLounge from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/rooftop_lounge.png';
-import beachClassRioVermelhoPoolSpa from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/piscina_aquecida_spa_vista_mar.png';
-import beachClassRioVermelhoSkyLounge from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/sky_lounge.png';
-import beachClassRioVermelhoConfraria from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/espaco_confraria_rooftop.png';
-import beachClassRioVermelhoFitnessTreadmills from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/sky_fitness_esteiras.png';
-import beachClassRioVermelhoFitness from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/sky_fitness.png';
-import beachClassRioVermelhoConcierge from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/hall_concierge.png';
-import beachClassRioVermelhoCoffeeLoungeCoworking from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/coffee_shop_lounge_coworking.png';
-import beachClassRioVermelhoCoffeeCoworking from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/coffee_shop_coworking.png';
-import beachClassRioVermelhoGardenLounge from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/lounge_garden.png';
-import beachClassRioVermelhoCarPoint from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/app_car_point.png';
-import beachClassRioVermelhoMiniMarket from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/mini_market.png';
-import beachClassRioVermelhoBikeScooter from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/espaco_bike_scooter.png';
-import beachClassRioVermelhoLaundry from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/laundry_omo.png';
-import beachClassRioVermelhoPetCare from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/pet_care.png';
-import beachClassRioVermelhoStudio from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/apartamentos/apartamento_studio.png';
-import beachClassRioVermelhoOneBedroomLiving from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/apartamentos/apartamento_quarto_e_sala_living.png';
-import beachClassRioVermelhoOneBedroom from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/apartamentos/apartamento_quarto_e_sala_quarto.png';
-import beachClassRioVermelhoTwoBedroomLiving from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/apartamentos/apartamento_2_quartos_sala_varanda.png';
-import beachClassRioVermelhoTwoBedroom from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/apartamentos/apartamento_2_quartos_quarto.png';
-import beachClassRioVermelhoGroundAccessPlan from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/plantas/implantacao_terreo_acessos_estacionamento.png';
-import beachClassRioVermelhoGroundAmenitiesPlan from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/plantas/implantacao_terreo_areas_comuns.png';
-import beachClassRioVermelhoRooftopPlan from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/plantas/implantacao_rooftop.png';
-import beachClassRioVermelhoStudioPlan from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/plantas/planta_studio_26m2.png';
-import beachClassRioVermelhoOneBedroomPlan from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/plantas/planta_quarto_e_sala_37m2.png';
-import beachClassRioVermelhoTwoBedroomPlan from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/plantas/planta_2_quartos_67m2.png';
-import beachClassRioVermelhoTypicalFloorPlan from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/plantas/pavimento_tipo.png';
-import beachClassRioVermelhoTypicalImplementationPlan from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/plantas/implantacao_pavimento_tipo.png';
-import beachClassRioVermelhoLocation from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/localizacao/rio_vermelho_orla_e_bairro.png';
-import beachClassRioVermelhoLocationMap from './assets/Empreendimentos/Beach_Class_Rio_Vermelho_Organizado/localizacao/mapa_localizacao_rio_vermelho.png';
-import hortoEssenceOrganizedCover from './assets/Empreendimentos/Horto_Essence_Organizado/capa/capa_horto_essence.png';
-import hortoEssenceBambooBoulevard from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/fachadas/boulevard_de_acesso_bambus.png';
-import hortoEssenceTower from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/fachadas/torre_horto_essence.png';
-import hortoEssenceParkAccess from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/fachadas/acesso_empreendimento_parque_lucaia.png';
-import hortoEssenceGatehouse from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/fachadas/guarita_acesso_rua_sapucaia.png';
-import hortoEssencePoolFacade from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/fachadas/fachada_area_piscina.png';
-import hortoEssenceLobby from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/lobby.png';
-import hortoEssencePocketPark from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/pocket_parque.png';
-import hortoEssenceLoungeBar from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/lounge_bar.png';
-import hortoEssenceCourt from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/quadra_poliesportiva_tenis.png';
-import hortoEssencePoolGourmet from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/gourmet_da_piscina.png';
-import hortoEssencePartyRoom from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas.png';
-import hortoEssencePlayroom from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca.png';
-import hortoEssencePlayground from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/parque_infantil.png';
-import hortoEssenceGym from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/espaco_musculacao.png';
-import hortoEssenceCrossfit from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/espaco_crossfit.png';
-import hortoEssenceMassage from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/sala_de_massagem.png';
-import hortoEssenceBeauty from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/espaco_beauty.png';
-import hortoEssenceGarden from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/horta.png';
-import hortoEssencePetPark from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/pet_parque.png';
-import hortoEssencePetCare from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/pet_care.png';
-import hortoEssenceBalcony133 from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/varanda_133m2_3_suites.png';
-import hortoEssenceLiving133 from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/living_133m2_3_suites.png';
-import hortoEssenceSuite133 from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/suite_master_133m2_3_suites.png';
-import hortoEssenceKitchen133 from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/cozinha_133m2_3_suites.png';
-import hortoEssenceOffice133 from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/home_office_133m2_3_suites.png';
-import hortoEssenceBalcony167 from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/varanda_167m2_4_suites.png';
-import hortoEssenceLiving167 from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/living_167m2_4_suites.png';
-import hortoEssenceSuite167 from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/suite_master_167m2_4_suites.png';
-import hortoEssenceKitchen167 from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/cozinha_167m2_4_suites.png';
-import hortoEssenceOffice167 from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/home_office_167m2_4_suites.png';
-import hortoEssenceLivingExpanded167 from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/living_ampliado_167m2.png';
-import hortoEssenceSuiteExpanded167 from './assets/Empreendimentos/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/suite_master_ampliada_167m2.png';
-import hortoEssencePlaygroundPlan from './assets/Empreendimentos/Horto_Essence_Organizado/plantas/implantacao_pavimento_playground.png';
-import hortoEssenceWellnessPlan from './assets/Empreendimentos/Horto_Essence_Organizado/plantas/implantacao_pavimento_wellness_ss3.png';
-import hortoEssenceParkPlan from './assets/Empreendimentos/Horto_Essence_Organizado/plantas/implantacao_acesso_parque_lucaia_ss4.png';
-import hortoEssencePlan133 from './assets/Empreendimentos/Horto_Essence_Organizado/plantas/planta_133m2_3_suites.png';
-import hortoEssencePlan133OpenKitchen from './assets/Empreendimentos/Horto_Essence_Organizado/plantas/planta_133m2_3_suites_cozinha_aberta_home_office.png';
-import hortoEssencePlan167 from './assets/Empreendimentos/Horto_Essence_Organizado/plantas/planta_167m2_4_suites.png';
-import hortoEssencePlan167OpenKitchen from './assets/Empreendimentos/Horto_Essence_Organizado/plantas/planta_167m2_4_suites_cozinha_aberta_sala_suites_ampliadas.png';
-import hortoEssenceLocationMap from './assets/Empreendimentos/Horto_Essence_Organizado/localizacao/mapa_entorno_horto_florestal.png';
-import hortoEssenceLocationAerial from './assets/Empreendimentos/Horto_Essence_Organizado/localizacao/vista_aerea_horto_florestal.png';
-import hortoEssenceLucaiaPark from './assets/Empreendimentos/Horto_Essence_Organizado/localizacao/parque_lucaia.png';
-import mansaoOthonOrganizedCover from './assets/Empreendimentos/Mansao_Othon_Organizado/capa/capa_mansao_othon.png';
-import mansaoOthonNightFacade from './assets/Empreendimentos/Mansao_Othon_Organizado/imagens_empreendimento/fachadas/fachada_noturna_frente_mar.png';
-import mansaoOthonFacade from './assets/Empreendimentos/Mansao_Othon_Organizado/imagens_empreendimento/fachadas/fachada_avenida_oceanica.png';
-import mansaoOthonMainAccess from './assets/Empreendimentos/Mansao_Othon_Organizado/imagens_empreendimento/fachadas/acesso_principal_avenida_oceanica.png';
-import mansaoOthonLeisureAerial from './assets/Empreendimentos/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/area_lazer_piscina_vista_aerea.png';
-import mansaoOthonAdultPool from './assets/Empreendimentos/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/piscina_adulto_vista_mar.png';
-import mansaoOthonCourts from './assets/Empreendimentos/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/quadras_tenis_e_beach_tennis.png';
-import mansaoOthonLobby from './assets/Empreendimentos/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/entrada_lobby.png';
-import mansaoOthonSpa from './assets/Empreendimentos/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/spa_piscina_aquecida_coberta.png';
-import mansaoOthonGym from './assets/Empreendimentos/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/academia.png';
-import mansaoOthonPlayroom from './assets/Empreendimentos/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca.png';
-import mansaoOthonKidsPlay from './assets/Empreendimentos/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/kids_play_externo.png';
-import mansaoOthonPartyRoom from './assets/Empreendimentos/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas.png';
-import mansaoOthonLiving from './assets/Empreendimentos/Mansao_Othon_Organizado/imagens_empreendimento/apartamentos/living_estar_vista_mar.png';
-import mansaoOthonDining from './assets/Empreendimentos/Mansao_Othon_Organizado/imagens_empreendimento/apartamentos/living_jantar_vista_mar.png';
-import mansaoOthonIntimateRoom from './assets/Empreendimentos/Mansao_Othon_Organizado/imagens_empreendimento/apartamentos/sala_intima.png';
-import mansaoOthonMasterSuite from './assets/Empreendimentos/Mansao_Othon_Organizado/imagens_empreendimento/apartamentos/suite_master_vista_mar.png';
-import mansaoOthonLeisurePlan from './assets/Empreendimentos/Mansao_Othon_Organizado/plantas/implantacao_area_lazer.png';
-import mansaoOthonGaragePlan from './assets/Empreendimentos/Mansao_Othon_Organizado/plantas/garagem_g1.png';
-import mansaoOthonWellnessPlan from './assets/Empreendimentos/Mansao_Othon_Organizado/plantas/pavimento_lazer_wellness.png';
-import mansaoOthonTypicalPlan from './assets/Empreendimentos/Mansao_Othon_Organizado/plantas/pavimento_tipo_2_unidades.png';
-import mansaoOthonStandardPlan from './assets/Empreendimentos/Mansao_Othon_Organizado/plantas/planta_padrao_572m2_5_suites.png';
-import mansaoOthonOptionPlan from './assets/Empreendimentos/Mansao_Othon_Organizado/plantas/planta_opcao_4_suites_ampliada.png';
-import mansaoOthonLocation from './assets/Empreendimentos/Mansao_Othon_Organizado/localizacao/orla_de_ondina_salvador.png';
-import miratMartinsOrganizedCover from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/capa/capa_mirat_martins_de_sa.png';
-import miratFacade from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/fachadas/fachada_torre_mirat.png';
-import miratMainAccess from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/fachadas/acesso_principal_paisagismo.png';
-import miratBicycle from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/bicicletario.png';
-import miratPlayroom from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca.png';
-import miratConfraria from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/confraria_salao_de_jogos.png';
-import miratFitness from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/fitness_130m2.png';
-import miratSocialHall from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/hall_social.png';
-import miratMinicampo from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/minicampo.png';
-import miratPetCare from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/pet_care.png';
-import miratPetPlay from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/pet_play.png';
-import miratPools from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/piscinas_adulto_e_infantil.png';
-import miratPoolLane from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/piscina_raia_20m_e_hidros.png';
-import miratPlayground from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/playground.png';
-import miratPartyRoom from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas.png';
-import miratSpa from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/spa_ofuro_hidromassagem.png';
-import miratBalcony from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/apartamentos/varanda_gourmet.png';
-import miratLiving from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/apartamentos/living.png';
-import miratMasterSuite from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/apartamentos/suite_master.png';
-import miratExpandedSuite from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/apartamentos/suite_master_ampliada.png';
-import miratCloset from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/apartamentos/closet.png';
-import miratLeisurePlan from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/plantas/implantacao_lazer.png';
-import miratWellnessConfrariaPlan from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/plantas/planta_espaco_wellness_confraria_spa.png';
-import miratWellnessFitnessPlan from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/plantas/planta_espaco_wellness_fitness.png';
-import miratStandardPlan from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/plantas/planta_padrao_253m2_4_suites.png';
-import miratSuggestionTwoPlan from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/plantas/planta_sugestao_2_253m2_3_suites.png';
-import miratSuggestionThreePlan from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/plantas/planta_sugestao_3_253m2_3_suites.png';
-import miratAerialLocation from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/localizacao/vista_aerea_horto_florestal.png';
-import miratSalvadorSeaView from './assets/Empreendimentos/Mirat_Martins_de_Sa_Organizado/localizacao/vista_planejada_salvador_mar.png';
-import riveOrganizedCover from './assets/Empreendimentos/Rive_Organizado/capa/capa_rive.png';
-import riveContextFacade from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/fachadas/fachada_rive_contexto_rio_vermelho.png';
-import riveNightTower from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/fachadas/torre_rive_perspectiva_noturna.png';
-import riveStreetTower from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/fachadas/torre_rive_perspectiva_rua.png';
-import riveMainAccess from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/fachadas/acesso_principal_rive.png';
-import riveSeaFacade from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/fachadas/fachada_varandas_vista_mar.png';
-import riveRooftopSea from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/areas_comuns/rooftop_vista_mar.png';
-import riveRooftopPanoramic from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/areas_comuns/rooftop_panoramico.png';
-import riveInfinityPool from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/areas_comuns/piscina_borda_infinita.png';
-import riveRooftopGourmet from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/areas_comuns/espaco_gourmet_rooftop.png';
-import riveRooftopGym from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/areas_comuns/academia_rooftop.png';
-import riveSeaGym from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/areas_comuns/academia_vista_mar.png';
-import riveLobby from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/areas_comuns/lobby.png';
-import riveViewpointPlayground from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/areas_comuns/playground_mirante.png';
-import rivePartyPlayground from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/areas_comuns/playground_salao_festas.png';
-import rivePartyRoom from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas.png';
-import riveGamesRoom from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/areas_comuns/sala_de_jogos.png';
-import rivePlayroom from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca.png';
-import riveSportsCourt from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/areas_comuns/quadra_esportiva.png';
-import riveApartment3Balcony from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/apartamentos/varanda_apartamento_3_quartos.png';
-import riveApartment3Suite from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/apartamentos/suite_master_apartamento_3_quartos.png';
-import riveApartment3Living from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/apartamentos/living_apartamento_3_quartos.png';
-import riveGardenBalcony from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/apartamentos/varanda_garden_3_quartos.png';
-import riveApartment4Balcony from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/apartamentos/varanda_apartamento_4_quartos.png';
-import riveApartment4Suite from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/apartamentos/suite_master_apartamento_4_quartos.png';
-import riveApartment4Living from './assets/Empreendimentos/Rive_Organizado/imagens_empreendimento/apartamentos/living_apartamento_4_quartos.png';
-import riveGeneralPlan from './assets/Empreendimentos/Rive_Organizado/plantas/implantacao_geral_torres.png';
-import riveRooftopPlan from './assets/Empreendimentos/Rive_Organizado/plantas/planta_rooftop.png';
-import riveGroundPlan from './assets/Empreendimentos/Rive_Organizado/plantas/implantacao_terreo_g2.png';
-import riveLeisurePlan from './assets/Empreendimentos/Rive_Organizado/plantas/implantacao_pavimento_lazer.png';
-import riveMareSereiaPlan from './assets/Empreendimentos/Rive_Organizado/plantas/pavimento_tipo_torres_mare_sereia_3_quartos.png';
-import rivePlan97Standard from './assets/Empreendimentos/Rive_Organizado/plantas/planta_97m2_3_quartos_padrao.png';
-import rivePlan97Master from './assets/Empreendimentos/Rive_Organizado/plantas/planta_97m2_2_suites_banheiro_senhor_senhora.png';
-import rivePlan97Office from './assets/Empreendimentos/Rive_Organizado/plantas/planta_97m2_2_suites_gabinete.png';
-import riveGardenPlan from './assets/Empreendimentos/Rive_Organizado/plantas/planta_garden_130m2_3_quartos.png';
-import riveAmadoPlan from './assets/Empreendimentos/Rive_Organizado/plantas/pavimento_tipo_torre_amado_4_quartos.png';
-import rivePlan143Standard from './assets/Empreendimentos/Rive_Organizado/plantas/planta_143m2_4_quartos_padrao.png';
-import rivePlan143Master from './assets/Empreendimentos/Rive_Organizado/plantas/planta_143m2_3_suites_lavabo_sala_ampliada.png';
-import rivePlan143Integrated from './assets/Empreendimentos/Rive_Organizado/plantas/planta_143m2_3_quartos_cozinha_integrada_suite_master_ampliada.png';
-import riveAerialLocation from './assets/Empreendimentos/Rive_Organizado/localizacao/vista_aerea_rio_vermelho.png';
-import riveSeaLocation from './assets/Empreendimentos/Rive_Organizado/localizacao/localizacao_200m_do_mar.png';
-import riveNeighborhoodMap from './assets/Empreendimentos/Rive_Organizado/localizacao/mapa_entorno_rio_vermelho.png';
-import jardinsDoParqueOrganizedCover from './assets/Empreendimentos/Jardins_do_Parque_Organizado/capa/capa_jardins_do_parque.png';
-import jardinsDoParqueFacadeTowers from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/fachada/fachada_torres_orquideas_e_hortensias.png';
-import jardinsDoParqueTowerPerspective from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/fachada/perspectiva_torre_jardins_do_parque.png';
-import jardinsDoParqueApartment60Bedroom from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_60m_quarto.png';
-import jardinsDoParqueApartment60Living from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_60m_sala_estar_jantar.png';
-import jardinsDoParqueApartment60Suite from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_60m_suite.png';
-import jardinsDoParqueApartment60Balcony from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_60m_varanda.png';
-import jardinsDoParqueApartment81Children from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_81m_quarto_filhos.png';
-import jardinsDoParqueApartment81Office from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_81m_quarto_office.png';
-import jardinsDoParqueApartment81Living from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_81m_sala_estar_jantar.png';
-import jardinsDoParqueApartment81Suite from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_81m_suite.png';
-import jardinsDoParqueApartment81Balcony from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_81m_varanda.png';
-import jardinsDoParqueAcademy from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/academia.png';
-import jardinsDoParqueAerialLeisure from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/area_lazer_vista_aerea.png';
-import jardinsDoParquePlayroom from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca.png';
-import jardinsDoParqueGourmets from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/gourmets.png';
-import jardinsDoParqueVipGourmet from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/gourmet_vip_com_piscina.png';
-import jardinsDoParqueHortensiasHall from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/hall_torre_hortensias.png';
-import jardinsDoParqueMinimarket from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/minimarket.png';
-import jardinsDoParqueMiniCourt from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/miniquadra_recreativa.png';
-import jardinsDoParquePetPlace from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/pet_place.png';
-import jardinsDoParqueAdultPool from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/piscina_adulto_prainha_solarium.png';
-import jardinsDoParqueChildrenPool from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/piscina_infantil.png';
-import jardinsDoParquePlayground from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/playground.png';
-import jardinsDoParquePartyRoom from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas.png';
-import jardinsDoParqueSportsBar from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/sports_bar.png';
-import jardinsDoParqueTerrace from './assets/Empreendimentos/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/terraco_salao_de_festas.png';
-import jardinsDoParqueGroundPlan from './assets/Empreendimentos/Jardins_do_Parque_Organizado/plantas/implantacao_pavimento_terreo.png';
-import jardinsDoParqueGeneralPlan from './assets/Empreendimentos/Jardins_do_Parque_Organizado/plantas/implantacao_geral_torres.png';
-import jardinsDoParqueHortensiasFloorPlan from './assets/Empreendimentos/Jardins_do_Parque_Organizado/plantas/pavimento_tipo_torre_hortensias.png';
-import jardinsDoParqueOrchidsFloorPlan from './assets/Empreendimentos/Jardins_do_Parque_Organizado/plantas/pavimento_tipo_torre_orquideas.png';
-import jardinsDoParquePlan60 from './assets/Empreendimentos/Jardins_do_Parque_Organizado/plantas/planta_60m_2_quartos_1_suite_terminacao_04.png';
-import jardinsDoParquePlan81 from './assets/Empreendimentos/Jardins_do_Parque_Organizado/plantas/planta_81m_3_quartos_1_suite_terminacao_01.png';
-import jardinsDoParqueCommerce from './assets/Empreendimentos/Jardins_do_Parque_Organizado/localizacao/entorno_comercio_e_servicos.png';
-import jardinsDoParqueInterestMap from './assets/Empreendimentos/Jardins_do_Parque_Organizado/localizacao/mapa_entorno_pontos_de_interesse.png';
-import jardinsDoParqueBeach from './assets/Empreendimentos/Jardins_do_Parque_Organizado/localizacao/praia_cruz_das_almas.png';
-import jardinsDoParqueSeaShopping from './assets/Empreendimentos/Jardins_do_Parque_Organizado/localizacao/vista_aerea_proximidade_mar_e_shopping.png';
-import cyanoOrganizedCover from './assets/Empreendimentos/Cyano_Organizado/capa/capa_cyano.png';
-import cyanoApartment3Living from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_3_suites_living.png';
-import cyanoApartment3Kitchen from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_3_suites_living_cozinha_integrada.png';
-import cyanoApartment3Suite from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_3_suites_suite_master.png';
-import cyanoApartment4Living from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_4_suites_living_integrado_varanda.png';
-import cyanoApartment4Suite from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_4_suites_suite_master.png';
-import cyanoAcademy from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/areas_comuns/academia_185m2.png';
-import cyanoCourt from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/areas_comuns/area_de_lazer_quadra.png';
-import cyanoPlayroom from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca_com_terraco.png';
-import cyanoOutdoorGourmet from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/areas_comuns/espaco_gourmet_externo.png';
-import cyanoSeaGourmet from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/areas_comuns/espaco_gourmet_vista_mar.png';
-import cyanoInfinityPool from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/areas_comuns/piscina_borda_infinita_vista_mar.png';
-import cyanoRooftop from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/areas_comuns/rooftop_vista_mar.png';
-import cyanoPartyRoom from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas_175m2.png';
-import cyanoAccess from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/fachadas/acesso_rua_da_fonte_do_boi.png';
-import cyanoTowerSet from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/fachadas/conjunto_torres_frente_mar.png';
-import cyanoCurvedFacade from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/fachadas/fachada_residencial_curvas_varandas.png';
-import cyanoGeneralView from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/fachadas/vista_geral_empreendimento_frente_mar.png';
-import cyanoNightView from './assets/Empreendimentos/Cyano_Organizado/imagens_empreendimento/fachadas/vista_noturna_conjunto_cyano.png';
-import cyanoGeneralPlan from './assets/Empreendimentos/Cyano_Organizado/plantas/implantacao_geral_torres.png';
-import cyanoMarRooftopPlan from './assets/Empreendimentos/Cyano_Organizado/plantas/rooftop_torre_mar.png';
-import cyanoOceanLeisurePlan from './assets/Empreendimentos/Cyano_Organizado/plantas/pavimento_lazer_torre_oceano.png';
-import cyanoGroundPlan from './assets/Empreendimentos/Cyano_Organizado/plantas/pavimento_terreo.png';
-import cyanoAtlanticFloorPlan from './assets/Empreendimentos/Cyano_Organizado/plantas/pavimento_tipo_torre_atlantico.png';
-import cyanoMarFloorPlan from './assets/Empreendimentos/Cyano_Organizado/plantas/pavimento_tipo_torre_mar.png';
-import cyanoOceanFloorPlan from './assets/Empreendimentos/Cyano_Organizado/plantas/pavimento_tipo_torre_oceano.png';
-import cyanoPlan3Suites133 from './assets/Empreendimentos/Cyano_Organizado/plantas/planta_3_suites_133m2.png';
-import cyanoPlan3SuitesGarden155 from './assets/Empreendimentos/Cyano_Organizado/plantas/planta_3_suites_garden_155m2.png';
-import cyanoPlan4Suites182 from './assets/Empreendimentos/Cyano_Organizado/plantas/planta_4_suites_182m2.png';
-import cyanoPlan4SuitesGarden204 from './assets/Empreendimentos/Cyano_Organizado/plantas/planta_4_suites_garden_204m2.png';
-import cyanoPlan3SuitesIntegratedKitchen from './assets/Empreendimentos/Cyano_Organizado/plantas/planta_opcao_3_suites_cozinha_integrada_133m2.png';
-import cyanoLocation from './assets/Empreendimentos/Cyano_Organizado/localizacao/localizacao_rio_vermelho_salvador.png';
-import salvador220OrganizedCover from './assets/Empreendimentos/Salvador_220_Organizado/capa/capa_salvador_220.png';
-import salvador220GeneralView from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/fachadas/vista_geral_salvador_220.png';
-import salvador220LobbyAccess from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/fachadas/acesso_lobby_fachada.png';
-import salvador220Tower from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/fachadas/torre_salvador_220.png';
-import salvador220SeaFacade from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/fachadas/fachada_salvador_220_frente_mar.png';
-import salvador220Reception from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/recepcao.png';
-import salvador220CoLiving from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/co_living.png';
-import salvador220Gourmet from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/gourmet.png';
-import salvador220Academy from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/academia.png';
-import salvador220AcademySeaView from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/academia_com_vista_mar.png';
-import salvador220Spa from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/spa_com_sauna_e_sala_massagem.png';
-import salvador220InfinityPool from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/piscina_borda_infinita.png';
-import salvador220PoolAerial from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/vista_aerea_piscina.png';
-import salvador220Rooftop from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/vista_rooftop.png';
-import salvador220RooftopGourmet from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/espaco_gourmet_rooftop.png';
-import salvador220ApartmentOneBedroom from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/apartamentos/apartamento_1_quarto_33_34m2.png';
-import salvador220ApartmentOneBedroom48 from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/apartamentos/apartamento_1_quarto_48m2.png';
-import salvador220ApartmentTwoSuites from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/apartamentos/apartamento_2_suites_com_lavabo_74m2.png';
-import salvador220SuiteTwoSuites from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/apartamentos/suite_apartamento_2_suites_74m2.png';
-import salvador220ApartmentTwoBedrooms from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/apartamentos/apartamento_2_quartos_1_suite_73m2.png';
-import salvador220SuiteTwoBedrooms from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/apartamentos/suite_apartamento_2_quartos_1_suite_73m2.png';
-import salvador220LanaiApartment from './assets/Empreendimentos/Salvador_220_Organizado/imagens_empreendimento/apartamentos/lanai_apartamento_1_quarto_32m2.png';
-import salvador220LobbyPlan from './assets/Empreendimentos/Salvador_220_Organizado/plantas/implantacao_pavimento_lobby_terreo.png';
-import salvador220LeisurePlan from './assets/Empreendimentos/Salvador_220_Organizado/plantas/implantacao_pavimento_lazer.png';
-import salvador220RooftopPlan from './assets/Empreendimentos/Salvador_220_Organizado/plantas/planta_rooftop_22_pavimento.png';
-import salvador220PlanOneBedroom from './assets/Empreendimentos/Salvador_220_Organizado/plantas/planta_1_quarto_33_34m2.png';
-import salvador220PlanOneBedroom48 from './assets/Empreendimentos/Salvador_220_Organizado/plantas/planta_1_quarto_48m2.png';
-import salvador220PlanTwoSuites from './assets/Empreendimentos/Salvador_220_Organizado/plantas/planta_2_suites_com_lavabo_74m2.png';
-import salvador220PlanTwoBedrooms73 from './assets/Empreendimentos/Salvador_220_Organizado/plantas/planta_2_quartos_1_suite_73m2.png';
-import salvador220PlanTwoBedrooms69 from './assets/Empreendimentos/Salvador_220_Organizado/plantas/planta_2_quartos_1_suite_69m2.png';
-import salvador220LanaiPlan from './assets/Empreendimentos/Salvador_220_Organizado/plantas/implantacao_lanai_2_pavimentos.png';
-import salvador220FirstFloorPlan from './assets/Empreendimentos/Salvador_220_Organizado/plantas/pavimento_primeiro.png';
-import salvador220TypicalFloor2To6 from './assets/Empreendimentos/Salvador_220_Organizado/plantas/pavimento_tipo_2_ao_6_andar.png';
-import salvador220TypicalFloor7To20 from './assets/Empreendimentos/Salvador_220_Organizado/plantas/pavimento_tipo_7_ao_20_andar.png';
-import salvador220TypicalFloor21 from './assets/Empreendimentos/Salvador_220_Organizado/plantas/pavimento_tipo_21_andar.png';
-import salvador220RooftopCoverPlan from './assets/Empreendimentos/Salvador_220_Organizado/plantas/rooftop_cobertura_22_andar.png';
-import salvador220Location from './assets/Empreendimentos/Salvador_220_Organizado/localizacao/localizacao_salvador_220_rio_vermelho.png';
-import vivantOrganizedCover from './assets/Empreendimentos/Vivant_Organizado/capa/capa_vivant.png';
-import vivantNightTower from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/fachadas/torre_vivant_vista_noturna.png';
-import vivantClaraNunesAccess from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/fachadas/fachada_acesso_rua_clara_nunes.png';
-import vivantCatabasGate from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/fachadas/portaria_alameda_das_catabas.png';
-import vivantMinibosque from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/fachadas/minibosque_acesso_praca_aquarius.png';
-import vivantPlatoZen from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/plato_zen.png';
-import vivantPlatoKids from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/plato_kids.png';
-import vivantPlatoBarbecue from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/plato_barbecue.png';
-import vivantPlatoPet from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/plato_pet.png';
-import vivantExternalLeisure from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/lazer_externo_vista_aerea.png';
-import vivantPoolLane from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/piscina_raia_22m_hidromassagem.png';
-import vivantAdultChildrenPool from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/piscina_adulto_infantil.png';
-import vivantPoolGourmet from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/gourmet_da_piscina.png';
-import vivantSportsCourt from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/quadra_esportiva_quiosque_barbecue.png';
-import vivantPlayground from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/parque_infantil.png';
-import vivantLobbyEnergie from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/lobby_energie.png';
-import vivantPartyRoom from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas.png';
-import vivantConfraria from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/confraria.png';
-import vivantTeenLounge from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/teen_lounge.png';
-import vivantPlayroom from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca.png';
-import vivantFitness from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/fitness.png';
-import vivantCrossfit from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/crossfit.png';
-import vivantPetCare from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/pet_care.png';
-import vivantCoworking from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/areas_comuns/coworking.png';
-import vivantBalcony from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/apartamentos/varanda_gourmet_vista_34_andar.png';
-import vivantLiving from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/apartamentos/living.png';
-import vivantMasterSuite from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/apartamentos/suite_master.png';
-import vivantHomeTheater from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/apartamentos/home_theater_office.png';
-import vivantExpandedSuite from './assets/Empreendimentos/Vivant_Organizado/imagens_empreendimento/apartamentos/suite_master_ampliada.png';
-import vivantCatabasPlan from './assets/Empreendimentos/Vivant_Organizado/plantas/implantacao_pavimento_catabas.png';
-import vivantWellnessPlan from './assets/Empreendimentos/Vivant_Organizado/plantas/implantacao_pavimento_wellness.png';
-import vivantClaraNunesPlan from './assets/Empreendimentos/Vivant_Organizado/plantas/implantacao_pavimento_clara_nunes.png';
-import vivantTypicalFloorPlan from './assets/Empreendimentos/Vivant_Organizado/plantas/pavimento_tipo_implantado.png';
-import vivantPlanStandard from './assets/Empreendimentos/Vivant_Organizado/plantas/planta_padrao_116m2_3_suites.png';
-import vivantPlanHome from './assets/Empreendimentos/Vivant_Organizado/plantas/planta_opcao_home_116m2_2_suites.png';
-import vivantPlanExpandedSuite from './assets/Empreendimentos/Vivant_Organizado/plantas/planta_opcao_suite_ampliada_116m2_2_suites.png';
-import vivantLocationMap from './assets/Empreendimentos/Vivant_Organizado/localizacao/mapa_entorno_caminho_das_arvores.png';
-import vivantTancredoNeves from './assets/Empreendimentos/Vivant_Organizado/localizacao/entorno_av_tancredo_neves.png';
-import vivantAquariusGardens from './assets/Empreendimentos/Vivant_Organizado/localizacao/praca_aquarius_jardins.png';
-import vivantAquariusPaths from './assets/Empreendimentos/Vivant_Organizado/localizacao/praca_aquarius_caminhos.png';
-import vivantAquariusGreenArea from './assets/Empreendimentos/Vivant_Organizado/localizacao/praca_aquarius_area_verde.png';
-import beachClassJaguaribeOrganizedCover from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/capa/capa_beach_class_jaguaribe.png';
-import beachClassJaguaribeFacade from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/fachadas/fachada_principal_torre.png';
-import beachClassJaguaribeSeaTower from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/fachadas/torre_frente_mar.png';
-import beachClassJaguaribeAccess from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/fachadas/acesso_rua_desembargador_lafayette_velloso.png';
-import beachClassJaguaribeNightLeisure from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/lazer_vista_aerea_noturna.png';
-import beachClassJaguaribePoolAerial from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/piscina_borda_infinita_vista_aerea.png';
-import beachClassJaguaribeSeaPool from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/piscina_borda_infinita_frente_mar.png';
-import beachClassJaguaribePoolView from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/piscina_vista_mar.png';
-import beachClassJaguaribeLounge from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/lounge_externo.png';
-import beachClassJaguaribeExternalGourmet from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/gourmet_externo.png';
-import beachClassJaguaribePartyTerrace from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/terraco_salao_de_festas.png';
-import beachClassJaguaribePartyRoom from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas_gourmet.png';
-import beachClassJaguaribePlayground from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/playground.png';
-import beachClassJaguaribeHall from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/hall_social.png';
-import beachClassJaguaribeColiving from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/coliving_coworking.png';
-import beachClassJaguaribeGrabAndGo from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/grab_and_go.png';
-import beachClassJaguaribeFitness from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/fitness.png';
-import beachClassJaguaribeBoardGuard from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/guarderia_pranchas.png';
-import beachClassJaguaribeTwoBedroomLiving from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/apartamentos/living_apartamento_2_quartos_frente_mar.png';
-import beachClassJaguaribeTwoBedroomSuite from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/apartamentos/suite_apartamento_2_quartos_frente_mar.png';
-import beachClassJaguaribeTwoSuitesLiving from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/apartamentos/living_apartamento_2_suites.png';
-import beachClassJaguaribeOneSuiteLiving from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/apartamentos/living_apartamento_1_suite.png';
-import beachClassJaguaribeOneSuite from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/apartamentos/suite_apartamento_1_suite.png';
-import beachClassJaguaribeGroundPlan from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/plantas/implantacao_pavimento_terreo.png';
-import beachClassJaguaribeLeisurePlan from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/plantas/implantacao_pavimento_lazer.png';
-import beachClassJaguaribeColumnsPlan from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/plantas/planta_indicativa_colunas_tipologias_1_ao_16.png';
-import beachClassJaguaribeTypicalFloor1 from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/plantas/pavimento_tipo_1_1_ao_16_andar.png';
-import beachClassJaguaribePlan74 from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/plantas/planta_74m2_2_quartos_1_suite_terminacao_1.png';
-import beachClassJaguaribePlan64 from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/plantas/planta_64m2_2_suites_terminacao_3.png';
-import beachClassJaguaribePlan40 from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/plantas/planta_40m2_1_suite_terminacao_7.png';
-import beachClassJaguaribePlan65 from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/plantas/planta_65m2_2_quartos_1_suite_terminacao_10.png';
-import beachClassJaguaribeTypicalFloor2 from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/plantas/pavimento_tipo_2_17_andar.png';
-import beachClassJaguaribeTypicalFloor3 from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/plantas/pavimento_tipo_3_18_andar.png';
-import beachClassJaguaribeTypicalFloor4 from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/plantas/pavimento_tipo_4_19_ao_21_andar.png';
-import beachClassJaguaribeLocation from './assets/Empreendimentos/Beach_Class_Jaguaribe_Organizado/localizacao/frente_mar_praia_jaguaribe.png';
+import poemeHortoOrganizedCover from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/capa/capa_poeme_horto.png';
+import poemeHortoAccess from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/acesso_principal.png';
+import poemeHortoPlayroom from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/brinquedoteca.png';
+import poemeHortoFacadeAccess from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/fachada_torre_acesso.png';
+import poemeHortoFacade from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/fachada_torre_completa.png';
+import poemeHortoFitness from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/fitness_espaco_funcional.png';
+import poemeHortoGamesGourmet from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/jogos_gourmet.png';
+import poemeHortoAerialLeisure from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/lazer_vista_aerea.png';
+import poemeHortoLobby from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/lobby_acesso.png';
+import poemeHortoPool from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/piscina_raia_25m.png';
+import poemeHortoCourt from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/quadra_tenis_poliesportiva.png';
+import poemeHortoPartyRoom from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/salao_de_festas.png';
+import poemeHortoApartment173Expanded from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/sala_apto_173_ampliada.png';
+import poemeHortoApartment173Kitchen from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/sala_apto_173_cozinha_aberta.png';
+import poemeHortoApartment173Standard from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/sala_apto_173_padrao.png';
+import poemeHortoApartment203Expanded from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/sala_apto_203_sala_ampliada.png';
+import poemeHortoSuite173 from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/suite_master_apto_173.png';
+import poemeHortoSuite203 from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/suite_master_apto_203.png';
+import poemeHortoBalcony203 from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/imagens_empreendimento/varanda_gourmet_apto_203.png';
+import poemeHortoGroundPlan from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/plantas/implantacao_terreo.png';
+import poemeHortoMezzaninePlan from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/plantas/implantacao_mezanino.png';
+import poemeHortoTypicalFloorPlan from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/plantas/implantacao_pavimento_tipo.png';
+import poemeHortoFloor173203 from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/plantas/pavimento_tipo_173_203.png';
+import poemeHortoPlan203Standard from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/plantas/planta_203_padrao_4_suites.png';
+import poemeHortoPlan203Option from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/plantas/planta_203_opcao_3_suites.png';
+import poemeHortoPlan173Standard from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/plantas/planta_173_padrao_4_suites.png';
+import poemeHortoPlan173Option from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/plantas/planta_173_opcao_3_suites.png';
+import poemeHortoLocationMap from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/localizacao/mapa_aereo_entorno.png';
+import poemeHortoLocationAerial from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/localizacao/vista_aerea_localizacao.png';
+import poemeHortoAerial from './assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/localizacao/vista_aerea_poeme_horto.png';
+import beachClassBahiaOrganizedCover from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/capa/capa_beach_class_bahia.png';
+import beachClassBahiaPerspective from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/fachadas/fachada_perspectiva_empreendimento.png';
+import beachClassBahiaFacade from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/fachadas/fachada_principal.png';
+import beachClassBahiaClarivalAccess from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/fachadas/acesso_rua_clarival_prado_valadares.png';
+import beachClassBahiaAlfazemaAccess from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/fachadas/acesso_rua_da_alfazema.png';
+import beachClassBahiaPoolArea from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/area_da_piscina.png';
+import beachClassBahiaPool from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/piscina.png';
+import beachClassBahiaBeachTennis from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/quadra_beach_tennis.png';
+import beachClassBahiaAlamedaAerial from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/alameda_de_acesso_vista_superior.png';
+import beachClassBahiaAlameda from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/alameda_de_acesso.png';
+import beachClassBahiaLobbyReception from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/lobby_e_recepcao.png';
+import beachClassBahiaReception from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/recepcao.png';
+import beachClassBahiaLobby from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/lobby.png';
+import beachClassBahiaSpa from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/spa_rooftop.png';
+import beachClassBahiaRooftopPool from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/piscina_aquecida_rooftop.png';
+import beachClassBahiaGym from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/areas_comuns/academia_rooftop_200m2.png';
+import beachClassBahiaStudio from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/apartamentos/studio_25_86m2.png';
+import beachClassBahiaOneBedroom from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/apartamentos/quarto_e_sala_35m2.png';
+import beachClassBahiaResidence from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/imagens_empreendimento/apartamentos/residence_2_quartos_61m2.png';
+import beachClassBahiaLeisurePlan from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/plantas/implantacao_pavimento_lazer.png';
+import beachClassBahiaMezzaninePlan from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/plantas/planta_mezanino_7_pavimento.png';
+import beachClassBahiaRooftopPlan from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/plantas/planta_rooftop_wellness_42_andar.png';
+import beachClassBahiaApartmentsPlan from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/plantas/pavimento_apartments_1_ao_27_andar.png';
+import beachClassBahiaStudioPlan from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/plantas/planta_studio_25_86m2.png';
+import beachClassBahiaOneBedroomPlan from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/plantas/planta_quarto_e_sala_35m2.png';
+import beachClassBahiaResidencesPlan from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/plantas/pavimento_residences_28_ao_40_andar.png';
+import beachClassBahiaTwoBedroomPlanColumns from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/plantas/planta_2_quartos_61m2_colunas_02_04_05_06_07_08_09.png';
+import beachClassBahiaTwoBedroomPlanColumnsAlt from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/plantas/planta_2_quartos_61m2_colunas_01_03.png';
+import beachClassBahiaGaragePlan1 from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/plantas/planta_garagem_1_pavimento.png';
+import beachClassBahiaGaragePlan2 from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/plantas/planta_garagem_2_pavimento.png';
+import beachClassBahiaLocation from './assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/localizacao/localizacao_caminho_das_arvores_shopping_da_bahia.png';
+import beachClassRioVermelhoOrganizedCover from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/capa/capa_beach_class_rio_vermelho.png';
+import beachClassRioVermelhoFacade from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/fachadas/fachada_torre_e_orla.png';
+import beachClassRioVermelhoAccess from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/fachadas/acesso_integrado_a_cidade.png';
+import beachClassRioVermelhoRooftopLounge from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/rooftop_lounge.png';
+import beachClassRioVermelhoPoolSpa from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/piscina_aquecida_spa_vista_mar.png';
+import beachClassRioVermelhoSkyLounge from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/sky_lounge.png';
+import beachClassRioVermelhoConfraria from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/espaco_confraria_rooftop.png';
+import beachClassRioVermelhoFitnessTreadmills from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/sky_fitness_esteiras.png';
+import beachClassRioVermelhoFitness from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/sky_fitness.png';
+import beachClassRioVermelhoConcierge from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/hall_concierge.png';
+import beachClassRioVermelhoCoffeeLoungeCoworking from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/coffee_shop_lounge_coworking.png';
+import beachClassRioVermelhoCoffeeCoworking from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/coffee_shop_coworking.png';
+import beachClassRioVermelhoGardenLounge from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/lounge_garden.png';
+import beachClassRioVermelhoCarPoint from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/app_car_point.png';
+import beachClassRioVermelhoMiniMarket from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/mini_market.png';
+import beachClassRioVermelhoBikeScooter from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/espaco_bike_scooter.png';
+import beachClassRioVermelhoLaundry from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/laundry_omo.png';
+import beachClassRioVermelhoPetCare from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/areas_comuns/pet_care.png';
+import beachClassRioVermelhoStudio from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/apartamentos/apartamento_studio.png';
+import beachClassRioVermelhoOneBedroomLiving from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/apartamentos/apartamento_quarto_e_sala_living.png';
+import beachClassRioVermelhoOneBedroom from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/apartamentos/apartamento_quarto_e_sala_quarto.png';
+import beachClassRioVermelhoTwoBedroomLiving from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/apartamentos/apartamento_2_quartos_sala_varanda.png';
+import beachClassRioVermelhoTwoBedroom from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/imagens_empreendimento/apartamentos/apartamento_2_quartos_quarto.png';
+import beachClassRioVermelhoGroundAccessPlan from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/plantas/implantacao_terreo_acessos_estacionamento.png';
+import beachClassRioVermelhoGroundAmenitiesPlan from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/plantas/implantacao_terreo_areas_comuns.png';
+import beachClassRioVermelhoRooftopPlan from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/plantas/implantacao_rooftop.png';
+import beachClassRioVermelhoStudioPlan from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/plantas/planta_studio_26m2.png';
+import beachClassRioVermelhoOneBedroomPlan from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/plantas/planta_quarto_e_sala_37m2.png';
+import beachClassRioVermelhoTwoBedroomPlan from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/plantas/planta_2_quartos_67m2.png';
+import beachClassRioVermelhoTypicalFloorPlan from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/plantas/pavimento_tipo.png';
+import beachClassRioVermelhoTypicalImplementationPlan from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/plantas/implantacao_pavimento_tipo.png';
+import beachClassRioVermelhoLocation from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/localizacao/rio_vermelho_orla_e_bairro.png';
+import beachClassRioVermelhoLocationMap from './assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/localizacao/mapa_localizacao_rio_vermelho.png';
+import hortoEssenceOrganizedCover from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/capa/capa_horto_essence.png';
+import hortoEssenceBambooBoulevard from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/fachadas/boulevard_de_acesso_bambus.png';
+import hortoEssenceTower from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/fachadas/torre_horto_essence.png';
+import hortoEssenceParkAccess from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/fachadas/acesso_empreendimento_parque_lucaia.png';
+import hortoEssenceGatehouse from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/fachadas/guarita_acesso_rua_sapucaia.png';
+import hortoEssencePoolFacade from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/fachadas/fachada_area_piscina.png';
+import hortoEssenceLobby from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/lobby.png';
+import hortoEssencePocketPark from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/pocket_parque.png';
+import hortoEssenceLoungeBar from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/lounge_bar.png';
+import hortoEssenceCourt from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/quadra_poliesportiva_tenis.png';
+import hortoEssencePoolGourmet from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/gourmet_da_piscina.png';
+import hortoEssencePartyRoom from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas.png';
+import hortoEssencePlayroom from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca.png';
+import hortoEssencePlayground from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/parque_infantil.png';
+import hortoEssenceGym from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/espaco_musculacao.png';
+import hortoEssenceCrossfit from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/espaco_crossfit.png';
+import hortoEssenceMassage from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/sala_de_massagem.png';
+import hortoEssenceBeauty from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/espaco_beauty.png';
+import hortoEssenceGarden from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/horta.png';
+import hortoEssencePetPark from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/pet_parque.png';
+import hortoEssencePetCare from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/areas_comuns/pet_care.png';
+import hortoEssenceBalcony133 from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/varanda_133m2_3_suites.png';
+import hortoEssenceLiving133 from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/living_133m2_3_suites.png';
+import hortoEssenceSuite133 from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/suite_master_133m2_3_suites.png';
+import hortoEssenceKitchen133 from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/cozinha_133m2_3_suites.png';
+import hortoEssenceOffice133 from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/home_office_133m2_3_suites.png';
+import hortoEssenceBalcony167 from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/varanda_167m2_4_suites.png';
+import hortoEssenceLiving167 from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/living_167m2_4_suites.png';
+import hortoEssenceSuite167 from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/suite_master_167m2_4_suites.png';
+import hortoEssenceKitchen167 from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/cozinha_167m2_4_suites.png';
+import hortoEssenceOffice167 from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/home_office_167m2_4_suites.png';
+import hortoEssenceLivingExpanded167 from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/living_ampliado_167m2.png';
+import hortoEssenceSuiteExpanded167 from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/imagens_empreendimento/apartamentos/suite_master_ampliada_167m2.png';
+import hortoEssencePlaygroundPlan from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/plantas/implantacao_pavimento_playground.png';
+import hortoEssenceWellnessPlan from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/plantas/implantacao_pavimento_wellness_ss3.png';
+import hortoEssenceParkPlan from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/plantas/implantacao_acesso_parque_lucaia_ss4.png';
+import hortoEssencePlan133 from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/plantas/planta_133m2_3_suites.png';
+import hortoEssencePlan133OpenKitchen from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/plantas/planta_133m2_3_suites_cozinha_aberta_home_office.png';
+import hortoEssencePlan167 from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/plantas/planta_167m2_4_suites.png';
+import hortoEssencePlan167OpenKitchen from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/plantas/planta_167m2_4_suites_cozinha_aberta_sala_suites_ampliadas.png';
+import hortoEssenceLocationMap from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/localizacao/mapa_entorno_horto_florestal.png';
+import hortoEssenceLocationAerial from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/localizacao/vista_aerea_horto_florestal.png';
+import hortoEssenceLucaiaPark from './assets/Empreendimentos/Bahia/Horto_Essence_Organizado/localizacao/parque_lucaia.png';
+import mansaoOthonOrganizedCover from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/capa/capa_mansao_othon.png';
+import mansaoOthonNightFacade from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/imagens_empreendimento/fachadas/fachada_noturna_frente_mar.png';
+import mansaoOthonFacade from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/imagens_empreendimento/fachadas/fachada_avenida_oceanica.png';
+import mansaoOthonMainAccess from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/imagens_empreendimento/fachadas/acesso_principal_avenida_oceanica.png';
+import mansaoOthonLeisureAerial from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/area_lazer_piscina_vista_aerea.png';
+import mansaoOthonAdultPool from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/piscina_adulto_vista_mar.png';
+import mansaoOthonCourts from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/quadras_tenis_e_beach_tennis.png';
+import mansaoOthonLobby from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/entrada_lobby.png';
+import mansaoOthonSpa from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/spa_piscina_aquecida_coberta.png';
+import mansaoOthonGym from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/academia.png';
+import mansaoOthonPlayroom from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca.png';
+import mansaoOthonKidsPlay from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/kids_play_externo.png';
+import mansaoOthonPartyRoom from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas.png';
+import mansaoOthonLiving from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/imagens_empreendimento/apartamentos/living_estar_vista_mar.png';
+import mansaoOthonDining from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/imagens_empreendimento/apartamentos/living_jantar_vista_mar.png';
+import mansaoOthonIntimateRoom from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/imagens_empreendimento/apartamentos/sala_intima.png';
+import mansaoOthonMasterSuite from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/imagens_empreendimento/apartamentos/suite_master_vista_mar.png';
+import mansaoOthonLeisurePlan from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/plantas/implantacao_area_lazer.png';
+import mansaoOthonGaragePlan from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/plantas/garagem_g1.png';
+import mansaoOthonWellnessPlan from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/plantas/pavimento_lazer_wellness.png';
+import mansaoOthonTypicalPlan from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/plantas/pavimento_tipo_2_unidades.png';
+import mansaoOthonStandardPlan from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/plantas/planta_padrao_572m2_5_suites.png';
+import mansaoOthonOptionPlan from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/plantas/planta_opcao_4_suites_ampliada.png';
+import mansaoOthonLocation from './assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/localizacao/orla_de_ondina_salvador.png';
+import miratMartinsOrganizedCover from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/capa/capa_mirat_martins_de_sa.png';
+import miratFacade from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/fachadas/fachada_torre_mirat.png';
+import miratMainAccess from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/fachadas/acesso_principal_paisagismo.png';
+import miratBicycle from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/bicicletario.png';
+import miratPlayroom from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca.png';
+import miratConfraria from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/confraria_salao_de_jogos.png';
+import miratFitness from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/fitness_130m2.png';
+import miratSocialHall from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/hall_social.png';
+import miratMinicampo from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/minicampo.png';
+import miratPetCare from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/pet_care.png';
+import miratPetPlay from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/pet_play.png';
+import miratPools from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/piscinas_adulto_e_infantil.png';
+import miratPoolLane from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/piscina_raia_20m_e_hidros.png';
+import miratPlayground from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/playground.png';
+import miratPartyRoom from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas.png';
+import miratSpa from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/areas_comuns/spa_ofuro_hidromassagem.png';
+import miratBalcony from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/apartamentos/varanda_gourmet.png';
+import miratLiving from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/apartamentos/living.png';
+import miratMasterSuite from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/apartamentos/suite_master.png';
+import miratExpandedSuite from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/apartamentos/suite_master_ampliada.png';
+import miratCloset from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/imagens_empreendimento/apartamentos/closet.png';
+import miratLeisurePlan from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/plantas/implantacao_lazer.png';
+import miratWellnessConfrariaPlan from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/plantas/planta_espaco_wellness_confraria_spa.png';
+import miratWellnessFitnessPlan from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/plantas/planta_espaco_wellness_fitness.png';
+import miratStandardPlan from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/plantas/planta_padrao_253m2_4_suites.png';
+import miratSuggestionTwoPlan from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/plantas/planta_sugestao_2_253m2_3_suites.png';
+import miratSuggestionThreePlan from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/plantas/planta_sugestao_3_253m2_3_suites.png';
+import miratAerialLocation from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/localizacao/vista_aerea_horto_florestal.png';
+import miratSalvadorSeaView from './assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/localizacao/vista_planejada_salvador_mar.png';
+import riveOrganizedCover from './assets/Empreendimentos/Bahia/Rive_Organizado/capa/capa_rive.png';
+import riveContextFacade from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/fachadas/fachada_rive_contexto_rio_vermelho.png';
+import riveNightTower from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/fachadas/torre_rive_perspectiva_noturna.png';
+import riveStreetTower from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/fachadas/torre_rive_perspectiva_rua.png';
+import riveMainAccess from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/fachadas/acesso_principal_rive.png';
+import riveSeaFacade from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/fachadas/fachada_varandas_vista_mar.png';
+import riveRooftopSea from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/areas_comuns/rooftop_vista_mar.png';
+import riveRooftopPanoramic from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/areas_comuns/rooftop_panoramico.png';
+import riveInfinityPool from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/areas_comuns/piscina_borda_infinita.png';
+import riveRooftopGourmet from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/areas_comuns/espaco_gourmet_rooftop.png';
+import riveRooftopGym from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/areas_comuns/academia_rooftop.png';
+import riveSeaGym from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/areas_comuns/academia_vista_mar.png';
+import riveLobby from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/areas_comuns/lobby.png';
+import riveViewpointPlayground from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/areas_comuns/playground_mirante.png';
+import rivePartyPlayground from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/areas_comuns/playground_salao_festas.png';
+import rivePartyRoom from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas.png';
+import riveGamesRoom from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/areas_comuns/sala_de_jogos.png';
+import rivePlayroom from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca.png';
+import riveSportsCourt from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/areas_comuns/quadra_esportiva.png';
+import riveApartment3Balcony from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/apartamentos/varanda_apartamento_3_quartos.png';
+import riveApartment3Suite from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/apartamentos/suite_master_apartamento_3_quartos.png';
+import riveApartment3Living from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/apartamentos/living_apartamento_3_quartos.png';
+import riveGardenBalcony from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/apartamentos/varanda_garden_3_quartos.png';
+import riveApartment4Balcony from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/apartamentos/varanda_apartamento_4_quartos.png';
+import riveApartment4Suite from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/apartamentos/suite_master_apartamento_4_quartos.png';
+import riveApartment4Living from './assets/Empreendimentos/Bahia/Rive_Organizado/imagens_empreendimento/apartamentos/living_apartamento_4_quartos.png';
+import riveGeneralPlan from './assets/Empreendimentos/Bahia/Rive_Organizado/plantas/implantacao_geral_torres.png';
+import riveRooftopPlan from './assets/Empreendimentos/Bahia/Rive_Organizado/plantas/planta_rooftop.png';
+import riveGroundPlan from './assets/Empreendimentos/Bahia/Rive_Organizado/plantas/implantacao_terreo_g2.png';
+import riveLeisurePlan from './assets/Empreendimentos/Bahia/Rive_Organizado/plantas/implantacao_pavimento_lazer.png';
+import riveMareSereiaPlan from './assets/Empreendimentos/Bahia/Rive_Organizado/plantas/pavimento_tipo_torres_mare_sereia_3_quartos.png';
+import rivePlan97Standard from './assets/Empreendimentos/Bahia/Rive_Organizado/plantas/planta_97m2_3_quartos_padrao.png';
+import rivePlan97Master from './assets/Empreendimentos/Bahia/Rive_Organizado/plantas/planta_97m2_2_suites_banheiro_senhor_senhora.png';
+import rivePlan97Office from './assets/Empreendimentos/Bahia/Rive_Organizado/plantas/planta_97m2_2_suites_gabinete.png';
+import riveGardenPlan from './assets/Empreendimentos/Bahia/Rive_Organizado/plantas/planta_garden_130m2_3_quartos.png';
+import riveAmadoPlan from './assets/Empreendimentos/Bahia/Rive_Organizado/plantas/pavimento_tipo_torre_amado_4_quartos.png';
+import rivePlan143Standard from './assets/Empreendimentos/Bahia/Rive_Organizado/plantas/planta_143m2_4_quartos_padrao.png';
+import rivePlan143Master from './assets/Empreendimentos/Bahia/Rive_Organizado/plantas/planta_143m2_3_suites_lavabo_sala_ampliada.png';
+import rivePlan143Integrated from './assets/Empreendimentos/Bahia/Rive_Organizado/plantas/planta_143m2_3_quartos_cozinha_integrada_suite_master_ampliada.png';
+import riveAerialLocation from './assets/Empreendimentos/Bahia/Rive_Organizado/localizacao/vista_aerea_rio_vermelho.png';
+import riveSeaLocation from './assets/Empreendimentos/Bahia/Rive_Organizado/localizacao/localizacao_200m_do_mar.png';
+import riveNeighborhoodMap from './assets/Empreendimentos/Bahia/Rive_Organizado/localizacao/mapa_entorno_rio_vermelho.png';
+import jardinsDoParqueOrganizedCover from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/capa/capa_jardins_do_parque.png';
+import jardinsDoParqueFacadeTowers from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/fachada/fachada_torres_orquideas_e_hortensias.png';
+import jardinsDoParqueTowerPerspective from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/fachada/perspectiva_torre_jardins_do_parque.png';
+import jardinsDoParqueApartment60Bedroom from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_60m_quarto.png';
+import jardinsDoParqueApartment60Living from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_60m_sala_estar_jantar.png';
+import jardinsDoParqueApartment60Suite from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_60m_suite.png';
+import jardinsDoParqueApartment60Balcony from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_60m_varanda.png';
+import jardinsDoParqueApartment81Children from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_81m_quarto_filhos.png';
+import jardinsDoParqueApartment81Office from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_81m_quarto_office.png';
+import jardinsDoParqueApartment81Living from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_81m_sala_estar_jantar.png';
+import jardinsDoParqueApartment81Suite from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_81m_suite.png';
+import jardinsDoParqueApartment81Balcony from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/apartamentos/apartamento_81m_varanda.png';
+import jardinsDoParqueAcademy from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/academia.png';
+import jardinsDoParqueAerialLeisure from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/area_lazer_vista_aerea.png';
+import jardinsDoParquePlayroom from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca.png';
+import jardinsDoParqueGourmets from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/gourmets.png';
+import jardinsDoParqueVipGourmet from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/gourmet_vip_com_piscina.png';
+import jardinsDoParqueHortensiasHall from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/hall_torre_hortensias.png';
+import jardinsDoParqueMinimarket from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/minimarket.png';
+import jardinsDoParqueMiniCourt from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/miniquadra_recreativa.png';
+import jardinsDoParquePetPlace from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/pet_place.png';
+import jardinsDoParqueAdultPool from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/piscina_adulto_prainha_solarium.png';
+import jardinsDoParqueChildrenPool from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/piscina_infantil.png';
+import jardinsDoParquePlayground from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/playground.png';
+import jardinsDoParquePartyRoom from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas.png';
+import jardinsDoParqueSportsBar from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/sports_bar.png';
+import jardinsDoParqueTerrace from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/imagens_empreendimento/areas_comuns/terraco_salao_de_festas.png';
+import jardinsDoParqueGroundPlan from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/plantas/implantacao_pavimento_terreo.png';
+import jardinsDoParqueGeneralPlan from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/plantas/implantacao_geral_torres.png';
+import jardinsDoParqueHortensiasFloorPlan from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/plantas/pavimento_tipo_torre_hortensias.png';
+import jardinsDoParqueOrchidsFloorPlan from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/plantas/pavimento_tipo_torre_orquideas.png';
+import jardinsDoParquePlan60 from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/plantas/planta_60m_2_quartos_1_suite_terminacao_04.png';
+import jardinsDoParquePlan81 from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/plantas/planta_81m_3_quartos_1_suite_terminacao_01.png';
+import jardinsDoParqueCommerce from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/localizacao/entorno_comercio_e_servicos.png';
+import jardinsDoParqueInterestMap from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/localizacao/mapa_entorno_pontos_de_interesse.png';
+import jardinsDoParqueBeach from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/localizacao/praia_cruz_das_almas.png';
+import jardinsDoParqueSeaShopping from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/localizacao/vista_aerea_proximidade_mar_e_shopping.png';
+import cyanoOrganizedCover from './assets/Empreendimentos/Bahia/Cyano_Organizado/capa/capa_cyano.png';
+import cyanoApartment3Living from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_3_suites_living.png';
+import cyanoApartment3Kitchen from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_3_suites_living_cozinha_integrada.png';
+import cyanoApartment3Suite from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_3_suites_suite_master.png';
+import cyanoApartment4Living from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_4_suites_living_integrado_varanda.png';
+import cyanoApartment4Suite from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_4_suites_suite_master.png';
+import cyanoAcademy from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/areas_comuns/academia_185m2.png';
+import cyanoCourt from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/areas_comuns/area_de_lazer_quadra.png';
+import cyanoPlayroom from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca_com_terraco.png';
+import cyanoOutdoorGourmet from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/areas_comuns/espaco_gourmet_externo.png';
+import cyanoSeaGourmet from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/areas_comuns/espaco_gourmet_vista_mar.png';
+import cyanoInfinityPool from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/areas_comuns/piscina_borda_infinita_vista_mar.png';
+import cyanoRooftop from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/areas_comuns/rooftop_vista_mar.png';
+import cyanoPartyRoom from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas_175m2.png';
+import cyanoAccess from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/fachadas/acesso_rua_da_fonte_do_boi.png';
+import cyanoTowerSet from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/fachadas/conjunto_torres_frente_mar.png';
+import cyanoCurvedFacade from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/fachadas/fachada_residencial_curvas_varandas.png';
+import cyanoGeneralView from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/fachadas/vista_geral_empreendimento_frente_mar.png';
+import cyanoNightView from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/fachadas/vista_noturna_conjunto_cyano.png';
+import cyanoGeneralPlan from './assets/Empreendimentos/Bahia/Cyano_Organizado/plantas/implantacao_geral_torres.png';
+import cyanoMarRooftopPlan from './assets/Empreendimentos/Bahia/Cyano_Organizado/plantas/rooftop_torre_mar.png';
+import cyanoOceanLeisurePlan from './assets/Empreendimentos/Bahia/Cyano_Organizado/plantas/pavimento_lazer_torre_oceano.png';
+import cyanoGroundPlan from './assets/Empreendimentos/Bahia/Cyano_Organizado/plantas/pavimento_terreo.png';
+import cyanoAtlanticFloorPlan from './assets/Empreendimentos/Bahia/Cyano_Organizado/plantas/pavimento_tipo_torre_atlantico.png';
+import cyanoMarFloorPlan from './assets/Empreendimentos/Bahia/Cyano_Organizado/plantas/pavimento_tipo_torre_mar.png';
+import cyanoOceanFloorPlan from './assets/Empreendimentos/Bahia/Cyano_Organizado/plantas/pavimento_tipo_torre_oceano.png';
+import cyanoPlan3Suites133 from './assets/Empreendimentos/Bahia/Cyano_Organizado/plantas/planta_3_suites_133m2.png';
+import cyanoPlan3SuitesGarden155 from './assets/Empreendimentos/Bahia/Cyano_Organizado/plantas/planta_3_suites_garden_155m2.png';
+import cyanoPlan4Suites182 from './assets/Empreendimentos/Bahia/Cyano_Organizado/plantas/planta_4_suites_182m2.png';
+import cyanoPlan4SuitesGarden204 from './assets/Empreendimentos/Bahia/Cyano_Organizado/plantas/planta_4_suites_garden_204m2.png';
+import cyanoPlan3SuitesIntegratedKitchen from './assets/Empreendimentos/Bahia/Cyano_Organizado/plantas/planta_opcao_3_suites_cozinha_integrada_133m2.png';
+import cyanoLocation from './assets/Empreendimentos/Bahia/Cyano_Organizado/localizacao/localizacao_rio_vermelho_salvador.png';
+import salvador220OrganizedCover from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/capa/capa_salvador_220.png';
+import salvador220GeneralView from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/fachadas/vista_geral_salvador_220.png';
+import salvador220LobbyAccess from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/fachadas/acesso_lobby_fachada.png';
+import salvador220Tower from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/fachadas/torre_salvador_220.png';
+import salvador220SeaFacade from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/fachadas/fachada_salvador_220_frente_mar.png';
+import salvador220Reception from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/recepcao.png';
+import salvador220CoLiving from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/co_living.png';
+import salvador220Gourmet from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/gourmet.png';
+import salvador220Academy from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/academia.png';
+import salvador220AcademySeaView from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/academia_com_vista_mar.png';
+import salvador220Spa from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/spa_com_sauna_e_sala_massagem.png';
+import salvador220InfinityPool from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/piscina_borda_infinita.png';
+import salvador220PoolAerial from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/vista_aerea_piscina.png';
+import salvador220Rooftop from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/vista_rooftop.png';
+import salvador220RooftopGourmet from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/areas_comuns/espaco_gourmet_rooftop.png';
+import salvador220ApartmentOneBedroom from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/apartamentos/apartamento_1_quarto_33_34m2.png';
+import salvador220ApartmentOneBedroom48 from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/apartamentos/apartamento_1_quarto_48m2.png';
+import salvador220ApartmentTwoSuites from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/apartamentos/apartamento_2_suites_com_lavabo_74m2.png';
+import salvador220SuiteTwoSuites from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/apartamentos/suite_apartamento_2_suites_74m2.png';
+import salvador220ApartmentTwoBedrooms from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/apartamentos/apartamento_2_quartos_1_suite_73m2.png';
+import salvador220SuiteTwoBedrooms from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/apartamentos/suite_apartamento_2_quartos_1_suite_73m2.png';
+import salvador220LanaiApartment from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/imagens_empreendimento/apartamentos/lanai_apartamento_1_quarto_32m2.png';
+import salvador220LobbyPlan from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/plantas/implantacao_pavimento_lobby_terreo.png';
+import salvador220LeisurePlan from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/plantas/implantacao_pavimento_lazer.png';
+import salvador220RooftopPlan from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/plantas/planta_rooftop_22_pavimento.png';
+import salvador220PlanOneBedroom from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/plantas/planta_1_quarto_33_34m2.png';
+import salvador220PlanOneBedroom48 from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/plantas/planta_1_quarto_48m2.png';
+import salvador220PlanTwoSuites from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/plantas/planta_2_suites_com_lavabo_74m2.png';
+import salvador220PlanTwoBedrooms73 from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/plantas/planta_2_quartos_1_suite_73m2.png';
+import salvador220PlanTwoBedrooms69 from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/plantas/planta_2_quartos_1_suite_69m2.png';
+import salvador220LanaiPlan from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/plantas/implantacao_lanai_2_pavimentos.png';
+import salvador220FirstFloorPlan from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/plantas/pavimento_primeiro.png';
+import salvador220TypicalFloor2To6 from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/plantas/pavimento_tipo_2_ao_6_andar.png';
+import salvador220TypicalFloor7To20 from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/plantas/pavimento_tipo_7_ao_20_andar.png';
+import salvador220TypicalFloor21 from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/plantas/pavimento_tipo_21_andar.png';
+import salvador220RooftopCoverPlan from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/plantas/rooftop_cobertura_22_andar.png';
+import salvador220Location from './assets/Empreendimentos/Bahia/Salvador_220_Organizado/localizacao/localizacao_salvador_220_rio_vermelho.png';
+import vivantOrganizedCover from './assets/Empreendimentos/Bahia/Vivant_Organizado/capa/capa_vivant.png';
+import vivantNightTower from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/fachadas/torre_vivant_vista_noturna.png';
+import vivantClaraNunesAccess from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/fachadas/fachada_acesso_rua_clara_nunes.png';
+import vivantCatabasGate from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/fachadas/portaria_alameda_das_catabas.png';
+import vivantMinibosque from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/fachadas/minibosque_acesso_praca_aquarius.png';
+import vivantPlatoZen from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/plato_zen.png';
+import vivantPlatoKids from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/plato_kids.png';
+import vivantPlatoBarbecue from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/plato_barbecue.png';
+import vivantPlatoPet from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/plato_pet.png';
+import vivantExternalLeisure from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/lazer_externo_vista_aerea.png';
+import vivantPoolLane from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/piscina_raia_22m_hidromassagem.png';
+import vivantAdultChildrenPool from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/piscina_adulto_infantil.png';
+import vivantPoolGourmet from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/gourmet_da_piscina.png';
+import vivantSportsCourt from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/quadra_esportiva_quiosque_barbecue.png';
+import vivantPlayground from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/parque_infantil.png';
+import vivantLobbyEnergie from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/lobby_energie.png';
+import vivantPartyRoom from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas.png';
+import vivantConfraria from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/confraria.png';
+import vivantTeenLounge from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/teen_lounge.png';
+import vivantPlayroom from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/brinquedoteca.png';
+import vivantFitness from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/fitness.png';
+import vivantCrossfit from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/crossfit.png';
+import vivantPetCare from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/pet_care.png';
+import vivantCoworking from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/areas_comuns/coworking.png';
+import vivantBalcony from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/apartamentos/varanda_gourmet_vista_34_andar.png';
+import vivantLiving from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/apartamentos/living.png';
+import vivantMasterSuite from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/apartamentos/suite_master.png';
+import vivantHomeTheater from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/apartamentos/home_theater_office.png';
+import vivantExpandedSuite from './assets/Empreendimentos/Bahia/Vivant_Organizado/imagens_empreendimento/apartamentos/suite_master_ampliada.png';
+import vivantCatabasPlan from './assets/Empreendimentos/Bahia/Vivant_Organizado/plantas/implantacao_pavimento_catabas.png';
+import vivantWellnessPlan from './assets/Empreendimentos/Bahia/Vivant_Organizado/plantas/implantacao_pavimento_wellness.png';
+import vivantClaraNunesPlan from './assets/Empreendimentos/Bahia/Vivant_Organizado/plantas/implantacao_pavimento_clara_nunes.png';
+import vivantTypicalFloorPlan from './assets/Empreendimentos/Bahia/Vivant_Organizado/plantas/pavimento_tipo_implantado.png';
+import vivantPlanStandard from './assets/Empreendimentos/Bahia/Vivant_Organizado/plantas/planta_padrao_116m2_3_suites.png';
+import vivantPlanHome from './assets/Empreendimentos/Bahia/Vivant_Organizado/plantas/planta_opcao_home_116m2_2_suites.png';
+import vivantPlanExpandedSuite from './assets/Empreendimentos/Bahia/Vivant_Organizado/plantas/planta_opcao_suite_ampliada_116m2_2_suites.png';
+import vivantLocationMap from './assets/Empreendimentos/Bahia/Vivant_Organizado/localizacao/mapa_entorno_caminho_das_arvores.png';
+import vivantTancredoNeves from './assets/Empreendimentos/Bahia/Vivant_Organizado/localizacao/entorno_av_tancredo_neves.png';
+import vivantAquariusGardens from './assets/Empreendimentos/Bahia/Vivant_Organizado/localizacao/praca_aquarius_jardins.png';
+import vivantAquariusPaths from './assets/Empreendimentos/Bahia/Vivant_Organizado/localizacao/praca_aquarius_caminhos.png';
+import vivantAquariusGreenArea from './assets/Empreendimentos/Bahia/Vivant_Organizado/localizacao/praca_aquarius_area_verde.png';
+import beachClassJaguaribeOrganizedCover from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/capa/capa_beach_class_jaguaribe.png';
+import beachClassJaguaribeFacade from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/fachadas/fachada_principal_torre.png';
+import beachClassJaguaribeSeaTower from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/fachadas/torre_frente_mar.png';
+import beachClassJaguaribeAccess from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/fachadas/acesso_rua_desembargador_lafayette_velloso.png';
+import beachClassJaguaribeNightLeisure from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/lazer_vista_aerea_noturna.png';
+import beachClassJaguaribePoolAerial from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/piscina_borda_infinita_vista_aerea.png';
+import beachClassJaguaribeSeaPool from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/piscina_borda_infinita_frente_mar.png';
+import beachClassJaguaribePoolView from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/piscina_vista_mar.png';
+import beachClassJaguaribeLounge from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/lounge_externo.png';
+import beachClassJaguaribeExternalGourmet from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/gourmet_externo.png';
+import beachClassJaguaribePartyTerrace from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/terraco_salao_de_festas.png';
+import beachClassJaguaribePartyRoom from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/salao_de_festas_gourmet.png';
+import beachClassJaguaribePlayground from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/playground.png';
+import beachClassJaguaribeHall from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/hall_social.png';
+import beachClassJaguaribeColiving from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/coliving_coworking.png';
+import beachClassJaguaribeGrabAndGo from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/grab_and_go.png';
+import beachClassJaguaribeFitness from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/fitness.png';
+import beachClassJaguaribeBoardGuard from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/areas_comuns/guarderia_pranchas.png';
+import beachClassJaguaribeTwoBedroomLiving from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/apartamentos/living_apartamento_2_quartos_frente_mar.png';
+import beachClassJaguaribeTwoBedroomSuite from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/apartamentos/suite_apartamento_2_quartos_frente_mar.png';
+import beachClassJaguaribeTwoSuitesLiving from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/apartamentos/living_apartamento_2_suites.png';
+import beachClassJaguaribeOneSuiteLiving from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/apartamentos/living_apartamento_1_suite.png';
+import beachClassJaguaribeOneSuite from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/imagens_empreendimento/apartamentos/suite_apartamento_1_suite.png';
+import beachClassJaguaribeGroundPlan from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/plantas/implantacao_pavimento_terreo.png';
+import beachClassJaguaribeLeisurePlan from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/plantas/implantacao_pavimento_lazer.png';
+import beachClassJaguaribeColumnsPlan from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/plantas/planta_indicativa_colunas_tipologias_1_ao_16.png';
+import beachClassJaguaribeTypicalFloor1 from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/plantas/pavimento_tipo_1_1_ao_16_andar.png';
+import beachClassJaguaribePlan74 from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/plantas/planta_74m2_2_quartos_1_suite_terminacao_1.png';
+import beachClassJaguaribePlan64 from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/plantas/planta_64m2_2_suites_terminacao_3.png';
+import beachClassJaguaribePlan40 from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/plantas/planta_40m2_1_suite_terminacao_7.png';
+import beachClassJaguaribePlan65 from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/plantas/planta_65m2_2_quartos_1_suite_terminacao_10.png';
+import beachClassJaguaribeTypicalFloor2 from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/plantas/pavimento_tipo_2_17_andar.png';
+import beachClassJaguaribeTypicalFloor3 from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/plantas/pavimento_tipo_3_18_andar.png';
+import beachClassJaguaribeTypicalFloor4 from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/plantas/pavimento_tipo_4_19_ao_21_andar.png';
+import beachClassJaguaribeLocation from './assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/localizacao/frente_mar_praia_jaguaribe.png';
 import unicaCardealCover from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/foto_capa.png';
 import unicaCardealAcademy from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/academia.png';
 import unicaCardealAccess from './assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/imagens_empreendimento/acesso_empreendimento.png';
@@ -645,6 +632,77 @@ import moodSolBahiaLeisurePlan from './assets/Empreendimentos/Bahia/Mood_Sol_Bah
 import moodSolBahiaGymPlan from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/implantacao_e_areas_comuns/07_academia_layout_e_equipamentos.png';
 import moodSolBahiaAerialLocation from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/03_localizacao/01_vista_aerea_orla_patamares_pituacu.png';
 import moodSolBahiaLocationMap from './assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/03_localizacao/02_mapa_localizacao_e_entorno.png';
+import arthurBrunoCover from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/01_Capa/capa_fachada_principal.png';
+import arthurBrunoAerial from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/fachada_vista_aerea_principal.png';
+import arthurBrunoHistoricHouse from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/casarao_historico_espaco_comercial.png';
+import arthurBrunoGreenTunnel from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/tunel_verde_redario.png';
+import arthurBrunoPool1 from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/piscina_adulto_infantil_deck_vista_01.png';
+import arthurBrunoPool2 from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/piscina_adulto_infantil_deck_vista_02.png';
+import arthurBrunoPoolSupport from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/apoio_piscina.png';
+import arthurBrunoMinicampo from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/minicampo.png';
+import arthurBrunoGourmet from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/espaco_gourmet.png';
+import arthurBrunoKidsPartyRoom from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/salao_festas_infantil.png';
+import arthurBrunoPlayroom from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/brinquedoteca.png';
+import arthurBrunoOutdoorPlay1 from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/espaco_infantil_externo_01.png';
+import arthurBrunoOutdoorPlay2 from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/espaco_infantil_externo_02.png';
+import arthurBrunoPetPlace from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/pet_place.png';
+import arthurBrunoPetWash from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/pet_wash.png';
+import arthurBrunoFitness from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/fitness_academia.png';
+import arthurBrunoFunctionalFitness from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/espaco_ginastica_funcional.png';
+import arthurBrunoParcelStorage from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/guarda_volumes.png';
+import arthurBrunoBikeRack from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/bicicletario.png';
+import arthurBrunoAppPickup from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/espera_transporte_por_app.png';
+import arthurBrunoGourmetTerrace from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/apartamento_terraco_gourmet_perspectiva.png';
+import arthurBrunoLivingDining from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/apartamento_sala_estar_jantar_perspectiva.png';
+import arthurBrunoMasterSuite from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/apartamento_suite_master_perspectiva.png';
+import arthurBrunoFurnishedLeisure from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/area_lazer_equipada_mobiliada.png';
+import arthurBrunoHeatedPool from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/piscina_aquecida_ambiente.png';
+import arthurBrunoGroundPlan from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/03_Plantas_e_Implantacao/planta_terreo_areas_comuns_legenda.png';
+import arthurBrunoSitePlan from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/03_Plantas_e_Implantacao/implantacao_torres_a_b_c_d_e_f.png';
+import arthurBrunoTypicalFloorPlan from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/03_Plantas_e_Implantacao/planta_pavimento_tipo_apartamentos.png';
+import cumbucoCover from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/01_Capa/capa_beach_class_cumbuco_vista_aerea_frente_mar.png';
+import cumbucoAerialContext from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/vista_aerea_implantacao_e_praia.png';
+import cumbucoSeaAerial from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/vista_aerea_frente_mar.png';
+import cumbucoPool from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/piscina_externa_palmeiras.png';
+import cumbucoEntrance from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/portaria_principal.png';
+import cumbucoFacade from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/fachada_blocos_residenciais.png';
+import cumbucoReceptionExterior from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/recepcao_entrada_externa.png';
+import cumbucoReceptionInterior from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/recepcao_interna.png';
+import cumbucoPoolsAerial from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/piscinas_frente_mar_vista_superior.png';
+import cumbucoRestaurantExterior from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/restaurante_externo_proximo_piscina.png';
+import cumbucoRestaurantTables from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/restaurante_area_de_mesas.png';
+import cumbucoSportsCourts from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/quadras_esportivas.png';
+import cumbucoGym from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/academia.png';
+import cumbucoSpa from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/spa.png';
+import cumbucoPlayroom from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/brinquedoteca.png';
+import cumbucoPlayground from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/playground.png';
+import cumbucoGames from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/espaco_jogos.png';
+import cumbucoCentralSquare from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/praca_central.png';
+import cumbucoTwoBedroomGarden from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/apartamento_2_quartos_terraco_garden.png';
+import cumbucoTwoBedroomLiving from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/apartamento_2_quartos_sala_cozinha.png';
+import cumbucoOneBedroomGarden from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/apartamento_quarto_sala_garden.png';
+import cumbucoStudioGarden from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/apartamento_studio_garden.png';
+import cumbucoStudioInterior from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/apartamento_studio_interior.png';
+import cumbucoNauticalStorage from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/guarderia_esportes_nauticos.png';
+import cumbucoSitePlan from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/03_Plantas_e_Implantacao/implantacao_geral_dez_blocos.png';
+import cumbucoReceptionPlan from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/03_Plantas_e_Implantacao/planta_bloco_recepcao.png';
+import cumbucoRestaurantPlan from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/03_Plantas_e_Implantacao/planta_bloco_restaurante.png';
+import cumbucoLeisurePlan from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/03_Plantas_e_Implantacao/planta_bloco_lazer.png';
+import cumbucoGroundPlan from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/03_Plantas_e_Implantacao/planta_pavimento_terreo_garden.png';
+import cumbucoTypicalFloorPlan from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/03_Plantas_e_Implantacao/planta_pavimento_1_2_3_andares.png';
+import cumbucoTwoBedroomGardenPlan from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/03_Plantas_e_Implantacao/planta_apto_2_quartos_83m2_terreo_61m2_mais_22m2_garden.png';
+import cumbucoTwoBedroomPlan from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/03_Plantas_e_Implantacao/planta_apto_2_quartos_61m2_andar_tipo.png';
+import cumbucoOneBedroomGardenPlan from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/03_Plantas_e_Implantacao/planta_apto_quarto_sala_61m2_terreo_40m2_mais_21m2_garden.png';
+import cumbucoOneBedroomPlan from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/03_Plantas_e_Implantacao/planta_apto_quarto_sala_40m2_andar_tipo.png';
+import cumbucoStudioGardenPlan from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/03_Plantas_e_Implantacao/planta_apto_studio_42m2_terreo_30m2_mais_12m2_garden.png';
+import cumbucoStudioPlan from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/03_Plantas_e_Implantacao/planta_apto_studio_30m2_andar_tipo.png';
+import cumbucoNauticalStoragePlan from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/03_Plantas_e_Implantacao/planta_bloco_guarderia.png';
+import cumbucoBeachSunset from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/04_Contexto_Praia_Cumbuco/praia_cumbuco_ao_entardecer.png';
+import cumbucoKitesurfSea from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/04_Contexto_Praia_Cumbuco/kitesurf_no_mar.png';
+import cumbucoKitesurfGroup from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/04_Contexto_Praia_Cumbuco/kitesurf_multiplos_velejadores.png';
+import cumbucoKitesurfSailing from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/04_Contexto_Praia_Cumbuco/kitesurf_velejo.png';
+import cumbucoBeachPalms from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/04_Contexto_Praia_Cumbuco/coqueiros_praia.png';
+import cumbucoLocationMap from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/05_Localizacao/mapa_localizacao_beach_class_cumbuco.png';
 
 const CONTACT_EMAIL = 'dimenezescomercial@gmail.com';
 const WHATSAPP_DISPLAY = '(71) 98780-3690';
@@ -658,8 +716,6 @@ const CONTACT_API_BASE_URL = (
 ).replace(/\/$/, '');
 const CONTACT_API_URL = `${CONTACT_API_BASE_URL}/api/contact`;
 const PRIVACY_POLICY_HASH = '#politica-de-privacidade';
-const PUBLIC_ASSET_BASE = process.env.PUBLIC_URL || '';
-const createPublicAssetPath = (path) => `${PUBLIC_ASSET_BASE}${path.startsWith('/') ? path : `/${path}`}`;
 
 const heroSlides = [
   { src: heroBanner1, position: 'center center', sideNote: 'blue', alt: 'Torre residencial à beira-mar sobre o costão rochoso' },
@@ -673,11 +729,6 @@ const heroSlides = [
   { src: heroBanner9, position: 'center center', sideNote: 'white', alt: 'Fachada com varandas e vista para a praia' },
   { src: heroBanner10, position: 'center center', sideNote: 'blue', alt: 'Torre residencial em meio à cidade com o mar ao fundo' },
 ];
-
-const createBookPages = (slug, total) => Array.from({ length: total }, (_, index) => ({
-  src: createPublicAssetPath(`/book-pages/${slug}/page-${String(index + 1).padStart(2, '0')}.jpg`),
-  label: `Página ${String(index + 1).padStart(2, '0')}`,
-}));
 
 const getImageTitle = (image) => image.titulo || image.label || 'Imagem do empreendimento';
 
@@ -694,7 +745,6 @@ const createDevelopment = (development) => ({
   detail: null,
   delivery: null,
   image: null,
-  book: null,
   description: '',
   highlights: [],
   stats: [],
@@ -704,16 +754,16 @@ const createDevelopment = (development) => ({
   sustainability: [],
   projectTeam: [],
   gallery: [],
-  bookImages: [],
   floorPlans: [],
   locationImages: [],
-  bookPages: [],
   ...development,
 });
 
 const AVAILABLE_STATES = [
   { uf: 'BA', name: 'Bahia', flag: bahiaFlag },
   { uf: 'AL', name: 'Alagoas', flag: alagoasFlag },
+  { uf: 'PE', name: 'Pernambuco', flag: pernambucoFlag },
+  { uf: 'CE', name: 'Ceará', flag: cearaFlag },
 ];
 const ALL_STATES_OPTION = { uf: 'ALL', name: 'Todos os estados', filterName: 'Todos' };
 const STATE_FILTER_OPTIONS = [ALL_STATES_OPTION, ...AVAILABLE_STATES];
@@ -736,7 +786,7 @@ const saveSelectedStateToSession = (uf) => {
 
 const additionalDevelopments = [
   createDevelopment({
-    slug: 'beachclassbahia', name: 'Beach Class Bahia', image: beachClassBahiaOrganizedCover, book: beachClassBahiaBook,
+    slug: 'beachclassbahia', name: 'Beach Class Bahia', image: beachClassBahiaOrganizedCover,
     city: 'Salvador, BA', neighborhood: 'Caminho das Árvores', locationTitle: 'Conectado ao Shopping da Bahia',
     address: 'Acessos pela Rua Clarival do Prado Valadares e Rua da Alfazema, Caminho das Árvores, Salvador/BA',
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=Rua%20Clarival%20do%20Prado%20Valadares%20Salvador%20BA',
@@ -799,7 +849,7 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
-    slug: 'beachclassjaguaribe', name: 'Beach Class Jaguaribe', image: beachClassJaguaribeOrganizedCover, book: beachClassJaguaribeBook,
+    slug: 'beachclassjaguaribe', name: 'Beach Class Jaguaribe', image: beachClassJaguaribeOrganizedCover,
     city: 'Salvador, BA', neighborhood: 'Jaguaribe', locationTitle: 'Em frente à praia de Jaguaribe',
     address: 'Rua Desembargador Lafayette Velloso, 80 - Jaguaribe, Salvador/BA',
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=Rua%20Desembargador%20Lafayette%20Velloso%2080%20Jaguaribe%20Salvador%20BA',
@@ -866,7 +916,7 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
-    slug: 'beachclassriovermelho', name: 'Beach Class Rio Vermelho', image: beachClassRioVermelhoOrganizedCover, book: beachClassRioVermelhoBook,
+    slug: 'beachclassriovermelho', name: 'Beach Class Rio Vermelho', image: beachClassRioVermelhoOrganizedCover,
     city: 'Salvador, BA', neighborhood: 'Rio Vermelho', locationTitle: 'Rio Vermelho, próximo à orla',
     address: 'Av. Cardeal da Silva - Rio Vermelho, Salvador/BA',
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=Avenida%20Cardeal%20da%20Silva%20Rio%20Vermelho%20Salvador%20BA',
@@ -927,7 +977,7 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
-    slug: 'cyano', name: 'Cyano', image: cyanoOrganizedCover, book: cyanoBook,
+    slug: 'cyano', name: 'Cyano', image: cyanoOrganizedCover,
     city: 'Salvador, BA', neighborhood: 'Rio Vermelho', locationTitle: 'Frente ao mar, no Rio Vermelho',
     address: 'Rua da Fonte do Boi, Rio Vermelho, Salvador/BA',
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=Rua%20da%20Fonte%20do%20Boi%20Rio%20Vermelho%20Salvador%20BA',
@@ -980,7 +1030,7 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
-    slug: 'hortoessence', name: 'Horto Essence', image: hortoEssenceOrganizedCover, book: hortoEssenceBook,
+    slug: 'hortoessence', name: 'Horto Essence', image: hortoEssenceOrganizedCover,
     city: 'Salvador, BA', neighborhood: 'Horto Florestal', locationTitle: 'Acesso direto ao Parque Lucaia',
     address: 'Rua da Sapucaia, quadra 2, lote 22 - Horto Florestal, Salvador/BA',
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=Rua%20da%20Sapucaia%20quadra%202%20lote%2022%20Horto%20Florestal%20Salvador%20BA',
@@ -1051,7 +1101,7 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
-    slug: 'mansaoothon', name: 'Mansão Othon', image: mansaoOthonOrganizedCover, book: mansaoOthonBook,
+    slug: 'mansaoothon', name: 'Mansão Othon', image: mansaoOthonOrganizedCover,
     city: 'Salvador, BA', neighborhood: 'Ondina', locationTitle: 'Orla de Ondina, no terreno do Bahia Othon Palace',
     address: 'Avenida Oceânica, Ondina, Salvador/BA',
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=Avenida%20Oce%C3%A2nica%20Ondina%20Salvador%20BA',
@@ -1103,7 +1153,7 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
-    slug: 'miratmartins', name: 'Mirat Martins de Sá', image: miratMartinsOrganizedCover, book: miratMartinsBook,
+    slug: 'miratmartins', name: 'Mirat Martins de Sá', image: miratMartinsOrganizedCover,
     city: 'Salvador, BA', neighborhood: 'Horto Florestal', locationTitle: 'Horto Florestal - Salvador/BA',
     address: 'Horto Florestal - Salvador/BA',
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=Mirat%20Martins%20Horto%20Florestal%20Salvador%20BA',
@@ -1163,7 +1213,7 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
-    slug: 'poeme-horto', name: 'Poème Horto', image: poemeHortoOrganizedCover, book: poemeHortoBook,
+    slug: 'poeme-horto', name: 'Poème Horto', image: poemeHortoOrganizedCover,
     city: 'Salvador, BA', neighborhood: 'Horto Florestal', locationTitle: 'Horto Florestal',
     address: 'Rua da Sapucaia, 445 - Horto Florestal, Salvador/BA',
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=Rua%20da%20Sapucaia%20445%20Horto%20Florestal%20Salvador%20BA',
@@ -1215,7 +1265,7 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
-    slug: 'rive', name: 'Rivê', image: riveOrganizedCover, book: riveBook,
+    slug: 'rive', name: 'Rivê', image: riveOrganizedCover,
     city: 'Salvador, BA', neighborhood: 'Rio Vermelho', locationTitle: 'A aproximadamente 200 metros do mar',
     address: 'Avenida Juracy Magalhães Júnior, 188 - Rio Vermelho, Salvador/BA',
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=Avenida%20Juracy%20Magalh%C3%A3es%20J%C3%BAnior%20188%20Rio%20Vermelho%20Salvador%20BA',
@@ -1286,7 +1336,7 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
-    slug: 'salvador220', name: 'Salvador 220', image: salvador220OrganizedCover, book: salvador220Book,
+    slug: 'salvador220', name: 'Salvador 220', image: salvador220OrganizedCover,
     city: 'Salvador, BA', neighborhood: 'Rio Vermelho', locationTitle: 'Rua Fonte do Boi, no Rio Vermelho',
     address: 'Rua Fonte do Boi, 220 - Rio Vermelho, Salvador/BA',
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=Rua%20Fonte%20do%20Boi%20220%20Rio%20Vermelho%20Salvador%20BA',
@@ -1353,7 +1403,7 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
-    slug: 'vivant', name: 'Vivant', image: vivantOrganizedCover, book: vivantBook,
+    slug: 'vivant', name: 'Vivant', image: vivantOrganizedCover,
     city: 'Salvador, BA', neighborhood: 'Caminho das Árvores', locationTitle: 'Próximo à Praça Aquarius',
     address: 'Alameda das Catabas, Caminho das Árvores, Salvador/BA',
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=Alameda%20das%20Catabas%20Caminho%20das%20%C3%81rvores%20Salvador%20BA',
@@ -1452,7 +1502,7 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
-    slug: 'jardinsdoparque', name: 'Jardins do Parque', image: jardinsDoParqueOrganizedCover, book: jardinsDoParqueBook,
+    slug: 'jardinsdoparque', name: 'Jardins do Parque', image: jardinsDoParqueOrganizedCover,
     city: 'Maceió, AL', neighborhood: 'Cruz das Almas', locationTitle: 'Próximo ao Parque Shopping e à Praia de Cruz das Almas',
     address: 'Av. em Projeto 7216, antiga Nova Via Empreendimentos Ltda - Cruz das Almas, Maceió/AL',
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=Parque%20Shopping%20Cruz%20das%20Almas%20Macei%C3%B3%20AL',
@@ -1759,6 +1809,137 @@ const additionalDevelopments = [
       { src: moodSolBahiaLocationMap, titulo: 'Mapa de localização e entorno' },
     ],
   }),
+  createDevelopment({
+    slug: 'arthur-bruno-schwambach', name: 'Arthur Bruno Schwambach', image: arthurBrunoCover,
+    city: 'Recife, PE', neighborhood: 'Casa Forte', locationTitle: 'Casa Forte - Recife/PE',
+    address: 'Casa Forte, Recife/PE. Referências de localização: Avenida 17 de Agosto e Rua Tapacurá.',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Arthur%20Bruno%20Schwambach%20Casa%20Forte%20Recife%20PE',
+    area: '122,76 m²', profile: '3 suítes e terraço gourmet', detail: '6 torres com 7 pavimentos cada',
+    description: 'O Arthur Bruno Schwambach reúne seis torres em Casa Forte, no Recife, em um projeto com mais de 4.000 m² de área verde e paisagismo com árvores frutíferas. Os apartamentos têm 122,76 m², três suítes, terraço gourmet e duas vagas de garagem. O conjunto integra um casarão histórico preservado e restaurado a áreas de lazer e convivência.',
+    highlights: ['122,76 m²', '3 suítes', '2 vagas de garagem', 'Mais de 4.000 m² de área verde'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Casa Forte, Recife/PE'], ['Torres', '6 torres'], ['Garagem', '2 vagas por apartamento']],
+    technical: [
+      ['Torres', '6 edifícios: torres A, B, C, D, E e F'],
+      ['Pavimentos', '7 pavimentos por edifício'],
+      ['Apartamentos', '122,76 m² com 3 suítes e terraço gourmet'],
+      ['Garagem', '2 vagas por apartamento'],
+      ['Área verde', 'Mais de 4.000 m², com árvores frutíferas'],
+      ['Patrimônio', 'Casarão histórico preservado e restaurado, com espaço comercial ilustrado'],
+      ['Mobilidade elétrica', '4 pontos de tomadas para carro elétrico'],
+      ['Registro de incorporação', 'R-11 da matrícula nº 12.789, 6º Ofício de Registro de Imóveis de Recife'],
+      ['Material', 'Imagens e características ilustrativas, sujeitas a alterações'],
+    ],
+    amenities: ['Piscina adulto e infantil', 'Deck molhado', 'Apoio da piscina', 'Piscina aquecida', 'Sauna', 'Minicampo', 'Espaço gourmet', 'Salão de festas com bar e copa', 'Salão de festas infantil com copa', 'Brinquedoteca', 'Espaço infantil externo', 'Bicicletário', 'Pet place', 'Pet wash', 'Fitness equipado', 'Espaço para ginástica funcional', 'Guarda-volumes para encomendas', 'Espera para transporte por aplicativo', 'Túnel verde e redário', 'Áreas de lazer equipadas e mobiliadas', 'Tomadas USB nas áreas comuns'],
+    security: ['Fechadura eletrônica nos apartamentos'],
+    sustainability: ['Placas solares', 'Reúso de água', 'Paisagismo com árvores frutíferas e mais de 4.000 m² de área verde'],
+    projectTeam: ['Pontual Arquitetos | Arquitetura', 'Romero Duarte | Ambientação'],
+    gallery: [
+      { src: arthurBrunoAerial, titulo: 'Arthur Bruno Schwambach - vista aérea e área verde' },
+      { src: arthurBrunoHistoricHouse, titulo: 'Casarão histórico preservado e restaurado' },
+      { src: arthurBrunoGreenTunnel, titulo: 'Túnel verde e redário' },
+      { src: arthurBrunoPool1, titulo: 'Piscinas adulto e infantil com deck molhado - vista 1' },
+      { src: arthurBrunoPool2, titulo: 'Piscinas e deck molhado - vista 2' },
+      { src: arthurBrunoPoolSupport, titulo: 'Ambiente de apoio da piscina' },
+      { src: arthurBrunoMinicampo, titulo: 'Minicampo' },
+      { src: arthurBrunoGourmet, titulo: 'Espaço gourmet' },
+      { src: arthurBrunoKidsPartyRoom, titulo: 'Salão de festas infantil' },
+      { src: arthurBrunoPlayroom, titulo: 'Brinquedoteca' },
+      { src: arthurBrunoOutdoorPlay1, titulo: 'Espaço infantil externo - vista 1' },
+      { src: arthurBrunoOutdoorPlay2, titulo: 'Espaço infantil externo com brinquedo de madeira' },
+      { src: arthurBrunoPetPlace, titulo: 'Pet place' },
+      { src: arthurBrunoPetWash, titulo: 'Pet wash' },
+      { src: arthurBrunoFitness, titulo: 'Fitness equipado' },
+      { src: arthurBrunoFunctionalFitness, titulo: 'Espaço para ginástica funcional' },
+      { src: arthurBrunoParcelStorage, titulo: 'Guarda-volumes para encomendas' },
+      { src: arthurBrunoBikeRack, titulo: 'Bicicletário' },
+      { src: arthurBrunoAppPickup, titulo: 'Espera para transporte por aplicativo' },
+      { src: arthurBrunoGourmetTerrace, titulo: 'Perspectiva do terraço gourmet do apartamento' },
+      { src: arthurBrunoLivingDining, titulo: 'Perspectiva da sala de estar e jantar' },
+      { src: arthurBrunoMasterSuite, titulo: 'Perspectiva da suíte master' },
+      { src: arthurBrunoFurnishedLeisure, titulo: 'Área de lazer equipada e mobiliada' },
+      { src: arthurBrunoHeatedPool, titulo: 'Piscina aquecida e entorno' },
+    ],
+    floorPlans: [
+      { src: arthurBrunoGroundPlan, titulo: 'Pavimento térreo - áreas comuns e legenda' },
+      { src: arthurBrunoSitePlan, titulo: 'Implantação das torres A, B, C, D, E e F' },
+      { src: arthurBrunoTypicalFloorPlan, titulo: 'Pavimento tipo - apartamentos de 122,76 m²' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'beach-class-cumbuco', name: 'Beach Class Cumbuco', image: cumbucoCover,
+    city: 'Caucaia, CE', neighborhood: 'Cumbuco', locationTitle: 'Cumbuco - Caucaia/CE',
+    address: 'Rua Lagoa das Rosas, S/N, Gleba CP7, Cumbuco, Caucaia/CE',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Beach%20Class%20Cumbuco%20Rua%20Lagoa%20das%20Rosas%20Caucaia%20CE',
+    area: '30 a 83 m²', profile: 'Studios, quarto e sala e 2 quartos, com opções Garden', detail: '640 unidades em 10 blocos',
+    description: 'O Beach Class Cumbuco é um empreendimento residencial à beira-mar em Cumbuco, Caucaia, no litoral do Ceará. O projeto reúne dez blocos e 640 unidades, com studios, quarto e sala e apartamentos de dois quartos, além de opções Garden com área externa privativa. A implantação conecta as áreas de lazer ao acesso à praia, com espaços de convivência e apoio aos esportes náuticos.',
+    highlights: ['30 a 83 m²', 'Studios, quarto e sala e 2 quartos', '640 unidades', 'À beira-mar no Cumbuco'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Cumbuco, Caucaia/CE'], ['Unidades', '640 apartamentos'], ['Garagem', '646 vagas rotativas, com uso conforme tipologia e disponibilidade']],
+    technical: [
+      ['Área do terreno', '58.723,91 m²'],
+      ['Área privativa total', '27.046,60 m²'],
+      ['Blocos', '10 blocos residenciais: A, B, C, D, E, F, G, H, I e J'],
+      ['Pavimentos', 'Térreo + 3 pavimentos por bloco'],
+      ['Unidades', '640 unidades residenciais, com 64 por bloco'],
+      ['Apartamentos tipo', 'Studio de 30 m²; quarto e sala de 40 m²; 2 quartos de 61 m²'],
+      ['Unidades Garden', 'Studio de 42 m² (30 + 12 m² de jardim); quarto e sala de 61 m² (40 + 21 m²); 2 quartos de 83 m² (61 + 22 m²)'],
+      ['Garagem', '646 vagas rotativas: direito de uso de 2 vagas para 2 quartos e 1 vaga para studios e quarto/sala, condicionado à disponibilidade e vacância'],
+      ['Elevadores', 'Elevador social nos blocos residenciais'],
+      ['Espaço para restaurante', 'Equipamentos de cozinha de responsabilidade dos compradores; gestão conforme a convenção do condomínio'],
+      ['Material', 'Perspectivas ilustrativas; especificações e acabamentos conforme o memorial descritivo'],
+    ],
+    amenities: ['Piscina adulto com área de natação', 'Piscina infantil', 'Prainha', 'Deck e áreas de estar', 'Espaço para restaurante', 'Academia', 'Spa', 'Sauna integrada à piscina', 'Terraço de jogos', 'Brinquedoteca', 'Playground', 'Salão de beleza', 'Espaço para massagem', 'Praça central', 'Quadras de beach tennis', 'Guarderia para equipamentos de esportes náuticos', 'Lobby com espaço para check-in e check-out', 'Maleiro', 'Administração', 'Lavanderia compartilhada', 'Minimarket', 'Pet place', 'Embarque e desembarque'],
+    security: ['Fechadura eletrônica nos apartamentos'],
+    sustainability: ['Irrigação automatizada dos jardins', 'Aproveitamento de água das condensadoras de ar-condicionado para irrigação', 'Infraestrutura seca para carregamento de carros elétricos em 10 vagas rotativas', 'Soluções para redução do consumo de água em louças e metais, conforme especificações', 'Iluminação LED nas áreas comuns', 'Medição individualizada de água', 'Ambientes projetados para iluminação e ventilação naturais'],
+    projectTeam: ['Daniel Arruda Arquitetos | Arquitetura', 'Takeda Design | Paisagismo', 'Zirpoli Arquitetos | Ambientação', 'Singular Projetos | Instalações', 'Pedreira Ônix Engenharia | Estrutura'],
+    gallery: [
+      { src: cumbucoSeaAerial, titulo: 'Beach Class Cumbuco - perspectiva aérea frente ao mar' },
+      { src: cumbucoAerialContext, titulo: 'Perspectiva aérea da implantação e da praia' },
+      { src: cumbucoPool, titulo: 'Perspectiva da piscina externa e das palmeiras' },
+      { src: cumbucoEntrance, titulo: 'Perspectiva da portaria principal' },
+      { src: cumbucoFacade, titulo: 'Perspectiva da fachada dos blocos residenciais' },
+      { src: cumbucoReceptionExterior, titulo: 'Perspectiva da entrada da recepção' },
+      { src: cumbucoReceptionInterior, titulo: 'Perspectiva do interior do lobby de recepção' },
+      { src: cumbucoPoolsAerial, titulo: 'Perspectiva das piscinas com o mar ao fundo' },
+      { src: cumbucoRestaurantExterior, titulo: 'Perspectiva do espaço para restaurante junto à piscina' },
+      { src: cumbucoRestaurantTables, titulo: 'Perspectiva das mesas e varanda do espaço para restaurante' },
+      { src: cumbucoSportsCourts, titulo: 'Perspectiva das quadras esportivas' },
+      { src: cumbucoGym, titulo: 'Perspectiva da academia' },
+      { src: cumbucoSpa, titulo: 'Perspectiva dos ambientes do spa' },
+      { src: cumbucoPlayroom, titulo: 'Perspectiva da brinquedoteca' },
+      { src: cumbucoPlayground, titulo: 'Perspectiva do playground externo' },
+      { src: cumbucoGames, titulo: 'Perspectiva do terraço de jogos' },
+      { src: cumbucoCentralSquare, titulo: 'Perspectiva da praça central e do paisagismo' },
+      { src: cumbucoTwoBedroomGarden, titulo: 'Perspectiva do apartamento de 2 quartos com Garden' },
+      { src: cumbucoTwoBedroomLiving, titulo: 'Perspectiva da sala e cozinha do apartamento de 2 quartos' },
+      { src: cumbucoOneBedroomGarden, titulo: 'Perspectiva do apartamento quarto e sala com Garden' },
+      { src: cumbucoStudioGarden, titulo: 'Perspectiva do Studio com Garden' },
+      { src: cumbucoStudioInterior, titulo: 'Perspectiva do interior do Studio' },
+      { src: cumbucoNauticalStorage, titulo: 'Perspectiva da guarderia para equipamentos náuticos' },
+    ],
+    floorPlans: [
+      { src: cumbucoSitePlan, titulo: 'Implantação geral dos 10 blocos' },
+      { src: cumbucoReceptionPlan, titulo: 'Bloco de recepção' },
+      { src: cumbucoRestaurantPlan, titulo: 'Bloco restaurante' },
+      { src: cumbucoLeisurePlan, titulo: 'Bloco de lazer - academia, spa e brinquedoteca' },
+      { src: cumbucoGroundPlan, titulo: 'Pavimento térreo - unidades Garden' },
+      { src: cumbucoTypicalFloorPlan, titulo: 'Pavimento tipo - 1º, 2º e 3º andares' },
+      { src: cumbucoTwoBedroomGardenPlan, titulo: 'Apartamento 2 quartos Garden - 83 m² (61 m² + 22 m² de jardim)' },
+      { src: cumbucoTwoBedroomPlan, titulo: 'Apartamento 2 quartos - 61 m²' },
+      { src: cumbucoOneBedroomGardenPlan, titulo: 'Quarto e sala Garden - 61 m² (40 m² + 21 m² de jardim)' },
+      { src: cumbucoOneBedroomPlan, titulo: 'Quarto e sala - 40 m²' },
+      { src: cumbucoStudioGardenPlan, titulo: 'Studio Garden - 42 m² (30 m² + 12 m² de jardim)' },
+      { src: cumbucoStudioPlan, titulo: 'Studio - 30 m²' },
+      { src: cumbucoNauticalStoragePlan, titulo: 'Bloco guarderia para equipamentos náuticos' },
+    ],
+    locationImages: [
+      { src: cumbucoLocationMap, titulo: 'Mapa de localização do Beach Class Cumbuco' },
+      { src: cumbucoBeachSunset, titulo: 'Entorno: praia do Cumbuco ao entardecer' },
+      { src: cumbucoKitesurfSea, titulo: 'Entorno: kitesurf no mar do Cumbuco' },
+      { src: cumbucoKitesurfGroup, titulo: 'Entorno: praticantes de kitesurf no Cumbuco' },
+      { src: cumbucoKitesurfSailing, titulo: 'Entorno: velejo de kitesurf no Cumbuco' },
+      { src: cumbucoBeachPalms, titulo: 'Entorno: coqueiros e praia do Cumbuco' },
+    ],
+  }),
 ];
 
 const developments = [
@@ -1777,7 +1958,6 @@ const developments = [
     detail: '2 ou 3 vagas de garagem',
     delivery: null,
     image: elleveOrganizedCover,
-    book: elleveBook,
     description: 'O Elleve Horto é um empreendimento de alto padrão no Horto Florestal, com proposta de equilíbrio entre sofisticação, leveza, exclusividade, natureza, conforto e convivência. O projeto tem torre única, plantas amplas e áreas comuns completas.',
     highlights: ['119,06 a 168,92 m²', '3 ou 4 suítes', '2 ou 3 vagas', 'Horto Florestal'],
     stats: [
@@ -1843,7 +2023,6 @@ const developments = [
       { src: elleveLocationMap, titulo: 'Mapa do Horto Florestal e pontos de interesse' },
       { src: elleveLocationAerial, titulo: 'Vista aérea do Elleve Horto no Horto Florestal' },
     ],
-    bookPages: createBookPages('elleve-horto', 54),
   },
   {
     slug: 'casa-sombreiros',
@@ -1860,7 +2039,6 @@ const developments = [
     detail: '3 vagas por apartamento',
     delivery: null,
     image: sombreirosOrganizedCover,
-    book: sombreirosBook,
     description: 'O Casa Sombreiros nasce da harmonia entre o essencial e o sofisticado, com a sensação de viver em uma casa cercada por verde, tranquilidade e conveniência no Caminho das Árvores. O projeto reúne apartamentos de 168 m², quatro suítes, áreas comuns completas e quatro opções de planta.',
     highlights: ['168 m²', '4 suítes', '3 vagas', 'Caminho das Árvores'],
     stats: [
@@ -1916,7 +2094,6 @@ const developments = [
     locationImages: [
       { src: sombreirosLocation, titulo: 'Vista aérea do Caminho das Árvores e entorno' },
     ],
-    bookPages: createBookPages('casa-sombreiros', 41),
   },
   {
     slug: 'infinity-salvador-business',
@@ -1933,7 +2110,6 @@ const developments = [
     detail: 'Torre Business em complexo mixed-use',
     delivery: null,
     image: infinityOrganizedCover,
-    book: infinityBook,
     description: 'O Infinity Salvador é apresentado como um empreendimento mixed-use em Ondina, reunindo Apartments, Residences e Business. A torre empresarial oferece salas comerciais e consultórios com metragens versáteis, ambientes integrados e localização junto à orla da Avenida Oceânica.',
     highlights: ['32 a 83 m²', 'Salas e consultórios', 'Garden Business', 'Ondina'],
     stats: [
@@ -1976,7 +2152,6 @@ const developments = [
       { src: infinityAerialLocation, titulo: 'Vista aérea da orla de Ondina e do empreendimento' },
       { src: infinityUrbanContext, titulo: 'Contexto dos empreendimentos na orla de Ondina' },
     ],
-    bookPages: createBookPages('infinity-business', 32),
   },
   ...additionalDevelopments,
 ];
@@ -2210,10 +2385,10 @@ function DevelopmentCard({ development, index }) {
     <a className="development-card" href={`#empreendimento/${development.slug}`} style={{ '--card-delay': `${index * 90}ms` }}>
       <div className="development-card__media">
         {development.image ? <img src={development.image} alt={`Fachada do empreendimento ${development.name}`} loading="lazy" /> : (
-          <div className="development-card__fallback" aria-label={`Book digital do empreendimento ${development.name}`}>
+          <div className="development-card__fallback" aria-label={`Imagem em atualização do empreendimento ${development.name}`}>
             <Icon name="document" size={38} />
             <strong>{development.name}</strong>
-            <span>Book digital</span>
+            <span>Imagem em atualização</span>
           </div>
         )}
         <span className="development-card__tag">{development.status || 'Empreendimento'}</span>
@@ -2268,9 +2443,10 @@ function StateSelectionPage({ onSelectState }) {
           <div className="state-selection__map-column">
             <p className="eyebrow"><span /> Encontre seu próximo endereço</p>
             <div className="state-selection__map-wrap">
-              <img className="state-selection__map" src={brazilMap} alt="Mapa do Brasil com Bahia e Alagoas disponíveis" />
-              <button className="state-map-hotspot state-map-hotspot--ba" type="button" aria-label="Selecionar Bahia" onClick={() => onSelectState('BA')}><span>Bahia</span></button>
-              <button className="state-map-hotspot state-map-hotspot--al" type="button" aria-label="Selecionar Alagoas" onClick={() => onSelectState('AL')}><span>Alagoas</span></button>
+              <img className="state-selection__map" src={brazilMap} alt={`Mapa do Brasil com estados disponíveis: ${AVAILABLE_STATES.map((state) => state.name).join(', ')}`} />
+              {AVAILABLE_STATES.map((state) => (
+                <button className={`state-map-hotspot state-map-hotspot--${state.uf.toLowerCase()}`} key={state.uf} type="button" aria-label={`Selecionar ${state.name}`} onClick={() => onSelectState(state.uf)}><span>{state.name}</span></button>
+              ))}
             </div>
           </div>
           <div className="state-selection__copy">
@@ -2376,7 +2552,7 @@ function AllDevelopmentsPage({ selectedState, onSelectState }) {
             <div className="state-empty-state">
               <span className="state-empty-state__mark" aria-hidden="true"><Icon name="building" size={28} /></span>
               <h3>{normalizedSearchTerm ? 'Nenhum empreendimento encontrado.' : stateOption ? 'Ainda não há empreendimentos disponíveis neste estado.' : 'Escolha um estado para ver os empreendimentos.'}</h3>
-              <p>{normalizedSearchTerm ? 'Tente buscar por outro nome.' : stateOption ? `Em breve, novas oportunidades chegarão para ${stateOption.name}.` : 'Clique em Empreendimentos no menu para selecionar Bahia ou Alagoas.'}</p>
+              <p>{normalizedSearchTerm ? 'Tente buscar por outro nome.' : stateOption ? `Em breve, novas oportunidades chegarão para ${stateOption.name}.` : 'Clique em Empreendimentos no menu para selecionar um estado.'}</p>
             </div>
           )}
         </div>
@@ -2495,7 +2671,7 @@ function DevelopmentDetail({ development }) {
   const touchStartX = useRef(null);
   const activeImages = activeLightbox ? lightboxGroups[activeLightbox.group] : [];
   const activeImage = activeLightbox ? activeImages[activeLightbox.index] : null;
-  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia'].includes(development?.slug);
+  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'beach-class-cumbuco'].includes(development?.slug);
   const visibleGalleryImages = lightboxGroups.gallery.slice(0, 5);
   const remainingGalleryCount = Math.max(0, lightboxGroups.gallery.length - visibleGalleryImages.length);
   const visibleFloorPlans = showAllOrganizedImages
@@ -2579,7 +2755,7 @@ function DevelopmentDetail({ development }) {
       <section className="detail-hero">
         <div className="detail-hero__media" aria-hidden="true">
           {development.image ? <img src={development.image} alt="" /> : (
-            <div className="detail-hero__fallback"><Icon name="document" size={54} /><span>Book digital</span></div>
+            <div className="detail-hero__fallback"><Icon name="document" size={54} /><span>Imagem em atualização</span></div>
           )}
         </div>
         <div className="detail-hero__overlay" />
@@ -2631,19 +2807,6 @@ function DevelopmentDetail({ development }) {
           </div>
         </div>
       </section>
-
-      {development.book && (
-        <section className="detail-book section" aria-labelledby="detail-book-title">
-          <div className="container detail-book__inner">
-            <div>
-              <p className="eyebrow"><span /> Material oficial</p>
-              <h2 id="detail-book-title">Acesse o material oficial do empreendimento.</h2>
-              <p>Confira imagens, plantas, localização, diferenciais e demais informações diretamente no material oficial.</p>
-            </div>
-            <a className="button button--primary" href={development.book} target="_blank" rel="noreferrer">Abrir material completo <Icon name="arrow" size={19} /></a>
-          </div>
-        </section>
-      )}
 
       <section className="detail-technical section" id="detalhes-ficha-tecnica" aria-labelledby="technical-title">
         <div className="container">
@@ -2718,8 +2881,7 @@ function DevelopmentDetail({ development }) {
             )) : (
               <div className="detail-empty-state">
                 <Icon name="document" size={30} />
-                <strong>Imagens disponíveis no book digital</strong>
-                {development.book && <a href={development.book} target="_blank" rel="noreferrer">Abrir book digital <Icon name="arrow" size={17} /></a>}
+                <strong>Imagens em atualização</strong>
               </div>
             )}
           </div>
@@ -2757,8 +2919,7 @@ function DevelopmentDetail({ development }) {
             )) : (
               <div className="detail-empty-state">
                 <Icon name="document" size={30} />
-                <strong>Plantas disponíveis no book digital</strong>
-                {development.book && <a href={development.book} target="_blank" rel="noreferrer">Consultar plantas <Icon name="arrow" size={17} /></a>}
+                <strong>Plantas em atualização</strong>
               </div>
             )}
           </div>
@@ -3171,10 +3332,7 @@ function LinkBioPage() {
     { title: 'Conheça a Dione', subtitle: 'Minha trajetória e como posso te ajudar', icon: 'user', href: '/#sobre' },
     { title: 'Fale comigo', subtitle: 'E-mail, telefone e localização', icon: 'mail', href: '/#contato' },
   ];
-  const stateLinks = [
-    { uf: 'BA', title: 'Imóveis Bahia' },
-    { uf: 'AL', title: 'Imóveis Alagoas' },
-  ];
+  const stateLinks = AVAILABLE_STATES.map((state) => ({ uf: state.uf, title: `Imóveis ${state.name}` }));
 
   return (
     <main className="link-bio-page" id="conteudo">
