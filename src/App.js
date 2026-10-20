@@ -703,6 +703,35 @@ import cumbucoKitesurfGroup from './assets/Empreendimentos/Ceará/Beach_Class_Cu
 import cumbucoKitesurfSailing from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/04_Contexto_Praia_Cumbuco/kitesurf_velejo.png';
 import cumbucoBeachPalms from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/04_Contexto_Praia_Cumbuco/coqueiros_praia.png';
 import cumbucoLocationMap from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/05_Localizacao/mapa_localizacao_beach_class_cumbuco.png';
+import iracemaCover from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/01_Capa/capa_principal_fachada_torre.png';
+import iracemaTowerFacade from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/01_fachada_torre_vista_frontal.png';
+import iracemaBaseAccess from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/02_fachada_embasamento_e_acesso.png';
+import iracemaLobby from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/03_lobby_recepcao.png';
+import iracemaPool from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/04_piscina_adulto.png';
+import iracemaPoolDeck from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/05_deck_piscina.png';
+import iracemaPoolBar from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/06_bar_da_piscina.png';
+import iracemaGym from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/07_academia_fitness.png';
+import iracemaGames from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/08_espaco_de_jogos.png';
+import iracemaPlayroom from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/09_brinquedoteca.png';
+import iracemaTerrace from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/10_terraco_com_estar.png';
+import iracemaGourmet from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/11_salao_gourmet.png';
+import iracemaNightFacade from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/12_fachada_apartamentos_anoitecer.png';
+import iracemaGardenTerrace from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/13_terraco_garden_mobiliado.png';
+import iracemaGardenLiving from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/14_sala_de_estar_apartamento_garden.png';
+import iracemaGardenBedroom from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/15_quarto_apartamento_garden.png';
+import iracemaStudio from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/16_studio_ambiente_integrado.png';
+import iracemaBasementPlan from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/03_Plantas_e_Implantacao/01_planta_pavimento_subsolo.png';
+import iracemaGroundPlan from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/03_Plantas_e_Implantacao/02_planta_pavimento_terreo.png';
+import iracemaLeisurePlan from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/03_Plantas_e_Implantacao/03_planta_pavimento_lazer.png';
+import iracemaGardenFloorPlan from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/03_Plantas_e_Implantacao/04_planta_pavimento_garden.png';
+import iracemaTypicalFloorPlan from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/03_Plantas_e_Implantacao/05_planta_pavimento_tipo_studios.png';
+import iracemaTwoBedroomGardenPlan from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/03_Plantas_e_Implantacao/06_planta_apartamento_2_quartos_garden_93_41m2.png';
+import iracemaOneBedroomGardenPlan from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/03_Plantas_e_Implantacao/07_planta_apartamento_1_quarto_garden_86_39m2.png';
+import iracemaStudioGardenPlan from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/03_Plantas_e_Implantacao/08_planta_apartamento_studio_garden_43_91m2.png';
+import iracemaStudioPlan from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/03_Plantas_e_Implantacao/09_planta_apartamento_studio_29_16m2.png';
+import iracemaSeafront from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/04_Localizacao_e_Entorno/01_praia_de_iracema_orla.png';
+import iracemaSeafrontLocation from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/04_Localizacao_e_Entorno/02_praia_de_iracema_orla_e_localizacao.png';
+import iracemaLocationMap from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/04_Localizacao_e_Entorno/03_mapa_visual_da_localizacao.png';
 
 const CONTACT_EMAIL = 'dimenezescomercial@gmail.com';
 const WHATSAPP_DISPLAY = '(71) 98780-3690';
@@ -1940,6 +1969,65 @@ const additionalDevelopments = [
       { src: cumbucoBeachPalms, titulo: 'Entorno: coqueiros e praia do Cumbuco' },
     ],
   }),
+  createDevelopment({
+    slug: 'beach-class-iracema', name: 'Beach Class Iracema', image: iracemaCover,
+    city: 'Fortaleza, CE', neighborhood: 'Praia de Iracema', locationTitle: 'Praia de Iracema - Fortaleza/CE',
+    address: 'Rua Dr. Atualpa Barbosa Lima, Praia de Iracema, Fortaleza/CE',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Beach%20Class%20Iracema%20Rua%20Dr.%20Atualpa%20Barbosa%20Lima%20Fortaleza%20CE',
+    area: '27,50 a 93 m²', profile: 'Studios, 1 e 2 quartos, com opções Garden', detail: 'Lazer completo próximo ao mar',
+    description: 'O Beach Class Iracema fica na Praia de Iracema, em Fortaleza, perto do mar e do Aterro da Praia de Iracema. O projeto reúne studios compactos, apartamentos de 1 e 2 quartos e unidades Garden com área externa privativa, para morar ou investir. O pavimento de lazer tem piscina com prainha, bar da piscina, fitness, espaço gourmet, salão de eventos, brinquedoteca e terraço com estar, além de serviços como concierge e lavanderia compartilhada.',
+    highlights: ['27,50 a 93 m²', 'Studios, 1 e 2 quartos', 'Unidades Garden', 'Próximo à Praia de Iracema'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Praia de Iracema, Fortaleza/CE'], ['Tipologias', 'Studios, 1 e 2 quartos'], ['Garagem', 'Vagas rotativas, sujeitas à vacância']],
+    technical: [
+      ['Studios', '27,50 a 35,64 m², do 3º ao 24º andar'],
+      ['Unidades Garden', '43 a 93 m² (valores arredondados)'],
+      ['2 quartos Garden', '93,41 m² (61,46 m² de apartamento + 31,95 m² de Garden), com 1 suíte'],
+      ['1 quarto Garden', '86,39 m² (42,18 m² de apartamento + 44,21 m² de Garden)'],
+      ['Studio Garden', '43,91 m² (31,40 m² de apartamento + 12,51 m² de Garden)'],
+      ['Garagem', 'Estacionamento no subsolo e no térreo, com vagas rotativas sujeitas à vacância'],
+      ['Serviços', 'Concierge, e-commerce, espaço para minimarket e lavanderia compartilhada'],
+      ['Restaurante', 'Equipamentos e mobiliário do restaurante e da cozinha não serão entregues; gestão conforme o condomínio'],
+      ['Material', 'Perspectivas ilustrativas; metragens e acabamentos conforme tabela de vendas e memorial descritivo'],
+    ],
+    amenities: ['Piscina adulto com prainha', 'Piscina infantil', 'Hidromassagem', 'Solário e deck de piscina', 'Bar da piscina', 'Co-living', 'Espaço para restaurante', 'Fitness', 'Fitness outdoor', 'Espaço de jogos', 'Brinquedoteca', 'Gourmet', 'Salão de eventos', 'Terraço com estar', 'Lobby e recepção social', 'Administração', 'Espaço e-commerce para guarda de encomendas', 'Espaço para minimarket', 'Concierge para check-in e check-out', 'Lavanderia compartilhada', 'Embarque e desembarque de visitantes'],
+    security: ['Fechaduras eletrônicas nos apartamentos', 'Controle de acesso de pedestres e veículos', 'Infraestrutura para CFTV'],
+    sustainability: ['Infraestrutura para carregamento de carros elétricos em 2 vagas compartilhadas', 'Irrigação automatizada', 'Espaço para coleta seletiva', 'Iluminação LED nas áreas comuns', '5 bicicletas compartilhadas', 'Bacias sanitárias de consumo reduzido e acionamento duplo', 'Metais com redução de vazão de água', 'Iluminação natural e ventilação cruzada'],
+    projectTeam: ['Nasser Hissa Arquitetos Associados | Arquitetura', 'Takeda Design Arquitetos Associados | Paisagismo', 'Sobre Arquitetura | Ambientação'],
+    gallery: [
+      { src: iracemaTowerFacade, titulo: 'Beach Class Iracema - perspectiva da fachada da torre' },
+      { src: iracemaBaseAccess, titulo: 'Perspectiva do embasamento e do acesso' },
+      { src: iracemaLobby, titulo: 'Perspectiva do lobby e da recepção social' },
+      { src: iracemaPool, titulo: 'Perspectiva da piscina com paisagismo' },
+      { src: iracemaPoolDeck, titulo: 'Perspectiva do deck e das espreguiçadeiras da piscina' },
+      { src: iracemaPoolBar, titulo: 'Perspectiva do bar e apoio da piscina' },
+      { src: iracemaGym, titulo: 'Perspectiva do fitness' },
+      { src: iracemaGames, titulo: 'Perspectiva do espaço de jogos' },
+      { src: iracemaPlayroom, titulo: 'Perspectiva da brinquedoteca' },
+      { src: iracemaTerrace, titulo: 'Perspectiva do terraço com estar' },
+      { src: iracemaGourmet, titulo: 'Perspectiva do salão gourmet' },
+      { src: iracemaNightFacade, titulo: 'Perspectiva da fachada dos apartamentos ao anoitecer' },
+      { src: iracemaGardenTerrace, titulo: 'Perspectiva do terraço Garden mobiliado' },
+      { src: iracemaGardenLiving, titulo: 'Perspectiva da sala de estar do apartamento Garden' },
+      { src: iracemaGardenBedroom, titulo: 'Perspectiva do quarto do apartamento Garden' },
+      { src: iracemaStudio, titulo: 'Perspectiva do Studio com ambiente integrado' },
+    ],
+    floorPlans: [
+      { src: iracemaBasementPlan, titulo: 'Pavimento subsolo e estacionamento' },
+      { src: iracemaGroundPlan, titulo: 'Pavimento térreo, acessos e recepção' },
+      { src: iracemaLeisurePlan, titulo: 'Pavimento de lazer - implantação e legenda' },
+      { src: iracemaGardenFloorPlan, titulo: 'Pavimento Garden' },
+      { src: iracemaTypicalFloorPlan, titulo: 'Pavimento tipo - 3º ao 24º andar (studios)' },
+      { src: iracemaTwoBedroomGardenPlan, titulo: 'Apartamento 2 quartos Garden - 93,41 m²' },
+      { src: iracemaOneBedroomGardenPlan, titulo: 'Apartamento 1 quarto Garden - 86,39 m²' },
+      { src: iracemaStudioGardenPlan, titulo: 'Studio Garden - 43,91 m²' },
+      { src: iracemaStudioPlan, titulo: 'Studio - 29,16 m²' },
+    ],
+    locationImages: [
+      { src: iracemaLocationMap, titulo: 'Localização do Beach Class Iracema sobre vista aérea' },
+      { src: iracemaSeafront, titulo: 'Entorno: orla da Praia de Iracema' },
+      { src: iracemaSeafrontLocation, titulo: 'Entorno: orla e contexto da localização' },
+    ],
+  }),
 ];
 
 const developments = [
@@ -2671,7 +2759,7 @@ function DevelopmentDetail({ development }) {
   const touchStartX = useRef(null);
   const activeImages = activeLightbox ? lightboxGroups[activeLightbox.group] : [];
   const activeImage = activeLightbox ? activeImages[activeLightbox.index] : null;
-  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'beach-class-cumbuco'].includes(development?.slug);
+  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'beach-class-cumbuco', 'beach-class-iracema'].includes(development?.slug);
   const visibleGalleryImages = lightboxGroups.gallery.slice(0, 5);
   const remainingGalleryCount = Math.max(0, lightboxGroups.gallery.length - visibleGalleryImages.length);
   const visibleFloorPlans = showAllOrganizedImages

@@ -1,0 +1,30 @@
+﻿pasta;arquivo;pagina_pdf;categoria;descricao;largura_px;altura_px;extracao;origem
+01_Capa;capa_principal_fachada_torre.png;4;capa;Perspectiva externa da torre completa (recorte da página 4);459;1082;recorte;BOOK-BC-IRACEMA-MD V5.pdf
+02_Imagens_Empreendimento;01_fachada_torre_vista_frontal.png;4;empreendimento;Fachada/volumetria da torre;459;1082;recorte;BOOK-BC-IRACEMA-MD V5.pdf
+02_Imagens_Empreendimento;02_fachada_embasamento_e_acesso.png;10;empreendimento;Embasamento e acesso à edificação;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+02_Imagens_Empreendimento;03_lobby_recepcao.png;11;empreendimento;Lobby e recepção social;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+02_Imagens_Empreendimento;04_piscina_adulto.png;15;empreendimento;Piscina com paisagismo;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+02_Imagens_Empreendimento;05_deck_piscina.png;16;empreendimento;Deck e espreguiçadeiras da piscina;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+02_Imagens_Empreendimento;06_bar_da_piscina.png;17;empreendimento;Bar e apoio à piscina;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+02_Imagens_Empreendimento;07_academia_fitness.png;19;empreendimento;Ambiente fitness/academia;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+02_Imagens_Empreendimento;08_espaco_de_jogos.png;20;empreendimento;Salão de jogos;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+02_Imagens_Empreendimento;09_brinquedoteca.png;21;empreendimento;Brinquedoteca;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+02_Imagens_Empreendimento;10_terraco_com_estar.png;22;empreendimento;Terraço e área de estar externa;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+02_Imagens_Empreendimento;11_salao_gourmet.png;23;empreendimento;Salão gourmet (imagem central isolada);1924;526;recorte;BOOK-BC-IRACEMA-MD V5.pdf
+02_Imagens_Empreendimento;12_fachada_apartamentos_anoitecer.png;24;empreendimento;Detalhe da fachada e janelas dos apartamentos ao entardecer;851;1082;recorte;BOOK-BC-IRACEMA-MD V5.pdf
+02_Imagens_Empreendimento;13_terraco_garden_mobiliado.png;30;empreendimento;Perspectiva do terraço Garden decorado;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+02_Imagens_Empreendimento;14_sala_de_estar_apartamento_garden.png;31;empreendimento;Sala de estar de apartamento Garden;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+02_Imagens_Empreendimento;15_quarto_apartamento_garden.png;32;empreendimento;Quarto de apartamento Garden;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+02_Imagens_Empreendimento;16_studio_ambiente_integrado.png;36;empreendimento;Perspectiva interna de apartamento Studio;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+03_Plantas_e_Implantacao;01_planta_pavimento_subsolo.png;12;plantas;Planta do pavimento subsolo e estacionamento;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+03_Plantas_e_Implantacao;02_planta_pavimento_terreo.png;13;plantas;Planta do pavimento térreo, acessos e recepção;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+03_Plantas_e_Implantacao;03_planta_pavimento_lazer.png;14;plantas;Planta de implantação da área de lazer e legenda de 16 itens;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+03_Plantas_e_Implantacao;04_planta_pavimento_garden.png;25;plantas;Planta de distribuição do pavimento Garden;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+03_Plantas_e_Implantacao;05_planta_pavimento_tipo_studios.png;26;plantas;Planta do pavimento tipo do 3º ao 24º andar (studios);1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+03_Plantas_e_Implantacao;06_planta_apartamento_2_quartos_garden_93_41m2.png;28;plantas;Planta 2 quartos Garden, total 93,41 m²;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+03_Plantas_e_Implantacao;07_planta_apartamento_1_quarto_garden_86_39m2.png;29;plantas;Planta 1 quarto Garden, total 86,39 m²;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+03_Plantas_e_Implantacao;08_planta_apartamento_studio_garden_43_91m2.png;33;plantas;Planta Studio Garden, total 43,91 m²;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+03_Plantas_e_Implantacao;09_planta_apartamento_studio_29_16m2.png;35;plantas;Planta Studio, 29,16 m²;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+04_Localizacao_e_Entorno;01_praia_de_iracema_orla.png;2;localizacao;Imagem da orla da Praia de Iracema e contextualização;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+04_Localizacao_e_Entorno;02_praia_de_iracema_orla_e_localizacao.png;3;localizacao;Imagem da orla da Praia de Iracema e contextualização;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
+04_Localizacao_e_Entorno;03_mapa_visual_da_localizacao.png;6;localizacao;Localização identificada sobre vista aérea, com referências urbanas;1924;1082;pagina completa;BOOK-BC-IRACEMA-MD V5.pdf
