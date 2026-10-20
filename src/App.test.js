@@ -185,6 +185,43 @@ test('renders Beach Class Cumbuco perspectives, all floor plans and location sep
   expect(screen.getByText('6 / 6')).toBeInTheDocument();
 });
 
+test('lists Beach Class Iracema under Ceará next to Beach Class Cumbuco', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Ceará' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Ceará' }));
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Iracema', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Beach Class Cumbuco', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Beach Class Iracema.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/beach-class-iracema');
+});
+
+test('renders Beach Class Iracema perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/beach-class-iracema';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Iracema', level: 1 })).toBeInTheDocument();
+  expect(screen.getAllByText(/93,41 m²/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+11 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(9);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Fortaleza%20CE'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Beach Class Iracema - perspectiva da fachada da torre/i }));
+  expect(screen.getByText('1 / 16')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva do studio com ambiente integrado/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Studio - 29,16 m²/i }));
+  expect(screen.getByText('9 / 9')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Localização do Beach Class Iracema sobre vista aérea/i }));
+  expect(screen.getByText('1 / 3')).toBeInTheDocument();
+});
+
 test('renders Arthur Bruno Schwambach photos and floor plans in their own sections', () => {
   window.location.hash = '#empreendimento/arthur-bruno-schwambach';
   render(<App />);

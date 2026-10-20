@@ -1,0 +1,14 @@
+﻿PACOTE DE MÍDIA — BEACH CLASS IRACEMA
+
+Este material foi extraído do arquivo BOOK-BC-IRACEMA-MD V5.pdf.
+
+01_Capa/ — Perspectiva externa da torre, recortada para servir de capa principal.
+02_Imagens_Empreendimento/ — Apenas imagens do empreendimento, suas áreas comuns e seus apartamentos. Não contém plantas.
+03_Plantas_e_Implantacao/ — Plantas completas com as legendas, metragens e notas publicitárias correspondentes.
+04_Localizacao_e_Entorno/ — Fotografias e montagens da orla e vista aérea de localização, NÃO imagens do edifício.
+informacoes_empreendimento.txt — Descrição, tipologias, comodidades, equipe técnica e observações.
+manifesto_imagens.csv — Relação do nome de cada PNG, página original e classificação.
+
+ATENÇÃO: Conteúdo retirado de peça publicitária. As imagens ilustrativas não devem ser apresentadas como fotos reais do prédio pronto. Algumas imagens incluem rótulos/selos originais. Não modificar as características técnicas sem validar com a construtora.
+
+As imagens foram exportadas em PNG. Na seção de galeria do site, use apenas 02_Imagens_Empreendimento, não misture com a pasta 03_Plantas_e_Implantacao.
