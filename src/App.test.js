@@ -81,6 +81,8 @@ test('asks for a state on the first access and filters Alagoas without mixing Ba
   await waitFor(() => expect(screen.getByRole('heading', { name: /qual será o seu próximo endereço/i })).toBeInTheDocument());
   expect(screen.getByRole('button', { name: 'Bahia' })).toBeInTheDocument();
   expect(screen.getByRole('button', { name: 'Alagoas' })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'Pernambuco' })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'Ceará' })).toBeInTheDocument();
   expect(screen.queryByRole('heading', { name: /todos os empreendimentos/i })).not.toBeInTheDocument();
 
   fireEvent.click(screen.getByRole('button', { name: 'Alagoas' }));
@@ -102,6 +104,10 @@ test('opens all developments grouped by state and keeps Todos selected', async (
   expect(screen.getByRole('button', { name: 'Todos', pressed: true })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Bahia', level: 3 })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Alagoas', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Pernambuco', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Ceará', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Beach Class Cumbuco', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Arthur Bruno Schwambach', level: 3 })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Jardins do Parque' })).toBeInTheDocument();
 
   fireEvent.click(screen.getByRole('button', { name: 'Bahia', pressed: false }));
@@ -123,6 +129,84 @@ test('uses the map and header dropdown to change the selected state', async () =
 
   expect(screen.getByRole('heading', { name: 'Jardins do Parque' })).toBeInTheDocument();
   expect(screen.queryByRole('heading', { name: 'Elleve Horto' })).not.toBeInTheDocument();
+});
+
+test.each([
+  ['Pernambuco', 'PE', 'Arthur Bruno Schwambach', 'arthur-bruno-schwambach'],
+  ['Ceará', 'CE', 'Beach Class Cumbuco', 'beach-class-cumbuco'],
+])('selects %s from the map and lists only its developments', async (stateName, uf, projectName, slug) => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: `Selecionar ${stateName}` })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: `Selecionar ${stateName}` }));
+
+  expect(window.sessionStorage.getItem('selectedState')).toBe(uf);
+  expect(screen.getByRole('button', { name: stateName, pressed: true })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: projectName, level: 3 })).toBeInTheDocument();
+  expect(screen.queryByRole('heading', { name: 'Elleve Horto' })).not.toBeInTheDocument();
+  expect(screen.queryByRole('heading', { name: 'Jardins do Parque' })).not.toBeInTheDocument();
+  expect(screen.queryByRole('heading', { name: uf === 'CE' ? 'Arthur Bruno Schwambach' : 'Beach Class Cumbuco' })).not.toBeInTheDocument();
+  expect(screen.getByRole('link', { name: new RegExp(`${projectName}.*Conhecer empreendimento`, 'i') })).toHaveAttribute('href', `#empreendimento/${slug}`);
+
+  fireEvent.click(screen.getByRole('button', { name: stateName, expanded: false }));
+  expect(screen.getByRole('menuitem', { name: new RegExp(`^${stateName}`) })).toHaveClass('is-selected');
+  fireEvent.click(screen.getByRole('menuitem', { name: 'Bahia' }));
+  expect(screen.queryByRole('heading', { name: projectName })).not.toBeInTheDocument();
+});
+
+test('renders Beach Class Cumbuco perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/beach-class-cumbuco';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Cumbuco', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('640 unidades residenciais, com 64 por bloco')).toBeInTheDocument();
+  expect(screen.getAllByText(/646 vagas rotativas/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+18 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(13);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Caucaia%20CE'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Beach Class Cumbuco - perspectiva aérea frente ao mar/i }));
+  expect(screen.getByText('1 / 23')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva da guarderia para equipamentos náuticos/i })).toBeInTheDocument();
+  expect(screen.getByText('23 / 23')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Bloco guarderia para equipamentos náuticos/i }));
+  expect(screen.getByText('13 / 13')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Mapa de localização do Beach Class Cumbuco/i }));
+  expect(screen.getByText('1 / 6')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /Entorno: coqueiros e praia do Cumbuco/i })).toBeInTheDocument();
+  expect(screen.getByText('6 / 6')).toBeInTheDocument();
+});
+
+test('renders Arthur Bruno Schwambach photos and floor plans in their own sections', () => {
+  window.location.hash = '#empreendimento/arthur-bruno-schwambach';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Arthur Bruno Schwambach', level: 1 })).toBeInTheDocument();
+  expect(screen.getAllByText(/122,76 m²/).length).toBeGreaterThan(0);
+  expect(screen.getByText('7 pavimentos por edifício')).toBeInTheDocument();
+  expect(screen.getAllByText('2 vagas por apartamento').length).toBeGreaterThan(0);
+  expect(screen.getByText('+19 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(3);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Recife%20PE'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Arthur Bruno Schwambach - vista aérea e área verde/i }));
+  expect(screen.getByText('1 / 24')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /piscina aquecida e entorno/i })).toBeInTheDocument();
+  expect(screen.getByText('24 / 24')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta pavimento térreo - áreas comuns e legenda/i }));
+  expect(screen.getByText('1 / 3')).toBeInTheDocument();
 });
 
 test('shows the state selection again after a new visit', async () => {
@@ -284,7 +368,7 @@ test('submits the contact form to the API', async () => {
   expect(await screen.findByText(/solicitação enviada com sucesso/i)).toBeInTheDocument();
 });
 
-test('renders the development detail page with book images and location', () => {
+test('renders the development detail page with organized images and location without PDF links', () => {
   window.location.hash = '#empreendimento/casa-sombreiros';
   render(<App />);
 
@@ -303,6 +387,8 @@ test('renders the development detail page with book images and location', () => 
   expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(7);
   expect(screen.queryByRole('heading', { name: /consulte o material completo/i })).not.toBeInTheDocument();
   expect(screen.queryByText(/ver book digital/i)).not.toBeInTheDocument();
+  expect(screen.queryByRole('link', { name: /abrir material completo/i })).not.toBeInTheDocument();
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
 });
 
 test('cycles through development images in the lightbox', () => {

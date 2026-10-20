@@ -1,0 +1,28 @@
+PACOTE DE IMAGENS E INFORMAÇÕES - ARTHUR BRUNO SCHWAMBACH
+
+Conteúdo extraído do PDF: MD0081-25_Book_Digital_IMAGENS REAIS.pdf
+
+01_Capa/
+- 1 imagem PNG sugerida como capa/hero banner, na proporção 16:9.
+
+02_Imagens_Empreendimento/
+- 24 fotos e perspectivas individuais em PNG, sem textos inseridos no book.
+- Contém fachada, casarão, áreas comuns, lazer, ambientes de apartamentos e imagens adicionais da página de facilidades.
+- NÃO contém plantas, implantação, logos, ilustrações publicitárias genéricas ou detalhes de dispositivos.
+
+03_Plantas_e_Implantacao/
+- 3 imagens PNG completas, com títulos e diagramas originais das páginas 15, 16 e 19.
+- A página do pavimento térreo inclui a legenda dos 21 pontos; a implantação mostra seis torres.
+- Como os desenhos do PDF são compostos por vários pedaços, foram renderizados integralmente, evitando quebrá-los em arquivos incoerentes.
+
+04_Imagens_Ilustrativas_Facilidades/
+- 5 imagens PNG ilustrativas de sustentabilidade, tomadas e fechaduras.
+- Não utilizar como fotos dos ambientes do empreendimento.
+
+informacoes_empreendimento.txt
+- Características e informações factuais do book, com páginas de referência e aviso legal.
+
+manifesto_imagens.csv
+- Lista de cada arquivo PNG, finalidade, página de origem, descrição e resolução.
+
+ATENÇÃO: Não misturar as três plantas com a galeria. As fotos/perspectivas de apartamentos não representam plantas arquitetônicas. Informações não explícitas no PDF não foram inventadas.

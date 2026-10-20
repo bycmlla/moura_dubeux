@@ -1,0 +1,95 @@
+ARTHUR BRUNO SCHWAMBACH
+INFORMAÇÕES EXTRAÍDAS DO BOOK DIGITAL
+
+IDENTIFICAÇÃO
+- Empreendimento: Arthur Bruno Schwambach.
+- Incorporadora / marca apresentada no material: Moura Dubeux.
+- Referências de localização constantes do book: Casa Forte; Avenida 17 de Agosto; Rua Tapacurá; Recife/PE (o registro é do Recife).
+- Endereço com número, preço, disponibilidade e data de entrega: não informados neste PDF.
+- Slogan do book: "Um projeto que inspira vida por todos os lados."
+
+CARACTERÍSTICAS DO EMPREENDIMENTO (página 3)
+- 6 edifícios / torres.
+- 7 pavimentos por edifício.
+- Mais de 4.000 m² de área verde.
+- Paisagismo com árvores frutíferas.
+- Projeto de arquitetura de Pontual Arquitetos e ambientação de Romero Duarte (página 5).
+- Casarão histórico preservado e restaurado; há espaço comercial ilustrado (página 4).
+
+APARTAMENTOS (página 17)
+- Área anunciada: 122,76 m².
+- 3 suítes.
+- Terraço gourmet.
+- 2 vagas de garagem.
+- O book ilustra sala de estar e jantar e suíte master (página 18).
+- A planta de pavimento tipo aparece na página 19, com indicações de apartamentos 101 a 701 e 102 a 702.
+
+LAZER E ÁREAS COMUNS (páginas 5 a 14)
+- Piscina adulto e infantil.
+- Deck molhado.
+- Apoio da piscina.
+- Sauna.
+- Minicampo.
+- Espaço gourmet.
+- Salão de festas com bar e copa.
+- Salão de festas infantil com copa.
+- Brinquedoteca.
+- Espaço infantil externo, com brinquedos educativos e espaço para atividades recreativas.
+- Bicicletário.
+- Pet place.
+- Pet wash.
+- Fitness equipado.
+- Espaço para ginástica funcional.
+- Guarda-volumes, área reservada para guardar encomendas.
+- Espera para transporte por aplicativo.
+- Túnel de vegetação / túnel verde.
+- Paisagismo com árvores frutíferas.
+
+PAVIMENTO TÉRREO - LEGENDA DA PLANTA (página 15)
+01. Minicampo
+02. Bicicletário
+03. Guarda-volumes
+04. Salão de festas
+05. Espaço ginástica funcional
+06. Pet place
+07. Apoio da piscina
+08. Piscina adulto
+09. Piscina infantil
+10. Pet wash
+11. Espaço gourmet
+12. Fitness
+13. Salão de festas infantil
+14. Túnel verde
+15. Redário
+16. Fitness externo
+17. Hall
+18. Brinquedoteca externa
+19. Brinquedoteca
+20. Estar
+21. Espera para transporte por aplicativo
+
+IMPLANTAÇÃO (página 16)
+- Torres A, B, C, D, E e F.
+- Referências viárias ilustradas: Rua Tapacurá e Avenida 17 de Agosto.
+
+FACILIDADES (página 20)
+- Área de lazer equipada e mobiliada.
+- Placas solares.
+- Piscina aquecida.
+- 4 pontos de tomadas para carro elétrico.
+- Reúso de água.
+- Tomadas USB nas áreas comuns.
+- Fechadura eletrônica nos apartamentos.
+
+INFORMAÇÕES LEGAIS DO BOOK (página 21)
+- Registro de incorporação: R-11 da matrícula nº 12.789, 6º Ofício de Registro de Imóveis de Recife.
+- Site apresentado: mouradubeux.com.br.
+- O book informa que as imagens e características da peça publicitária possuem caráter ilustrativo/promocional e podem sofrer alterações. Móveis, utensílios, equipamentos e decorações ilustrados não integram necessariamente o contrato nem os apartamentos à venda.
+
+ORIENTAÇÕES PARA CADASTRAR NO SITE
+- Foto de capa sugerida: 01_Capa/capa_fachada_principal.png.
+- Galeria de fotos: usar somente 02_Imagens_Empreendimento/.
+- Plantas e implantação: usar somente 03_Plantas_e_Implantacao/.
+- Imagens ilustrativas das facilidades: 04_Imagens_Ilustrativas_Facilidades/ (não misturar na galeria principal).
+- Os três arquivos com "apartamento_" representam perspectivas de ambientes, não plantas.
+- Não atribuir valores de preço, endereço completo, unidades disponíveis ou entrega: não constam no material.
