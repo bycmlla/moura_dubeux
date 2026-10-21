@@ -660,6 +660,87 @@ import arthurBrunoHeatedPool from './assets/Empreendimentos/Pernambuco/Arthur_Br
 import arthurBrunoGroundPlan from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/03_Plantas_e_Implantacao/planta_terreo_areas_comuns_legenda.png';
 import arthurBrunoSitePlan from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/03_Plantas_e_Implantacao/implantacao_torres_a_b_c_d_e_f.png';
 import arthurBrunoTypicalFloorPlan from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/03_Plantas_e_Implantacao/planta_pavimento_tipo_apartamentos.png';
+import marineCover from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/01_Capa/capa_vista_aerea_empreendimento_frente_mar.png';
+import marinePhotoVistaAereaGeralCondominio from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/vista_aerea_geral_condominio.png';
+import marinePhotoFachadaBlocoResidencialComPiscinaAnoitecer from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/fachada_bloco_residencial_com_piscina_anoitecer.png';
+import marinePhotoFachadaBlocoVistaDaPiscina from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/fachada_bloco_vista_da_piscina.png';
+import marinePhotoHallSocialRecepcao from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/hall_social_recepcao.png';
+import marinePhotoPiscinaBordaInfinitaFrenteMar from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/piscina_borda_infinita_frente_mar.png';
+import marinePhotoGazeboFrenteMar from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/gazebo_frente_mar.png';
+import marinePhotoBarDaPraiaIntegradoPiscina from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/bar_da_praia_integrado_piscina.png';
+import marinePhotoPoolHouse from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/pool_house.png';
+import marinePhotoParqueAquaticoPiscinaInfantil from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/parque_aquatico_piscina_infantil.png';
+import marinePhotoRestauranteInterno from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/restaurante_interno.png';
+import marinePhotoDeckExternoRestaurante from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/deck_externo_restaurante.png';
+import marinePhotoEspacoGourmetExterno from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/espaco_gourmet_externo.png';
+import marinePhotoPlaygroundAreaInfantil from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/playground_area_infantil.png';
+import marinePhotoAcademiaFitness from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/academia_fitness.png';
+import marinePhotoSpaComSauna from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/spa_com_sauna.png';
+import marinePhotoSalasDeMassagem from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/salas_de_massagem.png';
+import marinePhotoSalaoDeBeleza from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/salao_de_beleza.png';
+import marinePhotoStudio3251m2AmbienteInterno from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/studio_32_51m2_ambiente_interno.png';
+import marinePhotoApartamento1Quarto44m2SalaEVaranda from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/apartamento_1_quarto_44m2_sala_e_varanda.png';
+import marinePhotoApartamento1Quarto52m2SalaECozinha from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/apartamento_1_quarto_52m2_sala_e_cozinha.png';
+import marinePhotoApartamento2Quartos62m2SalaECozinha from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_62m2_sala_e_cozinha.png';
+import marinePhotoApartamento2Quartos62m2Varanda from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_62m2_varanda.png';
+import marinePhotoApartamento2Quartos7135m2Quarto from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_71_35m2_quarto.png';
+import marinePhotoApartamento2Quartos78m2GardenEPiscinaPrivativa from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_78m2_garden_e_piscina_privativa.png';
+import marinePhotoApartamento3Quartos118m2GardenPiscinaPatio from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/apartamento_3_quartos_118m2_garden_piscina_patio.png';
+import marinePhotoApartamento3Quartos118m2GardenAreaDeDescanso from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/apartamento_3_quartos_118m2_garden_area_de_descanso.png';
+import marinePhotoApartamento3Quartos118m2SalaEVaranda from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/apartamento_3_quartos_118m2_sala_e_varanda.png';
+import marinePhotoApartamento3Quartos118m2Suite from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/apartamento_3_quartos_118m2_suite.png';
+import marinePhotoApartamento3Quartos126m2SalaDeEstar from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/apartamento_3_quartos_126m2_sala_de_estar.png';
+import marinePlanImplantacaoGeralBlocosAreasLazer from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Blocos/implantacao_geral_blocos_areas_lazer.png';
+import marinePlanPlantaBlocoSocialPavimentoTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Blocos/planta_bloco_social_pavimento_terreo.png';
+import marinePlanPlantaBlocoSocialPrimeiroPavimento from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Blocos/planta_bloco_social_primeiro_pavimento.png';
+import marinePlanPlantaBlocosACEPavimentoTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Blocos/planta_blocos_a_c_e_pavimento_terreo.png';
+import marinePlanPlantaBlocosACEPavimentoTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Blocos/planta_blocos_a_c_e_pavimento_tipo.png';
+import marinePlanPlantaBlocosBDPavimentoTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Blocos/planta_blocos_b_d_pavimento_terreo.png';
+import marinePlanPlantaBlocosBDPavimentoTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Blocos/planta_blocos_b_d_pavimento_tipo.png';
+import marinePlanPlantaBlocoFPavimentoTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Blocos/planta_bloco_f_pavimento_terreo.png';
+import marinePlanPlantaBlocoFPavimentoTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Blocos/planta_bloco_f_pavimento_tipo.png';
+import marinePlanPlantaBlocosGIPavimentoTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Blocos/planta_blocos_g_i_pavimento_terreo.png';
+import marinePlanPlantaBlocosGIPavimentoTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Blocos/planta_blocos_g_i_pavimento_tipo.png';
+import marinePlanPlantaBlocoHPavimentoTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Blocos/planta_bloco_h_pavimento_terreo.png';
+import marinePlanPlantaBlocoHPavimentoTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Blocos/planta_bloco_h_pavimento_tipo.png';
+import marinePlanPlantaStudio3251m2ComGardenTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_studio_32_51m2_com_garden_terreo.png';
+import marinePlanPlantaStudio3251m2PavimentoTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_studio_32_51m2_pavimento_tipo.png';
+import marinePlanPlantaStudio4066m2ComGardenTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_studio_40_66m2_com_garden_terreo.png';
+import marinePlanPlantaStudio4066m2PavimentoTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_studio_40_66m2_pavimento_tipo.png';
+import marinePlanPlanta1Quarto44m2ComGardenTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_1_quarto_44m2_com_garden_terreo.png';
+import marinePlanPlanta1Quarto44m2PavimentoTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_1_quarto_44m2_pavimento_tipo.png';
+import marinePlanPlanta1Quarto52A54m2ComGardenTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_1_quarto_52_a_54m2_com_garden_terreo.png';
+import marinePlanPlanta1Quarto52m2PavimentoTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_1_quarto_52m2_pavimento_tipo.png';
+import marinePlanPlanta1Quarto57m2PavimentoTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_1_quarto_57m2_pavimento_tipo.png';
+import marinePlanPlanta2Quartos62m2ComGardenTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_2_quartos_62m2_com_garden_terreo.png';
+import marinePlanPlanta2Quartos62m2PavimentoTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_2_quartos_62m2_pavimento_tipo.png';
+import marinePlanPlanta2Quartos7135m2ComGardenTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_2_quartos_71_35m2_com_garden_terreo.png';
+import marinePlanPlanta2Quartos7135m2PavimentoTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_2_quartos_71_35m2_pavimento_tipo.png';
+import marinePlanPlanta2Quartos78m2ComGardenTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_2_quartos_78m2_com_garden_terreo.png';
+import marinePlanPlanta2Quartos78m2PavimentoTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_2_quartos_78m2_pavimento_tipo.png';
+import marinePlanPlanta2Quartos79m2ComGardenTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_2_quartos_79m2_com_garden_terreo.png';
+import marinePlanPlanta2Quartos81m2ComGardenTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_2_quartos_81m2_com_garden_terreo.png';
+import marinePlanPlanta2Quartos81m2PavimentoTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_2_quartos_81m2_pavimento_tipo.png';
+import marinePlanPlanta2Quartos85m2PavimentoTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_2_quartos_85m2_pavimento_tipo.png';
+import marinePlanPlanta3Quartos118m2ComGardenTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_3_quartos_118m2_com_garden_terreo.png';
+import marinePlanPlanta3Quartos118m2PavimentoTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_3_quartos_118m2_pavimento_tipo.png';
+import marinePlanPlanta3Quartos126m2ComGardenTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_3_quartos_126m2_com_garden_terreo.png';
+import marinePlanPlanta3Quartos129m2PavimentoTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_3_quartos_129m2_pavimento_tipo.png';
+import marinePlanImplantacaoGeralELegendas from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/03_Paginas_Referencia_Com_Legendas/implantacao_geral_e_legendas.png';
+import marinePlanStudio3251m2PlantasELegendas from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/03_Paginas_Referencia_Com_Legendas/studio_32_51m2_plantas_e_legendas.png';
+import marinePlanStudio4066m2PlantasELegendas from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/03_Paginas_Referencia_Com_Legendas/studio_40_66m2_plantas_e_legendas.png';
+import marinePlanApartamento1Quarto44m2TerreoLegendas from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/03_Paginas_Referencia_Com_Legendas/apartamento_1_quarto_44m2_terreo_legendas.png';
+import marinePlanApartamento1Quarto5254m2GardenLegendas from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/03_Paginas_Referencia_Com_Legendas/apartamento_1_quarto_52_54m2_garden_legendas.png';
+import marinePlanApartamento2Quartos62m2GardenLegendas from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/03_Paginas_Referencia_Com_Legendas/apartamento_2_quartos_62m2_garden_legendas.png';
+import marinePlanApartamento2Quartos7135m2Legendas from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/03_Paginas_Referencia_Com_Legendas/apartamento_2_quartos_71_35m2_legendas.png';
+import marinePlanApartamento2Quartos78m2Legendas from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/03_Paginas_Referencia_Com_Legendas/apartamento_2_quartos_78m2_legendas.png';
+import marinePlanApartamento2Quartos81m2GardenLegendas from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/03_Paginas_Referencia_Com_Legendas/apartamento_2_quartos_81m2_garden_legendas.png';
+import marinePlanApartamento3Quartos118m2GardenLegendas from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/03_Paginas_Referencia_Com_Legendas/apartamento_3_quartos_118m2_garden_legendas.png';
+import marinePlanApartamento3Quartos126m2GardenLegendas from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/03_Plantas_e_Implantacao/03_Paginas_Referencia_Com_Legendas/apartamento_3_quartos_126m2_garden_legendas.png';
+import marineLocLocalizacaoAereaEmpreendimentosBeachClassMarineCarneiros from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/04_Localizacao/localizacao_aerea_empreendimentos_beach_class_marine_carneiros.png';
+import marineLocLocalizacaoPraiaCarneirosMapaEReferencias from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/04_Localizacao/localizacao_praia_carneiros_mapa_e_referencias.png';
+import marineLocPaisagemAereaMarPraiaDosCarneiros from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/05_Contexto_Praia_Carneiros/paisagem_aerea_mar_praia_dos_carneiros.png';
+import marineLocPraiaDosCarneirosIgrejaEMar from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/05_Contexto_Praia_Carneiros/praia_dos_carneiros_igreja_e_mar.png';
 import manguinhosCover from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/01_Capa/capa_beach_class_manguinhos.png';
 import manguinhosPhotoVisaoAereaGeralCasasEBeachClub from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/visao_aerea_geral_casas_e_beach_club.png';
 import manguinhosPhotoCondominioVistaGeralBlocosEPiscinas from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/condominio_vista_geral_blocos_e_piscinas.png';
@@ -2061,6 +2142,120 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
+    slug: 'beach-class-marine', name: 'Beach Class Marine', image: marineCover,
+    city: 'Tamandaré, PE', neighborhood: 'Praia dos Carneiros', locationTitle: 'Praia dos Carneiros - Tamandaré/PE',
+    address: 'Praia dos Carneiros, Tamandaré/PE',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Beach%20Class%20Marine%20Praia%20dos%20Carneiros%20Tamandare%20PE',
+    area: '32 a 129 m²', profile: 'Studios e apartamentos de 1, 2 e 3 quartos, com Garden e piscina privativa', detail: '412 unidades em 9 blocos',
+    description: 'O Beach Class Marine é um empreendimento à beira-mar na Praia dos Carneiros, em Tamandaré, Pernambuco, no conceito pé na areia. O projeto reúne 412 apartamentos em 9 blocos, com studios e unidades de 1, 2 e 3 quartos, todos com varanda gourmet, e Gardens com piscina nas unidades térreas de 1, 2 e 3 quartos. O lazer inclui piscina com borda infinita frente ao mar, bar da praia, pool house, parque aquático, restaurante, spa com sauna e academia, em meio a áreas verdes.',
+    highlights: ['32 a 129 m²', '412 unidades em 9 blocos', 'Garden com piscina nas unidades térreas', 'Pé na areia na Praia dos Carneiros'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Praia dos Carneiros, Tamandaré/PE'], ['Unidades', '412 apartamentos'], ['Garagem', '580 vagas rotativas']],
+    technical: [
+      ['Área do terreno', '86.000 m²'],
+      ['Área privativa', '25.405,77 m²'],
+      ['Blocos', '9 blocos residenciais, com térreo + 3 pavimentos tipo'],
+      ['Unidades', '412 unidades residenciais'],
+      ['Studios', '76 unidades de 32,51 a 40,66 m²'],
+      ['1 quarto', '156 unidades de 44 a 57 m²'],
+      ['2 quartos', '136 unidades de 62 a 85 m²'],
+      ['3 quartos', '44 unidades de 118 a 129 m²'],
+      ['Garden', 'Unidades térreas com garden de cerca de 10 a 100 m², conforme a tipologia; piscina nos gardens de 1, 2 e 3 quartos'],
+      ['Varanda', 'Varanda gourmet em todos os apartamentos'],
+      ['Garagem', '580 vagas em sistema rotativo, com 2 vagas para apartamentos de 2 e 3 quartos; vagas largas'],
+      ['Material', 'Perspectivas ilustrativas; móveis, utensílios, equipamentos e decoração dos apartamentos não estão contemplados no orçamento da obra'],
+    ],
+    amenities: ['Hall social', 'Piscina com borda infinita frente ao mar', 'Gazebo frente ao mar', 'Bar da praia integrado à piscina', 'Pool house', 'Parque aquático e piscinas', 'Piscina infantil', 'Restaurante com deck', 'Espaços gourmet externos', 'Playground', 'Academia', 'Lounge', 'Spa com sauna', 'Salas de massagem', 'Salão de beleza', 'Pet place com pet wash', 'Lavanderia coletiva', 'Minimarket', 'Espaço delivery'],
+    security: ['Fechadura eletrônica nos apartamentos'],
+    sustainability: ['Irrigação inteligente', 'Parte do consumo do condomínio abastecida por energia solar', 'Pontos para recarga de carro elétrico'],
+    projectTeam: ['Jerônimo da Cunha Lima | Arquitetura', 'Benedito Abbud | Paisagismo', 'Humberto e Analice Zirpoli | Ambientação'],
+    gallery: [
+      { src: marinePhotoVistaAereaGeralCondominio, titulo: 'Beach Class Marine - perspectiva aérea do condomínio e da orla' },
+      { src: marinePhotoFachadaBlocoResidencialComPiscinaAnoitecer, titulo: 'Perspectiva da fachada do bloco residencial com piscina ao entardecer' },
+      { src: marinePhotoFachadaBlocoVistaDaPiscina, titulo: 'Perspectiva da fachada do bloco vista da piscina' },
+      { src: marinePhotoHallSocialRecepcao, titulo: 'Perspectiva do hall social e da recepção' },
+      { src: marinePhotoPiscinaBordaInfinitaFrenteMar, titulo: 'Perspectiva da piscina com borda infinita frente ao mar' },
+      { src: marinePhotoGazeboFrenteMar, titulo: 'Perspectiva do gazebo frente ao mar' },
+      { src: marinePhotoBarDaPraiaIntegradoPiscina, titulo: 'Perspectiva do bar da praia integrado à piscina' },
+      { src: marinePhotoPoolHouse, titulo: 'Perspectiva da pool house' },
+      { src: marinePhotoParqueAquaticoPiscinaInfantil, titulo: 'Perspectiva do parque aquático e da piscina infantil' },
+      { src: marinePhotoRestauranteInterno, titulo: 'Perspectiva do restaurante' },
+      { src: marinePhotoDeckExternoRestaurante, titulo: 'Perspectiva do deck externo do restaurante' },
+      { src: marinePhotoEspacoGourmetExterno, titulo: 'Perspectiva do espaço gourmet externo' },
+      { src: marinePhotoPlaygroundAreaInfantil, titulo: 'Perspectiva do playground e da área infantil' },
+      { src: marinePhotoAcademiaFitness, titulo: 'Perspectiva da academia' },
+      { src: marinePhotoSpaComSauna, titulo: 'Perspectiva do spa com sauna' },
+      { src: marinePhotoSalasDeMassagem, titulo: 'Perspectiva das salas de massagem' },
+      { src: marinePhotoSalaoDeBeleza, titulo: 'Perspectiva do salão de beleza' },
+      { src: marinePhotoStudio3251m2AmbienteInterno, titulo: 'Perspectiva do Studio de 32,51 m²' },
+      { src: marinePhotoApartamento1Quarto44m2SalaEVaranda, titulo: 'Perspectiva da sala e varanda do apartamento de 1 quarto de 44 m²' },
+      { src: marinePhotoApartamento1Quarto52m2SalaECozinha, titulo: 'Perspectiva da sala e cozinha do apartamento de 1 quarto de 52 m²' },
+      { src: marinePhotoApartamento2Quartos62m2SalaECozinha, titulo: 'Perspectiva da sala e cozinha do apartamento de 2 quartos de 62 m²' },
+      { src: marinePhotoApartamento2Quartos62m2Varanda, titulo: 'Perspectiva da varanda do apartamento de 2 quartos de 62 m²' },
+      { src: marinePhotoApartamento2Quartos7135m2Quarto, titulo: 'Perspectiva do quarto do apartamento de 2 quartos de 71,35 m²' },
+      { src: marinePhotoApartamento2Quartos78m2GardenEPiscinaPrivativa, titulo: 'Perspectiva do apartamento de 2 quartos de 78 m² com Garden e piscina privativa' },
+      { src: marinePhotoApartamento3Quartos118m2GardenPiscinaPatio, titulo: 'Perspectiva do Garden com piscina e pátio do apartamento de 3 quartos de 118 m²' },
+      { src: marinePhotoApartamento3Quartos118m2GardenAreaDeDescanso, titulo: 'Perspectiva da área de descanso do Garden do apartamento de 3 quartos de 118 m²' },
+      { src: marinePhotoApartamento3Quartos118m2SalaEVaranda, titulo: 'Perspectiva da sala e varanda do apartamento de 3 quartos de 118 m²' },
+      { src: marinePhotoApartamento3Quartos118m2Suite, titulo: 'Perspectiva da suíte do apartamento de 3 quartos de 118 m²' },
+      { src: marinePhotoApartamento3Quartos126m2SalaDeEstar, titulo: 'Perspectiva da sala de estar do apartamento de 3 quartos de 126 m²' },
+    ],
+    floorPlans: [
+      { src: marinePlanImplantacaoGeralBlocosAreasLazer, titulo: 'Implantação geral - blocos e áreas de lazer' },
+      { src: marinePlanPlantaBlocoSocialPavimentoTerreo, titulo: 'Bloco social - pavimento térreo' },
+      { src: marinePlanPlantaBlocoSocialPrimeiroPavimento, titulo: 'Bloco social - 1º pavimento' },
+      { src: marinePlanPlantaBlocosACEPavimentoTerreo, titulo: 'Blocos A, C e E - pavimento térreo' },
+      { src: marinePlanPlantaBlocosACEPavimentoTipo, titulo: 'Blocos A, C e E - pavimento tipo' },
+      { src: marinePlanPlantaBlocosBDPavimentoTerreo, titulo: 'Blocos B e D - pavimento térreo' },
+      { src: marinePlanPlantaBlocosBDPavimentoTipo, titulo: 'Blocos B e D - pavimento tipo' },
+      { src: marinePlanPlantaBlocoFPavimentoTerreo, titulo: 'Bloco F - pavimento térreo' },
+      { src: marinePlanPlantaBlocoFPavimentoTipo, titulo: 'Bloco F - pavimento tipo' },
+      { src: marinePlanPlantaBlocosGIPavimentoTerreo, titulo: 'Blocos G e I - pavimento térreo' },
+      { src: marinePlanPlantaBlocosGIPavimentoTipo, titulo: 'Blocos G e I - pavimento tipo' },
+      { src: marinePlanPlantaBlocoHPavimentoTerreo, titulo: 'Bloco H - pavimento térreo' },
+      { src: marinePlanPlantaBlocoHPavimentoTipo, titulo: 'Bloco H - pavimento tipo' },
+      { src: marinePlanPlantaStudio3251m2ComGardenTerreo, titulo: 'Studio 32,51 m² - térreo com Garden' },
+      { src: marinePlanPlantaStudio3251m2PavimentoTipo, titulo: 'Studio 32,51 m² - pavimento tipo' },
+      { src: marinePlanPlantaStudio4066m2ComGardenTerreo, titulo: 'Studio 40,66 m² - térreo com Garden' },
+      { src: marinePlanPlantaStudio4066m2PavimentoTipo, titulo: 'Studio 40,66 m² - pavimento tipo' },
+      { src: marinePlanPlanta1Quarto44m2ComGardenTerreo, titulo: '1 quarto 44 m² - térreo com Garden' },
+      { src: marinePlanPlanta1Quarto44m2PavimentoTipo, titulo: '1 quarto 44 m² - pavimento tipo' },
+      { src: marinePlanPlanta1Quarto52A54m2ComGardenTerreo, titulo: '1 quarto 52 a 54 m² - térreo com Garden' },
+      { src: marinePlanPlanta1Quarto52m2PavimentoTipo, titulo: '1 quarto 52 m² - pavimento tipo' },
+      { src: marinePlanPlanta1Quarto57m2PavimentoTipo, titulo: '1 quarto 57 m² - pavimento tipo' },
+      { src: marinePlanPlanta2Quartos62m2ComGardenTerreo, titulo: '2 quartos 62 m² - térreo com Garden' },
+      { src: marinePlanPlanta2Quartos62m2PavimentoTipo, titulo: '2 quartos 62 m² - pavimento tipo' },
+      { src: marinePlanPlanta2Quartos7135m2ComGardenTerreo, titulo: '2 quartos 71,35 m² - térreo com Garden' },
+      { src: marinePlanPlanta2Quartos7135m2PavimentoTipo, titulo: '2 quartos 71,35 m² - pavimento tipo' },
+      { src: marinePlanPlanta2Quartos78m2ComGardenTerreo, titulo: '2 quartos 78 m² - térreo com Garden' },
+      { src: marinePlanPlanta2Quartos78m2PavimentoTipo, titulo: '2 quartos 78 m² - pavimento tipo' },
+      { src: marinePlanPlanta2Quartos79m2ComGardenTerreo, titulo: '2 quartos 79 m² - térreo com Garden' },
+      { src: marinePlanPlanta2Quartos81m2ComGardenTerreo, titulo: '2 quartos 81 m² - térreo com Garden' },
+      { src: marinePlanPlanta2Quartos81m2PavimentoTipo, titulo: '2 quartos 81 m² - pavimento tipo' },
+      { src: marinePlanPlanta2Quartos85m2PavimentoTipo, titulo: '2 quartos 85 m² - pavimento tipo' },
+      { src: marinePlanPlanta3Quartos118m2ComGardenTerreo, titulo: '3 quartos 118 m² - térreo com Garden' },
+      { src: marinePlanPlanta3Quartos118m2PavimentoTipo, titulo: '3 quartos 118 m² - pavimento tipo' },
+      { src: marinePlanPlanta3Quartos126m2ComGardenTerreo, titulo: '3 quartos 126 m² - térreo com Garden' },
+      { src: marinePlanPlanta3Quartos129m2PavimentoTipo, titulo: '3 quartos 129 m² - pavimento tipo' },
+      { src: marinePlanImplantacaoGeralELegendas, titulo: 'Implantação geral e legendas (página de referência)' },
+      { src: marinePlanStudio3251m2PlantasELegendas, titulo: 'Studio 32,51 m² - plantas e legendas (página de referência)' },
+      { src: marinePlanStudio4066m2PlantasELegendas, titulo: 'Studio 40,66 m² - plantas e legendas (página de referência)' },
+      { src: marinePlanApartamento1Quarto44m2TerreoLegendas, titulo: '1 quarto 44 m² - térreo e legendas (página de referência)' },
+      { src: marinePlanApartamento1Quarto5254m2GardenLegendas, titulo: '1 quarto 52 a 54 m² - Garden e legendas (página de referência)' },
+      { src: marinePlanApartamento2Quartos62m2GardenLegendas, titulo: '2 quartos 62 m² - Garden e legendas (página de referência)' },
+      { src: marinePlanApartamento2Quartos7135m2Legendas, titulo: '2 quartos 71,35 m² - legendas (página de referência)' },
+      { src: marinePlanApartamento2Quartos78m2Legendas, titulo: '2 quartos 78 m² - legendas (página de referência)' },
+      { src: marinePlanApartamento2Quartos81m2GardenLegendas, titulo: '2 quartos 81 m² - Garden e legendas (página de referência)' },
+      { src: marinePlanApartamento3Quartos118m2GardenLegendas, titulo: '3 quartos 118 m² - Garden e legendas (página de referência)' },
+      { src: marinePlanApartamento3Quartos126m2GardenLegendas, titulo: '3 quartos 126 m² - Garden e legendas (página de referência)' },
+    ],
+    locationImages: [
+      { src: marineLocLocalizacaoAereaEmpreendimentosBeachClassMarineCarneiros, titulo: 'Localização do Beach Class Marine sobre vista aérea' },
+      { src: marineLocLocalizacaoPraiaCarneirosMapaEReferencias, titulo: 'Mapa e referências da Praia dos Carneiros' },
+      { src: marineLocPaisagemAereaMarPraiaDosCarneiros, titulo: 'Entorno: vista aérea do mar da Praia dos Carneiros' },
+      { src: marineLocPraiaDosCarneirosIgrejaEMar, titulo: 'Entorno: igreja e mar da Praia dos Carneiros' },
+    ],
+  }),
+  createDevelopment({
     slug: 'beach-class-cumbuco', name: 'Beach Class Cumbuco', image: cumbucoCover,
     city: 'Caucaia, CE', neighborhood: 'Cumbuco', locationTitle: 'Cumbuco - Caucaia/CE',
     address: 'Rua Lagoa das Rosas, S/N, Gleba CP7, Cumbuco, Caucaia/CE',
@@ -2925,7 +3120,7 @@ function DevelopmentDetail({ development }) {
   const touchStartX = useRef(null);
   const activeImages = activeLightbox ? lightboxGroups[activeLightbox.group] : [];
   const activeImage = activeLightbox ? activeImages[activeLightbox.index] : null;
-  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'beach-class-manguinhos', 'beach-class-cumbuco', 'beach-class-iracema'].includes(development?.slug);
+  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-cumbuco', 'beach-class-iracema'].includes(development?.slug);
   const visibleGalleryImages = lightboxGroups.gallery.slice(0, 5);
   const remainingGalleryCount = Math.max(0, lightboxGroups.gallery.length - visibleGalleryImages.length);
   const visibleFloorPlans = showAllOrganizedImages

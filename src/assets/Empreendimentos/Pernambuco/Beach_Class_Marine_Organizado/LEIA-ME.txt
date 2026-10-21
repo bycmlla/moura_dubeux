@@ -1,0 +1,14 @@
+PACOTE DE EXTRAÇÃO — BEACH CLASS MARINE
+
+01_Capa: imagem principal selecionada para usar como capa no site.
+02_Imagens_Empreendimento: perspectivas arquitetônicas e ambientações, sem plantas.
+03_Plantas_e_Implantacao:
+  01_Implantacao_e_Blocos: plantas gerais e de pavimento.
+  02_Plantas_das_Unidades: imagens individuais por tipologia e presença de garden.
+  03_Paginas_Referencia_Com_Legendas: páginas completas com textos/indicações do book para conferência.
+04_Localizacao: mapas de localização com textos de referência.
+05_Contexto_Praia_Carneiros: fotografias de localização/entorno, NÃO são imagens do projeto.
+informacoes_empreendimento.txt: conteúdo descritivo baseado no book.
+indice_imagens.csv: origem, descrição e resolução de cada PNG.
+
+Todo PNG é extraído do PDF fornecido. Imagens de ambientes são perspectivas artísticas e não comprovam acabamento final. As versões nativas são preferidas quando disponíveis; plantas preservam o desenho original, e páginas de referência guardam títulos e legendas.

@@ -1,0 +1,56 @@
+﻿arquivo;pagina_pdf;pasta;descricao;observacao;largura_px;altura_px
+01_Capa/capa_principal_piscina_vista_mar.png;9;01_Capa;Piscina com borda voltada para o mar, ao entardecer;Capa escolhida entre as perspectivas do empreendimento;1280;625
+02_Imagens_Empreendimento/lazer_piscina_vista_mar.png;9;02_Imagens_Empreendimento;Piscina com vista para o mar;;1280;625
+02_Imagens_Empreendimento/bangalo_terraco_privativo_com_piscina.png;10;02_Imagens_Empreendimento;Varanda de bangalô com piscina e jardim;"A mesma perspectiva aparece na página 70; mantida uma vez";1280;640
+02_Imagens_Empreendimento/lazer_vista_aerea_piscinas_jardins.png;19;02_Imagens_Empreendimento;Vista aérea do conjunto de piscinas e paisagismo;;357;648
+02_Imagens_Empreendimento/lazer_hidromassagem_integrada_piscina.png;19;02_Imagens_Empreendimento;Hidromassagem circular integrada à piscina;;831;545
+02_Imagens_Empreendimento/lazer_lounge_beira_piscina.png;20;02_Imagens_Empreendimento;Lounge ao lado da piscina;;840;642
+02_Imagens_Empreendimento/lazer_praca_chegada_espelho_agua.png;21;02_Imagens_Empreendimento;Praça de chegada e espelho d’água;;465;640
+02_Imagens_Empreendimento/lazer_piscina_principal_estrutura_sombreada.png;22;02_Imagens_Empreendimento;Piscina principal e estrutura sombreada;;1207;590
+02_Imagens_Empreendimento/lazer_playground_infantil.png;23;02_Imagens_Empreendimento;Playground infantil;;1207;590
+02_Imagens_Empreendimento/lazer_pool_bar_e_gourmet_piscina.png;24;02_Imagens_Empreendimento;Pool bar integrado ao espaço gourmet e piscina;;1207;590
+02_Imagens_Empreendimento/lazer_gourmet_quadra_pergolado.png;26;02_Imagens_Empreendimento;Espaço gourmet da quadra e pérgola;;831;509
+02_Imagens_Empreendimento/lazer_gourmet_quadra_mesa_externa.png;26;02_Imagens_Empreendimento;Área de mesas do gourmet da quadra;;364;509
+02_Imagens_Empreendimento/bem_estar_espaco_relaxamento.png;29;02_Imagens_Empreendimento;Espaço de bem-estar e descanso;;1207;585
+02_Imagens_Empreendimento/bem_estar_salao_beleza.png;30;02_Imagens_Empreendimento;Salão de beleza;;1207;585
+02_Imagens_Empreendimento/bem_estar_spa.png;31;02_Imagens_Empreendimento;Sala de spa;;1207;585
+02_Imagens_Empreendimento/bem_estar_academia.png;32;02_Imagens_Empreendimento;Academia com vista para o paisagismo;;1207;585
+02_Imagens_Empreendimento/bem_estar_academia_terraco.png;33;02_Imagens_Empreendimento;Terraço externo da academia;;1207;585
+02_Imagens_Empreendimento/gastronomia_restaurante_salao.png;37;02_Imagens_Empreendimento;Área de mesas do restaurante;;1207;590
+02_Imagens_Empreendimento/gastronomia_restaurante_bar.png;38;02_Imagens_Empreendimento;Balcão e bar do restaurante;;1207;590
+02_Imagens_Empreendimento/servicos_entrada_rececao_fachada.png;40;02_Imagens_Empreendimento;Entrada e fachada da recepção;;1207;590
+02_Imagens_Empreendimento/servicos_lobby_checkin.png;42;02_Imagens_Empreendimento;Lobby e check-in;;1207;590
+02_Imagens_Empreendimento/servicos_loja_conveniencia.png;43;02_Imagens_Empreendimento;Loja de conveniência do empreendimento;;1207;590
+02_Imagens_Empreendimento/studio_terraco_garden_privativo.png;50;02_Imagens_Empreendimento;Studio com garden privativo;;1207;590
+02_Imagens_Empreendimento/studio_estar_integrado.png;51;02_Imagens_Empreendimento;Ambiente integrado de studio;;1207;590
+02_Imagens_Empreendimento/studio_quarto_detalhe.png;52;02_Imagens_Empreendimento;Quarto do studio, detalhe;;516;659
+02_Imagens_Empreendimento/studio_quarto_perspectiva.png;52;02_Imagens_Empreendimento;Quarto do studio, perspectiva ampla;;659;576
+02_Imagens_Empreendimento/apartamento_1_quarto_garden.png;58;02_Imagens_Empreendimento;Garden privativo do apartamento de 1 quarto;;1207;590
+02_Imagens_Empreendimento/apartamento_1_quarto_sala_jantar.png;59;02_Imagens_Empreendimento;Sala e jantar do apartamento de 1 quarto;;1207;590
+02_Imagens_Empreendimento/apartamento_1_quarto_dormitorio.png;60;02_Imagens_Empreendimento;Dormitório do apartamento de 1 quarto;;585;645
+02_Imagens_Empreendimento/apartamento_1_quarto_varanda.png;60;02_Imagens_Empreendimento;Varanda do apartamento de 1 quarto;;586;585
+02_Imagens_Empreendimento/apartamento_2_quartos_garden.png;62;02_Imagens_Empreendimento;Garden privativo do apartamento de 2 quartos;;1207;590
+02_Imagens_Empreendimento/apartamento_2_quartos_varanda.png;63;02_Imagens_Empreendimento;Varanda do apartamento de 2 quartos;;1207;590
+02_Imagens_Empreendimento/apartamento_2_quartos_sala_jantar.png;64;02_Imagens_Empreendimento;Sala e jantar do apartamento de 2 quartos;;1207;590
+02_Imagens_Empreendimento/apartamento_2_quartos_quarto_infantil.png;65;02_Imagens_Empreendimento;Quarto infantil do apartamento de 2 quartos;;736;590
+02_Imagens_Empreendimento/apartamento_2_quartos_suite.png;66;02_Imagens_Empreendimento;Suíte do apartamento de 2 quartos;;1207;590
+02_Imagens_Empreendimento/bangalo_fachada_com_piscina.png;69;02_Imagens_Empreendimento;Fachada do bangalô com piscina privativa;;1207;590
+02_Imagens_Empreendimento/bangalo_sala_estar_jantar.png;71;02_Imagens_Empreendimento;Sala de estar e jantar do bangalô;;1207;590
+02_Imagens_Empreendimento/bangalo_suite_01.png;72;02_Imagens_Empreendimento;Suíte 01 do bangalô;;907;585
+02_Imagens_Empreendimento/bangalo_suite_02_quarto_duplo.png;73;02_Imagens_Empreendimento;Suíte 02 do bangalô;;1207;590
+03_Plantas_e_Implantacao/01_Implantacao_Geral/implantacao_geral_e_terreno.png;15;03_Plantas_e_Implantacao/01_Implantacao_Geral;Implantação geral e área do terreno;Página preservada com identificação do projeto;1280;720
+03_Plantas_e_Implantacao/01_Implantacao_Geral/implantacao_pavimento_lazer.png;18;03_Plantas_e_Implantacao/01_Implantacao_Geral;Implantação do pavimento de lazer e localização dos ambientes;Página preservada com identificação do projeto;1280;720
+03_Plantas_e_Implantacao/02_Plantas_Pavimentos/planta_bloco_central_pavimento_superior.png;28;03_Plantas_e_Implantacao/02_Plantas_Pavimentos;Pavimento superior do bloco central;Página preservada com identificação dos blocos e metragens;1280;720
+03_Plantas_e_Implantacao/02_Plantas_Pavimentos/planta_bloco_central_pavimento_terreo.png;41;03_Plantas_e_Implantacao/02_Plantas_Pavimentos;Pavimento térreo do bloco central;Página preservada com identificação dos blocos e metragens;1280;720
+03_Plantas_e_Implantacao/02_Plantas_Pavimentos/planta_blocos_abcd_terreo_gardens.png;47;03_Plantas_e_Implantacao/02_Plantas_Pavimentos;Blocos A, B, C e D - pavimento térreo e gardens;Página preservada com identificação dos blocos e metragens;1280;720
+03_Plantas_e_Implantacao/02_Plantas_Pavimentos/planta_blocos_abcd_pavimentos_1_e_2.png;48;03_Plantas_e_Implantacao/02_Plantas_Pavimentos;Blocos A, B, C e D - pavimentos tipo 1 e 2;Página preservada com identificação dos blocos e metragens;1280;720
+03_Plantas_e_Implantacao/02_Plantas_Pavimentos/planta_blocos_ef_terreo_gardens.png;53;03_Plantas_e_Implantacao/02_Plantas_Pavimentos;Blocos E e F - pavimento térreo e gardens;Página preservada com identificação dos blocos e metragens;1280;720
+03_Plantas_e_Implantacao/02_Plantas_Pavimentos/planta_blocos_ef_pavimentos_1_e_2.png;54;03_Plantas_e_Implantacao/02_Plantas_Pavimentos;Blocos E e F - pavimentos tipo 1 e 2;Página preservada com identificação dos blocos e metragens;1280;720
+03_Plantas_e_Implantacao/02_Plantas_Pavimentos/planta_blocos_gh_terreo_gardens.png;55;03_Plantas_e_Implantacao/02_Plantas_Pavimentos;Blocos G e H - pavimento térreo e gardens;Página preservada com identificação dos blocos e metragens;1280;720
+03_Plantas_e_Implantacao/02_Plantas_Pavimentos/planta_blocos_gh_pavimentos_1_e_2.png;56;03_Plantas_e_Implantacao/02_Plantas_Pavimentos;Blocos G e H - pavimentos tipo 1 e 2;Página preservada com identificação dos blocos e metragens;1280;720
+03_Plantas_e_Implantacao/03_Plantas_Unidades/planta_studio_33_09m2_garden_16_57m2.png;49;03_Plantas_e_Implantacao/03_Plantas_Unidades;Studio de 33,09 m² com garden de 16,57 m²;Página preservada para manter planta, metragens e observações técnicas;1280;720
+03_Plantas_e_Implantacao/03_Plantas_Unidades/planta_1_quarto_42_57m2_garden_28_73m2.png;57;03_Plantas_e_Implantacao/03_Plantas_Unidades;Apartamento de 1 quarto, 42,57 m², garden de 28,73 m²;Página preservada para manter planta, metragens e observações técnicas;1280;720
+03_Plantas_e_Implantacao/03_Plantas_Unidades/planta_2_quartos_61_32m2_garden_29_96m2.png;61;03_Plantas_e_Implantacao/03_Plantas_Unidades;Apartamento de 2 quartos, 61,32 m², garden de 29,96 m²;Página preservada para manter planta, metragens e observações técnicas;1280;720
+03_Plantas_e_Implantacao/03_Plantas_Unidades/planta_bangalo_114_30m2_terreo_piscina_privativa.png;67;03_Plantas_e_Implantacao/03_Plantas_Unidades;Bangalô de 114,30 m² - térreo com piscina privativa;Página preservada para manter planta, metragens e observações técnicas;1280;720
+03_Plantas_e_Implantacao/03_Plantas_Unidades/planta_bangalo_114_30m2_pavimento_superior.png;68;03_Plantas_e_Implantacao/03_Plantas_Unidades;Bangalô de 114,30 m² - primeiro pavimento;Página preservada para manter planta, metragens e observações técnicas;1280;720
+04_Localizacao_e_Entorno/localizacao_mapa_aereo_milagres.png;14;04_Localizacao_e_Entorno;Localização do empreendimento em relação à costa e aeroportos;Imagem do entorno: não é uma perspectiva do condomínio;1280;720
