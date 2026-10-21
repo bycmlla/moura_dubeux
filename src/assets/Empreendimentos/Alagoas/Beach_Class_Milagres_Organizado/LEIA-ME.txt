@@ -1,0 +1,12 @@
+BEACH CLASS MILAGRES - PACOTE DE CONTEÚDO PARA SITE
+
+01_Capa: imagem principal escolhida para o banner do empreendimento.
+02_Imagens_Empreendimento: SOMENTE imagens do projeto (lazer, serviços, apartamentos e bangalôs). Sem plantas ou mapas.
+03_Plantas_e_Implantacao: plantas de implantação, pavimentos e unidades com metragens e informações visuais preservadas.
+04_Localizacao_e_Entorno: mapa aéreo da localização separado do material arquitetônico.
+informacoes_empreendimento.txt: dados e ressalvas técnicas transcritos e organizados a partir do book.
+indice_imagens.csv: nome de arquivo, localização, página de origem, identificação e observação.
+
+Todos os arquivos de imagem são PNG, com nomes descritivos. Imagens extraídas/renderizadas do próprio PDF, sem recriação por inteligência artificial. Alguns elementos podem conter textos incorporados ou estética de renderização presentes na fonte. Recortes priorizam o ambiente, evitando bordas e chamadas publicitárias quando possível.
+
+ATENÇÃO: não incluir imagens da pasta 03 em galerias de fotos, mesmo que a planta contenha visualização 3D. Plantas foram mantidas como páginas informativas legíveis, com legendas e metragens, enquanto os ambientes ilustrados foram extraídos como fotos separadas.

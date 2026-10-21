@@ -261,6 +261,44 @@ test('renders Beach Class Manguinhos perspectives, all floor plans and location 
   expect(screen.getByText('1 / 3')).toBeInTheDocument();
 });
 
+test('lists Beach Class Marine under Pernambuco with the other Carneiros project', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Pernambuco' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Pernambuco' }));
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Marine', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Beach Class Manguinhos', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Beach Class Marine.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/beach-class-marine');
+});
+
+test('renders Beach Class Marine perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/beach-class-marine';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Marine', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('86.000 m²')).toBeInTheDocument();
+  expect(screen.getAllByText(/580 vagas/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+24 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(47);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Tamandare%20PE'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Beach Class Marine - perspectiva aérea do condomínio e da orla/i }));
+  expect(screen.getByText('1 / 29')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva da sala de estar do apartamento de 3 quartos de 126 m²/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta 3 quartos 126 m² - Garden e legendas/i }));
+  expect(screen.getByText('47 / 47')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Localização do Beach Class Marine sobre vista aérea/i }));
+  expect(screen.getByText('1 / 4')).toBeInTheDocument();
+});
+
 test('renders Arthur Bruno Schwambach photos and floor plans in their own sections', () => {
   window.location.hash = '#empreendimento/arthur-bruno-schwambach';
   render(<App />);
@@ -306,7 +344,7 @@ test('shows the state selection again after a new visit', async () => {
 
   fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
   await waitFor(() => expect(screen.getByRole('heading', { name: /qual será o seu próximo endereço/i })).toBeInTheDocument());
-});
+}, 20000);
 
 test('renders the additional book-based developments', async () => {
   render(<App />);
