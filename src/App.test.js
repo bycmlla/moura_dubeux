@@ -155,174 +155,6 @@ test.each([
   expect(screen.queryByRole('heading', { name: projectName })).not.toBeInTheDocument();
 });
 
-test('renders Beach Class Cumbuco perspectives, all floor plans and location separately', () => {
-  window.location.hash = '#empreendimento/beach-class-cumbuco';
-  render(<App />);
-
-  expect(screen.getByRole('heading', { name: 'Beach Class Cumbuco', level: 1 })).toBeInTheDocument();
-  expect(screen.getByText('640 unidades residenciais, com 64 por bloco')).toBeInTheDocument();
-  expect(screen.getAllByText(/646 vagas rotativas/).length).toBeGreaterThan(0);
-  expect(screen.getByText('+18 fotos')).toBeInTheDocument();
-  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(13);
-  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Caucaia%20CE'));
-  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
-
-  fireEvent.click(screen.getByRole('button', { name: /ampliar Beach Class Cumbuco - perspectiva aérea frente ao mar/i }));
-  expect(screen.getByText('1 / 23')).toBeInTheDocument();
-  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
-  expect(screen.getByRole('dialog', { name: /perspectiva da guarderia para equipamentos náuticos/i })).toBeInTheDocument();
-  expect(screen.getByText('23 / 23')).toBeInTheDocument();
-  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
-
-  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Bloco guarderia para equipamentos náuticos/i }));
-  expect(screen.getByText('13 / 13')).toBeInTheDocument();
-  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
-
-  fireEvent.click(screen.getByRole('button', { name: /ampliar Mapa de localização do Beach Class Cumbuco/i }));
-  expect(screen.getByText('1 / 6')).toBeInTheDocument();
-  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
-  expect(screen.getByRole('dialog', { name: /Entorno: coqueiros e praia do Cumbuco/i })).toBeInTheDocument();
-  expect(screen.getByText('6 / 6')).toBeInTheDocument();
-});
-
-test('lists Beach Class Iracema under Ceará next to Beach Class Cumbuco', async () => {
-  render(<App />);
-  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
-
-  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Ceará' })).toBeInTheDocument());
-  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Ceará' }));
-
-  expect(screen.getByRole('heading', { name: 'Beach Class Iracema', level: 3 })).toBeInTheDocument();
-  expect(screen.getByRole('heading', { name: 'Beach Class Cumbuco', level: 3 })).toBeInTheDocument();
-  expect(screen.getByRole('link', { name: /Beach Class Iracema.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/beach-class-iracema');
-});
-
-test('renders Beach Class Iracema perspectives, all floor plans and location separately', () => {
-  window.location.hash = '#empreendimento/beach-class-iracema';
-  render(<App />);
-
-  expect(screen.getByRole('heading', { name: 'Beach Class Iracema', level: 1 })).toBeInTheDocument();
-  expect(screen.getAllByText(/93,41 m²/).length).toBeGreaterThan(0);
-  expect(screen.getByText('+11 fotos')).toBeInTheDocument();
-  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(9);
-  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Fortaleza%20CE'));
-  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
-
-  fireEvent.click(screen.getByRole('button', { name: /ampliar Beach Class Iracema - perspectiva da fachada da torre/i }));
-  expect(screen.getByText('1 / 16')).toBeInTheDocument();
-  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
-  expect(screen.getByRole('dialog', { name: /perspectiva do studio com ambiente integrado/i })).toBeInTheDocument();
-  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
-
-  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Studio - 29,16 m²/i }));
-  expect(screen.getByText('9 / 9')).toBeInTheDocument();
-  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
-
-  fireEvent.click(screen.getByRole('button', { name: /ampliar Localização do Beach Class Iracema sobre vista aérea/i }));
-  expect(screen.getByText('1 / 3')).toBeInTheDocument();
-});
-
-test('lists Beach Class Manguinhos under Pernambuco next to Arthur Bruno Schwambach', async () => {
-  render(<App />);
-  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
-
-  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Pernambuco' })).toBeInTheDocument());
-  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Pernambuco' }));
-
-  expect(screen.getByRole('heading', { name: 'Beach Class Manguinhos', level: 3 })).toBeInTheDocument();
-  expect(screen.getByRole('heading', { name: 'Arthur Bruno Schwambach', level: 3 })).toBeInTheDocument();
-  expect(screen.queryByRole('heading', { name: 'Beach Class Cumbuco' })).not.toBeInTheDocument();
-  expect(screen.getByRole('link', { name: /Beach Class Manguinhos.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/beach-class-manguinhos');
-});
-
-test('renders Beach Class Manguinhos perspectives, all floor plans and location separately', () => {
-  window.location.hash = '#empreendimento/beach-class-manguinhos';
-  render(<App />);
-
-  expect(screen.getByRole('heading', { name: 'Beach Class Manguinhos', level: 1 })).toBeInTheDocument();
-  expect(screen.getByText('93.025,66 m²')).toBeInTheDocument();
-  expect(screen.getAllByText(/652 vagas/).length).toBeGreaterThan(0);
-  expect(screen.getByText('+31 fotos')).toBeInTheDocument();
-  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(28);
-  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Tamandare%20PE'));
-  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
-
-  fireEvent.click(screen.getByRole('button', { name: /ampliar Beach Class Manguinhos - perspectiva aérea das casas e do Beach Club/i }));
-  expect(screen.getByText('1 / 36')).toBeInTheDocument();
-  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
-  expect(screen.getByRole('dialog', { name: /perspectiva da suíte do apartamento de 3 quartos/i })).toBeInTheDocument();
-  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
-
-  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Apartamento de 3 quartos - térreo com Garden e piscina/i }));
-  expect(screen.getByText('28 / 28')).toBeInTheDocument();
-  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
-
-  fireEvent.click(screen.getByRole('button', { name: /ampliar Mapa de localização do Beach Class Manguinhos/i }));
-  expect(screen.getByText('1 / 3')).toBeInTheDocument();
-});
-
-test('lists Beach Class Marine under Pernambuco with the other Carneiros project', async () => {
-  render(<App />);
-  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
-
-  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Pernambuco' })).toBeInTheDocument());
-  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Pernambuco' }));
-
-  expect(screen.getByRole('heading', { name: 'Beach Class Marine', level: 3 })).toBeInTheDocument();
-  expect(screen.getByRole('heading', { name: 'Beach Class Manguinhos', level: 3 })).toBeInTheDocument();
-  expect(screen.getByRole('link', { name: /Beach Class Marine.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/beach-class-marine');
-});
-
-test('renders Beach Class Marine perspectives, all floor plans and location separately', () => {
-  window.location.hash = '#empreendimento/beach-class-marine';
-  render(<App />);
-
-  expect(screen.getByRole('heading', { name: 'Beach Class Marine', level: 1 })).toBeInTheDocument();
-  expect(screen.getByText('86.000 m²')).toBeInTheDocument();
-  expect(screen.getAllByText(/580 vagas/).length).toBeGreaterThan(0);
-  expect(screen.getByText('+24 fotos')).toBeInTheDocument();
-  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(47);
-  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Tamandare%20PE'));
-  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
-
-  fireEvent.click(screen.getByRole('button', { name: /ampliar Beach Class Marine - perspectiva aérea do condomínio e da orla/i }));
-  expect(screen.getByText('1 / 29')).toBeInTheDocument();
-  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
-  expect(screen.getByRole('dialog', { name: /perspectiva da sala de estar do apartamento de 3 quartos de 126 m²/i })).toBeInTheDocument();
-  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
-
-  fireEvent.click(screen.getByRole('button', { name: /ampliar planta 3 quartos 126 m² - Garden e legendas/i }));
-  expect(screen.getByText('47 / 47')).toBeInTheDocument();
-  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
-
-  fireEvent.click(screen.getByRole('button', { name: /ampliar Localização do Beach Class Marine sobre vista aérea/i }));
-  expect(screen.getByText('1 / 4')).toBeInTheDocument();
-});
-
-test('renders Arthur Bruno Schwambach photos and floor plans in their own sections', () => {
-  window.location.hash = '#empreendimento/arthur-bruno-schwambach';
-  render(<App />);
-
-  expect(screen.getByRole('heading', { name: 'Arthur Bruno Schwambach', level: 1 })).toBeInTheDocument();
-  expect(screen.getAllByText(/122,76 m²/).length).toBeGreaterThan(0);
-  expect(screen.getByText('7 pavimentos por edifício')).toBeInTheDocument();
-  expect(screen.getAllByText('2 vagas por apartamento').length).toBeGreaterThan(0);
-  expect(screen.getByText('+19 fotos')).toBeInTheDocument();
-  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(3);
-  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Recife%20PE'));
-  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
-
-  fireEvent.click(screen.getByRole('button', { name: /ampliar Arthur Bruno Schwambach - vista aérea e área verde/i }));
-  expect(screen.getByText('1 / 24')).toBeInTheDocument();
-  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
-  expect(screen.getByRole('dialog', { name: /piscina aquecida e entorno/i })).toBeInTheDocument();
-  expect(screen.getByText('24 / 24')).toBeInTheDocument();
-  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
-
-  fireEvent.click(screen.getByRole('button', { name: /ampliar planta pavimento térreo - áreas comuns e legenda/i }));
-  expect(screen.getByText('1 / 3')).toBeInTheDocument();
-});
-
 test('shows the state selection again after a new visit', async () => {
   const { unmount } = render(<App />);
 
@@ -726,4 +558,210 @@ test('uses the organized Mood Colina assets by section and title', () => {
   fireEvent.click(screen.getByRole('button', { name: /ampliar mood colina - vista geral/i }));
   Array.from({ length: 4 }).forEach(() => fireEvent.click(screen.getByRole('button', { name: /próxima imagem/i })));
   expect(screen.getByRole('dialog', { name: /piscina com deck molhado e raia de 20 m/i })).toBeInTheDocument();
+});
+
+test('renders Beach Class Cumbuco perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/beach-class-cumbuco';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Cumbuco', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('640 unidades residenciais, com 64 por bloco')).toBeInTheDocument();
+  expect(screen.getAllByText(/646 vagas rotativas/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+18 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(13);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Caucaia%20CE'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Beach Class Cumbuco - perspectiva aérea frente ao mar/i }));
+  expect(screen.getByText('1 / 23')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva da guarderia para equipamentos náuticos/i })).toBeInTheDocument();
+  expect(screen.getByText('23 / 23')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Bloco guarderia para equipamentos náuticos/i }));
+  expect(screen.getByText('13 / 13')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Mapa de localização do Beach Class Cumbuco/i }));
+  expect(screen.getByText('1 / 6')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /Entorno: coqueiros e praia do Cumbuco/i })).toBeInTheDocument();
+  expect(screen.getByText('6 / 6')).toBeInTheDocument();
+});
+
+test('lists Beach Class Iracema under Ceará next to Beach Class Cumbuco', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Ceará' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Ceará' }));
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Iracema', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Beach Class Cumbuco', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Beach Class Iracema.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/beach-class-iracema');
+});
+
+test('renders Beach Class Iracema perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/beach-class-iracema';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Iracema', level: 1 })).toBeInTheDocument();
+  expect(screen.getAllByText(/93,41 m²/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+11 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(9);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Fortaleza%20CE'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Beach Class Iracema - perspectiva da fachada da torre/i }));
+  expect(screen.getByText('1 / 16')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva do studio com ambiente integrado/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Studio - 29,16 m²/i }));
+  expect(screen.getByText('9 / 9')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Localização do Beach Class Iracema sobre vista aérea/i }));
+  expect(screen.getByText('1 / 3')).toBeInTheDocument();
+});
+
+test('lists Beach Class Manguinhos under Pernambuco next to Arthur Bruno Schwambach', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Pernambuco' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Pernambuco' }));
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Manguinhos', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Arthur Bruno Schwambach', level: 3 })).toBeInTheDocument();
+  expect(screen.queryByRole('heading', { name: 'Beach Class Cumbuco' })).not.toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Beach Class Manguinhos.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/beach-class-manguinhos');
+});
+
+test('renders Beach Class Manguinhos perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/beach-class-manguinhos';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Manguinhos', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('93.025,66 m²')).toBeInTheDocument();
+  expect(screen.getAllByText(/652 vagas/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+31 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(28);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Tamandare%20PE'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Beach Class Manguinhos - perspectiva aérea das casas e do Beach Club/i }));
+  expect(screen.getByText('1 / 36')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva da suíte do apartamento de 3 quartos/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Apartamento de 3 quartos - térreo com Garden e piscina/i }));
+  expect(screen.getByText('28 / 28')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Mapa de localização do Beach Class Manguinhos/i }));
+  expect(screen.getByText('1 / 3')).toBeInTheDocument();
+});
+
+test('lists Beach Class Marine under Pernambuco with the other Carneiros project', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Pernambuco' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Pernambuco' }));
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Marine', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Beach Class Manguinhos', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Beach Class Marine.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/beach-class-marine');
+});
+
+test('renders Beach Class Marine perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/beach-class-marine';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Marine', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('86.000 m²')).toBeInTheDocument();
+  expect(screen.getAllByText(/580 vagas/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+24 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(47);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Tamandare%20PE'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Beach Class Marine - perspectiva aérea do condomínio e da orla/i }));
+  expect(screen.getByText('1 / 29')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva da sala de estar do apartamento de 3 quartos de 126 m²/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta 3 quartos 126 m² - Garden e legendas/i }));
+  expect(screen.getByText('47 / 47')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Localização do Beach Class Marine sobre vista aérea/i }));
+  expect(screen.getByText('1 / 4')).toBeInTheDocument();
+});
+
+test('lists Beach Class Milagres under Alagoas next to Jardins do Parque', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Alagoas' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Alagoas' }));
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Milagres', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Jardins do Parque' })).toBeInTheDocument();
+  expect(screen.queryByRole('heading', { name: 'Beach Class Marine' })).not.toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Beach Class Milagres.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/beach-class-milagres');
+});
+
+test('renders Beach Class Milagres perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/beach-class-milagres';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Milagres', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('31.068,86 m²')).toBeInTheDocument();
+  expect(screen.getAllByText(/227 vagas/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+33 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(15);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Milagres%20AL'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Beach Class Milagres - perspectiva aérea das piscinas e jardins/i }));
+  expect(screen.getByText('1 / 38')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva da suíte 2 do bangalô com quarto duplo/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Bangalô 114,30 m² - pavimento superior/i }));
+  expect(screen.getByText('15 / 15')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  expect(screen.getByRole('button', { name: /ampliar Mapa aéreo de localização do Beach Class Milagres/i })).toBeInTheDocument();
+});
+
+test('renders Arthur Bruno Schwambach photos and floor plans in their own sections', () => {
+  window.location.hash = '#empreendimento/arthur-bruno-schwambach';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Arthur Bruno Schwambach', level: 1 })).toBeInTheDocument();
+  expect(screen.getAllByText(/122,76 m²/).length).toBeGreaterThan(0);
+  expect(screen.getByText('7 pavimentos por edifício')).toBeInTheDocument();
+  expect(screen.getAllByText('2 vagas por apartamento').length).toBeGreaterThan(0);
+  expect(screen.getByText('+19 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(3);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Recife%20PE'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Arthur Bruno Schwambach - vista aérea e área verde/i }));
+  expect(screen.getByText('1 / 24')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /piscina aquecida e entorno/i })).toBeInTheDocument();
+  expect(screen.getByText('24 / 24')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta pavimento térreo - áreas comuns e legenda/i }));
+  expect(screen.getByText('1 / 3')).toBeInTheDocument();
 });
