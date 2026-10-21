@@ -384,6 +384,61 @@ import jardinsDoParqueCommerce from './assets/Empreendimentos/Alagoas/Jardins_do
 import jardinsDoParqueInterestMap from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/localizacao/mapa_entorno_pontos_de_interesse.png';
 import jardinsDoParqueBeach from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/localizacao/praia_cruz_das_almas.png';
 import jardinsDoParqueSeaShopping from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/localizacao/vista_aerea_proximidade_mar_e_shopping.png';
+import milagresCover from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/01_Capa/capa_principal_piscina_vista_mar.png';
+import milagresPhotoLazerVistaAereaPiscinasJardins from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/lazer_vista_aerea_piscinas_jardins.png';
+import milagresPhotoLazerPiscinaVistaMar from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/lazer_piscina_vista_mar.png';
+import milagresPhotoLazerPiscinaPrincipalEstruturaSombreada from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/lazer_piscina_principal_estrutura_sombreada.png';
+import milagresPhotoLazerHidromassagemIntegradaPiscina from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/lazer_hidromassagem_integrada_piscina.png';
+import milagresPhotoLazerLoungeBeiraPiscina from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/lazer_lounge_beira_piscina.png';
+import milagresPhotoLazerPoolBarEGourmetPiscina from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/lazer_pool_bar_e_gourmet_piscina.png';
+import milagresPhotoLazerPracaChegadaEspelhoAgua from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/lazer_praca_chegada_espelho_agua.png';
+import milagresPhotoLazerGourmetQuadraPergolado from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/lazer_gourmet_quadra_pergolado.png';
+import milagresPhotoLazerGourmetQuadraMesaExterna from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/lazer_gourmet_quadra_mesa_externa.png';
+import milagresPhotoLazerPlaygroundInfantil from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/lazer_playground_infantil.png';
+import milagresPhotoGastronomiaRestauranteSalao from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/gastronomia_restaurante_salao.png';
+import milagresPhotoGastronomiaRestauranteBar from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/gastronomia_restaurante_bar.png';
+import milagresPhotoBemEstarSpa from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/bem_estar_spa.png';
+import milagresPhotoBemEstarEspacoRelaxamento from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/bem_estar_espaco_relaxamento.png';
+import milagresPhotoBemEstarSalaoBeleza from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/bem_estar_salao_beleza.png';
+import milagresPhotoBemEstarAcademia from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/bem_estar_academia.png';
+import milagresPhotoBemEstarAcademiaTerraco from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/bem_estar_academia_terraco.png';
+import milagresPhotoServicosEntradaRececaoFachada from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/servicos_entrada_rececao_fachada.png';
+import milagresPhotoServicosLobbyCheckin from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/servicos_lobby_checkin.png';
+import milagresPhotoServicosLojaConveniencia from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/servicos_loja_conveniencia.png';
+import milagresPhotoStudioEstarIntegrado from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/studio_estar_integrado.png';
+import milagresPhotoStudioQuartoPerspectiva from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/studio_quarto_perspectiva.png';
+import milagresPhotoStudioQuartoDetalhe from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/studio_quarto_detalhe.png';
+import milagresPhotoStudioTerracoGardenPrivativo from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/studio_terraco_garden_privativo.png';
+import milagresPhotoApartamento1QuartoSalaJantar from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/apartamento_1_quarto_sala_jantar.png';
+import milagresPhotoApartamento1QuartoVaranda from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/apartamento_1_quarto_varanda.png';
+import milagresPhotoApartamento1QuartoDormitorio from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/apartamento_1_quarto_dormitorio.png';
+import milagresPhotoApartamento1QuartoGarden from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/apartamento_1_quarto_garden.png';
+import milagresPhotoApartamento2QuartosSalaJantar from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_sala_jantar.png';
+import milagresPhotoApartamento2QuartosVaranda from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_varanda.png';
+import milagresPhotoApartamento2QuartosSuite from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_suite.png';
+import milagresPhotoApartamento2QuartosQuartoInfantil from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_quarto_infantil.png';
+import milagresPhotoApartamento2QuartosGarden from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_garden.png';
+import milagresPhotoBangaloFachadaComPiscina from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/bangalo_fachada_com_piscina.png';
+import milagresPhotoBangaloTerracoPrivativoComPiscina from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/bangalo_terraco_privativo_com_piscina.png';
+import milagresPhotoBangaloSalaEstarJantar from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/bangalo_sala_estar_jantar.png';
+import milagresPhotoBangaloSuite01 from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/bangalo_suite_01.png';
+import milagresPhotoBangaloSuite02QuartoDuplo from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/bangalo_suite_02_quarto_duplo.png';
+import milagresPlanImplantacaoGeralETerreno from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/01_Implantacao_Geral/implantacao_geral_e_terreno.png';
+import milagresPlanImplantacaoPavimentoLazer from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/01_Implantacao_Geral/implantacao_pavimento_lazer.png';
+import milagresPlanPlantaBlocoCentralPavimentoTerreo from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/02_Plantas_Pavimentos/planta_bloco_central_pavimento_terreo.png';
+import milagresPlanPlantaBlocoCentralPavimentoSuperior from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/02_Plantas_Pavimentos/planta_bloco_central_pavimento_superior.png';
+import milagresPlanPlantaBlocosAbcdTerreoGardens from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/02_Plantas_Pavimentos/planta_blocos_abcd_terreo_gardens.png';
+import milagresPlanPlantaBlocosAbcdPavimentos1E2 from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/02_Plantas_Pavimentos/planta_blocos_abcd_pavimentos_1_e_2.png';
+import milagresPlanPlantaBlocosEfTerreoGardens from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/02_Plantas_Pavimentos/planta_blocos_ef_terreo_gardens.png';
+import milagresPlanPlantaBlocosEfPavimentos1E2 from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/02_Plantas_Pavimentos/planta_blocos_ef_pavimentos_1_e_2.png';
+import milagresPlanPlantaBlocosGhTerreoGardens from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/02_Plantas_Pavimentos/planta_blocos_gh_terreo_gardens.png';
+import milagresPlanPlantaBlocosGhPavimentos1E2 from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/02_Plantas_Pavimentos/planta_blocos_gh_pavimentos_1_e_2.png';
+import milagresPlanPlantaStudio3309m2Garden1657m2 from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/03_Plantas_Unidades/planta_studio_33_09m2_garden_16_57m2.png';
+import milagresPlanPlanta1Quarto4257m2Garden2873m2 from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/03_Plantas_Unidades/planta_1_quarto_42_57m2_garden_28_73m2.png';
+import milagresPlanPlanta2Quartos6132m2Garden2996m2 from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/03_Plantas_Unidades/planta_2_quartos_61_32m2_garden_29_96m2.png';
+import milagresPlanPlantaBangalo11430m2TerreoPiscinaPrivativa from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/03_Plantas_Unidades/planta_bangalo_114_30m2_terreo_piscina_privativa.png';
+import milagresPlanPlantaBangalo11430m2PavimentoSuperior from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/03_Plantas_Unidades/planta_bangalo_114_30m2_pavimento_superior.png';
+import milagresLocLocalizacaoMapaAereoMilagres from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/04_Localizacao_e_Entorno/localizacao_mapa_aereo_milagres.png';
 import cyanoOrganizedCover from './assets/Empreendimentos/Bahia/Cyano_Organizado/capa/capa_cyano.png';
 import cyanoApartment3Living from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_3_suites_living.png';
 import cyanoApartment3Kitchen from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_3_suites_living_cozinha_integrada.png';
@@ -1735,6 +1790,93 @@ const additionalDevelopments = [
       { src: jardinsDoParqueBeach, titulo: 'Praia de Cruz das Almas' },
       { src: jardinsDoParqueSeaShopping, titulo: 'Vista aérea - proximidade do mar e do Parque Shopping' },
       { src: jardinsDoParqueInterestMap, titulo: 'Mapa do entorno e pontos de interesse' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'beach-class-milagres', name: 'Beach Class Milagres', image: milagresCover,
+    city: 'São Miguel dos Milagres, AL', neighborhood: 'Rota Ecológica dos Milagres', locationTitle: 'São Miguel dos Milagres - Alagoas',
+    address: 'São Miguel dos Milagres, Rota Ecológica dos Milagres, Alagoas',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Beach%20Class%20Milagres%20S%C3%A3o%20Miguel%20dos%20Milagres%20AL',
+    area: '32 a 114 m²', profile: 'Studios, 1 e 2 quartos e bangalôs, com Garden', detail: '226 unidades em estilo resort',
+    description: 'O Beach Class Milagres fica em São Miguel dos Milagres, no litoral da Rota Ecológica dos Milagres, em Alagoas, com proposta de lazer, natureza, praia e bem-estar em estilo resort. O projeto reúne oito torres habitacionais e quatro bangalôs com garden e piscina privativa, somando 226 unidades entre studios e apartamentos de 1 e 2 quartos, com opções de jardim privativo. Piscina com vista para o mar, restaurante, spa, academia e espaços gourmet completam a estrutura.',
+    highlights: ['32 a 114 m²', '226 unidades', 'Bangalôs com piscina privativa', 'Rota Ecológica dos Milagres'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'São Miguel dos Milagres, AL'], ['Unidades', '226 unidades privativas'], ['Garagem', '227 vagas']],
+    technical: [
+      ['Área do terreno', '31.068,86 m²'],
+      ['Composição', '1 bloco central, blocos de apoio, 1 bloco de serviço, 8 torres habitacionais (A a H) e 4 bangalôs'],
+      ['Unidades', '226 unidades privativas: 222 nas torres habitacionais e 4 bangalôs'],
+      ['Studios', '32,22 a 33,09 m², nos blocos A, B, C e D'],
+      ['1 e 2 quartos', 'Unidades de 42,57 m² e 61,32 m² nos blocos E, F, G e H'],
+      ['Gardens', 'Unidades térreas com garden; os valores variam conforme o bloco e a unidade, e devem ser confirmados na planta'],
+      ['Bangalôs', '4 bangalôs de 114,30 m², com 2 suítes + quarto, garden e piscina privativa'],
+      ['Garagem', '227 vagas de estacionamento'],
+      ['Distâncias', 'Aeroporto de Maceió: 95 km; aeroporto de Recife: 190 km'],
+      ['Varandas', 'Infraestrutura para bancada gourmet; cuba, torneira e bancada não serão entregues'],
+      ['Material', 'Perspectivas ilustrativas; características de entrega conforme o memorial descritivo e os documentos contratuais'],
+    ],
+    amenities: ['Piscina adulto', 'Piscina infantil', 'Piscina com vista para o mar', 'Hidromassagem', 'Spray park infantil', 'Playground', 'Lounge coberto e lounge de piscina', 'Pool bar e gourmet da piscina', 'Quadra poliesportiva com espaço gourmet', 'Restaurante e bar', 'Spa', 'Espaço de relaxamento', 'Salão de beleza', 'Academia com terraço', 'Lobby com espaço para check-in', 'Loja de conveniência', 'Pet place', 'Praça de chegada com espelhos d’água', 'Acesso à praia', 'Áreas comuns equipadas e mobiliadas'],
+    security: ['Guarita com controle de acesso', 'Fechadura eletrônica nas portas de entrada dos apartamentos'],
+    sustainability: [],
+    projectTeam: [],
+    gallery: [
+      { src: milagresPhotoLazerVistaAereaPiscinasJardins, titulo: 'Beach Class Milagres - perspectiva aérea das piscinas e jardins' },
+      { src: milagresPhotoLazerPiscinaVistaMar, titulo: 'Perspectiva da piscina com vista para o mar' },
+      { src: milagresPhotoLazerPiscinaPrincipalEstruturaSombreada, titulo: 'Perspectiva da piscina principal com estrutura sombreada' },
+      { src: milagresPhotoLazerHidromassagemIntegradaPiscina, titulo: 'Perspectiva da hidromassagem integrada à piscina' },
+      { src: milagresPhotoLazerLoungeBeiraPiscina, titulo: 'Perspectiva do lounge à beira da piscina' },
+      { src: milagresPhotoLazerPoolBarEGourmetPiscina, titulo: 'Perspectiva do pool bar e do gourmet da piscina' },
+      { src: milagresPhotoLazerPracaChegadaEspelhoAgua, titulo: 'Perspectiva da praça de chegada com espelho d’água' },
+      { src: milagresPhotoLazerGourmetQuadraPergolado, titulo: 'Perspectiva do gourmet da quadra com pergolado' },
+      { src: milagresPhotoLazerGourmetQuadraMesaExterna, titulo: 'Perspectiva do gourmet da quadra com mesa externa' },
+      { src: milagresPhotoLazerPlaygroundInfantil, titulo: 'Perspectiva do playground infantil' },
+      { src: milagresPhotoGastronomiaRestauranteSalao, titulo: 'Perspectiva do salão do restaurante' },
+      { src: milagresPhotoGastronomiaRestauranteBar, titulo: 'Perspectiva do restaurante e bar' },
+      { src: milagresPhotoBemEstarSpa, titulo: 'Perspectiva do spa' },
+      { src: milagresPhotoBemEstarEspacoRelaxamento, titulo: 'Perspectiva do espaço de relaxamento' },
+      { src: milagresPhotoBemEstarSalaoBeleza, titulo: 'Perspectiva do salão de beleza' },
+      { src: milagresPhotoBemEstarAcademia, titulo: 'Perspectiva da academia' },
+      { src: milagresPhotoBemEstarAcademiaTerraco, titulo: 'Perspectiva do terraço da academia' },
+      { src: milagresPhotoServicosEntradaRececaoFachada, titulo: 'Perspectiva da entrada e da fachada da recepção' },
+      { src: milagresPhotoServicosLobbyCheckin, titulo: 'Perspectiva do lobby e do check-in' },
+      { src: milagresPhotoServicosLojaConveniencia, titulo: 'Perspectiva da loja de conveniência' },
+      { src: milagresPhotoStudioEstarIntegrado, titulo: 'Perspectiva do Studio com estar integrado' },
+      { src: milagresPhotoStudioQuartoPerspectiva, titulo: 'Perspectiva do quarto do Studio' },
+      { src: milagresPhotoStudioQuartoDetalhe, titulo: 'Detalhe do quarto do Studio' },
+      { src: milagresPhotoStudioTerracoGardenPrivativo, titulo: 'Perspectiva do terraço Garden privativo do Studio' },
+      { src: milagresPhotoApartamento1QuartoSalaJantar, titulo: 'Perspectiva da sala e jantar do apartamento de 1 quarto' },
+      { src: milagresPhotoApartamento1QuartoVaranda, titulo: 'Perspectiva da varanda do apartamento de 1 quarto' },
+      { src: milagresPhotoApartamento1QuartoDormitorio, titulo: 'Perspectiva do dormitório do apartamento de 1 quarto' },
+      { src: milagresPhotoApartamento1QuartoGarden, titulo: 'Perspectiva do Garden do apartamento de 1 quarto' },
+      { src: milagresPhotoApartamento2QuartosSalaJantar, titulo: 'Perspectiva da sala e jantar do apartamento de 2 quartos' },
+      { src: milagresPhotoApartamento2QuartosVaranda, titulo: 'Perspectiva da varanda do apartamento de 2 quartos' },
+      { src: milagresPhotoApartamento2QuartosSuite, titulo: 'Perspectiva da suíte do apartamento de 2 quartos' },
+      { src: milagresPhotoApartamento2QuartosQuartoInfantil, titulo: 'Perspectiva do quarto infantil do apartamento de 2 quartos' },
+      { src: milagresPhotoApartamento2QuartosGarden, titulo: 'Perspectiva do Garden do apartamento de 2 quartos' },
+      { src: milagresPhotoBangaloFachadaComPiscina, titulo: 'Perspectiva da fachada do bangalô com piscina' },
+      { src: milagresPhotoBangaloTerracoPrivativoComPiscina, titulo: 'Perspectiva do terraço privativo do bangalô com piscina' },
+      { src: milagresPhotoBangaloSalaEstarJantar, titulo: 'Perspectiva da sala de estar e jantar do bangalô' },
+      { src: milagresPhotoBangaloSuite01, titulo: 'Perspectiva da suíte 1 do bangalô' },
+      { src: milagresPhotoBangaloSuite02QuartoDuplo, titulo: 'Perspectiva da suíte 2 do bangalô com quarto duplo' },
+    ],
+    floorPlans: [
+      { src: milagresPlanImplantacaoGeralETerreno, titulo: 'Implantação geral e terreno' },
+      { src: milagresPlanImplantacaoPavimentoLazer, titulo: 'Implantação do pavimento de lazer' },
+      { src: milagresPlanPlantaBlocoCentralPavimentoTerreo, titulo: 'Bloco central - pavimento térreo' },
+      { src: milagresPlanPlantaBlocoCentralPavimentoSuperior, titulo: 'Bloco central - pavimento superior' },
+      { src: milagresPlanPlantaBlocosAbcdTerreoGardens, titulo: 'Blocos A, B, C e D - térreo com Gardens' },
+      { src: milagresPlanPlantaBlocosAbcdPavimentos1E2, titulo: 'Blocos A, B, C e D - 1º e 2º pavimentos' },
+      { src: milagresPlanPlantaBlocosEfTerreoGardens, titulo: 'Blocos E e F - térreo com Gardens' },
+      { src: milagresPlanPlantaBlocosEfPavimentos1E2, titulo: 'Blocos E e F - 1º e 2º pavimentos' },
+      { src: milagresPlanPlantaBlocosGhTerreoGardens, titulo: 'Blocos G e H - térreo com Gardens' },
+      { src: milagresPlanPlantaBlocosGhPavimentos1E2, titulo: 'Blocos G e H - 1º e 2º pavimentos' },
+      { src: milagresPlanPlantaStudio3309m2Garden1657m2, titulo: 'Studio 33,09 m² com Garden de 16,57 m²' },
+      { src: milagresPlanPlanta1Quarto4257m2Garden2873m2, titulo: '1 quarto 42,57 m² com Garden de 28,73 m²' },
+      { src: milagresPlanPlanta2Quartos6132m2Garden2996m2, titulo: '2 quartos 61,32 m² com Garden de 29,96 m²' },
+      { src: milagresPlanPlantaBangalo11430m2TerreoPiscinaPrivativa, titulo: 'Bangalô 114,30 m² - térreo com piscina privativa' },
+      { src: milagresPlanPlantaBangalo11430m2PavimentoSuperior, titulo: 'Bangalô 114,30 m² - pavimento superior' },
+    ],
+    locationImages: [
+      { src: milagresLocLocalizacaoMapaAereoMilagres, titulo: 'Mapa aéreo de localização do Beach Class Milagres' },
     ],
   }),
   createDevelopment({
@@ -3120,7 +3262,7 @@ function DevelopmentDetail({ development }) {
   const touchStartX = useRef(null);
   const activeImages = activeLightbox ? lightboxGroups[activeLightbox.group] : [];
   const activeImage = activeLightbox ? activeImages[activeLightbox.index] : null;
-  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-cumbuco', 'beach-class-iracema'].includes(development?.slug);
+  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'beach-class-milagres', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-cumbuco', 'beach-class-iracema'].includes(development?.slug);
   const visibleGalleryImages = lightboxGroups.gallery.slice(0, 5);
   const remainingGalleryCount = Math.max(0, lightboxGroups.gallery.length - visibleGalleryImages.length);
   const visibleFloorPlans = showAllOrganizedImages
