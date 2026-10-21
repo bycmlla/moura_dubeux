@@ -15,6 +15,7 @@ import bahiaFlag from './assets/Bandeira_da_Bahia.png';
 import alagoasFlag from './assets/Bandeira_de_Alagoas.svg';
 import pernambucoFlag from './assets/Bandeira_de_Pernambuco.svg';
 import cearaFlag from './assets/Bandeira_do_Ceará.svg';
+import rioGrandeDoNorteFlag from './assets/Bandeira_do_Rio_Grande_do_Norte.svg';
 import heroBanner1 from './assets/banners/banner1.jpg';
 import heroBanner2 from './assets/banners/banner2.webp';
 import heroBanner3 from './assets/banners/banner3.png';
@@ -439,6 +440,56 @@ import milagresPlanPlanta2Quartos6132m2Garden2996m2 from './assets/Empreendiment
 import milagresPlanPlantaBangalo11430m2TerreoPiscinaPrivativa from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/03_Plantas_Unidades/planta_bangalo_114_30m2_terreo_piscina_privativa.png';
 import milagresPlanPlantaBangalo11430m2PavimentoSuperior from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/03_Plantas_Unidades/planta_bangalo_114_30m2_pavimento_superior.png';
 import milagresLocLocalizacaoMapaAereoMilagres from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/04_Localizacao_e_Entorno/localizacao_mapa_aereo_milagres.png';
+import natalCover from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/01_Capa/capa_beach_class_natal_torre_fachada.png';
+import natalPhotoFachadaTorreCompleta from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/fachada_torre_completa.png';
+import natalPhotoFachadaDetalheComVistaMar from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/fachada_detalhe_com_vista_mar.png';
+import natalPhotoAcessoEntradaPrincipal from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/acesso_entrada_principal.png';
+import natalPhotoHallSocialRecepcao from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/hall_social_recepcao.png';
+import natalPhotoLobbyEstar from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/lobby_estar.png';
+import natalPhotoPracaDeEncontros from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/praca_de_encontros.png';
+import natalPhotoColivingSalaDeReunioes from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/coliving_sala_de_reunioes.png';
+import natalPhotoMinimarket from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/minimarket.png';
+import natalPhotoLavanderiaColetiva from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/lavanderia_coletiva.png';
+import natalPhotoBicicletario from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/bicicletario.png';
+import natalPhotoBrinquedoteca from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/brinquedoteca.png';
+import natalPhotoAcademiaVista01 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/academia_vista_01.png';
+import natalPhotoAcademiaVista02 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/academia_vista_02.png';
+import natalPhotoRooftopPiscinaVistaMar01 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/rooftop_piscina_vista_mar_01.png';
+import natalPhotoRooftopPiscinaVistaMar02 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/rooftop_piscina_vista_mar_02.png';
+import natalPhotoRooftopPiscinaVistaPanorama03 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/rooftop_piscina_vista_panorama_03.png';
+import natalPhotoTerracoRooftopExterno from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/terraco_rooftop_externo.png';
+import natalPhotoTerracoCobertoVistaPanoramica from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/terraco_coberto_vista_panoramica.png';
+import natalPhotoEspacoGourmetSalaoFestas from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/espaco_gourmet_salao_festas.png';
+import natalPhotoStudio2877m2AmbienteIntegrado from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/studio_28_77m2_ambiente_integrado.png';
+import natalPhotoStudio2982m2AmbienteIntegrado from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/studio_29_82m2_ambiente_integrado.png';
+import natalPhotoStudio2998m2AmbienteIntegrado from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/studio_29_98m2_ambiente_integrado.png';
+import natalPhotoApartamento1Quarto4309m2SalaCozinha from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/apartamento_1_quarto_43_09m2_sala_cozinha.png';
+import natalPhotoApartamento1Quarto4309m2Suite from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/apartamento_1_quarto_43_09m2_suite.png';
+import natalPhotoApartamento2Quartos6083m2SalaCozinha from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_60_83m2_sala_cozinha.png';
+import natalPhotoApartamento2Quartos6083m2Suite from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_60_83m2_suite.png';
+import natalPhotoApartamento2Quartos6083m2Quarto from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_60_83m2_quarto.png';
+import natalPlanPavimentoTerreoImplantacao from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos/pavimento_terreo_implantacao.png';
+import natalPlanPavimentoMezaninoImplantacao from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos/pavimento_mezanino_implantacao.png';
+import natalPlanPavimentoRooftopImplantacao from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos/pavimento_rooftop_implantacao.png';
+import natalPlanPavimentoTipoDistribuicaoUnidades from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos/pavimento_tipo_distribuicao_unidades.png';
+import natalPlanPlantaStudio2877m2E2939m2Terminacoes04A09 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/02_Plantas_dos_Apartamentos/planta_studio_28_77m2_e_29_39m2_terminacoes_04_a_09.png';
+import natalPlanPlantaStudio2982m2Terminacao02 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/02_Plantas_dos_Apartamentos/planta_studio_29_82m2_terminacao_02.png';
+import natalPlanPlantaStudio2998m2Terminacao01 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/02_Plantas_dos_Apartamentos/planta_studio_29_98m2_terminacao_01.png';
+import natalPlanPlantaApartamento1Quarto4309m2Terminacao10 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/02_Plantas_dos_Apartamentos/planta_apartamento_1_quarto_43_09m2_terminacao_10.png';
+import natalPlanPlantaApartamento2Quartos6083m2Terminacao03 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/02_Plantas_dos_Apartamentos/planta_apartamento_2_quartos_60_83m2_terminacao_03.png';
+import natalPlanReferenciaPavimentoTerreoComLegenda from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_pavimento_terreo_com_legenda.png';
+import natalPlanReferenciaMezaninoComLegenda from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_mezanino_com_legenda.png';
+import natalPlanReferenciaRooftopComLegenda from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_rooftop_com_legenda.png';
+import natalPlanReferenciaPavimentoTipoComMetragens from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_pavimento_tipo_com_metragens.png';
+import natalPlanReferenciaPlantaStudio2877m2E2939m2 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_planta_studio_28_77m2_e_29_39m2.png';
+import natalPlanReferenciaPlantaStudio2982m2 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_planta_studio_29_82m2.png';
+import natalPlanReferenciaPlantaStudio2998m2 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_planta_studio_29_98m2.png';
+import natalPlanReferenciaPlanta1Quarto4309m2 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_planta_1_quarto_43_09m2.png';
+import natalPlanReferenciaPlanta2Quartos6083m2 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_planta_2_quartos_60_83m2.png';
+import natalLocEntornoCapimMacioParqueDasDunas from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/04_Localizacao_e_Entorno/entorno_capim_macio_parque_das_dunas.png';
+import natalLocEntornoPontaNegraVistaAerea from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/04_Localizacao_e_Entorno/entorno_ponta_negra_vista_aerea.png';
+import natalLocPontaNegraVistaAereaMarMorroDoCareca from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/04_Localizacao_e_Entorno/ponta_negra_vista_aerea_mar_morro_do_careca.png';
+import natalLocPraiaPorDoSolContexto from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/04_Localizacao_e_Entorno/praia_por_do_sol_contexto.png';
 import cyanoOrganizedCover from './assets/Empreendimentos/Bahia/Cyano_Organizado/capa/capa_cyano.png';
 import cyanoApartment3Living from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_3_suites_living.png';
 import cyanoApartment3Kitchen from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_3_suites_living_cozinha_integrada.png';
@@ -997,6 +1048,7 @@ const AVAILABLE_STATES = [
   { uf: 'AL', name: 'Alagoas', flag: alagoasFlag },
   { uf: 'PE', name: 'Pernambuco', flag: pernambucoFlag },
   { uf: 'CE', name: 'Ceará', flag: cearaFlag },
+  { uf: 'RN', name: 'Rio Grande do Norte', flag: rioGrandeDoNorteFlag },
 ];
 const ALL_STATES_OPTION = { uf: 'ALL', name: 'Todos os estados', filterName: 'Todos' };
 const STATE_FILTER_OPTIONS = [ALL_STATES_OPTION, ...AVAILABLE_STATES];
@@ -1877,6 +1929,87 @@ const additionalDevelopments = [
     ],
     locationImages: [
       { src: milagresLocLocalizacaoMapaAereoMilagres, titulo: 'Mapa aéreo de localização do Beach Class Milagres' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'beach-class-natal', name: 'Beach Class Natal', image: natalCover,
+    city: 'Natal, RN', neighborhood: 'Capim Macio', locationTitle: 'Capim Macio - Natal/RN',
+    address: 'Rua Doutor Hernani Hugo Gomes, 2930, Capim Macio, Natal/RN',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Rua%20Doutor%20Hernani%20Hugo%20Gomes%202930%20Capim%20Macio%20Natal%20RN',
+    area: '28,77 a 60,83 m²', profile: 'Studios, 1 e 2 quartos, com rooftop e vista para o mar', detail: '240 unidades em 24 pavimentos tipo',
+    description: 'O Beach Class Natal fica no bairro de Capim Macio, em Natal, perto da Praia de Ponta Negra, do Morro do Careca e do Parque das Dunas. A torre reúne 240 unidades em 24 pavimentos tipo, entre studios e apartamentos de 1 e 2 quartos, para morar ou investir, com vistas privilegiadas. O rooftop concentra piscina adulto e infantil, hidromassagem, terraço coberto com vista panorâmica, espaço gourmet e salão de festas.',
+    highlights: ['28,77 a 60,83 m²', '240 unidades', '24 pavimentos tipo', 'Rooftop com piscina e vista'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Capim Macio, Natal/RN'], ['Unidades', '240 apartamentos'], ['Garagem', '143 vagas']],
+    technical: [
+      ['Área do terreno', '2.776,90 m²'],
+      ['Área construída', '17.336,73 m²'],
+      ['Unidades', '240 unidades residenciais em 24 pavimentos tipo'],
+      ['Studios', '120 de 28,77 m²; 24 de 29,39 m²; 24 de 29,82 m²; 24 de 29,98 m²'],
+      ['1 quarto', '24 unidades de 43,09 m²'],
+      ['2 quartos', '24 unidades de 60,83 m²'],
+      ['Garagem', '143 vagas: 10 externas para visitantes (1 PNE), 106 rotativas, 24 vinculadas e 3 PNE; 9 vagas de moto rotativas'],
+      ['Personalização', 'Serviços da MD Store para pisos, paredes, bancadas, metais e louças, sujeitos à disponibilidade'],
+      ['Registro de incorporação', '3º CRI-Natal/RN, matrícula nº 71.084, registro R.5'],
+      ['Material', 'Perspectivas e plantas ilustrativas, sujeitas a alterações'],
+    ],
+    amenities: ['Hall social com porte-cochère', 'Lobby e praça de encontros', 'Coliving e sala de reuniões', 'Espaço para call', 'Academia', 'Brinquedoteca', 'Bicicletário', 'Lavanderia coletiva', 'Minimarket', 'Piscina adulto no rooftop', 'Piscina infantil no rooftop', 'Hidromassagem', 'Terraço do rooftop', 'Terraço coberto com vista panorâmica', 'Espaço gourmet e salão de festas', 'Áreas comuns equipadas e mobiliadas'],
+    security: ['Fechadura eletrônica nos apartamentos', 'Controle de acesso aos ambientes das áreas comuns', 'Controle automatizado de acesso de veículos e pedestres'],
+    sustainability: ['Pontos para carregamento de carro elétrico'],
+    projectTeam: ['Flávio Gois | Arquitetura', 'Takeda Design | Paisagismo', 'Poligonus | Ambientação'],
+    gallery: [
+      { src: natalPhotoFachadaTorreCompleta, titulo: 'Beach Class Natal - perspectiva da fachada da torre' },
+      { src: natalPhotoFachadaDetalheComVistaMar, titulo: 'Perspectiva da fachada com vista para o mar' },
+      { src: natalPhotoAcessoEntradaPrincipal, titulo: 'Perspectiva do acesso e da entrada principal' },
+      { src: natalPhotoHallSocialRecepcao, titulo: 'Perspectiva do hall social e da recepção' },
+      { src: natalPhotoLobbyEstar, titulo: 'Perspectiva do lobby e do estar' },
+      { src: natalPhotoPracaDeEncontros, titulo: 'Perspectiva da praça de encontros' },
+      { src: natalPhotoColivingSalaDeReunioes, titulo: 'Perspectiva do coliving e da sala de reuniões' },
+      { src: natalPhotoMinimarket, titulo: 'Perspectiva do minimarket' },
+      { src: natalPhotoLavanderiaColetiva, titulo: 'Perspectiva da lavanderia coletiva' },
+      { src: natalPhotoBicicletario, titulo: 'Perspectiva do bicicletário' },
+      { src: natalPhotoBrinquedoteca, titulo: 'Perspectiva da brinquedoteca' },
+      { src: natalPhotoAcademiaVista01, titulo: 'Perspectiva da academia - vista 1' },
+      { src: natalPhotoAcademiaVista02, titulo: 'Perspectiva da academia - vista 2' },
+      { src: natalPhotoRooftopPiscinaVistaMar01, titulo: 'Perspectiva da piscina do rooftop com vista para o mar - vista 1' },
+      { src: natalPhotoRooftopPiscinaVistaMar02, titulo: 'Perspectiva da piscina do rooftop com vista para o mar - vista 2' },
+      { src: natalPhotoRooftopPiscinaVistaPanorama03, titulo: 'Perspectiva panorâmica da piscina do rooftop' },
+      { src: natalPhotoTerracoRooftopExterno, titulo: 'Perspectiva do terraço externo do rooftop' },
+      { src: natalPhotoTerracoCobertoVistaPanoramica, titulo: 'Perspectiva do terraço coberto com vista panorâmica' },
+      { src: natalPhotoEspacoGourmetSalaoFestas, titulo: 'Perspectiva do espaço gourmet e do salão de festas' },
+      { src: natalPhotoStudio2877m2AmbienteIntegrado, titulo: 'Perspectiva do Studio de 28,77 m²' },
+      { src: natalPhotoStudio2982m2AmbienteIntegrado, titulo: 'Perspectiva do Studio de 29,82 m²' },
+      { src: natalPhotoStudio2998m2AmbienteIntegrado, titulo: 'Perspectiva do Studio de 29,98 m²' },
+      { src: natalPhotoApartamento1Quarto4309m2SalaCozinha, titulo: 'Perspectiva da sala e cozinha do apartamento de 1 quarto de 43,09 m²' },
+      { src: natalPhotoApartamento1Quarto4309m2Suite, titulo: 'Perspectiva da suíte do apartamento de 1 quarto de 43,09 m²' },
+      { src: natalPhotoApartamento2Quartos6083m2SalaCozinha, titulo: 'Perspectiva da sala e cozinha do apartamento de 2 quartos de 60,83 m²' },
+      { src: natalPhotoApartamento2Quartos6083m2Suite, titulo: 'Perspectiva da suíte do apartamento de 2 quartos de 60,83 m²' },
+      { src: natalPhotoApartamento2Quartos6083m2Quarto, titulo: 'Perspectiva do quarto do apartamento de 2 quartos de 60,83 m²' },
+    ],
+    floorPlans: [
+      { src: natalPlanPavimentoTerreoImplantacao, titulo: 'Pavimento térreo - implantação' },
+      { src: natalPlanPavimentoMezaninoImplantacao, titulo: 'Pavimento mezanino - implantação' },
+      { src: natalPlanPavimentoRooftopImplantacao, titulo: 'Pavimento rooftop - implantação' },
+      { src: natalPlanPavimentoTipoDistribuicaoUnidades, titulo: 'Pavimento tipo - distribuição das unidades' },
+      { src: natalPlanPlantaStudio2877m2E2939m2Terminacoes04A09, titulo: 'Studios 28,77 m² e 29,39 m² - terminações 04 a 09' },
+      { src: natalPlanPlantaStudio2982m2Terminacao02, titulo: 'Studio 29,82 m² - terminação 02' },
+      { src: natalPlanPlantaStudio2998m2Terminacao01, titulo: 'Studio 29,98 m² - terminação 01' },
+      { src: natalPlanPlantaApartamento1Quarto4309m2Terminacao10, titulo: 'Apartamento de 1 quarto 43,09 m² - terminação 10' },
+      { src: natalPlanPlantaApartamento2Quartos6083m2Terminacao03, titulo: 'Apartamento de 2 quartos 60,83 m² - terminação 03' },
+      { src: natalPlanReferenciaPavimentoTerreoComLegenda, titulo: 'Pavimento térreo com legenda (página de referência)' },
+      { src: natalPlanReferenciaMezaninoComLegenda, titulo: 'Pavimento mezanino com legenda (página de referência)' },
+      { src: natalPlanReferenciaRooftopComLegenda, titulo: 'Pavimento rooftop com legenda (página de referência)' },
+      { src: natalPlanReferenciaPavimentoTipoComMetragens, titulo: 'Pavimento tipo com metragens (página de referência)' },
+      { src: natalPlanReferenciaPlantaStudio2877m2E2939m2, titulo: 'Studios 28,77 m² e 29,39 m² (página de referência)' },
+      { src: natalPlanReferenciaPlantaStudio2982m2, titulo: 'Studio 29,82 m² (página de referência)' },
+      { src: natalPlanReferenciaPlantaStudio2998m2, titulo: 'Studio 29,98 m² (página de referência)' },
+      { src: natalPlanReferenciaPlanta1Quarto4309m2, titulo: 'Apartamento de 1 quarto 43,09 m² (página de referência)' },
+      { src: natalPlanReferenciaPlanta2Quartos6083m2, titulo: 'Apartamento de 2 quartos 60,83 m² (página de referência)' },
+    ],
+    locationImages: [
+      { src: natalLocEntornoCapimMacioParqueDasDunas, titulo: 'Entorno: Capim Macio e Parque das Dunas' },
+      { src: natalLocEntornoPontaNegraVistaAerea, titulo: 'Entorno: vista aérea de Ponta Negra' },
+      { src: natalLocPontaNegraVistaAereaMarMorroDoCareca, titulo: 'Entorno: Ponta Negra, mar e Morro do Careca' },
+      { src: natalLocPraiaPorDoSolContexto, titulo: 'Entorno: praia ao pôr do sol' },
     ],
   }),
   createDevelopment({
@@ -3262,7 +3395,7 @@ function DevelopmentDetail({ development }) {
   const touchStartX = useRef(null);
   const activeImages = activeLightbox ? lightboxGroups[activeLightbox.group] : [];
   const activeImage = activeLightbox ? activeImages[activeLightbox.index] : null;
-  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'beach-class-milagres', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-cumbuco', 'beach-class-iracema'].includes(development?.slug);
+  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'beach-class-milagres', 'beach-class-natal', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-cumbuco', 'beach-class-iracema'].includes(development?.slug);
   const visibleGalleryImages = lightboxGroups.gallery.slice(0, 5);
   const remainingGalleryCount = Math.max(0, lightboxGroups.gallery.length - visibleGalleryImages.length);
   const visibleFloorPlans = showAllOrganizedImages

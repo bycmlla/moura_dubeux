@@ -1,0 +1,19 @@
+BEACH CLASS NATAL - PACOTE ORGANIZADO PARA CADASTRO NO SITE
+
+ESTRUTURA:
+01_Capa - PNG da fachada inteira para a capa principal.
+02_Imagens_Empreendimento - Somente imagens da torre, ambientes, rooftop e apartamentos (sem plantas).
+03_Plantas_e_Implantacao - Desenhos de plantas completamente separados da galeria. Subpastas distinguem pavimentos, unidades e páginas do book com legendas.
+04_Localizacao_e_Entorno - Fotos aéreas e imagens contextuais, não confundir com as perspectivas arquitetônicas do empreendimento.
+informacoes_empreendimento.txt - Informações comerciais e técnicas baseadas no book.
+indice_imagens.csv - Relação dos PNGs, respectivas páginas de origem, descrições e resolução.
+
+ORIENTAÇÕES AO CODEX:
+- Usar '01_Capa/capa_beach_class_natal_torre_fachada.png' como imagem principal.
+- Utilizar SOMENTE '02_Imagens_Empreendimento' como galeria de perspectivas, sem fotos da planta.
+- Exibir as plantas em uma seção dedicada com os arquivos de '03_Plantas_e_Implantacao/02_Plantas_dos_Apartamentos'.
+- Usar arquivos com legendas para referência técnica e números de ambientes.
+- Dados comerciais e metragens devem vir do TXT e ser validados antes da publicação.
+- Renderizações têm caráter artístico; imagens de localização são de contexto.
+
+Todos os PNGs foram extraídos de elementos do PDF original; não foram criadas ilustrações por inteligência artificial. As plantas isoladas foram montadas sobre fundo branco para evitar transparência escura e melhorar a visualização.

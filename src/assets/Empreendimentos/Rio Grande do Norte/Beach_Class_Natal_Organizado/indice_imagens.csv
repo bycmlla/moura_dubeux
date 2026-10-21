@@ -1,0 +1,51 @@
+﻿arquivo;categoria;pagina_pdf;descricao;largura_px;altura_px
+01_Capa/capa_beach_class_natal_torre_fachada.png;capa;8;Capa principal: perspectiva arquitetônica da torre completa;906;1504
+02_Imagens_Empreendimento/fachada_detalhe_com_vista_mar.png;galeria;3;Fachada e vista para o mar;1563;1504
+02_Imagens_Empreendimento/fachada_torre_completa.png;galeria;8;Fachada principal da torre;906;1504
+02_Imagens_Empreendimento/acesso_entrada_principal.png;galeria;9;Acesso e entrada principal do empreendimento;2671;1396
+02_Imagens_Empreendimento/praca_de_encontros.png;galeria;10;Praça de encontros e lojas no térreo;2667;1393
+02_Imagens_Empreendimento/hall_social_recepcao.png;galeria;11;Hall social e recepção;2667;1393
+02_Imagens_Empreendimento/lobby_estar.png;galeria;12;Lobby e área de estar;2667;1393
+02_Imagens_Empreendimento/coliving_sala_de_reunioes.png;galeria;13;Coliving e sala de reuniões;2667;1391
+02_Imagens_Empreendimento/bicicletario.png;galeria;14;Bicicletário;2251;1500
+02_Imagens_Empreendimento/brinquedoteca.png;galeria;15;Brinquedoteca;2115;1504
+02_Imagens_Empreendimento/academia_vista_01.png;galeria;17;Academia - primeira perspectiva;2195;1504
+02_Imagens_Empreendimento/academia_vista_02.png;galeria;18;Academia - segunda perspectiva;2115;1501
+02_Imagens_Empreendimento/lavanderia_coletiva.png;galeria;19;Lavanderia coletiva;2117;1500
+02_Imagens_Empreendimento/minimarket.png;galeria;20;Minimarket;2192;1501
+02_Imagens_Empreendimento/rooftop_piscina_vista_mar_01.png;galeria;21;Piscina e hidromassagem no rooftop - vista 1;2670;1384
+02_Imagens_Empreendimento/rooftop_piscina_vista_mar_02.png;galeria;22;Piscina e hidromassagem no rooftop - vista 2;2670;1384
+02_Imagens_Empreendimento/rooftop_piscina_vista_panorama_03.png;galeria;23;Piscina e hidromassagem no rooftop - vista 3;2670;1393
+02_Imagens_Empreendimento/terraco_rooftop_externo.png;galeria;24;Terraço rooftop externo;2670;820
+02_Imagens_Empreendimento/terraco_coberto_vista_panoramica.png;galeria;25;Terraço coberto com vista panorâmica;2667;1393
+02_Imagens_Empreendimento/espaco_gourmet_salao_festas.png;galeria;26;Espaço gourmet e salão de festas;2667;1393
+02_Imagens_Empreendimento/apartamento_2_quartos_60_83m2_sala_cozinha.png;galeria;32;Apartamento 2 quartos 60,83 m² - sala e cozinha;2116;1501
+02_Imagens_Empreendimento/apartamento_2_quartos_60_83m2_suite.png;galeria;33;Apartamento 2 quartos 60,83 m² - suíte;2116;1501
+02_Imagens_Empreendimento/apartamento_2_quartos_60_83m2_quarto.png;galeria;34;Apartamento 2 quartos 60,83 m² - quarto;2116;1501
+02_Imagens_Empreendimento/apartamento_1_quarto_43_09m2_sala_cozinha.png;galeria;36;Apartamento 1 quarto 43,09 m² - sala e cozinha;2116;1501
+02_Imagens_Empreendimento/apartamento_1_quarto_43_09m2_suite.png;galeria;37;Apartamento 1 quarto 43,09 m² - suíte;2251;1501
+02_Imagens_Empreendimento/studio_29_98m2_ambiente_integrado.png;galeria;39;Studio 29,98 m² - ambiente integrado;2667;889
+02_Imagens_Empreendimento/studio_29_82m2_ambiente_integrado.png;galeria;41;Studio 29,82 m² - ambiente integrado;2116;1501
+02_Imagens_Empreendimento/studio_28_77m2_ambiente_integrado.png;galeria;43;Studio 28,77 m² - ambiente integrado;2116;1501
+03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos/pavimento_terreo_implantacao.png;plantas_comum;27;Pavimento térreo, acessos e áreas comuns;1733;1016
+03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos/pavimento_mezanino_implantacao.png;plantas_comum;28;Pavimento mezanino, serviços e salas;1733;1016
+03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos/pavimento_rooftop_implantacao.png;plantas_comum;29;Pavimento rooftop, áreas de lazer;1733;1016
+03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos/pavimento_tipo_distribuicao_unidades.png;plantas_comum;31;Pavimento tipo, distribuição das dez unidades;1920;958
+03_Plantas_e_Implantacao/02_Plantas_dos_Apartamentos/planta_apartamento_2_quartos_60_83m2_terminacao_03.png;plantas_unidades;35;Planta de 2 quartos (60,83 m²), terminação 3;1267;1151
+03_Plantas_e_Implantacao/02_Plantas_dos_Apartamentos/planta_apartamento_1_quarto_43_09m2_terminacao_10.png;plantas_unidades;38;Planta de 1 quarto (43,09 m²), terminação 10;1446;1314
+03_Plantas_e_Implantacao/02_Plantas_dos_Apartamentos/planta_studio_29_98m2_terminacao_01.png;plantas_unidades;40;Planta de studio (29,98 m²), terminação 1;1695;836
+03_Plantas_e_Implantacao/02_Plantas_dos_Apartamentos/planta_studio_29_82m2_terminacao_02.png;plantas_unidades;42;Planta de studio (29,82 m²), terminação 2;1420;1084
+03_Plantas_e_Implantacao/02_Plantas_dos_Apartamentos/planta_studio_28_77m2_e_29_39m2_terminacoes_04_a_09.png;plantas_unidades;44;"Planta ilustrativa referente à terminação 4; tipologias 28,77 e 29,39 m², terminações 4 a 9";1029;1152
+03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_pavimento_terreo_com_legenda.png;legendas;27;Página do pavimento térreo com legenda dos ambientes;1920;1080
+03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_mezanino_com_legenda.png;legendas;28;Página do mezanino com legenda dos ambientes;1920;1080
+03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_rooftop_com_legenda.png;legendas;29;Página do rooftop com legenda dos ambientes;1920;1080
+03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_pavimento_tipo_com_metragens.png;legendas;31;Página do pavimento tipo com numeração e metragem por terminação;1920;1080
+03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_planta_2_quartos_60_83m2.png;legendas;35;Página de referência da planta de 2 quartos;1920;1080
+03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_planta_1_quarto_43_09m2.png;legendas;38;Página de referência da planta de 1 quarto;1920;1080
+03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_planta_studio_29_98m2.png;legendas;40;Página de referência do studio de 29,98 m²;1920;1080
+03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_planta_studio_29_82m2.png;legendas;42;Página de referência do studio de 29,82 m²;1920;1080
+03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_planta_studio_28_77m2_e_29_39m2.png;legendas;44;Página de referência dos studios de 28,77 e 29,39 m²;1920;1080
+04_Localizacao_e_Entorno/praia_por_do_sol_contexto.png;local;2;Imagem de praia ilustrativa e contextual do book;2667;1504
+04_Localizacao_e_Entorno/ponta_negra_vista_aerea_mar_morro_do_careca.png;local;4;Vista aérea da praia de Ponta Negra;2667;1504
+04_Localizacao_e_Entorno/entorno_ponta_negra_vista_aerea.png;local;5;Vista aérea de Ponta Negra e proximidades;2670;1504
+04_Localizacao_e_Entorno/entorno_capim_macio_parque_das_dunas.png;local;6;Vista aérea do entorno do terreno e Parque das Dunas;2669;1504
