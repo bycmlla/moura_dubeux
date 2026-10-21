@@ -1533,8 +1533,15 @@ a {
 .state-map-hotspot--ce {
   top: 22%;
   left: 76%;
-  width: 9%;
+  width: 8%;
   height: 12%;
+}
+
+.state-map-hotspot--rn {
+  top: 26.5%;
+  left: 84%;
+  width: 7%;
+  height: 5.5%;
 }
 
 .state-selection__copy {

@@ -38,6 +38,7 @@ test('derives the full state name from the development location UF', () => {
   expect(getStateNameFromLocation('Salvador, BA')).toBe('Bahia');
   expect(getStateNameFromLocation('Recife, PE')).toBe('Pernambuco');
   expect(getStateNameFromLocation('Fortaleza, CE')).toBe('Ceará');
+  expect(getStateNameFromLocation('Natal, RN')).toBe('Rio Grande do Norte');
   expect(getStateNameFromLocation('Cidade sem UF')).toBeNull();
   expect(getUfFromLocation('Salvador, BA')).toBe('BA');
   expect(getUfFromLocation('Cidade sem UF')).toBeNull();
@@ -83,6 +84,7 @@ test('asks for a state on the first access and filters Alagoas without mixing Ba
   expect(screen.getByRole('button', { name: 'Alagoas' })).toBeInTheDocument();
   expect(screen.getByRole('button', { name: 'Pernambuco' })).toBeInTheDocument();
   expect(screen.getByRole('button', { name: 'Ceará' })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'Rio Grande do Norte' })).toBeInTheDocument();
   expect(screen.queryByRole('heading', { name: /todos os empreendimentos/i })).not.toBeInTheDocument();
 
   fireEvent.click(screen.getByRole('button', { name: 'Alagoas' }));
@@ -106,6 +108,8 @@ test('opens all developments grouped by state and keeps Todos selected', async (
   expect(screen.getByRole('heading', { name: 'Alagoas', level: 3 })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Pernambuco', level: 3 })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Ceará', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Rio Grande do Norte', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Beach Class Natal', level: 3 })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Beach Class Cumbuco', level: 3 })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Arthur Bruno Schwambach', level: 3 })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Jardins do Parque' })).toBeInTheDocument();
@@ -134,6 +138,7 @@ test('uses the map and header dropdown to change the selected state', async () =
 test.each([
   ['Pernambuco', 'PE', 'Arthur Bruno Schwambach', 'arthur-bruno-schwambach'],
   ['Ceará', 'CE', 'Beach Class Cumbuco', 'beach-class-cumbuco'],
+  ['Rio Grande do Norte', 'RN', 'Beach Class Natal', 'beach-class-natal'],
 ])('selects %s from the map and lists only its developments', async (stateName, uf, projectName, slug) => {
   render(<App />);
   fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
@@ -740,6 +745,31 @@ test('renders Beach Class Milagres perspectives, all floor plans and location se
   fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
 
   expect(screen.getByRole('button', { name: /ampliar Mapa aéreo de localização do Beach Class Milagres/i })).toBeInTheDocument();
+});
+
+test('renders Beach Class Natal perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/beach-class-natal';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Natal', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('2.776,90 m²')).toBeInTheDocument();
+  expect(screen.getAllByText(/143 vagas/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+22 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(18);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Natal%20RN'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Beach Class Natal - perspectiva da fachada da torre/i }));
+  expect(screen.getByText('1 / 27')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva do quarto do apartamento de 2 quartos de 60,83 m²/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Apartamento de 2 quartos 60,83 m² .página de referência/i }));
+  expect(screen.getByText('18 / 18')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  expect(screen.getByRole('button', { name: /ampliar Entorno: vista aérea de Ponta Negra/i })).toBeInTheDocument();
 });
 
 test('renders Arthur Bruno Schwambach photos and floor plans in their own sections', () => {
