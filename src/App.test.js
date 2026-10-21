@@ -244,7 +244,7 @@ test('renders Beach Class Manguinhos perspectives, all floor plans and location 
   expect(screen.getAllByText(/652 vagas/).length).toBeGreaterThan(0);
   expect(screen.getByText('+31 fotos')).toBeInTheDocument();
   expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(28);
-  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Praia%20dos%20Carneiros'));
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Tamandare%20PE'));
   expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
 
   fireEvent.click(screen.getByRole('button', { name: /ampliar Beach Class Manguinhos - perspectiva aérea das casas e do Beach Club/i }));

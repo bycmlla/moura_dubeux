@@ -1964,13 +1964,13 @@ const additionalDevelopments = [
   }),
   createDevelopment({
     slug: 'beach-class-manguinhos', name: 'Beach Class Manguinhos', image: manguinhosCover,
-    city: 'Praia dos Carneiros, PE', neighborhood: 'Praia dos Carneiros', locationTitle: 'Praia dos Carneiros - Pernambuco',
-    address: 'Região da Praia dos Carneiros, próximo ao Pontal dos Carneiros, Pernambuco',
-    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Beach%20Class%20Manguinhos%20Praia%20dos%20Carneiros%20PE',
+    city: 'Tamandaré, PE', neighborhood: 'Praia dos Carneiros', locationTitle: 'Praia dos Carneiros - Tamandaré/PE',
+    address: 'Região da Praia dos Carneiros, próximo ao Pontal dos Carneiros, Tamandaré/PE',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Beach%20Class%20Manguinhos%20Praia%20dos%20Carneiros%20Tamandare%20PE',
     area: '44 a 230 m²', profile: 'Casas e apartamentos de 1, 2 e 3 quartos, com Garden e piscina privativa', detail: '12 casas e 512 apartamentos',
-    description: 'O Beach Class Manguinhos fica na região da Praia dos Carneiros, perto do Pontal dos Carneiros, em Pernambuco, em um conceito pé na areia entre vegetação tropical e piscinas. O projeto reúne 12 casas de 230,03 m² com piscina privativa e 512 apartamentos de 1, 2 e 3 quartos em 10 blocos, com varanda gourmet e opções Garden com piscina privativa no térreo. O lazer inclui Beach Club à beira-mar, spa com piscina aquecida, academia, quadras e espaços para toda a família.',
+    description: 'O Beach Class Manguinhos fica na região da Praia dos Carneiros, perto do Pontal dos Carneiros, em Tamandaré, Pernambuco, em um conceito pé na areia entre vegetação tropical e piscinas. O projeto reúne 12 casas de 230,03 m² com piscina privativa e 512 apartamentos de 1, 2 e 3 quartos em 10 blocos, com varanda gourmet e opções Garden com piscina privativa no térreo. O lazer inclui Beach Club à beira-mar, spa com piscina aquecida, academia, quadras e espaços para toda a família.',
     highlights: ['44 a 230 m²', '12 casas e 512 apartamentos', 'Garden com piscina privativa', 'Beach Club pé na areia'],
-    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Praia dos Carneiros, PE'], ['Unidades', '524 residências (12 casas e 512 apartamentos)'], ['Garagem', '652 vagas']],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Praia dos Carneiros, Tamandaré/PE'], ['Unidades', '524 residências (12 casas e 512 apartamentos)'], ['Garagem', '652 vagas']],
     technical: [
       ['Área do terreno', '93.025,66 m²'],
       ['Casas', '12 casas de 230,03 m², com térreo + 1º pavimento, 5 suítes, garden e piscina privativa'],
