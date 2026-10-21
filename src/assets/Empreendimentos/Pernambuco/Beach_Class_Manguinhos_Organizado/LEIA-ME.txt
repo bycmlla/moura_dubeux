@@ -1,0 +1,16 @@
+BEACH CLASS MANGUINHOS - ARQUIVOS EXTRAIDOS DO BOOK
+
+ESTRUTURA
+01_Capa: uma perspectiva escolhida como capa principal do site (vista do empreendimento e areas comuns).
+02_Imagens_Empreendimento: imagens do projeto, separadas por arquivo PNG com nomes descritivos. NENHUMA PLANTA AQUI.
+03_Plantas_e_Implantacao: plantas de unidades, casas, pavimentos, areas coletivas e mapas da implantacao, em PNG. As plantas individuais foram extraidas separadamente quando disponiveis.
+04_Localizacao_e_Entorno: paisagens reais do entorno e mapa do material de venda; nao sao imagens do futuro empreendimento.
+informacoes_empreendimento.txt: descricao detalhada extraida do PDF.
+indice_imagens.csv: lista dos arquivos com a pagina do PDF e dimensoes.
+
+A capa foi selecionada da pagina 11, porque apresenta simultaneamente fachadas, piscinas e paisagismo num formato horizontal apropriado para site.
+
+Os PNGs da galeria foram extraidos preferencialmente dos arquivos graficos incorporados ao PDF, evitando letreiros/titulos promocionais sobrepostos ao render. Isso pode resultar em recortes/formatos diferentes dos slides originais, mas com a arte mais limpa.
+As plantas gerais preservam as legendas e identificacoes da pagina; as plantas individuais decoradas e tecnicas sao disponibilizadas em arquivos separados.
+Nao foram inventadas fotos, plantas, metragens ou dados.
+Aviso: perspectivas artisticas sao ilustrativas, nao fotografias da obra pronta.

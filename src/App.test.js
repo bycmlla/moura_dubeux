@@ -222,6 +222,45 @@ test('renders Beach Class Iracema perspectives, all floor plans and location sep
   expect(screen.getByText('1 / 3')).toBeInTheDocument();
 });
 
+test('lists Beach Class Manguinhos under Pernambuco next to Arthur Bruno Schwambach', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Pernambuco' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Pernambuco' }));
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Manguinhos', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Arthur Bruno Schwambach', level: 3 })).toBeInTheDocument();
+  expect(screen.queryByRole('heading', { name: 'Beach Class Cumbuco' })).not.toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Beach Class Manguinhos.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/beach-class-manguinhos');
+});
+
+test('renders Beach Class Manguinhos perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/beach-class-manguinhos';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Manguinhos', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('93.025,66 m²')).toBeInTheDocument();
+  expect(screen.getAllByText(/652 vagas/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+31 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(28);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Praia%20dos%20Carneiros'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Beach Class Manguinhos - perspectiva aérea das casas e do Beach Club/i }));
+  expect(screen.getByText('1 / 36')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva da suíte do apartamento de 3 quartos/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Apartamento de 3 quartos - térreo com Garden e piscina/i }));
+  expect(screen.getByText('28 / 28')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Mapa de localização do Beach Class Manguinhos/i }));
+  expect(screen.getByText('1 / 3')).toBeInTheDocument();
+});
+
 test('renders Arthur Bruno Schwambach photos and floor plans in their own sections', () => {
   window.location.hash = '#empreendimento/arthur-bruno-schwambach';
   render(<App />);

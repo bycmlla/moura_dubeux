@@ -660,6 +660,74 @@ import arthurBrunoHeatedPool from './assets/Empreendimentos/Pernambuco/Arthur_Br
 import arthurBrunoGroundPlan from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/03_Plantas_e_Implantacao/planta_terreo_areas_comuns_legenda.png';
 import arthurBrunoSitePlan from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/03_Plantas_e_Implantacao/implantacao_torres_a_b_c_d_e_f.png';
 import arthurBrunoTypicalFloorPlan from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/03_Plantas_e_Implantacao/planta_pavimento_tipo_apartamentos.png';
+import manguinhosCover from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/01_Capa/capa_beach_class_manguinhos.png';
+import manguinhosPhotoVisaoAereaGeralCasasEBeachClub from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/visao_aerea_geral_casas_e_beach_club.png';
+import manguinhosPhotoCondominioVistaGeralBlocosEPiscinas from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/condominio_vista_geral_blocos_e_piscinas.png';
+import manguinhosPhotoBeachClubPiscinaBeiraMar from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/beach_club_piscina_beira_mar.png';
+import manguinhosPhotoBeachClubSalao from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/beach_club_salao.png';
+import manguinhosPhotoBeachClubTerraco from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/beach_club_terraco.png';
+import manguinhosPhotoAreaLazerPiscinasPanoramica from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/area_lazer_piscinas_panoramica.png';
+import manguinhosPhotoAreaLazerPiscinaKids from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/area_lazer_piscina_kids.png';
+import manguinhosPhotoAreaLazerBarDaPiscina from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/area_lazer_bar_da_piscina.png';
+import manguinhosPhotoAreaLazerEstarPiscina from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/area_lazer_estar_piscina.png';
+import manguinhosPhotoAreaLazerTerracoDeJogos from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/area_lazer_terraco_de_jogos.png';
+import manguinhosPhotoAreaLazerQuadraPoliesportivaEMinicampo from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/area_lazer_quadra_poliesportiva_e_minicampo.png';
+import manguinhosPhotoAreaLazerPlaygroundEQuadrasDeAreia from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/area_lazer_playground_e_quadras_de_areia.png';
+import manguinhosPhotoAreaLazerEspacoGourmetExterno from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/area_lazer_espaco_gourmet_externo.png';
+import manguinhosPhotoAreaLazerAcademia from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/area_lazer_academia.png';
+import manguinhosPhotoAreaLazerSpaPiscinaAquecida from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/area_lazer_spa_piscina_aquecida.png';
+import manguinhosPhotoCasasCaminhoParaPraia from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/casas_caminho_para_praia.png';
+import manguinhosPhotoCasasFachadaJardimEPiscinaPrivativa from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/casas_fachada_jardim_e_piscina_privativa.png';
+import manguinhosPhotoCasasTerracoComPiscinaPrivativa from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/casas_terraco_com_piscina_privativa.png';
+import manguinhosPhotoCasasSalaDeEstar from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/casas_sala_de_estar.png';
+import manguinhosPhotoCasasSuiteMaster from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/casas_suite_master.png';
+import manguinhosPhotoCasasQuartoSuite from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/casas_quarto_suite.png';
+import manguinhosPhotoApartamento1QuartoSalaCozinhaIntegrada from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/apartamento_1_quarto_sala_cozinha_integrada.png';
+import manguinhosPhotoApartamento1QuartoSalaEVaranda from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/apartamento_1_quarto_sala_e_varanda.png';
+import manguinhosPhotoApartamento1QuartoSuite from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/apartamento_1_quarto_suite.png';
+import manguinhosPhotoApartamento2QuartosGardenPiscinaPrivativa from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_garden_piscina_privativa.png';
+import manguinhosPhotoApartamento2QuartosVaranda from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_varanda.png';
+import manguinhosPhotoApartamento2QuartosSalaCozinhaIntegrada from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_sala_cozinha_integrada.png';
+import manguinhosPhotoApartamento2QuartosSuite from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_suite.png';
+import manguinhosPhotoApartamento2Quartos67m2SalaEVaranda from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_67m2_sala_e_varanda.png';
+import manguinhosPhotoApartamento2Quartos67m2SalaCozinha from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_67m2_sala_cozinha.png';
+import manguinhosPhotoApartamento2Quartos67m2Suite from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_67m2_suite.png';
+import manguinhosPhotoApartamento3QuartosGardenPiscinaPrivativa from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/apartamento_3_quartos_garden_piscina_privativa.png';
+import manguinhosPhotoApartamento3QuartosSalaCozinhaIntegrada from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/apartamento_3_quartos_sala_cozinha_integrada.png';
+import manguinhosPhotoApartamento3QuartosVarandaGourmet from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/apartamento_3_quartos_varanda_gourmet.png';
+import manguinhosPhotoApartamento3QuartosSuiteMaster from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/apartamento_3_quartos_suite_master.png';
+import manguinhosPhotoApartamento3QuartosSuite from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/02_Imagens_Empreendimento/apartamento_3_quartos_suite.png';
+import manguinhosPlanImplantacaoGeralBlocosCasasBeachClub from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/implantacao_geral_blocos_casas_beach_club.png';
+import manguinhosPlanImplantacao12Casas from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/implantacao_12_casas.png';
+import manguinhosPlanPlantaBeachClub from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_beach_club.png';
+import manguinhosPlanPlantaBlocoSocialBarPiscinaJogos from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_bloco_social_bar_piscina_jogos.png';
+import manguinhosPlanPlantaBlocoSocialAcademiaSpa from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_bloco_social_academia_spa.png';
+import manguinhosPlanPlantaBlocoServicos from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_bloco_servicos.png';
+import manguinhosPlanPlantaBlocosACEGITerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_blocos_a_c_e_g_i_terreo.png';
+import manguinhosPlanPlantaBlocosACEGITipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_blocos_a_c_e_g_i_tipo.png';
+import manguinhosPlanPlantaBlocoBTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_bloco_b_terreo.png';
+import manguinhosPlanPlantaBlocoBTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_bloco_b_tipo.png';
+import manguinhosPlanPlantaBlocosDFHJTerreo from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_blocos_d_f_h_j_terreo.png';
+import manguinhosPlanPlantaBlocosDFHJTipo from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_blocos_d_f_h_j_tipo.png';
+import manguinhosPlanPlantaCasa5SuitesTerreoAmbientada from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_casa_5_suites_terreo_ambientada.png';
+import manguinhosPlanPlantaCasa5SuitesTerreoTecnica from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_casa_5_suites_terreo_tecnica.png';
+import manguinhosPlanPlantaCasa5SuitesPrimeiroPavimentoAmbientada from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_casa_5_suites_primeiro_pavimento_ambientada.png';
+import manguinhosPlanPlantaCasa5SuitesPrimeiroPavimentoTecnica from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_casa_5_suites_primeiro_pavimento_tecnica.png';
+import manguinhosPlanPlantaApartamento1QuartoComparativoMetragens from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_apartamento_1_quarto_comparativo_metragens.png';
+import manguinhosPlanPlantaApartamento1QuartoTipo4445m2 from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_apartamento_1_quarto_tipo_44_45m2.png';
+import manguinhosPlanPlantaApartamento1QuartoGarden4445m2 from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_apartamento_1_quarto_garden_44_45m2.png';
+import manguinhosPlanPlantaApartamento2Quartos6263m2Comparativo from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_apartamento_2_quartos_62_63m2_comparativo.png';
+import manguinhosPlanPlantaApartamento2QuartosTipo6263m2 from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_apartamento_2_quartos_tipo_62_63m2.png';
+import manguinhosPlanPlantaApartamento2QuartosGarden6263m2 from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_apartamento_2_quartos_garden_62_63m2.png';
+import manguinhosPlanPlantaApartamento2Quartos67m2Comparativo from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_apartamento_2_quartos_67m2_comparativo.png';
+import manguinhosPlanPlantaApartamento2QuartosTipo67m2 from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_apartamento_2_quartos_tipo_67m2.png';
+import manguinhosPlanPlantaApartamento2QuartosGarden67m2 from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_apartamento_2_quartos_garden_67m2.png';
+import manguinhosPlanPlantaApartamento3Quartos109110m2Comparativo from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_apartamento_3_quartos_109_110m2_comparativo.png';
+import manguinhosPlanPlantaApartamento3QuartosTipo109110m2 from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_apartamento_3_quartos_tipo_109_110m2.png';
+import manguinhosPlanPlantaApartamento3QuartosGarden109110m2 from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/03_Plantas_e_Implantacao/planta_apartamento_3_quartos_garden_109_110m2.png';
+import manguinhosLocMapaLocalizacaoBeachClassManguinhos from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/04_Localizacao_e_Entorno/mapa_localizacao_beach_class_manguinhos.png';
+import manguinhosLocPraiaDosCarneirosVistaAerea from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/04_Localizacao_e_Entorno/praia_dos_carneiros_vista_aerea.png';
+import manguinhosLocPaisagemMarPraiaDosCarneiros from './assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/04_Localizacao_e_Entorno/paisagem_mar_praia_dos_carneiros.png';
 import cumbucoCover from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/01_Capa/capa_beach_class_cumbuco_vista_aerea_frente_mar.png';
 import cumbucoAerialContext from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/vista_aerea_implantacao_e_praia.png';
 import cumbucoSeaAerial from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/02_Imagens_Empreendimento/vista_aerea_frente_mar.png';
@@ -1895,6 +1963,104 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
+    slug: 'beach-class-manguinhos', name: 'Beach Class Manguinhos', image: manguinhosCover,
+    city: 'Praia dos Carneiros, PE', neighborhood: 'Praia dos Carneiros', locationTitle: 'Praia dos Carneiros - Pernambuco',
+    address: 'Região da Praia dos Carneiros, próximo ao Pontal dos Carneiros, Pernambuco',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Beach%20Class%20Manguinhos%20Praia%20dos%20Carneiros%20PE',
+    area: '44 a 230 m²', profile: 'Casas e apartamentos de 1, 2 e 3 quartos, com Garden e piscina privativa', detail: '12 casas e 512 apartamentos',
+    description: 'O Beach Class Manguinhos fica na região da Praia dos Carneiros, perto do Pontal dos Carneiros, em Pernambuco, em um conceito pé na areia entre vegetação tropical e piscinas. O projeto reúne 12 casas de 230,03 m² com piscina privativa e 512 apartamentos de 1, 2 e 3 quartos em 10 blocos, com varanda gourmet e opções Garden com piscina privativa no térreo. O lazer inclui Beach Club à beira-mar, spa com piscina aquecida, academia, quadras e espaços para toda a família.',
+    highlights: ['44 a 230 m²', '12 casas e 512 apartamentos', 'Garden com piscina privativa', 'Beach Club pé na areia'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Praia dos Carneiros, PE'], ['Unidades', '524 residências (12 casas e 512 apartamentos)'], ['Garagem', '652 vagas']],
+    technical: [
+      ['Área do terreno', '93.025,66 m²'],
+      ['Casas', '12 casas de 230,03 m², com térreo + 1º pavimento, 5 suítes, garden e piscina privativa'],
+      ['Apartamentos', '512 apartamentos em 10 blocos (A a J), com térreo + 3 pavimentos tipo'],
+      ['1 quarto', '192 unidades de 44 a 45 m², sendo 48 no térreo com garden de cerca de 34 m² e piscina privativa'],
+      ['2 quartos', '272 unidades de 62 a 67 m², sendo 68 no térreo com garden de cerca de 55 m² (62-63 m²) ou 80 m² (67 m²) e piscina privativa'],
+      ['3 quartos', '48 unidades de 109 a 110 m², sendo 12 no térreo com garden de cerca de 118 m² e piscina privativa'],
+      ['Varanda', 'Varanda gourmet em todos os apartamentos'],
+      ['Garagem', '652 vagas: 4 vagas exclusivas por casa; 1 vaga rotativa para apartamentos de 1 ou 2 quartos e 2 para os de 3 quartos; vagas de 2,40 m de largura e previsão de vagas para visitantes e carga e descarga'],
+      ['Material', 'Perspectivas ilustrativas; plantas incluem variantes espelhadas e terminações diferentes entre os blocos'],
+    ],
+    amenities: ['Beach Club com deck, terraço, salão, bar e cozinha', 'Piscina à beira-mar', 'Piscinas do conjunto residencial', 'Piscina infantil', 'Bar da piscina e áreas de estar', 'Terraço de jogos', 'Quadra poliesportiva e minicampo', 'Quadras de areia', 'Playground', 'Espaços gourmet externos', 'Academia', 'Spa com piscina aquecida', 'Sauna', 'Salão de beleza', 'Salas de massagem', 'Pet place com pet shower', 'Recepção', 'Lavanderia coletiva', 'Espaço para minimarket', 'Caminhos e jardins paisagísticos'],
+    security: ['Fechadura eletrônica nas portas sociais das unidades'],
+    sustainability: ['Pontos de recarga para carro elétrico'],
+    projectTeam: ['JCL Arquitetos | Arquitetura', 'Benedito Abbud | Paisagismo', 'Zirpoli Arquitetura | Ambientação'],
+    gallery: [
+      { src: manguinhosPhotoVisaoAereaGeralCasasEBeachClub, titulo: 'Beach Class Manguinhos - perspectiva aérea das casas e do Beach Club' },
+      { src: manguinhosPhotoCondominioVistaGeralBlocosEPiscinas, titulo: 'Perspectiva geral dos blocos e das piscinas' },
+      { src: manguinhosPhotoBeachClubPiscinaBeiraMar, titulo: 'Perspectiva da piscina do Beach Club à beira-mar' },
+      { src: manguinhosPhotoBeachClubSalao, titulo: 'Perspectiva do salão do Beach Club' },
+      { src: manguinhosPhotoBeachClubTerraco, titulo: 'Perspectiva do terraço do Beach Club' },
+      { src: manguinhosPhotoAreaLazerPiscinasPanoramica, titulo: 'Perspectiva panorâmica das piscinas' },
+      { src: manguinhosPhotoAreaLazerPiscinaKids, titulo: 'Perspectiva da piscina infantil' },
+      { src: manguinhosPhotoAreaLazerBarDaPiscina, titulo: 'Perspectiva do bar da piscina' },
+      { src: manguinhosPhotoAreaLazerEstarPiscina, titulo: 'Perspectiva da área de estar da piscina' },
+      { src: manguinhosPhotoAreaLazerTerracoDeJogos, titulo: 'Perspectiva do terraço de jogos' },
+      { src: manguinhosPhotoAreaLazerQuadraPoliesportivaEMinicampo, titulo: 'Perspectiva da quadra poliesportiva e do minicampo' },
+      { src: manguinhosPhotoAreaLazerPlaygroundEQuadrasDeAreia, titulo: 'Perspectiva do playground e das quadras de areia' },
+      { src: manguinhosPhotoAreaLazerEspacoGourmetExterno, titulo: 'Perspectiva do espaço gourmet externo' },
+      { src: manguinhosPhotoAreaLazerAcademia, titulo: 'Perspectiva da academia' },
+      { src: manguinhosPhotoAreaLazerSpaPiscinaAquecida, titulo: 'Perspectiva do spa com piscina aquecida' },
+      { src: manguinhosPhotoCasasCaminhoParaPraia, titulo: 'Perspectiva do caminho das casas para a praia' },
+      { src: manguinhosPhotoCasasFachadaJardimEPiscinaPrivativa, titulo: 'Perspectiva da fachada das casas com jardim e piscina privativa' },
+      { src: manguinhosPhotoCasasTerracoComPiscinaPrivativa, titulo: 'Perspectiva do terraço da casa com piscina privativa' },
+      { src: manguinhosPhotoCasasSalaDeEstar, titulo: 'Perspectiva da sala de estar da casa' },
+      { src: manguinhosPhotoCasasSuiteMaster, titulo: 'Perspectiva da suíte master da casa' },
+      { src: manguinhosPhotoCasasQuartoSuite, titulo: 'Perspectiva de uma suíte da casa' },
+      { src: manguinhosPhotoApartamento1QuartoSalaCozinhaIntegrada, titulo: 'Perspectiva da sala e cozinha integradas do apartamento de 1 quarto' },
+      { src: manguinhosPhotoApartamento1QuartoSalaEVaranda, titulo: 'Perspectiva da sala e varanda do apartamento de 1 quarto' },
+      { src: manguinhosPhotoApartamento1QuartoSuite, titulo: 'Perspectiva da suíte do apartamento de 1 quarto' },
+      { src: manguinhosPhotoApartamento2QuartosGardenPiscinaPrivativa, titulo: 'Perspectiva do apartamento de 2 quartos com Garden e piscina privativa' },
+      { src: manguinhosPhotoApartamento2QuartosVaranda, titulo: 'Perspectiva da varanda do apartamento de 2 quartos' },
+      { src: manguinhosPhotoApartamento2QuartosSalaCozinhaIntegrada, titulo: 'Perspectiva da sala e cozinha integradas do apartamento de 2 quartos' },
+      { src: manguinhosPhotoApartamento2QuartosSuite, titulo: 'Perspectiva da suíte do apartamento de 2 quartos' },
+      { src: manguinhosPhotoApartamento2Quartos67m2SalaEVaranda, titulo: 'Perspectiva da sala e varanda do apartamento de 2 quartos de 67 m²' },
+      { src: manguinhosPhotoApartamento2Quartos67m2SalaCozinha, titulo: 'Perspectiva da sala e cozinha do apartamento de 2 quartos de 67 m²' },
+      { src: manguinhosPhotoApartamento2Quartos67m2Suite, titulo: 'Perspectiva da suíte do apartamento de 2 quartos de 67 m²' },
+      { src: manguinhosPhotoApartamento3QuartosGardenPiscinaPrivativa, titulo: 'Perspectiva do apartamento de 3 quartos com Garden e piscina privativa' },
+      { src: manguinhosPhotoApartamento3QuartosSalaCozinhaIntegrada, titulo: 'Perspectiva da sala e cozinha integradas do apartamento de 3 quartos' },
+      { src: manguinhosPhotoApartamento3QuartosVarandaGourmet, titulo: 'Perspectiva da varanda gourmet do apartamento de 3 quartos' },
+      { src: manguinhosPhotoApartamento3QuartosSuiteMaster, titulo: 'Perspectiva da suíte master do apartamento de 3 quartos' },
+      { src: manguinhosPhotoApartamento3QuartosSuite, titulo: 'Perspectiva da suíte do apartamento de 3 quartos' },
+    ],
+    floorPlans: [
+      { src: manguinhosPlanImplantacaoGeralBlocosCasasBeachClub, titulo: 'Implantação geral - blocos, casas e Beach Club' },
+      { src: manguinhosPlanImplantacao12Casas, titulo: 'Implantação das 12 casas' },
+      { src: manguinhosPlanPlantaBeachClub, titulo: 'Planta do Beach Club' },
+      { src: manguinhosPlanPlantaBlocoSocialBarPiscinaJogos, titulo: 'Bloco social - bar, piscina e jogos' },
+      { src: manguinhosPlanPlantaBlocoSocialAcademiaSpa, titulo: 'Bloco social - academia e spa' },
+      { src: manguinhosPlanPlantaBlocoServicos, titulo: 'Bloco de serviços' },
+      { src: manguinhosPlanPlantaBlocosACEGITerreo, titulo: 'Blocos A, C, E, G e I - pavimento térreo' },
+      { src: manguinhosPlanPlantaBlocosACEGITipo, titulo: 'Blocos A, C, E, G e I - pavimento tipo' },
+      { src: manguinhosPlanPlantaBlocoBTerreo, titulo: 'Bloco B - pavimento térreo' },
+      { src: manguinhosPlanPlantaBlocoBTipo, titulo: 'Bloco B - pavimento tipo' },
+      { src: manguinhosPlanPlantaBlocosDFHJTerreo, titulo: 'Blocos D, F, H e J - pavimento térreo' },
+      { src: manguinhosPlanPlantaBlocosDFHJTipo, titulo: 'Blocos D, F, H e J - pavimento tipo' },
+      { src: manguinhosPlanPlantaCasa5SuitesTerreoAmbientada, titulo: 'Casa de 5 suítes - térreo (ambientada)' },
+      { src: manguinhosPlanPlantaCasa5SuitesTerreoTecnica, titulo: 'Casa de 5 suítes - térreo (sem layout)' },
+      { src: manguinhosPlanPlantaCasa5SuitesPrimeiroPavimentoAmbientada, titulo: 'Casa de 5 suítes - 1º pavimento (ambientada)' },
+      { src: manguinhosPlanPlantaCasa5SuitesPrimeiroPavimentoTecnica, titulo: 'Casa de 5 suítes - 1º pavimento (sem layout)' },
+      { src: manguinhosPlanPlantaApartamento1QuartoComparativoMetragens, titulo: 'Apartamentos de 1 quarto - comparativo de metragens' },
+      { src: manguinhosPlanPlantaApartamento1QuartoTipo4445m2, titulo: 'Apartamento de 1 quarto - pavimento tipo (44 a 45 m²)' },
+      { src: manguinhosPlanPlantaApartamento1QuartoGarden4445m2, titulo: 'Apartamento de 1 quarto - térreo com Garden e piscina (44 a 45 m²)' },
+      { src: manguinhosPlanPlantaApartamento2Quartos6263m2Comparativo, titulo: 'Apartamentos de 2 quartos - comparativo de 62 a 63 m²' },
+      { src: manguinhosPlanPlantaApartamento2QuartosTipo6263m2, titulo: 'Apartamento de 2 quartos - pavimento tipo (62 a 63 m²)' },
+      { src: manguinhosPlanPlantaApartamento2QuartosGarden6263m2, titulo: 'Apartamento de 2 quartos - térreo com Garden e piscina (62 a 63 m²)' },
+      { src: manguinhosPlanPlantaApartamento2Quartos67m2Comparativo, titulo: 'Apartamentos de 2 quartos - comparativo de 67 m²' },
+      { src: manguinhosPlanPlantaApartamento2QuartosTipo67m2, titulo: 'Apartamento de 2 quartos - pavimento tipo (67 m²)' },
+      { src: manguinhosPlanPlantaApartamento2QuartosGarden67m2, titulo: 'Apartamento de 2 quartos - térreo com Garden e piscina (67 m²)' },
+      { src: manguinhosPlanPlantaApartamento3Quartos109110m2Comparativo, titulo: 'Apartamentos de 3 quartos - comparativo de 109 a 110 m²' },
+      { src: manguinhosPlanPlantaApartamento3QuartosTipo109110m2, titulo: 'Apartamento de 3 quartos - pavimento tipo (109 a 110 m²)' },
+      { src: manguinhosPlanPlantaApartamento3QuartosGarden109110m2, titulo: 'Apartamento de 3 quartos - térreo com Garden e piscina (109 a 110 m²)' },
+    ],
+    locationImages: [
+      { src: manguinhosLocMapaLocalizacaoBeachClassManguinhos, titulo: 'Mapa de localização do Beach Class Manguinhos' },
+      { src: manguinhosLocPraiaDosCarneirosVistaAerea, titulo: 'Entorno: vista aérea da Praia dos Carneiros' },
+      { src: manguinhosLocPaisagemMarPraiaDosCarneiros, titulo: 'Entorno: mar e paisagem da Praia dos Carneiros' },
+    ],
+  }),
+  createDevelopment({
     slug: 'beach-class-cumbuco', name: 'Beach Class Cumbuco', image: cumbucoCover,
     city: 'Caucaia, CE', neighborhood: 'Cumbuco', locationTitle: 'Cumbuco - Caucaia/CE',
     address: 'Rua Lagoa das Rosas, S/N, Gleba CP7, Cumbuco, Caucaia/CE',
@@ -2759,7 +2925,7 @@ function DevelopmentDetail({ development }) {
   const touchStartX = useRef(null);
   const activeImages = activeLightbox ? lightboxGroups[activeLightbox.group] : [];
   const activeImage = activeLightbox ? activeImages[activeLightbox.index] : null;
-  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'beach-class-cumbuco', 'beach-class-iracema'].includes(development?.slug);
+  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'beach-class-manguinhos', 'beach-class-cumbuco', 'beach-class-iracema'].includes(development?.slug);
   const visibleGalleryImages = lightboxGroups.gallery.slice(0, 5);
   const remainingGalleryCount = Math.max(0, lightboxGroups.gallery.length - visibleGalleryImages.length);
   const visibleFloorPlans = showAllOrganizedImages
