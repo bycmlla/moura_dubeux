@@ -44,5 +44,10 @@
   },
   "devDependencies": {
     "gh-pages": "^6.3.0"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^.+/Empreendimentos/.+\\.(png|jpe?g|webp|gif|mp4)$": "<rootDir>/config/jest/assetStub.js"
+    }
   }
 }

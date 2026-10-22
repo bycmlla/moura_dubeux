@@ -1,0 +1,40 @@
+﻿pasta;arquivo;pagina_pdf;descricao;recorte
+01_Capa;capa_fachada_mirante_ruy_carneiro.png;3;Perspectiva principal da fachada, Avenida Ruy Carneiro, Jardim Luna;recorte de imagem da pagina
+02_Imagens_Empreendimento;fachada_torre_vista_aerea_avenida_ruy_carneiro.png;3;Fachada da torre em perspectiva aérea;recorte de imagem da pagina
+02_Imagens_Empreendimento;piscina_adulto_e_deck.png;11;Piscina e deck com paisagismo;recorte de imagem da pagina
+02_Imagens_Empreendimento;area_de_lazer_externa_vista_aerea.png;12;Lazer externo junto ao prédio;recorte de imagem da pagina
+02_Imagens_Empreendimento;espaco_gourmet_externo.png;13;Área gourmet externa coberta;recorte de imagem da pagina
+02_Imagens_Empreendimento;hidrogarden_e_espaco_de_relaxamento.png;14;Hidrogarden e deck;recorte de imagem da pagina
+02_Imagens_Empreendimento;salao_gourmet_interno.png;15;Salão gourmet decorado;recorte de imagem da pagina
+02_Imagens_Empreendimento;salao_de_festas_com_vista_panoramica.png;16;Salão de festas decorado com vista panorâmica;recorte de imagem da pagina
+02_Imagens_Empreendimento;hall_social_mirante_leste.png;17;Hall de acesso com estar, elevadores e paisagismo;recorte de imagem da pagina
+02_Imagens_Empreendimento;coworking_sala_de_trabalho.png;17;Ambiente coworking;recorte de imagem da pagina
+02_Imagens_Empreendimento;sports_bar_espaco_de_jogos.png;17;Sports bar com lounge de TV e mesa de jogos;recorte de imagem da pagina
+02_Imagens_Empreendimento;academia_equipada_com_vista.png;18;Academia com equipamentos e vista da cidade;recorte de imagem da pagina
+02_Imagens_Empreendimento;brinquedoteca_com_vista_panorama.png;19;Brinquedoteca infantil com piscina de bolinhas;recorte de imagem da pagina
+02_Imagens_Empreendimento;lounge_externo_descanso.png;20;Lounge externo mobiliado;recorte de imagem da pagina
+02_Imagens_Empreendimento;playground_bosque_do_mirante.png;20;Playground e bosque do Mirante;recorte de imagem da pagina
+02_Imagens_Empreendimento;apartamento_122m2_varanda_gourmet.png;25;Varanda gourmet decorada do apartamento de 122 m²;recorte de imagem da pagina
+02_Imagens_Empreendimento;apartamento_122m2_sala_integrada.png;26;Sala de estar e jantar integrada do apartamento de 122 m²;recorte de imagem da pagina
+02_Imagens_Empreendimento;apartamento_122m2_suite_master.png;27;Suíte master decorada do apartamento de 122 m²;recorte de imagem da pagina
+02_Imagens_Empreendimento;apartamento_122m2_suite.png;28;Outra suíte decorada do apartamento de 122 m²;recorte de imagem da pagina
+02_Imagens_Empreendimento;apartamentos_96_101m2_suite_master.png;30;Suíte master - referências de apartamentos de 96 e 101 m²;recorte de imagem da pagina
+02_Imagens_Empreendimento;apartamentos_96_101m2_quarto.png;31;Quarto - referências de apartamentos de 96 e 101 m²;recorte de imagem da pagina
+02_Imagens_Empreendimento;apartamentos_96_101m2_varanda_gourmet.png;32;Varanda gourmet - referências de apartamentos de 96 e 101 m²;recorte de imagem da pagina
+02_Imagens_Empreendimento;apartamentos_96_101m2_sala_integrada.png;33;Sala de estar e jantar - referências de apartamentos de 96 e 101 m²;recorte de imagem da pagina
+02_Imagens_Empreendimento;alameda_ruy_carneiro_praca_ajardinada.png;37;Alameda Ruy Carneiro com paisagismo e rampas;recorte de imagem da pagina
+02_Imagens_Empreendimento;alameda_ruy_carneiro_fachada_terreo.png;37;Comércio e entrada do empreendimento junto à alameda;recorte de imagem da pagina
+03_Plantas/01_Apartamentos_Isoladas;torre_mirante_sul_planta_122m2_3_suites_dependencia_2_vagas_isolada.png;24;"Planta isolada, Torre Mirante Sul: 122 m²; 3 suítes + dependência; 2 vagas";recorte de imagem da pagina
+03_Plantas/02_Apartamentos_Com_Legendas;torre_mirante_sul_planta_122m2_3_suites_dependencia_2_vagas_com_legendas.png;24;"Planta e legenda da página original, Torre Mirante Sul: 122 m²; 3 suítes + dependência; 2 vagas";imagem da pagina
+03_Plantas/01_Apartamentos_Isoladas;torre_mirante_sul_planta_101m2_2_suites_1_quarto_2_vagas_isolada.png;29;"Planta isolada, Torre Mirante Sul: 101 m²; 2 suítes + 1 quarto; 2 vagas";recorte de imagem da pagina
+03_Plantas/02_Apartamentos_Com_Legendas;torre_mirante_sul_planta_101m2_2_suites_1_quarto_2_vagas_com_legendas.png;29;"Planta e legenda da página original, Torre Mirante Sul: 101 m²; 2 suítes + 1 quarto; 2 vagas";imagem da pagina
+03_Plantas/01_Apartamentos_Isoladas;torre_mirante_leste_planta_96m2_1_suite_2_quartos_2_vagas_isolada.png;34;"Planta isolada, Torre Mirante Leste: 96 m²; 1 suíte + 2 quartos; 2 vagas";recorte de imagem da pagina
+03_Plantas/02_Apartamentos_Com_Legendas;torre_mirante_leste_planta_96m2_1_suite_2_quartos_2_vagas_com_legendas.png;34;"Planta e legenda da página original, Torre Mirante Leste: 96 m²; 1 suíte + 2 quartos; 2 vagas";imagem da pagina
+03_Plantas/01_Apartamentos_Isoladas;torre_mirante_leste_planta_121m2_3_suites_dependencia_2_vagas_isolada.png;35;"Planta isolada, Torre Mirante Leste: 121 m²; 3 suítes + dependência; 2 vagas";recorte de imagem da pagina
+03_Plantas/02_Apartamentos_Com_Legendas;torre_mirante_leste_planta_121m2_3_suites_dependencia_2_vagas_com_legendas.png;35;"Planta e legenda da página original, Torre Mirante Leste: 121 m²; 3 suítes + dependência; 2 vagas";imagem da pagina
+03_Plantas/03_Implantacao_e_Pavimentos;implantacao_geral_empreendimento.png;8;Implantação geral da edificação e acesso pela Av. Senador Ruy Carneiro;imagem da pagina
+03_Plantas/03_Implantacao_e_Pavimentos;implantacao_lazer_areas_comuns.png;10;Planta de lazer com lista numerada dos ambientes;imagem da pagina
+03_Plantas/03_Implantacao_e_Pavimentos;implantacao_torres_mirante_sul_e_leste.png;22;Implantação das torres Mirante Sul e Mirante Leste;imagem da pagina
+03_Plantas/03_Implantacao_e_Pavimentos;pavimento_tipo_96_101_121_122m2.png;23;Pavimento tipo com posições dos apartamentos;imagem da pagina
+04_Localizacao;vista_aerea_orla_joao_pessoa.png;1;Vista panorâmica urbana e orla de João Pessoa (capa do material);recorte de imagem da pagina
+04_Localizacao;mapa_localizacao_servicos_proximos.png;4;Mapa ilustrado de localização e pontos de interesse;imagem da pagina

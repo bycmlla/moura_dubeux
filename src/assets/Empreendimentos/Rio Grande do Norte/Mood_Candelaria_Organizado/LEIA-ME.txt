@@ -1,0 +1,12 @@
+MOOD CANDELÁRIA - PACOTE PARA CADASTRO NO SITE
+
+01_Capa: imagem sugerida para destaque da página do empreendimento.
+02_Imagens_Empreendimento: importar SOMENTE esta pasta para a galeria comercial. Não há plantas aqui.
+03_Plantas_e_Implantacao: desenhos das unidades, pavimentos e implantações. Subpastas incluem versões recortadas e páginas completas de referência.
+04_Localizacao_e_Entorno: mapas e imagens com indicadores de localização, não confundir com perspectivas arquitetônicas.
+05_Ficha_Tecnica_e_Referencias: páginas de informações para consulta.
+
+informacoes_empreendimento.txt: texto organizado a partir do book.
+indice_imagens.csv: identificação de cada PNG por página, descrição e origem.
+
+As perspectivas artísticas são ilustrativas. Algumas imagens de contexto e referências técnicas contêm textos/gráficos originais do PDF. Os PNGs são extraídos do material recebido, sem gerar imagens por IA.

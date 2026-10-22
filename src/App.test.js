@@ -857,6 +857,156 @@ test('renders Beach Class Porto das Dunas perspectives, all floor plans and loca
   expect(screen.getByRole('button', { name: /ampliar Mapa da região de Porto das Dunas e Fortaleza/i })).toBeInTheDocument();
 });
 
+test('lists Mirage under Pernambuco', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Pernambuco' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Pernambuco' }));
+
+  expect(screen.getByRole('heading', { name: 'Mirage', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Mirage.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/mirage');
+});
+
+test('renders Mirage perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/mirage';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Mirage', level: 1 })).toBeInTheDocument();
+  expect(screen.getAllByText(/141 m²/).length).toBeGreaterThan(0);
+  expect(screen.getAllByText(/2,30 m/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+21 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(16);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Estrada%20do%20Arraial'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Mirage - perspectiva noturna da torre/i }));
+  expect(screen.getByText('1 / 26')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva da suíte master do apartamento/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Opção com quarto de serviço e legenda/i }));
+  expect(screen.getByText('16 / 16')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  expect(screen.getByRole('button', { name: /ampliar Vista aérea urbana do entorno do Mirage/i })).toBeInTheDocument();
+});
+
+test('lists Mirante Ruy Carneiro under Paraíba', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Paraíba' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Paraíba' }));
+
+  expect(window.sessionStorage.getItem('selectedState')).toBe('PB');
+  expect(screen.getByRole('heading', { name: 'Mirante Ruy Carneiro', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Mirante Ruy Carneiro.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/mirante-ruy-carneiro');
+  expect(screen.queryByRole('heading', { name: 'Elleve Horto' })).not.toBeInTheDocument();
+});
+
+test('renders Mirante Ruy Carneiro perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/mirante-ruy-carneiro';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Mirante Ruy Carneiro', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('6.779,12 m²')).toBeInTheDocument();
+  expect(screen.getAllByText(/2 vagas por apartamento/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+19 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(12);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Ruy%20Carneiro'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Mirante Ruy Carneiro - perspectiva aérea da torre na Avenida Ruy Carneiro/i }));
+  expect(screen.getByText('1 / 24')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva do quarto dos apartamentos de 96 e 101 m²/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Mirante Leste - 121 m² com legendas/i }));
+  expect(screen.getByText('12 / 12')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  expect(screen.getByRole('button', { name: /ampliar Mapa de localização e serviços próximos/i })).toBeInTheDocument();
+});
+
+test('lists Mood Candelária under Rio Grande do Norte with the other Natal projects', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Rio Grande do Norte' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Rio Grande do Norte' }));
+
+  expect(screen.getByRole('heading', { name: 'Mood Candelária', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Beach Class Natal', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Mood Candelária.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/mood-candelaria');
+});
+
+test('renders Mood Candelária perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/mood-candelaria';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Mood Candelária', level: 1 })).toBeInTheDocument();
+  expect(screen.getAllByText(/278 vagas/).length).toBeGreaterThan(0);
+  expect(screen.getAllByText(/70,05 m²/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+22 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(16);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Natal%20RN'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Mood Candelária - perspectiva da fachada das duas torres/i }));
+  expect(screen.getByText('1 / 27')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva da área externa do apartamento Garden/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Apartamento Comfort 70,05 m² .página de referência/i }));
+  expect(screen.getByText('16 / 16')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  expect(screen.getByRole('button', { name: /ampliar Mapa das ruas do entorno/i })).toBeInTheDocument();
+});
+
+test('lists Mood Jacarecica under Alagoas with the other Alagoas projects', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Alagoas' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Alagoas' }));
+
+  expect(window.sessionStorage.getItem('selectedState')).toBe('AL');
+  expect(screen.getByRole('heading', { name: 'Mood Jacarecica', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Beach Class Milagres', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Mood Jacarecica.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/mood-jacarecica');
+  expect(screen.queryByRole('heading', { name: 'Mood Candelária' })).not.toBeInTheDocument();
+});
+
+test('renders Mood Jacarecica perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/mood-jacarecica';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Mood Jacarecica', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('8.949,20 m²')).toBeInTheDocument();
+  expect(screen.getAllByText(/323 vagas/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+25 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(16);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Mood%20Jacarecica'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Mood Jacarecica - perspectiva da fachada das duas torres/i }));
+  expect(screen.getByText('1 / 30')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva do Garden do apartamento Comfort de 65 m²/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Apartamento Comfort 65 m² com legendas/i }));
+  expect(screen.getByText('16 / 16')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  expect(screen.getByRole('button', { name: /ampliar Mapa de acessos e localização de Jacarecica/i })).toBeInTheDocument();
+});
+
 test('renders Arthur Bruno Schwambach photos and floor plans in their own sections', () => {
   window.location.hash = '#empreendimento/arthur-bruno-schwambach';
   render(<App />);

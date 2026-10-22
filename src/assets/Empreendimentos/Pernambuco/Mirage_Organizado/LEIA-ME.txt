@@ -1,0 +1,17 @@
+PACOTE DE IMAGENS E INFORMAÇÕES — MIRAGE
+
+Este ZIP foi preparado a partir do arquivo Mirage.pdf (40 páginas).
+Todas as imagens são PNGs individuais com nomes descritivos.
+
+IMPORTANTE: a pasta 02_Imagens_Empreendimento NÃO contém plantas ou implantações.
+As plantas estão somente na pasta 03_Plantas_e_Implantacao.
+Imagens externas usadas para ilustrar tecnologias estão na pasta 05.
+
+A pasta 03 contém desenhos separados do próprio PDF e páginas de referência com
+as legendas de origem. As versões de referência não devem entrar na galeria de fotos.
+
+Para cadastro no site, utilize 01_Capa para a imagem destacada, 02_Imagens_Empreendimento
+para a galeria, e 03_Plantas_e_Implantacao para a seção independente de plantas.
+
+Leia informacoes_empreendimento.txt antes de publicar, inclusive as ressalvas sobre
+conteúdos ilustrativos e informações não confirmadas no book.

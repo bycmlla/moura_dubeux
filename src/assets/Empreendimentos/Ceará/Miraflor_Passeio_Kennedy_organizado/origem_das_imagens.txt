@@ -1,0 +1,51 @@
+01_Capa/capa_miraflor_fachada_duas_torres.png | pagina 4 | Imagem de capa: fachada das duas torres do Miraflor ao entardecer | 1717x1320px
+02_Imagens_Empreendimento/portaria_acesso_principal.png | pagina 5 | Portaria e acesso principal entre os blocos | 2300x1185px
+02_Imagens_Empreendimento/fachada_principal_duas_torres.png | pagina 4 | Fachada principal das duas torres | 1717x1320px
+02_Imagens_Empreendimento/piscina_vista_aerea_lazer.png | pagina 7 | Piscinas, deck e lazer vistos de cima | 1855x1048px
+02_Imagens_Empreendimento/piscina_adulto_com_prainha.png | pagina 8 | Piscina adulto com prainha e espreguiçadeiras | 2667x1500px
+02_Imagens_Empreendimento/piscina_infantil.png | pagina 9 | Piscina infantil | 2667x1500px
+02_Imagens_Empreendimento/churrasqueiras_proximas_piscina.png | pagina 10 | Espaços de churrasqueira junto à piscina | 2667x1500px
+02_Imagens_Empreendimento/caminho_acesso_salao_festas.png | pagina 11 | Caminho arborizado e bloco do salão de festas | 2667x1500px
+02_Imagens_Empreendimento/playground_ao_ar_livre.png | pagina 12 | Playground com brinquedos infantis | 2667x1500px
+02_Imagens_Empreendimento/pet_place.png | pagina 13 | Espaço para animais de estimação | 2667x1500px
+02_Imagens_Empreendimento/quadra_poliesportiva.png | pagina 14 | Quadra poliesportiva | 2667x1500px
+02_Imagens_Empreendimento/hall_social.png | pagina 15 | Hall social mobiliado | 1886x1504px
+02_Imagens_Empreendimento/academia.png | pagina 16 | Academia com área de musculação | 2667x1500px
+02_Imagens_Empreendimento/brinquedoteca.png | pagina 17 | Brinquedoteca | 2667x1500px
+02_Imagens_Empreendimento/salao_de_festas_interno.png | pagina 18 | Salão de festas interno | 2667x1500px
+02_Imagens_Empreendimento/salao_de_jogos.png | pagina 19 | Salão de jogos com mesa de sinuca | 2667x1502px
+02_Imagens_Empreendimento/coworking_sala_estudos.png | pagina 20 | Coworking e sala de estudos | 2667x1500px
+02_Imagens_Empreendimento/meeting_room_reunioes.png | pagina 21 | Sala de reuniões / meeting room | 2667x1500px
+02_Imagens_Empreendimento/lavanderia_compartilhada.png | pagina 22 | Lavanderia compartilhada | 2247x1504px
+02_Imagens_Empreendimento/apartamento_65m2_sala_estar_jantar.png | pagina 29 | Sala de estar e jantar do apartamento 65,57 m² | 2001x1501px
+02_Imagens_Empreendimento/apartamento_65m2_varanda_gourmet.png | pagina 30 | Varanda gourmet do apartamento 65,57 m² | 2001x1501px
+02_Imagens_Empreendimento/apartamento_65m2_suite_master.png | pagina 31 | Suíte master do apartamento 65,57 m² | 2341x1504px
+02_Imagens_Empreendimento/apartamento_65m2_quarto_1.png | pagina 32 | Quarto do apartamento 65,57 m² | 2102x1502px
+02_Imagens_Empreendimento/apartamento_53m2_sala_estar_jantar.png | pagina 34 | Sala de estar e jantar do apartamento 53,43 m² | 1996x1497px
+02_Imagens_Empreendimento/apartamento_53m2_varanda_gourmet.png | pagina 35 | Varanda gourmet do apartamento 53,43 m² | 2001x1501px
+02_Imagens_Empreendimento/apartamento_53m2_suite_master.png | pagina 36 | Suíte master do apartamento 53,43 m² | 2001x1501px
+02_Imagens_Empreendimento/apartamento_53m2_quarto.png | pagina 37 | Quarto do apartamento 53,43 m² | 1633x1504px
+02_Imagens_Empreendimento/apartamento_53m2_cozinha_sala.png | pagina 38 | Cozinha integrada à sala do apartamento 53,43 m² | 2001x1501px
+02_Imagens_Empreendimento/apartamento_garden_53m2_area_externa.png | pagina 42 | Ambiente externo do apartamento garden 53,43 m² | 2667x1500px
+02_Imagens_Empreendimento/apartamento_garden_65m2_area_externa.png | pagina 43 | Ambiente externo do apartamento garden 65,57 m² | 2667x1500px
+04_Localizacao/localizacao_aerea_referencia_bairro_com_shoppings.png | pagina 3 | Vista aérea do entorno com marcações dos centros comerciais | 1815x990px
+04_Localizacao/localizacao_aerea_miraflor_proximidade_shoppings.png | pagina 3 | Vista aérea aproximada da implantação no bairro Presidente Kennedy | 1815x990px
+03_Plantas/01_Plantas_Isoladas/implantacao_geral_empreendimento.png | pagina 23 | Implantação geral do terreno, duas torres e áreas comuns | 2013x1027px
+03_Plantas/01_Plantas_Isoladas/implantacao_pavimento_terreo_lazer.png | pagina 24 | Implantação do pavimento térreo e equipamentos de lazer | 1456x1247px
+03_Plantas/01_Plantas_Isoladas/planta_academia.png | pagina 25 | Planta da academia | 1126x1074px
+03_Plantas/01_Plantas_Isoladas/planta_salao_festas.png | pagina 25 | Planta do salão de festas | 1126x1074px
+03_Plantas/01_Plantas_Isoladas/planta_pavimento_tipo_torre_01.png | pagina 27 | Planta geral do pavimento tipo, Torre 1 | 2096x1038px
+03_Plantas/01_Plantas_Isoladas/planta_pavimento_tipo_torre_02.png | pagina 28 | Planta geral do pavimento tipo, Torre 2 | 2096x1038px
+03_Plantas/01_Plantas_Isoladas/planta_apartamento_65_57m2_3_quartos.png | pagina 33 | Planta do apartamento 65,57 m² com 3 quartos | 1438x1080px
+03_Plantas/01_Plantas_Isoladas/planta_apartamento_53_43m2_2_quartos.png | pagina 39 | Planta do apartamento 53,43 m² com 2 quartos | 1442x1018px
+03_Plantas/01_Plantas_Isoladas/planta_terreo_garden_torre_01.png | pagina 40 | Planta térrea da Torre 1 com apartamentos garden | 1666x999px
+03_Plantas/01_Plantas_Isoladas/planta_terreo_garden_torre_02.png | pagina 41 | Planta térrea da Torre 2 com apartamentos garden | 1659x995px
+03_Plantas/02_Plantas_Com_Legendas/implantacao_geral_legendas.png | pagina 23 | Implantação geral com localização no terreno | 2400x1350px
+03_Plantas/02_Plantas_Com_Legendas/pavimento_terreo_legendas.png | pagina 24 | Pavimento térreo com 21 itens de lazer e apoio identificados | 2400x1350px
+03_Plantas/02_Plantas_Com_Legendas/academia_e_salao_festas_legendas.png | pagina 25 | Plantas da academia e do salão de festas com títulos | 2400x1350px
+03_Plantas/02_Plantas_Com_Legendas/pavimento_tipo_torre_01_legendas.png | pagina 27 | Pavimento tipo da Torre 1 com orientação do terreno | 2400x1350px
+03_Plantas/02_Plantas_Com_Legendas/pavimento_tipo_torre_02_legendas.png | pagina 28 | Pavimento tipo da Torre 2 com orientação do terreno | 2400x1350px
+03_Plantas/02_Plantas_Com_Legendas/apartamento_65_57m2_legendas.png | pagina 33 | Apartamento 65,57 m² com indicações dos espaços | 2400x1350px
+03_Plantas/02_Plantas_Com_Legendas/apartamento_53_43m2_legendas.png | pagina 39 | Apartamento 53,43 m² com indicações dos espaços | 2400x1350px
+03_Plantas/02_Plantas_Com_Legendas/terreo_garden_torre_01_legendas.png | pagina 40 | Térreo da Torre 1 com identificação das unidades garden | 2400x1350px
+03_Plantas/02_Plantas_Com_Legendas/terreo_garden_torre_02_legendas.png | pagina 41 | Térreo da Torre 2 com identificação das unidades garden | 2400x1350px

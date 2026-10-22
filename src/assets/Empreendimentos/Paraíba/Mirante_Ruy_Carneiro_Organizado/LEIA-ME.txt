@@ -1,0 +1,14 @@
+MIRANTE RUY CARNEIRO - PACOTE DE CONTEÚDO
+
+01_Capa: melhor perspectiva de fachada escolhida para imagem de capa.
+02_Imagens_Empreendimento: fachadas e ambientes renderizados para galeria; sem plantas.
+03_Plantas/01_Apartamentos_Isoladas: desenhos de apartamentos recortados das páginas.
+03_Plantas/02_Apartamentos_Com_Legendas: as páginas de plantas completas, com tipologia e metragem.
+03_Plantas/03_Implantacao_e_Pavimentos: implantação geral, lazer, torres e pavimento tipo.
+04_Localizacao: mapa e imagem urbana de referência, separados das perspectivas.
+informacoes_empreendimento.txt: descrição, localização, tipologias e ficha técnica.
+origem_das_imagens.csv: rastreabilidade por página e nome.
+
+As plantas nunca estão em 02_Imagens_Empreendimento.
+Fotografias retiradas de páginas rasterizadas do PDF, com recortes para minimizar legendas.
+Não confundir renders/ilustrações com fotos de obra pronta.
