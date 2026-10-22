@@ -857,6 +857,42 @@ test('renders Beach Class Porto das Dunas perspectives, all floor plans and loca
   expect(screen.getByRole('button', { name: /ampliar Mapa da região de Porto das Dunas e Fortaleza/i })).toBeInTheDocument();
 });
 
+test('lists Miraflor - Passeio Kennedy under Ceará', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Ceará' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Ceará' }));
+
+  expect(screen.getByRole('heading', { name: 'Miraflor - Passeio Kennedy', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Miraflor - Passeio Kennedy.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/miraflor-passeio-kennedy');
+});
+
+test('renders Miraflor - Passeio Kennedy perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/miraflor-passeio-kennedy';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Miraflor - Passeio Kennedy', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('6.819,12 m²')).toBeInTheDocument();
+  expect(screen.getAllByText(/300 vagas/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+24 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(19);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Presidente%20Kennedy'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Perspectiva: fachada principal das duas torres/i }));
+  expect(screen.getByText('1 / 29')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /ambiente externo do apartamento garden 65,57 m²/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Térreo da Torre 2 com identificação das unidades garden/i }));
+  expect(screen.getByText('19 / 19')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  expect(screen.getByRole('button', { name: /ampliar Vista aérea do entorno com marcações dos centros comerciais/i })).toBeInTheDocument();
+});
+
 test('lists Mirage under Pernambuco', async () => {
   render(<App />);
   fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
