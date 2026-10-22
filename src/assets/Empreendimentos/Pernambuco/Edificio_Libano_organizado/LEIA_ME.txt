@@ -1,0 +1,16 @@
+EDIFÍCIO LÍBANO — PACOTE DE IMAGENS E INFORMAÇÕES
+
+01_Capa: foto escolhida para uso como capa / destaque do empreendimento.
+02_Imagens_Empreendimento: só perspectivas e ambientes decorados (nenhuma planta).
+  01_Fachadas_e_Exterior: fachada, acesso e cenas externas.
+  02_Areas_Comuns_e_Lazer: coliving, minimarket, fitness, rooftop e piscina.
+  03_Apartamentos_Decorados: perspectivas internas por terminação.
+03_Plantas: plantas técnicas separadas das perspectivas do empreendimento.
+  Plantas_Recortadas: plantas isoladas para a ficha do apartamento.
+  Plantas_Com_Legendas_Originais: páginas originais para conferir as metragens.
+04_Localizacao: imagem aérea com referências do entorno.
+
+informacoes_empreendimento.txt: texto para cadastro de imóveis.
+origem_das_imagens.csv: índice de arquivos, página de origem e resolução.
+
+Todo o material de imagem neste ZIP é PNG. As imagens foram recortadas do book.
