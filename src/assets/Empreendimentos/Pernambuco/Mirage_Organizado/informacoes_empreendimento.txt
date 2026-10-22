@@ -1,0 +1,64 @@
+MIRAGE — INFORMAÇÕES DO EMPREENDIMENTO
+Fonte: book digital MIRAGE, da Moura Dubeux, 40 páginas.
+Conteúdo resumido e organizado para cadastro em site imobiliário.
+
+1. IDENTIFICAÇÃO E LOCALIZAÇÃO
+Nome comercial: Mirage.
+Incorporadora / marca exibida no book: Moura Dubeux.
+Endereço indicado: Estrada do Arraial, nº 4700.
+Observação: o book fornecido não apresenta explicitamente bairro, CEP ou município nas páginas de informação; conferir esses dados antes de publicar um endereço completo.
+
+2. DESCRIÇÃO COMERCIAL
+Empreendimento residencial com torre de fachada curva e vistas panorâmicas, com proposta de modernidade, conforto, lazer e convivência. O projeto apresenta rooftop com piscina aquecida e borda infinita, heliponto, wine deck, fitness, áreas de lazer em diferentes pavimentos e apartamentos com varanda gourmet.
+
+3. APARTAMENTOS
+Área informada: 141 m².
+Tipologia: apartamento com 3 suítes.
+Vagas por apartamento: 2.
+Configuração: 2 apartamentos por andar.
+Ambientes ilustrados: cozinha integrada, living/sala de estar, varanda gourmet e suíte master.
+Plantas: pavimento tipo com terminações 1 e 2; apartamento tipo em perspectiva 3D; opção de planta com quarto de serviço.
+IMPORTANTE: a planta opcional com quarto de serviço é uma alternativa apresentada no material, não deve ser anunciada como configuração obrigatória de todas as unidades.
+
+4. ÁREAS COMUNS E LAZER
+Lazer distribuído em quatro pavimentos, segundo o book.
+Rooftop: piscina com borda infinita e aquecida, prainha, wine deck e fitness; heliponto ilustrado na apresentação da cobertura.
+Pavimento de lazer: piscina adulto, piscina infantil, deck, playground, Praça do Descanso, Praça do Arraial, terraço coberto e espaço kids.
+Mezanino: salão de festas, espaço gourmet (com possibilidade de integração ao salão) e vestiário.
+Térreo: hall social, coworking e sala de videoconferência, pet place, pet wash, jardim com praças e pomar, acesso de pedestres, acesso de veículos, antecâmara de segurança com estar, estacionamento para visitantes.
+Outros recursos ilustrados: elevadores panorâmicos, espaço e-commerce/delivery.
+
+5. TECNOLOGIA E DIFERENCIAIS
+- Irrigação inteligente.
+- Fechadura eletrônica nas portas sociais dos apartamentos.
+- Varanda gourmet.
+- Ponto para carro elétrico.
+- Áreas comuns mobiliadas, equipadas e automatizadas.
+- Teto verde.
+- Estacionamento para visitantes.
+- Vagas com largura anunciada de 2,30 m.
+- Alojamento para funcionários.
+- Infraestrutura para portaria convencional ou remota.
+- Piscina do rooftop aquecida, com borda infinita.
+- Rooftop com wine deck, fitness e piscina.
+
+6. EQUIPE DE PROJETO (PÁGINA 39)
+Projeto de arquitetura: Jerônimo da Cunha Lima — JCL Arquitetos.
+Projeto de ambientação: João Vasconcelos e Luiz Dubeux — Dubeux Vasconcelos Arquitetura.
+Projeto paisagístico: Márcia Lima e Sara Pernambuco — ML Arquitetura e Paisagismo.
+
+7. INFORMAÇÕES NÃO CONFIRMADAS NO BOOK
+O material fornecido não especifica, de forma inequívoca, o número total de unidades, o número total de pavimentos, a previsão de entrega, o preço das unidades, o registro de incorporação ou o CEP. Não preencher esses campos sem confirmação documental.
+
+8. ORIGEM E DIREITOS DAS IMAGENS
+As imagens deste pacote foram extraídas do PDF original sem geração por inteligência artificial. As perspectivas de arquitetura e interiores são representações ilustrativas do projeto, não fotografias de construção concluída.
+Aviso do material (página 40): as características e imagens possuem caráter ilustrativo e promocional, podendo sofrer alterações em cor, textura, acabamento e composição; móveis, utensílios, equipamentos e decoração apresentados não integram necessariamente a unidade comercializada.
+
+9. ORGANIZAÇÃO DO PACOTE
+01_Capa: imagem de destaque escolhida para a página do empreendimento.
+02_Imagens_Empreendimento: SOMENTE perspectivas da fachada, lazer, áreas comuns e interiores — SEM plantas, mapas ou imagens meramente ilustrativas de itens técnicos.
+03_Plantas_e_Implantacao: desenhos das unidades, plantas dos pavimentos, implantação e versões das páginas com legenda.
+04_Localizacao_e_Entorno: fotografia de contexto urbano, não se trata da obra.
+05_Imagens_Ilustrativas_Diferenciais: fotografias ilustrativas de recursos tecnológicos, separadas da galeria do empreendimento.
+indice_imagens.csv: lista de arquivos, página de origem, dimensões e descrição.
+LEIA-ME.txt: instruções de uso.

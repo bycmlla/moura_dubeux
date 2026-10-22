@@ -1,0 +1,12 @@
+MIRAFLOR - PACOTE DE IMAGENS DO EMPREENDIMENTO
+
+As imagens do empreendimento NÃO incluem plantas. As plantas ficam exclusivamente em 03_Plantas.
+
+01_Capa: fachada selecionada para capa.
+02_Imagens_Empreendimento: imagens do empreendimento e ambientes.
+03_Plantas/01_Plantas_Isoladas: plantas sem a diagramação do catálogo.
+03_Plantas/02_Plantas_Com_Legendas: versões com textos de referência.
+04_Localizacao: fotos aéreas / referências geográficas.
+
+Consulte informacoes_empreendimento.txt para conteúdo de cadastro e origem_das_imagens.csv para localizar a página do PDF.
+Os ambientes exibidos são perspectivas ilustrativas, sujeitas às observações do catálogo.

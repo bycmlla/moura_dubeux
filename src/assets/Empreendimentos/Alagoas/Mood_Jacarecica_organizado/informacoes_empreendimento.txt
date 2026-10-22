@@ -1,0 +1,107 @@
+MOOD JACARECICA - INFORMACOES DO EMPREENDIMENTO
+===================================================
+Fonte: catálogo "MOOD JACARECICA.pdf" fornecido pelo usuário (49 páginas).
+Este arquivo foi organizado a partir dos dados expressos no catálogo, sem consulta a preços ou disponibilidade.
+
+1. IDENTIFICACAO E LOCALIZACAO
+--------------------------------
+Nome: Mood Jacarecica
+Marca/Grupo: Mood / MDNE. O material informa que Mood e Moura Dubeux integram o grupo MDNE.
+Endereço: Avenida Gal. Luiz de França Albuquerque, nº 6965 (antiga AL-101 Norte), Jacarecica, Maceió - AL.
+Bairro: Jacarecica
+Cidade/UF: Maceió / AL
+Referências: proximidade da Praia de Jacarecica e da Avenida Litorânea.
+
+2. DESCRICAO SUGERIDA PARA SITE
+--------------------------------
+O Mood Jacarecica é um empreendimento residencial com duas torres no bairro Jacarecica, em Maceió, pensado para unir conforto, praticidade e contato com a natureza. Oferece apartamentos com dois ou três quartos, incluindo opções térreas com garden, e um conjunto de espaços para lazer, convivência e serviços do dia a dia. Entre os ambientes estão piscinas, salão de festas, academia, coworking, áreas gourmet, quadra esportiva, brinquedoteca, playground e espaços para pets. O projeto valoriza o paisagismo biofílico e a proximidade com a orla.
+
+3. FICHA TECNICA (paginas 9, 28 a 33 e 47)
+-------------------------------------------
+Área do terreno: 8.949,20 m²
+Número de torres: 2 (Torre A e Torre B)
+Total de unidades privativas: 316
+Estacionamento: 323 vagas, sendo 6 exclusivas para uso PCD
+Cada apartamento: 1 vaga de garagem, segundo o material
+Torre A: 19 pavimentos tipo com 8 unidades por andar, mais térreo com 6 unidades garden
+Torre B: 19 pavimentos tipo com 8 unidades por andar, mais térreo com 6 unidades garden
+Total de unidades tipo: 304 (152 por torre)
+Total de unidades garden no térreo: 12 (6 por torre)
+Estacionamento em subsolo e pavimentos vazados 1 a 4, além de áreas no térreo, conforme ficha técnica.
+
+4. TIPOLOGIAS E AREAS (paginas 28 a 44)
+--------------------------------------
+Apartamento Smart: 2 quartos, incluindo 1 suíte, 1 vaga; anunciado como 53 m².
+A planta de apartamento identifica a área de 53,65 m².
+Apartamento Comfort: 3 quartos, incluindo 1 suíte, 1 vaga; anunciado como 65 m².
+A planta de apartamento identifica a área de 65,82 m².
+
+Pavimentos tipo, ambas as torres:
+- Colunas 03, 04, 05 e 06: apartamentos de 53,65 m²
+- Colunas 01, 02, 07 e 08: apartamentos de 65,82 m²
+
+Exemplos de composição dos gardens apresentados nas plantas do térreo:
+- 53,65 m² de área do apartamento + 26,76 m² de garden
+- 65,82 m² de área do apartamento + 23,86 m² de garden
+- 66,45 m² de área do apartamento + 23,97 m² de garden
+As áreas de garden variam conforme a unidade; consultar a planta e a documentação contratual de cada apartamento.
+
+5. AREAS COMUNS E LAZER (paginas 10 a 27 e 47)
+----------------------------------------------
+- Piscina adulto
+- Piscina infantil
+- Gourmet piscina / espaço gourmet integrado à piscina
+- Gourmet interno
+- Salão de festas
+- Terraço descoberto
+- Lounge
+- Academia e fitness externo
+- Quadra poliesportiva e apoio gourmet à quadra
+- Playground
+- Brinquedoteca
+- Coworking
+- Lavanderia compartilhada
+- Espaço delivery
+- Mini market
+- Bicicletário
+- Pet place
+- Pet care
+- Hall de acesso às torres
+- Guarita com eclusa e controle de acesso
+
+Distribuição informada na ficha técnica:
+- Sob a projeção da Torre A: academia, pet care, mini market.
+- Sob a projeção da Torre B: coworking, gourmet interno, brinquedoteca, delivery.
+- Demais itens de lazer e serviços distribuídos pelo térreo.
+
+6. PROJETO E DIFERENCIAIS
+--------------------------
+- Projeto de arquitetura: Attic Arquitetura
+- Paisagismo: Takeda Design
+- Ambientação de áreas comuns: TODOS Arquitetura de Histórias
+- Paisagismo biofílico e integração com o entorno
+- Espaços para guarda e recebimento de delivery
+- Guarita com controle de acesso
+- Estrutura para mini market e serviços de conveniência
+- Infraestrutura para bancada gourmet nas varandas
+
+7. OBSERVACOES IMPORTANTES DO MATERIAL (paginas 10, 33, 39, 47 e 49)
+------------------------------------------------------------------------
+- O catálogo identifica parte do conteúdo como MATERIAL PRELIMINAR SUJEITO A ALTERAÇÃO.
+- Imagens e perspectivas são ilustrativas e podem sofrer alterações de cores, acabamentos e composição.
+- Bancadas e metais de varanda gourmet NÃO estão incluídos na entrega padrão; são previstas infraestruturas de água, esgoto e elétrica, conforme o memorial e contrato.
+- Paredes de concreto não podem ser modificadas.
+- Há infraestrutura seca para ar-condicionado nos quartos das unidades privativas.
+- A implantação e a operação dos serviços de mini market e lavanderia são responsabilidades do condomínio/gestora após a disponibilização dos espaços pela Mood.
+- As áreas e características finais devem ser conferidas no memorial descritivo e contratos.
+- O catálogo não informa preço, previsão de entrega, disponibilidade em tempo real ou registro de incorporação neste material.
+
+8. USO DAS IMAGENS
+-------------------
+01_Capa: fachada selecionada para apresentação.
+02_Imagens_Empreendimento: fotos/perspectivas de fachadas, espaços de lazer e ambientes decorados; NÃO possui plantas.
+03_Plantas: implantação, pavimentos, gardens e plantas de unidades, com opções isoladas e páginas com legendas.
+04_Localizacao: vista aérea do bairro/orla e mapa de referências.
+origem_das_imagens.csv: nome de cada PNG e página original do PDF.
+
+OBS.: Texto extraído e reorganizado do book original, que apresenta ilustrações e material sujeito a alteração. Informações técnicas vinculantes dependem dos documentos do empreendimento.

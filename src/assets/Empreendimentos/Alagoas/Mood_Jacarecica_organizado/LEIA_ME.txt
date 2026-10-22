@@ -1,0 +1,10 @@
+PACOTE DE IMAGENS - MOOD JACARECICA
+=================================
+Fotos estão dentro de 02_Imagens_Empreendimento e NÃO contêm plantas.
+Plantas estão exclusivamente dentro de 03_Plantas, em versões isoladas e com legendas originais do catálogo.
+Capa escolhida: 01_Capa/capa_fachada_mood_jacarecica_torres_a_b.png.
+Todos os arquivos visuais estão em PNG.
+Os arquivos da galeria foram gerados a partir das imagens internas originais do PDF, sem rótulos externos à imagem sempre que possível.
+As perspectivas são ilustrações artísticas e não garantem acabamento contratual.
+Os nomes de arquivo seguem o tema visual e, nos apartamentos, as tipologias divulgadas no catálogo.
+Veja o CSV para relacionar cada imagem à página do PDF original.
