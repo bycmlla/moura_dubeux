@@ -1,0 +1,11 @@
+LUCENA PLAZA - MATERIAL ORGANIZADO
+
+01_Capa/ = imagem escolhida para capa e versao horizontal.
+02_Imagens_Empreendimento/ = imagens de fachada, areas comuns e apartamentos (sem plantas).
+03_Plantas/ = implantacao, pavimentos e plantas das tipologias (sem renders do empreendimento).
+04_Localizacao/ = fotos da regiao e mapa.
+05_Informacoes/ = ficha do empreendimento e indice de imagens com paginas.
+
+Os arquivos de imagem sao PNG com nomes descritivos sem espacos/acentos, adequados para uso em assets de sites.
+Fonte dos dados e imagens: PDF Lucena Plaza enviado pelo usuario.
+As ilustracoes do material sao conceituais, conforme ressalvas do proprio book.
