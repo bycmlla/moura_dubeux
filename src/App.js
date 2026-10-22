@@ -1082,6 +1082,64 @@ import conceptJoaoFarinhaFloorsTwentyFourAndTwentySixReference from './assets/Em
 import conceptJoaoFarinhaLoftFloorsReference from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Metragens/planta_tipo_pavimentos_25_e_27_metragens.png';
 import conceptJoaoFarinhaLocation from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/04_Localizacao_e_Entorno/localizacao_via_mangue_praia_boa_viagem_shopping_recife.png';
 import conceptJoaoFarinhaShopping from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/04_Localizacao_e_Entorno/entorno_shopping_recife.png';
+import lucenaPlazaCover from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/01_Capa/capa_horizontal_fachada_vista_mar.png';
+import lucenaPlazaBoulevardTerreoJardins from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/01_Fachadas/boulevard_terreo_jardins.png';
+import lucenaPlazaFachadaAtivaIluminacaoNoturna from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/01_Fachadas/fachada_ativa_iluminacao_noturna.png';
+import lucenaPlazaFachadaAtivaPerspectivaUrbana from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/01_Fachadas/fachada_ativa_perspectiva_urbana.png';
+import lucenaPlazaFachadaDetalheArquiteturaCurvas from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/01_Fachadas/fachada_detalhe_arquitetura_curvas.png';
+import lucenaPlazaFachadaDuasTorresVistaGeral from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/01_Fachadas/fachada_duas_torres_vista_geral.png';
+import lucenaPlazaFachadaLateralVistaMar from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/01_Fachadas/fachada_lateral_vista_mar.png';
+import lucenaPlazaTopoTorreHeliponto from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/01_Fachadas/topo_torre_heliponto.png';
+import lucenaPlazaAcademiaTechnogymAreaInterna from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/02_Areas_Comuns/academia_technogym_area_interna.png';
+import lucenaPlazaAcademiaTechnogymVistaMar from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/02_Areas_Comuns/academia_technogym_vista_mar.png';
+import lucenaPlazaBrinquedoteca from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/02_Areas_Comuns/brinquedoteca.png';
+import lucenaPlazaCampoGramado from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/02_Areas_Comuns/campo_gramado.png';
+import lucenaPlazaElevadorSocialClimatizadoAmbientado from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/02_Areas_Comuns/elevador_social_climatizado_ambientado.png';
+import lucenaPlazaEspacoGourmetChurrasqueira from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/02_Areas_Comuns/espaco_gourmet_churrasqueira.png';
+import lucenaPlazaGaragemHallDeElevadores from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/02_Areas_Comuns/garagem_hall_de_elevadores.png';
+import lucenaPlazaHallSocialTorreNorte from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/02_Areas_Comuns/hall_social_torre_norte.png';
+import lucenaPlazaLazerExternoPaisagismoPiscina from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/02_Areas_Comuns/lazer_externo_paisagismo_piscina.png';
+import lucenaPlazaLazerPiscinaVistaSuperiorDetalhe from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/02_Areas_Comuns/lazer_piscina_vista_superior_detalhe.png';
+import lucenaPlazaLoungeExternoPergolado from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/02_Areas_Comuns/lounge_externo_pergolado.png';
+import lucenaPlazaPetPlace from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/02_Areas_Comuns/pet_place.png';
+import lucenaPlazaPiscinaAquecidaBordaInfinitaHidromassagem from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/02_Areas_Comuns/piscina_aquecida_borda_infinita_hidromassagem.png';
+import lucenaPlazaPlayground from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/02_Areas_Comuns/playground.png';
+import lucenaPlazaSalaDeJogos from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/02_Areas_Comuns/sala_de_jogos.png';
+import lucenaPlazaSaloesDeFestasIntegraveis from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/02_Areas_Comuns/saloes_de_festas_integraveis.png';
+import lucenaPlazaSpaSaunaHidromassagem from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/02_Areas_Comuns/spa_sauna_hidromassagem.png';
+import lucenaPlazaCoberturaDuplex749m2FitnessPrivativo from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/03_Cobertura_Torre_Sul/cobertura_duplex_749m2_fitness_privativo.png';
+import lucenaPlazaCoberturaDuplex749m2Living from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/03_Cobertura_Torre_Sul/cobertura_duplex_749m2_living.png';
+import lucenaPlazaCoberturaDuplex749m2Suite1 from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/03_Cobertura_Torre_Sul/cobertura_duplex_749m2_suite_1.png';
+import lucenaPlazaCoberturaDuplex749m2SuiteMaster from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/03_Cobertura_Torre_Sul/cobertura_duplex_749m2_suite_master.png';
+import lucenaPlazaCoberturaDuplex749m2TerracoVistaMar from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/03_Cobertura_Torre_Sul/cobertura_duplex_749m2_terraco_vista_mar.png';
+import lucenaPlazaApartamento445m2ClosetSuiteMaster from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/04_Apartamento_Torre_Sul/apartamento_445m2_closet_suite_master.png';
+import lucenaPlazaApartamento445m2Living from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/04_Apartamento_Torre_Sul/apartamento_445m2_living.png';
+import lucenaPlazaApartamento445m2Suite1 from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/04_Apartamento_Torre_Sul/apartamento_445m2_suite_1.png';
+import lucenaPlazaApartamento445m2SuiteMaster from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/04_Apartamento_Torre_Sul/apartamento_445m2_suite_master.png';
+import lucenaPlazaCobertura605m2Living from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/05_Cobertura_Torre_Norte/cobertura_605m2_living.png';
+import lucenaPlazaCobertura605m2PiscinaPrivativa from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/05_Cobertura_Torre_Norte/cobertura_605m2_piscina_privativa.png';
+import lucenaPlazaCobertura605m2Suite1 from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/05_Cobertura_Torre_Norte/cobertura_605m2_suite_1.png';
+import lucenaPlazaCobertura605m2SuiteMaster from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/05_Cobertura_Torre_Norte/cobertura_605m2_suite_master.png';
+import lucenaPlazaApartamento300m2ClosetSuiteMaster from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/06_Apartamento_Torre_Norte/apartamento_300m2_closet_suite_master.png';
+import lucenaPlazaApartamento300m2Living from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/06_Apartamento_Torre_Norte/apartamento_300m2_living.png';
+import lucenaPlazaApartamento300m2Suite1 from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/06_Apartamento_Torre_Norte/apartamento_300m2_suite_1.png';
+import lucenaPlazaApartamento300m2SuiteMaster from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/06_Apartamento_Torre_Norte/apartamento_300m2_suite_master.png';
+import lucenaPlazaPlantaImplantacaoPavimentoTerreo from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/03_Plantas/01_Pavimentos/planta_implantacao_pavimento_terreo.png';
+import lucenaPlazaPlantaPavimentoGaragem1 from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/03_Plantas/01_Pavimentos/planta_pavimento_garagem_1.png';
+import lucenaPlazaPlantaPavimentoGaragem2 from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/03_Plantas/01_Pavimentos/planta_pavimento_garagem_2.png';
+import lucenaPlazaPlantaPavimentoGaragem3 from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/03_Plantas/01_Pavimentos/planta_pavimento_garagem_3.png';
+import lucenaPlazaPlantaPavimentoLazer from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/03_Plantas/01_Pavimentos/planta_pavimento_lazer.png';
+import lucenaPlazaPlantaApartamento445m24Suites5Vagas from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/03_Plantas/02_Torre_Sul/planta_apartamento_445m2_4_suites_5_vagas.png';
+import lucenaPlazaPlantaCoberturaDuplex749m2PavimentoInferior4Suites8Vagas from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/03_Plantas/02_Torre_Sul/planta_cobertura_duplex_749m2_pavimento_inferior_4_suites_8_vagas.png';
+import lucenaPlazaPlantaCoberturaDuplex749m2PavimentoSuperior4Suites8Vagas from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/03_Plantas/02_Torre_Sul/planta_cobertura_duplex_749m2_pavimento_superior_4_suites_8_vagas.png';
+import lucenaPlazaPlantaApartamento300m24Suites4Vagas from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/03_Plantas/03_Torre_Norte/planta_apartamento_300m2_4_suites_4_vagas.png';
+import lucenaPlazaPlantaCobertura605m25Suites6Vagas from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/03_Plantas/03_Torre_Norte/planta_cobertura_605m2_5_suites_6_vagas.png';
+import lucenaPlazaMapaPontosDeInteressePdfPagina06 from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/04_Localizacao/mapa_pontos_de_interesse_pdf_pagina_06.png';
+import lucenaPlazaMarinaEBarcosPaisagem from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/04_Localizacao/marina_e_barcos_paisagem.png';
+import lucenaPlazaPanoramaOrlaNovoCais from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/04_Localizacao/panorama_orla_novo_cais.png';
+import lucenaPlazaVistaAereaNovoCaisRecife from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/04_Localizacao/vista_aerea_novo_cais_recife.png';
+import lucenaPlazaVistaPanoramicaRecifeEAgua from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/04_Localizacao/vista_panoramica_recife_e_agua.png';
+import lucenaPlazaVistaUrbanaPontesEMarina from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/04_Localizacao/vista_urbana_pontes_e_marina.png';
 import infinityRecifeCover from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/01_Capa/capa_principal_infinity_recife_fachada_torre.png';
 import infinityRecifeFachadaEmbasamentoEntrada from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/fachada_embasamento_entrada.png';
 import infinityRecifeFachadaPrincipalVistaAvenida from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/fachada_principal_vista_avenida.png';
@@ -3688,6 +3746,100 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
+    slug: 'lucena-plaza', name: 'Lucena Plaza', image: lucenaPlazaCover,
+    city: 'Recife, PE', neighborhood: 'Novo Cais', locationTitle: 'Novo Cais - Recife/PE',
+    address: 'Avenida Engenheiro José Estelita, 790, Recife/PE',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Avenida%20Engenheiro%20Jos%C3%A9%20Estelita%20790%20Recife%20PE',
+    area: '300,02 a 749,65 m²', profile: 'Apartamentos e coberturas com 4 ou 5 suítes', detail: '4 a 8 vagas, conforme a tipologia',
+    description: 'O Lucena Plaza é um empreendimento residencial da Moura Dubeux no Novo Cais, em Recife/PE, na Avenida Engenheiro José Estelita. As torres Norte e Sul apresentam apartamentos de 300,02 m² e 445,61 m² e coberturas de 605,71 m² e 749,65 m², com 4 ou 5 suítes e 4 a 8 vagas, conforme a tipologia. O projeto reúne piscina aquecida com borda infinita, spa, academia de 300 m² assinada pela Technogym, salões de festas integráveis, espaços gourmet e lazer infantil, além de boulevard térreo, jardins e dois helipontos com salas VIP, conforme o material.',
+    highlights: ['300,02 a 749,65 m²', '4 ou 5 suítes', '4 a 8 vagas', 'Novo Cais, Recife'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Novo Cais, Recife/PE'], ['Torres', 'Norte e Sul'], ['Garagem', '4 a 8 vagas, conforme a tipologia']],
+    technical: [
+      ['Torres', 'Torre Norte e Torre Sul'],
+      ['Apartamento - Torre Norte', '300,02 m², 4 suítes e 4 vagas; planta representada do 5º ao 41º andar'],
+      ['Apartamento - Torre Sul', '445,61 m², 4 suítes e 5 vagas; planta representada do 5º ao 40º andar'],
+      ['Cobertura - Torre Norte', '605,71 m², 5 suítes, 6 vagas e piscina privativa'],
+      ['Cobertura duplex - Torre Sul', '749,65 m², 4 suítes e 8 vagas; plantas dos pavimentos inferior e superior e piscina privativa'],
+      ['Vagas', 'Largura de 2,40 m, conforme o book; uma vaga eletrificável por apartamento'],
+      ['Depósitos privativos', 'Nos pavimentos de garagem para unidades da Torre Sul e coberturas, conforme o material'],
+      ['Halls sociais', 'Independentes por apartamento'],
+      ['Elevadores sociais', 'Climatizados, com sistema de som e acabamento personalizado'],
+      ['Elevadores de serviço', 'Elevador exclusivo para delivery e elevador de carga com cabine ampliada na Torre Sul'],
+      ['Halls das garagens', 'Climatizados e ambientados'],
+      ['Energia', 'Gerador full, conforme o material'],
+      ['Climatização das áreas comuns', 'Por difusores lineares'],
+      ['Helipontos', 'Dois, com salas VIP exclusivas, conforme o book'],
+      ['Material', 'Perspectivas e plantas ilustrativas, sujeitas a alterações; móveis, utensílios, equipamentos e decoração dos apartamentos não estão contemplados no orçamento da obra'],
+    ],
+    amenities: ['Boulevard térreo e jardins', 'Halls sociais das torres', 'Piscina aquecida com borda infinita e hidromassagem', 'Piscina adulto com prainha', 'Piscina infantil com prainha', 'Spa com sauna úmida', 'Hidromassagem aquecida', 'Salas de massagem com macas aquecidas', 'Academia Technogym de 300 m²', 'Dois salões de festas integráveis', 'Espaços gourmet com churrasqueira', 'Sala de jogos', 'Lounge gramado', 'Lounge mirante', 'Lago com praça gramada', 'Playground', 'Brinquedoteca', 'Campo gramado', 'Pet place e pet wash', 'Minimarket e lojas', 'Guarda-delivery', 'Bicicletário', 'Dois helipontos com salas VIP'],
+    security: ['Portarias blindadas', 'Controle de acesso com tecnologia avançada, conforme o material'],
+    sustainability: ['Uma vaga eletrificável por apartamento'],
+    projectTeam: ['Daniel Arruda | Arquitetura', 'Benedito Abbud | Paisagismo', 'Zirpoli Arquitetura - Humberto e Analice Zirpoli | Ambientação das áreas comuns e apartamentos', 'Dubeux Vasconcelos - João Vasconcelos e Luiz Dubeux | Ambientação das coberturas'],
+    gallery: [
+      { src: lucenaPlazaFachadaDuasTorresVistaGeral, titulo: 'Lucena Plaza - perspectiva geral das duas torres' },
+      { src: lucenaPlazaFachadaDetalheArquiteturaCurvas, titulo: 'Detalhe da arquitetura e das curvas da fachada' },
+      { src: lucenaPlazaFachadaLateralVistaMar, titulo: 'Perspectiva lateral da fachada com vista para o mar' },
+      { src: lucenaPlazaFachadaAtivaPerspectivaUrbana, titulo: 'Perspectiva urbana da fachada ativa' },
+      { src: lucenaPlazaBoulevardTerreoJardins, titulo: 'Perspectiva do boulevard térreo e dos jardins' },
+      { src: lucenaPlazaFachadaAtivaIluminacaoNoturna, titulo: 'Perspectiva noturna da fachada ativa' },
+      { src: lucenaPlazaHallSocialTorreNorte, titulo: 'Perspectiva do hall social da Torre Norte' },
+      { src: lucenaPlazaLazerPiscinaVistaSuperiorDetalhe, titulo: 'Detalhe da vista superior da piscina e do lazer' },
+      { src: lucenaPlazaLoungeExternoPergolado, titulo: 'Perspectiva do lounge externo com pergolado' },
+      { src: lucenaPlazaLazerExternoPaisagismoPiscina, titulo: 'Perspectiva do lazer externo, paisagismo e piscina' },
+      { src: lucenaPlazaPiscinaAquecidaBordaInfinitaHidromassagem, titulo: 'Perspectiva da piscina aquecida com borda infinita e hidromassagem' },
+      { src: lucenaPlazaSaloesDeFestasIntegraveis, titulo: 'Perspectiva dos salões de festas integráveis' },
+      { src: lucenaPlazaEspacoGourmetChurrasqueira, titulo: 'Perspectiva do espaço gourmet com churrasqueira' },
+      { src: lucenaPlazaSpaSaunaHidromassagem, titulo: 'Perspectiva do spa com sauna e hidromassagem' },
+      { src: lucenaPlazaAcademiaTechnogymVistaMar, titulo: 'Perspectiva da academia Technogym com vista para o mar' },
+      { src: lucenaPlazaAcademiaTechnogymAreaInterna, titulo: 'Perspectiva interna da academia Technogym' },
+      { src: lucenaPlazaSalaDeJogos, titulo: 'Perspectiva da sala de jogos' },
+      { src: lucenaPlazaPlayground, titulo: 'Perspectiva do playground' },
+      { src: lucenaPlazaCampoGramado, titulo: 'Perspectiva do campo gramado' },
+      { src: lucenaPlazaBrinquedoteca, titulo: 'Perspectiva da brinquedoteca' },
+      { src: lucenaPlazaPetPlace, titulo: 'Perspectiva do pet place' },
+      { src: lucenaPlazaTopoTorreHeliponto, titulo: 'Perspectiva do topo da torre e do heliponto' },
+      { src: lucenaPlazaGaragemHallDeElevadores, titulo: 'Perspectiva do hall de elevadores na garagem' },
+      { src: lucenaPlazaCoberturaDuplex749m2TerracoVistaMar, titulo: 'Perspectiva: terraço com vista para o mar da cobertura duplex de 749,65 m² da Torre Sul' },
+      { src: lucenaPlazaCoberturaDuplex749m2Living, titulo: 'Perspectiva: living da cobertura duplex de 749,65 m² da Torre Sul' },
+      { src: lucenaPlazaCoberturaDuplex749m2SuiteMaster, titulo: 'Perspectiva: suíte master da cobertura duplex de 749,65 m² da Torre Sul' },
+      { src: lucenaPlazaCoberturaDuplex749m2Suite1, titulo: 'Perspectiva: suíte 1 da cobertura duplex de 749,65 m² da Torre Sul' },
+      { src: lucenaPlazaCoberturaDuplex749m2FitnessPrivativo, titulo: 'Perspectiva: fitness privativo da cobertura duplex de 749,65 m² da Torre Sul' },
+      { src: lucenaPlazaApartamento445m2Living, titulo: 'Perspectiva: living do apartamento de 445,61 m² da Torre Sul' },
+      { src: lucenaPlazaApartamento445m2SuiteMaster, titulo: 'Perspectiva: suíte master do apartamento de 445,61 m² da Torre Sul' },
+      { src: lucenaPlazaApartamento445m2ClosetSuiteMaster, titulo: 'Perspectiva: closet da suíte master do apartamento de 445,61 m² da Torre Sul' },
+      { src: lucenaPlazaApartamento445m2Suite1, titulo: 'Perspectiva: suíte 1 do apartamento de 445,61 m² da Torre Sul' },
+      { src: lucenaPlazaCobertura605m2Living, titulo: 'Perspectiva: living da cobertura de 605,71 m² da Torre Norte' },
+      { src: lucenaPlazaCobertura605m2PiscinaPrivativa, titulo: 'Perspectiva: piscina privativa da cobertura de 605,71 m² da Torre Norte' },
+      { src: lucenaPlazaCobertura605m2SuiteMaster, titulo: 'Perspectiva: suíte master da cobertura de 605,71 m² da Torre Norte' },
+      { src: lucenaPlazaCobertura605m2Suite1, titulo: 'Perspectiva: suíte 1 da cobertura de 605,71 m² da Torre Norte' },
+      { src: lucenaPlazaApartamento300m2Living, titulo: 'Perspectiva: living do apartamento de 300,02 m² da Torre Norte' },
+      { src: lucenaPlazaApartamento300m2SuiteMaster, titulo: 'Perspectiva: suíte master do apartamento de 300,02 m² da Torre Norte' },
+      { src: lucenaPlazaApartamento300m2ClosetSuiteMaster, titulo: 'Perspectiva: closet da suíte master do apartamento de 300,02 m² da Torre Norte' },
+      { src: lucenaPlazaApartamento300m2Suite1, titulo: 'Perspectiva: suíte 1 do apartamento de 300,02 m² da Torre Norte' },
+      { src: lucenaPlazaElevadorSocialClimatizadoAmbientado, titulo: 'Perspectiva do elevador social climatizado e ambientado' },
+    ],
+    floorPlans: [
+      { src: lucenaPlazaPlantaImplantacaoPavimentoTerreo, titulo: 'Implantação do pavimento térreo' },
+      { src: lucenaPlazaPlantaPavimentoGaragem1, titulo: 'Planta do pavimento de garagem 1' },
+      { src: lucenaPlazaPlantaPavimentoGaragem2, titulo: 'Planta do pavimento de garagem 2' },
+      { src: lucenaPlazaPlantaPavimentoGaragem3, titulo: 'Planta do pavimento de garagem 3' },
+      { src: lucenaPlazaPlantaPavimentoLazer, titulo: 'Planta do pavimento de lazer' },
+      { src: lucenaPlazaPlantaCoberturaDuplex749m2PavimentoInferior4Suites8Vagas, titulo: 'Torre Sul - cobertura duplex de 749,65 m², pavimento inferior, 4 suítes e 8 vagas' },
+      { src: lucenaPlazaPlantaCoberturaDuplex749m2PavimentoSuperior4Suites8Vagas, titulo: 'Torre Sul - cobertura duplex de 749,65 m², pavimento superior, 4 suítes e 8 vagas' },
+      { src: lucenaPlazaPlantaApartamento445m24Suites5Vagas, titulo: 'Torre Sul - apartamento de 445,61 m², 4 suítes e 5 vagas' },
+      { src: lucenaPlazaPlantaCobertura605m25Suites6Vagas, titulo: 'Torre Norte - cobertura de 605,71 m², 5 suítes e 6 vagas' },
+      { src: lucenaPlazaPlantaApartamento300m24Suites4Vagas, titulo: 'Torre Norte - apartamento de 300,02 m², 4 suítes e 4 vagas' },
+    ],
+    locationImages: [
+      { src: lucenaPlazaMapaPontosDeInteressePdfPagina06, titulo: 'Mapa de localização e pontos de interesse do entorno' },
+      { src: lucenaPlazaVistaPanoramicaRecifeEAgua, titulo: 'Entorno: vista panorâmica do Recife e da água' },
+      { src: lucenaPlazaVistaAereaNovoCaisRecife, titulo: 'Entorno: vista aérea do Novo Cais, Recife' },
+      { src: lucenaPlazaMarinaEBarcosPaisagem, titulo: 'Entorno: marina e barcos' },
+      { src: lucenaPlazaVistaUrbanaPontesEMarina, titulo: 'Entorno: vista urbana das pontes e da marina' },
+      { src: lucenaPlazaPanoramaOrlaNovoCais, titulo: 'Entorno: panorama da orla do Novo Cais' },
+    ],
+  }),
+  createDevelopment({
     slug: 'infinity-recife', name: 'Infinity Recife', image: infinityRecifeCover,
     city: 'Recife, PE', neighborhood: 'Boa Viagem', locationTitle: 'Boa Viagem - Recife/PE',
     address: 'Avenida Boa Viagem, Boa Viagem, Recife/PE',
@@ -5086,7 +5238,7 @@ function DevelopmentDetail({ development }) {
   const touchStartX = useRef(null);
   const activeImages = activeLightbox ? lightboxGroups[activeLightbox.group] : [];
   const activeImage = activeLightbox ? activeImages[activeLightbox.index] : null;
-  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'concept-jatiuca', 'lanai-beach', 'beach-class-milagres', 'beach-class-natal', 'florata-tirol', 'les-amis-lagoa-nova', 'beach-class-ponta-negra', 'beach-class-porto-das-dunas', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'concept-joao-farinha', 'infinity-recife', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-solare', 'beach-class-wave', 'beach-class-cumbuco', 'concept-joao-pessoa', 'concept-jardins', 'casa-jardins', 'casa-boris', 'beach-class-iracema'].includes(development?.slug);
+  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'concept-jatiuca', 'lanai-beach', 'beach-class-milagres', 'beach-class-natal', 'florata-tirol', 'les-amis-lagoa-nova', 'beach-class-ponta-negra', 'beach-class-porto-das-dunas', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'concept-joao-farinha', 'infinity-recife', 'lucena-plaza', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-solare', 'beach-class-wave', 'beach-class-cumbuco', 'concept-joao-pessoa', 'concept-jardins', 'casa-jardins', 'casa-boris', 'beach-class-iracema'].includes(development?.slug);
   const visibleGalleryImages = lightboxGroups.gallery.slice(0, 5);
   const remainingGalleryCount = Math.max(0, lightboxGroups.gallery.length - visibleGalleryImages.length);
   const visibleFloorPlans = showAllOrganizedImages

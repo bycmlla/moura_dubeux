@@ -1,0 +1,94 @@
+LUCENA PLAZA - INFORMACOES DO EMPREENDIMENTO
+Fonte: Book comercial "Lucena Plaza.pdf" (80 paginas).
+
+IDENTIFICACAO
+Nome: Lucena Plaza
+Incorporadora/marca apresentada: Moura Dubeux
+Endereco indicado no catalogo: Av. Engenheiro Jose Estelita, 790, Recife - PE
+Regiao apresentada: Novo Cais, Recife, proximo ao oceano
+Composicao: duas torres, denominadas Torre Sul e Torre Norte
+Perfil: empreendimento residencial de alto padrao, com grandes apartamentos e coberturas
+
+TIPOLOGIAS - AREAS E VAGAS
+1) Torre Norte - apartamento de 300,02 m2: 4 suites e 4 vagas.
+   Planta representada para os andares 5o ao 41o (pagina 74).
+2) Torre Sul - apartamento de 445,61 m2: 4 suites e 5 vagas.
+   Planta representada para os andares 5o ao 40o (pagina 62).
+3) Torre Norte - cobertura de 605,71 m2: 5 suites e 6 vagas.
+   O catalogo exibe piscina na cobertura (paginas 64 a 68).
+4) Torre Sul - cobertura duplex de 749,65 m2: 4 suites e 8 vagas.
+   O catalogo exibe plantas dos pavimentos inferior e superior (paginas 55 e 56).
+Resumo do book: apartamentos de cerca de 300 m2 a 749 m2; de 4 a 8 vagas,
+conforme a tipologia. Coberturas com piscinas privativas.
+
+AREAS COMUNS E LAZER APRESENTADOS
+- Piscina aquecida com borda infinita e hidromassagem.
+- Piscina adulto com prainha e piscina infantil com prainha.
+- Spa com sauna umida, hidromassagem aquecida e salas de massagem com macas aquecidas.
+- Academia de 300 m2 assinada pela Technogym.
+- Dois saloes de festas integraveis.
+- Espacos gourmet com churrasqueira.
+- Salao de jogos.
+- Lounge gramado e lounge mirante.
+- Lago com praca gramada e areas ajardinadas.
+- Playground, brinquedoteca e campo gramado.
+- Pet place e pet wash.
+- Boulevard terreo e halls sociais das torres.
+- Minimarket, lojas, guarda-delivery e bicicletario no pavimento terreo.
+- Dois helipontos com salas VIP exclusivas, conforme book.
+
+GARAGENS, SERVICOS E DIFERENCIAIS
+- Vagas amplas, com largura de 2,40 m, conforme book.
+- Uma vaga eletrificavel por apartamento.
+- Depositos privativos nos pavimentos de garagem para as unidades da Torre Sul
+  e coberturas, conforme indicado no material.
+- Halls de elevadores climatizados e ambientados nas garagens.
+- Halls sociais independentes por apartamento.
+- Elevadores sociais climatizados com sistema de som e acabamento personalizado.
+- Elevador exclusivo para delivery.
+- Elevador de carga com cabine ampliada na Torre Sul.
+- Gerador full, portarias blindadas e acesso controlado por tecnologia avancada.
+- Area comum com climatizacao por difusores lineares.
+
+ENTORNO E PONTOS DE REFERENCIA
+O book destaca conexao com centros empresariais, culturais e gastronomicos.
+Pontos ilustrados no mapa: RioMar Recife, Cabanga Iate Clube, polo juridico,
+polo medico, Centro de Convencoes e Marco Zero.
+O material nao informa distancias exatas em metros para esses pontos.
+
+PROFISSIONAIS E PROJETOS
+- Projeto de arquitetura: Daniel Arruda.
+- Paisagismo: Benedito Abbud.
+- Ambientacao das areas comuns e apartamentos: Zirpoli Arquitetura,
+  Humberto e Analice Zirpoli.
+- Ambientacao das coberturas: Dubeux Vasconcelos,
+  Joao Vasconcelos e Luiz Dubeux.
+
+INFORMACOES NAO INFORMADAS NO PDF
+- Precos atualizados das unidades.
+- Data de entrega da obra.
+- Metragem do terreno e quantidade total de apartamentos.
+- Estagio atual da obra ou disponibilidade das unidades.
+Nao foram incluidos numeros supostos para esses campos.
+
+OBSERVACOES / AVISOS DO MATERIAL
+As ilustracoes sao representacoes artisticas e podem sofrer alteracoes de
+cores, texturas, acabamentos e composicoes. Moveis, utensilios, equipamentos
+e decoracoes mostrados nos apartamentos nao estao contemplados no orcamento
+da obra. O documento informa construcao pelo Regime de Administracao,
+conforme artigo 58 e seguintes da Lei 4.591/64, e se identifica como
+material de referencia para os proprietarios (pagina 80).
+
+ORGANIZACAO DOS ARQUIVOS
+01_Capa: imagem principal escolhida para apresentacao e alternativa horizontal.
+02_Imagens_Empreendimento: SOMENTE imagens do projeto, como fachadas, areas
+comuns e ambientes residenciais. Nenhuma planta esta nesta pasta.
+03_Plantas: SOMENTE plantas dos pavimentos e das diferentes unidades.
+04_Localizacao: fotos do entorno e mapa com pontos de interesse.
+05_Informacoes: este TXT e o indice dos PNGs com numero de pagina do PDF.
+
+NOTA SOBRE AS IMAGENS
+Os PNGs foram extraidos dos recursos de imagem originais incorporados no PDF,
+sem reproduzir textos, logos ou molduras das paginas. Nas plantas, as mascaras
+de transparencia do PDF foram compostas sobre fundo branco. A imagem do mapa
+de localizacao (p. 6) foi renderizada por conter elementos vetoriais e legenda.
