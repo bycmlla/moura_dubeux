@@ -490,6 +490,50 @@ import natalLocEntornoCapimMacioParqueDasDunas from './assets/Empreendimentos/Ri
 import natalLocEntornoPontaNegraVistaAerea from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/04_Localizacao_e_Entorno/entorno_ponta_negra_vista_aerea.png';
 import natalLocPontaNegraVistaAereaMarMorroDoCareca from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/04_Localizacao_e_Entorno/ponta_negra_vista_aerea_mar_morro_do_careca.png';
 import natalLocPraiaPorDoSolContexto from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/04_Localizacao_e_Entorno/praia_por_do_sol_contexto.png';
+import pontaNegraCover from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/01_Capa/capa_fachada_e_piscina.png';
+import pontaNegraPhoto01AcessoPrincipalFachada from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/01_acesso_principal_fachada.png';
+import pontaNegraPhoto02LobbyRecepcao from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/02_lobby_recepcao.png';
+import pontaNegraPhoto03FachadaDosApartamentos from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/03_fachada_dos_apartamentos.png';
+import pontaNegraPhoto04PiscinasVistaLongitudinal from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/04_piscinas_vista_longitudinal.png';
+import pontaNegraPhoto05PiscinasVistaSuperior from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/05_piscinas_vista_superior.png';
+import pontaNegraPhoto06FachadaEPiscina from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/06_fachada_e_piscina.png';
+import pontaNegraPhoto07PiscinaDeckEspreguicadeiras from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/07_piscina_deck_espreguicadeiras.png';
+import pontaNegraPhoto08SpaSalaDeMassagem from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/08_spa_sala_de_massagem.png';
+import pontaNegraPhoto09SpaAreaExternaDeDescanso from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/09_spa_area_externa_de_descanso.png';
+import pontaNegraPhoto10Academia from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/10_academia.png';
+import pontaNegraPhoto11SalaMultiusoYoga from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/11_sala_multiuso_yoga.png';
+import pontaNegraPhoto12PoolBar from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/12_pool_bar.png';
+import pontaNegraPhoto13PiscinasPaisagismo from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/13_piscinas_paisagismo.png';
+import pontaNegraPhoto14SalaoDeFestas from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/14_salao_de_festas.png';
+import pontaNegraPhoto15Minimarket from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/15_minimarket.png';
+import pontaNegraPhoto16Apartamento244QuartoPavimentoInferior from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/16_apartamento_244_quarto_pavimento_inferior.png';
+import pontaNegraPhoto17Apartamento244MezaninoTerraco from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/17_apartamento_244_mezanino_terraco.png';
+import pontaNegraPhoto18Apartamento44StudioComGardenAmbiente from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/18_apartamento_44_studio_com_garden_ambiente.png';
+import pontaNegraPhoto19Apartamento38StudioComGardenAmbiente from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/19_apartamento_38_studio_com_garden_ambiente.png';
+import pontaNegraPhoto20Apartamento07SalaLiving from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/20_apartamento_07_sala_living.png';
+import pontaNegraPhoto21Apartamento07Quarto from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/21_apartamento_07_quarto.png';
+import pontaNegraPhoto22VistaAereaEmpreendimentoEPraia from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/02_Imagens_Empreendimento/22_vista_aerea_empreendimento_e_praia.png';
+import pontaNegraPlan01ImplantacaoPavimentoGardenLazer from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/01_implantacao_pavimento_garden_lazer.png';
+import pontaNegraPlan02ImplantacaoPavimentoGardenUnidades from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/02_implantacao_pavimento_garden_unidades.png';
+import pontaNegraPlan03ImplantacaoPavimentoTipo01 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/03_implantacao_pavimento_tipo_01.png';
+import pontaNegraPlan04ImplantacaoPavimentoTipo02 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/04_implantacao_pavimento_tipo_02.png';
+import pontaNegraPlan05ImplantacaoMezanino from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/05_implantacao_mezanino.png';
+import pontaNegraPlan06PlantaApartamento2446516m2PavimentoInferior from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/06_planta_apartamento_244_65_16m2_pavimento_inferior.png';
+import pontaNegraPlan07PlantaApartamento2446516m2PavimentoSuperior from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/07_planta_apartamento_244_65_16m2_pavimento_superior.png';
+import pontaNegraPlan08PlantaApartamento44Studio3790m2Garden1650m2 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/08_planta_apartamento_44_studio_37_90m2_garden_16_50m2.png';
+import pontaNegraPlan09PlantaApartamento38Studio4090m2Garden1350m2 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/09_planta_apartamento_38_studio_40_90m2_garden_13_50m2.png';
+import pontaNegraPlan10PlantaApartamento072Quartos7607m2Garden1723m2 from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/10_planta_apartamento_07_2_quartos_76_07m2_garden_17_23m2.png';
+import pontaNegraPlan11ReferenciaPavimentoGardenAreasDeLazerELegenda from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/11_referencia_pavimento_garden_areas_de_lazer_e_legenda.png';
+import pontaNegraPlan12ReferenciaPavimentoGardenAreasDasUnidades from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/12_referencia_pavimento_garden_areas_das_unidades.png';
+import pontaNegraPlan13ReferenciaPavimentoTipo01AreasDasUnidades from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/13_referencia_pavimento_tipo_01_areas_das_unidades.png';
+import pontaNegraPlan14ReferenciaPavimentoTipo02AreasDasUnidades from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/14_referencia_pavimento_tipo_02_areas_das_unidades.png';
+import pontaNegraPlan15ReferenciaApartamento244PlantasEMetragem from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/15_referencia_apartamento_244_plantas_e_metragem.png';
+import pontaNegraPlan16ReferenciaStudio44Metragens from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/16_referencia_studio_44_metragens.png';
+import pontaNegraPlan17ReferenciaStudio38Metragens from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/17_referencia_studio_38_metragens.png';
+import pontaNegraPlan18ReferenciaApartamento07Metragens from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/03_Plantas_e_Implantacao/18_referencia_apartamento_07_metragens.png';
+import pontaNegraLoc01PraiaDePontaNegraVistaPanoramica from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/04_Localizacao_e_Entorno/01_praia_de_ponta_negra_vista_panoramica.png';
+import pontaNegraLoc02VistaAereaDaLocalizacaoDoTerreno from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/04_Localizacao_e_Entorno/02_vista_aerea_da_localizacao_do_terreno.png';
+import pontaNegraLoc03MapaLocalizacaoComReferencias from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/04_Localizacao_e_Entorno/03_mapa_localizacao_com_referencias.png';
 import cyanoOrganizedCover from './assets/Empreendimentos/Bahia/Cyano_Organizado/capa/capa_cyano.png';
 import cyanoApartment3Living from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_3_suites_living.png';
 import cyanoApartment3Kitchen from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_3_suites_living_cozinha_integrada.png';
@@ -2013,6 +2057,81 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
+    slug: 'beach-class-ponta-negra', name: 'Beach Class Ponta Negra', image: pontaNegraCover,
+    city: 'Natal, RN', neighborhood: 'Ponta Negra', locationTitle: 'Ponta Negra - Natal/RN',
+    address: 'Ponta Negra, Natal/RN, próximo à Avenida Engenheiro Roberto Freire',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Beach%20Class%20Ponta%20Negra%20Natal%20RN',
+    area: '37,90 a 97,93 m²', profile: 'Studios e 2 quartos, com Garden e mezanino', detail: '140 unidades em bloco único',
+    description: 'O Beach Class Ponta Negra fica no bairro de Ponta Negra, em Natal, a poucos metros do mar e perto do Morro do Careca. O projeto, de escala boutique, reúne 140 unidades em um bloco único, entre studios e apartamentos de 2 quartos, com opções Garden e mezanino. O lazer inclui piscinas, pool bar, spa, academia, sala multiuso com deck de yoga, salão de festas e minimarket.',
+    highlights: ['37,90 a 97,93 m²', '140 unidades em bloco único', 'Opções Garden e mezanino', 'A poucos metros do mar'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Ponta Negra, Natal/RN'], ['Unidades', '140 unidades privativas'], ['Garagem', '67 vagas']],
+    technical: [
+      ['Área do terreno', '6.600,00 m²'],
+      ['Composição', 'Bloco único habitacional, com quiosque da piscina e pool bar como blocos de apoio'],
+      ['Unidades', '140 unidades privativas: 46 no pavimento Garden, 47 no térreo/tipo 01 e 47 no lobby/tipo 02'],
+      ['Tipologias', 'Studios e apartamentos de 2 quartos, com opções Garden e mezanino'],
+      ['Apartamento 244', '65,16 m², em dois pavimentos'],
+      ['Studio 44', '37,90 m² + Garden de 16,50 m²'],
+      ['Studio 38', '40,90 m² + Garden de 13,50 m²'],
+      ['2 quartos (apto 07)', '76,07 m² + Garden de 17,23 m²'],
+      ['Garagem', '67 vagas: 55 rotativas, 6 vinculadas, 4 para idosos e 2 PNE'],
+      ['Material', 'Perspectivas ilustrativas; Garden informado separadamente da área interna'],
+    ],
+    amenities: ['Piscinas, com piscina infantil', 'Pool bar', 'Pool house', 'Spa', 'Academia', 'Sala multiuso e deck de yoga', 'Salão de festas com copa', 'Espaços gourmet e quiosques', 'Lounge coberto e hall social', 'Daybeds e espaço happy hour', 'Pet place e hortas', 'Salão de beleza', 'Lavanderia', 'Minimarket', 'Bicicletário', 'Áreas comuns equipadas e mobiliadas'],
+    security: ['Fechaduras eletrônicas nas portas de entrada dos apartamentos', 'Controle automatizado de acesso de veículos'],
+    sustainability: [],
+    projectTeam: ['Takeda Design | Arquitetura e paisagismo', 'Felipe Bezerra | Arquitetura'],
+    gallery: [
+      { src: pontaNegraPhoto01AcessoPrincipalFachada, titulo: 'Beach Class Ponta Negra - perspectiva do acesso principal' },
+      { src: pontaNegraPhoto02LobbyRecepcao, titulo: 'Perspectiva do lobby e da recepção' },
+      { src: pontaNegraPhoto03FachadaDosApartamentos, titulo: 'Perspectiva da fachada dos apartamentos' },
+      { src: pontaNegraPhoto04PiscinasVistaLongitudinal, titulo: 'Perspectiva longitudinal das piscinas' },
+      { src: pontaNegraPhoto05PiscinasVistaSuperior, titulo: 'Perspectiva superior das piscinas' },
+      { src: pontaNegraPhoto06FachadaEPiscina, titulo: 'Perspectiva da fachada e da piscina' },
+      { src: pontaNegraPhoto07PiscinaDeckEspreguicadeiras, titulo: 'Perspectiva da piscina e do deck com espreguiçadeiras' },
+      { src: pontaNegraPhoto08SpaSalaDeMassagem, titulo: 'Perspectiva da sala de massagem do spa' },
+      { src: pontaNegraPhoto09SpaAreaExternaDeDescanso, titulo: 'Perspectiva da área externa de descanso do spa' },
+      { src: pontaNegraPhoto10Academia, titulo: 'Perspectiva da academia' },
+      { src: pontaNegraPhoto11SalaMultiusoYoga, titulo: 'Perspectiva da sala multiuso e de yoga' },
+      { src: pontaNegraPhoto12PoolBar, titulo: 'Perspectiva do pool bar' },
+      { src: pontaNegraPhoto13PiscinasPaisagismo, titulo: 'Perspectiva das piscinas e do paisagismo' },
+      { src: pontaNegraPhoto14SalaoDeFestas, titulo: 'Perspectiva do salão de festas' },
+      { src: pontaNegraPhoto15Minimarket, titulo: 'Perspectiva do minimarket' },
+      { src: pontaNegraPhoto16Apartamento244QuartoPavimentoInferior, titulo: 'Perspectiva do quarto do apartamento 244 - pavimento inferior' },
+      { src: pontaNegraPhoto17Apartamento244MezaninoTerraco, titulo: 'Perspectiva do mezanino e terraço do apartamento 244' },
+      { src: pontaNegraPhoto18Apartamento44StudioComGardenAmbiente, titulo: 'Perspectiva do Studio 44 com Garden' },
+      { src: pontaNegraPhoto19Apartamento38StudioComGardenAmbiente, titulo: 'Perspectiva do Studio 38 com Garden' },
+      { src: pontaNegraPhoto20Apartamento07SalaLiving, titulo: 'Perspectiva da sala living do apartamento 07' },
+      { src: pontaNegraPhoto21Apartamento07Quarto, titulo: 'Perspectiva do quarto do apartamento 07' },
+      { src: pontaNegraPhoto22VistaAereaEmpreendimentoEPraia, titulo: 'Perspectiva aérea do empreendimento e da praia' },
+    ],
+    floorPlans: [
+      { src: pontaNegraPlan01ImplantacaoPavimentoGardenLazer, titulo: 'Pavimento Garden - implantação do lazer' },
+      { src: pontaNegraPlan02ImplantacaoPavimentoGardenUnidades, titulo: 'Pavimento Garden - implantação das unidades' },
+      { src: pontaNegraPlan03ImplantacaoPavimentoTipo01, titulo: 'Pavimento tipo 01 - implantação' },
+      { src: pontaNegraPlan04ImplantacaoPavimentoTipo02, titulo: 'Pavimento tipo 02 - implantação' },
+      { src: pontaNegraPlan05ImplantacaoMezanino, titulo: 'Mezanino - implantação' },
+      { src: pontaNegraPlan06PlantaApartamento2446516m2PavimentoInferior, titulo: 'Apartamento 244 - 65,16 m² - pavimento inferior' },
+      { src: pontaNegraPlan07PlantaApartamento2446516m2PavimentoSuperior, titulo: 'Apartamento 244 - 65,16 m² - pavimento superior' },
+      { src: pontaNegraPlan08PlantaApartamento44Studio3790m2Garden1650m2, titulo: 'Apartamento 44 - Studio 37,90 m² com Garden de 16,50 m²' },
+      { src: pontaNegraPlan09PlantaApartamento38Studio4090m2Garden1350m2, titulo: 'Apartamento 38 - Studio 40,90 m² com Garden de 13,50 m²' },
+      { src: pontaNegraPlan10PlantaApartamento072Quartos7607m2Garden1723m2, titulo: 'Apartamento 07 - 2 quartos 76,07 m² com Garden de 17,23 m²' },
+      { src: pontaNegraPlan11ReferenciaPavimentoGardenAreasDeLazerELegenda, titulo: 'Pavimento Garden - áreas de lazer e legenda (página de referência)' },
+      { src: pontaNegraPlan12ReferenciaPavimentoGardenAreasDasUnidades, titulo: 'Pavimento Garden - áreas das unidades (página de referência)' },
+      { src: pontaNegraPlan13ReferenciaPavimentoTipo01AreasDasUnidades, titulo: 'Pavimento tipo 01 - áreas das unidades (página de referência)' },
+      { src: pontaNegraPlan14ReferenciaPavimentoTipo02AreasDasUnidades, titulo: 'Pavimento tipo 02 - áreas das unidades (página de referência)' },
+      { src: pontaNegraPlan15ReferenciaApartamento244PlantasEMetragem, titulo: 'Apartamento 244 - plantas e metragem (página de referência)' },
+      { src: pontaNegraPlan16ReferenciaStudio44Metragens, titulo: 'Studio 44 - metragens (página de referência)' },
+      { src: pontaNegraPlan17ReferenciaStudio38Metragens, titulo: 'Studio 38 - metragens (página de referência)' },
+      { src: pontaNegraPlan18ReferenciaApartamento07Metragens, titulo: 'Apartamento 07 - metragens (página de referência)' },
+    ],
+    locationImages: [
+      { src: pontaNegraLoc01PraiaDePontaNegraVistaPanoramica, titulo: 'Entorno: vista panorâmica da Praia de Ponta Negra' },
+      { src: pontaNegraLoc02VistaAereaDaLocalizacaoDoTerreno, titulo: 'Vista aérea da localização do terreno' },
+      { src: pontaNegraLoc03MapaLocalizacaoComReferencias, titulo: 'Mapa de localização com referências' },
+    ],
+  }),
+  createDevelopment({
     slug: 'unica-cardeal', name: 'Única Cardeal', image: unicaCardealCover,
     city: 'Salvador, BA', neighborhood: 'Federação', locationTitle: 'Avenida Cardeal da Silva - Salvador/BA',
     address: 'Avenida Cardeal da Silva, Salvador/BA',
@@ -3395,7 +3514,7 @@ function DevelopmentDetail({ development }) {
   const touchStartX = useRef(null);
   const activeImages = activeLightbox ? lightboxGroups[activeLightbox.group] : [];
   const activeImage = activeLightbox ? activeImages[activeLightbox.index] : null;
-  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'beach-class-milagres', 'beach-class-natal', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-cumbuco', 'beach-class-iracema'].includes(development?.slug);
+  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'beach-class-milagres', 'beach-class-natal', 'beach-class-ponta-negra', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-cumbuco', 'beach-class-iracema'].includes(development?.slug);
   const visibleGalleryImages = lightboxGroups.gallery.slice(0, 5);
   const remainingGalleryCount = Math.max(0, lightboxGroups.gallery.length - visibleGalleryImages.length);
   const visibleFloorPlans = showAllOrganizedImages

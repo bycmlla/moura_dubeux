@@ -1,0 +1,13 @@
+BEACH CLASS PONTA NEGRA - LEIA-ME
+
+01_Capa: imagem escolhida para capa / banner principal. 
+02_Imagens_Empreendimento: somente perspectivas do empreendimento e seus ambientes. NENHUMA PLANTA.
+03_Plantas_e_Implantacao: desenhos das unidades, implantacao dos pavimentos e folhas de referencia que preservam as legendas.
+04_Localizacao_e_Entorno: imagens e mapa da regiao, separados das perspectivas do empreendimento.
+
+As imagens da pasta 02 sao perspectivas artisticas do PDF, nao fotos reais da construcao. Os PNGs foram extraidos de imagens embutidas no PDF, com ajustes de orientacao e mascaras quando necessario. Nao foram gerados artificialmente.
+
+informacoes_empreendimento.txt: dados do empreendimento com paginas de origem.
+indice_imagens.csv: relacao de cada imagem, pagina do PDF, descricao e dimensoes.
+
+Capa recomendada: 01_Capa/capa_fachada_e_piscina.png. Tambem aparece na galeria para nao faltar a perspectiva ao importar apenas a pasta 02.
