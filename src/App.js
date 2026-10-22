@@ -534,6 +534,52 @@ import pontaNegraPlan18ReferenciaApartamento07Metragens from './assets/Empreendi
 import pontaNegraLoc01PraiaDePontaNegraVistaPanoramica from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/04_Localizacao_e_Entorno/01_praia_de_ponta_negra_vista_panoramica.png';
 import pontaNegraLoc02VistaAereaDaLocalizacaoDoTerreno from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/04_Localizacao_e_Entorno/02_vista_aerea_da_localizacao_do_terreno.png';
 import pontaNegraLoc03MapaLocalizacaoComReferencias from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/04_Localizacao_e_Entorno/03_mapa_localizacao_com_referencias.png';
+import portoDasDunasCover from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/01_Capa/capa_perspectiva_aerea_piscinas_e_mar.png';
+import portoDasDunasPhotoPiscinasVistaSuperiorHidromassagem from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/piscinas_vista_superior_hidromassagem.png';
+import portoDasDunasPhotoPiscinaComplexoAquaticoVistaInterna from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/piscina_complexo_aquatico_vista_interna.png';
+import portoDasDunasPhotoPiscinaInfantilComToboaguas from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/piscina_infantil_com_toboaguas.png';
+import portoDasDunasPhotoEspacoZenHidromassagemERedario from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/espaco_zen_hidromassagem_e_redario.png';
+import portoDasDunasPhotoPracaMarAcessoPraiaPaisagismo from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/praca_mar_acesso_praia_paisagismo.png';
+import portoDasDunasPhotoLoungeRestauranteVistaParaMar from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/lounge_restaurante_vista_para_mar.png';
+import portoDasDunasPhotoRestauranteFachadaETerraco from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/restaurante_fachada_e_terraco.png';
+import portoDasDunasPhotoEspacoParrillaChurrasqueira from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/espaco_parrilla_churrasqueira.png';
+import portoDasDunasPhotoEntradaPortariaEAcessoVeiculos from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/entrada_portaria_e_acesso_veiculos.png';
+import portoDasDunasPhotoRecepcaoSocialAmbienteInterno from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/recepcao_social_ambiente_interno.png';
+import portoDasDunasPhotoAcademiaEquipada from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/academia_equipada.png';
+import portoDasDunasPhotoSpaComSaunaEPiscina from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/spa_com_sauna_e_piscina.png';
+import portoDasDunasPhotoSalaDeMassagem from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/sala_de_massagem.png';
+import portoDasDunasPhotoQuadraBeachTenisEBlocoWellness from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/quadra_beach_tenis_e_bloco_wellness.png';
+import portoDasDunasPhotoPlaygroundAreaInfantil from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/playground_area_infantil.png';
+import portoDasDunasPhotoBrinquedotecaBlocoSocial from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/brinquedoteca_bloco_social.png';
+import portoDasDunasPhotoStudio29m2AmbienteIntegradoEVaranda from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/studio_29m2_ambiente_integrado_e_varanda.png';
+import portoDasDunasPhotoApartamentoQuartoSala41m2AmbienteIntegrado from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_quarto_sala_41m2_ambiente_integrado.png';
+import portoDasDunasPhotoApartamento2Quartos67m2SalaECozinha from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_67m2_sala_e_cozinha.png';
+import portoDasDunasPhotoApartamento2Quartos69m2VarandaGourmet from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_69m2_varanda_gourmet.png';
+import portoDasDunasPhotoApartamento3Quartos80m2SalaEVaranda from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_3_quartos_80m2_sala_e_varanda.png';
+import portoDasDunasPhotoApartamento3Quartos80m2Suite from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_3_quartos_80m2_suite.png';
+import portoDasDunasPhotoApartamentoGarden2QuartosVarandaEPiscinas from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_garden_2_quartos_varanda_e_piscinas.png';
+import portoDasDunasPhotoApartamentoGarden3QuartosSala from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_garden_3_quartos_sala.png';
+import portoDasDunasPhotoApartamentoGardenColuna6AreaExterna from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_garden_coluna_6_area_externa.png';
+import portoDasDunasPlanImplantacaoGeralBlocosEAcessos from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/01_Implantacao_Geral/implantacao_geral_blocos_e_acessos.png';
+import portoDasDunasPlanImplantacaoTrecho01FrenteMarELazer from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/01_Implantacao_Geral/implantacao_trecho_01_frente_mar_e_lazer.png';
+import portoDasDunasPlanImplantacaoTrecho02WellnessEEsportes from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/01_Implantacao_Geral/implantacao_trecho_02_wellness_e_esportes.png';
+import portoDasDunasPlanImplantacaoTrecho03BlocosEPiscinas from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/01_Implantacao_Geral/implantacao_trecho_03_blocos_e_piscinas.png';
+import portoDasDunasPlanPavimentoTerreoBlocosABCD2e3Quartos from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/02_Pavimentos/pavimento_terreo_blocos_A_B_C_D_2e3_quartos.png';
+import portoDasDunasPlanPavimentoTipo1a3BlocosABCD from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/02_Pavimentos/pavimento_tipo_1a3_blocos_A_B_C_D.png';
+import portoDasDunasPlanPavimentoTerreoBlocosEFG from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/02_Pavimentos/pavimento_terreo_blocos_E_F_G.png';
+import portoDasDunasPlanPavimentoTipo1a3BlocosEFG from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/02_Pavimentos/pavimento_tipo_1a3_blocos_E_F_G.png';
+import portoDasDunasPlanPlantaStudio2932m2 from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/03_Plantas_das_Unidades/planta_studio_29_32m2.png';
+import portoDasDunasPlanPlantaGardenStudio3873m2 from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/03_Plantas_das_Unidades/planta_garden_studio_38_73m2.png';
+import portoDasDunasPlanPlantaQuartoSala4150m2 from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/03_Plantas_das_Unidades/planta_quarto_sala_41_50m2.png';
+import portoDasDunasPlanPlantaGardenQuartoSala5894m2 from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/03_Plantas_das_Unidades/planta_garden_quarto_sala_58_94m2.png';
+import portoDasDunasPlanPlanta2Quartos6728m2Colunas1235 from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/03_Plantas_das_Unidades/planta_2_quartos_67_28m2_colunas_1_2_3_5.png';
+import portoDasDunasPlanPlanta2Quartos6919m2Colunas1011 from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/03_Plantas_das_Unidades/planta_2_quartos_69_19m2_colunas_10_11.png';
+import portoDasDunasPlanPlantaGarden2Quartos9561m2 from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/03_Plantas_das_Unidades/planta_garden_2_quartos_95_61m2.png';
+import portoDasDunasPlanPlantaGarden2Quartos9767m2Colunas12345 from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/03_Plantas_das_Unidades/planta_garden_2_quartos_97_67m2_colunas_1_2_3_4_5.png';
+import portoDasDunasPlanPlanta3Quartos8047m2Coluna6 from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/03_Plantas_das_Unidades/planta_3_quartos_80_47m2_coluna_6.png';
+import portoDasDunasPlanPlanta3Quartos8922m2Coluna4 from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/03_Plantas_das_Unidades/planta_3_quartos_89_22m2_coluna_4.png';
+import portoDasDunasPlanPlantaGarden3Quartos11667m2Coluna6 from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/03_Plantas_e_Implantacao/03_Plantas_das_Unidades/planta_garden_3_quartos_116_67m2_coluna_6.png';
+import portoDasDunasLocMapaRegiaoPortoDasDunasFortaleza from './assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/04_Localizacao_e_Entorno/mapa_regiao_porto_das_dunas_fortaleza.png';
 import cyanoOrganizedCover from './assets/Empreendimentos/Bahia/Cyano_Organizado/capa/capa_cyano.png';
 import cyanoApartment3Living from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_3_suites_living.png';
 import cyanoApartment3Kitchen from './assets/Empreendimentos/Bahia/Cyano_Organizado/imagens_empreendimento/apartamentos/apartamento_3_suites_living_cozinha_integrada.png';
@@ -2132,6 +2178,83 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
+    slug: 'beach-class-porto-das-dunas', name: 'Beach Class Porto das Dunas', image: portoDasDunasCover,
+    city: 'Porto das Dunas, CE', neighborhood: 'Porto das Dunas', locationTitle: 'Porto das Dunas - Ceará',
+    address: 'Porto das Dunas, Ceará, próximo a Fortaleza',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Beach%20Class%20Porto%20das%20Dunas%20CE',
+    area: '29 a 117 m²', profile: 'Studios, quarto e sala, 2 e 3 quartos, com opções Garden', detail: '321 unidades em 7 blocos',
+    description: 'O Beach Class Porto das Dunas é um empreendimento em região de praia, em Porto das Dunas, perto de Fortaleza, com proposta de moradia, estadia e investimento. O conjunto reúne sete blocos e 321 unidades, com studios, quarto e sala e apartamentos de 2 e 3 quartos, além de opções Garden com área externa privativa. A estrutura inclui complexo aquático com ilhas de hidromassagem, restaurante com vista para o mar, spa com sauna, academia, quadras e acesso à praia, com cerca de 2.690 m² de área de preservação ambiental.',
+    highlights: ['29 a 117 m²', '321 unidades em 7 blocos', 'Complexo aquático e acesso à praia', 'Cerca de 2.690 m² de preservação ambiental'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Porto das Dunas, CE'], ['Unidades', '321 apartamentos'], ['Garagem', '393 vagas rotativas']],
+    technical: [
+      ['Área do terreno', '52.004,97 m²'],
+      ['Área privativa total', '17.211,88 m²'],
+      ['Área de preservação', '2.691,83 m²'],
+      ['Blocos', '7 blocos residenciais (A a G), com térreo + 3 pavimentos superiores'],
+      ['Unidades', '321 unidades residenciais: 96 nos blocos A a D e 225 nos blocos E a G'],
+      ['Blocos A a D', '3 quartos de 80,47 e 89,22 m²; 2 quartos de 67,28 m²; Garden de 2 quartos (97,67 m²) e de 3 quartos (116,67 m²)'],
+      ['Blocos E a G', 'Studios de 29,32 m²; quarto e sala de 41,50 m²; 2 quartos de 69,19 m²; Gardens de studio (38,73 m²), quarto e sala (58,94 m²) e 2 quartos (95,61 m²)'],
+      ['Garagem', '393 vagas rotativas: direito de uso de 2 vagas para 2 e 3 quartos e 1 vaga para studios e quarto e sala, conforme vacância'],
+      ['Restaurante', 'Espaço equipado, exceto equipamentos de cozinha'],
+      ['Material', 'Perspectivas ilustrativas; áreas e Gardens conforme a ficha técnica e o documento contratual'],
+    ],
+    amenities: ['Complexo aquático e piscinas', 'Piscinas infantis com toboáguas', 'Ilhas de hidromassagem e espaço zen', 'Restaurante e lounge com vista para o mar', 'Espaço parrilla e churrasqueiras', 'Recepção social', 'Praça Mar com acesso à praia', 'Academia', 'Spa com sauna', 'Salas de massagem', 'Salão de beleza', 'Quadra de beach tênis', 'Quadra poliesportiva', 'Playground e brinquedoteca', 'Beach park infantil', 'Pet place e pet shower', 'Bicicletários', 'Guarderia de materiais de praia e pranchas de surf', 'Lavanderia compartilhada', 'Espaço para minimarket', 'Concierge para check-in e check-out', 'Wi-Fi nas áreas comuns'],
+    security: ['Fechadura eletrônica nos acessos sociais dos apartamentos', 'Guarita com controle de veículos por tag', 'Eclusa de serviço com reconhecimento facial', 'Sala de monitoramento de câmeras'],
+    sustainability: ['Cerca de 2.690 m² de área de preservação ambiental', 'Irrigação automática dos jardins', 'Estação de tratamento de esgoto com reúso de água na irrigação', 'Aproveitamento da água das condensadoras para irrigação', 'Iluminação LED nas áreas comuns', 'Iluminação externa automatizada e sensores de presença', '10 totens de carregamento de veículos elétricos', '15 bicicletas compartilhadas', 'Coleta seletiva', 'Bacias de acionamento duplo e metais redutores de vazão', 'Medição individualizada de água'],
+    projectTeam: [],
+    gallery: [
+      { src: portoDasDunasPhotoPiscinasVistaSuperiorHidromassagem, titulo: 'Beach Class Porto das Dunas - perspectiva das piscinas com hidromassagem' },
+      { src: portoDasDunasPhotoPiscinaComplexoAquaticoVistaInterna, titulo: 'Perspectiva do complexo aquático' },
+      { src: portoDasDunasPhotoPiscinaInfantilComToboaguas, titulo: 'Perspectiva da piscina infantil com toboáguas' },
+      { src: portoDasDunasPhotoEspacoZenHidromassagemERedario, titulo: 'Perspectiva do espaço zen com hidromassagem e redário' },
+      { src: portoDasDunasPhotoPracaMarAcessoPraiaPaisagismo, titulo: 'Perspectiva da Praça Mar e do acesso à praia' },
+      { src: portoDasDunasPhotoLoungeRestauranteVistaParaMar, titulo: 'Perspectiva do lounge e restaurante com vista para o mar' },
+      { src: portoDasDunasPhotoRestauranteFachadaETerraco, titulo: 'Perspectiva da fachada e do terraço do restaurante' },
+      { src: portoDasDunasPhotoEspacoParrillaChurrasqueira, titulo: 'Perspectiva do espaço parrilla e churrasqueira' },
+      { src: portoDasDunasPhotoEntradaPortariaEAcessoVeiculos, titulo: 'Perspectiva da entrada, portaria e acesso de veículos' },
+      { src: portoDasDunasPhotoRecepcaoSocialAmbienteInterno, titulo: 'Perspectiva da recepção social' },
+      { src: portoDasDunasPhotoAcademiaEquipada, titulo: 'Perspectiva da academia equipada' },
+      { src: portoDasDunasPhotoSpaComSaunaEPiscina, titulo: 'Perspectiva do spa com sauna e piscina' },
+      { src: portoDasDunasPhotoSalaDeMassagem, titulo: 'Perspectiva da sala de massagem' },
+      { src: portoDasDunasPhotoQuadraBeachTenisEBlocoWellness, titulo: 'Perspectiva da quadra de beach tênis e do bloco wellness' },
+      { src: portoDasDunasPhotoPlaygroundAreaInfantil, titulo: 'Perspectiva do playground e da área infantil' },
+      { src: portoDasDunasPhotoBrinquedotecaBlocoSocial, titulo: 'Perspectiva da brinquedoteca do bloco social' },
+      { src: portoDasDunasPhotoStudio29m2AmbienteIntegradoEVaranda, titulo: 'Perspectiva do Studio de 29 m² com varanda' },
+      { src: portoDasDunasPhotoApartamentoQuartoSala41m2AmbienteIntegrado, titulo: 'Perspectiva do apartamento quarto e sala de 41 m²' },
+      { src: portoDasDunasPhotoApartamento2Quartos67m2SalaECozinha, titulo: 'Perspectiva da sala e cozinha do apartamento de 2 quartos de 67 m²' },
+      { src: portoDasDunasPhotoApartamento2Quartos69m2VarandaGourmet, titulo: 'Perspectiva da varanda gourmet do apartamento de 2 quartos de 69 m²' },
+      { src: portoDasDunasPhotoApartamento3Quartos80m2SalaEVaranda, titulo: 'Perspectiva da sala e varanda do apartamento de 3 quartos de 80 m²' },
+      { src: portoDasDunasPhotoApartamento3Quartos80m2Suite, titulo: 'Perspectiva da suíte do apartamento de 3 quartos de 80 m²' },
+      { src: portoDasDunasPhotoApartamentoGarden2QuartosVarandaEPiscinas, titulo: 'Perspectiva do apartamento Garden de 2 quartos com varanda e vista das piscinas' },
+      { src: portoDasDunasPhotoApartamentoGarden3QuartosSala, titulo: 'Perspectiva da sala do apartamento Garden de 3 quartos' },
+      { src: portoDasDunasPhotoApartamentoGardenColuna6AreaExterna, titulo: 'Perspectiva da área externa do apartamento Garden da coluna 6' },
+    ],
+    floorPlans: [
+      { src: portoDasDunasPlanImplantacaoGeralBlocosEAcessos, titulo: 'Implantação geral - blocos e acessos' },
+      { src: portoDasDunasPlanImplantacaoTrecho01FrenteMarELazer, titulo: 'Implantação - frente mar e lazer' },
+      { src: portoDasDunasPlanImplantacaoTrecho02WellnessEEsportes, titulo: 'Implantação - wellness e esportes' },
+      { src: portoDasDunasPlanImplantacaoTrecho03BlocosEPiscinas, titulo: 'Implantação - blocos e piscinas' },
+      { src: portoDasDunasPlanPavimentoTerreoBlocosABCD2e3Quartos, titulo: 'Blocos A, B, C e D - pavimento térreo (2 e 3 quartos)' },
+      { src: portoDasDunasPlanPavimentoTipo1a3BlocosABCD, titulo: 'Blocos A, B, C e D - pavimentos tipo 1º ao 3º' },
+      { src: portoDasDunasPlanPavimentoTerreoBlocosEFG, titulo: 'Blocos E, F e G - pavimento térreo' },
+      { src: portoDasDunasPlanPavimentoTipo1a3BlocosEFG, titulo: 'Blocos E, F e G - pavimentos tipo 1º ao 3º' },
+      { src: portoDasDunasPlanPlantaStudio2932m2, titulo: 'Studio 29,32 m²' },
+      { src: portoDasDunasPlanPlantaGardenStudio3873m2, titulo: 'Studio Garden 38,73 m²' },
+      { src: portoDasDunasPlanPlantaQuartoSala4150m2, titulo: 'Quarto e sala 41,50 m²' },
+      { src: portoDasDunasPlanPlantaGardenQuartoSala5894m2, titulo: 'Quarto e sala Garden 58,94 m²' },
+      { src: portoDasDunasPlanPlanta2Quartos6728m2Colunas1235, titulo: '2 quartos 67,28 m² - colunas 1, 2, 3 e 5' },
+      { src: portoDasDunasPlanPlanta2Quartos6919m2Colunas1011, titulo: '2 quartos 69,19 m² - colunas 10 e 11' },
+      { src: portoDasDunasPlanPlantaGarden2Quartos9561m2, titulo: '2 quartos Garden 95,61 m²' },
+      { src: portoDasDunasPlanPlantaGarden2Quartos9767m2Colunas12345, titulo: '2 quartos Garden 97,67 m² - colunas 1 a 5' },
+      { src: portoDasDunasPlanPlanta3Quartos8047m2Coluna6, titulo: '3 quartos 80,47 m² - coluna 6' },
+      { src: portoDasDunasPlanPlanta3Quartos8922m2Coluna4, titulo: '3 quartos 89,22 m² - coluna 4' },
+      { src: portoDasDunasPlanPlantaGarden3Quartos11667m2Coluna6, titulo: '3 quartos Garden 116,67 m² - coluna 6' },
+    ],
+    locationImages: [
+      { src: portoDasDunasLocMapaRegiaoPortoDasDunasFortaleza, titulo: 'Mapa da região de Porto das Dunas e Fortaleza' },
+    ],
+  }),
+  createDevelopment({
     slug: 'unica-cardeal', name: 'Única Cardeal', image: unicaCardealCover,
     city: 'Salvador, BA', neighborhood: 'Federação', locationTitle: 'Avenida Cardeal da Silva - Salvador/BA',
     address: 'Avenida Cardeal da Silva, Salvador/BA',
@@ -3514,7 +3637,7 @@ function DevelopmentDetail({ development }) {
   const touchStartX = useRef(null);
   const activeImages = activeLightbox ? lightboxGroups[activeLightbox.group] : [];
   const activeImage = activeLightbox ? activeImages[activeLightbox.index] : null;
-  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'beach-class-milagres', 'beach-class-natal', 'beach-class-ponta-negra', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-cumbuco', 'beach-class-iracema'].includes(development?.slug);
+  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'beach-class-milagres', 'beach-class-natal', 'beach-class-ponta-negra', 'beach-class-porto-das-dunas', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-cumbuco', 'beach-class-iracema'].includes(development?.slug);
   const visibleGalleryImages = lightboxGroups.gallery.slice(0, 5);
   const remainingGalleryCount = Math.max(0, lightboxGroups.gallery.length - visibleGalleryImages.length);
   const visibleFloorPlans = showAllOrganizedImages
