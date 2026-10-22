@@ -1,0 +1,87 @@
+BEACH CLASS PONTA NEGRA - INFORMACOES DO EMPREENDIMENTO
+================================================================
+Fonte: "Beach Class Ponta Negra.pdf", book digital de 47 paginas, Moura Dubeux.
+Os dados abaixo foram transcritos e organizados a partir do material de origem.
+Nao representam verificacao de precos, disponibilidade ou andamento das obras.
+
+1. IDENTIFICACAO
+- Nome: Beach Class Ponta Negra.
+- Incorporadora / marca informada no book: Moura Dubeux.
+- Localizacao apresentada: bairro de Ponta Negra, Natal, Rio Grande do Norte.
+- O book descreve localizacao a poucos metros do mar e proxima ao Morro do Careca.
+- O endereco completo (rua e numero) nao e informado de forma inequivoca nas paginas consultadas.
+- Conceito descrito no book: empreendimento de escala boutique, integrando arquitetura, natureza, hospitalidade e experiencias de lazer.
+
+2. LOCALIZACAO E ENTORNO (PAGINAS 6 A 8)
+- Praia de Ponta Negra e Morro do Careca.
+- Praia Shopping.
+- Acesso a Via Costeira.
+- Feira de Artesanato.
+- Restaurantes, incluindo indicacoes de Camaroes no mapa.
+- Na pagina 8, o mapa situa o empreendimento no entorno da Avenida Engenheiro Roberto Freire e identifica referencias como Vilarte, Mazzano e Atma Rooftop.
+- A localizacao e representada graficamente no PDF; nao usar o mapa como coordenada oficial de geolocalizacao.
+
+3. APARTAMENTOS E TIPOLOGIAS
+- O book apresenta studios e unidades de 2 quartos.
+- Faixa de area anunciada: 37,90 m2 a 97,93 m2 (pagina 33).
+- Ha unidades com garden e opcoes com mezanino.
+- As pranchas de pavimento (paginas 26, 28 e 30) relacionam numeros de unidades e metragens especificas.
+
+4. PLANTAS DETALHADAS NO BOOK
+- Apartamento 244, pavimento tipo 02: 65,16 m2, com pavimentos inferior e superior (pagina 34).
+- Apartamento 44, pavimento garden: studio de 37,90 m2 + garden de 16,50 m2 (pagina 37).
+- Apartamento 38, pavimento garden: studio de 40,90 m2 + garden de 13,50 m2 (pagina 39).
+- Apartamento 07, pavimento garden: 2 quartos, 76,07 m2 + garden de 17,23 m2 (pagina 41).
+- Observacao: o garden e informado separadamente da area interna nessas plantas. Nao somar automaticamente as areas para anuncios sem conferir a convencao de area privativa aplicavel.
+
+5. LAZER E AREAS COMUNS (PAGINAS 15 A 31)
+- Piscinas, inclusive piscina infantil.
+- Pool bar e apoio de pool bar.
+- Pool house.
+- Spa.
+- Academia.
+- Sala multiuso e deck de yoga.
+- Salao de festas com copa.
+- Espacos gourmet / quiosques.
+- Lounge coberto, lounge / hall social, lobby.
+- Daybeds e espaco happy hour.
+- Pet place e hortas.
+- Salao de beleza.
+- Lavanderia.
+- Lounge / minimarket.
+- Areas de acesso e servico, administracao e delivery.
+
+6. DIFERENCIAIS E COMODIDADES (PAGINA 44)
+- Fechaduras eletronicas nas portas de entrada dos apartamentos.
+- Controle automatizado de acesso de veiculos.
+- Infraestrutura para Wi-Fi.
+- Estrutura para guarda e recebimento de delivery.
+- Lavanderia.
+- Estrutura para minimarket.
+- Bicicletario.
+- Espacos gourmet.
+- Areas comuns equipadas e mobiliadas.
+- Espacos de lazer.
+
+7. FICHA TECNICA (PAGINA 46)
+- Area do terreno: 6.600,00 m2.
+- Empreendimento descrito como bloco unico habitacional.
+- Pavimento garden: 46 unidades privativas com garden.
+- Pavimento terreo / tipo 01: 47 unidades privativas.
+- Pavimento lobby / tipo 02 / rua: 47 unidades privativas.
+- Pavimento mezanino: "anexo de 44 unidades privativas" (redacao do book).
+- Total informado: 140 unidades privativas (46 + 47 + 47). A mencao aos 44 anexos do mezanino nao deve ser interpretada automaticamente como 44 unidades adicionais.
+- Blocos de apoio: quiosque da piscina e pool bar.
+- Vagas: 67, sendo 55 em sistema rotativo, 6 vinculadas, 4 para idosos e 2 PNE.
+
+8. PROFISSIONAIS CITADOS (PAGINA 45)
+- Guilherme Takeda / Takeda Design: arquiteto, paisagista e urbanista.
+- Felipe Bezerra: arquiteto, fundador do FBA - Felipe Bezerra Arquitetos e cofundador do Mula Preta.
+
+9. USO DAS IMAGENS E OBSERVACOES
+- As imagens de fachadas, piscinas e ambientes sao perspectivas ilustrativas presentes no material comercial; nao devem ser apresentadas como fotos da obra concluida.
+- Planta arquitetonica, mapa de implantacao ou pagina tecnica nao deve entrar na galeria de perspectivas do empreendimento.
+- A pasta 03 possui desenhos tecnicos extraidos individualmente e paginas de referencia com legendas originais.
+- A pasta 04 possui imagens da regiao, que nao sao perspectivas das dependencias do empreendimento.
+- O arquivo indice_imagens.csv relaciona cada PNG a sua origem no PDF.
+- Para publicar anuncio comercial, confirmar informacoes e condicoes com a incorporadora, principalmente metragens e unidades disponiveis.

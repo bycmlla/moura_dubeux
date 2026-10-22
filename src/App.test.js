@@ -772,6 +772,43 @@ test('renders Beach Class Natal perspectives, all floor plans and location separ
   expect(screen.getByRole('button', { name: /ampliar Entorno: vista aérea de Ponta Negra/i })).toBeInTheDocument();
 });
 
+test('lists Beach Class Ponta Negra under Rio Grande do Norte next to Beach Class Natal', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Rio Grande do Norte' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Rio Grande do Norte' }));
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Ponta Negra', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Beach Class Natal', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Beach Class Ponta Negra.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/beach-class-ponta-negra');
+});
+
+test('renders Beach Class Ponta Negra perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/beach-class-ponta-negra';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Ponta Negra', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('6.600,00 m²')).toBeInTheDocument();
+  expect(screen.getAllByText(/67 vagas/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+17 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(18);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Ponta%20Negra%20Natal%20RN'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Beach Class Ponta Negra - perspectiva do acesso principal/i }));
+  expect(screen.getByText('1 / 22')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva aérea do empreendimento e da praia/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Apartamento 07 - metragens/i }));
+  expect(screen.getByText('18 / 18')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  expect(screen.getByRole('button', { name: /ampliar Mapa de localização com referências/i })).toBeInTheDocument();
+});
+
 test('renders Arthur Bruno Schwambach photos and floor plans in their own sections', () => {
   window.location.hash = '#empreendimento/arthur-bruno-schwambach';
   render(<App />);
