@@ -1,0 +1,74 @@
+INFINITY RECIFE - INFORMAÇÕES DO EMPREENDIMENTO
+================================================
+Fonte: book digital "MD - INFINITY RECIFE - DIGITAL - V23 - 22_01.pdf", 61 páginas.
+Incorporadora/marca: Moura Dubeux | MD Collection.
+
+DESCRIÇÃO
+Infinity Recife é um empreendimento em projeto de retrofit na região de Boa Viagem, Recife (PE), associado ao antigo Recife Palace Hotel e à proposta de renovação urbana da Av. Boa Viagem. O material apresenta arquitetura contemporânea, espaços de bem-estar, uma torre residencial, unidades compactas e apartamentos de 1 e 2 quartos com opções de metragens variadas. As imagens de fachada e ambientes são perspectivas do projeto, não fotografias de uma obra concluída.
+
+LOCALIZAÇÃO
+- Boa Viagem, Recife, Pernambuco.
+- Referências viárias nas plantas: Av. Boa Viagem, Rua Ernesto de Paula Santos e Rua dos Navegantes.
+- Região litorânea de Boa Viagem; proximidade do mar e de serviços urbanos.
+- Não consta número predial exato confirmado no material em texto acessível; não presumir o número.
+
+FICHA TÉCNICA (book, página 59)
+- 1 torre.
+- 329 unidades residenciais.
+- 1 loja comercial, com 475,56 m².
+- Área do terreno: 2.528,75 m².
+- Área privativa informada: 14.934,96 m².
+- Garagem: 117 vagas, sendo 2 PNE e 12 vagas em sistema denominado "vagões" (9 m de comprimento).
+- Vagas em sistema rotativo.
+- Pavimento 2: 12 apartamentos.
+- Pavimentos tipo do 4º ao 18º: 20 apartamentos por pavimento.
+- Pavimento 19: 17 apartamentos.
+
+TIPOLOGIAS E METRAGENS (book, página 59)
+- 2º pavimento: Infinity Solo, de cerca de 32 m² a 49 m²; Infinity Two, de cerca de 78 m² a 83 m².
+- 4º ao 18º pavimentos: Infinity Solo, de cerca de 26 m² a 42 m²; Infinity One, com cerca de 61 m²; Infinity Two, com cerca de 76 m².
+- 19º pavimento: Infinity Solo, cerca de 35 m²; Infinity One, de cerca de 43 m² a 62 m²; Infinity Two, de cerca de 94 m² a 97 m².
+
+METRAGENS EXPLICITADAS NAS PLANTAS INDIVIDUAIS
+- 2º pavimento: Infinity Solo 32,20 m²; 38,35 m²; 49,80 m². Infinity Two 78,90 m².
+- 4º ao 18º: Infinity Solo 26,90 m²; 35,70 m²; 39,75 m²; 39,30 m². Infinity One 61,90 m²; Infinity Two 76,15 m².
+- 19º: Infinity Solo 35,05 m²; Infinity One 43,95 m²; 48,60 m²; 48,00 m²; 62,70 m². Infinity Two 94,45 m²; 97,10 m².
+Observação: o book apresenta algumas metragens arredondadas no resumo e outras com casas decimais nas plantas. Para o cadastro da unidade, utilize a metragem da planta correspondente e valide com a tabela oficial de unidades antes de publicar.
+
+LAZER E SERVIÇOS (páginas 23 e 59)
+- Pavimento semienterrado: garagem e bicicletário.
+- Pavimento térreo: hall, recepção, espaço delivery e loja.
+- 1º pavimento: garagem.
+- 2º pavimento: lavanderia, minimarket e pet wash.
+- Pavimento de lazer indicado na ficha técnica como 3º pavimento: academia; piscina com borda infinita; duas piscinas de hidromassagem no lazer e no spa; bar; deck; restaurante; espaço gourmet; spa com sauna, salas de massagem e hidro aquecida.
+- Outros itens identificados nas pranchas incluem terraço descoberto, terraço coberto e salas fitness.
+
+FACILIDADES E DIFERENCIAIS (book, página 59)
+- Irrigação inteligente.
+- Fechadura eletrônica nas portas sociais dos apartamentos.
+- 8 vagas com carregamento elétrico em sistema rotativo.
+- Áreas comuns mobiliadas, equipadas e automatizadas, conforme material publicitário.
+
+SUSTENTABILIDADE (book, página 58)
+- Integração do empreendimento ao entorno e melhoria da paisagem urbana.
+- Novos jardins acessíveis à cidade.
+- Acesso porte-cochère.
+- Uso de equipamentos de redução de vazão nas torneiras e vasos sanitários.
+- Irrigação automatizada dos jardins comuns.
+- Iluminação automatizada e/ou com sensores em parte das áreas comuns.
+- Opções de personalização de acabamentos para reduzir reformas futuras.
+- Gestão de resíduos da obra com descarte responsável.
+- Espaços abertos ajardinados e promoção de atividades físicas e qualidade de vida.
+
+EQUIPE E CONCEITO
+- Arquitetura: Zirpol Arquitetura, conforme página 6.
+- Conceito de coleção: MD Collection / Moura Dubeux, com participação editorial da influenciadora Camila Coutinho.
+- Produto apresentado como retrofit de um edifício preexistente (página 11).
+
+OBSERVAÇÕES IMPORTANTES PARA O CADASTRO
+- "02_Imagens_Empreendimento" contém apenas perspectivas visuais (fachada, piscina, academia, ambientes e unidades), jamais plantas.
+- "03_Plantas_e_Implantacao" contém apenas plantas baixas individuais, pavimentos e referências oficiais com legenda.
+- "04_Localizacao_e_Contexto" contém mapa, paisagem ilustrativa e fotografia da estrutura original, NÃO imagens do futuro empreendimento.
+- Cada PNG recebe nome descritivo; origem/página e dimensão estão no indice_imagens.csv.
+- O book foi fornecido como imagens rasterizadas, sem camada de texto extraível; os dados acima foram transcritos visualmente das páginas 58 e 59 e das plantas.
+- As perspectivas e mobiliários são ilustrativos e podem sofrer alterações. Conferir metragens finais, disponibilidade, registro e condições de venda na documentação oficial atualizada.

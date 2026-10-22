@@ -1,0 +1,176 @@
+INDICE DAS IMAGENS - LANAI BEACH
+
+01_Capa/capa_lanai_beach_torres_e_orla_de_jacarecica.png
+  pagina 2 | 1433x930 | Imagem principal: duas torres junto a Praia de Jacarecica, com o mar e a orla
+
+02_Imagens_Empreendimento/fachada_duas_torres_nalu_e_makani_anoitecer.png
+  pagina 3 | 971x701 | Fachada das torres Nalu e Makani ao anoitecer
+
+02_Imagens_Empreendimento/vista_aerea_area_de_lazer_entre_torres.png
+  pagina 4 | 1922x560 | Perspectiva superior do lazer e das torres
+
+02_Imagens_Empreendimento/piscina_beira_mar_com_deck.png
+  pagina 5 | 1706x1081 | Piscina à beira-mar e solário
+
+02_Imagens_Empreendimento/jardins_e_caminhos_lazer_externo.png
+  pagina 6 | 1921x1081 | Jardins, caminho e áreas de convivência externas
+
+02_Imagens_Empreendimento/piscina_adulto_com_spa.png
+  pagina 7 | 1921x1081 | Piscina adulto com área de hidromassagem
+
+02_Imagens_Empreendimento/piscina_borda_infinita_vista_mar_dia.png
+  pagina 8 | 1570x1083 | Piscina com borda infinita e vista para o mar, de dia
+
+02_Imagens_Empreendimento/piscina_borda_infinita_vista_mar_noite.png
+  pagina 9 | 1570x1083 | Piscina com borda infinita à noite
+
+02_Imagens_Empreendimento/piscina_infantil_aquatica.png
+  pagina 10 | 1922x913 | Piscina infantil com brinquedos aquáticos
+
+02_Imagens_Empreendimento/playground_parquinho.png
+  pagina 11 | 1921x1081 | Playground ao ar livre
+
+02_Imagens_Empreendimento/pet_place_area_para_animais.png
+  pagina 12 | 1628x1081 | Espaço pet ao ar livre
+
+02_Imagens_Empreendimento/salao_de_festas_interno.png
+  pagina 14 | 1919x981 | Salão de festas interno
+
+02_Imagens_Empreendimento/salao_de_festas_terraco_externo.png
+  pagina 15 | 1920x1080 | Salão externo integrado ao salão de festas
+
+02_Imagens_Empreendimento/bar_da_praia.png
+  pagina 16 | 1923x1081 | Bar da praia com mesas e vista para o mar
+
+02_Imagens_Empreendimento/sports_bar_jogos.png
+  pagina 17 | 1919x958 | Sports bar com jogos e bancada
+
+02_Imagens_Empreendimento/espaco_kids_brinquedoteca.png
+  pagina 18 | 1543x1082 | Espaço kids e brinquedoteca
+
+02_Imagens_Empreendimento/cinema_kids.png
+  pagina 19 | 1542x1082 | Cinema infantil com assentos e TV
+
+02_Imagens_Empreendimento/academia_fitness.png
+  pagina 20 | 1578x888 | Academia com aparelhos e área de treino
+
+02_Imagens_Empreendimento/coworking_sala_de_reuniao.png
+  pagina 22 | 1598x1080 | Coworking com sala de reunião
+
+02_Imagens_Empreendimento/minimarket_loja_conveniencia.png
+  pagina 23 | 1600x900 | Minimarket do condomínio
+
+02_Imagens_Empreendimento/espaco_ecommerce_guarda_encomendas.png
+  pagina 24 | 1600x1095 | Área de encomendas e e-commerce
+
+02_Imagens_Empreendimento/pet_wash_banho_animais.png
+  pagina 25 | 1921x1081 | Pet wash com bancadas e banheiras
+
+02_Imagens_Empreendimento/bicicletario.png
+  pagina 26 | 1600x900 | Bicicletário do empreendimento
+
+02_Imagens_Empreendimento/apartamento_130m2_sala_de_estar_vista_mar.png
+  pagina 34 | 1728x1082 | Sala de estar decorada do apartamento de 130 m²
+
+02_Imagens_Empreendimento/apartamento_130m2_suite_vista_mar.png
+  pagina 35 | 1920x1083 | Suíte decorada do apartamento de 130 m²
+
+02_Imagens_Empreendimento/apartamento_115m2_sala.png
+  pagina 37 | 1656x1083 | Sala decorada do apartamento de 115 m²
+
+02_Imagens_Empreendimento/apartamento_115m2_suite.png
+  pagina 38 | 1922x1083 | Suíte decorada do apartamento de 115 m²
+
+02_Imagens_Empreendimento/apartamento_99m2_sala_e_cozinha.png
+  pagina 40 | 1481x1082 | Sala e cozinha integradas do apartamento de 99 m²
+
+02_Imagens_Empreendimento/apartamento_99m2_suite.png
+  pagina 41 | 1585x1081 | Suíte decorada do apartamento de 99 m²
+
+02_Imagens_Empreendimento/apartamento_86m2_sala_e_cozinha.png
+  pagina 43 | 1362x1083 | Sala e cozinha integradas do apartamento de 86 m²
+
+02_Imagens_Empreendimento/apartamento_79m2_sala_e_cozinha.png
+  pagina 45 | 1664x1081 | Sala e cozinha integradas do apartamento de 79 m²
+
+02_Imagens_Empreendimento/apartamento_79m2_quarto.png
+  pagina 46 | 1920x1080 | Quarto decorado do apartamento de 79 m²
+
+03_Plantas/01_Apartamentos/planta_apartamento_130m2_torre_nalu.png
+  pagina 36 | 1204x727 | Apartamento 130 m² - torre Nalu (planta isolada)
+
+03_Plantas/03_Paginas_com_Legendas/planta_apartamento_130m2_torre_nalu_com_legenda.png
+  pagina 36 | 2400x1350 | Apartamento 130 m² - torre Nalu (página completa com identificação e legendas)
+
+03_Plantas/01_Apartamentos/planta_apartamento_115m2_torre_makani.png
+  pagina 39 | 1094x735 | Apartamento 115 m² - torre Makani (planta isolada)
+
+03_Plantas/03_Paginas_com_Legendas/planta_apartamento_115m2_torre_makani_com_legenda.png
+  pagina 39 | 2400x1350 | Apartamento 115 m² - torre Makani (página completa com identificação e legendas)
+
+03_Plantas/01_Apartamentos/planta_apartamento_99m2.png
+  pagina 42 | 1278x755 | Apartamento 99 m² (planta isolada)
+
+03_Plantas/03_Paginas_com_Legendas/planta_apartamento_99m2_com_legenda.png
+  pagina 42 | 2400x1350 | Apartamento 99 m² (página completa com identificação e legendas)
+
+03_Plantas/01_Apartamentos/planta_apartamento_86m2.png
+  pagina 44 | 1260x798 | Apartamento 86 m² (planta isolada)
+
+03_Plantas/03_Paginas_com_Legendas/planta_apartamento_86m2_com_legenda.png
+  pagina 44 | 2400x1350 | Apartamento 86 m² (página completa com identificação e legendas)
+
+03_Plantas/01_Apartamentos/planta_apartamento_79m2.png
+  pagina 47 | 1070x844 | Apartamento 79 m² (planta isolada)
+
+03_Plantas/03_Paginas_com_Legendas/planta_apartamento_79m2_com_legenda.png
+  pagina 47 | 2400x1350 | Apartamento 79 m² (página completa com identificação e legendas)
+
+03_Plantas/02_Pavimentos_e_Implantacao/planta_pavimento_lazer_geral.png
+  pagina 27 | 1658x822 | Planta do pavimento de lazer geral, com piscinas e acessos (planta isolada)
+
+03_Plantas/03_Paginas_com_Legendas/planta_pavimento_lazer_geral_com_legenda.png
+  pagina 27 | 2400x1350 | Planta do pavimento de lazer geral, com piscinas e acessos (página completa com identificação e legendas)
+
+03_Plantas/02_Pavimentos_e_Implantacao/planta_pavimento_lazer_torre_nalu.png
+  pagina 28 | 1705x713 | Planta do pavimento de lazer da torre Nalu (planta isolada)
+
+03_Plantas/03_Paginas_com_Legendas/planta_pavimento_lazer_torre_nalu_com_legenda.png
+  pagina 28 | 2400x1350 | Planta do pavimento de lazer da torre Nalu (página completa com identificação e legendas)
+
+03_Plantas/02_Pavimentos_e_Implantacao/planta_pavimento_lazer_torre_makani.png
+  pagina 29 | 1646x694 | Planta do pavimento de lazer da torre Makani (planta isolada)
+
+03_Plantas/03_Paginas_com_Legendas/planta_pavimento_lazer_torre_makani_com_legenda.png
+  pagina 29 | 2400x1350 | Planta do pavimento de lazer da torre Makani (página completa com identificação e legendas)
+
+03_Plantas/02_Pavimentos_e_Implantacao/planta_pavimento_tipo_torre_nalu.png
+  pagina 48 | 1564x653 | Planta do pavimento tipo - torre Nalu (planta isolada)
+
+03_Plantas/03_Paginas_com_Legendas/planta_pavimento_tipo_torre_nalu_com_legenda.png
+  pagina 48 | 2400x1350 | Planta do pavimento tipo - torre Nalu (página completa com identificação e legendas)
+
+03_Plantas/02_Pavimentos_e_Implantacao/planta_pavimento_tipo_torre_makani.png
+  pagina 49 | 1564x654 | Planta do pavimento tipo - torre Makani (planta isolada)
+
+03_Plantas/03_Paginas_com_Legendas/planta_pavimento_tipo_torre_makani_com_legenda.png
+  pagina 49 | 2400x1350 | Planta do pavimento tipo - torre Makani (página completa com identificação e legendas)
+
+03_Plantas/02_Pavimentos_e_Implantacao/planta_mapa_implantacao_unidades.png
+  pagina 50 | 1658x822 | Mapa de implantação das unidades e áreas externas (planta isolada)
+
+03_Plantas/03_Paginas_com_Legendas/planta_mapa_implantacao_unidades_com_legenda.png
+  pagina 50 | 2400x1350 | Mapa de implantação das unidades e áreas externas (página completa com identificação e legendas)
+
+04_Localizacao_e_Entorno/praia_jacarecica_vista_litoral.png
+  pagina 31 | 926x685 | Praia e mar de Jacarecica vistos de cima
+
+04_Localizacao_e_Entorno/area_verde_proxima_a_praia.png
+  pagina 31 | 556x380 | Área verde de preservação junto ao litoral
+
+04_Localizacao_e_Entorno/vista_mar_de_jacarecica.png
+  pagina 32 | 1484x1083 | Perspectiva paisagística da praia de Jacarecica
+
+04_Localizacao_e_Entorno/vista_area_verde_e_orla.png
+  pagina 33 | 1483x1083 | Vista da vegetação e da orla
+

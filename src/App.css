@@ -1520,7 +1520,14 @@ a {
   top: 39%;
   left: 87%;
   width: 7%;
-  height: 9%;
+  height: 5%;
+}
+
+.state-map-hotspot--se {
+  top: 44%;
+  left: 81.5%;
+  width: 7%;
+  height: 5.5%;
 }
 
 .state-map-hotspot--pe {
@@ -1542,6 +1549,13 @@ a {
   left: 84%;
   width: 7%;
   height: 5.5%;
+}
+
+.state-map-hotspot--pb {
+  top: 32%;
+  left: 84%;
+  width: 7%;
+  height: 3.5%;
 }
 
 .state-selection__copy {

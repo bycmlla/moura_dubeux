@@ -1,0 +1,116 @@
+CONCEPT JOÃO PESSOA - INFORMAÇÕES DO EMPREENDIMENTO
+====================================================
+Fonte: Book comercial "Concept João Pessoa" (41 páginas), Moura Dubeux.
+
+IDENTIFICAÇÃO
+Nome comercial: Concept João Pessoa
+Incorporadora/construtora indicada no material: Moura Dubeux
+Endereço de referência: Avenida Senador Ruy Carneiro, Miramar, João Pessoa - PB
+Via também indicada nas plantas: Rua Prefeito José Leite
+Bairro: Miramar
+Cidade: João Pessoa
+Estado: Paraíba (PB)
+
+DESCRIÇÃO PARA SITE
+O Concept João Pessoa reúne apartamentos compactos e funcionais, com opções de
+studios, suíte com living e suíte com home office. Localizado no bairro Miramar,
+na Avenida Senador Ruy Carneiro, oferece infraestrutura de lazer no rooftop,
+com piscina de vista panorâmica e espaços gourmet, além de academia, coworking,
+lavanderia e lounge de conveniência. O conceito valoriza praticidade,
+localização, tecnologia e comodidades para morar ou investir.
+
+FICHA TÉCNICA (pág. 40)
+Área do terreno: 1.917,39 m²
+Total de unidades: 270
+Composição: subsolo, térreo, mezanino, 27 pavimentos tipo e cobertura (rooftop)
+Área privativa das unidades: 21 a 49 m², conforme tipologia
+Planta tipo: 10 unidades por pavimento (pág. 22)
+
+TIPOLOGIAS E METRAGENS
+Studio: 21, 22, 24 ou 27 m²
+  - Terminação 02: 24 m²
+  - Terminação 03: 24 m²
+  - Terminação 05: 22 m²
+  - Terminação 06: 24 m²
+  - Terminação 08: 21 m²
+  - Terminação 09: 21 m²
+  - Terminação 10: 27 m²
+Suíte e living: 35, 36 ou 39 m²
+  - Terminação 01: 35 m²
+  - Terminação 04: 36 m² ou 39 m², conforme pavimento
+Suíte e home office: 49 m²
+  - Terminação 07: 49 m²
+
+VAGAS DE GARAGEM (pág. 40)
+Total informado no book: 114 vagas
+  - 75 vagas de uso rotativo
+  - 27 vagas vinculadas às unidades de terminação 07
+  - 12 vagas comerciais
+Não assumir que todas as unidades possuem vaga privativa.
+
+ÁREAS DE LAZER E CONVIVÊNCIA
+Rooftop (pág. 10):
+  - Piscina (informada como aquecida nos diferenciais, pág. 34)
+  - Deck
+  - Terraço da piscina
+  - Terraço gourmet
+  - Lavabos
+  - Lounge gourmet com vista panorâmica
+  - Lounge gourmet
+  - Terraço rooftop
+Mezanino (pág. 15):
+  - Coworking
+  - Academia
+  - Lounge de conveniência
+  - Lavanderia
+Térreo (pág. 18):
+  - Hall social
+  - Estacionamento residencial
+  - Loja
+  - Estacionamento comercial
+
+DIFERENCIAIS (pág. 34)
+- Lavanderia e lounge de conveniência
+- Guarda-volumes e infraestrutura voltada a e-commerce
+- Fechadura eletrônica na porta de acesso residencial
+- Piscina aquecida no rooftop
+- Loja no edifício
+- Áreas comuns equipadas, mobiliadas e climatizadas conforme memorial
+- Vista panorâmica e localização estratégica
+- Infraestrutura para Wi-Fi nas áreas comuns conforme memorial
+- Infraestrutura para câmeras de segurança nas áreas comuns
+- Controle de acesso de veículos e pedestres
+
+SUSTENTABILIDADE (pág. 35)
+- Duas tomadas para carros elétricos
+- Irrigação automatizada
+- Torneiras, chuveiros e vasos com redutores de vazão
+- Medição individualizada de água
+- Paisagismo com uso predominantemente de plantas nativas
+- Placas solares para atendimento de parte da demanda do condomínio
+
+PROJETISTAS (pág. 36)
+- Arquitetura: Ricardo Nogueira - Nogueira Arquitetos
+- Ambientação: Humberto e Analice - Zirpoli Arquitetura
+- Paisagismo: Bia Campelo
+
+PERSONALIZAÇÃO DE ACABAMENTOS
+O material apresenta os serviços da MD Store para escolhas de acabamentos e
+elementos adicionais: pisos, paredes, bancadas, metais, louças, acabamentos
+elétricos e acessórios para banheiro (págs. 37 a 39). Disponibilidade e
+condições devem ser consultadas para cada unidade.
+
+REGISTRO E OBSERVAÇÕES
+Registro de incorporação divulgado: R-6-154.443, matrícula 154.443,
+2º Ofício de Registro de Imóveis de João Pessoa - PB (pág. 41).
+As perspectivas são ilustrativas e podem sofrer mudanças de cores, materiais,
+acabamentos, composição e mobiliário. A entrega deve ser conferida no memorial
+descritivo e no contrato. Não foram informados preços, data de entrega ou
+estoque disponível no PDF; não presumir tais dados.
+
+ARQUIVOS DO ZIP
+01_Capa: melhor imagem do empreendimento para destaque, torre completa.
+02_Imagens_Empreendimento: fachadas, lazer, áreas comuns e decorados.
+03_Plantas: somente plantas técnicas e implantações com legendas.
+04_Localizacao: vista aérea usada para contextualizar a região.
+origem_das_imagens.txt: nome da imagem e página do PDF original.

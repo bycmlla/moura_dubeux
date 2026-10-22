@@ -1,0 +1,18 @@
+FLORATA TIROL - ESTRUTURA DO ZIP
+
+01_Capa
+  Foto de capa principal: fachada completa do Florata Tirol.
+02_Imagens_Empreendimento
+  Imagens de fachada, jardins, piscinas, áreas comuns e perspectivas dos apartamentos (nenhuma planta).
+03_Plantas
+  Implantação e plantas dos apartamentos das torres Acácias e Bromélias (sem perspectivas decoradas).
+04_Localizacao
+  Vista aérea com referências do entorno.
+informacoes_empreendimento.txt
+  Dados do empreendimento, extraídos do material fornecido.
+origem_das_imagens.txt
+  Relação de arquivos, dimensões e página de origem.
+
+Todos os arquivos de imagem estão em formato PNG com nomes descritivos.
+A capa é duplicada na galeria para facilitar o uso no site.
+OBSERVAÇÃO: material original marcado como exclusivo para treinamento de corretores; verifique permissão de uso público.

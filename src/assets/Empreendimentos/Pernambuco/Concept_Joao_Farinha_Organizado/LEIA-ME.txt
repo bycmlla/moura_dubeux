@@ -1,0 +1,15 @@
+PACOTE PARA CADASTRO NO SITE — CONCEPT JOÃO FARINHA
+
+Cada imagem está em PNG, com nome descritivo e página de origem em indice_imagens.csv.
+
+01_Capa: uma perspectiva vertical da torre, escolhida como capa.
+02_Imagens_Empreendimento: fachadas, áreas de lazer, áreas comuns e ambientes dos apartamentos. NÃO contém plantas.
+03_Plantas_e_Implantacao:
+  01_Implantacao_e_Pavimentos — desenhos gerais sem diagramação promocional;
+  02_Plantas_Tipo — desenhos dos pavimentos tipo;
+  03_Referencias_com_Metragens — páginas do book com legendas, metragens e numeração.
+04_Localizacao_e_Entorno: contexto da região (não confundir com perspectivas do condomínio).
+05_Referencias_Tecnicas: ficha técnica, créditos de projeto e diferenciais.
+
+Use apenas a pasta 02 para a galeria do empreendimento. A pasta 01 traz uma cópia em destaque da imagem de capa.
+As perspectivas têm caráter ilustrativo e podem sofrer alterações.

@@ -1,0 +1,11 @@
+BEACH CLASS SOLARE - COMO UTILIZAR ESTE PACOTE
+
+01_Capa: uma imagem selecionada para banner principal do empreendimento.
+02_Imagens_Empreendimento: SOMENTE perspectivas arquitetônicas e ambientações de como ficará o condomínio/apartamentos. NENHUMA planta nessa pasta.
+03_Plantas_e_Implantacao: plantas individuais, desenhos de pavimentos, implantação geral. Versões com legendas mantêm a diagramação da página do PDF para consulta técnica.
+04_Localizacao_e_Entorno: imagens do entorno e praia, mantidas fora da galeria do empreendimento.
+05_Referencias_Tecnicas: página ilustrada com diferenciais e comodidades.
+informacoes_empreendimento.txt: conteúdo textual para o cadastro do empreendimento e alertas de informações não confirmadas.
+indice_imagens.csv: caminho, descrição, página de origem e dimensão de cada PNG.
+
+PADRÃO DE NOMES: minúsculas, sem acentos, separados por sublinhado. Todos os arquivos de imagem são PNG e foram obtidos exclusivamente do PDF fornecido. Quando um book tem duas imagens lado a lado, cada uma foi exportada em arquivo distinto.

@@ -1,0 +1,85 @@
+CONCEPT JARDINS — INFORMAÇÕES DO EMPREENDIMENTO
+Fonte: Book digital "Concept Jardins.pdf" (49 páginas) — Moura Dubeux
+Conteúdo para cadastro de empreendimento imobiliário; detalhes sujeitos às condições do material original.
+
+1. IDENTIFICAÇÃO E LOCALIZAÇÃO
+Empreendimento: Concept Jardins
+Construtora/incorporadora apresentada no book: Moura Dubeux
+Endereço informado: Avenida Dr. José Machado de Souza, 440
+Bairro: Jardins
+Cidade/UF: Aracaju, Sergipe (SE)
+Conceito: empreendimento de uso misto, com lojas no térreo e unidades residenciais nos andares superiores. O book destaca moradia urbana com conforto, funcionalidade, serviços e espaços de lazer.
+
+2. DESCRIÇÃO COMERCIAL (BASEADA NO BOOK)
+O Concept Jardins reúne apartamentos compactos e funcionais em localização no bairro Jardins, próximo a centros comerciais, empresariais e serviços. Apresenta fachadas contemporâneas, lojas comerciais no pavimento térreo, infraestrutura de lazer e conveniências voltadas à praticidade no dia a dia. O empreendimento é apresentado como opção para morar ou investir.
+
+3. TIPOLOGIAS E METRAGENS
+- Studios de aproximadamente 31 m²: 75 unidades segundo a ficha técnica.
+- Apartamentos de 1 quarto de aproximadamente 39 m²: 157 unidades.
+- Apartamentos de 2 quartos de aproximadamente 68 m²: 31 unidades.
+O book mostra plantas ilustradas individuais para as três tipologias nas páginas 32, 28 e 24, respectivamente. As áreas exibidas nos desenhos podem apresentar medidas mais precisas que as metragens comerciais arredondadas.
+As varandas são apresentadas com infraestrutura prevista para bancada gourmet; não são entregues bancadas e metais nesses ambientes, conforme nota do material (páginas 23, 24, 28, 30, 32, 34 e 49).
+
+4. FICHA TÉCNICA (PÁGINA 48)
+- Total: 263 unidades residenciais privativas.
+- Pavimento térreo: 7 lojas comerciais privativas, áreas comuns, garagem e serviços.
+- Pavimento vazado 1: garagem, bicicletários e armários privativos.
+- Pavimento vazado 2: áreas comuns e 8 unidades privativas.
+- 15 pavimentos tipo, com 17 unidades privativas por pavimento (255 unidades no total).
+- Área do terreno: 2.900,08 m².
+- Vagas de estacionamento: 172, incluindo 14 vagas comerciais rotativas.
+- 45 depósitos locados na garagem são citados na página 41. A página 48 informa que os armários/depósitos serão disponibilizados para apartamentos de 2 quartos e que algumas unidades poderão ser vendidas; confirmar condições comerciais vigentes.
+
+5. LAZER E ÁREAS COMUNS (PLANTA DO PAVIMENTO DE LAZER, PÁGINA 11)
+- Piscina, piscina infantil, prainha e lounge com hidromassagem.
+- Deck e área gourmet.
+- Salão de festas e respectiva copa de apoio.
+- Espaço gourmet.
+- Sports bar.
+- Academia.
+- Espaço kids.
+- SPA.
+- Minimarket e circulação para a área externa.
+As ilustrações dos ambientes aparecem entre as páginas 12 e 21.
+
+6. CONVENIÊNCIAS E SERVIÇOS
+- 7 lojas comerciais no térreo, com acesso independente da área residencial.
+- Hall residencial.
+- Área para minimarket.
+- Lavanderia compartilhada equipada.
+- Espaço de delivery com lockers.
+- Bicicletário.
+- Pet place.
+- Espaço para car wash e bike station.
+- Área destinada à administração.
+- Estacionamento comercial e residencial.
+Referências nas páginas 9, 35 a 41.
+
+7. TECNOLOGIA, SEGURANÇA E SUSTENTABILIDADE (PÁGINA 41)
+- Fechaduras eletrônicas nas portas principais dos apartamentos.
+- Controle automatizado de acesso de pessoas e veículos.
+- Infraestrutura para câmeras de monitoramento das áreas comuns.
+- Infraestrutura para Wi-Fi em áreas comuns sociais.
+- Sistema automatizado de irrigação do jardim.
+- Tomadas compartilhadas para carros elétricos.
+
+8. PROJETISTAS E CONCEITO (PÁGINA 42)
+- Projeto arquitetônico: Attic Arquitetura e tecnologia BIM.
+- Projeto de ambientação: Zirpoli Arquitetura.
+- Projeto paisagístico: Takeda Design.
+
+9. ENTORNO E REFERÊNCIAS DE LOCALIZAÇÃO
+O book cita como referências no bairro/região: Shopping Jardins, Shopping RioMar, Parque da Sementeira, Hospital Primavera, Teatro Tobias Barreto, Colégio Jardins, Jardim Europa Medical Center, dentre outras opções de comércio e serviços. Não há distâncias/tempos verificados no material para cada referência; não inventar distâncias.
+
+10. INFORMAÇÃO REGISTRAL E OBSERVAÇÕES LEGAIS (PÁGINA 49)
+Registro de Incorporação sob o R-3 da matrícula nº 96.858, na 2ª Circunscrição Imobiliária do 5º Ofício de Registro de Imóveis da Comarca de Aracaju - SE.
+As imagens e características da publicidade são ilustrativas e promocionais, podendo ocorrer alterações de cores, texturas, acabamentos e composição. Móveis, utensílios, equipamentos e decoração exibidos não integram necessariamente os imóveis comercializados.
+A infraestrutura de bancada gourmet é fornecida conforme detalhamento do book, mas as bancadas e metais são itens não inclusos na entrega padrão.
+
+11. OBSERVAÇÕES PARA CADASTRO NO SITE
+- Usar a pasta 01_Capa para a imagem principal do anúncio.
+- Usar apenas a pasta 02_Imagens_Empreendimento como galeria de fachadas, lazer, áreas comuns e apartamentos.
+- Usar a pasta 03_Plantas_e_Implantacao exclusivamente para plantas técnicas; NÃO misturar com fotos do empreendimento.
+- Utilizar 04_Localizacao_e_Entorno para mapas e imagens da vizinhança.
+- Perspectivas são representações ilustrativas, não fotos de uma obra concluída.
+- Não há no book preço de unidades, data de entrega ou disponibilidade de unidades atualizada; não preencher esses campos com suposições.

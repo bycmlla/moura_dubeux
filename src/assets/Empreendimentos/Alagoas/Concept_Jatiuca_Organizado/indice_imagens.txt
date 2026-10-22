@@ -1,0 +1,34 @@
+RELAÇÃO DE IMAGENS E PÁGINAS DE ORIGEM — CONCEPT JATIÚCA
+
+02_Imagens_Empreendimento/fachada_detalhe_arquitetonico.png | página 02 | 1761 x 879 px
+02_Imagens_Empreendimento/fachada_principal.png | página 03 | 1499 x 1444 px
+02_Imagens_Empreendimento/fachada_perspectiva_lateral.png | página 07 | 1165 x 1444 px
+02_Imagens_Empreendimento/acesso_entrada_e_fachada.png | página 28 | 2192 x 1092 px
+02_Imagens_Empreendimento/piscina_rooftop_vista_mar.png | página 10 | 2482 x 1395 px
+02_Imagens_Empreendimento/piscina_e_deck_rooftop.png | página 11 | 2301 x 1293 px
+02_Imagens_Empreendimento/terraco_coberto_rooftop.png | página 12 | 2351 x 1249 px
+02_Imagens_Empreendimento/espaco_gourmet_externo.png | página 13 | 2329 x 1309 px
+02_Imagens_Empreendimento/espaco_gourmet_interno.png | página 14 | 2561 x 1440 px
+02_Imagens_Empreendimento/academia.png | página 15 | 2560 x 1307 px
+02_Imagens_Empreendimento/apartamento_62m2_ambiente_integrado.png | página 18 | 2560 x 1070 px
+02_Imagens_Empreendimento/apartamento_28m2_studio_decorado.png | página 20 | 1921 x 1441 px
+02_Imagens_Empreendimento/apartamento_26m2_studio_decorado.png | página 22 | 1920 x 1440 px
+02_Imagens_Empreendimento/apartamento_25m2_studio_cozinha.png | página 24 | 1661 x 1440 px
+02_Imagens_Empreendimento/recepcao_coliving_ambiente_01.png | página 29 | 2406 x 1245 px
+02_Imagens_Empreendimento/recepcao_coliving_ambiente_02.png | página 30 | 2564 x 1251 px
+02_Imagens_Empreendimento/espaco_delivery.png | página 31 | 1920 x 1440 px
+02_Imagens_Empreendimento/espaco_ecommerce.png | página 32 | 1441 x 1441 px
+02_Imagens_Empreendimento/lavanderia_compartilhada.png | página 33 | 1920 x 1440 px
+02_Imagens_Empreendimento/minimarket.png | página 34 | 1772 x 1440 px
+03_Plantas/planta_rooftop_lazer.png | página 09 | 1720 x 905 px
+03_Plantas/planta_pavimentos_1_ao_10.png | página 17 | 1114 x 1312 px
+03_Plantas/planta_apartamento_62m2.png | página 19 | 887 x 1042 px
+03_Plantas/planta_apartamento_28m2.png | página 21 | 606 x 1261 px
+03_Plantas/planta_apartamento_26m2.png | página 23 | 710 x 1291 px
+03_Plantas/planta_apartamento_25m2.png | página 25 | 658 x 1235 px
+03_Plantas/planta_pavimento_intermediario.png | página 26 | 1752 x 962 px
+03_Plantas/planta_pavimento_terreo.png | página 27 | 874 x 1286 px
+04_Localizacao/vista_aerea_bairro_jatiuca.png | página 04 | 2563 x 1443 px
+04_Localizacao/mapa_localizacao_e_comodidades.png | página 05 | 2560 x 900 px
+
+As imagens foram extraídas diretamente dos elementos internos do PDF, sem legendas, molduras ou fotografias publicitárias de pessoas.

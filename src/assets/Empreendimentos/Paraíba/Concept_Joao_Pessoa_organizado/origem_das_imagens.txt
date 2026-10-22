@@ -1,0 +1,126 @@
+ORIGEM DAS IMAGENS - CONCEPT JOÃO PESSOA
+Fonte: Concept João Pessoa.pdf (41 páginas)
+
+01_Capa/foto_capa_fachada_concept_joao_pessoa.png
+  Página: 40
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/01_Fachadas_e_Acessos/fachada_detalhe_varandas_e_vista_da_cidade.png
+  Página: 05
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/01_Fachadas_e_Acessos/fachada_acesso_principal_e_loja_terreo.png
+  Página: 07
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/01_Fachadas_e_Acessos/fachada_pavimentos_altos_terracos.png
+  Página: 09
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/01_Fachadas_e_Acessos/fachada_torre_completa_vista_da_rua.png
+  Página: 40
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/01_Fachadas_e_Acessos/fachada_torre_recortada_fundo_transparente.png
+  Página: 03
+  Origem: Imagem e máscara alfa originais do PDF (fundo transparente)
+
+02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/piscina_rooftop_vista_panoramica.png
+  Página: 06
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/piscina_rooftop_com_area_gourmet.png
+  Página: 11
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/terraco_gourmet_vista_para_o_mar.png
+  Página: 12
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/lounge_gourmet_vista_panoramica.png
+  Página: 13
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/lounge_gourmet_interno.png
+  Página: 14
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/academia_equipada.png
+  Página: 16
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/lounge_conveniencia_e_lavanderia.png
+  Página: 17
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/hall_social_recepcao.png
+  Página: 19
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/hall_de_elevadores_pavimento.png
+  Página: 21
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_decorado_suite_e_living_39m2.png
+  Página: 23
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_decorado_suite_e_living_35m2.png
+  Página: 25
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_decorado_studio_24m2.png
+  Página: 27
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_decorado_studio_21m2.png
+  Página: 29
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_decorado_suite_e_home_office_49m2_sala.png
+  Página: 31
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_decorado_suite_e_home_office_49m2_quarto.png
+  Página: 32
+  Origem: Foto/perspectiva original incorporada ao PDF
+
+03_Plantas/planta_rooftop_piscina_terracos_e_lounges.png
+  Página: 10
+  Origem: Página com planta, metragens, legendas e identificações
+
+03_Plantas/planta_mezanino_academia_coworking_e_lavanderia.png
+  Página: 15
+  Origem: Página com planta, metragens, legendas e identificações
+
+03_Plantas/planta_terreo_hall_loja_e_estacionamentos.png
+  Página: 18
+  Origem: Página com planta, metragens, legendas e identificações
+
+03_Plantas/planta_pavimento_tipo_10_unidades.png
+  Página: 22
+  Origem: Página com planta, metragens, legendas e identificações
+
+03_Plantas/planta_suite_e_living_39m2_terminacao_04.png
+  Página: 24
+  Origem: Página com planta, metragens, legendas e identificações
+
+03_Plantas/planta_suite_e_living_35m2_terminacao_01.png
+  Página: 26
+  Origem: Página com planta, metragens, legendas e identificações
+
+03_Plantas/planta_studio_24m2_terminacoes_02_03_06.png
+  Página: 28
+  Origem: Página com planta, metragens, legendas e identificações
+
+03_Plantas/planta_studio_21m2_terminacoes_08_09.png
+  Página: 30
+  Origem: Página com planta, metragens, legendas e identificações
+
+03_Plantas/planta_suite_e_home_office_49m2_terminacao_07.png
+  Página: 33
+  Origem: Página com planta, metragens, legendas e identificações
+
+04_Localizacao/vista_aerea_empreendimento_bairro_miramar.png
+  Página: 08
+  Origem: Foto/perspectiva original incorporada ao PDF

@@ -1,0 +1,22 @@
+﻿CASA BORIS - PACOTE DE ARQUIVOS PARA SITE
+
+Diretórios:
+01_Capa                         Imagem principal do empreendimento.
+02_Imagens_Empreendimento        Somente perspectivas do projeto.
+03_Plantas_e_Implantacao         Plantas técnicas e seus originais com legendas.
+04_Localizacao_e_Entorno         Material de localização.
+05_Ficha_Tecnica_e_Referencias   Quadro de diferenciais do book.
+
+Todos os arquivos gráficos são PNG extraídos ou recortados do PDF original,
+sem criação ou retoque por inteligência artificial. Como várias páginas do
+PDF são imagens rasterizadas completas, alguns PNGs conservam detalhes
+de diagramação e marcas discretas do material original. Fotos de obra
+concluída não estão sendo afirmadas: são perspectivas ilustrativas.
+
+Use 01_Capa como imagem principal, 02_Imagens_Empreendimento como galeria,
+03_Plantas_e_Implantacao/01_Plantas_das_Unidades como plantas de apartamentos;
+02_Implantacao_e_Pavimentos como implantação e distribuição; as versões
+03_Referencias_Com_Legendas para conferir tecnicamente o projeto.
+
+Leia informacoes_empreendimento.txt antes de cadastrar características.
+Use indice_imagens.csv para encontrar a página original de cada arquivo.

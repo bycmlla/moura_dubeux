@@ -1,0 +1,16 @@
+LES AMIS LAGOA NOVA - PACOTE ORGANIZADO
+========================================
+
+01_Capa/
+    Capa selecionada da fachada (arquivo principal) e uma alternativa horizontal.
+02_Imagens_Empreendimento/
+    Renders e apresentacoes do futuro empreendimento. NAO contem plantas.
+03_Plantas/
+    Plantas_Apartamentos/: 6 tipologias/configuracoes de apartamentos.
+    Plantas_Pavimentos_e_Implantacao/: 4 plantas gerais do condominio.
+04_Informacoes/
+    informacoes_empreendimento.txt: informacoes importantes extraidas do book.
+    indice_imagens.txt: nome, pagina e resolucao de cada imagem extraida.
+
+IMPORTANTE: Todas as perspectivas sao ilustrativas, conforme aviso legal no PDF.
+As imagens deste pacote sao PNG e nao incluem pagina completa do catalogo.

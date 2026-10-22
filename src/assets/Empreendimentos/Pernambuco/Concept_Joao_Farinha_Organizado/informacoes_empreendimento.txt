@@ -1,0 +1,87 @@
+CONCEPT JOÃO FARINHA — INFORMAÇÕES DO EMPREENDIMENTO
+Fonte: Book Concept João Farinha (49 páginas), Moura Dubeux.
+Conteúdo transcrito/resumido do material promocional. Não utilizar como memorial descritivo contratual.
+
+1. IDENTIFICAÇÃO
+Nome: Concept João Farinha
+Marca/empreendedora apresentada: Moura Dubeux (linha Concept)
+Cidade: Recife
+Estado: Pernambuco (PE)
+Região: proximidades de Boa Viagem, Shopping Recife e Via Mangue
+Referência de ruas na implantação: Rua Antônio Falcão e Rua Professor Arnaldo Carneiro Leão (pág. 11).
+Número do imóvel/endereço postal completo: não consta de forma inequívoca no book fornecido.
+Perfil: empreendimento residencial urbano com foco em funcionalidade, conveniência, tecnologia e investimento imobiliário.
+
+2. LOCALIZAÇÃO E ACESSOS (págs. 4, 6–12)
+- Proximidade do Shopping Recife e da Praia de Boa Viagem.
+- O material informa, para fins promocionais, 4 minutos até o Shopping Recife e 7 minutos até a praia; estes tempos não são medição verificada de deslocamento.
+- Próximo à Via Mangue, conexão de acesso à Zona Sul, ao Centro e ao aeroporto.
+- Áreas de influência apresentadas: Parque dos Manguezais, praia e serviços urbanos.
+
+3. FICHA TÉCNICA (pág. 47)
+Área do terreno: 4.738,00 m²
+Área privativa total informada: 9.475,98 m²
+Torres: 1
+Unidades: 264
+Pavimentos: térreo + vazado 1 + lazer + 27 pavimentos tipo
+Garagem: 155 vagas rotativas
+
+4. TIPOLOGIAS E ÁREAS (págs. 31–41, 47)
+- Studios: apresentados comercialmente como 26 m² a 28 m².
+- Apartamentos de 1 quarto: aproximadamente 39 m².
+- Apartamentos de 2 quartos: aproximadamente 56 m².
+- Lofts com mezanino: aproximadamente 44 m² e 46 m².
+- Nos quadros de pavimentos há áreas precisas de unidades (ex.: studios 26,91 m², 28,08 m² e 28,63 m²; apartamentos de 1 quarto 39,30 m², 39,33 m² e 39,70 m²; unidades de 2 quartos 56,37 m² e 56,40 m²).
+- A paginação 25/27 também apresenta valores de 17,06 m² e 17,95 m² associados à representação de lofts; não interpretar isoladamente esses valores como área total do loft, sem conferir documentação específica.
+- Opções apresentadas podem variar segundo pavimento e terminação.
+
+5. ÁREAS COMUNS E LAZER (págs. 12–30)
+- Hall social, portaria/antecâmara e espaço para delivery.
+- Piscina com hidromassagem e deck.
+- Terraço gourmet e terraço coberto.
+- Salão gourmet.
+- Academia e fitness externo.
+- Sala de massagem.
+- Lavanderia compartilhada.
+- Coliving e coworking.
+- Café e área destinada à operação de minimarket.
+- Lounge gramado, estar com balanços, deck jardim e estares no gramado.
+- Pet place com pet wash, redário.
+- Bicicletário.
+- Estacionamento e áreas de apoio e serviço.
+
+6. TECNOLOGIA, CONVENIÊNCIA E SEGURANÇA (pág. 42)
+- Área destinada à administração.
+- Espaço delivery.
+- Fechaduras eletrônicas na porta principal dos apartamentos.
+- Controle automatizado de acesso de pessoas e de veículos.
+- Infraestrutura para câmeras nas áreas comuns.
+- Infraestrutura para Wi-Fi nas áreas comuns sociais.
+- Irrigação de jardim automatizada.
+- Tomadas compartilhadas para veículos elétricos.
+- Local para car wash e bike station.
+
+7. PROFISSIONAIS E PROJETOS (pág. 43)
+- Arquitetura: Juliano Dubeux e Metro Arquitetura (conforme créditos do book).
+- Paisagismo: Takeda Design.
+- Ambientação: Poligonus.
+
+8. PERSONALIZAÇÃO (págs. 44–46)
+O material apresenta a MD Store como serviço de personalização opcional de projeto/acabamentos, com opções de revestimentos de pisos e paredes, bancadas, metais, louças, acabamentos elétricos e acessórios de banheiro. Confirmar disponibilidade/condições atuais com a empresa responsável.
+
+9. OBSERVAÇÕES COMERCIAIS, LEGAIS E LACUNAS
+- Perspectivas do material são provisórias e suscetíveis a alterações e ajustes.
+- Ilustrações são representações artísticas; podem mudar cor, textura, acabamento e composição.
+- Móveis, utensílios, equipamentos e decorações ilustrados não estão incluídos no orçamento da obra, conforme nota do book.
+- Construção pelo Regime de Administração (art. 58 e seguintes da Lei 4.591/64), conforme a pág. 49.
+- O book é identificado como material de referência para proprietários.
+- Não foram identificados no PDF preço comercial, valor de condomínio, data contratual de entrega nem endereço postal completo validado.
+- Informação de disponibilidade de unidades, vagas privativas e condições de aquisição deve ser confirmada diretamente antes de publicar.
+
+10. ARQUIVOS E USO NO SITE
+- 01_Capa: imagem principal da torre para hero/banner.
+- 02_Imagens_Empreendimento: somente perspectivas da edificação, áreas comuns e interiores; sem plantas e sem fotos dos empreendimentos concorrentes citados no book.
+- 03_Plantas_e_Implantacao: plantas e implantações em PNG, com subpasta de referência contendo páginas de legendas, metragens e numeração.
+- 04_Localizacao_e_Entorno: imagens contextuais da localização, fora da galeria do projeto.
+- 05_Referencias_Tecnicas: imagens das fichas técnicas e informações complementares.
+- indice_imagens.csv: nomes, categorias, dimensões, páginas e descrições.
