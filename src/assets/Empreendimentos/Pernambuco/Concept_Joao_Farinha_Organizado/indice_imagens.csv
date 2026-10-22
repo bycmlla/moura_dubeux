@@ -1,0 +1,49 @@
+﻿pasta;arquivo;pagina_origem_pdf;tipo_extracao;descricao;largura_px;altura_px
+01_Capa;capa_principal_torre_concept_joao_farinha.png;3;Imagem original, xref 66;Perspectiva da torre completa, selecionada como foto de capa;1253;1504
+02_Imagens_Empreendimento;fachada_torre_perspectiva_geral.png;3;Imagem original, xref 66;Perspectiva da torre completa;1253;1504
+02_Imagens_Empreendimento;fachada_acesso_principal.png;9;Imagem original, xref 122;Fachada com acesso e paisagismo;1694;1500
+02_Imagens_Empreendimento;fachada_torre_vista_de_baixo.png;10;Imagem original, xref 146;Torre vista de baixo para cima;1348;1502
+02_Imagens_Empreendimento;fachada_torre_perspectiva_vertical.png;47;Imagem original, xref 411;Perspectiva vertical da torre;800;1189
+02_Imagens_Empreendimento;hall_social_recepcao.png;13;Imagem original, xref 172;Hall social e recepção;2671;1500
+02_Imagens_Empreendimento;lounge_gramado_paisagismo.png;14;Imagem original, xref 177;Área de lounge gramado junto à torre;2667;1501
+02_Imagens_Empreendimento;pet_place_pet_wash.png;15;Imagem original, xref 182;Espaço para animais e pet wash;2667;1501
+02_Imagens_Empreendimento;espaco_redario_jardim.png;16;Imagem original, xref 188;Área externa de descanso com redário;2000;1500
+02_Imagens_Empreendimento;coliving_coworking_cafe.png;19;Imagem original, xref 210;Área de convivência, coworking e café;1810;1504
+02_Imagens_Empreendimento;coliving_coworking_salas.png;20;Imagem original, xref 216;Outra perspectiva do coliving e coworking;1800;1500
+02_Imagens_Empreendimento;academia_interna.png;21;Imagem original, xref 221;Academia equipada;2667;1501
+02_Imagens_Empreendimento;fitness_externo.png;22;Imagem original, xref 226;Fitness ao ar livre;2400;1354
+02_Imagens_Empreendimento;salao_gourmet.png;23;Imagem original, xref 232;Salão gourmet mobiliado;2347;1504
+02_Imagens_Empreendimento;sala_de_massagem.png;24;Imagem original, xref 238;Sala de massagem;1200;1500
+02_Imagens_Empreendimento;lavanderia_compartilhada.png;25;Imagem original, xref 243;Lavanderia do condomínio;2667;1504
+02_Imagens_Empreendimento;piscina_ao_ar_livre.png;26;Imagem original, xref 248;Piscina e área externa;2662;1498
+02_Imagens_Empreendimento;deck_jardim_daybeds.png;27;Imagem original, xref 254;Deck jardim e área de descanso;1890;1504
+02_Imagens_Empreendimento;espaco_balancos_jardim.png;28;Imagem original, xref 259;Estar com balanços;2667;1504
+02_Imagens_Empreendimento;lounge_gramado_entardecer.png;29;Imagem original, xref 265;Lounge gramado ao entardecer;2011;1504
+02_Imagens_Empreendimento;terraco_gourmet.png;30;Imagem original, xref 270;Terraço gourmet e mobiliário;2667;1504
+02_Imagens_Empreendimento;apartamento_studio_26_a_28m2_interior.png;36;Imagem original, xref 310;Perspectiva interna do studio de 26 a 28 m²;2671;1505
+02_Imagens_Empreendimento;apartamento_1_quarto_39m2_sala.png;37;Imagem original, xref 316;Perspectiva interna da unidade de 1 quarto, 39 m²;2667;1107
+02_Imagens_Empreendimento;apartamento_loft_44_a_46m2_sala.png;38;Imagem original, xref 322;Ambiente do loft de 44 a 46 m²;1430;1504
+02_Imagens_Empreendimento;apartamento_loft_44_a_46m2_mezanino.png;39;Imagem original, xref 328;Mezanino do loft;2059;1504
+02_Imagens_Empreendimento;apartamento_2_quartos_56m2_sala.png;40;Imagem original, xref 334;Perspectiva de sala de apartamento de 2 quartos;2671;1143
+02_Imagens_Empreendimento;apartamento_2_quartos_56m2_suite.png;41;Imagem original, xref 340;Perspectiva da suíte, terminação 02;1790;1504
+03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos;implantacao_geral_condominio.png;11;Imagem original, xref 156;Implantação geral;1177;1318
+03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos;pavimento_terreo_acessos_e_estacionamento.png;12;Imagem original, xref 164;Pavimento térreo;1368;1488
+03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos;pavimento_vazado_01_estacionamento.png;17;Imagem original, xref 194;Estacionamento no pavimento vazado 01;1319;1470
+03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos;pavimento_lazer_piscina_gourmet_academia.png;18;Imagem original, xref 202;Planta do pavimento lazer;1305;1477
+03_Plantas_e_Implantacao/02_Plantas_Tipo;planta_tipo_pavimentos_01_a_03.png;32;Imagem original, xref 287;Planta tipo dos pavimentos 1 ao 3;1979;1188
+03_Plantas_e_Implantacao/02_Plantas_Tipo;planta_tipo_pavimentos_04_a_23.png;33;Imagem original, xref 293;Planta tipo dos pavimentos 4 ao 23;1981;1202
+03_Plantas_e_Implantacao/02_Plantas_Tipo;planta_tipo_pavimentos_24_e_26.png;34;Imagem original, xref 299;Planta tipo dos pavimentos 24 e 26;1981;1201
+03_Plantas_e_Implantacao/02_Plantas_Tipo;planta_tipo_pavimentos_25_e_27_lofts.png;35;Imagem original, xref 305;Planta tipo dos pavimentos 25 e 27 com lofts;1979;1198
+03_Plantas_e_Implantacao/03_Referencias_com_Metragens;implantacao_geral_legendas.png;11;Página de referência com legendas do PDF;Implantação geral com legendas e identificação de acessos;2496;1404
+03_Plantas_e_Implantacao/03_Referencias_com_Metragens;pavimento_terreo_legendas.png;12;Página de referência com legendas do PDF;Pavimento térreo com legendas;2496;1404
+03_Plantas_e_Implantacao/03_Referencias_com_Metragens;pavimento_vazado_01_legendas.png;17;Página de referência com legendas do PDF;Pavimento vazado 01 com legendas;2496;1404
+03_Plantas_e_Implantacao/03_Referencias_com_Metragens;pavimento_lazer_legendas.png;18;Página de referência com legendas do PDF;Pavimento lazer com a lista de comodidades;2496;1404
+03_Plantas_e_Implantacao/03_Referencias_com_Metragens;planta_tipo_pavimentos_01_a_03_metragens.png;32;Página de referência com legendas do PDF;Planta dos pavimentos 1 ao 3 com identificação das metragens;2496;1404
+03_Plantas_e_Implantacao/03_Referencias_com_Metragens;planta_tipo_pavimentos_04_a_23_metragens.png;33;Página de referência com legendas do PDF;Planta dos pavimentos 4 ao 23 com identificação das metragens;2496;1404
+03_Plantas_e_Implantacao/03_Referencias_com_Metragens;planta_tipo_pavimentos_24_e_26_metragens.png;34;Página de referência com legendas do PDF;Planta dos pavimentos 24 e 26 com identificação das metragens;2496;1404
+03_Plantas_e_Implantacao/03_Referencias_com_Metragens;planta_tipo_pavimentos_25_e_27_metragens.png;35;Página de referência com legendas do PDF;Planta dos pavimentos 25 e 27 com identificação das metragens;2496;1404
+04_Localizacao_e_Entorno;localizacao_via_mangue_praia_boa_viagem_shopping_recife.png;6;Imagem original, xref 90;Mapa aéreo de localização com referências urbanas;2335;997
+04_Localizacao_e_Entorno;entorno_shopping_recife.png;7;Imagem original, xref 101;Imagem do Shopping Recife, não é perspectiva do empreendimento;1439;959
+05_Referencias_Tecnicas;ficha_tecnica_original.png;47;Página de referência com legendas do PDF;Ficha técnica do empreendimento conforme book;2496;1404
+05_Referencias_Tecnicas;diferenciais_conforto_tecnologia_e_seguranca.png;42;Página de referência com legendas do PDF;Quadro com soluções de tecnologia e comodidades;2496;1404
+05_Referencias_Tecnicas;identificacao_equipes_de_projeto.png;43;Página de referência com legendas do PDF;Créditos dos escritórios de arquitetura, ambientação e paisagismo;2496;1404

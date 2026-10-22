@@ -1,0 +1,42 @@
+﻿arquivo;categoria;pagina_pdf;descricao;pixel_largura;pixel_altura
+01_Capa/capa_principal_torres_bertrand_e_arisa.png;01_Capa;22;Duas torres Casa Boris - perspectiva ilustrativa, sem títulos publicitários;735;1020
+02_Imagens_Empreendimento/fachadas_torres_bertrand_arisa_angulo_frontal.png;02_Imagens_Empreendimento;2;Perspectiva das torres em ângulo frontal;550;1010
+02_Imagens_Empreendimento/fachadas_torres_e_embasamento.png;02_Imagens_Empreendimento;5;Vista das torres e embasamento;620;980
+02_Imagens_Empreendimento/fachada_varandas_curvas_vista_cidade.png;02_Imagens_Empreendimento;6;Varandas curvas da torre com vista panorâmica da cidade;910;1050
+02_Imagens_Empreendimento/entrada_principal_porte_cochere.png;02_Imagens_Empreendimento;7;Entrada e acesso principal do empreendimento;1920;811
+02_Imagens_Empreendimento/recepcao_hall_envidracado.png;02_Imagens_Empreendimento;8;Recepção do empreendimento com pé-direito duplo;1920;845
+02_Imagens_Empreendimento/piscina_adulto_vista_aerea.png;02_Imagens_Empreendimento;11;Piscina adulto e deck com paisagismo - vista superior;1920;945
+02_Imagens_Empreendimento/piscina_adulto_borda_e_jardins.png;02_Imagens_Empreendimento;12;Piscina adulto e hidromassagem entre jardins;1920;930
+02_Imagens_Empreendimento/piscina_infantil_fachadas.png;02_Imagens_Empreendimento;13;Piscina infantil e fachada das torres;1920;934
+02_Imagens_Empreendimento/playground_area_infantil_externa.png;02_Imagens_Empreendimento;14;Playground ao ar livre;1920;930
+02_Imagens_Empreendimento/brinquedoteca_espaco_infantil.png;02_Imagens_Empreendimento;15;Brinquedoteca interna;1920;930
+02_Imagens_Empreendimento/salao_de_festas.png;02_Imagens_Empreendimento;16;Salão de festas e área de convivência;1920;934
+02_Imagens_Empreendimento/spa_hidro_relax_perspectiva.png;02_Imagens_Empreendimento;17;Spa e hidro relax (parte da perspectiva, sem cena publicitária) ;1055;420
+02_Imagens_Empreendimento/espaco_gourmet_area_de_jogos.png;02_Imagens_Empreendimento;18;Espaço gourmet e área de jogos;1920;936
+02_Imagens_Empreendimento/academia_equipamentos.png;02_Imagens_Empreendimento;19;Academia do condomínio, recorte sem montagem publicitária;730;820
+02_Imagens_Empreendimento/torre_bertrand_varanda_gourmet_203_75m2.png;02_Imagens_Empreendimento;29;Varanda da unidade de 203,75 m² - Torre Bertrand;1920;915
+02_Imagens_Empreendimento/torre_bertrand_sala_padrao_203_75m2.png;02_Imagens_Empreendimento;30;Sala de estar padrão da unidade de 203,75 m²;1920;933
+02_Imagens_Empreendimento/torre_bertrand_sala_ampliada_203_75m2.png;02_Imagens_Empreendimento;31;Opção sala ampliada na unidade de 203,75 m²;1920;930
+02_Imagens_Empreendimento/torre_bertrand_suite_master_203_75m2.png;02_Imagens_Empreendimento;32;Suíte master da Torre Bertrand;1920;772
+02_Imagens_Empreendimento/torre_arisa_sala_ampliada_163_93m2.png;02_Imagens_Empreendimento;36;Sala ampliada da unidade de 163,93 m²;1920;690
+02_Imagens_Empreendimento/torre_arisa_suite_master_163_93m2.png;02_Imagens_Empreendimento;37;Suíte master da Torre Arisa;1920;925
+03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_bertrand_tipo_203_75m2_4_suites_duas_unidades.png;03_Plantas_e_Implantacao;26;Torre Bertrand - planta do pavimento tipo, unidades de 203,75 m²;1630;745
+03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_bertrand_203_75m2_4_suites_padrao.png;03_Plantas_e_Implantacao;27;Torre Bertrand - planta padrão com 4 suítes e 4 vagas;1170;670
+03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_bertrand_203_75m2_3_suites_sala_ampliada.png;03_Plantas_e_Implantacao;28;Torre Bertrand - opção de 3 suítes com sala ampliada;1115;690
+03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_arisa_tipo_163_93m2_4_suites_duas_unidades.png;03_Plantas_e_Implantacao;33;Torre Arisa - planta de pavimento tipo com unidades de 163,93 m²;1610;750
+03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_arisa_163_93m2_4_suites_padrao.png;03_Plantas_e_Implantacao;34;Torre Arisa - planta padrão 4 suítes e 3 vagas;1150;685
+03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_arisa_163_93m2_3_suites_sala_ampliada.png;03_Plantas_e_Implantacao;35;Torre Arisa - alternativa de sala ampliada e 3 suítes;1135;685
+03_Plantas_e_Implantacao/02_Implantacao_e_Pavimentos/implantacao_pavimento_lazer.png;03_Plantas_e_Implantacao;23;Implantação do pavimento lazer, piscina e áreas comuns;1510;835
+03_Plantas_e_Implantacao/02_Implantacao_e_Pavimentos/implantacao_pavimento_terreo.png;03_Plantas_e_Implantacao;24;Implantação do pavimento térreo e garagem;1530;855
+03_Plantas_e_Implantacao/02_Implantacao_e_Pavimentos/implantacao_torres_bertrand_e_arisa.png;03_Plantas_e_Implantacao;25;Implantação geral das torres no lote;1525;845
+03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_pavimento_lazer_com_legenda.png;03_Plantas_e_Implantacao;23;Página original de referência para leitura de detalhes e legendas;1920;1080
+03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_pavimento_terreo_com_legenda.png;03_Plantas_e_Implantacao;24;Página original de referência para leitura de detalhes e legendas;1920;1080
+03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_implantacao_das_torres.png;03_Plantas_e_Implantacao;25;Página original de referência para leitura de detalhes e legendas;1920;1080
+03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_planta_tipo_bertrand_203_75m2.png;03_Plantas_e_Implantacao;26;Página original de referência para leitura de detalhes e legendas;1920;1080
+03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_bertrand_4_suites.png;03_Plantas_e_Implantacao;27;Página original de referência para leitura de detalhes e legendas;1920;1080
+03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_bertrand_3_suites_sala_ampliada.png;03_Plantas_e_Implantacao;28;Página original de referência para leitura de detalhes e legendas;1920;1080
+03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_planta_tipo_arisa_163_93m2.png;03_Plantas_e_Implantacao;33;Página original de referência para leitura de detalhes e legendas;1920;1080
+03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_arisa_4_suites.png;03_Plantas_e_Implantacao;34;Página original de referência para leitura de detalhes e legendas;1920;1080
+03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_arisa_3_suites_sala_ampliada.png;03_Plantas_e_Implantacao;35;Página original de referência para leitura de detalhes e legendas;1920;1080
+04_Localizacao_e_Entorno/localizacao_casa_boris_meireles_vista_aerea.png;04_Localizacao_e_Entorno;3;Vista urbana ilustrativa e localização no Meireles, página completa de referência;3840;2160
+05_Ficha_Tecnica_e_Referencias/quadro_comodidades_sustentabilidade_diferenciais.png;05_Ficha_Tecnica_e_Referencias;39;Quadro de comodidades, sustentabilidade e diferenciais, página 39;1920;1080

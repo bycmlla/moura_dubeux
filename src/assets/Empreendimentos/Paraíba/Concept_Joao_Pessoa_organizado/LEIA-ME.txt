@@ -1,0 +1,20 @@
+CONCEPT JOÃO PESSOA - ARQUIVOS PARA SITE IMOBILIÁRIO
+=================================================
+
+Use "01_Capa/foto_capa_fachada_concept_joao_pessoa.png" como imagem principal.
+
+Todas as imagens foram exportadas em formato PNG e receberam nomes descritivos.
+As perspectivas foram extraídas diretamente dos elementos de imagem do PDF,
+sempre que possível, para evitar títulos, letras e bordas de diagramação.
+As plantas foram renderizadas com seus títulos, metragens e legendas, pois
+essas informações são essenciais para identificá-las.
+
+IMPORTANTE:
+- A pasta 02_Imagens_Empreendimento NÃO contém plantas.
+- A pasta 03_Plantas contém apenas as plantas técnicas, não perspectivas.
+- A pasta 04_Localizacao tem a vista aérea da região.
+- Imagens são representações artísticas e estão sujeitas a alterações.
+- Este pacote reproduz materiais fornecidos no PDF de origem; verifique
+  direitos de uso e dados comerciais antes da publicação.
+- Alguns tipos/terminações não têm perspectiva ou planta individual no book.
+  Não foram inventadas imagens para suprir essas ausências.

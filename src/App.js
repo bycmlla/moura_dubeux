@@ -16,6 +16,8 @@ import alagoasFlag from './assets/Bandeira_de_Alagoas.svg';
 import pernambucoFlag from './assets/Bandeira_de_Pernambuco.svg';
 import cearaFlag from './assets/Bandeira_do_Ceará.svg';
 import rioGrandeDoNorteFlag from './assets/Bandeira_do_Rio_Grande_do_Norte.svg';
+import sergipeFlag from './assets/Bandeira_de_Sergipe.svg';
+import paraibaFlag from './assets/Bandeira_da_Paraiba.svg';
 import heroBanner1 from './assets/banners/banner1.jpg';
 import heroBanner2 from './assets/banners/banner2.webp';
 import heroBanner3 from './assets/banners/banner3.png';
@@ -385,6 +387,95 @@ import jardinsDoParqueCommerce from './assets/Empreendimentos/Alagoas/Jardins_do
 import jardinsDoParqueInterestMap from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/localizacao/mapa_entorno_pontos_de_interesse.png';
 import jardinsDoParqueBeach from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/localizacao/praia_cruz_das_almas.png';
 import jardinsDoParqueSeaShopping from './assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/localizacao/vista_aerea_proximidade_mar_e_shopping.png';
+import conceptJatiucaCover from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/01_Capa/capa_horizontal.png';
+import conceptJatiucaFrontFacade from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/fachada_principal.png';
+import conceptJatiucaSideFacade from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/fachada_perspectiva_lateral.png';
+import conceptJatiucaFacadeDetail from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/fachada_detalhe_arquitetonico.png';
+import conceptJatiucaEntrance from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/acesso_entrada_e_fachada.png';
+import conceptJatiucaSeaPool from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/piscina_rooftop_vista_mar.png';
+import conceptJatiucaPoolDeck from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/piscina_e_deck_rooftop.png';
+import conceptJatiucaCoveredTerrace from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/terraco_coberto_rooftop.png';
+import conceptJatiucaOutdoorGourmet from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/espaco_gourmet_externo.png';
+import conceptJatiucaIndoorGourmet from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/espaco_gourmet_interno.png';
+import conceptJatiucaFitness from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/academia.png';
+import conceptJatiucaApartment62 from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/apartamento_62m2_ambiente_integrado.png';
+import conceptJatiucaStudio28 from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/apartamento_28m2_studio_decorado.png';
+import conceptJatiucaStudio26 from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/apartamento_26m2_studio_decorado.png';
+import conceptJatiucaStudio25 from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/apartamento_25m2_studio_cozinha.png';
+import conceptJatiucaReception1 from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/recepcao_coliving_ambiente_01.png';
+import conceptJatiucaReception2 from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/recepcao_coliving_ambiente_02.png';
+import conceptJatiucaDelivery from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/espaco_delivery.png';
+import conceptJatiucaEcommerce from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/espaco_ecommerce.png';
+import conceptJatiucaLaundry from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/lavanderia_compartilhada.png';
+import conceptJatiucaMinimarket from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/02_Imagens_Empreendimento/minimarket.png';
+import conceptJatiucaPlan25 from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/03_Plantas/planta_apartamento_25m2.png';
+import conceptJatiucaPlan26 from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/03_Plantas/planta_apartamento_26m2.png';
+import conceptJatiucaPlan28 from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/03_Plantas/planta_apartamento_28m2.png';
+import conceptJatiucaPlan62 from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/03_Plantas/planta_apartamento_62m2.png';
+import conceptJatiucaGroundPlan from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/03_Plantas/planta_pavimento_terreo.png';
+import conceptJatiucaIntermediatePlan from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/03_Plantas/planta_pavimento_intermediario.png';
+import conceptJatiucaTypicalFloorPlan from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/03_Plantas/planta_pavimentos_1_ao_10.png';
+import conceptJatiucaRooftopPlan from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/03_Plantas/planta_rooftop_lazer.png';
+import conceptJatiucaNeighborhood from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/04_Localizacao/vista_aerea_bairro_jatiuca.png';
+import conceptJatiucaLocationMap from './assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/04_Localizacao/mapa_localizacao_e_comodidades.png';
+import lanaiBeachCapaLanaiBeachTorresEOrlaDeJacarecica from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/01_Capa/capa_lanai_beach_torres_e_orla_de_jacarecica.png';
+import lanaiBeachFachadaDuasTorresNaluEMakaniAnoitecer from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/fachada_duas_torres_nalu_e_makani_anoitecer.png';
+import lanaiBeachVistaAereaAreaDeLazerEntreTorres from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/vista_aerea_area_de_lazer_entre_torres.png';
+import lanaiBeachPiscinaBeiraMarComDeck from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/piscina_beira_mar_com_deck.png';
+import lanaiBeachJardinsECaminhosLazerExterno from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/jardins_e_caminhos_lazer_externo.png';
+import lanaiBeachPiscinaAdultoComSpa from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/piscina_adulto_com_spa.png';
+import lanaiBeachPiscinaBordaInfinitaVistaMarDia from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/piscina_borda_infinita_vista_mar_dia.png';
+import lanaiBeachPiscinaBordaInfinitaVistaMarNoite from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/piscina_borda_infinita_vista_mar_noite.png';
+import lanaiBeachPiscinaInfantilAquatica from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/piscina_infantil_aquatica.png';
+import lanaiBeachPlaygroundParquinho from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/playground_parquinho.png';
+import lanaiBeachPetPlaceAreaParaAnimais from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/pet_place_area_para_animais.png';
+import lanaiBeachSalaoDeFestasInterno from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/salao_de_festas_interno.png';
+import lanaiBeachSalaoDeFestasTerracoExterno from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/salao_de_festas_terraco_externo.png';
+import lanaiBeachBarDaPraia from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/bar_da_praia.png';
+import lanaiBeachSportsBarJogos from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/sports_bar_jogos.png';
+import lanaiBeachEspacoKidsBrinquedoteca from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/espaco_kids_brinquedoteca.png';
+import lanaiBeachCinemaKids from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/cinema_kids.png';
+import lanaiBeachAcademiaFitness from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/academia_fitness.png';
+import lanaiBeachCoworkingSalaDeReuniao from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/coworking_sala_de_reuniao.png';
+import lanaiBeachMinimarketLojaConveniencia from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/minimarket_loja_conveniencia.png';
+import lanaiBeachEspacoEcommerceGuardaEncomendas from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/espaco_ecommerce_guarda_encomendas.png';
+import lanaiBeachPetWashBanhoAnimais from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/pet_wash_banho_animais.png';
+import lanaiBeachBicicletario from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/bicicletario.png';
+import lanaiBeachApartamento130m2SalaDeEstarVistaMar from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/apartamento_130m2_sala_de_estar_vista_mar.png';
+import lanaiBeachApartamento130m2SuiteVistaMar from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/apartamento_130m2_suite_vista_mar.png';
+import lanaiBeachApartamento115m2Sala from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/apartamento_115m2_sala.png';
+import lanaiBeachApartamento115m2Suite from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/apartamento_115m2_suite.png';
+import lanaiBeachApartamento99m2SalaECozinha from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/apartamento_99m2_sala_e_cozinha.png';
+import lanaiBeachApartamento99m2Suite from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/apartamento_99m2_suite.png';
+import lanaiBeachApartamento86m2SalaECozinha from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/apartamento_86m2_sala_e_cozinha.png';
+import lanaiBeachApartamento79m2SalaECozinha from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/apartamento_79m2_sala_e_cozinha.png';
+import lanaiBeachApartamento79m2Quarto from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/02_Imagens_Empreendimento/apartamento_79m2_quarto.png';
+import lanaiBeachPlantaApartamento130m2TorreNalu from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/01_Apartamentos/planta_apartamento_130m2_torre_nalu.png';
+import lanaiBeachPlantaApartamento130m2TorreNaluComLegenda from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/03_Paginas_com_Legendas/planta_apartamento_130m2_torre_nalu_com_legenda.png';
+import lanaiBeachPlantaApartamento115m2TorreMakani from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/01_Apartamentos/planta_apartamento_115m2_torre_makani.png';
+import lanaiBeachPlantaApartamento115m2TorreMakaniComLegenda from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/03_Paginas_com_Legendas/planta_apartamento_115m2_torre_makani_com_legenda.png';
+import lanaiBeachPlantaApartamento99m2 from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/01_Apartamentos/planta_apartamento_99m2.png';
+import lanaiBeachPlantaApartamento99m2ComLegenda from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/03_Paginas_com_Legendas/planta_apartamento_99m2_com_legenda.png';
+import lanaiBeachPlantaApartamento86m2 from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/01_Apartamentos/planta_apartamento_86m2.png';
+import lanaiBeachPlantaApartamento86m2ComLegenda from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/03_Paginas_com_Legendas/planta_apartamento_86m2_com_legenda.png';
+import lanaiBeachPlantaApartamento79m2 from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/01_Apartamentos/planta_apartamento_79m2.png';
+import lanaiBeachPlantaApartamento79m2ComLegenda from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/03_Paginas_com_Legendas/planta_apartamento_79m2_com_legenda.png';
+import lanaiBeachPlantaPavimentoLazerGeral from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/02_Pavimentos_e_Implantacao/planta_pavimento_lazer_geral.png';
+import lanaiBeachPlantaPavimentoLazerGeralComLegenda from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/03_Paginas_com_Legendas/planta_pavimento_lazer_geral_com_legenda.png';
+import lanaiBeachPlantaPavimentoLazerTorreNalu from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/02_Pavimentos_e_Implantacao/planta_pavimento_lazer_torre_nalu.png';
+import lanaiBeachPlantaPavimentoLazerTorreNaluComLegenda from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/03_Paginas_com_Legendas/planta_pavimento_lazer_torre_nalu_com_legenda.png';
+import lanaiBeachPlantaPavimentoLazerTorreMakani from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/02_Pavimentos_e_Implantacao/planta_pavimento_lazer_torre_makani.png';
+import lanaiBeachPlantaPavimentoLazerTorreMakaniComLegenda from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/03_Paginas_com_Legendas/planta_pavimento_lazer_torre_makani_com_legenda.png';
+import lanaiBeachPlantaPavimentoTipoTorreNalu from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/02_Pavimentos_e_Implantacao/planta_pavimento_tipo_torre_nalu.png';
+import lanaiBeachPlantaPavimentoTipoTorreNaluComLegenda from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/03_Paginas_com_Legendas/planta_pavimento_tipo_torre_nalu_com_legenda.png';
+import lanaiBeachPlantaPavimentoTipoTorreMakani from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/02_Pavimentos_e_Implantacao/planta_pavimento_tipo_torre_makani.png';
+import lanaiBeachPlantaPavimentoTipoTorreMakaniComLegenda from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/03_Paginas_com_Legendas/planta_pavimento_tipo_torre_makani_com_legenda.png';
+import lanaiBeachPlantaMapaImplantacaoUnidades from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/02_Pavimentos_e_Implantacao/planta_mapa_implantacao_unidades.png';
+import lanaiBeachPlantaMapaImplantacaoUnidadesComLegenda from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/03_Plantas/03_Paginas_com_Legendas/planta_mapa_implantacao_unidades_com_legenda.png';
+import lanaiBeachPraiaJacarecicaVistaLitoral from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/04_Localizacao_e_Entorno/praia_jacarecica_vista_litoral.png';
+import lanaiBeachAreaVerdeProximaAPraia from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/04_Localizacao_e_Entorno/area_verde_proxima_a_praia.png';
+import lanaiBeachVistaMarDeJacarecica from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/04_Localizacao_e_Entorno/vista_mar_de_jacarecica.png';
+import lanaiBeachVistaAreaVerdeEOrla from './assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/04_Localizacao_e_Entorno/vista_area_verde_e_orla.png';
 import milagresCover from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/01_Capa/capa_principal_piscina_vista_mar.png';
 import milagresPhotoLazerVistaAereaPiscinasJardins from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/lazer_vista_aerea_piscinas_jardins.png';
 import milagresPhotoLazerPiscinaVistaMar from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/02_Imagens_Empreendimento/lazer_piscina_vista_mar.png';
@@ -440,6 +531,96 @@ import milagresPlanPlanta2Quartos6132m2Garden2996m2 from './assets/Empreendiment
 import milagresPlanPlantaBangalo11430m2TerreoPiscinaPrivativa from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/03_Plantas_Unidades/planta_bangalo_114_30m2_terreo_piscina_privativa.png';
 import milagresPlanPlantaBangalo11430m2PavimentoSuperior from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/03_Plantas_e_Implantacao/03_Plantas_Unidades/planta_bangalo_114_30m2_pavimento_superior.png';
 import milagresLocLocalizacaoMapaAereoMilagres from './assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/04_Localizacao_e_Entorno/localizacao_mapa_aereo_milagres.png';
+import lesAmisCover from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/01_Capa/capa_alternativa_horizontal_aerea.png';
+import lesAmisAcademiaEspacoFitness01 from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/academia_espaco_fitness_01.png';
+import lesAmisAcademiaEspacoFitness02 from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/academia_espaco_fitness_02.png';
+import lesAmisApartamentoEloAmbienteIntegrado from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/apartamento_elo_ambiente_integrado.png';
+import lesAmisApartamentoEloCozinhaESalaIntegradas from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/apartamento_elo_cozinha_e_sala_integradas.png';
+import lesAmisApartamentoEloSalaAmpliada from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/apartamento_elo_sala_ampliada.png';
+import lesAmisApartamentoEloVarandaGourmet from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/apartamento_elo_varanda_gourmet.png';
+import lesAmisApartamentoEncontroLiving01 from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/apartamento_encontro_living_01.png';
+import lesAmisApartamentoEncontroLiving02 from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/apartamento_encontro_living_02.png';
+import lesAmisApartamentoEncontroSalaAmpliada from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/apartamento_encontro_sala_ampliada.png';
+import lesAmisApartamentoEncontroVarandaGourmet from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/apartamento_encontro_varanda_gourmet.png';
+import lesAmisApartamentoEstiloCozinhaIntegrada from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/apartamento_estilo_cozinha_integrada.png';
+import lesAmisApartamentoEstiloQuarto01 from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/apartamento_estilo_quarto_01.png';
+import lesAmisApartamentoEstiloQuarto02 from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/apartamento_estilo_quarto_02.png';
+import lesAmisApartamentoEstiloSalaAmpliada from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/apartamento_estilo_sala_ampliada.png';
+import lesAmisApartamentoEstiloSalaCozinhaIntegradas from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/apartamento_estilo_sala_cozinha_integradas.png';
+import lesAmisApartamentoEstiloSuiteMaster from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/apartamento_estilo_suite_master.png';
+import lesAmisApartamentoEstiloVarandaGourmet01 from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/apartamento_estilo_varanda_gourmet_01.png';
+import lesAmisApartamentoEstiloVarandaGourmet02 from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/apartamento_estilo_varanda_gourmet_02.png';
+import lesAmisApartamentosFachadaEVarandaGourmet from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/apartamentos_fachada_e_varanda_gourmet.png';
+import lesAmisBrinquedoteca from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/brinquedoteca.png';
+import lesAmisDeckJardimComChurrasqueira from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/deck_jardim_com_churrasqueira.png';
+import lesAmisEntradaPortariaPrincipal from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/entrada_portaria_principal.png';
+import lesAmisEspacoCoworking from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/espaco_coworking.png';
+import lesAmisEspacoGourmet from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/espaco_gourmet.png';
+import lesAmisEspacoGuardaEcommerce from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/espaco_guarda_ecommerce.png';
+import lesAmisEspacoPetPlayEPetShower from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/espaco_pet_play_e_pet_shower.png';
+import lesAmisFachadaPrincipalAoEntardecer from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/fachada_principal_ao_entardecer.png';
+import lesAmisFachadaVistaAereaDoBairro from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/fachada_vista_aerea_do_bairro.png';
+import lesAmisFachadaVistaFrontalDaTorre from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/fachada_vista_frontal_da_torre.png';
+import lesAmisFitnessOutdoor from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/fitness_outdoor.png';
+import lesAmisHallDeEntrada from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/hall_de_entrada.png';
+import lesAmisLazerPavimentoVazadoVistaAerea from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/lazer_pavimento_vazado_vista_aerea.png';
+import lesAmisLazerTerreoPiscinasVistaSuperior from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/lazer_terreo_piscinas_vista_superior.png';
+import lesAmisMiniquadraPoliesportiva from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/miniquadra_poliesportiva.png';
+import lesAmisMinispa from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/minispa.png';
+import lesAmisPiscinaAdultoComDeckMolhado from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/piscina_adulto_com_deck_molhado.png';
+import lesAmisPiscinaInfantil from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/piscina_infantil.png';
+import lesAmisPiscinasAdultoInfantilDeckMolhadoNoturna from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/piscinas_adulto_infantil_deck_molhado_noturna.png';
+import lesAmisPlayground from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/playground.png';
+import lesAmisPracaVivantEspacoDeConvivencia from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/praca_vivant_espaco_de_convivencia.png';
+import lesAmisPracaVivantVistaSuperior from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/praca_vivant_vista_superior.png';
+import lesAmisSalaoDeFestas from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/02_Imagens_Empreendimento/salao_de_festas.png';
+import lesAmisPlantaElo6101m21SuiteClosetSalaAmpliada from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/03_Plantas/Plantas_Apartamentos/planta_elo_61_01m2_1_suite_closet_sala_ampliada.png';
+import lesAmisPlantaElo6101m22Quartos1Suite from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/03_Plantas/Plantas_Apartamentos/planta_elo_61_01m2_2_quartos_1_suite.png';
+import lesAmisPlantaEncontro8234m22QuartosSalaAmpliada from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/03_Plantas/Plantas_Apartamentos/planta_encontro_82_34m2_2_quartos_sala_ampliada.png';
+import lesAmisPlantaEncontro8234m23Quartos1Suite from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/03_Plantas/Plantas_Apartamentos/planta_encontro_82_34m2_3_quartos_1_suite.png';
+import lesAmisPlantaEstilo9794m22SuitesSalaAmpliada from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/03_Plantas/Plantas_Apartamentos/planta_estilo_97_94m2_2_suites_sala_ampliada.png';
+import lesAmisPlantaEstilo9794m23Quartos1Suite from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/03_Plantas/Plantas_Apartamentos/planta_estilo_97_94m2_3_quartos_1_suite.png';
+import lesAmisImplantacaoGeralTerreno from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/03_Plantas/Plantas_Pavimentos_e_Implantacao/implantacao_geral_terreno.png';
+import lesAmisPlantaPavimentoLazer from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/03_Plantas/Plantas_Pavimentos_e_Implantacao/planta_pavimento_lazer.png';
+import lesAmisPlantaPavimentoSemienterrado from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/03_Plantas/Plantas_Pavimentos_e_Implantacao/planta_pavimento_semienterrado.png';
+import lesAmisPlantaPavimentoTerreo from './assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/03_Plantas/Plantas_Pavimentos_e_Implantacao/planta_pavimento_terreo.png';
+import florataTirolCover from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/01_Capa/capa_fachada_florata_tirol.png';
+import florataTirolFacade from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/fachada_torres_vista_completa.png';
+import florataTirolLeisureAerialOne from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/area_de_lazer_vista_aerea_01.png';
+import florataTirolLeisureAerialTwo from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/area_de_lazer_vista_aerea_02.png';
+import florataTirolEntrance from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/fachada_entrada_e_acesso.png';
+import florataTirolArrivalSquare from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/praca_de_chegada_jardins.png';
+import florataTirolGardens from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/praca_jardins_paisagismo.png';
+import florataTirolAdultPoolOne from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/piscina_adulto_vista_01.png';
+import florataTirolAdultPoolTwo from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/piscina_adulto_vista_02.png';
+import florataTirolChildrenPool from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/piscina_infantil.png';
+import florataTirolPlayground from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/parquinho_infantil.png';
+import florataTirolPetPlace from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/pet_place.png';
+import florataTirolOpenTerrace from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/terraco_descoberto.png';
+import florataTirolGourmetTerrace from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/terraco_gourmet.png';
+import florataTirolLobby from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/hall_social.png';
+import florataTirolCoworking from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/coworking.png';
+import florataTirolPlayroom from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/brinquedoteca.png';
+import florataTirolGym from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/academia.png';
+import florataTirolPartyRoom from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/salao_de_festas.png';
+import florataTirolSportsBar from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/sports_bar.png';
+import florataTirolLargeLiving from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/apto_150m2_sala_de_estar.png';
+import florataTirolLargeDining from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/apto_150m2_sala_de_jantar.png';
+import florataTirolLargeBalcony from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/apto_150m2_varanda_gourmet.png';
+import florataTirolLargeSuite from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/apto_150m2_suite_master.png';
+import florataTirolLargeOfficeSuite from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/apto_150m2_suite_escritorio.png';
+import florataTirolSmallLiving from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/apto_100m2_sala_de_estar.png';
+import florataTirolSmallBalcony from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/apto_100m2_varanda_gourmet.png';
+import florataTirolSmallSuite from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/apto_100m2_suite_master.png';
+import florataTirolSmallChildrenSuite from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/02_Imagens_Empreendimento/apto_100m2_suite_infantil.png';
+import florataTirolGroundFloor from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/03_Plantas/implantacao_pavimento_terreo.png';
+import florataTirolOpenFloor from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/03_Plantas/implantacao_pavimento_vazado.png';
+import florataTirolTypicalFloor from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/03_Plantas/planta_tipo_15_andar_duas_torres.png';
+import florataTirolAcaciasLargePlan from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/03_Plantas/torre_acacias_apto_150m2_terminacao_01.png';
+import florataTirolBromeliasLargePlan from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/03_Plantas/torre_bromelias_apto_150m2_terminacao_01.png';
+import florataTirolAcaciasSmallPlan from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/03_Plantas/torre_acacias_apto_100m2_terminacao_02.png';
+import florataTirolBromeliasSmallPlan from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/03_Plantas/torre_bromelias_apto_100m2_terminacao_02.png';
+import florataTirolLocation from './assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/04_Localizacao/localizacao_aerea_tirol_natal_pontos_de_referencia.png';
 import natalCover from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/01_Capa/capa_beach_class_natal_torre_fachada.png';
 import natalPhotoFachadaTorreCompleta from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/fachada_torre_completa.png';
 import natalPhotoFachadaDetalheComVistaMar from './assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/02_Imagens_Empreendimento/fachada_detalhe_com_vista_mar.png';
@@ -856,6 +1037,182 @@ import arthurBrunoHeatedPool from './assets/Empreendimentos/Pernambuco/Arthur_Br
 import arthurBrunoGroundPlan from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/03_Plantas_e_Implantacao/planta_terreo_areas_comuns_legenda.png';
 import arthurBrunoSitePlan from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/03_Plantas_e_Implantacao/implantacao_torres_a_b_c_d_e_f.png';
 import arthurBrunoTypicalFloorPlan from './assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/03_Plantas_e_Implantacao/planta_pavimento_tipo_apartamentos.png';
+import conceptJoaoFarinhaCover from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/01_Capa/capa_principal_torre_concept_joao_farinha.png';
+import conceptJoaoFarinhaFacade from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/fachada_torre_perspectiva_geral.png';
+import conceptJoaoFarinhaEntrance from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/fachada_acesso_principal.png';
+import conceptJoaoFarinhaFacadeBelow from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/fachada_torre_vista_de_baixo.png';
+import conceptJoaoFarinhaFacadeVertical from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/fachada_torre_perspectiva_vertical.png';
+import conceptJoaoFarinhaLobby from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/hall_social_recepcao.png';
+import conceptJoaoFarinhaLawnLounge from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/lounge_gramado_paisagismo.png';
+import conceptJoaoFarinhaPetPlace from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/pet_place_pet_wash.png';
+import conceptJoaoFarinhaHammocks from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/espaco_redario_jardim.png';
+import conceptJoaoFarinhaColivingCafe from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/coliving_coworking_cafe.png';
+import conceptJoaoFarinhaCoworkingRooms from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/coliving_coworking_salas.png';
+import conceptJoaoFarinhaGym from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/academia_interna.png';
+import conceptJoaoFarinhaOutdoorFitness from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/fitness_externo.png';
+import conceptJoaoFarinhaGourmetRoom from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/salao_gourmet.png';
+import conceptJoaoFarinhaMassageRoom from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/sala_de_massagem.png';
+import conceptJoaoFarinhaLaundry from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/lavanderia_compartilhada.png';
+import conceptJoaoFarinhaPool from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/piscina_ao_ar_livre.png';
+import conceptJoaoFarinhaGardenDeck from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/deck_jardim_daybeds.png';
+import conceptJoaoFarinhaSwings from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/espaco_balancos_jardim.png';
+import conceptJoaoFarinhaLawnSunset from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/lounge_gramado_entardecer.png';
+import conceptJoaoFarinhaGourmetTerrace from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/terraco_gourmet.png';
+import conceptJoaoFarinhaStudio from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/apartamento_studio_26_a_28m2_interior.png';
+import conceptJoaoFarinhaOneBedroom from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/apartamento_1_quarto_39m2_sala.png';
+import conceptJoaoFarinhaLoftLiving from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/apartamento_loft_44_a_46m2_sala.png';
+import conceptJoaoFarinhaLoftMezzanine from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/apartamento_loft_44_a_46m2_mezanino.png';
+import conceptJoaoFarinhaTwoBedroomLiving from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_56m2_sala.png';
+import conceptJoaoFarinhaTwoBedroomSuite from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/02_Imagens_Empreendimento/apartamento_2_quartos_56m2_suite.png';
+import conceptJoaoFarinhaSitePlan from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos/implantacao_geral_condominio.png';
+import conceptJoaoFarinhaGroundFloor from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos/pavimento_terreo_acessos_e_estacionamento.png';
+import conceptJoaoFarinhaParkingFloor from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos/pavimento_vazado_01_estacionamento.png';
+import conceptJoaoFarinhaLeisureFloor from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos/pavimento_lazer_piscina_gourmet_academia.png';
+import conceptJoaoFarinhaFloorsOneToThree from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/02_Plantas_Tipo/planta_tipo_pavimentos_01_a_03.png';
+import conceptJoaoFarinhaFloorsFourToTwentyThree from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/02_Plantas_Tipo/planta_tipo_pavimentos_04_a_23.png';
+import conceptJoaoFarinhaFloorsTwentyFourAndTwentySix from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/02_Plantas_Tipo/planta_tipo_pavimentos_24_e_26.png';
+import conceptJoaoFarinhaLoftFloors from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/02_Plantas_Tipo/planta_tipo_pavimentos_25_e_27_lofts.png';
+import conceptJoaoFarinhaSitePlanReference from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Metragens/implantacao_geral_legendas.png';
+import conceptJoaoFarinhaGroundFloorReference from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Metragens/pavimento_terreo_legendas.png';
+import conceptJoaoFarinhaParkingFloorReference from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Metragens/pavimento_vazado_01_legendas.png';
+import conceptJoaoFarinhaLeisureFloorReference from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Metragens/pavimento_lazer_legendas.png';
+import conceptJoaoFarinhaFloorsOneToThreeReference from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Metragens/planta_tipo_pavimentos_01_a_03_metragens.png';
+import conceptJoaoFarinhaFloorsFourToTwentyThreeReference from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Metragens/planta_tipo_pavimentos_04_a_23_metragens.png';
+import conceptJoaoFarinhaFloorsTwentyFourAndTwentySixReference from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Metragens/planta_tipo_pavimentos_24_e_26_metragens.png';
+import conceptJoaoFarinhaLoftFloorsReference from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Metragens/planta_tipo_pavimentos_25_e_27_metragens.png';
+import conceptJoaoFarinhaLocation from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/04_Localizacao_e_Entorno/localizacao_via_mangue_praia_boa_viagem_shopping_recife.png';
+import conceptJoaoFarinhaShopping from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/04_Localizacao_e_Entorno/entorno_shopping_recife.png';
+import infinityRecifeCover from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/01_Capa/capa_principal_infinity_recife_fachada_torre.png';
+import infinityRecifeFachadaEmbasamentoEntrada from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/fachada_embasamento_entrada.png';
+import infinityRecifeFachadaPrincipalVistaAvenida from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/fachada_principal_vista_avenida.png';
+import infinityRecifeWellnessAreaRelaxamentoPiscina from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/wellness_area_relaxamento_piscina.png';
+import infinityRecifeRestauranteSalaoInterno from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/restaurante_salao_interno.png';
+import infinityRecifePiscinaPanoramaBordaInfinita from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/piscina_panorama_borda_infinita.png';
+import infinityRecifeEspacoGourmetMesaJantar from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/espaco_gourmet_mesa_jantar.png';
+import infinityRecifeGaragemEElevadores from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/garagem_e_elevadores.png';
+import infinityRecifePiscinaBordaInfinitaVistaAerea from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/piscina_borda_infinita_vista_aerea.png';
+import infinityRecifeAcademiaMusculacao from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/academia_musculacao.png';
+import infinityRecifeAcademiaEsteirasVistaMar from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/academia_esteiras_vista_mar.png';
+import infinityRecifeLavanderiaCompartilhada from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/lavanderia_compartilhada.png';
+import infinityRecifeStudioInfinitySolo26m2Ambiente from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/studio_infinity_solo_26m2_ambiente.png';
+import infinityRecifeApartamentoStudioSalaEVaranda from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/apartamento_studio_sala_e_varanda.png';
+import infinityRecifeApartamentoInfinityOneSalaDeJantar from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/apartamento_infinity_one_sala_de_jantar.png';
+import infinityRecifeApartamentoInfinityTwoSalaSocial from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/apartamento_infinity_two_sala_social.png';
+import infinityRecifeApartamentoVistaMarLounge from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/apartamento_vista_mar_lounge.png';
+import infinityRecifeApartamentoAmbienteSalaPequena from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/apartamento_ambiente_sala_pequena.png';
+import infinityRecifeApartamentoDetalhePoltronaVista from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/02_Imagens_Empreendimento/apartamento_detalhe_poltrona_vista.png';
+import infinityRecifePavimentoSemienterradoGaragemEBicicletario from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/01_Pavimentos_e_Areas_Comuns/pavimento_semienterrado_garagem_e_bicicletario.png';
+import infinityRecifePaginaOriginalPavimentoSemienterradoGaragemEBicicletario from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/03_Paginas_Com_Legendas/pagina_original_pavimento_semienterrado_garagem_e_bicicletario.png';
+import infinityRecifePavimentoTerreoHallAcessosEntrada from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/01_Pavimentos_e_Areas_Comuns/pavimento_terreo_hall_acessos_entrada.png';
+import infinityRecifePaginaOriginalPavimentoTerreoHallAcessosEntrada from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/03_Paginas_Com_Legendas/pagina_original_pavimento_terreo_hall_acessos_entrada.png';
+import infinityRecifePrimeiroPavimentoEstacionamento from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/01_Pavimentos_e_Areas_Comuns/primeiro_pavimento_estacionamento.png';
+import infinityRecifePaginaOriginalPrimeiroPavimentoEstacionamento from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/03_Paginas_Com_Legendas/pagina_original_primeiro_pavimento_estacionamento.png';
+import infinityRecifePavimentoLazerPiscinasAcademiaGourmet from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/01_Pavimentos_e_Areas_Comuns/pavimento_lazer_piscinas_academia_gourmet.png';
+import infinityRecifePaginaOriginalPavimentoLazerPiscinasAcademiaGourmet from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/03_Paginas_Com_Legendas/pagina_original_pavimento_lazer_piscinas_academia_gourmet.png';
+import infinityRecifeSegundoPavimentoDistribuicaoUnidades from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/01_Pavimentos_e_Areas_Comuns/segundo_pavimento_distribuicao_unidades.png';
+import infinityRecifePaginaOriginalSegundoPavimentoDistribuicaoUnidades from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/03_Paginas_Com_Legendas/pagina_original_segundo_pavimento_distribuicao_unidades.png';
+import infinityRecifePavimentos04A18DistribuicaoUnidades from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/01_Pavimentos_e_Areas_Comuns/pavimentos_04_a_18_distribuicao_unidades.png';
+import infinityRecifePaginaOriginalPavimentos04A18DistribuicaoUnidades from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/03_Paginas_Com_Legendas/pagina_original_pavimentos_04_a_18_distribuicao_unidades.png';
+import infinityRecifeDecimoNonoPavimentoDistribuicaoUnidades from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/01_Pavimentos_e_Areas_Comuns/decimo_nono_pavimento_distribuicao_unidades.png';
+import infinityRecifePaginaOriginalDecimoNonoPavimentoDistribuicaoUnidades from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/03_Paginas_Com_Legendas/pagina_original_decimo_nono_pavimento_distribuicao_unidades.png';
+import infinityRecifePlanta2pInfinitySolo3220m2 from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/02_Plantas_Individuais/planta_2p_infinity_solo_32_20m2.png';
+import infinityRecifePlanta2pInfinitySolo3835m2 from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/02_Plantas_Individuais/planta_2p_infinity_solo_38_35m2.png';
+import infinityRecifePlanta2pInfinitySolo4980m2 from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/02_Plantas_Individuais/planta_2p_infinity_solo_49_80m2.png';
+import infinityRecifePlanta2pInfinityTwo7890m2 from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/02_Plantas_Individuais/planta_2p_infinity_two_78_90m2.png';
+import infinityRecifePlanta4a18InfinitySolo2690m2 from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/02_Plantas_Individuais/planta_4a18_infinity_solo_26_90m2.png';
+import infinityRecifePlanta4a18InfinitySolo3570m2 from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/02_Plantas_Individuais/planta_4a18_infinity_solo_35_70m2.png';
+import infinityRecifePlanta4a18InfinitySolo3975m2 from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/02_Plantas_Individuais/planta_4a18_infinity_solo_39_75m2.png';
+import infinityRecifePlanta4a18InfinitySolo3930m2 from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/02_Plantas_Individuais/planta_4a18_infinity_solo_39_30m2.png';
+import infinityRecifePlanta4a18InfinityOne6190m2 from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/02_Plantas_Individuais/planta_4a18_infinity_one_61_90m2.png';
+import infinityRecifePlanta4a18InfinityTwo7615m2 from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/02_Plantas_Individuais/planta_4a18_infinity_two_76_15m2.png';
+import infinityRecifePlanta19pInfinitySolo3505m2 from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/02_Plantas_Individuais/planta_19p_infinity_solo_35_05m2.png';
+import infinityRecifePlanta19pInfinityOne4395m2 from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/02_Plantas_Individuais/planta_19p_infinity_one_43_95m2.png';
+import infinityRecifePlanta19pInfinityOne4860m2 from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/02_Plantas_Individuais/planta_19p_infinity_one_48_60m2.png';
+import infinityRecifePlanta19pInfinityOne4800m2 from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/02_Plantas_Individuais/planta_19p_infinity_one_48_00m2.png';
+import infinityRecifePlanta19pInfinityOne6270m2 from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/02_Plantas_Individuais/planta_19p_infinity_one_62_70m2.png';
+import infinityRecifePlanta19pInfinityTwo9445m2 from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/02_Plantas_Individuais/planta_19p_infinity_two_94_45m2.png';
+import infinityRecifePlanta19pInfinityTwo9710m2 from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/03_Plantas_e_Implantacao/02_Plantas_Individuais/planta_19p_infinity_two_97_10m2.png';
+import infinityRecifeMapaLocalizacaoInfinityRecife from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/04_Localizacao_e_Contexto/mapa_localizacao_infinity_recife.png';
+import infinityRecifeEntornoPraiaPorDoSol from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/04_Localizacao_e_Contexto/entorno_praia_por_do_sol.png';
+import infinityRecifeFachadaEdificioOriginalRetrofit from './assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/04_Localizacao_e_Contexto/fachada_edificio_original_retrofit.png';
+import solareCover from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/01_Capa/capa_principal_piscinas_e_fachadas_ao_entardecer.png';
+import solarePoolsAerial from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/piscinas_vista_aerea_geral.png';
+import solareFacade from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/fachada_blocos_vista_para_piscina.png';
+import solarePoolsSunset from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/piscinas_e_fachadas_ao_entardecer.png';
+import solarePoolsHydromassage from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/piscinas_com_ilhas_e_hidromassagem.png';
+import solareLobby from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/lobby_recepcao_social.png';
+import solareSportsCourt from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/quadra_poliesportiva.png';
+import solareFitness from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/academia_fitness.png';
+import solarePlayroom from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/brinquedoteca.png';
+import solarePlayground from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/playground_ao_ar_livre.png';
+import solareRestaurant from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/restaurante_com_bar.png';
+import solareRestaurantTerrace from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/terraco_do_restaurante.png';
+import solareStudioLiving from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/apartamento_32m2_estar_e_cozinha.png';
+import solareStudioBedroom from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/apartamento_32m2_quarto_e_estar.png';
+import solareStudioBalcony from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/apartamento_32m2_varanda.png';
+import solareApartmentLiving from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/apartamento_63m2_sala_de_estar.png';
+import solareApartmentBalcony from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/apartamento_63m2_varanda.png';
+import solareIntegratedStudiosLiving from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/apartamento_32mais32m2_sala_integrada.png';
+import solareIntegratedStudiosLivingAlt from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/apartamento_32mais32m2_sala_segunda_perspectiva.png';
+import solareIntegratedStudiosSuite from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/apartamento_32mais32m2_suite.png';
+import solareIntegratedStudiosBalcony from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/apartamento_32mais32m2_varanda.png';
+import solareIntegratedApartmentLiving from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/apartamento_63mais32m2_sala_integrada.png';
+import solareIntegratedApartmentBalcony from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/apartamento_63mais32m2_varanda.png';
+import solareStudioGarden from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/garden_apt_32m2_area_externa.png';
+import solareApartmentGarden from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/garden_apt_63m2_area_externa.png';
+import solareBicycleRack from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/bicicletario.png';
+import solarePetPlace from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/02_Imagens_Empreendimento/pet_place_e_pet_wash.png';
+import solareStudioPlan from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_apartamento_32m2.png';
+import solareApartmentPlan from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_apartamento_63m2.png';
+import solareIntegratedStudiosPlan from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_apartamento_integrado_32mais32m2.png';
+import solareIntegratedStudiosTwoSuitesPlan from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_apartamento_integrado_32mais32m2_duas_suites.png';
+import solareIntegratedApartmentPlan from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_apartamento_integrado_63mais32m2.png';
+import solareGroundPlan from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/03_Plantas_e_Implantacao/02_Pavimentos/pavimento_terreo_desenho.png';
+import solareGroundPlanLegends from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/03_Plantas_e_Implantacao/02_Pavimentos/pavimento_terreo_com_legendas.png';
+import solareTypicalFloorPlan from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/03_Plantas_e_Implantacao/02_Pavimentos/pavimentos_01_a_03_desenho.png';
+import solareTypicalFloorPlanLegends from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/03_Plantas_e_Implantacao/02_Pavimentos/pavimentos_01_a_03_com_legendas.png';
+import solareSitePlan from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/03_Plantas_e_Implantacao/03_Implantacao_Geral/implantacao_geral_desenho.png';
+import solareSitePlanLegends from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/03_Plantas_e_Implantacao/03_Implantacao_Geral/implantacao_geral_com_legendas.png';
+import solareLocationMap from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/04_Localizacao_e_Entorno/localizacao_com_pontos_de_referencia.png';
+import solareCupeAerial from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/04_Localizacao_e_Entorno/vista_aerea_praia_do_cupe_e_entorno.png';
+import solareBeachLandscape from './assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/04_Localizacao_e_Entorno/fotografia_praia_paisagem_litoranea.png';
+import waveCover from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/01_Capa/capa_principal_vista_geral_piscinas_e_blocos.png';
+import wavePoolsAndBlocks from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/vista_geral_empreendimento_piscinas_e_blocos.png';
+import wavePoolSpa from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/piscina_prainha_e_spa_vista_aerea.png';
+import wavePoolBar from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/bar_da_piscina.png';
+import waveLuau from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/espaco_luau_e_convivencia.png';
+import waveBarbecue from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/espaco_barbecue_e_redario.png';
+import waveSportsCourts from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/quadras_esportivas_vista_aerea.png';
+import waveFitness from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/academia_equipamentos.png';
+import waveBeachAccess from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/alameda_acesso_praia_caiques_stand_up.png';
+import wavePlayground from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/playground_ao_ar_livre.png';
+import wavePlayroom from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/brinquedoteca_infantil.png';
+import waveHall from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/hall_social_e_lounge.png';
+import waveRestaurant from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/restaurante_interno.png';
+import waveRestaurantTerrace from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/terraco_do_restaurante.png';
+import waveFacade from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/fachada_bloco_residencial_com_piscina.png';
+import waveStudioLiving from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/studio_32m2_estar_e_cozinha.png';
+import waveStudioBedroom from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/studio_32m2_quarto.png';
+import waveStudioBalcony from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/studio_32m2_varanda_gourmet.png';
+import waveStudioGarden from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/studio_32m2_garden_privativo.png';
+import waveApartmentLiving from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/apartamento_63m2_sala_e_cozinha.png';
+import waveApartmentBalcony from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/apartamento_63m2_varanda_gourmet.png';
+import waveApartmentGarden from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/02_Imagens_Empreendimento/apartamento_63m2_garden_privativo.png';
+import waveSitePlan from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos/implantacao_geral_condominio.png';
+import waveSocialBlockPlan from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos/implantacao_bloco_social.png';
+import waveGroundPlan from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos/pavimento_terreo_gardens.png';
+import waveTypicalFloorPlan from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/03_Plantas_e_Implantacao/01_Implantacao_e_Pavimentos/pavimentos_tipo_1_ao_3_andar.png';
+import waveStudioPlan from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_studio_32m2.png';
+import waveApartmentPlan from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/03_Plantas_e_Implantacao/02_Plantas_das_Unidades/planta_apartamento_2_quartos_63m2.png';
+import waveSitePlanLegends from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_implantacao_geral_com_legendas.png';
+import waveSocialBlockPlanLegends from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_bloco_social_com_legendas.png';
+import waveGroundPlanLegends from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_pavimento_terreo.png';
+import waveTypicalFloorPlanLegends from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_pavimentos_1_ao_3.png';
+import waveStudioPlanLegends from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_planta_studio_32m2.png';
+import waveApartmentPlanLegends from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_planta_2_quartos_63m2.png';
+import waveLocationAerial from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/04_Localizacao_e_Entorno/localizacao_aerea_implantacao_e_entorno.png';
+import waveLocationMap from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/04_Localizacao_e_Entorno/referencia_localizacao_pontos_de_interesse.png';
+import waveCarneirosAerial from './assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/04_Localizacao_e_Entorno/praia_dos_carneiros_vista_aerea.png';
 import marineCover from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/01_Capa/capa_vista_aerea_empreendimento_frente_mar.png';
 import marinePhotoVistaAereaGeralCondominio from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/vista_aerea_geral_condominio.png';
 import marinePhotoFachadaBlocoResidencialComPiscinaAnoitecer from './assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/02_Imagens_Empreendimento/fachada_bloco_residencial_com_piscina_anoitecer.png';
@@ -1048,6 +1405,171 @@ import cumbucoKitesurfGroup from './assets/Empreendimentos/Ceará/Beach_Class_Cu
 import cumbucoKitesurfSailing from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/04_Contexto_Praia_Cumbuco/kitesurf_velejo.png';
 import cumbucoBeachPalms from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/04_Contexto_Praia_Cumbuco/coqueiros_praia.png';
 import cumbucoLocationMap from './assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/05_Localizacao/mapa_localizacao_beach_class_cumbuco.png';
+import conceptJoaoPessoaCover from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/01_Capa/foto_capa_fachada_concept_joao_pessoa.png';
+import conceptJoaoPessoaStreetFacade from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/01_Fachadas_e_Acessos/fachada_torre_completa_vista_da_rua.png';
+import conceptJoaoPessoaBalconies from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/01_Fachadas_e_Acessos/fachada_detalhe_varandas_e_vista_da_cidade.png';
+import conceptJoaoPessoaEntrance from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/01_Fachadas_e_Acessos/fachada_acesso_principal_e_loja_terreo.png';
+import conceptJoaoPessoaUpperFloors from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/01_Fachadas_e_Acessos/fachada_pavimentos_altos_terracos.png';
+import conceptJoaoPessoaTowerCutout from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/01_Fachadas_e_Acessos/fachada_torre_recortada_fundo_transparente.png';
+import conceptJoaoPessoaPoolPanorama from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/piscina_rooftop_vista_panoramica.png';
+import conceptJoaoPessoaPoolGourmet from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/piscina_rooftop_com_area_gourmet.png';
+import conceptJoaoPessoaSeaTerrace from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/terraco_gourmet_vista_para_o_mar.png';
+import conceptJoaoPessoaGourmetPanorama from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/lounge_gourmet_vista_panoramica.png';
+import conceptJoaoPessoaGourmetIndoor from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/lounge_gourmet_interno.png';
+import conceptJoaoPessoaFitness from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/academia_equipada.png';
+import conceptJoaoPessoaConvenienceLaundry from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/lounge_conveniencia_e_lavanderia.png';
+import conceptJoaoPessoaReception from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/hall_social_recepcao.png';
+import conceptJoaoPessoaElevatorHall from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/02_Lazer_e_Areas_Comuns/hall_de_elevadores_pavimento.png';
+import conceptJoaoPessoaLiving39 from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_decorado_suite_e_living_39m2.png';
+import conceptJoaoPessoaLiving35 from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_decorado_suite_e_living_35m2.png';
+import conceptJoaoPessoaStudio24 from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_decorado_studio_24m2.png';
+import conceptJoaoPessoaStudio21 from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_decorado_studio_21m2.png';
+import conceptJoaoPessoaHomeOfficeLiving from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_decorado_suite_e_home_office_49m2_sala.png';
+import conceptJoaoPessoaHomeOfficeBedroom from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_decorado_suite_e_home_office_49m2_quarto.png';
+import conceptJoaoPessoaRooftopPlan from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/03_Plantas/planta_rooftop_piscina_terracos_e_lounges.png';
+import conceptJoaoPessoaMezzaninePlan from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/03_Plantas/planta_mezanino_academia_coworking_e_lavanderia.png';
+import conceptJoaoPessoaGroundPlan from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/03_Plantas/planta_terreo_hall_loja_e_estacionamentos.png';
+import conceptJoaoPessoaTypicalFloorPlan from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/03_Plantas/planta_pavimento_tipo_10_unidades.png';
+import conceptJoaoPessoaLiving39Plan from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/03_Plantas/planta_suite_e_living_39m2_terminacao_04.png';
+import conceptJoaoPessoaLiving35Plan from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/03_Plantas/planta_suite_e_living_35m2_terminacao_01.png';
+import conceptJoaoPessoaStudio24Plan from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/03_Plantas/planta_studio_24m2_terminacoes_02_03_06.png';
+import conceptJoaoPessoaStudio21Plan from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/03_Plantas/planta_studio_21m2_terminacoes_08_09.png';
+import conceptJoaoPessoaHomeOfficePlan from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/03_Plantas/planta_suite_e_home_office_49m2_terminacao_07.png';
+import conceptJoaoPessoaLocation from './assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/04_Localizacao/vista_aerea_empreendimento_bairro_miramar.png';
+import conceptJardinsCover from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/01_Capa/capa_principal_fachada_e_piscina.png';
+import conceptJardinsPoolFacade from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/01_Fachadas/fachada_com_piscina_e_areas_verdes.png';
+import conceptJardinsVerticalFacade from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/01_Fachadas/fachada_torre_perspectiva_vertical.png';
+import conceptJardinsFrontFacade from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/01_Fachadas/fachada_torre_vista_frontal.png';
+import conceptJardinsShops from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/01_Fachadas/fachada_lojas_comerciais_terreo.png';
+import conceptJardinsKidsPool from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/02_Areas_de_Lazer/piscina_infantil.png';
+import conceptJardinsPartyRoom from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/02_Areas_de_Lazer/salao_de_festas.png';
+import conceptJardinsGourmet from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/02_Areas_de_Lazer/espaco_gourmet.png';
+import conceptJardinsSpa from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/02_Areas_de_Lazer/spa.png';
+import conceptJardinsSportsBar from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/02_Areas_de_Lazer/sports_bar.png';
+import conceptJardinsKidsSpace from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/02_Areas_de_Lazer/espaco_kids.png';
+import conceptJardinsFitnessArea from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/02_Areas_de_Lazer/academia_area_de_treino.png';
+import conceptJardinsFitnessEquipment from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/02_Areas_de_Lazer/academia_equipamentos.png';
+import conceptJardinsMinimarket from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/02_Areas_de_Lazer/minimarket.png';
+import conceptJardinsTwoBedroomLiving from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/03_Apartamentos/apartamento_68m2_sala.png';
+import conceptJardinsTwoBedroomRoom from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/03_Apartamentos/apartamento_68m2_quarto.png';
+import conceptJardinsTwoBedroomSuite from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/03_Apartamentos/apartamento_68m2_suite.png';
+import conceptJardinsOneBedroomLiving from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/03_Apartamentos/apartamento_39m2_sala.png';
+import conceptJardinsOneBedroomBalcony from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/03_Apartamentos/apartamento_39m2_varanda.png';
+import conceptJardinsOneBedroomSuite from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/03_Apartamentos/apartamento_39m2_suite.png';
+import conceptJardinsStudio from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/03_Apartamentos/studio_31m2_ambiente.png';
+import conceptJardinsStudioBalcony from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/03_Apartamentos/studio_31m2_varanda.png';
+import conceptJardinsHall from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/04_Servicos_e_Areas_Comuns/hall_de_entrada.png';
+import conceptJardinsBicycleRack from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/04_Servicos_e_Areas_Comuns/bicicletario.png';
+import conceptJardinsPetPlace from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/04_Servicos_e_Areas_Comuns/pet_place.png';
+import conceptJardinsLaundry from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/04_Servicos_e_Areas_Comuns/lavanderia_compartilhada.png';
+import conceptJardinsDelivery from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/04_Servicos_e_Areas_Comuns/espaco_delivery_armarios.png';
+import conceptJardinsCarWash from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/02_Imagens_Empreendimento/04_Servicos_e_Areas_Comuns/car_wash_bike_station.png';
+import conceptJardinsTwoBedroomPlan from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_apartamento_68m2_2_quartos.png';
+import conceptJardinsOneBedroomPlan from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_apartamento_39m2_1_quarto.png';
+import conceptJardinsStudioPlan from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_studio_31m2.png';
+import conceptJardinsSitePlan from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/03_Plantas_e_Implantacao/02_Implantacao_e_Pavimentos/implantacao_geral_condominio.png';
+import conceptJardinsLeisurePlan from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/03_Plantas_e_Implantacao/02_Implantacao_e_Pavimentos/pavimento_de_lazer_e_legenda_visual.png';
+import conceptJardinsTypicalFloorPlan from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/03_Plantas_e_Implantacao/02_Implantacao_e_Pavimentos/planta_pavimento_tipo.png';
+import conceptJardinsGroundPlan from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/03_Plantas_e_Implantacao/02_Implantacao_e_Pavimentos/planta_pavimento_terreo.png';
+import conceptJardinsSitePlanLegends from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_pagina_10_implantacao_geral.png';
+import conceptJardinsLeisurePlanLegends from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_pagina_11_lazer.png';
+import conceptJardinsTypicalFloorPlanLegends from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_pagina_23_pavimento_tipo.png';
+import conceptJardinsTwoBedroomPlanLegends from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_pagina_24_apto_68m2.png';
+import conceptJardinsOneBedroomPlanLegends from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_pagina_28_apto_39m2.png';
+import conceptJardinsStudioPlanLegends from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_pagina_32_studio_31m2.png';
+import conceptJardinsGroundPlanLegends from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_pagina_35_pavimento_terreo.png';
+import conceptJardinsBuildingLocation from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/04_Localizacao_e_Entorno/vista_aerea_localizacao_predio_no_bairro.png';
+import conceptJardinsNeighborhoodLocation from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/04_Localizacao_e_Entorno/vista_aerea_bairro_jardins_e_parque.png';
+import conceptJardinsLocationMap from './assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/04_Localizacao_e_Entorno/mapa_e_servicos_proximos.png';
+import casaJardinsCover from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/01_Capa/capa_casa_jardins_fachada_duas_torres.png';
+import casaJardinsNightFacade from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/fachada_duas_torres_perspectiva_noturna.png';
+import casaJardinsDayFacade from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/fachada_perspectiva_diurna_torres.png';
+import casaJardinsParkFacade from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/detalhe_fachada_vista_parque.png';
+import casaJardinsEntrance from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/acesso_pedestres_portaria_jardins.png';
+import casaJardinsHall from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/hall_social_torre_casa_norte.png';
+import casaJardinsPools from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/piscinas_deck_area_lazer.png';
+import casaJardinsGrill from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/terraco_grill_espaco_gourmet.png';
+import casaJardinsFamilyClub from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/family_club_hidromassagem_e_gourmet.png';
+import casaJardinsPartyRoom from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/salao_de_festas.png';
+import casaJardinsFitness from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/academia_fitness.png';
+import casaJardinsCrossfit from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/area_crossfit_ao_ar_livre.png';
+import casaJardinsPlayroom from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/atelie_kids_brinquedoteca.png';
+import casaJardinsPlayground from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/playground_area_infantil.png';
+import casaJardinsPetPlace from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/pet_place_area_pet.png';
+import casaJardinsNorthGarden from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/apartamento_garden_casa_norte_terraco_hidro.png';
+import casaJardinsSouthGarden from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/apartamento_garden_casa_sul_terraco_hidro.png';
+import casaJardinsNorth124Balcony from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/casa_norte_124m2_varanda_gourmet.png';
+import casaJardinsNorth124Living from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/casa_norte_124m2_sala_e_jantar.png';
+import casaJardinsNorth124OptionalLiving from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/casa_norte_124m2_sala_opcional.png';
+import casaJardinsNorth101Living from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/casa_norte_101m2_sala_e_jantar.png';
+import casaJardinsNorth101OptionalLiving from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/casa_norte_101m2_sala_opcional.png';
+import casaJardinsSouth111Living from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/casa_sul_111m2_sala_e_jantar.png';
+import casaJardinsSouth111Balcony from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/casa_sul_111m2_varanda_gourmet.png';
+import casaJardinsSouth111KidsSuite from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/casa_sul_111m2_suite_1_infantil.png';
+import casaJardinsSouth111CoupleSuite from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/casa_sul_111m2_suite_2_casal.png';
+import casaJardinsSouth111ThirdSuite from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/casa_sul_111m2_suite_3.png';
+import casaJardinsSouth111OptionalLiving1 from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/casa_sul_111m2_sala_opcional_1.png';
+import casaJardinsSouth111OptionalLiving2 from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/casa_sul_111m2_sala_opcional_2.png';
+import casaJardinsPetWash from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/pet_wash_area_lavagem_pets.png';
+import casaJardinsBikeWash from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/bike_wash_area_lavagem_bicicletas.png';
+import casaJardinsBikeStation from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/bike_station_apoio_bicicletas.png';
+import casaJardinsKidsGarage from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/02_Imagens_Empreendimento/garagem_kids_espaco_infantil.png';
+import casaJardinsGroundPlan from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/03_Plantas/Implantacao_e_Areas_Comuns/implantacao_pavimento_terreo_e_acessos.png';
+import casaJardinsLeisurePlan from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/03_Plantas/Implantacao_e_Areas_Comuns/implantacao_pavimento_lazer_e_legenda.png';
+import casaJardinsSitePlan from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/03_Plantas/Implantacao_e_Areas_Comuns/implantacao_posicionamento_torres_norte_sul.png';
+import casaJardinsNorthTypicalPlan from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/03_Plantas/Apartamentos_Casa_Norte/casa_norte_torre_a_planta_pavimento_tipo.png';
+import casaJardinsNorthGardenPlan from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/03_Plantas/Apartamentos_Casa_Norte/casa_norte_garden_125m2_mais_129m2_terraco.png';
+import casaJardinsNorth124StandardPlan from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/03_Plantas/Apartamentos_Casa_Norte/casa_norte_124m2_planta_padrao.png';
+import casaJardinsNorth124OptionalPlan from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/03_Plantas/Apartamentos_Casa_Norte/casa_norte_124m2_planta_opcional.png';
+import casaJardinsNorth101StandardPlan from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/03_Plantas/Apartamentos_Casa_Norte/casa_norte_101m2_planta_padrao.png';
+import casaJardinsNorth101OptionalPlan from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/03_Plantas/Apartamentos_Casa_Norte/casa_norte_101m2_planta_opcional.png';
+import casaJardinsSouthTypicalPlan from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/03_Plantas/Apartamentos_Casa_Sul/casa_sul_torre_b_planta_pavimento_tipo.png';
+import casaJardinsSouthGardenPlan from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/03_Plantas/Apartamentos_Casa_Sul/casa_sul_garden_114m2_mais_102m2_terraco.png';
+import casaJardinsSouth111StandardPlan from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/03_Plantas/Apartamentos_Casa_Sul/casa_sul_111m2_planta_padrao.png';
+import casaJardinsSouth111OptionalPlan1 from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/03_Plantas/Apartamentos_Casa_Sul/casa_sul_111m2_planta_opcional_1.png';
+import casaJardinsSouth111OptionalPlan2 from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/03_Plantas/Apartamentos_Casa_Sul/casa_sul_111m2_planta_opcional_2.png';
+import casaJardinsParkLocation from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/04_Localizacao/vista_aerea_empreendimento_e_parque_sementeira.png';
+import casaJardinsNeighborhoodLocation from './assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/04_Localizacao/vista_aerea_bairro_jardins_aracaju.png';
+import casaBorisCover from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/01_Capa/capa_principal_torres_bertrand_e_arisa.png';
+import casaBorisTowersFront from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/fachadas_torres_bertrand_arisa_angulo_frontal.png';
+import casaBorisTowersBase from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/fachadas_torres_e_embasamento.png';
+import casaBorisCurvedBalconies from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/fachada_varandas_curvas_vista_cidade.png';
+import casaBorisEntrance from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/entrada_principal_porte_cochere.png';
+import casaBorisReception from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/recepcao_hall_envidracado.png';
+import casaBorisPoolAerial from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/piscina_adulto_vista_aerea.png';
+import casaBorisPoolGardens from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/piscina_adulto_borda_e_jardins.png';
+import casaBorisKidsPool from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/piscina_infantil_fachadas.png';
+import casaBorisPlayground from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/playground_area_infantil_externa.png';
+import casaBorisPlayroom from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/brinquedoteca_espaco_infantil.png';
+import casaBorisPartyRoom from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/salao_de_festas.png';
+import casaBorisSpa from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/spa_hidro_relax_perspectiva.png';
+import casaBorisGourmet from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/espaco_gourmet_area_de_jogos.png';
+import casaBorisFitness from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/academia_equipamentos.png';
+import casaBorisBertrandBalcony from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/torre_bertrand_varanda_gourmet_203_75m2.png';
+import casaBorisBertrandLiving from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/torre_bertrand_sala_padrao_203_75m2.png';
+import casaBorisBertrandExpandedLiving from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/torre_bertrand_sala_ampliada_203_75m2.png';
+import casaBorisBertrandSuite from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/torre_bertrand_suite_master_203_75m2.png';
+import casaBorisArisaExpandedLiving from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/torre_arisa_sala_ampliada_163_93m2.png';
+import casaBorisArisaSuite from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/02_Imagens_Empreendimento/torre_arisa_suite_master_163_93m2.png';
+import casaBorisBertrandTypicalPlan from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_bertrand_tipo_203_75m2_4_suites_duas_unidades.png';
+import casaBorisBertrandStandardPlan from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_bertrand_203_75m2_4_suites_padrao.png';
+import casaBorisBertrandExpandedPlan from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_bertrand_203_75m2_3_suites_sala_ampliada.png';
+import casaBorisArisaTypicalPlan from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_arisa_tipo_163_93m2_4_suites_duas_unidades.png';
+import casaBorisArisaStandardPlan from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_arisa_163_93m2_4_suites_padrao.png';
+import casaBorisArisaExpandedPlan from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/01_Plantas_das_Unidades/planta_arisa_163_93m2_3_suites_sala_ampliada.png';
+import casaBorisLeisurePlan from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/02_Implantacao_e_Pavimentos/implantacao_pavimento_lazer.png';
+import casaBorisGroundPlan from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/02_Implantacao_e_Pavimentos/implantacao_pavimento_terreo.png';
+import casaBorisSitePlan from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/02_Implantacao_e_Pavimentos/implantacao_torres_bertrand_e_arisa.png';
+import casaBorisLeisurePlanLegends from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_pavimento_lazer_com_legenda.png';
+import casaBorisGroundPlanLegends from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_pavimento_terreo_com_legenda.png';
+import casaBorisSitePlanLegends from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_implantacao_das_torres.png';
+import casaBorisBertrandTypicalPlanLegends from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_planta_tipo_bertrand_203_75m2.png';
+import casaBorisBertrandStandardPlanLegends from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_bertrand_4_suites.png';
+import casaBorisBertrandExpandedPlanLegends from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_bertrand_3_suites_sala_ampliada.png';
+import casaBorisArisaTypicalPlanLegends from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_planta_tipo_arisa_163_93m2.png';
+import casaBorisArisaStandardPlanLegends from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_arisa_4_suites.png';
+import casaBorisArisaExpandedPlanLegends from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/03_Plantas_e_Implantacao/03_Referencias_Com_Legendas/referencia_arisa_3_suites_sala_ampliada.png';
+import casaBorisLocation from './assets/Empreendimentos/Ceará/Casa_Boris_Organizado/04_Localizacao_e_Entorno/localizacao_casa_boris_meireles_vista_aerea.png';
 import iracemaCover from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/01_Capa/capa_principal_fachada_torre.png';
 import iracemaTowerFacade from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/01_fachada_torre_vista_frontal.png';
 import iracemaBaseAccess from './assets/Empreendimentos/Ceará/Beach_Class_Iracema/02_Imagens_Empreendimento/02_fachada_embasamento_e_acesso.png';
@@ -1139,6 +1661,8 @@ const AVAILABLE_STATES = [
   { uf: 'PE', name: 'Pernambuco', flag: pernambucoFlag },
   { uf: 'CE', name: 'Ceará', flag: cearaFlag },
   { uf: 'RN', name: 'Rio Grande do Norte', flag: rioGrandeDoNorteFlag },
+  { uf: 'SE', name: 'Sergipe', flag: sergipeFlag },
+  { uf: 'PB', name: 'Paraíba', flag: paraibaFlag },
 ];
 const ALL_STATES_OPTION = { uf: 'ALL', name: 'Todos os estados', filterName: 'Todos' };
 const STATE_FILTER_OPTIONS = [ALL_STATES_OPTION, ...AVAILABLE_STATES];
@@ -1935,6 +2459,160 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
+    slug: 'concept-jatiuca', name: 'Concept Jatiúca', image: conceptJatiucaCover,
+    city: 'Maceió, AL', neighborhood: 'Jatiúca', locationTitle: 'Jatiúca - Maceió/AL',
+    address: 'Jatiúca, Maceió/AL',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Concept%20Jati%C3%BAca%20Jati%C3%BAca%20Macei%C3%B3%20AL',
+    area: '25 a 62 m²', profile: 'Studios e apartamentos de 2 quartos', detail: 'Lazer no rooftop',
+    description: 'O Concept Jatiúca é um empreendimento residencial contemporâneo da Moura Dubeux na Jatiúca, em Maceió, Alagoas. O projeto reúne studios e apartamentos de dois quartos, com áreas de 25 m² a 62 m². O rooftop oferece piscina com hidromassagem, deck, espaços gourmet, terraço coberto e academia. No térreo, recepção, coliving, sala de reunião, lavanderia compartilhada e espaços para delivery, e-commerce e minimarket complementam a estrutura de serviços.',
+    highlights: ['25 a 62 m²', 'Studios e apartamentos de 2 quartos', 'Lazer no rooftop', 'Jatiúca, Maceió'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Jatiúca, Maceió/AL'], ['Tipologias', 'Studios e apartamentos de 2 quartos'], ['Garagem', 'Estacionamento interno e vagas para visitantes']],
+    technical: [
+      ['Áreas das unidades', '25 m², 26 m², 28 m² e 62 m²'],
+      ['Tipologias', 'Studios e apartamentos de 2 quartos'],
+      ['Localização', 'Região das ruas Marechal Arthur Alvin Câmara e Coronel Alcides Barros Ferreira, na Jatiúca'],
+      ['Praia', 'Aproximadamente 400 m, conforme o material publicitário'],
+      ['Pavimentos apresentados', 'Térreo, intermediário, apartamentos do 1º ao 10º andar e rooftop'],
+      ['Garagem', 'Estacionamento interno e vagas para visitantes; acessos de veículos ao térreo e ao subsolo'],
+      ['Lazer', 'Rooftop com piscina com hidromassagem, deck, gourmet interno e externo, terraço coberto e academia'],
+      ['Conectividade', 'Infraestrutura para Wi-Fi nas áreas comuns sociais'],
+      ['Gestão de locações', 'Housi, apresentada no book; serviços e condições conforme contratação'],
+      ['Personalização', 'MD Store, conforme condições de contratação com a incorporadora'],
+      ['Material', 'Perspectivas ilustrativas; móveis e decoração não integram necessariamente as unidades negociadas'],
+    ],
+    amenities: ['Piscina com hidromassagem no rooftop', 'Deck', 'Gourmet externo', 'Gourmet interno', 'Terraço coberto', 'Academia', 'Recepção', 'Coliving e convivência', 'Sala de reunião', 'Administração e rouparia', 'Espaço delivery', 'Espaço e-commerce', 'Área para minimarket', 'Lavanderia compartilhada equipada', 'Bicicletário', 'Desembarque de passageiros'],
+    security: ['Fechaduras eletrônicas na porta principal', 'Controle automatizado de acesso de pessoas e veículos', 'Infraestrutura para câmeras nas áreas comuns'],
+    sustainability: ['Infraestrutura de automação para irrigação do jardim', 'Tomadas compartilhadas para carros elétricos'],
+    projectTeam: ['Mariano Teixeira | Arquitetura', 'Poligonus Arquitetura | Ambientação', 'Studio IX | Projeto luminotécnico'],
+    gallery: [
+      { src: conceptJatiucaFrontFacade, titulo: 'Concept Jatiúca - perspectiva da fachada principal' },
+      { src: conceptJatiucaSideFacade, titulo: 'Perspectiva lateral da fachada' },
+      { src: conceptJatiucaFacadeDetail, titulo: 'Perspectiva do detalhe arquitetônico da fachada' },
+      { src: conceptJatiucaEntrance, titulo: 'Perspectiva do acesso e entrada do empreendimento' },
+      { src: conceptJatiucaSeaPool, titulo: 'Perspectiva da piscina do rooftop com vista para o mar' },
+      { src: conceptJatiucaPoolDeck, titulo: 'Perspectiva da piscina e deck do rooftop' },
+      { src: conceptJatiucaCoveredTerrace, titulo: 'Perspectiva do terraço coberto do rooftop' },
+      { src: conceptJatiucaOutdoorGourmet, titulo: 'Perspectiva do espaço gourmet externo' },
+      { src: conceptJatiucaIndoorGourmet, titulo: 'Perspectiva do espaço gourmet interno' },
+      { src: conceptJatiucaFitness, titulo: 'Perspectiva da academia' },
+      { src: conceptJatiucaApartment62, titulo: 'Perspectiva do ambiente integrado do apartamento de 62 m²' },
+      { src: conceptJatiucaStudio28, titulo: 'Perspectiva do Studio de 28 m²' },
+      { src: conceptJatiucaStudio26, titulo: 'Perspectiva do Studio de 26 m²' },
+      { src: conceptJatiucaStudio25, titulo: 'Perspectiva da cozinha do Studio de 25 m²' },
+      { src: conceptJatiucaReception1, titulo: 'Perspectiva da recepção e coliving - ambiente 1' },
+      { src: conceptJatiucaReception2, titulo: 'Perspectiva da recepção e coliving - ambiente 2' },
+      { src: conceptJatiucaDelivery, titulo: 'Perspectiva do espaço delivery' },
+      { src: conceptJatiucaEcommerce, titulo: 'Perspectiva do espaço e-commerce' },
+      { src: conceptJatiucaLaundry, titulo: 'Perspectiva da lavanderia compartilhada' },
+      { src: conceptJatiucaMinimarket, titulo: 'Perspectiva da área para minimarket' },
+    ],
+    floorPlans: [
+      { src: conceptJatiucaPlan25, titulo: 'Studio de 25 m²' },
+      { src: conceptJatiucaPlan26, titulo: 'Studio de 26 m²' },
+      { src: conceptJatiucaPlan28, titulo: 'Studio de 28 m²' },
+      { src: conceptJatiucaPlan62, titulo: 'Apartamento de 2 quartos de 62 m²' },
+      { src: conceptJatiucaGroundPlan, titulo: 'Pavimento térreo' },
+      { src: conceptJatiucaIntermediatePlan, titulo: 'Pavimento intermediário' },
+      { src: conceptJatiucaTypicalFloorPlan, titulo: 'Pavimentos de apartamentos do 1º ao 10º andar' },
+      { src: conceptJatiucaRooftopPlan, titulo: 'Rooftop e áreas de lazer' },
+    ],
+    locationImages: [
+      { src: conceptJatiucaNeighborhood, titulo: 'Entorno: vista aérea do bairro Jatiúca, Maceió' },
+      { src: conceptJatiucaLocationMap, titulo: 'Mapa de localização e comodidades próximas ao Concept Jatiúca' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'lanai-beach', name: 'Lanai Beach', image: lanaiBeachCapaLanaiBeachTorresEOrlaDeJacarecica,
+    city: 'Maceió, AL', neighborhood: 'Jacarecica', locationTitle: 'Jacarecica - Maceió/AL',
+    address: 'Orla da Praia de Jacarecica, Maceió/AL',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Lanai%20Beach%20Jacarecica%20Macei%C3%B3%20Alagoas',
+    area: '79 a 130 m²', profile: '2 e 3 quartos, com varanda gourmet', detail: 'À beira-mar de Jacarecica',
+    description: 'O Lanai Beach é um empreendimento residencial da Moura Dubeux à beira-mar de Jacarecica, em Maceió/AL, próximo ao Parque Shopping Maceió e a uma área de preservação ambiental. As torres Nalu e Makani reúnem apartamentos de 2 e 3 quartos, com metragens de 79 a 130 m² e varanda gourmet em todas as unidades. O lazer inclui três piscinas, sendo uma com borda infinita e vista para o mar, bar da praia, espaços gourmet, academia, coworking, lazer infantil e acesso à praia. As opções de vista para o mar, área verde e lazer variam conforme a unidade.',
+    highlights: ['79 a 130 m²', '2 e 3 quartos', 'Varanda gourmet', 'À beira-mar de Jacarecica'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Jacarecica, Maceió/AL'], ['Torres', 'Nalu e Makani'], ['Tipologias', '2 e 3 quartos, de 79 a 130 m²']],
+    technical: [
+      ['Torres', 'Nalu e Makani'],
+      ['Tipologias', 'Apartamentos de 2 e 3 quartos'],
+      ['Metragens apresentadas', '79 m², 86 m², 99 m², 115 m² e 130 m²'],
+      ['Apartamento de 130 m²', 'Planta apresentada para a torre Nalu'],
+      ['Apartamento de 115 m²', 'Planta apresentada para a torre Makani'],
+      ['Varandas', 'Varanda gourmet em todas as unidades'],
+      ['Vistas', 'Opções para o mar, área verde e lazer, conforme a unidade'],
+      ['Localização', 'Orla de Jacarecica, próximo ao Parque Shopping Maceió, à Avenida Litorânea e à Avenida General Luiz de França Albuquerque'],
+      ['Áreas comuns', 'Equipadas e mobiliadas, com automação'],
+      ['Estacionamento', 'Vagas para visitantes'],
+      ['Registro de incorporação', 'R.4 da matrícula nº 157.941 do 1º Registro de Imóveis e Hipotecas de Maceió/AL, conforme o book'],
+      ['Material', 'Perspectivas e plantas ilustrativas, sujeitas a alterações; mobiliário e decoração representados não integram necessariamente as unidades comercializadas'],
+    ],
+    amenities: ['Praça de boas-vindas', 'Lobbies e acessos às torres', 'Piscina à beira-mar com borda infinita', 'Piscina adulto com spa', 'Piscina infantil', 'Playground', 'Pet place', 'Pet wash', 'Churrasqueiras', 'Espaço gourmet integrado à piscina', 'Salão de festas e salão externo', 'Bar da praia', 'Sports bar', 'Espaço kids', 'Cinema kids', 'Academia', 'Coworking com sala de reunião', 'Jardins e áreas de convivência', 'Terraço coberto na torre Nalu', 'Coliving na torre Makani', 'Minimarket', 'Bicicletário', 'Estrutura para delivery e e-commerce', 'Acesso à praia'],
+    security: ['Fechadura eletrônica nas portas sociais dos apartamentos', 'Controle automatizado de acesso de pedestres e veículos'],
+    sustainability: ['Irrigação inteligente', 'Ponto para carregamento de carro elétrico', 'Placas solares para atender parcialmente às áreas comuns'],
+    projectTeam: ['JCL - Arquitetos | Arquitetura', 'Takeda Design | Paisagismo', 'Poligonus Arquitetura | Ambientação'],
+    gallery: [
+      { src: lanaiBeachFachadaDuasTorresNaluEMakaniAnoitecer, titulo: 'Fachada das torres Nalu e Makani ao anoitecer' },
+      { src: lanaiBeachVistaAereaAreaDeLazerEntreTorres, titulo: 'Perspectiva superior do lazer e das torres' },
+      { src: lanaiBeachPiscinaBeiraMarComDeck, titulo: 'Piscina à beira-mar e solário' },
+      { src: lanaiBeachJardinsECaminhosLazerExterno, titulo: 'Jardins, caminho e áreas de convivência externas' },
+      { src: lanaiBeachPiscinaAdultoComSpa, titulo: 'Piscina adulto com área de hidromassagem' },
+      { src: lanaiBeachPiscinaBordaInfinitaVistaMarDia, titulo: 'Piscina com borda infinita e vista para o mar, de dia' },
+      { src: lanaiBeachPiscinaBordaInfinitaVistaMarNoite, titulo: 'Piscina com borda infinita à noite' },
+      { src: lanaiBeachPiscinaInfantilAquatica, titulo: 'Piscina infantil com brinquedos aquáticos' },
+      { src: lanaiBeachPlaygroundParquinho, titulo: 'Playground ao ar livre' },
+      { src: lanaiBeachPetPlaceAreaParaAnimais, titulo: 'Espaço pet ao ar livre' },
+      { src: lanaiBeachSalaoDeFestasInterno, titulo: 'Salão de festas interno' },
+      { src: lanaiBeachSalaoDeFestasTerracoExterno, titulo: 'Salão externo integrado ao salão de festas' },
+      { src: lanaiBeachBarDaPraia, titulo: 'Bar da praia com mesas e vista para o mar' },
+      { src: lanaiBeachSportsBarJogos, titulo: 'Sports bar com jogos e bancada' },
+      { src: lanaiBeachEspacoKidsBrinquedoteca, titulo: 'Espaço kids e brinquedoteca' },
+      { src: lanaiBeachCinemaKids, titulo: 'Cinema infantil com assentos e TV' },
+      { src: lanaiBeachAcademiaFitness, titulo: 'Academia com aparelhos e área de treino' },
+      { src: lanaiBeachCoworkingSalaDeReuniao, titulo: 'Coworking com sala de reunião' },
+      { src: lanaiBeachMinimarketLojaConveniencia, titulo: 'Minimarket do condomínio' },
+      { src: lanaiBeachEspacoEcommerceGuardaEncomendas, titulo: 'Área de encomendas e e-commerce' },
+      { src: lanaiBeachPetWashBanhoAnimais, titulo: 'Pet wash com bancadas e banheiras' },
+      { src: lanaiBeachBicicletario, titulo: 'Bicicletário do empreendimento' },
+      { src: lanaiBeachApartamento130m2SalaDeEstarVistaMar, titulo: 'Sala de estar decorada do apartamento de 130 m²' },
+      { src: lanaiBeachApartamento130m2SuiteVistaMar, titulo: 'Suíte decorada do apartamento de 130 m²' },
+      { src: lanaiBeachApartamento115m2Sala, titulo: 'Sala decorada do apartamento de 115 m²' },
+      { src: lanaiBeachApartamento115m2Suite, titulo: 'Suíte decorada do apartamento de 115 m²' },
+      { src: lanaiBeachApartamento99m2SalaECozinha, titulo: 'Sala e cozinha integradas do apartamento de 99 m²' },
+      { src: lanaiBeachApartamento99m2Suite, titulo: 'Suíte decorada do apartamento de 99 m²' },
+      { src: lanaiBeachApartamento86m2SalaECozinha, titulo: 'Sala e cozinha integradas do apartamento de 86 m²' },
+      { src: lanaiBeachApartamento79m2SalaECozinha, titulo: 'Sala e cozinha integradas do apartamento de 79 m²' },
+      { src: lanaiBeachApartamento79m2Quarto, titulo: 'Quarto decorado do apartamento de 79 m²' },
+    ],
+    floorPlans: [
+      { src: lanaiBeachPlantaApartamento115m2TorreMakani, titulo: 'Apartamento 115 m² - torre Makani' },
+      { src: lanaiBeachPlantaApartamento130m2TorreNalu, titulo: 'Apartamento 130 m² - torre Nalu' },
+      { src: lanaiBeachPlantaApartamento79m2, titulo: 'Apartamento 79 m²' },
+      { src: lanaiBeachPlantaApartamento86m2, titulo: 'Apartamento 86 m²' },
+      { src: lanaiBeachPlantaApartamento99m2, titulo: 'Apartamento 99 m²' },
+      { src: lanaiBeachPlantaMapaImplantacaoUnidades, titulo: 'Mapa de implantação das unidades e áreas externas' },
+      { src: lanaiBeachPlantaPavimentoLazerGeral, titulo: 'Planta do pavimento de lazer geral, com piscinas e acessos' },
+      { src: lanaiBeachPlantaPavimentoLazerTorreMakani, titulo: 'Planta do pavimento de lazer da torre Makani' },
+      { src: lanaiBeachPlantaPavimentoLazerTorreNalu, titulo: 'Planta do pavimento de lazer da torre Nalu' },
+      { src: lanaiBeachPlantaPavimentoTipoTorreMakani, titulo: 'Planta do pavimento tipo - torre Makani' },
+      { src: lanaiBeachPlantaPavimentoTipoTorreNalu, titulo: 'Planta do pavimento tipo - torre Nalu' },
+      { src: lanaiBeachPlantaApartamento115m2TorreMakaniComLegenda, titulo: 'Apartamento 115 m² - torre Makani - página de referência com legendas' },
+      { src: lanaiBeachPlantaApartamento130m2TorreNaluComLegenda, titulo: 'Apartamento 130 m² - torre Nalu - página de referência com legendas' },
+      { src: lanaiBeachPlantaApartamento79m2ComLegenda, titulo: 'Apartamento 79 m² - página de referência com legendas' },
+      { src: lanaiBeachPlantaApartamento86m2ComLegenda, titulo: 'Apartamento 86 m² - página de referência com legendas' },
+      { src: lanaiBeachPlantaApartamento99m2ComLegenda, titulo: 'Apartamento 99 m² - página de referência com legendas' },
+      { src: lanaiBeachPlantaMapaImplantacaoUnidadesComLegenda, titulo: 'Mapa de implantação das unidades e áreas externas - página de referência com legendas' },
+      { src: lanaiBeachPlantaPavimentoLazerGeralComLegenda, titulo: 'Planta do pavimento de lazer geral, com piscinas e acessos - página de referência com legendas' },
+      { src: lanaiBeachPlantaPavimentoLazerTorreMakaniComLegenda, titulo: 'Planta do pavimento de lazer da torre Makani - página de referência com legendas' },
+      { src: lanaiBeachPlantaPavimentoLazerTorreNaluComLegenda, titulo: 'Planta do pavimento de lazer da torre Nalu - página de referência com legendas' },
+      { src: lanaiBeachPlantaPavimentoTipoTorreMakaniComLegenda, titulo: 'Planta do pavimento tipo - torre Makani - página de referência com legendas' },
+      { src: lanaiBeachPlantaPavimentoTipoTorreNaluComLegenda, titulo: 'Planta do pavimento tipo - torre Nalu - página de referência com legendas' },
+    ],
+    locationImages: [
+      { src: lanaiBeachPraiaJacarecicaVistaLitoral, titulo: 'Praia e mar de Jacarecica vistos de cima' },
+      { src: lanaiBeachAreaVerdeProximaAPraia, titulo: 'Área verde de preservação junto ao litoral' },
+      { src: lanaiBeachVistaMarDeJacarecica, titulo: 'Perspectiva paisagística da praia de Jacarecica' },
+      { src: lanaiBeachVistaAreaVerdeEOrla, titulo: 'Vista da vegetação e da orla' },
+    ],
+  }),
+  createDevelopment({
     slug: 'beach-class-milagres', name: 'Beach Class Milagres', image: milagresCover,
     city: 'São Miguel dos Milagres, AL', neighborhood: 'Rota Ecológica dos Milagres', locationTitle: 'São Miguel dos Milagres - Alagoas',
     address: 'São Miguel dos Milagres, Rota Ecológica dos Milagres, Alagoas',
@@ -2019,6 +2697,163 @@ const additionalDevelopments = [
     ],
     locationImages: [
       { src: milagresLocLocalizacaoMapaAereoMilagres, titulo: 'Mapa aéreo de localização do Beach Class Milagres' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'les-amis-lagoa-nova', name: 'Les Amis Lagoa Nova', image: lesAmisCover,
+    city: 'Natal, RN', neighborhood: 'Lagoa Nova', locationTitle: 'Lagoa Nova - Natal/RN',
+    address: 'Rua José Claudino, Lagoa Nova, Natal/RN',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Les%20Amis%20Lagoa%20Nova%20Natal%20RN',
+    area: '61,01 a 97,94 m²', profile: '2 e 3 quartos, com opções de sala ampliada', detail: '1 ou 2 vagas cobertas por apartamento',
+    description: 'O Les Amis Lagoa Nova é um empreendimento residencial da Moura Dubeux no bairro Lagoa Nova, em Natal/RN, com referência na Rua José Claudino, próximo às avenidas Amintas Barros e Jaguarari. A torre tem 25 pavimentos tipo, com 3 apartamentos por andar, e plantas Elo de 61,01 m², Encontro de 82,34 m² e Estilo de 97,94 m². Todos os apartamentos têm varanda gourmet, com opções de 2 e 3 quartos e alternativas de sala ampliada, incluindo 1 suíte com closet no tipo Elo e 2 suítes no tipo Estilo. O lazer reúne piscinas, minispa, espaços gourmet, academia, coworking, lazer infantil e espaços para pets.',
+    highlights: ['61,01 a 97,94 m²', 'Varanda gourmet', '1 ou 2 vagas cobertas', 'Opções de sala ampliada'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Lagoa Nova, Natal/RN'], ['Tipologias', 'Elo, Encontro e Estilo'], ['Garagem', '1 ou 2 vagas cobertas por apartamento']],
+    technical: [
+      ['Torres', '1 torre'],
+      ['Pavimentos', '28 no total, sendo 25 pavimentos tipo'],
+      ['Apartamentos por andar', '3 unidades'],
+      ['Elo - coluna 3', '61,01 m²: 2 quartos (1 suíte), com alternativa de 1 suíte com closet e sala ampliada; 1 vaga coberta'],
+      ['Encontro - coluna 2', '82,34 m²: 3 quartos (1 suíte), com alternativa de 2 quartos (1 suíte) e sala ampliada; 2 vagas cobertas'],
+      ['Estilo - coluna 1', '97,94 m²: 3 quartos (1 suíte), com alternativa de 2 suítes e sala ampliada; 2 vagas cobertas'],
+      ['Varandas', 'Varanda gourmet em todos os apartamentos'],
+      ['Garagem', '127 vagas no total, sendo 122 cobertas'],
+      ['Pavimento semienterrado', 'Acesso e garagens'],
+      ['Pavimento térreo', 'Acesso, lazer e garagens'],
+      ['Pavimento vazado', 'Lazer'],
+      ['Áreas comuns', 'Lazer entregue equipado e mobiliado, conforme o material'],
+      ['Salão de festas', 'Equipado, decorado e climatizado, conforme o memorial de especificações'],
+      ['Conforto acústico', 'Soluções para salão de festas, coworking e academia'],
+      ['Personalização', 'Opções de personalização de planta e automação'],
+      ['Localização', 'Rua José Claudino, próximo às avenidas Amintas Barros e Jaguarari, Lagoa Nova, Natal/RN'],
+      ['Material', 'Perspectivas e plantas ilustrativas, sujeitas a alterações; móveis e decoração ilustrados não integram necessariamente os apartamentos'],
+    ],
+    amenities: ['Hall projetado para operações com concierge', 'Piscina adulto com deck molhado', 'Piscina infantil', 'Deck seco', 'Deck Lune e espaço relax', 'Minispa', 'Deck junto à piscina com churrasqueira', 'Salão de festas', 'Espaço gourmet', 'Brinquedoteca', 'Playground', 'Praça Vivant e espaços de convivência', 'Miniquadra poliesportiva', 'Deck jardim com churrasqueira', 'Academia', 'Fitness outdoor', 'Coworking com bancadas, sala de reunião e Wi-Fi', 'Pet play e pet shower', 'Guarda-e-commerce e lockers para delivery'],
+    security: ['Portaria virtual com videoporteiro', 'Acesso de moradores por biometria', 'Acesso de visitantes por QR Code', 'Acesso de veículos por reconhecimento de placa', 'Fechaduras eletrônicas nas portas principais dos apartamentos', 'Infraestrutura de segurança nas áreas comuns'],
+    sustainability: ['Tomadas compartilhadas para carros elétricos', 'Coleta seletiva', 'Sensores de iluminação nos estacionamentos e circulações dos pavimentos tipo', 'Irrigação automatizada', 'Automação para controle do consumo de água e energia', 'Aproveitamento da iluminação natural'],
+    projectTeam: ['Pontual Arquitetos | Arquitetura', 'Alessandra e Ricardo Cardim | Paisagismo', 'Sobre Arquitetura | Ambientação das áreas comuns'],
+    gallery: [
+      { src: lesAmisFachadaPrincipalAoEntardecer, titulo: 'Les Amis Lagoa Nova - perspectiva da fachada ao entardecer' },
+      { src: lesAmisFachadaVistaAereaDoBairro, titulo: 'Perspectiva aérea da torre e do bairro' },
+      { src: lesAmisFachadaVistaFrontalDaTorre, titulo: 'Perspectiva frontal da torre' },
+      { src: lesAmisEntradaPortariaPrincipal, titulo: 'Perspectiva da entrada e da portaria principal' },
+      { src: lesAmisEspacoGuardaEcommerce, titulo: 'Perspectiva do espaço guarda-e-commerce' },
+      { src: lesAmisHallDeEntrada, titulo: 'Perspectiva do hall de entrada' },
+      { src: lesAmisPiscinasAdultoInfantilDeckMolhadoNoturna, titulo: 'Perspectiva noturna das piscinas adulto e infantil com deck molhado' },
+      { src: lesAmisLazerTerreoPiscinasVistaSuperior, titulo: 'Perspectiva superior do lazer térreo e das piscinas' },
+      { src: lesAmisPiscinaAdultoComDeckMolhado, titulo: 'Perspectiva da piscina adulto com deck molhado' },
+      { src: lesAmisPiscinaInfantil, titulo: 'Perspectiva da piscina infantil' },
+      { src: lesAmisMinispa, titulo: 'Perspectiva do minispa' },
+      { src: lesAmisSalaoDeFestas, titulo: 'Perspectiva do salão de festas' },
+      { src: lesAmisEspacoGourmet, titulo: 'Perspectiva do espaço gourmet' },
+      { src: lesAmisBrinquedoteca, titulo: 'Perspectiva da brinquedoteca' },
+      { src: lesAmisPlayground, titulo: 'Perspectiva do playground' },
+      { src: lesAmisLazerPavimentoVazadoVistaAerea, titulo: 'Perspectiva aérea do lazer no pavimento vazado' },
+      { src: lesAmisPracaVivantVistaSuperior, titulo: 'Perspectiva superior da Praça Vivant' },
+      { src: lesAmisPracaVivantEspacoDeConvivencia, titulo: 'Perspectiva da Praça Vivant e do espaço de convivência' },
+      { src: lesAmisMiniquadraPoliesportiva, titulo: 'Perspectiva da miniquadra poliesportiva' },
+      { src: lesAmisDeckJardimComChurrasqueira, titulo: 'Perspectiva do deck jardim com churrasqueira' },
+      { src: lesAmisAcademiaEspacoFitness01, titulo: 'Perspectiva da academia - vista 1' },
+      { src: lesAmisAcademiaEspacoFitness02, titulo: 'Perspectiva da academia - vista 2' },
+      { src: lesAmisFitnessOutdoor, titulo: 'Perspectiva do fitness outdoor' },
+      { src: lesAmisEspacoPetPlayEPetShower, titulo: 'Perspectiva do pet play e pet shower' },
+      { src: lesAmisEspacoCoworking, titulo: 'Perspectiva do espaço coworking' },
+      { src: lesAmisApartamentosFachadaEVarandaGourmet, titulo: 'Perspectiva da fachada e das varandas gourmet' },
+      { src: lesAmisApartamentoEstiloVarandaGourmet01, titulo: 'Perspectiva da varanda gourmet do apartamento Estilo - vista 1' },
+      { src: lesAmisApartamentoEstiloVarandaGourmet02, titulo: 'Perspectiva da varanda gourmet do apartamento Estilo - vista 2' },
+      { src: lesAmisApartamentoEstiloSalaCozinhaIntegradas, titulo: 'Perspectiva da sala e cozinha integradas do apartamento Estilo' },
+      { src: lesAmisApartamentoEstiloCozinhaIntegrada, titulo: 'Perspectiva da cozinha integrada do apartamento Estilo' },
+      { src: lesAmisApartamentoEstiloSuiteMaster, titulo: 'Perspectiva da suíte master do apartamento Estilo' },
+      { src: lesAmisApartamentoEstiloQuarto01, titulo: 'Perspectiva do quarto do apartamento Estilo - vista 1' },
+      { src: lesAmisApartamentoEstiloQuarto02, titulo: 'Perspectiva do quarto do apartamento Estilo - vista 2' },
+      { src: lesAmisApartamentoEstiloSalaAmpliada, titulo: 'Perspectiva da sala ampliada do apartamento Estilo' },
+      { src: lesAmisApartamentoEncontroVarandaGourmet, titulo: 'Perspectiva da varanda gourmet do apartamento Encontro' },
+      { src: lesAmisApartamentoEncontroLiving01, titulo: 'Perspectiva do living do apartamento Encontro - vista 1' },
+      { src: lesAmisApartamentoEncontroLiving02, titulo: 'Perspectiva do living do apartamento Encontro - vista 2' },
+      { src: lesAmisApartamentoEncontroSalaAmpliada, titulo: 'Perspectiva da sala ampliada do apartamento Encontro' },
+      { src: lesAmisApartamentoEloVarandaGourmet, titulo: 'Perspectiva da varanda gourmet do apartamento Elo' },
+      { src: lesAmisApartamentoEloCozinhaESalaIntegradas, titulo: 'Perspectiva da cozinha e sala integradas do apartamento Elo' },
+      { src: lesAmisApartamentoEloAmbienteIntegrado, titulo: 'Perspectiva do ambiente integrado do apartamento Elo' },
+      { src: lesAmisApartamentoEloSalaAmpliada, titulo: 'Perspectiva da sala ampliada do apartamento Elo' },
+    ],
+    floorPlans: [
+      { src: lesAmisImplantacaoGeralTerreno, titulo: 'Implantação geral do terreno' },
+      { src: lesAmisPlantaPavimentoSemienterrado, titulo: 'Planta do pavimento semienterrado' },
+      { src: lesAmisPlantaPavimentoTerreo, titulo: 'Planta do pavimento térreo' },
+      { src: lesAmisPlantaPavimentoLazer, titulo: 'Planta do pavimento de lazer' },
+      { src: lesAmisPlantaEstilo9794m23Quartos1Suite, titulo: 'Estilo - 97,94 m², 3 quartos (1 suíte)' },
+      { src: lesAmisPlantaEstilo9794m22SuitesSalaAmpliada, titulo: 'Estilo - 97,94 m², 2 suítes e sala ampliada' },
+      { src: lesAmisPlantaEncontro8234m23Quartos1Suite, titulo: 'Encontro - 82,34 m², 3 quartos (1 suíte)' },
+      { src: lesAmisPlantaEncontro8234m22QuartosSalaAmpliada, titulo: 'Encontro - 82,34 m², 2 quartos (1 suíte) e sala ampliada' },
+      { src: lesAmisPlantaElo6101m22Quartos1Suite, titulo: 'Elo - 61,01 m², 2 quartos (1 suíte)' },
+      { src: lesAmisPlantaElo6101m21SuiteClosetSalaAmpliada, titulo: 'Elo - 61,01 m², 1 suíte com closet e sala ampliada' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'florata-tirol', name: 'Florata Tirol', image: florataTirolCover,
+    city: 'Natal, RN', neighborhood: 'Tirol', locationTitle: 'Tirol - Natal/RN',
+    address: 'Rua Mipibu, Tirol, Natal/RN',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Florata%20Tirol%20Rua%20Mipibu%20Natal%20RN',
+    area: '100 e 150 m²', profile: '3 quartos (2 suítes) ou 4 suítes, com varanda gourmet', detail: '2 ou 3 vagas de garagem',
+    description: 'O Florata Tirol é um empreendimento residencial da Moura Dubeux no bairro Tirol, em Natal/RN, com referência de localização na Rua Mipibu. O projeto reúne as torres Acácias e Bromélias, com apartamentos de 100 m², 3 quartos (2 suítes) e 2 vagas, ou de 150 m², 4 suítes e 3 vagas. Todas as unidades têm varanda gourmet. O lazer inclui piscinas adulto e infantil, terraço gourmet integrado à piscina, jardins, academia, salão de festas, sports bar, brinquedoteca e pet place.',
+    highlights: ['100 e 150 m²', '3 quartos ou 4 suítes', '2 ou 3 vagas', 'Varanda gourmet'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Tirol, Natal/RN'], ['Torres', 'Acácias e Bromélias'], ['Garagem', '2 ou 3 vagas por apartamento']],
+    technical: [
+      ['Torres', 'Acácias e Bromélias'],
+      ['Apartamentos de 100 m²', '3 quartos, sendo 2 suítes, e 2 vagas de garagem; terminação 02 em ambas as torres'],
+      ['Apartamentos de 150 m²', '4 suítes e 3 vagas de garagem; terminação 01 em ambas as torres'],
+      ['Varandas', 'Varanda gourmet em todas as unidades'],
+      ['Plantas apresentadas', 'Apartamentos e planta tipo referentes ao 15º pavimento'],
+      ['Localização', 'Rua Mipibu, Tirol, Natal/RN, conforme o mapa do material'],
+      ['Halls', 'Hall independente por torre'],
+      ['Áreas comuns', 'Equipadas e mobiliadas, com automação'],
+      ['Registro de incorporação', '1º CRI - Natal/RN, a cargo do 3º Ofício de Notas, Livro 2 de RG, matrícula 53.220, registro R.1, conforme o book'],
+      ['Material', 'Perspectivas e plantas ilustrativas, sujeitas a alterações; mobiliário e decoração ilustrados não integram necessariamente o apartamento ofertado'],
+    ],
+    amenities: ['Praça de chegada e jardins', 'Hall independente por torre', 'Coworking', 'Brinquedoteca', 'Terraço gourmet integrado à piscina', 'Terraço descoberto', 'Piscina adulto', 'Piscina infantil', 'Parquinho infantil', 'Pet place', 'Pet wash', 'Academia', 'Salão de festas com copa de apoio', 'Sports bar', 'Guarda-volumes', 'Estrutura para recebimento de delivery e e-commerce', 'Áreas comuns equipadas e mobiliadas'],
+    security: ['Guarita', 'Fechadura eletrônica no acesso principal dos apartamentos', 'Controle automatizado de acesso de pedestres e veículos'],
+    sustainability: ['Irrigação inteligente', 'Ponto para carregamento de carro elétrico', 'Painéis solares para atender parcialmente às áreas comuns'],
+    projectTeam: ['Pontual Arquitetos | Arquitetura', 'Takeda Design | Paisagismo', 'Sobre Arquitetura | Ambientação e interiores'],
+    gallery: [
+      { src: florataTirolFacade, titulo: 'Florata Tirol - perspectiva completa das torres' },
+      { src: florataTirolLeisureAerialOne, titulo: 'Perspectiva aérea da área de lazer - vista 1' },
+      { src: florataTirolLeisureAerialTwo, titulo: 'Perspectiva aérea da área de lazer - vista 2' },
+      { src: florataTirolEntrance, titulo: 'Perspectiva da fachada, entrada e acesso' },
+      { src: florataTirolArrivalSquare, titulo: 'Perspectiva da praça de chegada e dos jardins' },
+      { src: florataTirolGardens, titulo: 'Perspectiva da praça, jardins e paisagismo' },
+      { src: florataTirolAdultPoolOne, titulo: 'Perspectiva da piscina adulto - vista 1' },
+      { src: florataTirolAdultPoolTwo, titulo: 'Perspectiva da piscina adulto - vista 2' },
+      { src: florataTirolChildrenPool, titulo: 'Perspectiva da piscina infantil' },
+      { src: florataTirolPlayground, titulo: 'Perspectiva do parquinho infantil' },
+      { src: florataTirolPetPlace, titulo: 'Perspectiva do pet place' },
+      { src: florataTirolOpenTerrace, titulo: 'Perspectiva do terraço descoberto' },
+      { src: florataTirolGourmetTerrace, titulo: 'Perspectiva do terraço gourmet' },
+      { src: florataTirolLobby, titulo: 'Perspectiva do hall social' },
+      { src: florataTirolCoworking, titulo: 'Perspectiva do coworking' },
+      { src: florataTirolPlayroom, titulo: 'Perspectiva da brinquedoteca' },
+      { src: florataTirolGym, titulo: 'Perspectiva da academia' },
+      { src: florataTirolPartyRoom, titulo: 'Perspectiva do salão de festas' },
+      { src: florataTirolSportsBar, titulo: 'Perspectiva do sports bar' },
+      { src: florataTirolLargeLiving, titulo: 'Perspectiva da sala de estar do apartamento de 150 m²' },
+      { src: florataTirolLargeDining, titulo: 'Perspectiva da sala de jantar do apartamento de 150 m²' },
+      { src: florataTirolLargeBalcony, titulo: 'Perspectiva da varanda gourmet do apartamento de 150 m²' },
+      { src: florataTirolLargeSuite, titulo: 'Perspectiva da suíte master do apartamento de 150 m²' },
+      { src: florataTirolLargeOfficeSuite, titulo: 'Perspectiva da suíte com escritório do apartamento de 150 m²' },
+      { src: florataTirolSmallLiving, titulo: 'Perspectiva da sala de estar do apartamento de 100 m²' },
+      { src: florataTirolSmallBalcony, titulo: 'Perspectiva da varanda gourmet do apartamento de 100 m²' },
+      { src: florataTirolSmallSuite, titulo: 'Perspectiva da suíte master do apartamento de 100 m²' },
+      { src: florataTirolSmallChildrenSuite, titulo: 'Perspectiva da suíte infantil do apartamento de 100 m²' },
+    ],
+    floorPlans: [
+      { src: florataTirolGroundFloor, titulo: 'Implantação do pavimento térreo' },
+      { src: florataTirolOpenFloor, titulo: 'Implantação do pavimento vazado' },
+      { src: florataTirolTypicalFloor, titulo: 'Planta tipo do 15º andar - duas torres' },
+      { src: florataTirolAcaciasLargePlan, titulo: 'Torre Acácias - 150 m², 4 suítes, terminação 01 (15º pavimento)' },
+      { src: florataTirolBromeliasLargePlan, titulo: 'Torre Bromélias - 150 m², 4 suítes, terminação 01 (15º pavimento)' },
+      { src: florataTirolAcaciasSmallPlan, titulo: 'Torre Acácias - 100 m², 3 quartos (2 suítes), terminação 02 (15º pavimento)' },
+      { src: florataTirolBromeliasSmallPlan, titulo: 'Torre Bromélias - 100 m², 3 quartos (2 suítes), terminação 02 (15º pavimento)' },
+    ],
+    locationImages: [
+      { src: florataTirolLocation, titulo: 'Localização aérea do Florata Tirol e referências do entorno em Natal' },
     ],
   }),
   createDevelopment({
@@ -2773,6 +3608,318 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
+    slug: 'concept-joao-farinha', name: 'Concept João Farinha', image: conceptJoaoFarinhaCover,
+    city: 'Recife, PE', neighborhood: 'Próximo a Boa Viagem', locationTitle: 'Recife - próximo a Boa Viagem/PE',
+    address: 'Recife, Pernambuco, próximo a Boa Viagem, Shopping Recife e Via Mangue',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Concept%20Jo%C3%A3o%20Farinha%20Recife%20Pernambuco',
+    area: '26 a 56 m²', profile: 'Studios, 1 e 2 quartos e lofts com mezanino', detail: '264 unidades em torre única',
+    description: 'O Concept João Farinha é um empreendimento da Moura Dubeux em Recife, próximo a Boa Viagem, ao Shopping Recife e à Via Mangue. A torre reúne 264 unidades, com studios de aproximadamente 26 a 28 m², apartamentos de 1 quarto de cerca de 39 m², de 2 quartos de cerca de 56 m² e lofts com mezanino de aproximadamente 44 a 46 m². As áreas comuns incluem piscina com hidromassagem, espaços gourmet, academia, coliving, coworking e lavanderia compartilhada.',
+    highlights: ['Studios, apartamentos e lofts', '264 unidades', 'Piscina com hidromassagem', 'Próximo ao Shopping Recife'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Recife, Pernambuco'], ['Tipologias', 'Studios, 1 e 2 quartos e lofts'], ['Garagem', '155 vagas rotativas']],
+    technical: [
+      ['Área do terreno', '4.738,00 m²'],
+      ['Área privativa total', '9.475,98 m²'],
+      ['Torres', '1 torre'],
+      ['Unidades', '264 unidades'],
+      ['Pavimentos', 'Térreo + vazado 1 + lazer + 27 pavimentos tipo'],
+      ['Studios', '26,91 m², 28,08 m² e 28,63 m², conforme a unidade'],
+      ['1 quarto', '39,30 m², 39,33 m² e 39,70 m², conforme a unidade'],
+      ['2 quartos', '56,37 m² e 56,40 m², conforme a unidade'],
+      ['Lofts com mezanino', 'Aproximadamente 44 m² e 46 m²'],
+      ['Garagem', '155 vagas rotativas'],
+      ['Referências de localização', 'Rua Antônio Falcão e Rua Professor Arnaldo Carneiro Leão, conforme a implantação'],
+      ['Conectividade', 'Infraestrutura para Wi-Fi nas áreas comuns sociais'],
+      ['Personalização', 'MD Store: serviço opcional, conforme disponibilidade e condições de contratação'],
+      ['Material', 'Perspectivas ilustrativas sujeitas a alterações; móveis, utensílios, equipamentos e decoração ilustrados não estão incluídos no orçamento da obra'],
+    ],
+    amenities: ['Hall social', 'Espaço delivery', 'Piscina com hidromassagem e deck', 'Terraço gourmet', 'Terraço coberto', 'Salão gourmet', 'Academia', 'Fitness externo', 'Sala de massagem', 'Lavanderia compartilhada', 'Coliving', 'Coworking', 'Café', 'Área destinada a minimarket', 'Lounge gramado', 'Espaço de balanços', 'Deck jardim', 'Redário', 'Pet place com pet wash', 'Bicicletário', 'Local para car wash e bike station'],
+    security: ['Portaria e antecâmara', 'Fechadura eletrônica na porta principal dos apartamentos', 'Controle automatizado de acesso de pessoas e veículos', 'Infraestrutura para câmeras nas áreas comuns'],
+    sustainability: ['Irrigação automatizada dos jardins', 'Tomadas compartilhadas para veículos elétricos'],
+    projectTeam: ['Juliano Dubeux e Metro Arquitetura | Arquitetura', 'Takeda Design | Paisagismo', 'Poligonus | Ambientação'],
+    gallery: [
+      { src: conceptJoaoFarinhaFacade, titulo: 'Concept João Farinha - perspectiva geral da torre' },
+      { src: conceptJoaoFarinhaEntrance, titulo: 'Perspectiva da fachada e do acesso principal' },
+      { src: conceptJoaoFarinhaFacadeBelow, titulo: 'Perspectiva da torre vista de baixo' },
+      { src: conceptJoaoFarinhaFacadeVertical, titulo: 'Perspectiva vertical da torre' },
+      { src: conceptJoaoFarinhaLobby, titulo: 'Perspectiva do hall social e da recepção' },
+      { src: conceptJoaoFarinhaLawnLounge, titulo: 'Perspectiva do lounge gramado e do paisagismo' },
+      { src: conceptJoaoFarinhaPetPlace, titulo: 'Perspectiva do pet place com pet wash' },
+      { src: conceptJoaoFarinhaHammocks, titulo: 'Perspectiva do redário no jardim' },
+      { src: conceptJoaoFarinhaColivingCafe, titulo: 'Perspectiva do coliving, coworking e café' },
+      { src: conceptJoaoFarinhaCoworkingRooms, titulo: 'Perspectiva das salas de coliving e coworking' },
+      { src: conceptJoaoFarinhaGym, titulo: 'Perspectiva da academia' },
+      { src: conceptJoaoFarinhaOutdoorFitness, titulo: 'Perspectiva do fitness externo' },
+      { src: conceptJoaoFarinhaGourmetRoom, titulo: 'Perspectiva do salão gourmet' },
+      { src: conceptJoaoFarinhaMassageRoom, titulo: 'Perspectiva da sala de massagem' },
+      { src: conceptJoaoFarinhaLaundry, titulo: 'Perspectiva da lavanderia compartilhada' },
+      { src: conceptJoaoFarinhaPool, titulo: 'Perspectiva da piscina ao ar livre' },
+      { src: conceptJoaoFarinhaGardenDeck, titulo: 'Perspectiva do deck jardim com daybeds' },
+      { src: conceptJoaoFarinhaSwings, titulo: 'Perspectiva do espaço de balanços no jardim' },
+      { src: conceptJoaoFarinhaLawnSunset, titulo: 'Perspectiva do lounge gramado ao entardecer' },
+      { src: conceptJoaoFarinhaGourmetTerrace, titulo: 'Perspectiva do terraço gourmet' },
+      { src: conceptJoaoFarinhaStudio, titulo: 'Perspectiva do studio de aproximadamente 26 a 28 m²' },
+      { src: conceptJoaoFarinhaOneBedroom, titulo: 'Perspectiva da sala do apartamento de 1 quarto de aproximadamente 39 m²' },
+      { src: conceptJoaoFarinhaLoftLiving, titulo: 'Perspectiva da sala do loft de aproximadamente 44 a 46 m²' },
+      { src: conceptJoaoFarinhaLoftMezzanine, titulo: 'Perspectiva do mezanino do loft de aproximadamente 44 a 46 m²' },
+      { src: conceptJoaoFarinhaTwoBedroomLiving, titulo: 'Perspectiva da sala do apartamento de 2 quartos de aproximadamente 56 m²' },
+      { src: conceptJoaoFarinhaTwoBedroomSuite, titulo: 'Perspectiva da suíte do apartamento de 2 quartos de aproximadamente 56 m²' },
+    ],
+    floorPlans: [
+      { src: conceptJoaoFarinhaSitePlan, titulo: 'Implantação geral do condomínio' },
+      { src: conceptJoaoFarinhaGroundFloor, titulo: 'Pavimento térreo - acessos e estacionamento' },
+      { src: conceptJoaoFarinhaParkingFloor, titulo: 'Pavimento vazado 1 - estacionamento' },
+      { src: conceptJoaoFarinhaLeisureFloor, titulo: 'Pavimento de lazer - piscina, gourmet e academia' },
+      { src: conceptJoaoFarinhaFloorsOneToThree, titulo: 'Planta dos pavimentos tipo 1º ao 3º' },
+      { src: conceptJoaoFarinhaFloorsFourToTwentyThree, titulo: 'Planta dos pavimentos tipo 4º ao 23º' },
+      { src: conceptJoaoFarinhaFloorsTwentyFourAndTwentySix, titulo: 'Planta dos pavimentos tipo 24º e 26º' },
+      { src: conceptJoaoFarinhaLoftFloors, titulo: 'Planta dos pavimentos tipo 25º e 27º - lofts' },
+      { src: conceptJoaoFarinhaSitePlanReference, titulo: 'Implantação geral e legendas (página de referência)' },
+      { src: conceptJoaoFarinhaGroundFloorReference, titulo: 'Pavimento térreo e legendas (página de referência)' },
+      { src: conceptJoaoFarinhaParkingFloorReference, titulo: 'Pavimento vazado 1 e legendas (página de referência)' },
+      { src: conceptJoaoFarinhaLeisureFloorReference, titulo: 'Pavimento de lazer e legendas (página de referência)' },
+      { src: conceptJoaoFarinhaFloorsOneToThreeReference, titulo: 'Pavimentos tipo 1º ao 3º - metragens e legendas' },
+      { src: conceptJoaoFarinhaFloorsFourToTwentyThreeReference, titulo: 'Pavimentos tipo 4º ao 23º - metragens e legendas' },
+      { src: conceptJoaoFarinhaFloorsTwentyFourAndTwentySixReference, titulo: 'Pavimentos tipo 24º e 26º - metragens e legendas' },
+      { src: conceptJoaoFarinhaLoftFloorsReference, titulo: 'Pavimentos tipo 25º e 27º - metragens e legendas dos lofts' },
+    ],
+    locationImages: [
+      { src: conceptJoaoFarinhaLocation, titulo: 'Localização e referências: Via Mangue, Praia de Boa Viagem e Shopping Recife' },
+      { src: conceptJoaoFarinhaShopping, titulo: 'Entorno: Shopping Recife' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'infinity-recife', name: 'Infinity Recife', image: infinityRecifeCover,
+    city: 'Recife, PE', neighborhood: 'Boa Viagem', locationTitle: 'Boa Viagem - Recife/PE',
+    address: 'Avenida Boa Viagem, Boa Viagem, Recife/PE',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Infinity%20Recife%20Avenida%20Boa%20Viagem%20Recife%20PE',
+    area: '26,90 a 97,10 m²', profile: 'Studios e apartamentos de 1 e 2 quartos', detail: '329 unidades residenciais em torre única',
+    description: 'O Infinity Recife é um projeto de retrofit da Moura Dubeux, da linha MD Collection, associado ao antigo Recife Palace Hotel, em Boa Viagem, Recife/PE. A torre reúne 329 unidades residenciais, entre studios Infinity Solo e apartamentos Infinity One e Infinity Two, com plantas de 26,90 a 97,10 m². O projeto apresenta piscina com borda infinita, academia, restaurante, espaço gourmet e spa com sauna, salas de massagem e hidromassagem aquecida, além de lavanderia, minimarket e pet wash. As imagens de fachada e ambientes são perspectivas ilustrativas do projeto.',
+    highlights: ['26,90 a 97,10 m²', 'Studios, 1 e 2 quartos', 'Projeto de retrofit', 'Boa Viagem'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Boa Viagem, Recife/PE'], ['Unidades', '329 residenciais e 1 loja'], ['Garagem', '117 vagas rotativas']],
+    technical: [
+      ['Linha', 'MD Collection'],
+      ['Conceito', 'Retrofit de edifício preexistente, associado ao antigo Recife Palace Hotel'],
+      ['Torres', '1 torre'],
+      ['Unidades residenciais', '329 unidades'],
+      ['Loja comercial', '1 loja de 475,56 m²'],
+      ['Área do terreno', '2.528,75 m²'],
+      ['Área privativa informada', '14.934,96 m²'],
+      ['2º pavimento', '12 apartamentos; plantas Infinity Solo de 32,20 m², 38,35 m² e 49,80 m² e Infinity Two de 78,90 m²'],
+      ['4º ao 18º pavimentos', '20 apartamentos por pavimento; plantas Infinity Solo de 26,90 m², 35,70 m², 39,30 m² e 39,75 m²; Infinity One de 61,90 m²; Infinity Two de 76,15 m²'],
+      ['19º pavimento', '17 apartamentos; plantas Infinity Solo de 35,05 m²; Infinity One de 43,95 m², 48,00 m², 48,60 m² e 62,70 m²; Infinity Two de 94,45 m² e 97,10 m²'],
+      ['Garagem', '117 vagas rotativas, incluindo 2 PNE e 12 no sistema de vagões, com 9 m de comprimento'],
+      ['Carregamento elétrico', '8 vagas com carregamento em sistema rotativo'],
+      ['Lazer', 'Pavimento indicado como 3º na ficha técnica'],
+      ['Áreas comuns', 'Mobiliadas, equipadas e automatizadas, conforme o material'],
+      ['Referências viárias', 'Avenida Boa Viagem, Rua Ernesto de Paula Santos e Rua dos Navegantes'],
+      ['Material', 'Perspectivas e plantas ilustrativas, sujeitas a alterações; mobiliário ilustrativo'],
+    ],
+    amenities: ['Acesso porte-cochère', 'Hall e recepção', 'Espaço delivery', 'Bicicletário', 'Lavanderia compartilhada', 'Minimarket', 'Pet wash', 'Academia e salas fitness', 'Piscina com borda infinita', 'Duas piscinas de hidromassagem no lazer e no spa', 'Bar e deck', 'Restaurante', 'Espaço gourmet', 'Spa com sauna', 'Salas de massagem', 'Hidromassagem aquecida', 'Terraço descoberto', 'Terraço coberto', 'Jardins'],
+    security: ['Fechadura eletrônica nas portas sociais dos apartamentos'],
+    sustainability: ['Irrigação automatizada dos jardins comuns', 'Equipamentos de redução de vazão em torneiras e vasos sanitários', 'Iluminação automatizada e sensores em parte das áreas comuns', '8 vagas com carregamento elétrico em sistema rotativo', 'Gestão de resíduos da obra com descarte responsável'],
+    projectTeam: ['Zirpol Arquitetura | Arquitetura'],
+    gallery: [
+      { src: infinityRecifeFachadaEmbasamentoEntrada, titulo: 'Perspectiva: acesso e fachada ao nível da rua' },
+      { src: infinityRecifeFachadaPrincipalVistaAvenida, titulo: 'Perspectiva: torre completa na avenida Boa Viagem' },
+      { src: infinityRecifeWellnessAreaRelaxamentoPiscina, titulo: 'Perspectiva: área wellness com espreguiçadeiras e piscina' },
+      { src: infinityRecifeRestauranteSalaoInterno, titulo: 'Perspectiva: salão do restaurante' },
+      { src: infinityRecifePiscinaPanoramaBordaInfinita, titulo: 'Perspectiva: piscina com borda infinita junto à área social' },
+      { src: infinityRecifeEspacoGourmetMesaJantar, titulo: 'Perspectiva: espaço gourmet com mesa de jantar' },
+      { src: infinityRecifeGaragemEElevadores, titulo: 'Perspectiva: acesso às garagens com elevadores' },
+      { src: infinityRecifePiscinaBordaInfinitaVistaAerea, titulo: 'Perspectiva: piscina com borda infinita em vista elevada' },
+      { src: infinityRecifeAcademiaMusculacao, titulo: 'Perspectiva: academia com equipamentos de musculação' },
+      { src: infinityRecifeAcademiaEsteirasVistaMar, titulo: 'Perspectiva: área cardio da academia com vista do mar' },
+      { src: infinityRecifeLavanderiaCompartilhada, titulo: 'Perspectiva: lavanderia coletiva equipada' },
+      { src: infinityRecifeStudioInfinitySolo26m2Ambiente, titulo: 'Perspectiva: perspectiva de studio compacto de cerca de 26 m²' },
+      { src: infinityRecifeApartamentoStudioSalaEVaranda, titulo: 'Perspectiva: sala de unidade Infinity Solo' },
+      { src: infinityRecifeApartamentoInfinityOneSalaDeJantar, titulo: 'Perspectiva: sala e jantar do apartamento Infinity One' },
+      { src: infinityRecifeApartamentoInfinityTwoSalaSocial, titulo: 'Perspectiva: sala de apartamento com obra de arte' },
+      { src: infinityRecifeApartamentoVistaMarLounge, titulo: 'Perspectiva: estar com vista para o mar' },
+      { src: infinityRecifeApartamentoAmbienteSalaPequena, titulo: 'Perspectiva: sala compacta em perspectiva' },
+      { src: infinityRecifeApartamentoDetalhePoltronaVista, titulo: 'Perspectiva: poltrona e vista em ambiente do apartamento' },
+    ],
+    floorPlans: [
+      { src: infinityRecifePavimentoSemienterradoGaragemEBicicletario, titulo: 'Pavimento semienterrado - garagem e bicicletário' },
+      { src: infinityRecifePavimentoTerreoHallAcessosEntrada, titulo: 'Pavimento térreo - hall, acessos e entrada' },
+      { src: infinityRecifePrimeiroPavimentoEstacionamento, titulo: '1º pavimento - estacionamento' },
+      { src: infinityRecifePavimentoLazerPiscinasAcademiaGourmet, titulo: 'Pavimento de lazer - piscinas, academia e gourmet' },
+      { src: infinityRecifeSegundoPavimentoDistribuicaoUnidades, titulo: '2º pavimento - distribuição das unidades' },
+      { src: infinityRecifePavimentos04A18DistribuicaoUnidades, titulo: '4º ao 18º pavimentos - distribuição das unidades' },
+      { src: infinityRecifeDecimoNonoPavimentoDistribuicaoUnidades, titulo: '19º pavimento - distribuição das unidades' },
+      { src: infinityRecifePlanta2pInfinitySolo3220m2, titulo: 'Infinity Solo - 32,20 m² (2º pavimento)' },
+      { src: infinityRecifePlanta2pInfinitySolo3835m2, titulo: 'Infinity Solo - 38,35 m² (2º pavimento)' },
+      { src: infinityRecifePlanta2pInfinitySolo4980m2, titulo: 'Infinity Solo - 49,80 m² (2º pavimento)' },
+      { src: infinityRecifePlanta2pInfinityTwo7890m2, titulo: 'Infinity Two - 78,90 m² (2º pavimento)' },
+      { src: infinityRecifePlanta4a18InfinitySolo2690m2, titulo: 'Infinity Solo - 26,90 m² (4º ao 18º pavimentos)' },
+      { src: infinityRecifePlanta4a18InfinitySolo3570m2, titulo: 'Infinity Solo - 35,70 m² (4º ao 18º pavimentos)' },
+      { src: infinityRecifePlanta4a18InfinitySolo3975m2, titulo: 'Infinity Solo - 39,75 m² (4º ao 18º pavimentos)' },
+      { src: infinityRecifePlanta4a18InfinitySolo3930m2, titulo: 'Infinity Solo - 39,30 m² (4º ao 18º pavimentos)' },
+      { src: infinityRecifePlanta4a18InfinityOne6190m2, titulo: 'Infinity One - 61,90 m² (4º ao 18º pavimentos)' },
+      { src: infinityRecifePlanta4a18InfinityTwo7615m2, titulo: 'Infinity Two - 76,15 m² (4º ao 18º pavimentos)' },
+      { src: infinityRecifePlanta19pInfinitySolo3505m2, titulo: 'Infinity Solo - 35,05 m² (19º pavimento)' },
+      { src: infinityRecifePlanta19pInfinityOne4395m2, titulo: 'Infinity One - 43,95 m² (19º pavimento)' },
+      { src: infinityRecifePlanta19pInfinityOne4860m2, titulo: 'Infinity One - 48,60 m² (19º pavimento)' },
+      { src: infinityRecifePlanta19pInfinityOne4800m2, titulo: 'Infinity One - 48,00 m² (19º pavimento)' },
+      { src: infinityRecifePlanta19pInfinityOne6270m2, titulo: 'Infinity One - 62,70 m² (19º pavimento)' },
+      { src: infinityRecifePlanta19pInfinityTwo9445m2, titulo: 'Infinity Two - 94,45 m² (19º pavimento)' },
+      { src: infinityRecifePlanta19pInfinityTwo9710m2, titulo: 'Infinity Two - 97,10 m² (19º pavimento)' },
+      { src: infinityRecifePaginaOriginalPavimentoSemienterradoGaragemEBicicletario, titulo: 'Pavimento semienterrado - garagem e bicicletário - página de referência com legendas' },
+      { src: infinityRecifePaginaOriginalPavimentoTerreoHallAcessosEntrada, titulo: 'Pavimento térreo - hall, acessos e entrada - página de referência com legendas' },
+      { src: infinityRecifePaginaOriginalPrimeiroPavimentoEstacionamento, titulo: '1º pavimento - estacionamento - página de referência com legendas' },
+      { src: infinityRecifePaginaOriginalPavimentoLazerPiscinasAcademiaGourmet, titulo: 'Pavimento de lazer - piscinas, academia e gourmet - página de referência com legendas' },
+      { src: infinityRecifePaginaOriginalSegundoPavimentoDistribuicaoUnidades, titulo: '2º pavimento - distribuição das unidades - página de referência com legendas' },
+      { src: infinityRecifePaginaOriginalPavimentos04A18DistribuicaoUnidades, titulo: '4º ao 18º pavimentos - distribuição das unidades - página de referência com legendas' },
+      { src: infinityRecifePaginaOriginalDecimoNonoPavimentoDistribuicaoUnidades, titulo: '19º pavimento - distribuição das unidades - página de referência com legendas' },
+    ],
+    locationImages: [
+      { src: infinityRecifeMapaLocalizacaoInfinityRecife, titulo: 'Mapa de localização do Infinity Recife em Boa Viagem' },
+      { src: infinityRecifeEntornoPraiaPorDoSol, titulo: 'Fotografia ilustrativa de mar e pôr do sol' },
+      { src: infinityRecifeFachadaEdificioOriginalRetrofit, titulo: 'Fotografia histórica do edifício original antes do retrofit' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'beach-class-solare', name: 'Beach Class Solare', image: solareCover,
+    city: 'Praia do Cupe, PE', neighborhood: 'Praia do Cupe', locationTitle: 'Praia do Cupe - próximo a Porto de Galinhas/PE',
+    address: 'Praia do Cupe, próximo a Porto de Galinhas, Pernambuco',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Beach%20Class%20Solare%20Praia%20do%20Cupe%20Pernambuco',
+    area: '32 e 63 m²', profile: 'Studios e apartamentos, com opções Garden', detail: '1 vaga por apartamento',
+    description: 'O Beach Class Solare Residence é um empreendimento da Moura Dubeux na região da Praia do Cupe, próximo a Porto de Galinhas, em Pernambuco. O projeto apresenta apartamentos de aproximadamente 32 m² e 63 m², com varanda gourmet e opções Garden. O lazer reúne piscinas com ilhas e hidromassagem, restaurante com bar e terraço, academia, brinquedoteca e espaços ao ar livre. O material comercial também apresenta possibilidades de integração de unidades de 32+32 m² e 63+32 m², sujeitas à confirmação comercial.',
+    highlights: ['32 e 63 m²', 'Opções Garden', '1 vaga por apartamento', 'Praia do Cupe'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Praia do Cupe, Pernambuco'], ['Tipologias', 'Studios e apartamentos com opções Garden'], ['Garagem', '1 vaga por apartamento']],
+    technical: [
+      ['Nome comercial', 'Beach Class Solare Residence'],
+      ['Localização', 'Praia do Cupe, próximo a Porto de Galinhas, Pernambuco'],
+      ['Áreas dos apartamentos', 'Aproximadamente 32 m² e 63 m²'],
+      ['Integração de unidades', 'Possibilidades de 32+32 m² e 63+32 m² apresentadas no book, sujeitas à confirmação comercial'],
+      ['Garden', 'Opções com jardim privativo; metragem dos jardins não informada no material'],
+      ['Pavimentos apresentados', 'Térreo e 1º ao 3º andar'],
+      ['Garagem', '1 vaga por apartamento e estacionamento para visitantes'],
+      ['Varanda', 'Varanda gourmet'],
+      ['Água quente', 'Chuveiros com aquecimento de água central'],
+      ['Áreas comuns', 'Mobiliadas e equipadas'],
+      ['Material', 'Perspectivas ilustrativas do projeto'],
+    ],
+    amenities: ['Piscinas adulto e infantil', 'Piscinas com ilhas e hidromassagem', 'Lobby e recepção', 'Restaurante com bar', 'Terraço do restaurante', 'Academia', 'Brinquedoteca', 'Playground', 'Quadra poliesportiva', 'Apoio churrasqueira', 'Loja de conveniência', 'Bicicletário', 'Pet place e pet wash', 'Desembarque e acesso à praia'],
+    security: ['Fechadura eletrônica nas portas de entrada dos apartamentos'],
+    sustainability: ['Placas solares', 'Irrigação inteligente', '3 pontos para carro elétrico'],
+    projectTeam: ['Projetistas não informados no material disponível'],
+    gallery: [
+      { src: solarePoolsAerial, titulo: 'Beach Class Solare - perspectiva aérea das piscinas com ilhas' },
+      { src: solareFacade, titulo: 'Perspectiva da fachada dos blocos junto à piscina' },
+      { src: solarePoolsSunset, titulo: 'Perspectiva das piscinas e fachadas ao entardecer' },
+      { src: solarePoolsHydromassage, titulo: 'Perspectiva das piscinas com ilhas e hidromassagem' },
+      { src: solareLobby, titulo: 'Perspectiva do lobby e da recepção social' },
+      { src: solareSportsCourt, titulo: 'Perspectiva da quadra poliesportiva' },
+      { src: solareFitness, titulo: 'Perspectiva da academia' },
+      { src: solarePlayroom, titulo: 'Perspectiva da brinquedoteca' },
+      { src: solarePlayground, titulo: 'Perspectiva do playground ao ar livre' },
+      { src: solareRestaurant, titulo: 'Perspectiva do restaurante com bar' },
+      { src: solareRestaurantTerrace, titulo: 'Perspectiva do terraço do restaurante' },
+      { src: solareStudioLiving, titulo: 'Perspectiva do estar e cozinha do apartamento de 32 m²' },
+      { src: solareStudioBedroom, titulo: 'Perspectiva do quarto e estar do apartamento de 32 m²' },
+      { src: solareStudioBalcony, titulo: 'Perspectiva da varanda do apartamento de 32 m²' },
+      { src: solareApartmentLiving, titulo: 'Perspectiva da sala de estar do apartamento de 63 m²' },
+      { src: solareApartmentBalcony, titulo: 'Perspectiva da varanda do apartamento de 63 m²' },
+      { src: solareIntegratedStudiosLiving, titulo: 'Perspectiva da sala da configuração integrada de 32+32 m²' },
+      { src: solareIntegratedStudiosLivingAlt, titulo: 'Segunda perspectiva da sala da configuração integrada de 32+32 m²' },
+      { src: solareIntegratedStudiosSuite, titulo: 'Perspectiva da suíte da configuração integrada de 32+32 m²' },
+      { src: solareIntegratedStudiosBalcony, titulo: 'Perspectiva da varanda da configuração integrada de 32+32 m²' },
+      { src: solareIntegratedApartmentLiving, titulo: 'Perspectiva da sala da configuração integrada de 63+32 m²' },
+      { src: solareIntegratedApartmentBalcony, titulo: 'Perspectiva da varanda da configuração integrada de 63+32 m²' },
+      { src: solareStudioGarden, titulo: 'Perspectiva do Garden do apartamento de 32 m²' },
+      { src: solareApartmentGarden, titulo: 'Perspectiva do Garden do apartamento de 63 m²' },
+      { src: solareBicycleRack, titulo: 'Perspectiva do bicicletário' },
+      { src: solarePetPlace, titulo: 'Perspectiva do pet place e pet wash' },
+    ],
+    floorPlans: [
+      { src: solareStudioPlan, titulo: 'Apartamento de 32 m²' },
+      { src: solareApartmentPlan, titulo: 'Apartamento de 63 m²' },
+      { src: solareIntegratedStudiosPlan, titulo: 'Possibilidade de integração 32+32 m² - sujeita à confirmação comercial' },
+      { src: solareIntegratedStudiosTwoSuitesPlan, titulo: 'Possibilidade de integração 32+32 m² com duas suítes - sujeita à confirmação comercial' },
+      { src: solareIntegratedApartmentPlan, titulo: 'Possibilidade de integração 63+32 m² - sujeita à confirmação comercial' },
+      { src: solareGroundPlan, titulo: 'Pavimento térreo' },
+      { src: solareGroundPlanLegends, titulo: 'Pavimento térreo com numeração e legendas' },
+      { src: solareTypicalFloorPlan, titulo: 'Pavimentos do 1º ao 3º andar' },
+      { src: solareTypicalFloorPlanLegends, titulo: 'Pavimentos do 1º ao 3º andar com numeração e legendas' },
+      { src: solareSitePlan, titulo: 'Implantação geral do condomínio' },
+      { src: solareSitePlanLegends, titulo: 'Implantação geral com legendas de lazer e serviços' },
+    ],
+    locationImages: [
+      { src: solareLocationMap, titulo: 'Mapa de localização do Beach Class Solare e pontos de referência' },
+      { src: solareCupeAerial, titulo: 'Entorno: vista aérea da Praia do Cupe' },
+      { src: solareBeachLandscape, titulo: 'Entorno: paisagem litorânea apresentada no book' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'beach-class-wave', name: 'Beach Class Wave', image: waveCover,
+    city: 'Tamandaré, PE', neighborhood: 'Praia dos Carneiros', locationTitle: 'Praia dos Carneiros - Tamandaré/PE',
+    address: 'Praia dos Carneiros, Tamandaré/PE',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Beach%20Class%20Wave%20Praia%20dos%20Carneiros%20Tamandare%20PE',
+    area: '32 e 63 m²', profile: 'Studios e apartamentos de 2 quartos, com opções Garden', detail: '536 unidades em 8 blocos',
+    description: 'O Beach Class Wave é um empreendimento da Moura Dubeux na Praia dos Carneiros, em Tamandaré, Pernambuco, com estrutura de resort e paisagismo tropical. O projeto reúne 536 unidades em oito blocos, com studios de 32 m² e apartamentos de dois quartos de 63 m², todos com varanda gourmet e opções Garden. O lazer inclui piscinas com prainhas e spas, bar da piscina, espaços luau e barbecue, redário, quadras esportivas, academia e restaurante com terraço. Uma alameda conecta o condomínio ao acesso direto à praia.',
+    highlights: ['32 e 63 m²', '536 unidades em 8 blocos', 'Varanda gourmet e opções Garden', 'Praia dos Carneiros'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Praia dos Carneiros, Tamandaré/PE'], ['Unidades', '536 unidades residenciais'], ['Garagem', '512 vagas rotativas']],
+    technical: [
+      ['Área do terreno', '45.223,96 m²'],
+      ['Área privativa', '20.874,64 m²'],
+      ['Unidades', '536 unidades residenciais'],
+      ['Blocos', '8 blocos residenciais, com térreo e 3 pavimentos tipo'],
+      ['Studios', '472 unidades de 32 m²'],
+      ['2 quartos', '64 apartamentos de 63 m²'],
+      ['Garden', 'Opções com garden privativo no térreo'],
+      ['Varanda', 'Varanda gourmet em todos os apartamentos'],
+      ['Garagem', '512 vagas em sistema rotativo, com vagas mais largas conforme o material'],
+      ['Energia de emergência', 'Gerador para as áreas comuns; uma tomada e um ponto de luz de emergência por unidade'],
+      ['Material', 'Perspectivas ilustrativas; móveis, utensílios, equipamentos e decoração não integram necessariamente os apartamentos negociados'],
+    ],
+    amenities: ['Piscinas adulto e infantil', 'Prainhas e spas', 'Bar da piscina', 'Espaço luau', 'Espaço barbecue', 'Redário', 'Playground', 'Playground de areia', 'Brinquedoteca', 'Academia', '2 quadras de beach tennis', 'Quadra de tênis', 'Quadra poliesportiva', 'Pet place e pet wash', 'Pista de cooper', 'Espaço zen', 'Lounges externos e jardins', 'Restaurante com terraço', 'Hall social e lobby', 'Espaço gourmet', 'Teen lounge', 'Alameda de acesso direto à praia', 'Guarda de equipamentos para caiaques e stand up paddle', 'Espaço destinado a minimarket', 'Espaço delivery e e-commerce', 'Bicicletas e patinetes compartilhados'],
+    security: ['Fechaduras eletrônicas nos apartamentos'],
+    sustainability: ['Iluminação LED nas áreas comuns', 'Torneiras temporizadas nos banheiros das áreas comuns', '3 tomadas compartilhadas para carros elétricos', 'Lixeira com predisposição para coleta seletiva', 'Irrigação inteligente', 'Paisagismo com preferência por espécies nativas', 'Placas solares para atender parte das áreas comuns'],
+    projectTeam: ['Pontual Arquitetos | Arquitetura', 'Takeda Design | Paisagismo', 'Zirpoli Arquitetura | Ambientação'],
+    gallery: [
+      { src: wavePoolsAndBlocks, titulo: 'Beach Class Wave - perspectiva geral das piscinas e blocos' },
+      { src: wavePoolSpa, titulo: 'Perspectiva da piscina com prainha e spa' },
+      { src: wavePoolBar, titulo: 'Perspectiva do bar da piscina' },
+      { src: waveLuau, titulo: 'Perspectiva do espaço luau e convivência' },
+      { src: waveBarbecue, titulo: 'Perspectiva do espaço barbecue e redário' },
+      { src: waveSportsCourts, titulo: 'Perspectiva aérea do complexo de quadras esportivas' },
+      { src: waveFitness, titulo: 'Perspectiva da academia' },
+      { src: waveBeachAccess, titulo: 'Perspectiva da alameda de acesso à praia e guarda de equipamentos' },
+      { src: wavePlayground, titulo: 'Perspectiva do playground ao ar livre' },
+      { src: wavePlayroom, titulo: 'Perspectiva da brinquedoteca infantil' },
+      { src: waveHall, titulo: 'Perspectiva do hall social e lounge' },
+      { src: waveRestaurant, titulo: 'Perspectiva do restaurante' },
+      { src: waveRestaurantTerrace, titulo: 'Perspectiva do terraço do restaurante' },
+      { src: waveFacade, titulo: 'Perspectiva da fachada do bloco residencial com piscina' },
+      { src: waveStudioLiving, titulo: 'Perspectiva do estar e cozinha do Studio de 32 m²' },
+      { src: waveStudioBedroom, titulo: 'Perspectiva do quarto do Studio de 32 m²' },
+      { src: waveStudioBalcony, titulo: 'Perspectiva da varanda gourmet do Studio de 32 m²' },
+      { src: waveStudioGarden, titulo: 'Perspectiva do Garden privativo do Studio de 32 m²' },
+      { src: waveApartmentLiving, titulo: 'Perspectiva da sala e cozinha do apartamento de 2 quartos de 63 m²' },
+      { src: waveApartmentBalcony, titulo: 'Perspectiva da varanda gourmet do apartamento de 63 m²' },
+      { src: waveApartmentGarden, titulo: 'Perspectiva do Garden privativo do apartamento de 63 m²' },
+    ],
+    floorPlans: [
+      { src: waveSitePlan, titulo: 'Implantação geral do condomínio' },
+      { src: waveSocialBlockPlan, titulo: 'Implantação do bloco social' },
+      { src: waveGroundPlan, titulo: 'Pavimento térreo com Gardens' },
+      { src: waveTypicalFloorPlan, titulo: 'Pavimentos tipo do 1º ao 3º andar' },
+      { src: waveStudioPlan, titulo: 'Studio de 32 m²' },
+      { src: waveApartmentPlan, titulo: 'Apartamento de 2 quartos de 63 m²' },
+      { src: waveSitePlanLegends, titulo: 'Implantação geral com ambientes numerados e legendas' },
+      { src: waveSocialBlockPlanLegends, titulo: 'Bloco social com legendas' },
+      { src: waveGroundPlanLegends, titulo: 'Pavimento térreo (página de referência)' },
+      { src: waveTypicalFloorPlanLegends, titulo: 'Pavimentos do 1º ao 3º andar (página de referência)' },
+      { src: waveStudioPlanLegends, titulo: 'Studio de 32 m² (página de referência)' },
+      { src: waveApartmentPlanLegends, titulo: 'Apartamento de 2 quartos de 63 m² (página de referência)' },
+    ],
+    locationImages: [
+      { src: waveLocationAerial, titulo: 'Localização do Beach Class Wave sobre vista aérea' },
+      { src: waveLocationMap, titulo: 'Mapa de localização do Beach Class Wave e pontos de interesse' },
+      { src: waveCarneirosAerial, titulo: 'Entorno: vista aérea da Praia dos Carneiros' },
+    ],
+  }),
+  createDevelopment({
     slug: 'beach-class-cumbuco', name: 'Beach Class Cumbuco', image: cumbucoCover,
     city: 'Caucaia, CE', neighborhood: 'Cumbuco', locationTitle: 'Cumbuco - Caucaia/CE',
     address: 'Rua Lagoa das Rosas, S/N, Gleba CP7, Cumbuco, Caucaia/CE',
@@ -2845,6 +3992,308 @@ const additionalDevelopments = [
       { src: cumbucoKitesurfGroup, titulo: 'Entorno: praticantes de kitesurf no Cumbuco' },
       { src: cumbucoKitesurfSailing, titulo: 'Entorno: velejo de kitesurf no Cumbuco' },
       { src: cumbucoBeachPalms, titulo: 'Entorno: coqueiros e praia do Cumbuco' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'concept-joao-pessoa', name: 'Concept João Pessoa', image: conceptJoaoPessoaCover,
+    city: 'João Pessoa, PB', neighborhood: 'Miramar', locationTitle: 'Miramar - João Pessoa/PB',
+    address: 'Avenida Senador Ruy Carneiro, Miramar, João Pessoa/PB',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Concept%20Jo%C3%A3o%20Pessoa%20Avenida%20Senador%20Ruy%20Carneiro%20Miramar%20Jo%C3%A3o%20Pessoa%20PB',
+    area: '21 a 49 m²', profile: 'Studios e suítes com living ou home office', detail: '270 unidades e lazer no rooftop',
+    description: 'O Concept João Pessoa é um empreendimento da Moura Dubeux no bairro Miramar, na Avenida Senador Ruy Carneiro, em João Pessoa, Paraíba. O projeto reúne 270 unidades, com studios, suíte com living e suíte com home office, de 21 m² a 49 m². O rooftop oferece piscina aquecida com vista panorâmica, deck, terraços e lounges gourmet. No mezanino, coworking, academia, lavanderia e lounge de conveniência complementam a proposta de praticidade e convivência.',
+    highlights: ['21 a 49 m²', '270 unidades', 'Piscina aquecida no rooftop', 'Miramar, João Pessoa'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Miramar, João Pessoa/PB'], ['Tipologias', 'Studios e suítes com living ou home office'], ['Garagem', '114 vagas, entre rotativas, vinculadas e comerciais']],
+    technical: [
+      ['Área do terreno', '1.917,39 m²'],
+      ['Unidades', '270 unidades'],
+      ['Composição', 'Subsolo, térreo, mezanino, 27 pavimentos tipo e cobertura com rooftop'],
+      ['Pavimento tipo', '10 unidades por pavimento'],
+      ['Studios', '21 m², 22 m², 24 m² ou 27 m², conforme terminação'],
+      ['Suíte e living', '35 m², 36 m² ou 39 m², conforme terminação e pavimento'],
+      ['Suíte e home office', '49 m², terminação 07'],
+      ['Garagem', '114 vagas: 75 rotativas, 27 vinculadas às unidades de terminação 07 e 12 comerciais'],
+      ['Lazer', 'Piscina aquecida, deck, terraços e lounges gourmet no rooftop'],
+      ['Mezanino', 'Coworking, academia, lounge de conveniência e lavanderia'],
+      ['Térreo', 'Hall social, loja, estacionamento residencial e comercial'],
+      ['Áreas comuns', 'Equipadas, mobiliadas e climatizadas conforme memorial descritivo'],
+      ['Conectividade', 'Infraestrutura para Wi-Fi nas áreas comuns, conforme memorial descritivo'],
+      ['Personalização', 'MD Store, conforme disponibilidade e condições de cada unidade'],
+      ['Material', 'Perspectivas ilustrativas; entrega de acabamentos, composição e mobiliário conforme memorial descritivo e contrato'],
+    ],
+    amenities: ['Piscina aquecida no rooftop', 'Deck', 'Terraço da piscina', 'Terraço gourmet', 'Lounge gourmet com vista panorâmica', 'Lounge gourmet', 'Terraço rooftop', 'Coworking', 'Academia', 'Lounge de conveniência', 'Lavanderia', 'Hall social', 'Hall de elevadores', 'Loja no edifício', 'Guarda-volumes e infraestrutura para e-commerce'],
+    security: ['Fechadura eletrônica no acesso residencial', 'Infraestrutura para câmeras de segurança nas áreas comuns', 'Controle de acesso de veículos e pedestres'],
+    sustainability: ['2 tomadas para carros elétricos', 'Irrigação automatizada', 'Torneiras, chuveiros e vasos com redutores de vazão', 'Medição individualizada de água', 'Paisagismo com predominância de plantas nativas', 'Placas solares para atender parte da demanda do condomínio'],
+    projectTeam: ['Ricardo Nogueira - Nogueira Arquitetos | Arquitetura', 'Humberto e Analice - Zirpoli Arquitetura | Ambientação', 'Bia Campelo | Paisagismo'],
+    gallery: [
+      { src: conceptJoaoPessoaStreetFacade, titulo: 'Concept João Pessoa - perspectiva da torre completa vista da rua' },
+      { src: conceptJoaoPessoaBalconies, titulo: 'Perspectiva do detalhe das varandas e vista da cidade' },
+      { src: conceptJoaoPessoaEntrance, titulo: 'Perspectiva do acesso principal e loja no térreo' },
+      { src: conceptJoaoPessoaUpperFloors, titulo: 'Perspectiva dos pavimentos altos e terraços' },
+      { src: conceptJoaoPessoaTowerCutout, titulo: 'Perspectiva isolada da torre' },
+      { src: conceptJoaoPessoaPoolPanorama, titulo: 'Perspectiva da piscina no rooftop com vista panorâmica' },
+      { src: conceptJoaoPessoaPoolGourmet, titulo: 'Perspectiva da piscina e área gourmet no rooftop' },
+      { src: conceptJoaoPessoaSeaTerrace, titulo: 'Perspectiva do terraço gourmet com vista para o mar' },
+      { src: conceptJoaoPessoaGourmetPanorama, titulo: 'Perspectiva do lounge gourmet com vista panorâmica' },
+      { src: conceptJoaoPessoaGourmetIndoor, titulo: 'Perspectiva do lounge gourmet interno' },
+      { src: conceptJoaoPessoaFitness, titulo: 'Perspectiva da academia equipada' },
+      { src: conceptJoaoPessoaConvenienceLaundry, titulo: 'Perspectiva do lounge de conveniência e lavanderia' },
+      { src: conceptJoaoPessoaReception, titulo: 'Perspectiva do hall social e recepção' },
+      { src: conceptJoaoPessoaElevatorHall, titulo: 'Perspectiva do hall de elevadores do pavimento' },
+      { src: conceptJoaoPessoaLiving39, titulo: 'Perspectiva da suíte e living do apartamento de 39 m²' },
+      { src: conceptJoaoPessoaLiving35, titulo: 'Perspectiva da suíte e living do apartamento de 35 m²' },
+      { src: conceptJoaoPessoaStudio24, titulo: 'Perspectiva do Studio de 24 m²' },
+      { src: conceptJoaoPessoaStudio21, titulo: 'Perspectiva do Studio de 21 m²' },
+      { src: conceptJoaoPessoaHomeOfficeLiving, titulo: 'Perspectiva da sala do apartamento com home office de 49 m²' },
+      { src: conceptJoaoPessoaHomeOfficeBedroom, titulo: 'Perspectiva do quarto do apartamento com home office de 49 m²' },
+    ],
+    floorPlans: [
+      { src: conceptJoaoPessoaRooftopPlan, titulo: 'Rooftop - piscina, terraços e lounges' },
+      { src: conceptJoaoPessoaMezzaninePlan, titulo: 'Mezanino - academia, coworking e lavanderia' },
+      { src: conceptJoaoPessoaGroundPlan, titulo: 'Térreo - hall, loja e estacionamentos' },
+      { src: conceptJoaoPessoaTypicalFloorPlan, titulo: 'Pavimento tipo - 10 unidades' },
+      { src: conceptJoaoPessoaLiving39Plan, titulo: 'Suíte e living de 39 m² - terminação 04' },
+      { src: conceptJoaoPessoaLiving35Plan, titulo: 'Suíte e living de 35 m² - terminação 01' },
+      { src: conceptJoaoPessoaStudio24Plan, titulo: 'Studio de 24 m² - terminações 02, 03 e 06' },
+      { src: conceptJoaoPessoaStudio21Plan, titulo: 'Studio de 21 m² - terminações 08 e 09' },
+      { src: conceptJoaoPessoaHomeOfficePlan, titulo: 'Suíte e home office de 49 m² - terminação 07' },
+    ],
+    locationImages: [
+      { src: conceptJoaoPessoaLocation, titulo: 'Localização do Concept João Pessoa no bairro Miramar' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'concept-jardins', name: 'Concept Jardins', image: conceptJardinsCover,
+    city: 'Aracaju, SE', neighborhood: 'Jardins', locationTitle: 'Bairro Jardins - Aracaju/SE',
+    address: 'Avenida Dr. José Machado de Souza, 440, Jardins, Aracaju/SE',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Concept%20Jardins%20Avenida%20Dr.%20Jos%C3%A9%20Machado%20de%20Souza%20440%20Aracaju%20SE',
+    area: '31 a 68 m²', profile: 'Studios e apartamentos de 1 e 2 quartos', detail: '263 unidades residenciais e 7 lojas',
+    description: 'O Concept Jardins é um empreendimento de uso misto da Moura Dubeux no bairro Jardins, em Aracaju, com 263 unidades residenciais e sete lojas no térreo, com acesso independente. O projeto reúne studios de aproximadamente 31 m² e apartamentos de um quarto de 39 m² e dois quartos de 68 m². As áreas comuns oferecem piscinas, spa, sports bar, academia e espaços de convivência, além de lavanderia compartilhada, delivery com lockers e apoio para bicicletas, em uma região com comércio e serviços.',
+    highlights: ['31, 39 e 68 m²', 'Studios, 1 e 2 quartos', '263 unidades residenciais', '7 lojas no térreo'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Jardins, Aracaju/SE'], ['Tipologias', 'Studios e apartamentos de 1 e 2 quartos'], ['Garagem', '172 vagas, incluindo 14 comerciais rotativas']],
+    technical: [
+      ['Área do terreno', '2.900,08 m²'],
+      ['Unidades residenciais', '263 unidades privativas'],
+      ['Studios', '75 unidades de aproximadamente 31 m²'],
+      ['1 quarto', '157 apartamentos de aproximadamente 39 m²'],
+      ['2 quartos', '31 apartamentos de aproximadamente 68 m²'],
+      ['Lojas comerciais', '7 lojas no térreo, com acesso independente da área residencial'],
+      ['Pavimentos tipo', '15 pavimentos com 17 unidades por pavimento, totalizando 255 unidades'],
+      ['Pavimento vazado 1', 'Garagem, bicicletários e armários privativos'],
+      ['Pavimento vazado 2', 'Áreas comuns e 8 unidades privativas'],
+      ['Garagem', '172 vagas, incluindo 14 vagas comerciais rotativas'],
+      ['Varandas', 'Infraestrutura para bancada gourmet; bancadas e metais não inclusos na entrega padrão'],
+      ['Conectividade', 'Infraestrutura para Wi-Fi nas áreas comuns sociais'],
+      ['Material', 'Perspectivas ilustrativas; metragens comerciais arredondadas e condições de entrega conforme book e memorial descritivo'],
+    ],
+    amenities: ['Piscina', 'Piscina infantil', 'Prainha', 'Lounge com hidromassagem', 'Deck e área gourmet', 'Salão de festas com copa de apoio', 'Espaço gourmet', 'Sports bar', 'Academia', 'Espaço kids', 'Spa', 'Espaço para minimarket', 'Hall residencial', 'Lavanderia compartilhada equipada', 'Espaço delivery com lockers', 'Bicicletário', 'Pet place', 'Espaço para car wash e bike station', 'Administração'],
+    security: ['Fechaduras eletrônicas nas portas principais dos apartamentos', 'Controle automatizado de acesso de pessoas e veículos', 'Infraestrutura para câmeras de monitoramento das áreas comuns'],
+    sustainability: ['Sistema automatizado de irrigação do jardim', 'Tomadas compartilhadas para carros elétricos'],
+    projectTeam: ['Attic Arquitetura | Arquitetura e tecnologia BIM', 'Zirpoli Arquitetura | Ambientação', 'Takeda Design | Paisagismo'],
+    gallery: [
+      { src: conceptJardinsPoolFacade, titulo: 'Concept Jardins - perspectiva da fachada com piscina e áreas verdes' },
+      { src: conceptJardinsVerticalFacade, titulo: 'Perspectiva vertical da torre' },
+      { src: conceptJardinsFrontFacade, titulo: 'Perspectiva frontal da torre' },
+      { src: conceptJardinsShops, titulo: 'Perspectiva das lojas comerciais no térreo' },
+      { src: conceptJardinsKidsPool, titulo: 'Perspectiva da piscina infantil' },
+      { src: conceptJardinsPartyRoom, titulo: 'Perspectiva do salão de festas' },
+      { src: conceptJardinsGourmet, titulo: 'Perspectiva do espaço gourmet' },
+      { src: conceptJardinsSpa, titulo: 'Perspectiva do spa' },
+      { src: conceptJardinsSportsBar, titulo: 'Perspectiva do sports bar' },
+      { src: conceptJardinsKidsSpace, titulo: 'Perspectiva do espaço kids' },
+      { src: conceptJardinsFitnessArea, titulo: 'Perspectiva da área de treino da academia' },
+      { src: conceptJardinsFitnessEquipment, titulo: 'Perspectiva dos equipamentos da academia' },
+      { src: conceptJardinsMinimarket, titulo: 'Perspectiva do espaço para minimarket' },
+      { src: conceptJardinsTwoBedroomLiving, titulo: 'Perspectiva da sala do apartamento de 68 m²' },
+      { src: conceptJardinsTwoBedroomRoom, titulo: 'Perspectiva do quarto do apartamento de 68 m²' },
+      { src: conceptJardinsTwoBedroomSuite, titulo: 'Perspectiva da suíte do apartamento de 68 m²' },
+      { src: conceptJardinsOneBedroomLiving, titulo: 'Perspectiva da sala do apartamento de 39 m²' },
+      { src: conceptJardinsOneBedroomBalcony, titulo: 'Perspectiva da varanda do apartamento de 39 m²' },
+      { src: conceptJardinsOneBedroomSuite, titulo: 'Perspectiva da suíte do apartamento de 39 m²' },
+      { src: conceptJardinsStudio, titulo: 'Perspectiva do ambiente do Studio de 31 m²' },
+      { src: conceptJardinsStudioBalcony, titulo: 'Perspectiva da varanda do Studio de 31 m²' },
+      { src: conceptJardinsHall, titulo: 'Perspectiva do hall de entrada' },
+      { src: conceptJardinsBicycleRack, titulo: 'Perspectiva do bicicletário' },
+      { src: conceptJardinsPetPlace, titulo: 'Perspectiva do pet place' },
+      { src: conceptJardinsLaundry, titulo: 'Perspectiva da lavanderia compartilhada' },
+      { src: conceptJardinsDelivery, titulo: 'Perspectiva do espaço delivery e armários' },
+      { src: conceptJardinsCarWash, titulo: 'Perspectiva do car wash e bike station' },
+    ],
+    floorPlans: [
+      { src: conceptJardinsTwoBedroomPlan, titulo: 'Apartamento de 2 quartos de 68 m²' },
+      { src: conceptJardinsOneBedroomPlan, titulo: 'Apartamento de 1 quarto de 39 m²' },
+      { src: conceptJardinsStudioPlan, titulo: 'Studio de 31 m²' },
+      { src: conceptJardinsSitePlan, titulo: 'Implantação geral do condomínio' },
+      { src: conceptJardinsLeisurePlan, titulo: 'Pavimento de lazer e legenda' },
+      { src: conceptJardinsTypicalFloorPlan, titulo: 'Pavimento tipo' },
+      { src: conceptJardinsGroundPlan, titulo: 'Pavimento térreo' },
+      { src: conceptJardinsSitePlanLegends, titulo: 'Implantação geral (página de referência)' },
+      { src: conceptJardinsLeisurePlanLegends, titulo: 'Pavimento de lazer (página de referência)' },
+      { src: conceptJardinsTypicalFloorPlanLegends, titulo: 'Pavimento tipo (página de referência)' },
+      { src: conceptJardinsTwoBedroomPlanLegends, titulo: 'Apartamento de 68 m² (página de referência)' },
+      { src: conceptJardinsOneBedroomPlanLegends, titulo: 'Apartamento de 39 m² (página de referência)' },
+      { src: conceptJardinsStudioPlanLegends, titulo: 'Studio de 31 m² (página de referência)' },
+      { src: conceptJardinsGroundPlanLegends, titulo: 'Pavimento térreo (página de referência)' },
+    ],
+    locationImages: [
+      { src: conceptJardinsBuildingLocation, titulo: 'Localização do Concept Jardins sobre vista aérea' },
+      { src: conceptJardinsNeighborhoodLocation, titulo: 'Entorno: bairro Jardins e áreas verdes' },
+      { src: conceptJardinsLocationMap, titulo: 'Mapa e serviços próximos ao Concept Jardins' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'casa-jardins', name: 'Casa Jardins', image: casaJardinsCover,
+    city: 'Aracaju, SE', neighborhood: 'Jardins', locationTitle: 'Bairro Jardins - Aracaju/SE',
+    address: 'Bairro Jardins, Aracaju/SE',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Casa%20Jardins%20Bairro%20Jardins%20Aracaju%20SE',
+    area: '101 a 125 m², com opções Garden', profile: 'Apartamentos e Gardens em duas torres', detail: 'Casa Norte e Casa Sul',
+    description: 'O Casa Jardins é um empreendimento residencial da Moura Dubeux no bairro Jardins, em Aracaju, Sergipe, com duas torres e espaços de convivência integrados à natureza. A Casa Norte oferece apartamentos de 101 m² e 124 m² e Gardens de 125 m²; a Casa Sul reúne apartamentos de 111 m² e Gardens de 114 m². As opções Garden contam com terraços descobertos. O lazer inclui piscinas, family club com hidromassagem aquecida, terraço grill, academia, crossfit e espaços infantis, próximo ao Parque da Sementeira e aos shoppings Jardins e Riomar.',
+    highlights: ['101, 111 e 124 m²', 'Gardens de 114 e 125 m²', 'Casa Norte e Casa Sul', 'Jardins, Aracaju'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Jardins, Aracaju/SE'], ['Tipologias', 'Apartamentos e Gardens'], ['Garagem', 'Estacionamento privativo e vagas para visitantes']],
+    technical: [
+      ['Área do terreno', '3.721,58 m²'],
+      ['Torres', '2 torres: Casa Norte (Torre A) e Casa Sul (Torre B)'],
+      ['Pavimentos', 'Térreo, pavimento vazado, pavimento lazer com Gardens e 13 pavimentos tipo'],
+      ['Casa Norte', 'Apartamentos de 101 m² e 124 m²'],
+      ['Casa Sul', 'Apartamentos de 111 m²'],
+      ['Gardens Casa Norte', '125 m² de apartamento e terraços descobertos de 40 m² ou 129 m²'],
+      ['Gardens Casa Sul', '114 m² de apartamento e terraços descobertos de 79 m² ou 102 m²'],
+      ['Garagem', 'Estacionamento privativo, vagas para visitantes e vagas para motos'],
+      ['Áreas comuns', 'Equipadas e mobiliadas; academia, salão de festas e ateliê kids climatizados'],
+      ['Varanda', 'Infraestrutura de água, gás, esgoto e elétrica'],
+      ['Água quente', 'Infraestrutura para aquecimento a gás da água dos chuveiros das áreas sociais e suítes'],
+      ['Conectividade', 'Infraestrutura para Wi-Fi nas áreas comuns'],
+      ['Personalização', 'MD Store, conforme condições de contratação e execução'],
+      ['Material', 'Perspectivas ilustrativas do projeto'],
+    ],
+    amenities: ['Piscina adulta com hidromassagem', 'Piscina infantil', 'Deck de piscina', 'Salão de festas', 'Terraço grill', 'Family club com hidromassagem aquecida', 'Academia', 'Crossfit ao ar livre', 'Playground', 'Ateliê kids', 'Lounge kids', 'Lounge festas', 'Terraço de encontros', 'Espaço relax', 'Terraços e lounges', 'Praça de boas-vindas', 'Halls das torres', 'Espaço delivery e e-commerce', 'Pet wash', 'Pet place', 'Paraciclo e bicicletários', 'Bike wash', 'Bike station', 'Garagem kids'],
+    security: ['Infraestrutura para monitoramento de segurança nas áreas comuns', 'Guarita blindada', 'Controle automatizado de acesso de pedestres e veículos', 'Fechadura eletrônica nas portas sociais dos apartamentos'],
+    sustainability: ['Um ponto para carregamento de carros elétricos por pavimento garagem', 'Irrigação automatizada', 'Iluminação LED em todas as áreas comuns', 'Placas solares para atender parte das áreas comuns', 'Calçada arborizada e muro verde'],
+    projectTeam: ['Pontual Arquitetos | Arquitetura', 'Takeda Design | Paisagismo', 'Poligonus Arquitetura | Ambientação'],
+    gallery: [
+      { src: casaJardinsNightFacade, titulo: 'Casa Jardins - perspectiva noturna das torres Casa Norte e Casa Sul' },
+      { src: casaJardinsDayFacade, titulo: 'Perspectiva diurna das duas torres' },
+      { src: casaJardinsParkFacade, titulo: 'Perspectiva da fachada com vista para o parque' },
+      { src: casaJardinsEntrance, titulo: 'Perspectiva do acesso de pedestres e portaria' },
+      { src: casaJardinsHall, titulo: 'Perspectiva do hall social da Torre Casa Norte' },
+      { src: casaJardinsPools, titulo: 'Perspectiva das piscinas, deck e área de lazer' },
+      { src: casaJardinsGrill, titulo: 'Perspectiva do terraço grill e espaço gourmet' },
+      { src: casaJardinsFamilyClub, titulo: 'Perspectiva do family club com hidromassagem e gourmet' },
+      { src: casaJardinsPartyRoom, titulo: 'Perspectiva do salão de festas' },
+      { src: casaJardinsFitness, titulo: 'Perspectiva da academia' },
+      { src: casaJardinsCrossfit, titulo: 'Perspectiva da área de crossfit ao ar livre' },
+      { src: casaJardinsPlayroom, titulo: 'Perspectiva do ateliê kids e brinquedoteca' },
+      { src: casaJardinsPlayground, titulo: 'Perspectiva do playground' },
+      { src: casaJardinsPetPlace, titulo: 'Perspectiva do pet place' },
+      { src: casaJardinsNorthGarden, titulo: 'Perspectiva do terraço com hidro do Garden Casa Norte' },
+      { src: casaJardinsSouthGarden, titulo: 'Perspectiva do terraço com hidro do Garden Casa Sul' },
+      { src: casaJardinsNorth124Balcony, titulo: 'Perspectiva da varanda gourmet de 124 m² - Casa Norte' },
+      { src: casaJardinsNorth124Living, titulo: 'Perspectiva da sala e jantar de 124 m² - Casa Norte' },
+      { src: casaJardinsNorth124OptionalLiving, titulo: 'Perspectiva da sala opcional de 124 m² - Casa Norte' },
+      { src: casaJardinsNorth101Living, titulo: 'Perspectiva da sala e jantar de 101 m² - Casa Norte' },
+      { src: casaJardinsNorth101OptionalLiving, titulo: 'Perspectiva da sala opcional de 101 m² - Casa Norte' },
+      { src: casaJardinsSouth111Living, titulo: 'Perspectiva da sala e jantar de 111 m² - Casa Sul' },
+      { src: casaJardinsSouth111Balcony, titulo: 'Perspectiva da varanda gourmet de 111 m² - Casa Sul' },
+      { src: casaJardinsSouth111KidsSuite, titulo: 'Perspectiva da suíte infantil de 111 m² - Casa Sul' },
+      { src: casaJardinsSouth111CoupleSuite, titulo: 'Perspectiva da suíte de casal de 111 m² - Casa Sul' },
+      { src: casaJardinsSouth111ThirdSuite, titulo: 'Perspectiva da terceira suíte de 111 m² - Casa Sul' },
+      { src: casaJardinsSouth111OptionalLiving1, titulo: 'Perspectiva da sala opcional 1 de 111 m² - Casa Sul' },
+      { src: casaJardinsSouth111OptionalLiving2, titulo: 'Perspectiva da sala opcional 2 de 111 m² - Casa Sul' },
+      { src: casaJardinsPetWash, titulo: 'Perspectiva do pet wash' },
+      { src: casaJardinsBikeWash, titulo: 'Perspectiva do bike wash' },
+      { src: casaJardinsBikeStation, titulo: 'Perspectiva da bike station' },
+      { src: casaJardinsKidsGarage, titulo: 'Perspectiva da garagem kids' },
+    ],
+    floorPlans: [
+      { src: casaJardinsGroundPlan, titulo: 'Implantação do pavimento térreo e acessos' },
+      { src: casaJardinsLeisurePlan, titulo: 'Implantação do pavimento lazer e legenda' },
+      { src: casaJardinsSitePlan, titulo: 'Implantação das torres Casa Norte e Casa Sul' },
+      { src: casaJardinsNorthTypicalPlan, titulo: 'Casa Norte - Torre A, pavimento tipo' },
+      { src: casaJardinsNorthGardenPlan, titulo: 'Casa Norte Garden - 125 m² e terraço de 129 m²' },
+      { src: casaJardinsNorth124StandardPlan, titulo: 'Casa Norte - 124 m², planta padrão' },
+      { src: casaJardinsNorth124OptionalPlan, titulo: 'Casa Norte - 124 m², planta opcional' },
+      { src: casaJardinsNorth101StandardPlan, titulo: 'Casa Norte - 101 m², planta padrão' },
+      { src: casaJardinsNorth101OptionalPlan, titulo: 'Casa Norte - 101 m², planta opcional' },
+      { src: casaJardinsSouthTypicalPlan, titulo: 'Casa Sul - Torre B, pavimento tipo' },
+      { src: casaJardinsSouthGardenPlan, titulo: 'Casa Sul Garden - 114 m² e terraço de 102 m²' },
+      { src: casaJardinsSouth111StandardPlan, titulo: 'Casa Sul - 111 m², planta padrão' },
+      { src: casaJardinsSouth111OptionalPlan1, titulo: 'Casa Sul - 111 m², planta opcional 1' },
+      { src: casaJardinsSouth111OptionalPlan2, titulo: 'Casa Sul - 111 m², planta opcional 2' },
+    ],
+    locationImages: [
+      { src: casaJardinsParkLocation, titulo: 'Localização do Casa Jardins e Parque da Sementeira' },
+      { src: casaJardinsNeighborhoodLocation, titulo: 'Entorno: vista aérea do bairro Jardins, Aracaju' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'casa-boris', name: 'Casa Boris', image: casaBorisCover,
+    city: 'Fortaleza, CE', neighborhood: 'Meireles', locationTitle: 'Meireles - Fortaleza/CE',
+    address: 'Meireles, Fortaleza/CE',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Casa%20Boris%20Meireles%20Fortaleza%20CE',
+    area: '163,93 e 203,75 m²', profile: '4 suítes, com opção de 3 suítes', detail: '3 ou 4 vagas de garagem',
+    description: 'O Casa Boris é um empreendimento residencial de alto padrão da Moura Dubeux no Meireles, em Fortaleza. As torres Bertrand e Arisa apresentam fachadas com curvas orgânicas, varandas generosas e paisagismo integrado. Os apartamentos têm 203,75 m² na Torre Bertrand e 163,93 m² na Torre Arisa, com quatro suítes na planta padrão e opções de três suítes com sala ampliada e cozinha integrada. O projeto oferece hall privativo, varanda gourmet e áreas de lazer com piscinas, spa, academia e espaços de convivência.',
+    highlights: ['163,93 e 203,75 m²', '4 suítes, com opção de 3 suítes', '3 ou 4 vagas', 'Meireles, Fortaleza'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Meireles, Fortaleza/CE'], ['Tipologias', '4 suítes, com opção de 3 suítes'], ['Garagem', '3 ou 4 vagas por apartamento']],
+    technical: [
+      ['Torres', 'Bertrand e Arisa'],
+      ['Torre Bertrand', 'Apartamentos de 203,75 m², com 4 suítes e 4 vagas de garagem'],
+      ['Torre Arisa', 'Apartamentos de 163,93 m², com 4 suítes e 3 vagas de garagem'],
+      ['Opções de planta', '3 suítes com sala ampliada e cozinha integrada nas duas torres'],
+      ['Hall', 'Hall privativo'],
+      ['Varanda', 'Varanda gourmet'],
+      ['Água quente', 'Aquecimento a gás nos banheiros'],
+      ['Conectividade', 'Wi-Fi nas áreas comuns'],
+      ['Personalização', 'MD Store, conforme as possibilidades e restrições da incorporação'],
+      ['Entorno', 'Referências às ruas Dr. José Lourenço e Pereira Filgueiras e à Avenida Rui Barbosa'],
+      ['Material', 'Perspectivas artísticas; decoração, móveis e equipamentos conforme memorial descritivo e documentação oficial'],
+    ],
+    amenities: ['Piscina adulto', 'Piscina infantil', 'Prainha', 'Hidro relax', 'Spa com piscina, sauna e relax', 'Deck lounge', 'Solário', 'Deck com churrasqueira', 'Festas outdoor', 'Salão de festas', 'Espaço teens', 'Brinquedoteca', 'Playground', 'Salão gourmet', 'Academia', 'Fitness outdoor', 'Quadra recreativa', 'Deck terrasse', 'Recepção', 'Espaço delivery e guarda de e-commerce', 'Bicicletário com 5 bicicletas MD compartilhadas', 'Pet wash e pet place', 'Vagas para visitantes'],
+    security: ['Controle de acesso dos moradores por biometria', 'Sala de segurança', 'Projeto de segurança condominial', 'Guarita blindada'],
+    sustainability: ['Infraestrutura seca para carregamento de carro elétrico em uma vaga por apartamento', 'Irrigação automatizada', 'Louças e metais com redução do consumo de água', 'Espaço para coleta seletiva', 'Paisagismo com 90% de plantas nativas, conforme o book', 'Aproveitamento de água do gotejamento de ar-condicionado para irrigação', 'Iluminação LED em todas as áreas comuns', 'Medição individualizada de água e gás', 'Calçada arborizada e muro verde'],
+    projectTeam: ['Daniel Arruda | Arquitetura', 'MN Arquitetura | Ambientação', 'Escritório Carim Paisagismo | Paisagismo'],
+    gallery: [
+      { src: casaBorisTowersFront, titulo: 'Casa Boris - perspectiva frontal das torres Bertrand e Arisa' },
+      { src: casaBorisTowersBase, titulo: 'Perspectiva das torres e do embasamento' },
+      { src: casaBorisCurvedBalconies, titulo: 'Perspectiva das varandas curvas com vista da cidade' },
+      { src: casaBorisEntrance, titulo: 'Perspectiva da entrada principal e porte-cochère' },
+      { src: casaBorisReception, titulo: 'Perspectiva da recepção e hall envidraçado' },
+      { src: casaBorisPoolAerial, titulo: 'Perspectiva aérea da piscina adulto e deck com paisagismo' },
+      { src: casaBorisPoolGardens, titulo: 'Perspectiva da piscina adulto e hidromassagem entre jardins' },
+      { src: casaBorisKidsPool, titulo: 'Perspectiva da piscina infantil e fachadas' },
+      { src: casaBorisPlayground, titulo: 'Perspectiva do playground ao ar livre' },
+      { src: casaBorisPlayroom, titulo: 'Perspectiva da brinquedoteca' },
+      { src: casaBorisPartyRoom, titulo: 'Perspectiva do salão de festas' },
+      { src: casaBorisSpa, titulo: 'Perspectiva do spa e hidro relax' },
+      { src: casaBorisGourmet, titulo: 'Perspectiva do espaço gourmet e área de jogos' },
+      { src: casaBorisFitness, titulo: 'Perspectiva da academia' },
+      { src: casaBorisBertrandBalcony, titulo: 'Perspectiva da varanda gourmet de 203,75 m² - Torre Bertrand' },
+      { src: casaBorisBertrandLiving, titulo: 'Perspectiva da sala padrão de 203,75 m² - Torre Bertrand' },
+      { src: casaBorisBertrandExpandedLiving, titulo: 'Perspectiva da sala ampliada de 203,75 m² - Torre Bertrand' },
+      { src: casaBorisBertrandSuite, titulo: 'Perspectiva da suíte master - Torre Bertrand' },
+      { src: casaBorisArisaExpandedLiving, titulo: 'Perspectiva da sala ampliada de 163,93 m² - Torre Arisa' },
+      { src: casaBorisArisaSuite, titulo: 'Perspectiva da suíte master - Torre Arisa' },
+    ],
+    floorPlans: [
+      { src: casaBorisBertrandTypicalPlan, titulo: 'Torre Bertrand - pavimento tipo com unidades de 203,75 m²' },
+      { src: casaBorisBertrandStandardPlan, titulo: 'Torre Bertrand - 203,75 m², 4 suítes e 4 vagas' },
+      { src: casaBorisBertrandExpandedPlan, titulo: 'Torre Bertrand - 203,75 m², 3 suítes e sala ampliada' },
+      { src: casaBorisArisaTypicalPlan, titulo: 'Torre Arisa - pavimento tipo com unidades de 163,93 m²' },
+      { src: casaBorisArisaStandardPlan, titulo: 'Torre Arisa - 163,93 m², 4 suítes e 3 vagas' },
+      { src: casaBorisArisaExpandedPlan, titulo: 'Torre Arisa - 163,93 m², 3 suítes e sala ampliada' },
+      { src: casaBorisLeisurePlan, titulo: 'Implantação do pavimento lazer' },
+      { src: casaBorisGroundPlan, titulo: 'Implantação do pavimento térreo e garagem' },
+      { src: casaBorisSitePlan, titulo: 'Implantação das torres Bertrand e Arisa' },
+      { src: casaBorisLeisurePlanLegends, titulo: 'Pavimento lazer com legendas (página de referência)' },
+      { src: casaBorisGroundPlanLegends, titulo: 'Pavimento térreo com legendas (página de referência)' },
+      { src: casaBorisSitePlanLegends, titulo: 'Implantação das torres (página de referência)' },
+      { src: casaBorisBertrandTypicalPlanLegends, titulo: 'Torre Bertrand - pavimento tipo de 203,75 m² (página de referência)' },
+      { src: casaBorisBertrandStandardPlanLegends, titulo: 'Torre Bertrand - 4 suítes (página de referência)' },
+      { src: casaBorisBertrandExpandedPlanLegends, titulo: 'Torre Bertrand - 3 suítes e sala ampliada (página de referência)' },
+      { src: casaBorisArisaTypicalPlanLegends, titulo: 'Torre Arisa - pavimento tipo de 163,93 m² (página de referência)' },
+      { src: casaBorisArisaStandardPlanLegends, titulo: 'Torre Arisa - 4 suítes (página de referência)' },
+      { src: casaBorisArisaExpandedPlanLegends, titulo: 'Torre Arisa - 3 suítes e sala ampliada (página de referência)' },
+    ],
+    locationImages: [
+      { src: casaBorisLocation, titulo: 'Localização do Casa Boris no Meireles, Fortaleza' },
     ],
   }),
   createDevelopment({
@@ -3637,7 +5086,7 @@ function DevelopmentDetail({ development }) {
   const touchStartX = useRef(null);
   const activeImages = activeLightbox ? lightboxGroups[activeLightbox.group] : [];
   const activeImage = activeLightbox ? activeImages[activeLightbox.index] : null;
-  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'beach-class-milagres', 'beach-class-natal', 'beach-class-ponta-negra', 'beach-class-porto-das-dunas', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-cumbuco', 'beach-class-iracema'].includes(development?.slug);
+  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'concept-jatiuca', 'lanai-beach', 'beach-class-milagres', 'beach-class-natal', 'florata-tirol', 'les-amis-lagoa-nova', 'beach-class-ponta-negra', 'beach-class-porto-das-dunas', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'concept-joao-farinha', 'infinity-recife', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-solare', 'beach-class-wave', 'beach-class-cumbuco', 'concept-joao-pessoa', 'concept-jardins', 'casa-jardins', 'casa-boris', 'beach-class-iracema'].includes(development?.slug);
   const visibleGalleryImages = lightboxGroups.gallery.slice(0, 5);
   const remainingGalleryCount = Math.max(0, lightboxGroups.gallery.length - visibleGalleryImages.length);
   const visibleFloorPlans = showAllOrganizedImages

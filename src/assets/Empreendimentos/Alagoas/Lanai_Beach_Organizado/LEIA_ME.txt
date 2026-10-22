@@ -1,0 +1,30 @@
+LANAI BEACH - ARQUIVOS ORGANIZADOS
+=================================
+
+01_Capa/
+   Imagem escolhida como capa: perspectiva aérea das duas torres ao lado da praia.
+
+02_Imagens_Empreendimento/
+   Perspectivas arquitetônicas e imagens de ambientes de lazer, fachadas e apartamentos.
+   NAO contem nenhuma planta baixa, mapa de implantacao ou imagem de pagina inteira do catalogo.
+
+03_Plantas/
+   01_Apartamentos: plantas isoladas das unidades de 79, 86, 99, 115 e 130 m².
+   02_Pavimentos_e_Implantacao: plantas dos pavimentos, lazer e implantacao.
+   03_Paginas_com_Legendas: versoes das mesmas plantas com a pagina original para leitura de titulo/legendas.
+
+04_Localizacao_e_Entorno/
+   Vistas do litoral e da area verde separadas das perspectivas do edificio.
+
+informacoes_empreendimento.txt
+   Dados do empreendimento, descricao para site, metragens, diferenciais, observacoes e aviso legal.
+
+origem_das_imagens.csv e origem_das_imagens.txt
+   Relação dos arquivos, pagina do PDF e resolucao.
+
+NOTAS
+-----
+* Os PNGs de perspectivas foram exportados das imagens JPEG internas do PDF, sem adicionar textos ou bordas editoriais.
+* A conversao para PNG nao aumenta a resolucao original dos arquivos embutidos.
+* As imagens são perspectivas ilustrativas, segundo o próprio catálogo.
+* Algumas perspectivas podem ter recortes próprios do original; não foram criadas áreas ausentes.

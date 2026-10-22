@@ -1,0 +1,18 @@
+BEACH CLASS WAVE - PACOTE DE IMAGENS E INFORMAÇÕES
+
+Estrutura:
+01_Capa: arquivo principal para card/hero do empreendimento.
+02_Imagens_Empreendimento: SOMENTE imagens de fachadas, lazer e ambientes; nenhuma planta.
+03_Plantas_e_Implantacao:
+  01_Implantacao_e_Pavimentos: desenho geral do condomínio, bloco social e pavimentos.
+  02_Plantas_das_Unidades: plantas individuais do studio 32 m² e apartamento 63 m².
+  03_Referencias_com_Legendas: páginas técnicas renderizadas mantendo identificação e legendas.
+04_Localizacao_e_Entorno: fotos do entorno e mapa ilustrado, não para galeria de renders.
+05_Ficha_Tecnica_e_Diferenciais: páginas de referência do PDF.
+informacoes_empreendimento.txt: texto organizado para cadastrar no site.
+indice_imagens.csv: nome, categoria, descrição, página de origem e resolução.
+
+Todos os arquivos gráficos de entrega são PNG. Os arquivos renderizados de referência contêm os textos do book; as demais imagens foram extraídas diretamente dos objetos incorporados ao PDF, evitando molduras e sobreposições de texto quando viável.
+
+Não confundir perspectivas artísticas e fotos do entorno com fotografias de obra pronta.
+Não incluir plantas na galeria visual do empreendimento.

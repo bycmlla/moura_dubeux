@@ -1,0 +1,26 @@
+PACOTE DE IMAGENS — CONCEPT JARDINS
+
+Todas as imagens neste pacote foram extraídas do PDF original fornecido; não foram criadas imagens por IA.
+
+ESTRUTURA:
+01_Capa/ — foto principal selecionada, formato paisagem, com fachada e piscinas.
+02_Imagens_Empreendimento/ — apenas imagens/perspectivas dos ambientes e fachadas (sem plantas).
+   01_Fachadas/
+   02_Areas_de_Lazer/
+   03_Apartamentos/
+   04_Servicos_e_Areas_Comuns/
+03_Plantas_e_Implantacao/ — plantas técnicas totalmente separadas da galeria.
+   01_Plantas_das_Unidades/
+   02_Implantacao_e_Pavimentos/
+   03_Referencias_com_Legendas/ — páginas completas para verificar títulos, notas e posição.
+04_Localizacao_e_Entorno/ — localização e referências do bairro.
+05_Referencias_Tecnicas/ — ficha técnica e página de diferenciais.
+
+informacoes_empreendimento.txt — dados textuais do empreendimento.
+indice_imagens.csv — nome de cada PNG, página de origem e dimensão.
+
+IMPORTANTE:
+- Algumas imagens originais já possuem marcações arquitetônicas/legendas incorporadas; foram preservadas quando fazem parte da imagem de origem.
+- As plantas individuais mostram o modelo ilustrado no book, não substituindo projeto legal ou planta comercial vigente.
+- As perspectivas são artísticas e ilustrativas; conferir memorial descritivo e contrato antes de anunciar detalhes como garantidos.
+- Metragens 31/39/68 m² são arredondadas conforme texto comercial; consulte as plantas individuais para áreas precisas.

@@ -1,0 +1,58 @@
+﻿pasta;arquivo;pagina_pdf;descricao;tipo;largura_px;altura_px
+01_Capa;capa_principal_infinity_recife_fachada_torre.png;18;"Fachada principal da torre Infinity Recife em perspectiva urbana; destaque para o edifício";perspectiva;1880;1392
+02_Imagens_Empreendimento;fachada_embasamento_entrada.png;17;Acesso e fachada ao nível da rua;perspectiva;2700;851
+02_Imagens_Empreendimento;fachada_principal_vista_avenida.png;18;Torre completa na avenida Boa Viagem;perspectiva;2700;858
+02_Imagens_Empreendimento;wellness_area_relaxamento_piscina.png;13;Área wellness com espreguiçadeiras e piscina;perspectiva;2700;685
+02_Imagens_Empreendimento;restaurante_salao_interno.png;16;Salão do restaurante;perspectiva;1150;680
+02_Imagens_Empreendimento;piscina_panorama_borda_infinita.png;16;Piscina com borda infinita junto à área social;perspectiva;1146;676
+02_Imagens_Empreendimento;espaco_gourmet_mesa_jantar.png;16;Espaço gourmet com mesa de jantar;perspectiva;1140;674
+02_Imagens_Empreendimento;garagem_e_elevadores.png;22;Acesso às garagens com elevadores;perspectiva;2700;861
+02_Imagens_Empreendimento;piscina_borda_infinita_vista_aerea.png;24;Piscina com borda infinita em vista elevada;perspectiva;2700;859
+02_Imagens_Empreendimento;academia_musculacao.png;25;Academia com equipamentos de musculação;perspectiva;2700;859
+02_Imagens_Empreendimento;academia_esteiras_vista_mar.png;26;Área cardio da academia com vista do mar;perspectiva;2700;856
+02_Imagens_Empreendimento;lavanderia_compartilhada.png;29;Lavanderia coletiva equipada;perspectiva;2700;861
+02_Imagens_Empreendimento;studio_infinity_solo_26m2_ambiente.png;36;Perspectiva de studio compacto de cerca de 26 m²;perspectiva;1448;1204
+02_Imagens_Empreendimento;apartamento_studio_sala_e_varanda.png;39;Sala de unidade Infinity Solo;perspectiva;2700;856
+02_Imagens_Empreendimento;apartamento_infinity_one_sala_de_jantar.png;43;Sala e jantar do apartamento Infinity One;perspectiva;2700;859
+02_Imagens_Empreendimento;apartamento_infinity_two_sala_social.png;52;Sala de apartamento com obra de arte;perspectiva;2700;861
+02_Imagens_Empreendimento;apartamento_vista_mar_lounge.png;53;Estar com vista para o mar;perspectiva;2700;865
+02_Imagens_Empreendimento;apartamento_ambiente_sala_pequena.png;27;Sala compacta em perspectiva;perspectiva;1150;600
+02_Imagens_Empreendimento;apartamento_detalhe_poltrona_vista.png;27;Poltrona e vista em ambiente do apartamento;perspectiva;1130;596
+03_Plantas_e_Implantacao/01_Pavimentos_e_Areas_Comuns;pavimento_semienterrado_garagem_e_bicicletario.png;19;Planta do pavimento semienterrado garagem e bicicletario;planta_de_pavimento;2416;1356
+03_Plantas_e_Implantacao/03_Paginas_Com_Legendas;pagina_original_pavimento_semienterrado_garagem_e_bicicletario.png;19;Página completa com legenda técnica da planta;referencia_planta;2300;1294
+03_Plantas_e_Implantacao/01_Pavimentos_e_Areas_Comuns;pavimento_terreo_hall_acessos_entrada.png;20;Planta do pavimento terreo hall acessos entrada;planta_de_pavimento;2664;1248
+03_Plantas_e_Implantacao/03_Paginas_Com_Legendas;pagina_original_pavimento_terreo_hall_acessos_entrada.png;20;Página completa com legenda técnica da planta;referencia_planta;2300;1294
+03_Plantas_e_Implantacao/01_Pavimentos_e_Areas_Comuns;primeiro_pavimento_estacionamento.png;21;Planta do primeiro pavimento estacionamento;planta_de_pavimento;2288;1340
+03_Plantas_e_Implantacao/03_Paginas_Com_Legendas;pagina_original_primeiro_pavimento_estacionamento.png;21;Página completa com legenda técnica da planta;referencia_planta;2300;1294
+03_Plantas_e_Implantacao/01_Pavimentos_e_Areas_Comuns;pavimento_lazer_piscinas_academia_gourmet.png;23;Planta do pavimento lazer piscinas academia gourmet;planta_de_pavimento;2432;1388
+03_Plantas_e_Implantacao/03_Paginas_Com_Legendas;pagina_original_pavimento_lazer_piscinas_academia_gourmet.png;23;Página completa com legenda técnica da planta;referencia_planta;2300;1294
+03_Plantas_e_Implantacao/01_Pavimentos_e_Areas_Comuns;segundo_pavimento_distribuicao_unidades.png;28;Planta do segundo pavimento distribuicao unidades;planta_de_pavimento;2448;1396
+03_Plantas_e_Implantacao/03_Paginas_Com_Legendas;pagina_original_segundo_pavimento_distribuicao_unidades.png;28;Página completa com legenda técnica da planta;referencia_planta;2300;1294
+03_Plantas_e_Implantacao/01_Pavimentos_e_Areas_Comuns;pavimentos_04_a_18_distribuicao_unidades.png;34;Planta do pavimentos 04 a 18 distribuicao unidades;planta_de_pavimento;2584;1012
+03_Plantas_e_Implantacao/03_Paginas_Com_Legendas;pagina_original_pavimentos_04_a_18_distribuicao_unidades.png;34;Página completa com legenda técnica da planta;referencia_planta;2300;1294
+03_Plantas_e_Implantacao/01_Pavimentos_e_Areas_Comuns;decimo_nono_pavimento_distribuicao_unidades.png;44;Planta do decimo nono pavimento distribuicao unidades;planta_de_pavimento;2396;940
+03_Plantas_e_Implantacao/03_Paginas_Com_Legendas;pagina_original_decimo_nono_pavimento_distribuicao_unidades.png;44;Página completa com legenda técnica da planta;referencia_planta;2300;1294
+03_Plantas_e_Implantacao/02_Plantas_Individuais;planta_2p_infinity_solo_32_20m2.png;30;Planta baixa individual - 2p infinity solo 32 20m2;planta_individual;716;1864
+03_Plantas_e_Implantacao/02_Plantas_Individuais;planta_2p_infinity_solo_38_35m2.png;31;Planta baixa individual - 2p infinity solo 38 35m2;planta_individual;1956;880
+03_Plantas_e_Implantacao/02_Plantas_Individuais;planta_2p_infinity_solo_49_80m2.png;32;Planta baixa individual - 2p infinity solo 49 80m2;planta_individual;960;1928
+03_Plantas_e_Implantacao/02_Plantas_Individuais;planta_2p_infinity_two_78_90m2.png;33;Planta baixa individual - 2p infinity two 78 90m2;planta_individual;1872;1544
+03_Plantas_e_Implantacao/02_Plantas_Individuais;planta_4a18_infinity_solo_26_90m2.png;35;Planta baixa individual - 4a18 infinity solo 26 90m2;planta_individual;1796;1568
+03_Plantas_e_Implantacao/02_Plantas_Individuais;planta_4a18_infinity_solo_35_70m2.png;37;Planta baixa individual - 4a18 infinity solo 35 70m2;planta_individual;1292;1652
+03_Plantas_e_Implantacao/02_Plantas_Individuais;planta_4a18_infinity_solo_39_75m2.png;38;Planta baixa individual - 4a18 infinity solo 39 75m2;planta_individual;1596;1652
+03_Plantas_e_Implantacao/02_Plantas_Individuais;planta_4a18_infinity_solo_39_30m2.png;40;Planta baixa individual - 4a18 infinity solo 39 30m2;planta_individual;1216;1724
+03_Plantas_e_Implantacao/02_Plantas_Individuais;planta_4a18_infinity_one_61_90m2.png;41;Planta baixa individual - 4a18 infinity one 61 90m2;planta_individual;2156;1636
+03_Plantas_e_Implantacao/02_Plantas_Individuais;planta_4a18_infinity_two_76_15m2.png;42;Planta baixa individual - 4a18 infinity two 76 15m2;planta_individual;1920;1532
+03_Plantas_e_Implantacao/02_Plantas_Individuais;planta_19p_infinity_solo_35_05m2.png;45;Planta baixa individual - 19p infinity solo 35 05m2;planta_individual;740;1752
+03_Plantas_e_Implantacao/02_Plantas_Individuais;planta_19p_infinity_one_43_95m2.png;46;Planta baixa individual - 19p infinity one 43 95m2;planta_individual;1048;1828
+03_Plantas_e_Implantacao/02_Plantas_Individuais;planta_19p_infinity_one_48_60m2.png;47;Planta baixa individual - 19p infinity one 48 60m2;planta_individual;984;1628
+03_Plantas_e_Implantacao/02_Plantas_Individuais;planta_19p_infinity_one_48_00m2.png;48;Planta baixa individual - 19p infinity one 48 00m2;planta_individual;936;1524
+03_Plantas_e_Implantacao/02_Plantas_Individuais;planta_19p_infinity_one_62_70m2.png;49;Planta baixa individual - 19p infinity one 62 70m2;planta_individual;1508;1632
+03_Plantas_e_Implantacao/02_Plantas_Individuais;planta_19p_infinity_two_94_45m2.png;50;Planta baixa individual - 19p infinity two 94 45m2;planta_individual;1876;1412
+03_Plantas_e_Implantacao/02_Plantas_Individuais;planta_19p_infinity_two_97_10m2.png;51;Planta baixa individual - 19p infinity two 97 10m2;planta_individual;1516;1560
+04_Localizacao_e_Contexto;mapa_localizacao_infinity_recife.png;9;Mapa de localização do Infinity Recife em Boa Viagem;mapa;2500;1406
+04_Localizacao_e_Contexto;entorno_praia_por_do_sol.png;10;Fotografia ilustrativa de mar e pôr do sol;entorno;1460;1604
+04_Localizacao_e_Contexto;fachada_edificio_original_retrofit.png;11;"Fotografia histórica da edificação objeto de retrofit; NÃO é a perspectiva de projeto";historico;1040;1550
+05_Referencias_Tecnicas;sustentabilidade_ficha_original.png;58;Itens de sustentabilidade apresentados no book;documentacao;2600;1463
+05_Referencias_Tecnicas;ficha_tecnica_original.png;59;Dados técnicos, tipologias e lazer do Infinity Recife;documentacao;2600;1463
+05_Referencias_Tecnicas;personalizacao_material_original.png;57;Descrição comercial da personalização dos acabamentos;documentacao;2600;1463
+05_Referencias_Tecnicas;planta_lazer_com_legendas_original.png;23;Ambientes numerados no pavimento lazer;documentacao;2600;1463

@@ -85,6 +85,8 @@ test('asks for a state on the first access and filters Alagoas without mixing Ba
   expect(screen.getByRole('button', { name: 'Pernambuco' })).toBeInTheDocument();
   expect(screen.getByRole('button', { name: 'Ceará' })).toBeInTheDocument();
   expect(screen.getByRole('button', { name: 'Rio Grande do Norte' })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'Sergipe' })).toBeInTheDocument();
+  expect(screen.getByRole('button', { name: 'Paraíba' })).toBeInTheDocument();
   expect(screen.queryByRole('heading', { name: /todos os empreendimentos/i })).not.toBeInTheDocument();
 
   fireEvent.click(screen.getByRole('button', { name: 'Alagoas' }));
@@ -109,6 +111,12 @@ test('opens all developments grouped by state and keeps Todos selected', async (
   expect(screen.getByRole('heading', { name: 'Pernambuco', level: 3 })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Ceará', level: 3 })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Rio Grande do Norte', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Sergipe', level: 3 }).querySelector('.state-flag')).toHaveAttribute('src', expect.stringContaining('Bandeira_de_Sergipe.svg'));
+  const sergipeGroup = within(screen.getByRole('region', { name: 'Sergipe' }));
+  expect(sergipeGroup.getByRole('heading', { name: 'Casa Jardins', level: 3 })).toBeInTheDocument();
+  expect(sergipeGroup.getByRole('heading', { name: 'Concept Jardins', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Paraíba', level: 3 }).querySelector('.state-flag')).toHaveAttribute('src', expect.stringContaining('Bandeira_da_Paraiba.svg'));
+  expect(within(screen.getByRole('region', { name: 'Paraíba' })).getByRole('heading', { name: 'Concept João Pessoa', level: 3 })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Beach Class Natal', level: 3 })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Beach Class Cumbuco', level: 3 })).toBeInTheDocument();
   expect(screen.getByRole('heading', { name: 'Arthur Bruno Schwambach', level: 3 })).toBeInTheDocument();
@@ -139,6 +147,8 @@ test.each([
   ['Pernambuco', 'PE', 'Arthur Bruno Schwambach', 'arthur-bruno-schwambach'],
   ['Ceará', 'CE', 'Beach Class Cumbuco', 'beach-class-cumbuco'],
   ['Rio Grande do Norte', 'RN', 'Beach Class Natal', 'beach-class-natal'],
+  ['Sergipe', 'SE', 'Concept Jardins', 'concept-jardins'],
+  ['Paraíba', 'PB', 'Concept João Pessoa', 'concept-joao-pessoa'],
 ])('selects %s from the map and lists only its developments', async (stateName, uf, projectName, slug) => {
   render(<App />);
   fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));

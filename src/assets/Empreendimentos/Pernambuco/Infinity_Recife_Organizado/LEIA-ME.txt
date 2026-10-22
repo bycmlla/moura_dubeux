@@ -1,0 +1,14 @@
+INFINITY RECIFE - KIT DE IMAGENS PARA SITE
+
+01_Capa: perspectiva escolhida como capa principal.
+02_Imagens_Empreendimento: somente imagens de como ficará o empreendimento, fachadas, ambientes, apartamentos e lazer. SEM plantas.
+03_Plantas_e_Implantacao/01_Pavimentos_e_Areas_Comuns: plantas de pavimentos.
+03_Plantas_e_Implantacao/02_Plantas_Individuais: plantas das unidades, com metragens no nome.
+03_Plantas_e_Implantacao/03_Paginas_Com_Legendas: reprodução das páginas técnicas para consultar os números e legendas.
+04_Localizacao_e_Contexto: mapa, contexto de praia e foto do edifício antes do retrofit (NÃO é perspectiva do empreendimento).
+05_Referencias_Tecnicas: ficha técnica e demais páginas informativas.
+
+Os arquivos PNG foram gerados exclusivamente a partir das imagens incorporadas ao PDF original, sem criação de conteúdo por IA. Alguns recortes contêm elementos da arte final quando fazem parte da própria imagem rasterizada. Consulte o indice_imagens.csv para rastrear a página de cada PNG.
+
+Arquivo de dados: informacoes_empreendimento.txt
+Índice: indice_imagens.csv

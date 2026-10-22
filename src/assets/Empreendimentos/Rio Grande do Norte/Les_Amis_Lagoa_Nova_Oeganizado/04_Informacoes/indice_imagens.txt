@@ -1,0 +1,59 @@
+INDICE DAS IMAGENS - LES AMIS LAGOA NOVA
+Fonte: Les Amis.pdf
+A pagina e a numeracao visual do PDF, contando a capa como pagina 1.
+Imagens extraidas das artes inseridas no PDF, sem blocos de texto/slogans sobrepostos.
+
+Pagina 05 | 1492x1081 px | 01_Capa/capa_alternativa_horizontal_aerea.png
+Pagina 04 | 804x1083 px | 01_Capa/capa_principal_fachada.png
+Pagina 27 | 1921x1081 px | 02_Imagens_Empreendimento/academia_espaco_fitness_01.png
+Pagina 28 | 1921x1081 px | 02_Imagens_Empreendimento/academia_espaco_fitness_02.png
+Pagina 56 | 1923x665 px | 02_Imagens_Empreendimento/apartamento_elo_ambiente_integrado.png
+Pagina 55 | 1450x1083 px | 02_Imagens_Empreendimento/apartamento_elo_cozinha_e_sala_integradas.png
+Pagina 58 | 1324x1083 px | 02_Imagens_Empreendimento/apartamento_elo_sala_ampliada.png
+Pagina 54 | 1164x1083 px | 02_Imagens_Empreendimento/apartamento_elo_varanda_gourmet.png
+Pagina 49 | 1476x1082 px | 02_Imagens_Empreendimento/apartamento_encontro_living_01.png
+Pagina 50 | 1920x960 px | 02_Imagens_Empreendimento/apartamento_encontro_living_02.png
+Pagina 52 | 1923x1083 px | 02_Imagens_Empreendimento/apartamento_encontro_sala_ampliada.png
+Pagina 48 | 1621x1083 px | 02_Imagens_Empreendimento/apartamento_encontro_varanda_gourmet.png
+Pagina 42 | 1223x1083 px | 02_Imagens_Empreendimento/apartamento_estilo_cozinha_integrada.png
+Pagina 44 | 1128x1083 px | 02_Imagens_Empreendimento/apartamento_estilo_quarto_01.png
+Pagina 44 | 868x896 px | 02_Imagens_Empreendimento/apartamento_estilo_quarto_02.png
+Pagina 46 | 1923x800 px | 02_Imagens_Empreendimento/apartamento_estilo_sala_ampliada.png
+Pagina 41 | 1920x800 px | 02_Imagens_Empreendimento/apartamento_estilo_sala_cozinha_integradas.png
+Pagina 43 | 1239x1083 px | 02_Imagens_Empreendimento/apartamento_estilo_suite_master.png
+Pagina 39 | 1476x1081 px | 02_Imagens_Empreendimento/apartamento_estilo_varanda_gourmet_01.png
+Pagina 40 | 1621x1081 px | 02_Imagens_Empreendimento/apartamento_estilo_varanda_gourmet_02.png
+Pagina 37 | 1923x1082 px | 02_Imagens_Empreendimento/apartamentos_fachada_e_varanda_gourmet.png
+Pagina 20 | 1921x1083 px | 02_Imagens_Empreendimento/brinquedoteca.png
+Pagina 26 | 1921x1081 px | 02_Imagens_Empreendimento/deck_jardim_com_churrasqueira.png
+Pagina 08 | 1921x1081 px | 02_Imagens_Empreendimento/entrada_portaria_principal.png
+Pagina 31 | 1921x1081 px | 02_Imagens_Empreendimento/espaco_coworking.png
+Pagina 19 | 1921x1081 px | 02_Imagens_Empreendimento/espaco_gourmet.png
+Pagina 09 | 1921x1083 px | 02_Imagens_Empreendimento/espaco_guarda_ecommerce.png
+Pagina 30 | 1921x1081 px | 02_Imagens_Empreendimento/espaco_pet_play_e_pet_shower.png
+Pagina 04 | 804x1083 px | 02_Imagens_Empreendimento/fachada_principal_ao_entardecer.png
+Pagina 05 | 1492x1081 px | 02_Imagens_Empreendimento/fachada_vista_aerea_do_bairro.png
+Pagina 07 | 905x1083 px | 02_Imagens_Empreendimento/fachada_vista_frontal_da_torre.png
+Pagina 29 | 1921x1081 px | 02_Imagens_Empreendimento/fitness_outdoor.png
+Pagina 10 | 1128x1081 px | 02_Imagens_Empreendimento/hall_de_entrada.png
+Pagina 22 | 1921x1081 px | 02_Imagens_Empreendimento/lazer_pavimento_vazado_vista_aerea.png
+Pagina 13 | 1921x1081 px | 02_Imagens_Empreendimento/lazer_terreo_piscinas_vista_superior.png
+Pagina 25 | 1921x1081 px | 02_Imagens_Empreendimento/miniquadra_poliesportiva.png
+Pagina 16 | 1923x1083 px | 02_Imagens_Empreendimento/minispa.png
+Pagina 14 | 1921x1081 px | 02_Imagens_Empreendimento/piscina_adulto_com_deck_molhado.png
+Pagina 15 | 1921x1081 px | 02_Imagens_Empreendimento/piscina_infantil.png
+Pagina 12 | 1921x1081 px | 02_Imagens_Empreendimento/piscinas_adulto_infantil_deck_molhado_noturna.png
+Pagina 21 | 1921x1081 px | 02_Imagens_Empreendimento/playground.png
+Pagina 24 | 1921x1081 px | 02_Imagens_Empreendimento/praca_vivant_espaco_de_convivencia.png
+Pagina 23 | 1921x1081 px | 02_Imagens_Empreendimento/praca_vivant_vista_superior.png
+Pagina 18 | 1922x1082 px | 02_Imagens_Empreendimento/salao_de_festas.png
+Pagina 57 | 796x945 px | 03_Plantas/Plantas_Apartamentos/planta_elo_61_01m2_1_suite_closet_sala_ampliada.png
+Pagina 53 | 796x945 px | 03_Plantas/Plantas_Apartamentos/planta_elo_61_01m2_2_quartos_1_suite.png
+Pagina 51 | 1130x763 px | 03_Plantas/Plantas_Apartamentos/planta_encontro_82_34m2_2_quartos_sala_ampliada.png
+Pagina 47 | 1130x763 px | 03_Plantas/Plantas_Apartamentos/planta_encontro_82_34m2_3_quartos_1_suite.png
+Pagina 45 | 1071x997 px | 03_Plantas/Plantas_Apartamentos/planta_estilo_97_94m2_2_suites_sala_ampliada.png
+Pagina 38 | 1069x997 px | 03_Plantas/Plantas_Apartamentos/planta_estilo_97_94m2_3_quartos_1_suite.png
+Pagina 32 | 1452x660 px | 03_Plantas/Plantas_Pavimentos_e_Implantacao/implantacao_geral_terreno.png
+Pagina 35 | 1452x660 px | 03_Plantas/Plantas_Pavimentos_e_Implantacao/planta_pavimento_lazer.png
+Pagina 33 | 1452x660 px | 03_Plantas/Plantas_Pavimentos_e_Implantacao/planta_pavimento_semienterrado.png
+Pagina 34 | 1452x660 px | 03_Plantas/Plantas_Pavimentos_e_Implantacao/planta_pavimento_terreo.png

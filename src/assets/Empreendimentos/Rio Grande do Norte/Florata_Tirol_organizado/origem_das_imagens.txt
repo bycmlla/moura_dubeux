@@ -1,0 +1,41 @@
+MAPEAMENTO DE IMAGENS - FLORATA TIROL
+Cada item foi extraído de uma imagem incorporada ao PDF original.
+Fotos ilustrativas do empreendimento não incluem imagens de plantas.
+
+02_Imagens_Empreendimento/fachada_torres_vista_completa.png | página 5 | 1251 x 1502 px | origem PDF xref 65
+02_Imagens_Empreendimento/area_de_lazer_vista_aerea_01.png | página 8 | 2668 x 1504 px | origem PDF xref 93
+02_Imagens_Empreendimento/area_de_lazer_vista_aerea_02.png | página 9 | 2670 x 1204 px | origem PDF xref 96
+02_Imagens_Empreendimento/fachada_entrada_e_acesso.png | página 10 | 2669 x 1504 px | origem PDF xref 100
+02_Imagens_Empreendimento/praca_de_chegada_jardins.png | página 11 | 2103 x 1501 px | origem PDF xref 103
+02_Imagens_Empreendimento/praca_jardins_paisagismo.png | página 12 | 2670 x 1504 px | origem PDF xref 107
+02_Imagens_Empreendimento/piscina_adulto_vista_01.png | página 13 | 2671 x 1504 px | origem PDF xref 111
+02_Imagens_Empreendimento/piscina_adulto_vista_02.png | página 14 | 2671 x 1504 px | origem PDF xref 114
+02_Imagens_Empreendimento/piscina_infantil.png | página 15 | 2671 x 1504 px | origem PDF xref 117
+02_Imagens_Empreendimento/parquinho_infantil.png | página 16 | 2014 x 1347 px | origem PDF xref 121
+02_Imagens_Empreendimento/pet_place.png | página 17 | 2268 x 1278 px | origem PDF xref 125
+02_Imagens_Empreendimento/terraco_descoberto.png | página 18 | 2668 x 1504 px | origem PDF xref 128
+02_Imagens_Empreendimento/terraco_gourmet.png | página 19 | 2256 x 1269 px | origem PDF xref 131
+02_Imagens_Empreendimento/hall_social.png | página 20 | 1762 x 1503 px | origem PDF xref 134
+02_Imagens_Empreendimento/coworking.png | página 21 | 2267 x 1276 px | origem PDF xref 137
+02_Imagens_Empreendimento/brinquedoteca.png | página 22 | 2671 x 1504 px | origem PDF xref 140
+02_Imagens_Empreendimento/academia.png | página 24 | 2267 x 1274 px | origem PDF xref 150
+02_Imagens_Empreendimento/salao_de_festas.png | página 25 | 2264 x 1272 px | origem PDF xref 153
+02_Imagens_Empreendimento/sports_bar.png | página 26 | 2670 x 1504 px | origem PDF xref 156
+02_Imagens_Empreendimento/apto_150m2_sala_de_estar.png | página 31 | 2671 x 1504 px | origem PDF xref 184
+02_Imagens_Empreendimento/apto_150m2_sala_de_jantar.png | página 32 | 2669 x 1502 px | origem PDF xref 187
+02_Imagens_Empreendimento/apto_150m2_varanda_gourmet.png | página 33 | 2670 x 1337 px | origem PDF xref 190
+02_Imagens_Empreendimento/apto_150m2_suite_master.png | página 34 | 2666 x 1500 px | origem PDF xref 193
+02_Imagens_Empreendimento/apto_150m2_suite_escritorio.png | página 35 | 1697 x 1504 px | origem PDF xref 196
+02_Imagens_Empreendimento/apto_100m2_sala_de_estar.png | página 38 | 2668 x 1504 px | origem PDF xref 213
+02_Imagens_Empreendimento/apto_100m2_varanda_gourmet.png | página 39 | 2670 x 1504 px | origem PDF xref 216
+02_Imagens_Empreendimento/apto_100m2_suite_master.png | página 40 | 2669 x 1504 px | origem PDF xref 219
+02_Imagens_Empreendimento/apto_100m2_suite_infantil.png | página 41 | 2668 x 1504 px | origem PDF xref 222
+03_Plantas/implantacao_pavimento_terreo.png | página 7 | 1551 x 1340 px | origem PDF xref 87
+03_Plantas/implantacao_pavimento_vazado.png | página 23 | 1533 x 1332 px | origem PDF xref 144
+03_Plantas/planta_tipo_15_andar_duas_torres.png | página 28 | 2213 x 612 px | origem PDF xref 164
+03_Plantas/torre_acacias_apto_150m2_terminacao_01.png | página 29 | 1536 x 1158 px | origem PDF xref 171
+03_Plantas/torre_bromelias_apto_150m2_terminacao_01.png | página 30 | 1469 x 1108 px | origem PDF xref 178
+03_Plantas/torre_acacias_apto_100m2_terminacao_02.png | página 36 | 1529 x 1167 px | origem PDF xref 200
+03_Plantas/torre_bromelias_apto_100m2_terminacao_02.png | página 37 | 1615 x 1233 px | origem PDF xref 207
+04_Localizacao/localizacao_aerea_tirol_natal_pontos_de_referencia.png | página 4 | 1831 x 1375 px | origem PDF xref 55
+01_Capa/capa_fachada_florata_tirol.png | página 5 | 1251 x 1502 px | origem PDF xref 65
