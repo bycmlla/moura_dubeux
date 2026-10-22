@@ -1,0 +1,12 @@
+BEACH CLASS PORTO DAS DUNAS - PACOTE PARA CADASTRO NO SITE
+
+COMO USAR
+1. Use 01_Capa/capa_perspectiva_aerea_piscinas_e_mar.png na capa do anuncio.
+2. Importe SOMENTE 02_Imagens_Empreendimento para a galeria de fotos/renderizacoes.
+3. Importe SOMENTE 03_Plantas_e_Implantacao para a secao Plantas, com subcategorias: Implantacao Geral, Pavimentos e Plantas das Unidades.
+4. Trate 04_Localizacao_e_Entorno como mapa ilustrativo, nao como foto do condominio.
+5. Use informacoes_empreendimento.txt para preencher a descricao e ficha tecnica.
+6. Confira na tabela indice_imagens.csv a pagina de origem de cada arquivo e seu uso correto.
+
+OBSERVACOES IMPORTANTES
+PDF original de 57 paginas, integralmente rasterizado. Todas as imagens foram convertidas para PNG a partir do proprio PDF. Recortes priorizam retirar banners e textos laterais sem recortar ambientes essenciais. Perspectivas artisticas nao sao fotos de empreendimento concluido. As plantas nao aparecem na galeria de imagens. Nao se introduziu imagem produzida por IA.

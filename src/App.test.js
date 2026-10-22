@@ -809,6 +809,44 @@ test('renders Beach Class Ponta Negra perspectives, all floor plans and location
   expect(screen.getByRole('button', { name: /ampliar Mapa de localização com referências/i })).toBeInTheDocument();
 });
 
+test('lists Beach Class Porto das Dunas under Ceará with the other Ceará projects', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Ceará' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Ceará' }));
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Porto das Dunas', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Beach Class Cumbuco', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Beach Class Iracema', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Beach Class Porto das Dunas.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/beach-class-porto-das-dunas');
+});
+
+test('renders Beach Class Porto das Dunas perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/beach-class-porto-das-dunas';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Beach Class Porto das Dunas', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('52.004,97 m²')).toBeInTheDocument();
+  expect(screen.getAllByText(/393 vagas/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+20 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(19);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Porto%20das%20Dunas'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Beach Class Porto das Dunas - perspectiva das piscinas com hidromassagem/i }));
+  expect(screen.getByText('1 / 25')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva da área externa do apartamento Garden da coluna 6/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta 3 quartos Garden 116,67 m²/i }));
+  expect(screen.getByText('19 / 19')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  expect(screen.getByRole('button', { name: /ampliar Mapa da região de Porto das Dunas e Fortaleza/i })).toBeInTheDocument();
+});
+
 test('renders Arthur Bruno Schwambach photos and floor plans in their own sections', () => {
   window.location.hash = '#empreendimento/arthur-bruno-schwambach';
   render(<App />);
