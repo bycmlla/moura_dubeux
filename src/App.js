@@ -1082,6 +1082,46 @@ import conceptJoaoFarinhaFloorsTwentyFourAndTwentySixReference from './assets/Em
 import conceptJoaoFarinhaLoftFloorsReference from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Metragens/planta_tipo_pavimentos_25_e_27_metragens.png';
 import conceptJoaoFarinhaLocation from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/04_Localizacao_e_Entorno/localizacao_via_mangue_praia_boa_viagem_shopping_recife.png';
 import conceptJoaoFarinhaShopping from './assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/04_Localizacao_e_Entorno/entorno_shopping_recife.png';
+import edificioLibanoCover from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/01_Capa/capa_edificio_libano_fachada_rio_e_pontes.png';
+import edificioLibanoFachadaEAcessoClubeLibanoPerspectiva from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/01_Fachadas_e_Exterior/fachada_e_acesso_clube_libano_perspectiva.png';
+import edificioLibanoFachadaTorreVistaAereaEntardecerRio from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/01_Fachadas_e_Exterior/fachada_torre_vista_aerea_entardecer_rio.png';
+import edificioLibanoClubeLibanoBrasileiroFachadaExterior from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/01_Fachadas_e_Exterior/clube_libano_brasileiro_fachada_exterior.png';
+import edificioLibanoFachadaComVistaPanoramaRioEPontes from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/01_Fachadas_e_Exterior/fachada_com_vista_panorama_rio_e_pontes.png';
+import edificioLibanoColivingHallSocialAmbiente from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/02_Areas_Comuns_e_Lazer/coliving_hall_social_ambiente.png';
+import edificioLibanoColivingEspacoComSalasDeReuniao from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/02_Areas_Comuns_e_Lazer/coliving_espaco_com_salas_de_reuniao.png';
+import edificioLibanoMinimarketConveniencia from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/02_Areas_Comuns_e_Lazer/minimarket_conveniencia.png';
+import edificioLibanoAcademiaFitness from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/02_Areas_Comuns_e_Lazer/academia_fitness.png';
+import edificioLibanoRooftopPiscinaVistaSuperior from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/02_Areas_Comuns_e_Lazer/rooftop_piscina_vista_superior.png';
+import edificioLibanoEspacoGourmetRooftop from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/02_Areas_Comuns_e_Lazer/espaco_gourmet_rooftop.png';
+import edificioLibanoPiscinaBordaInfinitaDeck from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/02_Areas_Comuns_e_Lazer/piscina_borda_infinita_deck.png';
+import edificioLibanoPiscinaBordaInfinitaVistaRio from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/02_Areas_Comuns_e_Lazer/piscina_borda_infinita_vista_rio.png';
+import edificioLibanoStudio39m2LivingTerminacoes06E10 from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/studio_39m2_living_terminacoes_06_e_10.png';
+import edificioLibanoStudio39m2LivingTerminacoes01E05 from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/studio_39m2_living_terminacoes_01_e_05.png';
+import edificioLibanoStudio39m2QuartoAmbienteIntegrado from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/studio_39m2_quarto_ambiente_integrado.png';
+import edificioLibanoStudio39m2SalaJantarEVista from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/studio_39m2_sala_jantar_e_vista.png';
+import edificioLibanoStudio39m2SalaECozinha from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/studio_39m2_sala_e_cozinha.png';
+import edificioLibanoApartamento44m2Terminacao09SalaCozinha from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_44m2_terminacao_09_sala_cozinha.png';
+import edificioLibanoApartamento44m2Terminacao09LivingRio from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_44m2_terminacao_09_living_rio.png';
+import edificioLibanoApartamento47m2Terminacao02SalaECozinha from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_47m2_terminacao_02_sala_e_cozinha.png';
+import edificioLibanoApartamento47m2Terminacao02Living from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_47m2_terminacao_02_living.png';
+import edificioLibanoApartamento47m2Terminacao02SalaEQuarto from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_47m2_terminacao_02_sala_e_quarto.png';
+import edificioLibanoApartamento47m2Terminacao02Gourmet from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_47m2_terminacao_02_gourmet.png';
+import edificioLibanoApartamento44m2Terminacao11LivingVistaRio from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_44m2_terminacao_11_living_vista_rio.png';
+import edificioLibanoApartamento44m2Terminacao11AmbienteDeTrabalho from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/02_Imagens_Empreendimento/03_Apartamentos_Decorados/apartamento_44m2_terminacao_11_ambiente_de_trabalho.png';
+import edificioLibanoPlantaPavimentoTipoImplantacaoApartamentos from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/03_Plantas/Plantas_Recortadas/planta_pavimento_tipo_implantacao_apartamentos.png';
+import edificioLibanoPlantaApartamento3920m2Terminacao10 from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/03_Plantas/Plantas_Recortadas/planta_apartamento_39_20m2_terminacao_10.png';
+import edificioLibanoPlantaApartamento3998m2Terminacoes01040508 from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/03_Plantas/Plantas_Recortadas/planta_apartamento_39_98m2_terminacoes_01_04_05_08.png';
+import edificioLibanoPlantaApartamento3998m2Terminacoes030607 from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/03_Plantas/Plantas_Recortadas/planta_apartamento_39_98m2_terminacoes_03_06_07.png';
+import edificioLibanoPlantaApartamento4465m2Terminacao09 from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/03_Plantas/Plantas_Recortadas/planta_apartamento_44_65m2_terminacao_09.png';
+import edificioLibanoPlantaApartamento4760m2Terminacao02 from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/03_Plantas/Plantas_Recortadas/planta_apartamento_47_60m2_terminacao_02.png';
+import edificioLibanoPlantaApartamento4486m2Terminacao11 from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/03_Plantas/Plantas_Recortadas/planta_apartamento_44_86m2_terminacao_11.png';
+import edificioLibanoPavimentoTipoComNumeracaoEMetragens from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/03_Plantas/Plantas_Com_Legendas_Originais/pavimento_tipo_com_numeracao_e_metragens.png';
+import edificioLibanoPlanta3920m2Terminacao10ComLegenda from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/03_Plantas/Plantas_Com_Legendas_Originais/planta_39_20m2_terminacao_10_com_legenda.png';
+import edificioLibanoPlantas3998m2VariacoesComLegendas from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/03_Plantas/Plantas_Com_Legendas_Originais/plantas_39_98m2_variacoes_com_legendas.png';
+import edificioLibanoPlanta4465m2Terminacao09ComLegenda from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/03_Plantas/Plantas_Com_Legendas_Originais/planta_44_65m2_terminacao_09_com_legenda.png';
+import edificioLibanoPlanta4760m2Terminacao02ComLegenda from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/03_Plantas/Plantas_Com_Legendas_Originais/planta_47_60m2_terminacao_02_com_legenda.png';
+import edificioLibanoPlanta4486m2Terminacao11ComLegenda from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/03_Plantas/Plantas_Com_Legendas_Originais/planta_44_86m2_terminacao_11_com_legenda.png';
+import edificioLibanoLocalizacaoAereaEdificioLibanoRecifePina from './assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/04_Localizacao/localizacao_aerea_edificio_libano_recife_pina.png';
 import lucenaPlazaCover from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/01_Capa/capa_horizontal_fachada_vista_mar.png';
 import lucenaPlazaBoulevardTerreoJardins from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/01_Fachadas/boulevard_terreo_jardins.png';
 import lucenaPlazaFachadaAtivaIluminacaoNoturna from './assets/Empreendimentos/Pernambuco/Lucena_Plaza/02_Imagens_Empreendimento/01_Fachadas/fachada_ativa_iluminacao_noturna.png';
@@ -3746,6 +3786,78 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
+    slug: 'edificio-libano', name: 'Edifício Líbano', image: edificioLibanoCover,
+    city: 'Recife, PE', neighborhood: 'Pina', locationTitle: 'Pina - Recife/PE',
+    address: 'Avenida Antônio de Góes, 62, Pina, Recife/PE',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Avenida%20Ant%C3%B4nio%20de%20G%C3%B3es%2062%20Pina%20Recife%20PE',
+    area: '39,20 a 47,60 m²', profile: 'Studios e apartamentos compactos', detail: 'Rooftop com piscina de borda infinita',
+    description: 'O Edifício Líbano é um empreendimento da Moura Dubeux no Pina, em Recife/PE, na Avenida Antônio de Góes, próximo ao Clube Líbano Brasileiro. O projeto apresenta studios e apartamentos compactos, com plantas de 39,20 m² a 47,60 m² e ambientes integrados. As áreas comuns incluem coliving com salas de reunião, minimarket, lavanderia e academia, além de rooftop com piscina de borda infinita, deck e espaço gourmet com vistas panorâmicas para a cidade e o rio. As imagens são perspectivas ilustrativas do projeto.',
+    highlights: ['39,20 a 47,60 m²', 'Studios e apartamentos compactos', 'Rooftop com piscina', 'Pina, Recife'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Pina, Recife/PE'], ['Tipologias', 'Studios e apartamentos compactos'], ['Lazer', 'Rooftop com piscina e espaço gourmet']],
+    technical: [
+      ['Metragens apresentadas', '39,20 m², 39,98 m², 44,65 m², 44,86 m² e 47,60 m²'],
+      ['Terminação 10', '39,20 m²'],
+      ['Terminações 01, 03, 04, 05, 06, 07 e 08', '39,98 m², conforme o pavimento tipo'],
+      ['Terminação 09', '44,65 m²'],
+      ['Terminação 11', '44,86 m²'],
+      ['Terminação 02', '47,60 m²'],
+      ['Endereço', 'Avenida Antônio de Góes, 62, Pina, Recife/PE'],
+      ['Referência', 'Próximo ao Clube Líbano Brasileiro'],
+      ['Áreas comuns', 'Automatizadas, mobiliadas e equipadas, conforme o material'],
+      ['Rooftop', 'Piscina com borda infinita, deck e espaço gourmet'],
+      ['Material', 'Perspectivas e plantas ilustrativas, sujeitas a alterações de cores, texturas, acabamentos e composição; móveis e utensílios ilustrativos'],
+    ],
+    amenities: ['Coliving e hall de convivência', 'Coliving com salas de reunião', 'Minimarket', 'Lavanderia', 'Academia', 'Rooftop', 'Espaço gourmet', 'Piscina com borda infinita e deck', 'Vistas panorâmicas para a cidade e o rio'],
+    security: ['Fechadura eletrônica na porta dos apartamentos'],
+    sustainability: ['Irrigação inteligente', 'Ponto de recarga para carro elétrico'],
+    projectTeam: ['Jerônimo da Cunha Lima | Arquitetura', 'Takeda | Paisagismo', 'Humberto Zirpoli | Ambientação'],
+    gallery: [
+      { src: edificioLibanoFachadaTorreVistaAereaEntardecerRio, titulo: 'Perspectiva aérea do Edifício Líbano ao entardecer' },
+      { src: edificioLibanoFachadaEAcessoClubeLibanoPerspectiva, titulo: 'Perspectiva: vista do acesso e base da torre junto ao clube' },
+      { src: edificioLibanoColivingHallSocialAmbiente, titulo: 'Perspectiva: coliving / recepção com jardim vertical' },
+      { src: edificioLibanoColivingEspacoComSalasDeReuniao, titulo: 'Perspectiva: coliving com salas de reunião' },
+      { src: edificioLibanoMinimarketConveniencia, titulo: 'Perspectiva: minimarket do edifício' },
+      { src: edificioLibanoAcademiaFitness, titulo: 'Perspectiva: academia / fitness com equipamentos' },
+      { src: edificioLibanoRooftopPiscinaVistaSuperior, titulo: 'Perspectiva: rooftop com piscina e deck em vista superior' },
+      { src: edificioLibanoEspacoGourmetRooftop, titulo: 'Perspectiva: espaço gourmet com mesas e vista panorâmica' },
+      { src: edificioLibanoPiscinaBordaInfinitaDeck, titulo: 'Perspectiva: piscina de borda infinita no rooftop e deck' },
+      { src: edificioLibanoPiscinaBordaInfinitaVistaRio, titulo: 'Perspectiva: piscina panorâmica com vista para a cidade' },
+      { src: edificioLibanoClubeLibanoBrasileiroFachadaExterior, titulo: 'Perspectiva do Clube Líbano Brasileiro, junto ao edifício' },
+      { src: edificioLibanoFachadaComVistaPanoramaRioEPontes, titulo: 'Perspectiva: vista da fachada ao pôr do sol, rio e pontes' },
+      { src: edificioLibanoStudio39m2LivingTerminacoes06E10, titulo: 'Perspectiva: living - terminações 6 e 10, tipologia compacta' },
+      { src: edificioLibanoStudio39m2LivingTerminacoes01E05, titulo: 'Perspectiva: living - terminações 1 e 5' },
+      { src: edificioLibanoStudio39m2QuartoAmbienteIntegrado, titulo: 'Perspectiva: quarto de unidade compacta - diversas terminações' },
+      { src: edificioLibanoStudio39m2SalaJantarEVista, titulo: 'Perspectiva: sala e jantar com vista - terminações 1 e 5' },
+      { src: edificioLibanoStudio39m2SalaECozinha, titulo: 'Perspectiva: sala e cozinha integradas - unidades compactas' },
+      { src: edificioLibanoApartamento44m2Terminacao09SalaCozinha, titulo: 'Perspectiva: apartamento 44,65 m² - terminação 9, sala e cozinha' },
+      { src: edificioLibanoApartamento44m2Terminacao09LivingRio, titulo: 'Perspectiva: apartamento 44,65 m² - living com vista para o rio' },
+      { src: edificioLibanoApartamento47m2Terminacao02SalaECozinha, titulo: 'Perspectiva: apartamento 47,60 m² - sala e cozinha' },
+      { src: edificioLibanoApartamento47m2Terminacao02Living, titulo: 'Perspectiva: apartamento 47,60 m² - living com sofá e jantar' },
+      { src: edificioLibanoApartamento47m2Terminacao02SalaEQuarto, titulo: 'Perspectiva: apartamento 47,60 m² - sala e quarto integrados' },
+      { src: edificioLibanoApartamento47m2Terminacao02Gourmet, titulo: 'Perspectiva: apartamento 47,60 m² - espaço gourmet' },
+      { src: edificioLibanoApartamento44m2Terminacao11LivingVistaRio, titulo: 'Perspectiva: apartamento 44,86 m² - living com vista para o rio' },
+      { src: edificioLibanoApartamento44m2Terminacao11AmbienteDeTrabalho, titulo: 'Perspectiva: apartamento 44,86 m² - estar com ambiente de trabalho' },
+    ],
+    floorPlans: [
+      { src: edificioLibanoPlantaPavimentoTipoImplantacaoApartamentos, titulo: 'Pavimento tipo, hall e apartamentos/terminações' },
+      { src: edificioLibanoPlantaApartamento3920m2Terminacao10, titulo: 'Planta do apartamento de 39,20 m² - terminação 10' },
+      { src: edificioLibanoPlantaApartamento3998m2Terminacoes01040508, titulo: 'Planta do studio aproximadamente 39,98 m² - terminações 1, 4, 5 e 8' },
+      { src: edificioLibanoPlantaApartamento3998m2Terminacoes030607, titulo: 'Planta espelhada do studio aproximadamente 39,98 m² - terminações 3, 6 e 7' },
+      { src: edificioLibanoPlantaApartamento4465m2Terminacao09, titulo: 'Planta do apartamento de 44,65 m² - terminação 9' },
+      { src: edificioLibanoPlantaApartamento4760m2Terminacao02, titulo: 'Planta do apartamento de 47,60 m² - terminação 2' },
+      { src: edificioLibanoPlantaApartamento4486m2Terminacao11, titulo: 'Planta do apartamento de 44,86 m² - terminação 11' },
+      { src: edificioLibanoPavimentoTipoComNumeracaoEMetragens, titulo: 'Planta completa com numeração de unidades (referência com legendas)' },
+      { src: edificioLibanoPlanta3920m2Terminacao10ComLegenda, titulo: 'Página original da planta 39,20 m², terminação 10 (referência com legendas)' },
+      { src: edificioLibanoPlantas3998m2VariacoesComLegendas, titulo: 'Duas variações de planta compacta com terminações (referência com legendas)' },
+      { src: edificioLibanoPlanta4465m2Terminacao09ComLegenda, titulo: 'Página original da planta 44,65 m², terminação 9 (referência com legendas)' },
+      { src: edificioLibanoPlanta4760m2Terminacao02ComLegenda, titulo: 'Página original da planta 47,60 m², terminação 2 (referência com legendas)' },
+      { src: edificioLibanoPlanta4486m2Terminacao11ComLegenda, titulo: 'Página original da planta 44,86 m², terminação 11 (referência com legendas)' },
+    ],
+    locationImages: [
+      { src: edificioLibanoLocalizacaoAereaEdificioLibanoRecifePina, titulo: 'Vista aérea com edifício Líbano e referências do entorno' },
+    ],
+  }),
+  createDevelopment({
     slug: 'lucena-plaza', name: 'Lucena Plaza', image: lucenaPlazaCover,
     city: 'Recife, PE', neighborhood: 'Novo Cais', locationTitle: 'Novo Cais - Recife/PE',
     address: 'Avenida Engenheiro José Estelita, 790, Recife/PE',
@@ -5238,7 +5350,7 @@ function DevelopmentDetail({ development }) {
   const touchStartX = useRef(null);
   const activeImages = activeLightbox ? lightboxGroups[activeLightbox.group] : [];
   const activeImage = activeLightbox ? activeImages[activeLightbox.index] : null;
-  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'concept-jatiuca', 'lanai-beach', 'beach-class-milagres', 'beach-class-natal', 'florata-tirol', 'les-amis-lagoa-nova', 'beach-class-ponta-negra', 'beach-class-porto-das-dunas', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'concept-joao-farinha', 'infinity-recife', 'lucena-plaza', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-solare', 'beach-class-wave', 'beach-class-cumbuco', 'concept-joao-pessoa', 'concept-jardins', 'casa-jardins', 'casa-boris', 'beach-class-iracema'].includes(development?.slug);
+  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'concept-jatiuca', 'lanai-beach', 'beach-class-milagres', 'beach-class-natal', 'florata-tirol', 'les-amis-lagoa-nova', 'beach-class-ponta-negra', 'beach-class-porto-das-dunas', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'concept-joao-farinha', 'infinity-recife', 'lucena-plaza', 'edificio-libano', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-solare', 'beach-class-wave', 'beach-class-cumbuco', 'concept-joao-pessoa', 'concept-jardins', 'casa-jardins', 'casa-boris', 'beach-class-iracema'].includes(development?.slug);
   const visibleGalleryImages = lightboxGroups.gallery.slice(0, 5);
   const remainingGalleryCount = Math.max(0, lightboxGroups.gallery.length - visibleGalleryImages.length);
   const visibleFloorPlans = showAllOrganizedImages
