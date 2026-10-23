@@ -1,0 +1,13 @@
+PARQUE DAS PALMEIRAS - PACOTE ORGANIZADO
+
+Imagens PNG individuais, extraídas do PDF original.
+
+As imagens do empreendimento NÃO contêm plantas.
+As plantas aparecem somente em 03_Plantas, em duas versões:
+- Isoladas: imagens originais de plantas incorporadas ao PDF;
+- Com legendas: páginas ilustrativas contendo as explicações originais.
+
+A capa da fachada é repetida na galeria para facilitar a publicação.
+Use informacoes_empreendimento.txt para os dados e origem_das_imagens.csv para localizar cada arquivo no PDF.
+
+As imagens do catálogo têm caráter promocional; consulte a incorporadora sobre condições e direitos de divulgação.

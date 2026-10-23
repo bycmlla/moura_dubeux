@@ -929,6 +929,80 @@ test('renders Mirage perspectives, all floor plans and location separately', () 
   expect(screen.getByRole('button', { name: /ampliar Vista aérea urbana do entorno do Mirage/i })).toBeInTheDocument();
 });
 
+test('lists Parque das Palmeiras under Pernambuco', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Pernambuco' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Pernambuco' }));
+
+  expect(screen.getByRole('heading', { name: 'Parque das Palmeiras', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Mirage', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Parque das Palmeiras.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/parque-das-palmeiras');
+});
+
+test('renders Parque das Palmeiras perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/parque-das-palmeiras';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Parque das Palmeiras', level: 1 })).toBeInTheDocument();
+  expect(screen.getAllByText(/53 a 70 m²/).length).toBeGreaterThan(0);
+  expect(screen.getAllByText(/R-20\/445/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+16 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(14);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Parque%20das%20Palmeiras'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Parque das Palmeiras - perspectiva da fachada principal da torre/i }));
+  expect(screen.getByText('1 / 21')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva da suíte do apartamento/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Apartamento de 53 m² - 2 quartos com suíte com legendas/i }));
+  expect(screen.getByText('14 / 14')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  expect(screen.getByRole('button', { name: /ampliar Localização aérea - Avenida Caxangá e Rua Engenho Poeta/i })).toBeInTheDocument();
+});
+
+test('lists Mood Parque das Dunas under Rio Grande do Norte', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Rio Grande do Norte' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Rio Grande do Norte' }));
+
+  expect(screen.getByRole('heading', { name: 'Mood Parque das Dunas', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Mood Candelária', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Mood Parque das Dunas.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/mood-parque-das-dunas');
+});
+
+test('renders Mood Parque das Dunas perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/mood-parque-das-dunas';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Mood Parque das Dunas', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('4.000,00 m²')).toBeInTheDocument();
+  expect(screen.getAllByText(/165 vagas/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+23 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(10);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Mood%20Parque%20das%20Dunas'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Mood Parque das Dunas - perspectiva da fachada da torre/i }));
+  expect(screen.getByText('1 / 28')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva do quarto do apartamento Smart/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Apartamento Smart de 58,97 m² com legendas/i }));
+  expect(screen.getByText('10 / 10')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  expect(screen.getByRole('button', { name: /ampliar Mapa aéreo com as ruas de acesso/i })).toBeInTheDocument();
+});
+
 test('lists Mirante Ruy Carneiro under Paraíba', async () => {
   render(<App />);
   fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
