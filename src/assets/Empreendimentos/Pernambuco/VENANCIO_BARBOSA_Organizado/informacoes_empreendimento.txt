@@ -1,0 +1,69 @@
+﻿VENÂNCIO BARBOSA - INFORMAÇÕES DO EMPREENDIMENTO
+Fonte: material de apresentação "VENANCIO BARBOSA.pdf" (20 páginas).
+
+IDENTIFICAÇÃO
+Nome: Venâncio Barbosa
+Incorporadora / marca apresentada no material: Moura Dubeux
+Localização: Casa Caiada, Olinda - PE, beira-mar.
+Contexto: Olinda, Patrimônio Histórico e Cultural da Humanidade.
+Proximidades informadas: supermercados, escolas, farmácias e shopping.
+
+APARTAMENTOS
+- Opções de 3 quartos com 1 suíte ou 4 quartos com 2 suítes.
+- Áreas aproximadas anunciadas: de 99 m² a 128 m².
+- Varanda, sala para dois ambientes, banheiro social (BWC), cozinha,
+  área de serviço e dependência completa.
+- 2 ou 3 vagas de garagem (quantidade depende da unidade).
+- 3 apartamentos por andar.
+- 3 elevadores.
+
+TIPOS DE PLANTAS
+Terminações 01 e 02:
+- Áreas informadas: 127,40 m² e 128,13 m².
+- Tipologia ilustrada: 4 quartos, com 2 suítes.
+- Versões: planta padrão; sala ampliada; suíte master + closet.
+- Páginas 14, 15 e 16 do material, respectivamente.
+
+Terminação 03:
+- Área informada: 99,99 m².
+- Tipologia ilustrada: 3 quartos, com 1 suíte.
+- Versões: planta padrão; sala ampliada; suíte master + closet.
+- Páginas 17, 18 e 19 do material, respectivamente.
+
+ÁREAS COMUNS E COMODIDADES
+- Piscina.
+- Terraço gourmet.
+- Fitness / academia.
+- Salão de jogos.
+- Salão de festas.
+- Hall social.
+- Áreas comuns entregues equipadas, conforme material publicitário.
+
+LOCALIZAÇÃO E VISTAS
+- Frente para o mar na orla de Olinda, bairro Casa Caiada.
+- Foto real da orla em frente ao condomínio apresentada na página 3.
+- Vista aérea da orla apresentada na página 13.
+- Mapa ilustrativo de localização apresentado na página 20.
+
+IMAGEM DE CAPA
+Arquivo: capa.png
+Escolha: varanda com vista para o mar (imagem da página 11).
+A mesma imagem, com nome descritivo, está em
+01_Imagens_do_Empreendimento/varanda_com_vista_mar.png.
+
+ORGANIZAÇÃO DAS IMAGENS
+01_Imagens_do_Empreendimento: fachada, áreas de lazer, hall e ambientes internos.
+02_Plantas: apenas as 6 opções de planta do edifício.
+03_Localizacao_e_Entorno: orla, vista aérea e mapa de localização.
+
+OBSERVAÇÕES IMPORTANTES
+- Este resumo transcreve e organiza as informações anunciadas no material.
+- O folheto ressalta que características e imagens têm caráter meramente
+  ilustrativo e promocional e estão sujeitas a alterações.
+- Mobiliário, utensílios, equipamentos e decorações ilustrados não integram
+  necessariamente os apartamentos à venda.
+- O material cita o Registro de Incorporação sob o R-06, da matrícula do
+  1º Ofício de Registro de Imóveis de Olinda. Para número e validade atuais,
+  consultar o documento de registro, pois a reprodução no PDF é pouco clara.
+- As fotos e plantas em PNG foram extraídas do próprio PDF; não foram geradas
+  imagens novas nem misturadas plantas às fotos do empreendimento.

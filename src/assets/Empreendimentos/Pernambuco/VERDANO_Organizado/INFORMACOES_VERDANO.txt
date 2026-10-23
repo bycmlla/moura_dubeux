@@ -1,0 +1,89 @@
+VERDANO - FICHA DO EMPREENDIMENTO
+=================================
+Fonte: material de treinamento de corretor "VERDANO" (38 páginas).
+Informações transcritas e organizadas a partir do PDF fornecido.
+
+IDENTIFICAÇÃO
+- Nome do empreendimento: Verdano.
+- Conceito / slogan: "Sua vida em um novo tom."
+- Marca presente no material: Moura Dubeux (logotipo na última página).
+
+LOCALIZAÇÃO
+- Bairro: Boa Viagem, Recife - PE.
+- Endereço de referência: cruzamento da Avenida Antônio Falcão com a Rua Professor Arnaldo Carneiro Leão, próximo à Via Mangue.
+- O material destaca uma posição de frente para uma reserva natural, com vista panorâmica, e proximidade de serviços e comércio.
+
+CARACTERÍSTICAS DO EMPREENDIMENTO
+- 30 pavimentos tipo.
+- 3 apartamentos por andar tipo.
+- Metragens de apartamentos anunciadas: 86,41 m²; 103,75 m²; 108,50 m².
+- 2 vagas de garagem por unidade, conforme o material.
+- Sala e cozinha integradas à varanda.
+- Unidades com revestimento em porcelanato, pintura e acabamentos elétricos instalados.
+- Fechaduras eletrônicas nas portas sociais dos apartamentos.
+
+TIPOLOGIAS / PLANTAS
+- Terminação 01: 103,75 m² (página 23: pavimento tipo). O material não detalha nesta apresentação a quantidade de quartos/suítes da terminação 01.
+- Terminação 02: 108,50 m²; 3 suítes (páginas 23 e 28).
+- Terminação 03: 86,41 m²; 3 quartos, sendo 1 suíte (páginas 23 e 32).
+- O pavimento tipo apresenta as três terminações: 01, 02 e 03.
+
+LAZER E ÁREAS COMUNS
+- Piscina adulta aquecida com hidromassagem.
+- Piscina infantil.
+- Terraço da piscina.
+- Playground.
+- Brinquedoteca.
+- Espaço fitness / sala de ginástica.
+- Salão de festas.
+- Pet place e pet wash.
+- Bicicletário.
+- Hall social.
+- Espaço de guarda para e-commerce.
+- Acesso de pedestres e acesso de veículos.
+- Garagem.
+
+DISTRIBUIÇÃO ILUSTRADA DAS ÁREAS COMUNS
+- Pavimento térreo (página 19): piscinas adulto e infantil com hidromassagem, terraço da piscina, brinquedoteca, playground, hall social, bicicletário, guarda e-commerce, pet place com pet wash, 2 vagas/pontos para carro elétrico, acessos de pedestres e veículos e garagem.
+- Pavimento vazado 01 (página 20): sala de ginástica, bicicletário e garagem.
+- Pavimento vazado 02 (página 21): salão de festas e garagem.
+
+TECNOLOGIA, SUSTENTABILIDADE E PRATICIDADE
+- Áreas comuns entregues mobiliadas e equipadas.
+- Iluminação LED nas áreas comuns.
+- Gerador para atender à área comum e, nos apartamentos, uma tomada e um interruptor de emergência.
+- Tomadas USB nas áreas comuns.
+- Placas solares nas áreas comuns.
+- Automação nas áreas comuns.
+- Controle de acesso.
+- Wi-Fi nas áreas comuns.
+- Irrigação automatizada.
+- Piscina aquecida.
+- Espaço e-commerce.
+- Pontos de carregamento para veículos elétricos (2 indicados no material).
+- Fechaduras eletrônicas nas portas sociais dos apartamentos.
+
+PONTOS DE INTERESSE APRESENTADOS NO MAPA
+01. Shopping Recife.
+02. Evolution Shopping Park.
+03. Big Bompreço.
+04. Beach Class Boa Viagem.
+05. Jardim das Orquídeas.
+06. Jardim das Acácias.
+07. Jardim das Tulipas.
+08. Beach Class Hotels & Residence.
+09. Beach Class Conventions & Flats.
+10. Carrefour.
+
+ORGANIZAÇÃO DAS IMAGENS DO ARQUIVO ZIP
+- CAPA_VERDANO.png: perspectiva da fachada no entardecer (imagem original da página 7, sem os elementos de apresentação do PDF).
+- 01_Imagens_do_Empreendimento/: 21 imagens/perspectivas de fachada, acesso, lazer e ambientes dos apartamentos. Não contém plantas.
+- 02_Plantas/: 6 plantas de implantação/pavimentos e apartamentos.
+- 03_Localizacao_e_Entorno/: 3 imagens de localização, vista panorâmica e mapa de vizinhança.
+- Todas as fotos foram extraídas dos objetos de imagem incorporados ao PDF, em suas dimensões originais, e convertidas para PNG.
+
+OBSERVAÇÕES
+- O PDF é material de treinamento de corretores, e diversas imagens são perspectivas de apresentação; elas não atestam situação atual da obra.
+- O PDF não informa nesta apresentação preço de venda, estágio de obras, data de entrega, CEP, disponibilidade ou número oficial de unidades comercializadas.
+- As imagens decorativas que não apresentam ambientes do empreendimento (texturas e folhagens) não foram incluídas.
+- Para informações comerciais e legais atualizadas, consulte a documentação oficial do empreendimento.

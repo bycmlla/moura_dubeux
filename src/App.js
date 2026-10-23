@@ -885,6 +885,87 @@ import moodParqueDasDunasPlanReferenciaPagina36LegendasOriginais from './assets/
 import moodParqueDasDunasLocVistaAereaCapimMacioPontaNegra from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/04_Localizacao_e_Entorno/vista_aerea_capim_macio_ponta_negra.png';
 import moodParqueDasDunasLocVistaAereaLocalizacaoEmNatal from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/04_Localizacao_e_Entorno/vista_aerea_localizacao_em_natal.png';
 import moodParqueDasDunasLocMapaAereoRuasDeAcesso from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/04_Localizacao_e_Entorno/mapa_aereo_ruas_de_acesso.png';
+import trairi517Cover from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Capa/capa_trairi_517.png';
+import trairi517PhotoFachadaPerspectivaArquitetonica from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/fachada_perspectiva_arquitetonica.png';
+import trairi517PhotoFachadaVistaAerea from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/fachada_vista_aerea.png';
+import trairi517PhotoFachadaVistaLateralEEntorno from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/fachada_vista_lateral_e_entorno.png';
+import trairi517PhotoAcessoPrincipalEPorteCochere from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/acesso_principal_e_porte_cochere.png';
+import trairi517PhotoCascataEPaisagismo from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/cascata_e_paisagismo.png';
+import trairi517PhotoHallSocial from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/hall_social.png';
+import trairi517PhotoAreasDeLazerVistaSuperior from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/areas_de_lazer_vista_superior.png';
+import trairi517PhotoPiscinaVistaAerea from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/piscina_vista_aerea.png';
+import trairi517PhotoPlayground from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/playground.png';
+import trairi517PhotoBrinquedoteca from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/brinquedoteca.png';
+import trairi517PhotoSalaDeJogos from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/sala_de_jogos.png';
+import trairi517PhotoTerracoGourmet from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/terraco_gourmet.png';
+import trairi517PhotoAreaGourmet from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/area_gourmet.png';
+import trairi517PhotoAcademia from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/academia.png';
+import trairi517PhotoSalaoDeFestas from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/salao_de_festas.png';
+import trairi517PhotoAmbienteResidencialDecorado from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/ambiente_residencial_decorado.png';
+import trairi517PhotoApartamento176m2SalaCozinhaIntegradas from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/apartamento_176m2_sala_cozinha_integradas.png';
+import trairi517PhotoApartamento176m2OpcaoCozinhaSeparada from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/apartamento_176m2_opcao_cozinha_separada.png';
+import trairi517PhotoApartamento176m2SuiteMaster from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/apartamento_176m2_suite_master.png';
+import trairi517PhotoApartamento140m2SalaCozinhaIntegradas from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/apartamento_140m2_sala_cozinha_integradas.png';
+import trairi517PhotoApartamento140m2OpcaoCozinhaSeparada from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/apartamento_140m2_opcao_cozinha_separada.png';
+import trairi517PhotoApartamento140m2SuiteMaster from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Imagens_do_Empreendimento/apartamento_140m2_suite_master.png';
+import trairi517PlanPlantaImplantacaoGeral from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Plantas/planta_implantacao_geral.png';
+import trairi517PlanPlantaPavimentoTerreoAreasComuns from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Plantas/planta_pavimento_terreo_areas_comuns.png';
+import trairi517PlanPlantaPavimentoMezanino from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Plantas/planta_pavimento_mezanino.png';
+import trairi517PlanPlantaPavimentoTipo from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Plantas/planta_pavimento_tipo.png';
+import trairi517PlanPlantaApartamento176m24Suites from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Plantas/planta_apartamento_176m2_4_suites.png';
+import trairi517PlanPlantaApartamento140m23Suites from './assets/Empreendimentos/Rio Grande do Norte/TRAIRI_517_Organizado/Plantas/planta_apartamento_140m2_3_suites.png';
+import venancioBarbosaCover from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/capa.png';
+import venancioBarbosaPhotoFachadaEdificio from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/01_Imagens_do_Empreendimento/fachada_edificio.png';
+import venancioBarbosaPhotoHallSocial from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/01_Imagens_do_Empreendimento/hall_social.png';
+import venancioBarbosaPhotoPiscina from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/01_Imagens_do_Empreendimento/piscina.png';
+import venancioBarbosaPhotoTerracoGourmet from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/01_Imagens_do_Empreendimento/terraco_gourmet.png';
+import venancioBarbosaPhotoAcademiaFitness from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/01_Imagens_do_Empreendimento/academia_fitness.png';
+import venancioBarbosaPhotoSalaoDeJogos from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/01_Imagens_do_Empreendimento/salao_de_jogos.png';
+import venancioBarbosaPhotoSalaoDeFestas from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/01_Imagens_do_Empreendimento/salao_de_festas.png';
+import venancioBarbosaPhotoSalasDeEstarEJantar from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/01_Imagens_do_Empreendimento/salas_de_estar_e_jantar.png';
+import venancioBarbosaPhotoVarandaComVistaMar from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/01_Imagens_do_Empreendimento/varanda_com_vista_mar.png';
+import venancioBarbosaPhotoSuite from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/01_Imagens_do_Empreendimento/suite.png';
+import venancioBarbosaPhotoQuartoInfantil from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/01_Imagens_do_Empreendimento/quarto_infantil.png';
+import venancioBarbosaPlanTerminacoes0102PlantaPadrao127128m2 from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/02_Plantas/terminacoes_01_02_planta_padrao_127_128m2.png';
+import venancioBarbosaPlanTerminacoes0102SalaAmpliada127128m2 from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/02_Plantas/terminacoes_01_02_sala_ampliada_127_128m2.png';
+import venancioBarbosaPlanTerminacoes0102SuiteMasterCloset127128m2 from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/02_Plantas/terminacoes_01_02_suite_master_closet_127_128m2.png';
+import venancioBarbosaPlanTerminacao03PlantaPadrao99m2 from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/02_Plantas/terminacao_03_planta_padrao_99m2.png';
+import venancioBarbosaPlanTerminacao03SalaAmpliada99m2 from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/02_Plantas/terminacao_03_sala_ampliada_99m2.png';
+import venancioBarbosaPlanTerminacao03SuiteMasterCloset99m2 from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/02_Plantas/terminacao_03_suite_master_closet_99m2.png';
+import venancioBarbosaLocOrlaEmFrenteAoCondominio from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/03_Localizacao_e_Entorno/orla_em_frente_ao_condominio.png';
+import venancioBarbosaLocVistaAereaBeiraMarOlinda from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/03_Localizacao_e_Entorno/vista_aerea_beira_mar_olinda.png';
+import venancioBarbosaLocMapaIlustradoCasaCaiada from './assets/Empreendimentos/Pernambuco/VENANCIO_BARBOSA_Organizado/03_Localizacao_e_Entorno/mapa_ilustrado_casa_caiada.png';
+import verdanoCover from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/CAPA_VERDANO.png';
+import verdanoPhotoFachadaPerspectivaEntardecer from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/fachada_perspectiva_entardecer.png';
+import verdanoPhotoFachadaVistaDiurna from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/fachada_vista_diurna.png';
+import verdanoPhotoFachadaDetalheDasVarandas from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/fachada_detalhe_das_varandas.png';
+import verdanoPhotoAcessoPedestres from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/acesso_pedestres.png';
+import verdanoPhotoPiscinaAdultoAquecidaComHidromassagem from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/piscina_adulto_aquecida_com_hidromassagem.png';
+import verdanoPhotoPiscinaInfantil from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/piscina_infantil.png';
+import verdanoPhotoTerracoDaPiscina from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/terraco_da_piscina.png';
+import verdanoPhotoPlayground from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/playground.png';
+import verdanoPhotoBrinquedoteca from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/brinquedoteca.png';
+import verdanoPhotoAcademiaFitness from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/academia_fitness.png';
+import verdanoPhotoSalaoDeFestas from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/salao_de_festas.png';
+import verdanoPhotoPetPlaceEPetWash from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/pet_place_e_pet_wash.png';
+import verdanoPhotoBicicletario from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/bicicletario.png';
+import verdanoPhotoCarregamentoDeCarrosEletricos from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/carregamento_de_carros_eletricos.png';
+import verdanoPhotoApartamento02Living from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/apartamento_02_living.png';
+import verdanoPhotoApartamento02CozinhaIntegradaAVaranda from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/apartamento_02_cozinha_integrada_a_varanda.png';
+import verdanoPhotoApartamento02VarandaGourmet from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/apartamento_02_varanda_gourmet.png';
+import verdanoPhotoApartamento02SuiteMaster from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/apartamento_02_suite_master.png';
+import verdanoPhotoApartamento03Living from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/apartamento_03_living.png';
+import verdanoPhotoApartamento03SuiteMaster from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/apartamento_03_suite_master.png';
+import verdanoPhotoApartamento03VarandaGourmet from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/01_Imagens_do_Empreendimento/apartamento_03_varanda_gourmet.png';
+import verdanoPlanImplantacaoPavimentoTerreo from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/02_Plantas/implantacao_pavimento_terreo.png';
+import verdanoPlanImplantacaoPavimentoVazado01 from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/02_Plantas/implantacao_pavimento_vazado_01.png';
+import verdanoPlanImplantacaoPavimentoVazado02 from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/02_Plantas/implantacao_pavimento_vazado_02.png';
+import verdanoPlanPlantaPavimentoTipo3Apartamentos from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/02_Plantas/planta_pavimento_tipo_3_apartamentos.png';
+import verdanoPlanPlantaApartamento0210850m23Suites from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/02_Plantas/planta_apartamento_02_108_50m2_3_suites.png';
+import verdanoPlanPlantaApartamento038641m23Quartos from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/02_Plantas/planta_apartamento_03_86_41m2_3_quartos.png';
+import verdanoLocVistaDefinitivaReservaNatural from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/03_Localizacao_e_Entorno/vista_definitiva_reserva_natural.png';
+import verdanoLocVistaAereaDaLocalizacaoEmBoaViagem from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/03_Localizacao_e_Entorno/vista_aerea_da_localizacao_em_boa_viagem.png';
+import verdanoLocMapaDoEntornoEPontosDeInteresse from './assets/Empreendimentos/Pernambuco/VERDANO_Organizado/03_Localizacao_e_Entorno/mapa_do_entorno_e_pontos_de_interesse.png';
 import mirantRuyCover from './assets/Empreendimentos/Paraíba/Mirante_Ruy_Carneiro_Organizado/01_Capa/capa_fachada_mirante_ruy_carneiro.png';
 import mirantRuyPhotoFachadaTorreVistaAereaAvenidaRuyCarneiro from './assets/Empreendimentos/Paraíba/Mirante_Ruy_Carneiro_Organizado/02_Imagens_Empreendimento/fachada_torre_vista_aerea_avenida_ruy_carneiro.png';
 import mirantRuyPhotoAlamedaRuyCarneiroFachadaTerreo from './assets/Empreendimentos/Paraíba/Mirante_Ruy_Carneiro_Organizado/02_Imagens_Empreendimento/alameda_ruy_carneiro_fachada_terreo.png';
@@ -3711,6 +3792,176 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
+    slug: 'trairi-517', name: 'Trairi 517', image: trairi517Cover,
+    city: 'Natal, RN', neighborhood: 'Petrópolis', locationTitle: 'Petrópolis - Natal/RN',
+    address: 'Rua Trairi, 517, Petrópolis, Natal/RN',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Trairi%20517%20Rua%20Trairi%20517%20Petr%C3%B3polis%20Natal%20RN',
+    area: '140 e 176 m²', profile: '3 e 4 suítes', detail: '72 unidades em 37 andares',
+    description: 'O Trairi 517 é uma torre residencial da Moura Dubeux na Rua Trairi, em Petrópolis, Natal, próxima à Praça Cívica. São 72 unidades privativas em 37 andares, com 2 apartamentos por andar: 176 m² com 4 suítes e 3 vagas, ou 140 m² com 3 suítes e 2 vagas, ambos em conceito open concept e com varanda de vista panorâmica. A arquitetura contemporânea tem paisagismo biofílico, e o lazer inclui piscina aquecida com prainha e minispa com hidro, terraço gourmet, área gourmet, academia, salão de festas, brinquedoteca, sala de jogos, playground, miniquadra e pet place.',
+    highlights: ['140 e 176 m²', '3 e 4 suítes', '2 a 3 vagas de garagem', 'Piscina aquecida com hidromassagem'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Petrópolis, Natal/RN'], ['Unidades', '72 apartamentos'], ['Garagem', '2 a 3 vagas por apartamento']],
+    technical: [
+      ['Área do terreno', '2.525,62 m²'],
+      ['Unidades', '72 unidades privativas: 35 pavimentos tipo com 2 apartamentos por andar, mais 2 coberturas (36º e 37º andares)'],
+      ['Apartamento 01', '176 m², 4 suítes e 3 vagas (unidades 101 a 3501)'],
+      ['Apartamento 02', '140 m², 3 suítes e 2 vagas (unidades 102 a 3502)'],
+      ['Plantas', 'Open concept, com sala de estar, jantar e cozinha integradas; opção de cozinha separada apresentada em perspectiva'],
+      ['Garagem', 'Subsolos 1 e 2 e térreo'],
+      ['Pavimentos de uso comum', 'Térreo e mezanino'],
+      ['Regime de construção', 'Administração (art. 58 e seguintes da Lei 4.591/64)'],
+      ['Registro de incorporação', 'R-6 da matrícula 57.984, 1º Ofício de Registro de Imóveis de Natal/RN'],
+      ['Material', 'Ilustrações artísticas, sujeitas a alterações de cores, texturas, acabamentos e composição; móveis e equipamentos ilustrados não estão no orçamento da obra'],
+    ],
+    amenities: ['Piscina aquecida com hidromassagem', 'Prainha e minispa com hidro', 'Deck da piscina', 'Piscina infantil', 'Cascata e paisagismo biofílico', 'Terraço gourmet', 'Área gourmet', 'Academia com equipamentos profissionais', 'Salão de festas', 'Brinquedoteca', 'Sala de jogos', 'Playground', 'Miniquadra', 'Pet place', 'Passeio interno', 'Loja de conveniência', 'Recepção e hall social', 'Hall privativo nos pavimentos tipo', 'Áreas comuns mobiliadas e equipadas'],
+    security: ['Controle automatizado de acesso de pedestres e veículos', 'Fechaduras eletrônicas nas portas sociais dos apartamentos', 'Infraestrutura para câmeras de segurança'],
+    sustainability: ['Elevadores com regeneração de energia', 'Irrigação automatizada', 'Iluminação LED nas áreas comuns', 'Paisagismo com espécies nativas', 'Placas solares para parte da área comum', 'Infraestrutura para carregamento de carro elétrico'],
+    projectTeam: ['Flávio Gois | Arquitetura', 'Zirpoli Arquitetura | Ambientação', 'Takeda Design | Paisagismo'],
+    gallery: [
+      { src: trairi517PhotoFachadaPerspectivaArquitetonica, titulo: 'Trairi 517 - perspectiva da fachada da torre' },
+      { src: trairi517PhotoFachadaVistaAerea, titulo: 'Perspectiva aérea da fachada e da torre' },
+      { src: trairi517PhotoFachadaVistaLateralEEntorno, titulo: 'Perspectiva lateral da fachada, das varandas e do entorno' },
+      { src: trairi517PhotoAcessoPrincipalEPorteCochere, titulo: 'Perspectiva do acesso principal e do porte-cochère' },
+      { src: trairi517PhotoCascataEPaisagismo, titulo: 'Perspectiva da cascata e do paisagismo' },
+      { src: trairi517PhotoHallSocial, titulo: 'Perspectiva do hall social' },
+      { src: trairi517PhotoAreasDeLazerVistaSuperior, titulo: 'Perspectiva aérea das áreas de lazer' },
+      { src: trairi517PhotoPiscinaVistaAerea, titulo: 'Perspectiva aérea da piscina, da prainha e do deck' },
+      { src: trairi517PhotoPlayground, titulo: 'Perspectiva do playground' },
+      { src: trairi517PhotoBrinquedoteca, titulo: 'Perspectiva da brinquedoteca' },
+      { src: trairi517PhotoSalaDeJogos, titulo: 'Perspectiva da sala de jogos' },
+      { src: trairi517PhotoTerracoGourmet, titulo: 'Perspectiva do terraço gourmet' },
+      { src: trairi517PhotoAreaGourmet, titulo: 'Perspectiva da área gourmet' },
+      { src: trairi517PhotoAcademia, titulo: 'Perspectiva da academia' },
+      { src: trairi517PhotoSalaoDeFestas, titulo: 'Perspectiva do salão de festas' },
+      { src: trairi517PhotoAmbienteResidencialDecorado, titulo: 'Perspectiva do ambiente residencial decorado' },
+      { src: trairi517PhotoApartamento176m2SalaCozinhaIntegradas, titulo: 'Perspectiva da sala e cozinha integradas do apartamento de 176 m²' },
+      { src: trairi517PhotoApartamento176m2OpcaoCozinhaSeparada, titulo: 'Perspectiva do apartamento de 176 m² com opção de cozinha separada' },
+      { src: trairi517PhotoApartamento176m2SuiteMaster, titulo: 'Perspectiva da suíte master do apartamento de 176 m²' },
+      { src: trairi517PhotoApartamento140m2SalaCozinhaIntegradas, titulo: 'Perspectiva da sala e cozinha integradas do apartamento de 140 m²' },
+      { src: trairi517PhotoApartamento140m2OpcaoCozinhaSeparada, titulo: 'Perspectiva do apartamento de 140 m² com opção de cozinha separada' },
+      { src: trairi517PhotoApartamento140m2SuiteMaster, titulo: 'Perspectiva da suíte master do apartamento de 140 m²' },
+    ],
+    floorPlans: [
+      { src: trairi517PlanPlantaImplantacaoGeral, titulo: 'Implantação geral no terreno' },
+      { src: trairi517PlanPlantaPavimentoTerreoAreasComuns, titulo: 'Pavimento térreo - áreas comuns e lazer' },
+      { src: trairi517PlanPlantaPavimentoMezanino, titulo: 'Pavimento mezanino - academia, salão de festas e hall social' },
+      { src: trairi517PlanPlantaPavimentoTipo, titulo: 'Pavimento tipo - 2 apartamentos por andar' },
+      { src: trairi517PlanPlantaApartamento176m24Suites, titulo: 'Apartamento de 176 m² - 4 suítes e 3 vagas' },
+      { src: trairi517PlanPlantaApartamento140m23Suites, titulo: 'Apartamento de 140 m² - 3 suítes e 2 vagas' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'venancio-barbosa', name: 'Venâncio Barbosa', image: venancioBarbosaCover,
+    city: 'Olinda, PE', neighborhood: 'Casa Caiada', locationTitle: 'Casa Caiada - Olinda/PE',
+    address: 'Casa Caiada, beira-mar, Olinda/PE',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Ven%C3%A2ncio%20Barbosa%20Casa%20Caiada%20Olinda%20PE',
+    area: '99 a 128 m²', profile: '3 quartos com suíte e 4 quartos com 2 suítes', detail: '3 apartamentos por andar',
+    description: 'O Venâncio Barbosa é um edifício residencial da Moura Dubeux de frente para o mar, na orla de Casa Caiada, em Olinda, cidade Patrimônio Histórico e Cultural da Humanidade. Os apartamentos têm de 99 a 128 m², com 3 quartos e 1 suíte ou 4 quartos e 2 suítes, varanda, sala para dois ambientes e dependência completa, com 2 ou 3 vagas de garagem. São 3 apartamentos por andar e 3 elevadores. O lazer inclui piscina, terraço gourmet, academia, salão de jogos, salão de festas e hall social.',
+    highlights: ['99 a 128 m²', '3 quartos com suíte ou 4 quartos com 2 suítes', '2 ou 3 vagas de garagem', 'Frente para o mar em Olinda'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Casa Caiada, Olinda/PE'], ['Apartamentos', '3 por andar'], ['Garagem', '2 ou 3 vagas por apartamento']],
+    technical: [
+      ['Terminações 01 e 02', '127,40 m² e 128,13 m², 4 quartos com 2 suítes'],
+      ['Terminação 03', '99,99 m², 3 quartos com 1 suíte'],
+      ['Configuração', '3 apartamentos por andar e 3 elevadores'],
+      ['Ambientes', 'Varanda, sala para dois ambientes, banheiro social, cozinha, área de serviço e dependência completa'],
+      ['Plantas', 'Opções de planta padrão, sala ampliada e suíte master com closet'],
+      ['Garagem', '2 ou 3 vagas, conforme a unidade'],
+      ['Registro de incorporação', 'R-06 da matrícula, no 1º Ofício de Registro de Imóveis de Olinda; número e validade a conferir no documento de registro'],
+      ['Material', 'Imagens e características ilustrativas, sujeitas a alterações; móveis e equipamentos ilustrados não integram necessariamente os apartamentos'],
+    ],
+    amenities: ['Piscina', 'Terraço gourmet', 'Academia', 'Salão de jogos', 'Salão de festas', 'Hall social', 'Áreas comuns equipadas'],
+    security: [],
+    sustainability: [],
+    projectTeam: [],
+    gallery: [
+      { src: venancioBarbosaPhotoFachadaEdificio, titulo: 'Venâncio Barbosa - perspectiva da fachada do edifício' },
+      { src: venancioBarbosaPhotoHallSocial, titulo: 'Perspectiva do hall social' },
+      { src: venancioBarbosaPhotoPiscina, titulo: 'Perspectiva da piscina' },
+      { src: venancioBarbosaPhotoTerracoGourmet, titulo: 'Perspectiva do terraço gourmet' },
+      { src: venancioBarbosaPhotoAcademiaFitness, titulo: 'Perspectiva da academia' },
+      { src: venancioBarbosaPhotoSalaoDeJogos, titulo: 'Perspectiva do salão de jogos' },
+      { src: venancioBarbosaPhotoSalaoDeFestas, titulo: 'Perspectiva do salão de festas' },
+      { src: venancioBarbosaPhotoSalasDeEstarEJantar, titulo: 'Perspectiva das salas de estar e jantar do apartamento' },
+      { src: venancioBarbosaPhotoVarandaComVistaMar, titulo: 'Perspectiva da varanda com vista para o mar' },
+      { src: venancioBarbosaPhotoSuite, titulo: 'Perspectiva da suíte do apartamento' },
+      { src: venancioBarbosaPhotoQuartoInfantil, titulo: 'Perspectiva do quarto infantil do apartamento' },
+    ],
+    floorPlans: [
+      { src: venancioBarbosaPlanTerminacoes0102PlantaPadrao127128m2, titulo: 'Terminações 01 e 02 (127 e 128 m²) - planta padrão' },
+      { src: venancioBarbosaPlanTerminacoes0102SalaAmpliada127128m2, titulo: 'Terminações 01 e 02 (127 e 128 m²) - sala ampliada' },
+      { src: venancioBarbosaPlanTerminacoes0102SuiteMasterCloset127128m2, titulo: 'Terminações 01 e 02 (127 e 128 m²) - suíte master com closet' },
+      { src: venancioBarbosaPlanTerminacao03PlantaPadrao99m2, titulo: 'Terminação 03 (99 m²) - planta padrão' },
+      { src: venancioBarbosaPlanTerminacao03SalaAmpliada99m2, titulo: 'Terminação 03 (99 m²) - sala ampliada' },
+      { src: venancioBarbosaPlanTerminacao03SuiteMasterCloset99m2, titulo: 'Terminação 03 (99 m²) - suíte master com closet' },
+    ],
+    locationImages: [
+      { src: venancioBarbosaLocOrlaEmFrenteAoCondominio, titulo: 'Foto da orla em frente ao condomínio' },
+      { src: venancioBarbosaLocVistaAereaBeiraMarOlinda, titulo: 'Vista aérea da orla de Olinda' },
+      { src: venancioBarbosaLocMapaIlustradoCasaCaiada, titulo: 'Mapa ilustrado de localização em Casa Caiada' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'verdano', name: 'Verdano', image: verdanoCover,
+    city: 'Recife, PE', neighborhood: 'Boa Viagem', locationTitle: 'Boa Viagem - Recife/PE',
+    address: 'Avenida Antônio Falcão com Rua Professor Arnaldo Carneiro Leão, Boa Viagem, Recife/PE',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Verdano%20Avenida%20Ant%C3%B4nio%20Falc%C3%A3o%20Rua%20Professor%20Arnaldo%20Carneiro%20Le%C3%A3o%20Recife%20PE',
+    area: '86,41 a 108,50 m²', profile: '3 quartos e 3 suítes', detail: '3 apartamentos por andar',
+    description: 'O Verdano é um empreendimento residencial da Moura Dubeux em Boa Viagem, no Recife, no cruzamento da Avenida Antônio Falcão com a Rua Professor Arnaldo Carneiro Leão, próximo à Via Mangue. De frente para uma reserva natural, tem 30 pavimentos tipo com 3 apartamentos por andar, de 86,41 a 108,50 m² e 2 vagas de garagem, com sala e cozinha integradas à varanda. O lazer inclui piscina adulto aquecida com hidromassagem, piscina infantil, terraço da piscina, playground, brinquedoteca, academia, salão de festas, pet place com pet wash e bicicletário.',
+    highlights: ['86,41 a 108,50 m²', '30 pavimentos tipo', '2 vagas de garagem', 'Frente para reserva natural'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Boa Viagem, Recife/PE'], ['Apartamentos', '3 por andar'], ['Garagem', '2 vagas por apartamento']],
+    technical: [
+      ['Pavimentos tipo', '30 pavimentos, com 3 apartamentos por andar'],
+      ['Terminação 01', '103,75 m² (o material não detalha quartos e suítes)'],
+      ['Terminação 02', '108,50 m², 3 suítes'],
+      ['Terminação 03', '86,41 m², 3 quartos com 1 suíte'],
+      ['Garagem', '2 vagas por unidade'],
+      ['Acabamentos', 'Porcelanato no piso, pintura e acabamentos elétricos instalados'],
+      ['Energia', 'Gerador para áreas comuns e, nos apartamentos, uma tomada e um interruptor de emergência'],
+      ['Carro elétrico', '2 pontos de carregamento'],
+      ['Proximidades', 'Shopping Recife, Evolution Shopping Park, Big Bompreço, Carrefour e Beach Class Boa Viagem, conforme o mapa do material'],
+      ['Material', 'Perspectivas ilustrativas; não atestam a situação atual da obra'],
+    ],
+    amenities: ['Piscina adulto aquecida com hidromassagem', 'Piscina infantil', 'Terraço da piscina', 'Playground', 'Brinquedoteca', 'Academia', 'Salão de festas', 'Pet place e pet wash', 'Bicicletário', 'Hall social', 'Espaço de guarda para e-commerce', 'Tomadas USB nas áreas comuns', 'Wi-Fi nas áreas comuns', 'Áreas comuns mobiliadas e equipadas'],
+    security: ['Controle de acesso', 'Fechaduras eletrônicas nas portas sociais dos apartamentos'],
+    sustainability: ['Placas solares nas áreas comuns', 'Iluminação LED nas áreas comuns', 'Irrigação automatizada', 'Pontos de carregamento para carro elétrico'],
+    projectTeam: [],
+    gallery: [
+      { src: verdanoPhotoFachadaPerspectivaEntardecer, titulo: 'Verdano - perspectiva da fachada no entardecer' },
+      { src: verdanoPhotoFachadaVistaDiurna, titulo: 'Perspectiva diurna da fachada' },
+      { src: verdanoPhotoFachadaDetalheDasVarandas, titulo: 'Perspectiva da fachada com detalhe das varandas' },
+      { src: verdanoPhotoAcessoPedestres, titulo: 'Perspectiva do acesso de pedestres' },
+      { src: verdanoPhotoPiscinaAdultoAquecidaComHidromassagem, titulo: 'Perspectiva da piscina adulto aquecida com hidromassagem' },
+      { src: verdanoPhotoPiscinaInfantil, titulo: 'Perspectiva da piscina infantil' },
+      { src: verdanoPhotoTerracoDaPiscina, titulo: 'Perspectiva do terraço da piscina' },
+      { src: verdanoPhotoPlayground, titulo: 'Perspectiva do playground' },
+      { src: verdanoPhotoBrinquedoteca, titulo: 'Perspectiva da brinquedoteca' },
+      { src: verdanoPhotoAcademiaFitness, titulo: 'Perspectiva da academia' },
+      { src: verdanoPhotoSalaoDeFestas, titulo: 'Perspectiva do salão de festas' },
+      { src: verdanoPhotoPetPlaceEPetWash, titulo: 'Perspectiva do pet place e do pet wash' },
+      { src: verdanoPhotoBicicletario, titulo: 'Perspectiva do bicicletário' },
+      { src: verdanoPhotoCarregamentoDeCarrosEletricos, titulo: 'Perspectiva do carregamento de carros elétricos' },
+      { src: verdanoPhotoApartamento02Living, titulo: 'Perspectiva do living do apartamento 02' },
+      { src: verdanoPhotoApartamento02CozinhaIntegradaAVaranda, titulo: 'Perspectiva da cozinha integrada à varanda do apartamento 02' },
+      { src: verdanoPhotoApartamento02VarandaGourmet, titulo: 'Perspectiva da varanda gourmet do apartamento 02' },
+      { src: verdanoPhotoApartamento02SuiteMaster, titulo: 'Perspectiva da suíte master do apartamento 02' },
+      { src: verdanoPhotoApartamento03Living, titulo: 'Perspectiva do living do apartamento 03' },
+      { src: verdanoPhotoApartamento03SuiteMaster, titulo: 'Perspectiva da suíte master do apartamento 03' },
+      { src: verdanoPhotoApartamento03VarandaGourmet, titulo: 'Perspectiva da varanda gourmet do apartamento 03' },
+    ],
+    floorPlans: [
+      { src: verdanoPlanImplantacaoPavimentoTerreo, titulo: 'Implantação do pavimento térreo' },
+      { src: verdanoPlanImplantacaoPavimentoVazado01, titulo: 'Implantação do pavimento vazado 01' },
+      { src: verdanoPlanImplantacaoPavimentoVazado02, titulo: 'Implantação do pavimento vazado 02' },
+      { src: verdanoPlanPlantaPavimentoTipo3Apartamentos, titulo: 'Pavimento tipo - 3 apartamentos por andar' },
+      { src: verdanoPlanPlantaApartamento0210850m23Suites, titulo: 'Apartamento 02 - 108,50 m² com 3 suítes' },
+      { src: verdanoPlanPlantaApartamento038641m23Quartos, titulo: 'Apartamento 03 - 86,41 m² com 3 quartos' },
+    ],
+    locationImages: [
+      { src: verdanoLocVistaDefinitivaReservaNatural, titulo: 'Vista panorâmica da reserva natural em frente ao empreendimento' },
+      { src: verdanoLocVistaAereaDaLocalizacaoEmBoaViagem, titulo: 'Vista aérea da localização em Boa Viagem' },
+      { src: verdanoLocMapaDoEntornoEPontosDeInteresse, titulo: 'Mapa do entorno e pontos de interesse' },
+    ],
+  }),
+  createDevelopment({
     slug: 'mirante-ruy-carneiro', name: 'Mirante Ruy Carneiro', image: mirantRuyCover,
     city: 'João Pessoa, PB', neighborhood: 'Jardim Luna', locationTitle: 'Jardim Luna - João Pessoa/PB',
     address: 'Avenida Senador Ruy Carneiro, Jardim Luna, João Pessoa/PB',
@@ -6193,7 +6444,7 @@ function DevelopmentDetail({ development }) {
   const touchStartX = useRef(null);
   const activeImages = activeLightbox ? lightboxGroups[activeLightbox.group] : [];
   const activeImage = activeLightbox ? activeImages[activeLightbox.index] : null;
-  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'concept-jatiuca', 'lanai-beach', 'beach-class-milagres', 'beach-class-natal', 'florata-tirol', 'les-amis-lagoa-nova', 'beach-class-ponta-negra', 'beach-class-porto-das-dunas', 'mirage', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'concept-joao-farinha', 'infinity-recife', 'lucena-plaza', 'edificio-libano', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-solare', 'beach-class-wave', 'beach-class-cumbuco', 'concept-joao-pessoa', 'concept-jardins', 'casa-jardins', 'casa-boris', 'miraflor-passeio-kennedy', 'beach-class-iracema', 'mirante-ruy-carneiro', 'mood-candelaria', 'mood-jacarecica', 'parque-das-palmeiras', 'mood-parque-das-dunas'].includes(development?.slug);
+  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'concept-jatiuca', 'lanai-beach', 'beach-class-milagres', 'beach-class-natal', 'florata-tirol', 'les-amis-lagoa-nova', 'beach-class-ponta-negra', 'beach-class-porto-das-dunas', 'mirage', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'concept-joao-farinha', 'infinity-recife', 'lucena-plaza', 'edificio-libano', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-solare', 'beach-class-wave', 'beach-class-cumbuco', 'concept-joao-pessoa', 'concept-jardins', 'casa-jardins', 'casa-boris', 'miraflor-passeio-kennedy', 'beach-class-iracema', 'mirante-ruy-carneiro', 'mood-candelaria', 'mood-jacarecica', 'parque-das-palmeiras', 'mood-parque-das-dunas', 'trairi-517', 'venancio-barbosa', 'verdano'].includes(development?.slug);
   const visibleGalleryImages = lightboxGroups.gallery.slice(0, 5);
   const remainingGalleryCount = Math.max(0, lightboxGroups.gallery.length - visibleGalleryImages.length);
   const visibleFloorPlans = showAllOrganizedImages
