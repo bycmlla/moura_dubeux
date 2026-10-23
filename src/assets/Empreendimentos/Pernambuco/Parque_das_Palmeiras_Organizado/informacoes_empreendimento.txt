@@ -1,0 +1,68 @@
+PARQUE DAS PALMEIRAS - INFORMAÇÕES DO EMPREENDIMENTO
+======================================================
+Fonte: catálogo comercial “Parque das Palmeiras.pdf”, Moura Dubeux, 41 páginas.
+
+NOME: Parque das Palmeiras
+INCORPORADORA / MARCA: Moura Dubeux
+LOCALIZAÇÃO: Recife - Pernambuco.
+REFERÊNCIAS: em frente ao Caxangá Golf & Country Club e nas proximidades da Avenida Caxangá. O material apresenta a Rua Engenho Poeta no mapa de localização (página 9).
+ENDEREÇO COM NÚMERO: não informado no catálogo. Confirmar junto à incorporadora antes de publicar um endereço específico.
+
+DESCRIÇÃO
+Empreendimento residencial com proposta de integração com a natureza e vista para a área verde do Caxangá Golf & Country Club. Apresenta opções de apartamentos de 2 ou 3 quartos, com suíte, e áreas comuns de lazer, atividades físicas, trabalho e convivência. O catálogo destaca o contato com as árvores e o fácil acesso ao comércio e aos serviços por meio da Avenida Caxangá.
+
+APARTAMENTOS
+- Metragens informadas: de 53 a 70 m².
+- Tipologias: 2 ou 3 quartos, sendo 1 suíte.
+- Plantas detalhadas no catálogo: apartamentos de 53 m² e de 70 m² (páginas 37 e 38).
+- Vagas de garagem: opções com 1 ou 2 vagas por apartamento.
+- Varanda gourmet: prevista, exceto nos apartamentos com terminação 5 (página 31).
+- Terminações 1 a 4: o catálogo destaca a varanda gourmet voltada para a vista do Golf Club (página 39).
+- Peitoril da varanda em vidro, conforme o texto ilustrativo da página 32.
+
+ÁREAS DE LAZER, CONVIVÊNCIA E SERVIÇOS
+- Piscina adulto e piscina infantil
+- Terraço da piscina, deck e lounges
+- Quadra esportiva
+- Playground
+- Pet place e pet wash
+- Brinquedoteca
+- Espaço gourmet
+- Salão de festas
+- Academia / fitness
+- Coworking
+- Espaço delivery
+- Hall de entrada
+- Praça de esporte, praça central, estar externo e espaço zen
+- Pavimento coliving (vazado 1) com academia, espaço gourmet e coworking
+- Pavimento verde (vazado 2) com áreas de lazer, quadra e salão de festas
+
+DIFERENCIAIS ANUNCIADOS (página 39)
+- Irrigação inteligente
+- Áreas comuns mobiliadas e equipadas
+- Fechadura eletrônica nas portas sociais dos apartamentos
+- 2 estações para carro elétrico
+- Apartamentos entregues com porcelanato no piso
+- Placa solar para alimentação de áreas comuns
+- Telhado verde
+
+PROJETOS (página 40)
+- Projeto de ambientação: Porto Neves Arquitetura
+- Projeto de arquitetura: Pontual Arquitetos
+- Projeto de paisagismo: ML Arquitetura e Paisagismo
+
+INFORMAÇÕES COMERCIAIS E RESSALVAS
+- A peça publicitária declara que as imagens são ilustrativas e promocionais; elementos, materiais e acabamentos podem sofrer alterações.
+- Móveis, utensílios, equipamentos e decoração ilustrados não integram necessariamente o contrato de compra e venda.
+- Registro do memorial de incorporação informado na página 41: R-20/445, Livro 2-RG, perante o 7º Cartório de Registro Geral de Imóveis do Recife-PE.
+- Não constam no catálogo: preço, data de entrega, endereço numerado e tabela de disponibilidade. Não foram inventados.
+
+ORGANIZAÇÃO DOS ARQUIVOS
+01_Capa: uma imagem da fachada selecionada como capa.
+02_Imagens_Empreendimento: somente imagens do prédio, áreas comuns e interiores; sem plantas.
+03_Plantas/01_Plantas_Isoladas: plantas e implantações como imagens separadas, sem a moldura do catálogo.
+03_Plantas/02_Plantas_Com_Legendas: as mesmas páginas com textos e legendas do catálogo.
+04_Localizacao_e_Entorno: localização aérea e vista para o Golf Club.
+origem_das_imagens.csv: nomes, páginas de origem e descrições.
+
+NOTA: Todas as informações e as imagens são provenientes exclusivamente do PDF fornecido. Valide a divulgação pública e os dados comerciais com a incorporadora.

@@ -805,6 +805,86 @@ import miragePlanReferenciaPlantaPavimentoTipoLegendaOriginal from './assets/Emp
 import miragePlanReferenciaPlantaApartamento3dLegendaOriginal from './assets/Empreendimentos/Pernambuco/Mirage_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_planta_apartamento_3d_legenda_original.png';
 import miragePlanReferenciaPlantaQuartoServicoLegendaOriginal from './assets/Empreendimentos/Pernambuco/Mirage_Organizado/03_Plantas_e_Implantacao/03_Referencias_com_Legendas/referencia_planta_quarto_servico_legenda_original.png';
 import mirageLocVistaAereaUrbanaContextoRegiao from './assets/Empreendimentos/Pernambuco/Mirage_Organizado/04_Localizacao_e_Entorno/vista_aerea_urbana_contexto_regiao.png';
+import parqueDasPalmeirasCover from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/01_Capa/capa_fachada_parque_das_palmeiras.png';
+import parquePalmeirasPhotoFachadaPrincipalTorre from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/fachada_principal_torre.png';
+import parquePalmeirasPhotoVistaAereaAreasDeLazerEPiscinas from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/vista_aerea_areas_de_lazer_e_piscinas.png';
+import parquePalmeirasPhotoPiscinasAdultoEInfantil from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/piscinas_adulto_e_infantil.png';
+import parquePalmeirasPhotoTerracoDaPiscina from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/terraco_da_piscina.png';
+import parquePalmeirasPhotoTerracoAreasSociais from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/terraco_areas_sociais.png';
+import parquePalmeirasPhotoLoungeExterno from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/lounge_externo.png';
+import parquePalmeirasPhotoQuadraPoliesportiva from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/quadra_poliesportiva.png';
+import parquePalmeirasPhotoPlaygroundEPergolado from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/playground_e_pergolado.png';
+import parquePalmeirasPhotoPetPlaceAreaParaPets from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/pet_place_area_para_pets.png';
+import parquePalmeirasPhotoPetWash from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/pet_wash.png';
+import parquePalmeirasPhotoHallDeEntrada from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/hall_de_entrada.png';
+import parquePalmeirasPhotoEspacoGourmet from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/espaco_gourmet.png';
+import parquePalmeirasPhotoSalaoDeFestas from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/salao_de_festas.png';
+import parquePalmeirasPhotoAcademiaFitness from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/academia_fitness.png';
+import parquePalmeirasPhotoBrinquedoteca from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/brinquedoteca.png';
+import parquePalmeirasPhotoCoworking from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/coworking.png';
+import parquePalmeirasPhotoEspacoDelivery from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/espaco_delivery.png';
+import parquePalmeirasPhotoApartamentoVarandaGourmetVistaGolfClub from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/apartamento_varanda_gourmet_vista_golf_club.png';
+import parquePalmeirasPhotoApartamentoSalaCozinhaIntegradas from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/apartamento_sala_cozinha_integradas.png';
+import parquePalmeirasPhotoApartamentoLivingESalaDeJantar from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/apartamento_living_e_sala_de_jantar.png';
+import parquePalmeirasPhotoApartamentoSuite from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/02_Imagens_Empreendimento/apartamento_suite.png';
+import parquePalmeirasPlanPlantaImplantacaoGeral from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/03_Plantas/01_Plantas_Isoladas/planta_implantacao_geral.png';
+import parquePalmeirasPlanImplantacaoLazerPavimentoTerreo from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/03_Plantas/01_Plantas_Isoladas/implantacao_lazer_pavimento_terreo.png';
+import parquePalmeirasPlanPlantaPavimentoColivingVazado1 from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/03_Plantas/01_Plantas_Isoladas/planta_pavimento_coliving_vazado_1.png';
+import parquePalmeirasPlanPlantaPavimentoVerdeVazado2 from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/03_Plantas/01_Plantas_Isoladas/planta_pavimento_verde_vazado_2.png';
+import parquePalmeirasPlanPlantaPavimentoTipo from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/03_Plantas/01_Plantas_Isoladas/planta_pavimento_tipo.png';
+import parquePalmeirasPlanPlantaApartamento70m23Quartos from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/03_Plantas/01_Plantas_Isoladas/planta_apartamento_70m2_3_quartos.png';
+import parquePalmeirasPlanPlantaApartamento53m22Quartos from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/03_Plantas/01_Plantas_Isoladas/planta_apartamento_53m2_2_quartos.png';
+import parquePalmeirasPlanPlantaImplantacaoGeralComLegendas from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/03_Plantas/02_Plantas_Com_Legendas/planta_implantacao_geral_com_legendas.png';
+import parquePalmeirasPlanImplantacaoLazerPavimentoTerreoComLegendas from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/03_Plantas/02_Plantas_Com_Legendas/implantacao_lazer_pavimento_terreo_com_legendas.png';
+import parquePalmeirasPlanPlantaPavimentoColivingVazado1ComLegendas from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/03_Plantas/02_Plantas_Com_Legendas/planta_pavimento_coliving_vazado_1_com_legendas.png';
+import parquePalmeirasPlanPlantaPavimentoVerdeVazado2ComLegendas from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/03_Plantas/02_Plantas_Com_Legendas/planta_pavimento_verde_vazado_2_com_legendas.png';
+import parquePalmeirasPlanPlantaPavimentoTipoComLegendas from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/03_Plantas/02_Plantas_Com_Legendas/planta_pavimento_tipo_com_legendas.png';
+import parquePalmeirasPlanPlantaApartamento70m23QuartosComLegendas from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/03_Plantas/02_Plantas_Com_Legendas/planta_apartamento_70m2_3_quartos_com_legendas.png';
+import parquePalmeirasPlanPlantaApartamento53m22QuartosComLegendas from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/03_Plantas/02_Plantas_Com_Legendas/planta_apartamento_53m2_2_quartos_com_legendas.png';
+import parquePalmeirasLocVistaCaxangaGolfCountryClub from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/04_Localizacao_e_Entorno/vista_caxanga_golf_country_club.png';
+import parquePalmeirasLocLocalizacaoAereaAvenidaCaxangaEngenhoPoeta from './assets/Empreendimentos/Pernambuco/Parque_das_Palmeiras_Organizado/04_Localizacao_e_Entorno/localizacao_aerea_avenida_caxanga_engenho_poeta.png';
+import moodParqueDasDunasCover from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/01_Capa/capa_principal_fachada_torre_mood_parque_das_dunas.png';
+import moodParqueDasDunasPhotoFachadaTorrePerspectivaFrontal from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/fachada_torre_perspectiva_frontal.png';
+import moodParqueDasDunasPhotoGuaritaPortariaAcessoPrincipal from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/guarita_portaria_acesso_principal.png';
+import moodParqueDasDunasPhotoHallDeAcessoSocial from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/hall_de_acesso_social.png';
+import moodParqueDasDunasPhotoPiscinaEFachadaVistaAerea from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/piscina_e_fachada_vista_aerea.png';
+import moodParqueDasDunasPhotoPiscinaAdulto from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/piscina_adulto.png';
+import moodParqueDasDunasPhotoPiscinaInfantilEEspacoGourmet from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/piscina_infantil_e_espaco_gourmet.png';
+import moodParqueDasDunasPhotoEspacoGourmetLazer from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/espaco_gourmet_lazer.png';
+import moodParqueDasDunasPhotoSalaoDeFestas from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/salao_de_festas.png';
+import moodParqueDasDunasPhotoPracaCentralEstar from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/praca_central_estar.png';
+import moodParqueDasDunasPhotoPlaygroundInfantil from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/playground_infantil.png';
+import moodParqueDasDunasPhotoBrinquedoteca from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/brinquedoteca.png';
+import moodParqueDasDunasPhotoMiniquadraPoliesportiva from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/miniquadra_poliesportiva.png';
+import moodParqueDasDunasPhotoAcademiaInterna from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/academia_interna.png';
+import moodParqueDasDunasPhotoAcademiaAoArLivre from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/academia_ao_ar_livre.png';
+import moodParqueDasDunasPhotoSalaDeJogos from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/sala_de_jogos.png';
+import moodParqueDasDunasPhotoCoworking from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/coworking.png';
+import moodParqueDasDunasPhotoMinimarketLojaConveniencia from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/minimarket_loja_conveniencia.png';
+import moodParqueDasDunasPhotoPetPlaceEspacoAnimais from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/pet_place_espaco_animais.png';
+import moodParqueDasDunasPhotoApartamentoGardenTipoComfortAreaExterna from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_garden_tipo_comfort_area_externa.png';
+import moodParqueDasDunasPhotoApartamentoGardenTipoSmartAreaExterna from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_garden_tipo_smart_area_externa.png';
+import moodParqueDasDunasPhotoApartamentoComfort70m2SalaDeEstar from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_comfort_70m2_sala_de_estar.png';
+import moodParqueDasDunasPhotoApartamentoComfort70m2Varanda from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_comfort_70m2_varanda.png';
+import moodParqueDasDunasPhotoApartamentoComfort70m2SuiteMaster from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_comfort_70m2_suite_master.png';
+import moodParqueDasDunasPhotoApartamentoComfort70m2Quarto from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_comfort_70m2_quarto.png';
+import moodParqueDasDunasPhotoApartamentoSmart59m2SalaDeEstar from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_smart_59m2_sala_de_estar.png';
+import moodParqueDasDunasPhotoApartamentoSmart59m2Varanda from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_smart_59m2_varanda.png';
+import moodParqueDasDunasPhotoApartamentoSmart59m2SuiteMaster from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_smart_59m2_suite_master.png';
+import moodParqueDasDunasPhotoApartamentoSmart59m2Quarto from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/02_Imagens_Empreendimento/apartamento_smart_59m2_quarto.png';
+import moodParqueDasDunasPlanImplantacaoGeralCondominio from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/03_Plantas_e_Implantacao/implantacao_geral_condominio.png';
+import moodParqueDasDunasPlanPlantaPavimentoTerreoGardens from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/03_Plantas_e_Implantacao/planta_pavimento_terreo_gardens.png';
+import moodParqueDasDunasPlanPlantaPavimentoTipo from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/03_Plantas_e_Implantacao/planta_pavimento_tipo.png';
+import moodParqueDasDunasPlanPlantaIndividualComfort7002m2 from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/03_Plantas_e_Implantacao/planta_individual_comfort_70_02m2.png';
+import moodParqueDasDunasPlanPlantaIndividualSmart5897m2 from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/03_Plantas_e_Implantacao/planta_individual_smart_58_97m2.png';
+import moodParqueDasDunasPlanReferenciaPagina08LegendasOriginais from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/03_Plantas_e_Implantacao/referencia_pagina_08_legendas_originais.png';
+import moodParqueDasDunasPlanReferenciaPagina27LegendasOriginais from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/03_Plantas_e_Implantacao/referencia_pagina_27_legendas_originais.png';
+import moodParqueDasDunasPlanReferenciaPagina30LegendasOriginais from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/03_Plantas_e_Implantacao/referencia_pagina_30_legendas_originais.png';
+import moodParqueDasDunasPlanReferenciaPagina31LegendasOriginais from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/03_Plantas_e_Implantacao/referencia_pagina_31_legendas_originais.png';
+import moodParqueDasDunasPlanReferenciaPagina36LegendasOriginais from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/03_Plantas_e_Implantacao/referencia_pagina_36_legendas_originais.png';
+import moodParqueDasDunasLocVistaAereaCapimMacioPontaNegra from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/04_Localizacao_e_Entorno/vista_aerea_capim_macio_ponta_negra.png';
+import moodParqueDasDunasLocVistaAereaLocalizacaoEmNatal from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/04_Localizacao_e_Entorno/vista_aerea_localizacao_em_natal.png';
+import moodParqueDasDunasLocMapaAereoRuasDeAcesso from './assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/04_Localizacao_e_Entorno/mapa_aereo_ruas_de_acesso.png';
 import mirantRuyCover from './assets/Empreendimentos/Paraíba/Mirante_Ruy_Carneiro_Organizado/01_Capa/capa_fachada_mirante_ruy_carneiro.png';
 import mirantRuyPhotoFachadaTorreVistaAereaAvenidaRuyCarneiro from './assets/Empreendimentos/Paraíba/Mirante_Ruy_Carneiro_Organizado/02_Imagens_Empreendimento/fachada_torre_vista_aerea_avenida_ruy_carneiro.png';
 import mirantRuyPhotoAlamedaRuyCarneiroFachadaTerreo from './assets/Empreendimentos/Paraíba/Mirante_Ruy_Carneiro_Organizado/02_Imagens_Empreendimento/alameda_ruy_carneiro_fachada_terreo.png';
@@ -3491,6 +3571,146 @@ const additionalDevelopments = [
     ],
   }),
   createDevelopment({
+    slug: 'parque-das-palmeiras', name: 'Parque das Palmeiras', image: parqueDasPalmeirasCover,
+    city: 'Recife, PE', neighborhood: 'Caxangá', locationTitle: 'Caxangá - Recife/PE',
+    address: 'Em frente ao Caxangá Golf & Country Club, Avenida Caxangá, Recife/PE',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Parque%20das%20Palmeiras%20Caxang%C3%A1%20Golf%20%26%20Country%20Club%20Recife%20PE',
+    area: '53 a 70 m²', profile: '2 e 3 quartos, com 1 suíte', detail: 'Varanda gourmet com vista para o Golf Club',
+    description: 'O Parque das Palmeiras é um empreendimento residencial da Moura Dubeux em Recife, em frente ao Caxangá Golf & Country Club e próximo à Avenida Caxangá. A proposta é integrar a moradia à natureza, com vista para a área verde do clube. Os apartamentos têm de 53 a 70 m², com 2 ou 3 quartos, suíte e opções de 1 ou 2 vagas de garagem. O lazer reúne piscinas adulto e infantil, quadra esportiva, playground, pet place e pet wash, brinquedoteca, espaço gourmet, salão de festas, academia, coworking e espaço delivery, além dos pavimentos coliving e verde.',
+    highlights: ['53 a 70 m²', '2 e 3 quartos, com suíte', '1 ou 2 vagas de garagem', 'Em frente ao Caxangá Golf & Country Club'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Caxangá, Recife/PE'], ['Apartamentos', '53 a 70 m²'], ['Garagem', '1 ou 2 vagas por apartamento']],
+    technical: [
+      ['Apartamentos', '53 m² (2 quartos) e 70 m² (3 quartos), ambos com 1 suíte'],
+      ['Garagem', 'Opções com 1 ou 2 vagas por apartamento'],
+      ['Varanda gourmet', 'Prevista, exceto nos apartamentos com terminação 5; nas terminações 1 a 4, voltada para a vista do Golf Club'],
+      ['Varanda', 'Peitoril em vidro'],
+      ['Acabamento', 'Apartamentos entregues com porcelanato no piso'],
+      ['Pavimento coliving (vazado 1)', 'Academia, espaço gourmet e coworking'],
+      ['Pavimento verde (vazado 2)', 'Áreas de lazer, quadra e salão de festas'],
+      ['Registro de incorporação', 'R-20/445, Livro 2-RG, no 7º Cartório de Registro Geral de Imóveis do Recife/PE'],
+      ['Material', 'Imagens ilustrativas e promocionais; elementos, materiais e acabamentos podem sofrer alterações'],
+    ],
+    amenities: ['Piscina adulto', 'Piscina infantil', 'Terraço da piscina, deck e lounges', 'Quadra esportiva', 'Playground', 'Pet place', 'Pet wash', 'Brinquedoteca', 'Espaço gourmet', 'Salão de festas', 'Academia', 'Coworking', 'Espaço delivery', 'Hall de entrada', 'Praça de esporte, praça central, estar externo e espaço zen', 'Pavimento coliving', 'Pavimento verde', 'Áreas comuns mobiliadas e equipadas'],
+    security: ['Fechadura eletrônica nas portas sociais dos apartamentos'],
+    sustainability: ['Irrigação inteligente', 'Placa solar para as áreas comuns', 'Telhado verde', '2 estações para carro elétrico'],
+    projectTeam: ['Pontual Arquitetos | Arquitetura', 'Porto Neves Arquitetura | Ambientação', 'ML Arquitetura e Paisagismo | Paisagismo'],
+    gallery: [
+      { src: parquePalmeirasPhotoFachadaPrincipalTorre, titulo: 'Parque das Palmeiras - perspectiva da fachada principal da torre' },
+      { src: parquePalmeirasPhotoVistaAereaAreasDeLazerEPiscinas, titulo: 'Perspectiva aérea das áreas de lazer e das piscinas' },
+      { src: parquePalmeirasPhotoPiscinasAdultoEInfantil, titulo: 'Perspectiva das piscinas adulto e infantil' },
+      { src: parquePalmeirasPhotoTerracoDaPiscina, titulo: 'Perspectiva do terraço da piscina' },
+      { src: parquePalmeirasPhotoTerracoAreasSociais, titulo: 'Perspectiva do terraço e das áreas sociais' },
+      { src: parquePalmeirasPhotoLoungeExterno, titulo: 'Perspectiva do lounge externo com vista para a área verde' },
+      { src: parquePalmeirasPhotoQuadraPoliesportiva, titulo: 'Perspectiva da quadra esportiva' },
+      { src: parquePalmeirasPhotoPlaygroundEPergolado, titulo: 'Perspectiva do playground e do pergolado' },
+      { src: parquePalmeirasPhotoPetPlaceAreaParaPets, titulo: 'Perspectiva do pet place' },
+      { src: parquePalmeirasPhotoPetWash, titulo: 'Perspectiva do pet wash' },
+      { src: parquePalmeirasPhotoHallDeEntrada, titulo: 'Perspectiva do hall de entrada e da recepção' },
+      { src: parquePalmeirasPhotoEspacoGourmet, titulo: 'Perspectiva do espaço gourmet' },
+      { src: parquePalmeirasPhotoSalaoDeFestas, titulo: 'Perspectiva do salão de festas' },
+      { src: parquePalmeirasPhotoAcademiaFitness, titulo: 'Perspectiva da academia' },
+      { src: parquePalmeirasPhotoBrinquedoteca, titulo: 'Perspectiva da brinquedoteca' },
+      { src: parquePalmeirasPhotoCoworking, titulo: 'Perspectiva do coworking' },
+      { src: parquePalmeirasPhotoEspacoDelivery, titulo: 'Perspectiva do espaço delivery' },
+      { src: parquePalmeirasPhotoApartamentoVarandaGourmetVistaGolfClub, titulo: 'Perspectiva da varanda gourmet com vista para o Golf Club' },
+      { src: parquePalmeirasPhotoApartamentoSalaCozinhaIntegradas, titulo: 'Perspectiva da sala e cozinha integradas do apartamento' },
+      { src: parquePalmeirasPhotoApartamentoLivingESalaDeJantar, titulo: 'Perspectiva do living e da sala de jantar do apartamento' },
+      { src: parquePalmeirasPhotoApartamentoSuite, titulo: 'Perspectiva da suíte do apartamento' },
+    ],
+    floorPlans: [
+      { src: parquePalmeirasPlanPlantaImplantacaoGeral, titulo: 'Implantação geral do terreno' },
+      { src: parquePalmeirasPlanImplantacaoLazerPavimentoTerreo, titulo: 'Implantação do pavimento térreo e do lazer' },
+      { src: parquePalmeirasPlanPlantaPavimentoColivingVazado1, titulo: 'Pavimento coliving (vazado 1) - academia, espaço gourmet e coworking' },
+      { src: parquePalmeirasPlanPlantaPavimentoVerdeVazado2, titulo: 'Pavimento verde (vazado 2) - quadra, lounge e salão de festas' },
+      { src: parquePalmeirasPlanPlantaPavimentoTipo, titulo: 'Pavimento tipo' },
+      { src: parquePalmeirasPlanPlantaApartamento70m23Quartos, titulo: 'Apartamento de 70 m² - 3 quartos com suíte' },
+      { src: parquePalmeirasPlanPlantaApartamento53m22Quartos, titulo: 'Apartamento de 53 m² - 2 quartos com suíte' },
+      { src: parquePalmeirasPlanPlantaImplantacaoGeralComLegendas, titulo: 'Implantação geral do terreno com legendas (página de referência)' },
+      { src: parquePalmeirasPlanImplantacaoLazerPavimentoTerreoComLegendas, titulo: 'Implantação do pavimento térreo e do lazer com legendas (página de referência)' },
+      { src: parquePalmeirasPlanPlantaPavimentoColivingVazado1ComLegendas, titulo: 'Pavimento coliving (vazado 1) - academia, espaço gourmet e coworking com legendas (página de referência)' },
+      { src: parquePalmeirasPlanPlantaPavimentoVerdeVazado2ComLegendas, titulo: 'Pavimento verde (vazado 2) - quadra, lounge e salão de festas com legendas (página de referência)' },
+      { src: parquePalmeirasPlanPlantaPavimentoTipoComLegendas, titulo: 'Pavimento tipo com legendas (página de referência)' },
+      { src: parquePalmeirasPlanPlantaApartamento70m23QuartosComLegendas, titulo: 'Apartamento de 70 m² - 3 quartos com suíte com legendas (página de referência)' },
+      { src: parquePalmeirasPlanPlantaApartamento53m22QuartosComLegendas, titulo: 'Apartamento de 53 m² - 2 quartos com suíte com legendas (página de referência)' },
+    ],
+    locationImages: [
+      { src: parquePalmeirasLocVistaCaxangaGolfCountryClub, titulo: 'Vista aérea da área verde e do Caxangá Golf & Country Club' },
+      { src: parquePalmeirasLocLocalizacaoAereaAvenidaCaxangaEngenhoPoeta, titulo: 'Localização aérea - Avenida Caxangá e Rua Engenho Poeta' },
+    ],
+  }),
+  createDevelopment({
+    slug: 'mood-parque-das-dunas', name: 'Mood Parque das Dunas', image: moodParqueDasDunasCover,
+    city: 'Natal, RN', neighborhood: 'Capim Macio', locationTitle: 'Capim Macio - Natal/RN',
+    address: 'Capim Macio, Natal/RN. Acessos pela Rua Professora Dirce Coutinho e pela Rua Humberto Monte.',
+    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Mood%20Parque%20das%20Dunas%20Capim%20Macio%20Natal%20RN',
+    area: '58,97 a 70,02 m², com opções Garden', profile: '2 quartos, com varanda', detail: '158 unidades em 1 torre',
+    description: 'O Mood Parque das Dunas é um residencial da Moura Dubeux no bairro Capim Macio, em Natal, próximo ao Parque das Dunas e à região de Ponta Negra. São 158 unidades em uma torre, com apartamentos de 2 quartos nas versões Smart (58,97 m²) e Comfort (70,02 m², com cômodo reversível), todos com varanda, além de opções Garden no térreo. O lazer inclui piscinas adulto e infantil, espaços gourmet integrados à piscina e à miniquadra, academia, coworking, brinquedoteca, salão de festas, sala de jogos, playground, pet place e minimarket.',
+    highlights: ['58,97 a 70,02 m²', '158 unidades', 'Todas as unidades com varanda', 'Opções Garden no térreo'],
+    stats: [['Construtora', 'Moura Dubeux'], ['Localização', 'Capim Macio, Natal/RN'], ['Unidades', '158 apartamentos'], ['Garagem', '165 vagas']],
+    technical: [
+      ['Área do terreno', '4.000,00 m²'],
+      ['Unidades', '158 unidades privativas: 152 nos pavimentos tipo e 6 Gardens no térreo'],
+      ['Pavimentos tipo', 'Do 1º ao 19º andar, com 8 apartamentos por pavimento'],
+      ['Comfort', '70,02 m², 2 quartos com possibilidade de cômodo reversível, conforme a planta'],
+      ['Smart', '58,97 m², 2 quartos'],
+      ['Gardens', 'Aptos 2 e 7: 70,02 m² + cerca de 29 m² de garden; aptos 3 e 6: 70,02 m² + cerca de 24 m² de garden; aptos 4 e 5: 58,97 m² + cerca de 28 m² de garden (metragens de garden arredondadas no material)'],
+      ['Garagem', '165 vagas em edifício-garagem: térreo, 1º e 2º pavimentos, com área comum no 3º pavimento'],
+      ['Varandas', 'Entregues sem bancadas, cubas e metais'],
+      ['Material', 'Perspectivas ilustrativas; áreas e acabamentos conforme o memorial descritivo e o contrato'],
+    ],
+    amenities: ['Guarita com controle de acesso', 'Hall de acesso social', 'Piscina adulto', 'Piscina infantil', 'Espaço gourmet integrado à piscina', 'Espaço gourmet integrado à miniquadra', 'Salão de festas', 'Praça central e estar', 'Playground', 'Brinquedoteca', 'Miniquadra poliesportiva', 'Academia', 'Academia ao ar livre', 'Sala de jogos', 'Coworking', 'Minimarket', 'Pet place', 'Estrutura para delivery e e-commerce', 'Áreas comuns equipadas e mobiliadas'],
+    security: ['Guarita com controle de acesso'],
+    sustainability: [],
+    projectTeam: ['FST Arquitetura | Arquitetura', 'Samara Gosson | Ambientação das áreas comuns', 'Takeda Design | Paisagismo', 'Lia Peixoto | Ambientação dos apartamentos'],
+    gallery: [
+      { src: moodParqueDasDunasPhotoFachadaTorrePerspectivaFrontal, titulo: 'Mood Parque das Dunas - perspectiva da fachada da torre' },
+      { src: moodParqueDasDunasPhotoGuaritaPortariaAcessoPrincipal, titulo: 'Perspectiva da guarita e do acesso principal' },
+      { src: moodParqueDasDunasPhotoHallDeAcessoSocial, titulo: 'Perspectiva do hall de acesso social' },
+      { src: moodParqueDasDunasPhotoPiscinaEFachadaVistaAerea, titulo: 'Perspectiva aérea da piscina e da fachada' },
+      { src: moodParqueDasDunasPhotoPiscinaAdulto, titulo: 'Perspectiva da piscina adulto' },
+      { src: moodParqueDasDunasPhotoPiscinaInfantilEEspacoGourmet, titulo: 'Perspectiva da piscina infantil e do espaço gourmet' },
+      { src: moodParqueDasDunasPhotoEspacoGourmetLazer, titulo: 'Perspectiva do espaço gourmet do lazer' },
+      { src: moodParqueDasDunasPhotoSalaoDeFestas, titulo: 'Perspectiva do salão de festas' },
+      { src: moodParqueDasDunasPhotoPracaCentralEstar, titulo: 'Perspectiva da praça central e do estar' },
+      { src: moodParqueDasDunasPhotoPlaygroundInfantil, titulo: 'Perspectiva do playground infantil' },
+      { src: moodParqueDasDunasPhotoBrinquedoteca, titulo: 'Perspectiva da brinquedoteca' },
+      { src: moodParqueDasDunasPhotoMiniquadraPoliesportiva, titulo: 'Perspectiva da miniquadra poliesportiva' },
+      { src: moodParqueDasDunasPhotoAcademiaInterna, titulo: 'Perspectiva da academia interna' },
+      { src: moodParqueDasDunasPhotoAcademiaAoArLivre, titulo: 'Perspectiva da academia ao ar livre' },
+      { src: moodParqueDasDunasPhotoSalaDeJogos, titulo: 'Perspectiva da sala de jogos' },
+      { src: moodParqueDasDunasPhotoCoworking, titulo: 'Perspectiva do coworking' },
+      { src: moodParqueDasDunasPhotoMinimarketLojaConveniencia, titulo: 'Perspectiva do minimarket' },
+      { src: moodParqueDasDunasPhotoPetPlaceEspacoAnimais, titulo: 'Perspectiva do pet place' },
+      { src: moodParqueDasDunasPhotoApartamentoGardenTipoComfortAreaExterna, titulo: 'Perspectiva da área externa do apartamento Garden Comfort' },
+      { src: moodParqueDasDunasPhotoApartamentoGardenTipoSmartAreaExterna, titulo: 'Perspectiva da área externa do apartamento Garden Smart' },
+      { src: moodParqueDasDunasPhotoApartamentoComfort70m2SalaDeEstar, titulo: 'Perspectiva da sala de estar do apartamento Comfort (70 m²)' },
+      { src: moodParqueDasDunasPhotoApartamentoComfort70m2Varanda, titulo: 'Perspectiva da varanda do apartamento Comfort (70 m²)' },
+      { src: moodParqueDasDunasPhotoApartamentoComfort70m2SuiteMaster, titulo: 'Perspectiva da suíte master do apartamento Comfort (70 m²)' },
+      { src: moodParqueDasDunasPhotoApartamentoComfort70m2Quarto, titulo: 'Perspectiva do quarto do apartamento Comfort (70 m²)' },
+      { src: moodParqueDasDunasPhotoApartamentoSmart59m2SalaDeEstar, titulo: 'Perspectiva da sala de estar do apartamento Smart (59 m²)' },
+      { src: moodParqueDasDunasPhotoApartamentoSmart59m2Varanda, titulo: 'Perspectiva da varanda do apartamento Smart (59 m²)' },
+      { src: moodParqueDasDunasPhotoApartamentoSmart59m2SuiteMaster, titulo: 'Perspectiva da suíte master do apartamento Smart (59 m²)' },
+      { src: moodParqueDasDunasPhotoApartamentoSmart59m2Quarto, titulo: 'Perspectiva do quarto do apartamento Smart (59 m²)' },
+    ],
+    floorPlans: [
+      { src: moodParqueDasDunasPlanImplantacaoGeralCondominio, titulo: 'Implantação geral do condomínio' },
+      { src: moodParqueDasDunasPlanPlantaPavimentoTerreoGardens, titulo: 'Pavimento térreo com apartamentos Garden' },
+      { src: moodParqueDasDunasPlanPlantaPavimentoTipo, titulo: 'Pavimento tipo' },
+      { src: moodParqueDasDunasPlanPlantaIndividualComfort7002m2, titulo: 'Apartamento Comfort de 70,02 m²' },
+      { src: moodParqueDasDunasPlanPlantaIndividualSmart5897m2, titulo: 'Apartamento Smart de 58,97 m²' },
+      { src: moodParqueDasDunasPlanReferenciaPagina08LegendasOriginais, titulo: 'Implantação geral com legendas (página de referência)' },
+      { src: moodParqueDasDunasPlanReferenciaPagina27LegendasOriginais, titulo: 'Pavimento térreo com Gardens e legendas (página de referência)' },
+      { src: moodParqueDasDunasPlanReferenciaPagina30LegendasOriginais, titulo: 'Pavimento tipo com legendas (página de referência)' },
+      { src: moodParqueDasDunasPlanReferenciaPagina31LegendasOriginais, titulo: 'Apartamento Comfort de 70,02 m² com legendas (página de referência)' },
+      { src: moodParqueDasDunasPlanReferenciaPagina36LegendasOriginais, titulo: 'Apartamento Smart de 58,97 m² com legendas (página de referência)' },
+    ],
+    locationImages: [
+      { src: moodParqueDasDunasLocVistaAereaCapimMacioPontaNegra, titulo: 'Vista aérea de Capim Macio e Ponta Negra' },
+      { src: moodParqueDasDunasLocVistaAereaLocalizacaoEmNatal, titulo: 'Vista aérea da localização em Natal' },
+      { src: moodParqueDasDunasLocMapaAereoRuasDeAcesso, titulo: 'Mapa aéreo com as ruas de acesso' },
+    ],
+  }),
+  createDevelopment({
     slug: 'mirante-ruy-carneiro', name: 'Mirante Ruy Carneiro', image: mirantRuyCover,
     city: 'João Pessoa, PB', neighborhood: 'Jardim Luna', locationTitle: 'Jardim Luna - João Pessoa/PB',
     address: 'Avenida Senador Ruy Carneiro, Jardim Luna, João Pessoa/PB',
@@ -5973,7 +6193,7 @@ function DevelopmentDetail({ development }) {
   const touchStartX = useRef(null);
   const activeImages = activeLightbox ? lightboxGroups[activeLightbox.group] : [];
   const activeImage = activeLightbox ? activeImages[activeLightbox.index] : null;
-  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'concept-jatiuca', 'lanai-beach', 'beach-class-milagres', 'beach-class-natal', 'florata-tirol', 'les-amis-lagoa-nova', 'beach-class-ponta-negra', 'beach-class-porto-das-dunas', 'mirage', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'concept-joao-farinha', 'infinity-recife', 'lucena-plaza', 'edificio-libano', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-solare', 'beach-class-wave', 'beach-class-cumbuco', 'concept-joao-pessoa', 'concept-jardins', 'casa-jardins', 'casa-boris', 'miraflor-passeio-kennedy', 'beach-class-iracema', 'mirante-ruy-carneiro', 'mood-candelaria', 'mood-jacarecica'].includes(development?.slug);
+  const showAllOrganizedImages = ['elleve-horto', 'miratmartins', 'beachclassriovermelho', 'casa-sombreiros', 'hortoessence', 'infinity-salvador-business', 'poeme-horto', 'jardinsdoparque', 'concept-jatiuca', 'lanai-beach', 'beach-class-milagres', 'beach-class-natal', 'florata-tirol', 'les-amis-lagoa-nova', 'beach-class-ponta-negra', 'beach-class-porto-das-dunas', 'mirage', 'cyano', 'salvador220', 'vivant', 'beachclassjaguaribe', 'beachclassbahia', 'rive', 'mansaoothon', 'unica-cardeal', 'mood-colina', 'mood-club', 'mood-costa-azul', 'mood-sol-bahia', 'arthur-bruno-schwambach', 'concept-joao-farinha', 'infinity-recife', 'lucena-plaza', 'edificio-libano', 'beach-class-manguinhos', 'beach-class-marine', 'beach-class-solare', 'beach-class-wave', 'beach-class-cumbuco', 'concept-joao-pessoa', 'concept-jardins', 'casa-jardins', 'casa-boris', 'miraflor-passeio-kennedy', 'beach-class-iracema', 'mirante-ruy-carneiro', 'mood-candelaria', 'mood-jacarecica', 'parque-das-palmeiras', 'mood-parque-das-dunas'].includes(development?.slug);
   const visibleGalleryImages = lightboxGroups.gallery.slice(0, 5);
   const remainingGalleryCount = Math.max(0, lightboxGroups.gallery.length - visibleGalleryImages.length);
   const visibleFloorPlans = showAllOrganizedImages
