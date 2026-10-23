@@ -1003,6 +1003,112 @@ test('renders Mood Parque das Dunas perspectives, all floor plans and location s
   expect(screen.getByRole('button', { name: /ampliar Mapa aéreo com as ruas de acesso/i })).toBeInTheDocument();
 });
 
+test('lists Trairi 517 under Rio Grande do Norte', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Rio Grande do Norte' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Rio Grande do Norte' }));
+
+  expect(screen.getByRole('heading', { name: 'Trairi 517', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Trairi 517.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/trairi-517');
+});
+
+test('renders Trairi 517 perspectives and all floor plans separately', () => {
+  window.location.hash = '#empreendimento/trairi-517';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Trairi 517', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('2.525,62 m²')).toBeInTheDocument();
+  expect(screen.getAllByText(/176 m²/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+17 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(6);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Rua%20Trairi'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Trairi 517 - perspectiva da fachada da torre/i }));
+  expect(screen.getByText('1 / 22')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva da suíte master do apartamento de 140 m²/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Apartamento de 140 m² - 3 suítes e 2 vagas/i }));
+  expect(screen.getByText('6 / 6')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+});
+
+test('lists Venâncio Barbosa under Pernambuco', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Pernambuco' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Pernambuco' }));
+
+  expect(screen.getByRole('heading', { name: 'Venâncio Barbosa', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Venâncio Barbosa.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/venancio-barbosa');
+});
+
+test('renders Venâncio Barbosa perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/venancio-barbosa';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Venâncio Barbosa', level: 1 })).toBeInTheDocument();
+  expect(screen.getAllByText(/99 a 128 m²/).length).toBeGreaterThan(0);
+  expect(screen.getAllByText(/127,40 m²/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+6 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(6);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Casa%20Caiada'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Venâncio Barbosa - perspectiva da fachada do edifício/i }));
+  expect(screen.getByText('1 / 11')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva do quarto infantil do apartamento/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Terminação 03 \(99 m²\) - suíte master com closet/i }));
+  expect(screen.getByText('6 / 6')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  expect(screen.getByRole('button', { name: /ampliar Mapa ilustrado de localização em Casa Caiada/i })).toBeInTheDocument();
+});
+
+test('lists Verdano under Pernambuco', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Pernambuco' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Pernambuco' }));
+
+  expect(screen.getByRole('heading', { name: 'Verdano', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Verdano.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/verdano');
+});
+
+test('renders Verdano perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/verdano';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Verdano', level: 1 })).toBeInTheDocument();
+  expect(screen.getAllByText(/86,41 a 108,50 m²/).length).toBeGreaterThan(0);
+  expect(screen.getAllByText(/103,75 m²/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+16 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(6);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Verdano'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Verdano - perspectiva da fachada no entardecer/i }));
+  expect(screen.getByText('1 / 21')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva da varanda gourmet do apartamento 03/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Apartamento 03 - 86,41 m² com 3 quartos/i }));
+  expect(screen.getByText('6 / 6')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  expect(screen.getByRole('button', { name: /ampliar Mapa do entorno e pontos de interesse/i })).toBeInTheDocument();
+});
+
 test('lists Mirante Ruy Carneiro under Paraíba', async () => {
   render(<App />);
   fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));

@@ -1,0 +1,34 @@
+GUIA DAS IMAGENS — TRAIRI 517
+
+Cada foto foi salva individualmente em PNG. As plantas técnicas ficam em uma pasta exclusiva.
+
+ORIGEM DAS IMAGENS (página do book | caminho no ZIP | descrição):
+
+Página 03 | Imagens_do_Empreendimento/fachada_perspectiva_arquitetonica.png | Perspectiva da torre apresentada no material publicitário
+Página 04 | Imagens_do_Empreendimento/fachada_vista_aerea.png | Fachada, torre e localização vista de cima
+Página 05 | Imagens_do_Empreendimento/fachada_vista_lateral_e_entorno.png | Fachada lateral, varandas e entorno urbano
+Página 06 | Imagens_do_Empreendimento/acesso_principal_e_porte_cochere.png | Entrada principal e porte-cochère
+Página 07 | Imagens_do_Empreendimento/cascata_e_paisagismo.png | Cascata e jardins
+Página 08 | Imagens_do_Empreendimento/hall_social.png | Hall social
+Página 09 | Imagens_do_Empreendimento/areas_de_lazer_vista_superior.png | Panorâmica das áreas comuns e lazer
+Página 10 | Plantas/planta_pavimento_terreo_areas_comuns.png | Pavimento térreo: implantação das áreas comuns e identificação de 22 espaços
+Página 11 | Imagens_do_Empreendimento/piscina_vista_aerea.png | Piscina, prainha, deck e áreas verdes
+Página 12 | Imagens_do_Empreendimento/playground.png | Playground
+Página 13 | Imagens_do_Empreendimento/brinquedoteca.png | Brinquedoteca
+Página 14 | Imagens_do_Empreendimento/sala_de_jogos.png | Sala de jogos
+Página 15 | Imagens_do_Empreendimento/terraco_gourmet.png | Terraço gourmet
+Página 16 | Imagens_do_Empreendimento/area_gourmet.png | Área gourmet
+Página 17 | Plantas/planta_pavimento_mezanino.png | Pavimento mezanino: academia, salão de festas, hall social e antecâmara
+Página 18 | Imagens_do_Empreendimento/academia.png | Academia
+Página 19 | Imagens_do_Empreendimento/salao_de_festas.png | Salão de festas
+Página 20 | Imagens_do_Empreendimento/ambiente_residencial_decorado.png | Ambiente residencial decorado
+Página 21 | Plantas/planta_implantacao_geral.png | Implantação geral no terreno
+Página 22 | Plantas/planta_pavimento_tipo.png | Pavimento tipo com dois apartamentos, halls privativos e lajes técnicas
+Página 23 | Plantas/planta_apartamento_176m2_4_suites.png | Apartamento 176 m²: 4 suítes e 3 vagas, unidade 01
+Página 24 | Imagens_do_Empreendimento/apartamento_176m2_sala_cozinha_integradas.png | Apartamento de 176 m²: sala e cozinha integradas
+Página 25 | Imagens_do_Empreendimento/apartamento_176m2_opcao_cozinha_separada.png | Apartamento de 176 m²: ambiente decorado com cozinha separada opcional
+Página 26 | Imagens_do_Empreendimento/apartamento_176m2_suite_master.png | Apartamento de 176 m²: suíte master
+Página 27 | Plantas/planta_apartamento_140m2_3_suites.png | Apartamento 140 m²: 3 suítes e 2 vagas, unidade 02
+Página 28 | Imagens_do_Empreendimento/apartamento_140m2_sala_cozinha_integradas.png | Apartamento de 140 m²: sala e cozinha integradas
+Página 29 | Imagens_do_Empreendimento/apartamento_140m2_opcao_cozinha_separada.png | Apartamento de 140 m²: ambiente decorado com cozinha separada opcional
+Página 30 | Imagens_do_Empreendimento/apartamento_140m2_suite_master.png | Apartamento de 140 m²: suíte master
