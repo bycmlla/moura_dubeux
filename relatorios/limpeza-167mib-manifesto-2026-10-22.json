@@ -1,0 +1,806 @@
+{
+  "Files": [
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/02_plantas/implantacao_e_areas_comuns/04_pavimento_garagem_01.png",
+      "Length": 5198636
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/apartamentos_decorados/07_sala_apto_73m2_sala_ampliada.png",
+      "Length": 5057685
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/apartamentos_decorados/02_varanda_apto_100m2.png",
+      "Length": 4984979
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/13_piscina_raia.png",
+      "Length": 4951919
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/02_plantas/implantacao_e_areas_comuns/05_pavimento_garagem_03_academia.png",
+      "Length": 4938073
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/10_playground.png",
+      "Length": 4346403
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/20_quadra_recreativa.png",
+      "Length": 4329129
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/apartamentos_decorados/04_varanda_apto_80m2.png",
+      "Length": 4221867
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/16_mirante_redario_e_piquenique.png",
+      "Length": 4177653
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/apartamentos_decorados/06_varanda_apto_73m2.png",
+      "Length": 4153786
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/05_Referencias_Tecnicas/ficha_tecnica_original.png",
+      "Length": 3992474
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/05_Ficha_Tecnica_e_Referencias/referencia_ficha_tecnica_original.png",
+      "Length": 3920406
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/03_quiosque_piscina.png",
+      "Length": 3842908
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/05_Referencias_Tecnicas/identificacao_equipes_de_projeto.png",
+      "Length": 3797436
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/11_praca_e_quiosque_quadra.png",
+      "Length": 3749744
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/21_academia_vista_mar.png",
+      "Length": 3669616
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/09_brinquedoteca.png",
+      "Length": 3621417
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/04_quadra_recreativa.png",
+      "Length": 3534500
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/imagens_empreendimento/03_fachada_principal.png",
+      "Length": 3511715
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/05_Referencias_Tecnicas/diferenciais_conforto_tecnologia_e_seguranca.png",
+      "Length": 3035904
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/07_parque_infantil.png",
+      "Length": 2977467
+    },
+    {
+      "Path": "src/assets/novobanner3.webp",
+      "Length": 2878264
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/01_Capa/capa_principal.png",
+      "Length": 2792522
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/imagens_empreendimento/fachadas/conjunto_infinity_salvador.png",
+      "Length": 2693496
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/implantacao_e_areas_comuns/04_lazer_bem_encontrar_torre_mar.png",
+      "Length": 2654474
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/05_Referencias_Tecnicas/personalizacao_material_original.png",
+      "Length": 2651463
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/15_gourmet_piscina.png",
+      "Length": 2645013
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/14_piscina_adulto_e_infantil.png",
+      "Length": 2621297
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/05_Ficha_Tecnica_e_Referencias/referencia_comodidades_e_servicos.png",
+      "Length": 2580340
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/10_festas_kids.png",
+      "Length": 2575997
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/05_Referencias_Tecnicas/ficha_tecnica_original_pagina_48.png",
+      "Length": 2568066
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/05_Referencias_Tecnicas/planta_lazer_com_legendas_original.png",
+      "Length": 2563602
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/implantacao_e_areas_comuns/02_implantacao_terreo.png",
+      "Length": 2516830
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/07_salao_de_festas_infantil.png",
+      "Length": 2359855
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Ceará/Casa_Boris_Organizado/05_Ficha_Tecnica_e_Referencias/quadro_comodidades_sustentabilidade_diferenciais.png",
+      "Length": 2344686
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/implantacao_e_areas_comuns/06_lazer_bem_estar_torre_brisa.png",
+      "Length": 2338779
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/05_Ficha_Tecnica_e_Diferenciais/ficha_tecnica_original.png",
+      "Length": 2320246
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/implantacao_e_areas_comuns/03_implantacao_acesso.png",
+      "Length": 2264991
+    },
+    {
+      "Path": "src/assets/novobanner1.webp",
+      "Length": 2166246
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/implantacao_e_areas_comuns/01_vista_esquematica_torres.png",
+      "Length": 2165281
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/09_salao_de_festas.png",
+      "Length": 2160048
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/29_varanda_apto_53_30m2.png",
+      "Length": 2152101
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/fachadas_e_acesso/03_torre_fachada_com_piscina_vista_mar.png",
+      "Length": 2120396
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/26_varanda_apto_65_59m2.png",
+      "Length": 2118813
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/12_sala_de_jogos.png",
+      "Length": 2109541
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/08_espaco_gourmet.png",
+      "Length": 2011384
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/11_brinquedoteca.png",
+      "Length": 1913581
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/05_Ficha_Tecnica_e_Referencias/referencia_sustentabilidade_e_seguranca.png",
+      "Length": 1870390
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/13_coworking.png",
+      "Length": 1742863
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/05_Referencias_Tecnicas/ficha_tecnica_original.png",
+      "Length": 1725726
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/28_suite_apto_53_30m2.png",
+      "Length": 1666987
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/22_academia_panoramica.png",
+      "Length": 1665453
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/05_Referencias_Tecnicas/sustentabilidade_ficha_original.png",
+      "Length": 1578204
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/19_gourmet_interno.png",
+      "Length": 1559360
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/05_Referencias_Tecnicas/diferenciais_conforto_seguranca_pagina_41.png",
+      "Length": 1516795
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/25_quarto_apto_65_59m2.png",
+      "Length": 1458013
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Lucena_Plaza/01_Capa/capa_principal_fachada_duas_torres.png",
+      "Length": 1406984
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/18_pet_care.png",
+      "Length": 1394424
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/17_salao_de_jogos.png",
+      "Length": 1382715
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/23_coworking.png",
+      "Length": 1272657
+    },
+    {
+      "Path": "src/assets/logo-branco-dm.png",
+      "Length": 941096
+    },
+    {
+      "Path": "src/assets/logo-azul-dm.png",
+      "Length": 781079
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/01_Capa/capa_principal_fachada.png",
+      "Length": 764173
+    },
+    {
+      "Path": "src/assets/logo-colorida-md.png",
+      "Length": 499004
+    },
+    {
+      "Path": "src/assets/novobanner2.jpg",
+      "Length": 491453
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/04_Imagens_Ilustrativas_Facilidades/placas_solares.png",
+      "Length": 370326
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/04_Imagens_Ilustrativas_Facilidades/fechadura_eletronica.png",
+      "Length": 341075
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/05_Referencias_Tecnicas/diferenciais_e_comodidades_do_book.png",
+      "Length": 242514
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/05_Ficha_Tecnica_e_Diferenciais/diferenciais_conforto_e_sustentabilidade.png",
+      "Length": 201922
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/04_Imagens_Ilustrativas_Facilidades/ponto_carregamento_carro_eletrico.png",
+      "Length": 191296
+    },
+    {
+      "Path": "src/assets/novobanner4.webp",
+      "Length": 190622
+    },
+    {
+      "Path": "src/assets/novobanner5.webp",
+      "Length": 189992
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/04_Imagens_Ilustrativas_Facilidades/tomada_usb.png",
+      "Length": 177376
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/04_Imagens_Ilustrativas_Facilidades/reuso_agua_ilustracao.png",
+      "Length": 141372
+    },
+    {
+      "Path": "src/assets/logocomplementar2.png",
+      "Length": 81177
+    },
+    {
+      "Path": "src/assets/logo2vermelhobkp.png",
+      "Length": 52458
+    },
+    {
+      "Path": "src/assets/logo-azul-dm-transparente.png",
+      "Length": 28469
+    },
+    {
+      "Path": "src/assets/logo-branco-dm-transparente.png",
+      "Length": 20246
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/indice_imagens.csv",
+      "Length": 14685
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/indice_imagens.csv",
+      "Length": 11605
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/indice_imagens.csv",
+      "Length": 10708
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/origem_das_imagens.csv",
+      "Length": 9500
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/indice_imagens.csv",
+      "Length": 9400
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/indice_imagens.csv",
+      "Length": 8908
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/indice_imagens.csv",
+      "Length": 8564
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/origem_das_imagens.txt",
+      "Length": 8285
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/manifesto_imagens.csv",
+      "Length": 7718
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/indice_imagens.csv",
+      "Length": 7554
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/indice_imagens.csv",
+      "Length": 7493
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/indice_imagens.csv",
+      "Length": 7245
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/informacoes_empreendimento.txt",
+      "Length": 7199
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Horto_Essence_Organizado/informacoes/manifesto_imagens.txt",
+      "Length": 7074
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Rive_Organizado/informacoes/manifesto_imagens.txt",
+      "Length": 7057
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Ceará/Casa_Boris_Organizado/indice_imagens.csv",
+      "Length": 6966
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/informacoes_empreendimento.txt",
+      "Length": 6834
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/indice_imagens.csv",
+      "Length": 6807
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Vivant_Organizado/informacoes/manifesto_imagens.txt",
+      "Length": 6541
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/indice_imagens.csv",
+      "Length": 6322
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Salvador_220_Organizado/informacoes/manifesto_imagens.txt",
+      "Length": 6112
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/origem_das_imagens.csv",
+      "Length": 6024
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/informacoes/manifesto_imagens.txt",
+      "Length": 5990
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Ceará/Beach_Class_Iracema/informacoes_empreendimento.txt",
+      "Length": 5969
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Lucena_Plaza/05_Informacoes/indice_imagens.txt",
+      "Length": 5813
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/informacoes_empreendimento.txt",
+      "Length": 5711
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/informacoes/manifesto_imagens.txt",
+      "Length": 5676
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/informacoes_empreendimento.txt",
+      "Length": 5590
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/04_Informacoes/informacoes_empreendimento.txt",
+      "Length": 5571
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/informacoes/manifesto_imagens.txt",
+      "Length": 5494
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/origem_das_imagens.txt",
+      "Length": 5436
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Ceará/Casa_Boris_Organizado/informacoes_empreendimento.txt",
+      "Length": 5418
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Cyano_Organizado/informacoes/manifesto_imagens.txt",
+      "Length": 5406
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/informacoes/elleve_horto.txt",
+      "Length": 5332
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/informacoes_empreendimento.txt",
+      "Length": 5317
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/informacoes_empreendimento.txt",
+      "Length": 5314
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/informacoes/casa_sombreiros.txt",
+      "Length": 5286
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/informacoes/manifesto_imagens.txt",
+      "Length": 5267
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/informacoes_empreendimento.txt",
+      "Length": 5215
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/informacoes_empreendimento.txt",
+      "Length": 5187
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/informacoes_empreendimento.txt",
+      "Length": 5180
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/informacoes/manifesto_imagens.txt",
+      "Length": 5097
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/informacoes_empreendimento.txt",
+      "Length": 5015
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/informacoes/mansao_othon.txt",
+      "Length": 5003
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/04_Informacoes/indice_imagens.txt",
+      "Length": 4984
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/informacoes_empreendimento.txt",
+      "Length": 4950
+    },
+    {
+      "Path": "src/assets/logo-preta-md.svg",
+      "Length": 4935
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Rive_Organizado/informacoes/rive.txt",
+      "Length": 4917
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Ceará/Beach_Class_Iracema/manifesto_imagens.csv",
+      "Length": 4842
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/origem_das_imagens.txt",
+      "Length": 4801
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Horto_Essence_Organizado/informacoes/horto_essence.txt",
+      "Length": 4800
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/informacoes/beach_class_bahia.txt",
+      "Length": 4797
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Salvador_220_Organizado/informacoes/salvador_220.txt",
+      "Length": 4775
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/informacoes_empreendimento.txt",
+      "Length": 4763
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Sergipe/Casa_Jardins_Organizado/informacoes_empreendimento.txt",
+      "Length": 4739
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/informacoes_empreendimento.txt",
+      "Length": 4650
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/informacoes/manifesto_imagens.txt",
+      "Length": 4647
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Lucena_Plaza/05_Informacoes/informacoes_empreendimento.txt",
+      "Length": 4622
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/informacoes/manifesto_imagens.txt",
+      "Length": 4605
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/manifesto_imagens.csv",
+      "Length": 4578
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/informacoes/infinity_salvador_business.txt",
+      "Length": 4560
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/informacoes_empreendimento.txt",
+      "Length": 4502
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/informacoes/poeme_horto.txt",
+      "Length": 4457
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/04_informacoes/mood_sol_bahia.txt",
+      "Length": 4334
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/informacoes/beach_class_jaguaribe.txt",
+      "Length": 4251
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/informacoes/jardins_do_parque.txt",
+      "Length": 4243
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Cyano_Organizado/informacoes/cyano.txt",
+      "Length": 4209
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/04_informacoes/mood_costa_azul.txt",
+      "Length": 4148
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/informacoes_empreendimento.txt",
+      "Length": 4052
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Vivant_Organizado/informacoes/vivant.txt",
+      "Length": 4015
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/origem_das_imagens.txt",
+      "Length": 3988
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/informacoes/manifesto_imagens.txt",
+      "Length": 3980
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/informacoes/mirat_martins_de_sa.txt",
+      "Length": 3856
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/informacoes/beach_class_rio_vermelho.txt",
+      "Length": 3744
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/informacoes_empreendimento.txt",
+      "Length": 3600
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/informacoes_empreendimento.txt",
+      "Length": 3596
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/informacoes_empreendimento.txt",
+      "Length": 3149
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/informacoes/manifesto_imagens.txt",
+      "Length": 2854
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Club_organizado/04_informacoes/mood_club.txt",
+      "Length": 2706
+    },
+    {
+      "Path": "src/logo.svg",
+      "Length": 2632
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/indice_imagens.txt",
+      "Length": 2598
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/informacoes.txt",
+      "Length": 2479
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Unica_Cardeal_Organizado/Unica_Cardeal_Organizado/informacoes.txt",
+      "Length": 1773
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/manifesto_origem.txt",
+      "Length": 1681
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Natal_Organizado/LEIA-ME.txt",
+      "Length": 1531
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/LEIA-ME.txt",
+      "Length": 1518
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/LEIA-ME.txt",
+      "Length": 1496
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Manguinhos_Organizado/LEIA-ME.txt",
+      "Length": 1439
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Ceará/Beach_Class_Cumbuco/LEIA_ME.txt",
+      "Length": 1427
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Alagoas/Lanai_Beach_Organizado/LEIA_ME.txt",
+      "Length": 1387
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Alagoas/Beach_Class_Milagres_Organizado/LEIA-ME.txt",
+      "Length": 1291
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/LEIA-ME.txt",
+      "Length": 1237
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Ceará/Casa_Boris_Organizado/LEIA-ME.txt",
+      "Length": 1222
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Ceará/Beach_Class_Iracema/LEIA-ME.txt",
+      "Length": 1185
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Horto_Essence_Organizado/README.txt",
+      "Length": 1134
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Paraíba/Concept_Joao_Pessoa_organizado/LEIA-ME.txt",
+      "Length": 1112
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/README.txt",
+      "Length": 1111
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/LEIA-ME.txt",
+      "Length": 1104
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/LEIA-ME.txt",
+      "Length": 1087
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Marine_Organizado/LEIA-ME.txt",
+      "Length": 1052
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/LEIA-ME.txt",
+      "Length": 1026
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/README.txt",
+      "Length": 955
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Rio Grande do Norte/Beach_Class_Ponta_Negra_Organizado/LEIA-ME.txt",
+      "Length": 955
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/LEIA-ME.txt",
+      "Length": 941
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Edificio_Libano_organizado/LEIA_ME.txt",
+      "Length": 930
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mirat_Martins_de_Sa_Organizado/README.txt",
+      "Length": 891
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Beach_Class_Rio_Vermelho_Organizado/README.txt",
+      "Length": 867
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/README.txt",
+      "Length": 844
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/README.txt",
+      "Length": 844
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Rio Grande do Norte/Florata_Tirol_organizado/LEIA-ME.txt",
+      "Length": 842
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Salvador_220_Organizado/README.txt",
+      "Length": 821
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/README.txt",
+      "Length": 812
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Vivant_Organizado/README.txt",
+      "Length": 790
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Rive_Organizado/README.txt",
+      "Length": 782
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mansao_Othon_Organizado/README.txt",
+      "Length": 763
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/LEIA-ME.txt",
+      "Length": 754
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Cyano_Organizado/README.txt",
+      "Length": 725
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Pernambuco/Lucena_Plaza/LEIA-ME.txt",
+      "Length": 659
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/LEIA-ME.txt",
+      "Length": 658
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/README.txt",
+      "Length": 588
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Poeme_Horto_Organizado/README.txt",
+      "Length": 511
+    },
+    {
+      "Path": "src/assets/Empreendimentos/Bahia/Mood_Club_organizado/LEIA-ME.txt",
+      "Length": 409
+    }
+  ],
+  "Bytes": 174744650,
+  "Status": "Validado antes da limpeza"
+}

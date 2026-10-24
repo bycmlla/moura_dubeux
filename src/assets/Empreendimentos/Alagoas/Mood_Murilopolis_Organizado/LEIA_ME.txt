@@ -1,0 +1,8 @@
+﻿MOOD MURILOPOLIS - ORGANIZACAO DO ZIP
+
+As perspectivas das edificacoes, areas de lazer e interiores estao em 02_Imagens_Empreendimento.
+Nao ha plantas dentro dessa pasta. As plantas foram reunidas em 03_Plantas, em versoes isoladas e paginas originais com legenda.
+A foto de capa esta em 01_Capa. As duas imagens de localizacao estao em 04_Localizacao.
+
+As fotos foram extraidas de imagens embutidas no PDF em resolucao original, quando disponiveis, para evitar legendas. Alguns mapas de localizacao podem conter informacoes e grafismos originais.
+As imagens representam perspectivas artisticas, nao fotografias da obra pronta. Consulte o memorial descritivo e a incorporadora antes de anunciar caracteristicas comerciais.

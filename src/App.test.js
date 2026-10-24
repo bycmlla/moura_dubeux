@@ -893,6 +893,44 @@ test('renders Miraflor - Passeio Kennedy perspectives, all floor plans and locat
   expect(screen.getByRole('button', { name: /ampliar Vista aérea do entorno com marcações dos centros comerciais/i })).toBeInTheDocument();
 });
 
+test('lists Mood Murilopolis under Alagoas next to Mood Jacarecica', async () => {
+  render(<App />);
+  fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
+
+  await waitFor(() => expect(screen.getByRole('button', { name: 'Selecionar Alagoas' })).toBeInTheDocument());
+  fireEvent.click(screen.getByRole('button', { name: 'Selecionar Alagoas' }));
+
+  expect(screen.getByRole('heading', { name: 'Mood Murilopolis', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('heading', { name: 'Mood Jacarecica', level: 3 })).toBeInTheDocument();
+  expect(screen.getByRole('link', { name: /Mood Murilopolis.*Conhecer empreendimento/i })).toHaveAttribute('href', '#empreendimento/mood-murilopolis');
+  expect(screen.queryByRole('heading', { name: 'Beach Class Marine' })).not.toBeInTheDocument();
+});
+
+test('renders Mood Murilopolis perspectives, all floor plans and location separately', () => {
+  window.location.hash = '#empreendimento/mood-murilopolis';
+  render(<App />);
+
+  expect(screen.getByRole('heading', { name: 'Mood Murilopolis', level: 1 })).toBeInTheDocument();
+  expect(screen.getByText('4.529,27 m²')).toBeInTheDocument();
+  expect(screen.getAllByText(/270 vagas/).length).toBeGreaterThan(0);
+  expect(screen.getByText('+30 fotos')).toBeInTheDocument();
+  expect(screen.getAllByRole('button', { name: /ampliar planta/i })).toHaveLength(16);
+  expect(screen.getByRole('link', { name: /abrir no mapa/i })).toHaveAttribute('href', expect.stringContaining('Mood%20Murilopolis'));
+  expect(document.querySelector('a[href$=".pdf"]')).not.toBeInTheDocument();
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar Mood Murilopolis - perspectiva da fachada das duas torres/i }));
+  expect(screen.getByText('1 / 35')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /imagem anterior/i }));
+  expect(screen.getByRole('dialog', { name: /perspectiva do quarto do apartamento Comfort da Torre B/i })).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  fireEvent.click(screen.getByRole('button', { name: /ampliar planta Torre B - Comfort 64,68 m² com legendas/i }));
+  expect(screen.getByText('16 / 16')).toBeInTheDocument();
+  fireEvent.click(screen.getByRole('button', { name: /fechar/i }));
+
+  expect(screen.getByRole('button', { name: /ampliar Mapa aéreo de acessos e vias/i })).toBeInTheDocument();
+});
+
 test('lists Mirage under Pernambuco', async () => {
   render(<App />);
   fireEvent.click(within(document.querySelector('.site-header')).getByRole('link', { name: 'Empreendimentos' }));
