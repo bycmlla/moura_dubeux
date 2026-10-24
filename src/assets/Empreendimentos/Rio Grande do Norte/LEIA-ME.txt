@@ -1,0 +1,15 @@
+PACOTE ORGANIZADO — MOOD PARQUE DAS DUNAS
+
+01_Capa — Imagem selecionada da fachada, PNG.
+02_Imagens_Empreendimento — Só perspectivas de fachada, lazer, áreas comuns e interiores. Nenhuma planta.
+03_Plantas_e_Implantacao — Exclusivamente implantações, plantas do pavimento e plantas das unidades, incluindo páginas com metragens e legendas.
+04_Localizacao_e_Entorno — Imagens aéreas e contexto/localização, não são fotos exclusivas do prédio.
+05_Referencias_Tecnicas — Ficha técnica, tipologias e outras páginas de referência, fora da galeria.
+
+informacoes_empreendimento.txt — Dados organizados conforme o book.
+indice_imagens.csv — Relaciona cada PNG à respectiva página do PDF.
+
+OBSERVAÇÃO DE USO
+O material de origem traz em todas as páginas o aviso "MATERIAL EXCLUSIVO PARA TREINAMENTO DE CORRETORES". Antes de publicar qualquer imagem no site, confirmar com a incorporadora a autorização de uso e a versão comercial aprovada. Alguns detalhes promocionais incorporados ao PDF podem permanecer nos PNGs.
+
+Todos os PNGs foram exportados do PDF fornecido, sem gerar novas perspectivas ou alterar elementos do empreendimento por IA. Para manter a melhor fidelidade possível, foram preservadas as resoluções das imagens extraídas, fazendo apenas recortes sem reamostragem.

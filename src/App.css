@@ -1248,7 +1248,7 @@ a {
   padding: calc(var(--header-height) + 72px) 0 86px;
   color: var(--brand-deep);
   background:
-    var(--hero-gradient), url("./assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/capa/capa_elleve_horto.png") center 46% / cover no-repeat;
+    var(--hero-gradient), url("./assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/capa/capa_elleve_horto.webp") center 46% / cover no-repeat;
 }
 
 .all-developments-hero h1 {
@@ -3202,7 +3202,7 @@ a {
       rgba(var(--brand-primary-rgb), 0.45),
       var(--brand-deep) 95%
     ),
-    url("./assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/fachadas/fachada_torre_elleve_horto.png") center 48% / cover;
+    url("./assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/fachadas/fachada_torre_elleve_horto.webp") center 48% / cover;
   filter: saturate(0.7);
 }
 
@@ -3289,7 +3289,7 @@ a {
       rgba(var(--brand-deep-rgb), 0.7) 45%,
       rgba(var(--brand-primary-rgb), 0.44)
     ),
-    url("./assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/fachadas/fachada_torre_elleve_horto.png") center / cover;
+    url("./assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/imagens_empreendimento/fachadas/fachada_torre_elleve_horto.webp") center / cover;
 }
 
 .contact-form__inner {
@@ -4177,7 +4177,7 @@ a {
   .all-developments-hero {
     background:
       var(--hero-gradient-tablet),
-      url("./assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/capa/capa_elleve_horto.png") center 46% / cover no-repeat;
+      url("./assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/capa/capa_elleve_horto.webp") center 46% / cover no-repeat;
   }
   .site-header__inner {
     gap: 20px;
@@ -4633,7 +4633,7 @@ a {
     padding: calc(var(--header-height) + 52px) 0 64px;
     background:
       var(--hero-gradient-detail-mobile),
-      url("./assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/capa/capa_elleve_horto.png") 66% center / cover no-repeat;
+      url("./assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/capa/capa_elleve_horto.webp") 66% center / cover no-repeat;
   }
   .all-developments-hero h1 {
     max-width: 100%;

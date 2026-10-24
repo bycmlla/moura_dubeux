@@ -1,0 +1,338 @@
+{
+  "unused": {
+    "files": 254,
+    "bytes": 289722142,
+    "MiB": "276.30"
+  },
+  "categories": [
+    {
+      "category": "Material original/de referência",
+      "files": 127,
+      "bytes": 522874
+    },
+    {
+      "category": "Mídia sem referência",
+      "files": 127,
+      "bytes": 289199268
+    }
+  ],
+  "wholeDirectories": [
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Mirage_Organizado",
+      "files": 50,
+      "unused": 50,
+      "bytes": 114956134
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/05_Referencias_Tecnicas",
+      "files": 3,
+      "unused": 3,
+      "bytes": 10825814
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/05_Referencias_Tecnicas",
+      "files": 4,
+      "unused": 4,
+      "bytes": 8518995
+    },
+    {
+      "path": "src/assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/05_Ficha_Tecnica_e_Referencias",
+      "files": 3,
+      "unused": 3,
+      "bytes": 8371136
+    },
+    {
+      "path": "src/assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/05_Referencias_Tecnicas",
+      "files": 2,
+      "unused": 2,
+      "bytes": 4084861
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/05_Ficha_Tecnica_e_Diferenciais",
+      "files": 2,
+      "unused": 2,
+      "bytes": 2522168
+    },
+    {
+      "path": "src/assets/Empreendimentos/Ceará/Casa_Boris_Organizado/05_Ficha_Tecnica_e_Referencias",
+      "files": 1,
+      "unused": 1,
+      "bytes": 2344686
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/04_Imagens_Ilustrativas_Facilidades",
+      "files": 5,
+      "unused": 5,
+      "bytes": 1221445
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/05_Referencias_Tecnicas",
+      "files": 1,
+      "unused": 1,
+      "bytes": 242514
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Rive_Organizado/informacoes",
+      "files": 2,
+      "unused": 2,
+      "bytes": 11974
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Horto_Essence_Organizado/informacoes",
+      "files": 2,
+      "unused": 2,
+      "bytes": 11874
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Elleve_Horto_Organizado/informacoes",
+      "files": 2,
+      "unused": 2,
+      "bytes": 11008
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Salvador_220_Organizado/informacoes",
+      "files": 2,
+      "unused": 2,
+      "bytes": 10887
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Vivant_Organizado/informacoes",
+      "files": 2,
+      "unused": 2,
+      "bytes": 10556
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/04_Informacoes",
+      "files": 2,
+      "unused": 2,
+      "bytes": 10555
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Lucena_Plaza/05_Informacoes",
+      "files": 2,
+      "unused": 2,
+      "bytes": 10435
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Beach_Class_Jaguaribe_Organizado/informacoes",
+      "files": 2,
+      "unused": 2,
+      "bytes": 10241
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Beach_Class_Bahia_Organizado/informacoes",
+      "files": 2,
+      "unused": 2,
+      "bytes": 9894
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Casa_Sombreiros_Organizado/informacoes",
+      "files": 2,
+      "unused": 2,
+      "bytes": 9891
+    },
+    {
+      "path": "src/assets/Empreendimentos/Alagoas/Jardins_do_Parque_Organizado/informacoes",
+      "files": 2,
+      "unused": 2,
+      "bytes": 9737
+    }
+  ],
+  "largestUnused": [
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Mirage_Organizado/02_Imagens_Empreendimento/piscinas_adulto_e_infantil.png",
+      "bytes": 6569953,
+      "category": "Mídia sem referência",
+      "reason": "Sem importação ou referência nos módulos de produção alcançáveis a partir de src/index.js."
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Mirage_Organizado/02_Imagens_Empreendimento/playground_ao_ar_livre.png",
+      "bytes": 5724346,
+      "category": "Mídia sem referência",
+      "reason": "Sem importação ou referência nos módulos de produção alcançáveis a partir de src/index.js."
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Mirage_Organizado/02_Imagens_Empreendimento/garden_deck_vista_aerea_piscinas.png",
+      "bytes": 5519119,
+      "category": "Mídia sem referência",
+      "reason": "Sem importação ou referência nos módulos de produção alcançáveis a partir de src/index.js."
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Mirage_Organizado/02_Imagens_Empreendimento/jardim_com_pracas_e_pomar.png",
+      "bytes": 5498217,
+      "category": "Mídia sem referência",
+      "reason": "Sem importação ou referência nos módulos de produção alcançáveis a partir de src/index.js."
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Mirage_Organizado/02_Imagens_Empreendimento/pet_place_com_pet_wash.png",
+      "bytes": 5348456,
+      "category": "Mídia sem referência",
+      "reason": "Sem importação ou referência nos módulos de produção alcançáveis a partir de src/index.js."
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/02_plantas/implantacao_e_areas_comuns/04_pavimento_garagem_01.png",
+      "bytes": 5198636,
+      "category": "Mídia sem referência",
+      "reason": "Sem importação ou referência nos módulos de produção alcançáveis a partir de src/index.js."
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/apartamentos_decorados/07_sala_apto_73m2_sala_ampliada.png",
+      "bytes": 5057685,
+      "category": "Mídia sem referência",
+      "reason": "Sem importação ou referência nos módulos de produção alcançáveis a partir de src/index.js."
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/apartamentos_decorados/02_varanda_apto_100m2.png",
+      "bytes": 4984979,
+      "category": "Mídia sem referência",
+      "reason": "Sem importação ou referência nos módulos de produção alcançáveis a partir de src/index.js."
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/13_piscina_raia.png",
+      "bytes": 4951919,
+      "category": "Mídia sem referência",
+      "reason": "Sem importação ou referência nos módulos de produção alcançáveis a partir de src/index.js."
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/02_plantas/implantacao_e_areas_comuns/05_pavimento_garagem_03_academia.png",
+      "bytes": 4938073,
+      "category": "Mídia sem referência",
+      "reason": "Sem importação ou referência nos módulos de produção alcançáveis a partir de src/index.js."
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Mirage_Organizado/02_Imagens_Empreendimento/rooftop_wine_deck.png",
+      "bytes": 4638444,
+      "category": "Mídia sem referência",
+      "reason": "Sem importação ou referência nos módulos de produção alcançáveis a partir de src/index.js."
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/10_playground.png",
+      "bytes": 4346403,
+      "category": "Mídia sem referência",
+      "reason": "Sem importação ou referência nos módulos de produção alcançáveis a partir de src/index.js."
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/20_quadra_recreativa.png",
+      "bytes": 4329129,
+      "category": "Mídia sem referência",
+      "reason": "Sem importação ou referência nos módulos de produção alcançáveis a partir de src/index.js."
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/apartamentos_decorados/04_varanda_apto_80m2.png",
+      "bytes": 4221867,
+      "category": "Mídia sem referência",
+      "reason": "Sem importação ou referência nos módulos de produção alcançáveis a partir de src/index.js."
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/16_mirante_redario_e_piquenique.png",
+      "bytes": 4177653,
+      "category": "Mídia sem referência",
+      "reason": "Sem importação ou referência nos módulos de produção alcançáveis a partir de src/index.js."
+    }
+  ],
+  "sizes": [
+    {
+      "path": "src",
+      "files": 2007,
+      "bytes": 4465178356
+    },
+    {
+      "path": "public",
+      "files": 9,
+      "bytes": 189731
+    },
+    {
+      "path": "build",
+      "files": 2129,
+      "bytes": 4037340460
+    },
+    {
+      "path": "node_modules",
+      "files": 38367,
+      "bytes": 8833962444
+    },
+    {
+      "path": "node_modules/.cache",
+      "files": 115,
+      "bytes": 8504969080
+    },
+    {
+      "path": ".git",
+      "files": 4307,
+      "bytes": 5184548706
+    },
+    {
+      "path": "backend",
+      "files": 812,
+      "bytes": 4107191
+    },
+    {
+      "path": "relatorios",
+      "files": 6,
+      "bytes": 204757
+    }
+  ],
+  "activeAssets": {
+    "files": 1745,
+    "bytes": 4174609234,
+    "largest": [
+      {
+        "path": "src/assets/Empreendimentos/Bahia/videos/Vivant.mp4",
+        "bytes": 64353065
+      },
+      {
+        "path": "src/assets/Empreendimentos/Bahia/videos/Infinity Salvador.mp4",
+        "bytes": 63747036
+      },
+      {
+        "path": "src/assets/Empreendimentos/Bahia/videos/unica_cardeal.mp4",
+        "bytes": 36081549
+      },
+      {
+        "path": "src/assets/Empreendimentos/Bahia/videos/poeme.mp4",
+        "bytes": 20287692
+      },
+      {
+        "path": "src/assets/video.mp4",
+        "bytes": 20216253
+      },
+      {
+        "path": "src/assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/01_Capa/capa_fachada_principal.png",
+        "bytes": 14484837
+      },
+      {
+        "path": "src/assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/02_Imagens_Empreendimento/fachada_vista_aerea_principal.png",
+        "bytes": 14484837
+      },
+      {
+        "path": "src/assets/Empreendimentos/Bahia/videos/casa_sombreiros.mp4",
+        "bytes": 13888800
+      },
+      {
+        "path": "src/assets/Empreendimentos/Bahia/videos/beachclassbahiabahiavideo1.mp4",
+        "bytes": 13473703
+      },
+      {
+        "path": "src/assets/Empreendimentos/Bahia/videos/miratmartinsvideo.mp4",
+        "bytes": 13172877
+      }
+    ]
+  },
+  "legacyActive": 218,
+  "reports": [
+    "relatorios/auditoria-sem-uso-2026-10-22.md",
+    "relatorios/auditoria-sem-uso-2026-10-22.csv",
+    "relatorios/auditoria-sem-uso-2026-10-22.txt"
+  ],
+  "keptPublic": [
+    "public/CNAME",
+    "public/favicon.ico",
+    "public/favicon.png",
+    "public/index.html",
+    "public/logo192.png",
+    "public/logo512.png",
+    "public/manifest.json",
+    "public/robots.txt",
+    "public/social-share.png"
+  ]
+}

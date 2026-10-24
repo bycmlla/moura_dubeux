@@ -1,0 +1,83 @@
+﻿MOOD MURILOPOLIS - INFORMACOES DO EMPREENDIMENTO
+Fonte: Book de apresentacao "MOOD MURILOPOLIS.pdf" (55 paginas)
+
+IDENTIFICACAO
+Nome comercial: Mood Murilopolis
+Marca: Mood, empresa Moura Dubeux
+Cidade / estado: Maceio - AL
+Bairro: Murilopolis
+Endereco: Avenida Menino Marcelo, numero 9850, Maceio - AL.
+
+DESCRICAO PARA SITE
+O Mood Murilopolis e um empreendimento residencial com duas torres, localizado no bairro Murilopolis, em Maceio. Oferece apartamentos de dois e tres quartos, todos com uma suite, ambientes funcionais, varandas com infraestrutura para bancada gourmet e areas de convivencia. O projeto preve piscina, espacos gourmet, salao de festas, academia, coworking, brinquedoteca, playground, quadra de areia e facilidades como lavanderia, mini market, locker para entregas e areas para pets. Sua localizacao proxima das avenidas Menino Marcelo e Muniz Falcao facilita o acesso a servicos da regiao.
+
+FICHA TECNICA (conforme a pagina 54 do book)
+Area do terreno: 4.529,27 m2
+Numero de torres: 2
+Total de unidades privativas: 264
+Total de vagas de estacionamento: 270, sendo 6 exclusivas para PCD
+Vagas por apartamento: 1 vaga por unidade, conforme apresentacao das tipologias
+Torre A: 18 pavimentos tipo, 8 unidades por pavimento, total 144 apartamentos
+Torre B: 20 pavimentos tipo, 6 unidades por pavimento, total 120 apartamentos
+Pavimentos complementares: subsolo (garagens e servicos), terreo (areas comuns, garagens e servicos) e vazado (garagens)
+
+APARTAMENTOS POR TORRE
+TORRE A
+- Smart: 53,65 m2, 2 quartos (1 suite), 1 vaga. Terminacoes 01, 04, 05 e 08. Planta na pagina 32.
+- Comfort: 65,82 m2, 3 quartos (1 suite), 1 vaga. Terminacoes 02, 03, 06 e 07. Planta na pagina 27.
+TORRE B
+- Smart: 54,58 m2, 2 quartos (1 suite), 1 vaga. Terminacoes 01 e 04. Planta na pagina 43.
+- Comfort: 64,68 m2, 3 quartos (1 suite), 1 vaga. Terminacoes 02, 03, 05 e 06. Planta na pagina 38.
+Nota: o material usa metragens arredondadas de 53/65 m2 para a Torre A e 54/64 m2 para a Torre B em materiais de destaque. As metragens precisas acima sao as da ficha tecnica da pagina 54.
+
+AREAS COMUNS E LAZER (paginas 7-24)
+- Piscina, deck e piscina infantil
+- Gourmet externo e gourmet interno
+- Salao de festas com area de apoio
+- Praca de chegada, areas ajardinadas e lazer externo
+- Playground
+- Quadra de areia
+- Brinquedoteca
+- Academia
+- Coworking
+- Lavanderia
+- Hall de acesso
+- Area de locker / delivery
+- Mini market
+- Pet place
+- Pet care
+
+DESTAQUES / COMODIDADES (pagina 49)
+- Espaco gourmet integrado a piscina
+- Areas comuns equipadas e mobiliadas, conforme especificacoes do empreendimento
+- Espaco de lazer completo
+- Varandas com infraestrutura gourmet
+- Estrutura para guarda e recebimento de delivery
+- Guarita com controle de acesso
+- Estrutura para minimarket
+- Opcoes de kits para personalizacao dos acabamentos
+- Estrutura para pet
+
+PROJETOS (pagina 48)
+- Arquitetura: ATTIC Arquitetura e Tecnologia BIM
+- Paisagismo: Takeda Design
+- Ambientacao das areas comuns: Todos Arquitetura de Historias
+
+LOCALIZACAO (paginas 3, 52-54)
+Endereco informado no catalogo: Av. Menino Marcelo, n. 9850
+Vias de referencia no material: Av. Menino Marcelo, Av. Muniz Falcao, Rua Angelo Correia e Alameda da Paz
+
+OBSERVACOES IMPORTANTES DO BOOK
+- As perspectivas sao imagens ilustrativas e podem sofrer alteracoes.
+- A varanda dos apartamentos sera entregue APENAS com infraestrutura de instalacoes para bancada gourmet; bancadas e metais nao estao incluidos no ambiente padrao (paginas 26, 27, 32, 37, 38 e 43).
+- O book apresentado nao informa preco, previsao de entrega ou disponibilidade atual; esses dados nao devem ser presumidos.
+- As metragens, elementos e acabamentos definitivos devem ser conferidos no memorial descritivo e no contrato.
+- Registro de incorporacao: R-2 da matricula 215.367 do 1o RGI de Maceio/AL (pagina 55).
+
+ORGANIZACAO DAS IMAGENS
+01_Capa: imagem escolhida da fachada sem textos do catalogo
+02_Imagens_Empreendimento: fachadas, perspectivas de ambientes comuns e apartamentos decorados, sem plantas
+03_Plantas/01_Plantas_Isoladas: desenhos e implantacoes em PNG, extraidos dos objetos de imagem
+03_Plantas/02_Plantas_Com_Legendas: paginas do book em PNG com identificacoes e notas originais
+04_Localizacao: mapas e vistas ilustradas do entorno
+origem_das_imagens.csv: relacao de arquivos, descricao, paginas e dimensoes

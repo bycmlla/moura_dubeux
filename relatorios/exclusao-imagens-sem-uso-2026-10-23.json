@@ -1,0 +1,631 @@
+{
+  "status": "sent-to-windows-recycle-bin",
+  "createdAt": "2026-10-23T23:36:18.887Z",
+  "workspace": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md",
+  "listPath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\relatorios\\imagens-sem-uso-2026-10-23.txt",
+  "listSha256": "64a3f934a6c6f5b9f956c6818d30775d2c001db80bfa91a8950d696c7ba23613",
+  "listed": 136,
+  "missing": [
+    "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/02_plantas/implantacao_e_areas_comuns/04_pavimento_garagem_01.png",
+    "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/apartamentos_decorados/07_sala_apto_73m2_sala_ampliada.png",
+    "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/apartamentos_decorados/02_varanda_apto_100m2.png",
+    "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/13_piscina_raia.png",
+    "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/02_plantas/implantacao_e_areas_comuns/05_pavimento_garagem_03_academia.png",
+    "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/10_playground.png",
+    "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/20_quadra_recreativa.png",
+    "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/apartamentos_decorados/04_varanda_apto_80m2.png",
+    "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/16_mirante_redario_e_piquenique.png",
+    "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/apartamentos_decorados/06_varanda_apto_73m2.png",
+    "src/assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/05_Referencias_Tecnicas/ficha_tecnica_original.png",
+    "src/assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/05_Ficha_Tecnica_e_Referencias/referencia_ficha_tecnica_original.png",
+    "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/03_quiosque_piscina.png",
+    "src/assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/05_Referencias_Tecnicas/identificacao_equipes_de_projeto.png",
+    "src/assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/05_Ficha_Tecnica_e_Diferenciais/ficha_tecnica_original.png",
+    "src/assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/05_Referencias_Tecnicas/ficha_tecnica_original.png",
+    "src/assets/Empreendimentos/Rio Grande do Norte/05_Referencias_Tecnicas/ficha_tecnica_original.png",
+    "src/assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/05_Referencias_Tecnicas/ficha_tecnica_original.png"
+  ],
+  "files": [
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/04_Localizacao_e_Entorno/mapa_aereo_ruas_de_acesso.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\04_Localizacao_e_Entorno\\mapa_aereo_ruas_de_acesso.png",
+      "bytes": 3781113
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/11_praca_e_quiosque_quadra.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Costa_Azul_organizado\\01_imagens_empreendimento\\lazer_e_areas_comuns\\11_praca_e_quiosque_quadra.png",
+      "bytes": 3749744
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/04_Localizacao_e_Entorno/vista_aerea_localizacao_em_natal.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\04_Localizacao_e_Entorno\\vista_aerea_localizacao_em_natal.png",
+      "bytes": 3687953
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/21_academia_vista_mar.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\01_imagens_empreendimento\\21_academia_vista_mar.png",
+      "bytes": 3669616
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/09_brinquedoteca.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Costa_Azul_organizado\\01_imagens_empreendimento\\lazer_e_areas_comuns\\09_brinquedoteca.png",
+      "bytes": 3621417
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/04_quadra_recreativa.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Costa_Azul_organizado\\01_imagens_empreendimento\\lazer_e_areas_comuns\\04_quadra_recreativa.png",
+      "bytes": 3534500
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Colina_Organizado_Colorido/imagens_empreendimento/03_fachada_principal.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Colina_Organizado_Colorido\\imagens_empreendimento\\03_fachada_principal.png",
+      "bytes": 3511715
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/pet_place_espaco_animais.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\pet_place_espaco_animais.png",
+      "bytes": 3300161
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/academia_ao_ar_livre.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\academia_ao_ar_livre.png",
+      "bytes": 3217836
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/piscina_infantil_e_espaco_gourmet.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\piscina_infantil_e_espaco_gourmet.png",
+      "bytes": 3129753
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Concept_Joao_Farinha_Organizado/05_Referencias_Tecnicas/diferenciais_conforto_tecnologia_e_seguranca.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Pernambuco\\Concept_Joao_Farinha_Organizado\\05_Referencias_Tecnicas\\diferenciais_conforto_tecnologia_e_seguranca.png",
+      "bytes": 3035904
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/piscina_adulto.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\piscina_adulto.png",
+      "bytes": 2987436
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/07_parque_infantil.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\01_imagens_empreendimento\\07_parque_infantil.png",
+      "bytes": 2977467
+    },
+    {
+      "path": "src/assets/novobanner3.webp",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\novobanner3.webp",
+      "bytes": 2878264
+    },
+    {
+      "path": "src/assets/Empreendimentos/Alagoas/Concept_Jatiuca_Organizado/01_Capa/capa_principal.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Alagoas\\Concept_Jatiuca_Organizado\\01_Capa\\capa_principal.png",
+      "bytes": 2792522
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/playground_infantil.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\playground_infantil.png",
+      "bytes": 2725882
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Infinity_Salvador_Business_Organizado/imagens_empreendimento/fachadas/conjunto_infinity_salvador.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Infinity_Salvador_Business_Organizado\\imagens_empreendimento\\fachadas\\conjunto_infinity_salvador.png",
+      "bytes": 2693496
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/praca_central_estar.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\praca_central_estar.png",
+      "bytes": 2663487
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/implantacao_e_areas_comuns/04_lazer_bem_encontrar_torre_mar.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\02_plantas\\implantacao_e_areas_comuns\\04_lazer_bem_encontrar_torre_mar.png",
+      "bytes": 2654474
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/05_Referencias_Tecnicas/personalizacao_material_original.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Pernambuco\\Infinity_Recife_Organizado\\05_Referencias_Tecnicas\\personalizacao_material_original.png",
+      "bytes": 2651463
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/15_gourmet_piscina.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\01_imagens_empreendimento\\15_gourmet_piscina.png",
+      "bytes": 2645013
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/14_piscina_adulto_e_infantil.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\01_imagens_empreendimento\\14_piscina_adulto_e_infantil.png",
+      "bytes": 2621297
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/guarita_portaria_acesso_principal.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\guarita_portaria_acesso_principal.png",
+      "bytes": 2620964
+    },
+    {
+      "path": "src/assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/05_Ficha_Tecnica_e_Referencias/referencia_comodidades_e_servicos.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Ceará\\Beach_Class_Porto_das_Dunas_Organizado\\05_Ficha_Tecnica_e_Referencias\\referencia_comodidades_e_servicos.png",
+      "bytes": 2580340
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/10_festas_kids.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\01_imagens_empreendimento\\10_festas_kids.png",
+      "bytes": 2575997
+    },
+    {
+      "path": "src/assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/05_Referencias_Tecnicas/ficha_tecnica_original_pagina_48.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Sergipe\\Concept_Jardins_Organizado\\05_Referencias_Tecnicas\\ficha_tecnica_original_pagina_48.png",
+      "bytes": 2568066
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/05_Referencias_Tecnicas/planta_lazer_com_legendas_original.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Pernambuco\\Infinity_Recife_Organizado\\05_Referencias_Tecnicas\\planta_lazer_com_legendas_original.png",
+      "bytes": 2563602
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/espaco_gourmet_lazer.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\espaco_gourmet_lazer.png",
+      "bytes": 2554955
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/implantacao_e_areas_comuns/02_implantacao_terreo.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\02_plantas\\implantacao_e_areas_comuns\\02_implantacao_terreo.png",
+      "bytes": 2516830
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/piscina_e_fachada_vista_aerea.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\piscina_e_fachada_vista_aerea.png",
+      "bytes": 2491663
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/miniquadra_poliesportiva.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\miniquadra_poliesportiva.png",
+      "bytes": 2455429
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/apartamento_garden_tipo_smart_area_externa.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\apartamento_garden_tipo_smart_area_externa.png",
+      "bytes": 2428414
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/apartamento_garden_tipo_comfort_area_externa.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\apartamento_garden_tipo_comfort_area_externa.png",
+      "bytes": 2390570
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/07_salao_de_festas_infantil.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Costa_Azul_organizado\\01_imagens_empreendimento\\lazer_e_areas_comuns\\07_salao_de_festas_infantil.png",
+      "bytes": 2359855
+    },
+    {
+      "path": "src/assets/Empreendimentos/Ceará/Casa_Boris_Organizado/05_Ficha_Tecnica_e_Referencias/quadro_comodidades_sustentabilidade_diferenciais.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Ceará\\Casa_Boris_Organizado\\05_Ficha_Tecnica_e_Referencias\\quadro_comodidades_sustentabilidade_diferenciais.png",
+      "bytes": 2344686
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/implantacao_e_areas_comuns/06_lazer_bem_estar_torre_brisa.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\02_plantas\\implantacao_e_areas_comuns\\06_lazer_bem_estar_torre_brisa.png",
+      "bytes": 2338779
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/brinquedoteca.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\brinquedoteca.png",
+      "bytes": 2315599
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/implantacao_e_areas_comuns/03_implantacao_acesso.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\02_plantas\\implantacao_e_areas_comuns\\03_implantacao_acesso.png",
+      "bytes": 2264991
+    },
+    {
+      "path": "src/assets/novobanner1.webp",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\novobanner1.webp",
+      "bytes": 2166246
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/02_plantas/implantacao_e_areas_comuns/01_vista_esquematica_torres.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\02_plantas\\implantacao_e_areas_comuns\\01_vista_esquematica_torres.png",
+      "bytes": 2165281
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/apartamento_smart_59m2_varanda.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\apartamento_smart_59m2_varanda.png",
+      "bytes": 2163119
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/09_salao_de_festas.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\01_imagens_empreendimento\\09_salao_de_festas.png",
+      "bytes": 2160048
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/29_varanda_apto_53_30m2.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\01_imagens_empreendimento\\29_varanda_apto_53_30m2.png",
+      "bytes": 2152101
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/fachadas_e_acesso/03_torre_fachada_com_piscina_vista_mar.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Costa_Azul_organizado\\01_imagens_empreendimento\\fachadas_e_acesso\\03_torre_fachada_com_piscina_vista_mar.png",
+      "bytes": 2120396
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/26_varanda_apto_65_59m2.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\01_imagens_empreendimento\\26_varanda_apto_65_59m2.png",
+      "bytes": 2118813
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/apartamento_comfort_70m2_varanda.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\apartamento_comfort_70m2_varanda.png",
+      "bytes": 2114473
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/12_sala_de_jogos.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Costa_Azul_organizado\\01_imagens_empreendimento\\lazer_e_areas_comuns\\12_sala_de_jogos.png",
+      "bytes": 2109541
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/hall_de_acesso_social.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\hall_de_acesso_social.png",
+      "bytes": 2084910
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/apartamento_smart_59m2_suite_master.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\apartamento_smart_59m2_suite_master.png",
+      "bytes": 2060148
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/08_espaco_gourmet.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Costa_Azul_organizado\\01_imagens_empreendimento\\lazer_e_areas_comuns\\08_espaco_gourmet.png",
+      "bytes": 2011384
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/minimarket_loja_conveniencia.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\minimarket_loja_conveniencia.png",
+      "bytes": 1934644
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/11_brinquedoteca.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\01_imagens_empreendimento\\11_brinquedoteca.png",
+      "bytes": 1913581
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/05_Referencias_Tecnicas/referencia_destaques_e_comodidades.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\05_Referencias_Tecnicas\\referencia_destaques_e_comodidades.png",
+      "bytes": 1893824
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/05_Referencias_Tecnicas/referencia_destaques_e_comodidades.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\Mood_Parque_das_Dunas_Organizado\\05_Referencias_Tecnicas\\referencia_destaques_e_comodidades.png",
+      "bytes": 1893824
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/coworking.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\coworking.png",
+      "bytes": 1886650
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/academia_interna.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\academia_interna.png",
+      "bytes": 1873139
+    },
+    {
+      "path": "src/assets/Empreendimentos/Ceará/Beach_Class_Porto_das_Dunas_Organizado/05_Ficha_Tecnica_e_Referencias/referencia_sustentabilidade_e_seguranca.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Ceará\\Beach_Class_Porto_das_Dunas_Organizado\\05_Ficha_Tecnica_e_Referencias\\referencia_sustentabilidade_e_seguranca.png",
+      "bytes": 1870390
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/salao_de_festas.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\salao_de_festas.png",
+      "bytes": 1843178
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/04_Localizacao_e_Entorno/vista_aerea_capim_macio_ponta_negra.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\04_Localizacao_e_Entorno\\vista_aerea_capim_macio_ponta_negra.png",
+      "bytes": 1752764
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Costa_Azul_organizado/01_imagens_empreendimento/lazer_e_areas_comuns/13_coworking.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Costa_Azul_organizado\\01_imagens_empreendimento\\lazer_e_areas_comuns\\13_coworking.png",
+      "bytes": 1742863
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/28_suite_apto_53_30m2.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\01_imagens_empreendimento\\28_suite_apto_53_30m2.png",
+      "bytes": 1666987
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/22_academia_panoramica.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\01_imagens_empreendimento\\22_academia_panoramica.png",
+      "bytes": 1665453
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/sala_de_jogos.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\sala_de_jogos.png",
+      "bytes": 1643446
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/apartamento_comfort_70m2_quarto.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\apartamento_comfort_70m2_quarto.png",
+      "bytes": 1586126
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Infinity_Recife_Organizado/05_Referencias_Tecnicas/sustentabilidade_ficha_original.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Pernambuco\\Infinity_Recife_Organizado\\05_Referencias_Tecnicas\\sustentabilidade_ficha_original.png",
+      "bytes": 1578204
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/apartamento_smart_59m2_quarto.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\apartamento_smart_59m2_quarto.png",
+      "bytes": 1574487
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/19_gourmet_interno.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\01_imagens_empreendimento\\19_gourmet_interno.png",
+      "bytes": 1559360
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/apartamento_smart_59m2_sala_de_estar.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\apartamento_smart_59m2_sala_de_estar.png",
+      "bytes": 1528746
+    },
+    {
+      "path": "src/assets/Empreendimentos/Sergipe/Concept_Jardins_Organizado/05_Referencias_Tecnicas/diferenciais_conforto_seguranca_pagina_41.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Sergipe\\Concept_Jardins_Organizado\\05_Referencias_Tecnicas\\diferenciais_conforto_seguranca_pagina_41.png",
+      "bytes": 1516795
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/25_quarto_apto_65_59m2.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\01_imagens_empreendimento\\25_quarto_apto_65_59m2.png",
+      "bytes": 1458013
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/03_Plantas_e_Implantacao/referencia_pagina_08_legendas_originais.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\03_Plantas_e_Implantacao\\referencia_pagina_08_legendas_originais.png",
+      "bytes": 1432301
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Lucena_Plaza/01_Capa/capa_principal_fachada_duas_torres.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Pernambuco\\Lucena_Plaza\\01_Capa\\capa_principal_fachada_duas_torres.png",
+      "bytes": 1406984
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/18_pet_care.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\01_imagens_empreendimento\\18_pet_care.png",
+      "bytes": 1394424
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/17_salao_de_jogos.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\01_imagens_empreendimento\\17_salao_de_jogos.png",
+      "bytes": 1382715
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/05_Referencias_Tecnicas/referencia_equipes_e_arquitetos.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\05_Referencias_Tecnicas\\referencia_equipes_e_arquitetos.png",
+      "bytes": 1330877
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/05_Referencias_Tecnicas/referencia_equipes_e_arquitetos.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\Mood_Parque_das_Dunas_Organizado\\05_Referencias_Tecnicas\\referencia_equipes_e_arquitetos.png",
+      "bytes": 1330877
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/apartamento_comfort_70m2_suite_master.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\apartamento_comfort_70m2_suite_master.png",
+      "bytes": 1314119
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/fachada_torre_perspectiva_frontal.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\fachada_torre_perspectiva_frontal.png",
+      "bytes": 1273107
+    },
+    {
+      "path": "src/assets/Empreendimentos/Bahia/Mood_Sol_Bahia_organizado/01_imagens_empreendimento/23_coworking.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Bahia\\Mood_Sol_Bahia_organizado\\01_imagens_empreendimento\\23_coworking.png",
+      "bytes": 1272657
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/02_Imagens_Empreendimento/apartamento_comfort_70m2_sala_de_estar.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\02_Imagens_Empreendimento\\apartamento_comfort_70m2_sala_de_estar.png",
+      "bytes": 1227078
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/03_Plantas_e_Implantacao/referencia_pagina_27_legendas_originais.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\03_Plantas_e_Implantacao\\referencia_pagina_27_legendas_originais.png",
+      "bytes": 1186859
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/03_Plantas_e_Implantacao/referencia_pagina_30_legendas_originais.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\03_Plantas_e_Implantacao\\referencia_pagina_30_legendas_originais.png",
+      "bytes": 1186327
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/Mood_Candelaria_Organizado/05_Ficha_Tecnica_e_Referencias/referencia_destaques_e_comodidades.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\Mood_Candelaria_Organizado\\05_Ficha_Tecnica_e_Referencias\\referencia_destaques_e_comodidades.png",
+      "bytes": 1171433
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/03_Plantas_e_Implantacao/implantacao_geral_condominio.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\03_Plantas_e_Implantacao\\implantacao_geral_condominio.png",
+      "bytes": 1138609
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/01_Capa/capa_principal_fachada_torre_mood_parque_das_dunas.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\01_Capa\\capa_principal_fachada_torre_mood_parque_das_dunas.png",
+      "bytes": 1088912
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/03_Plantas_e_Implantacao/referencia_pagina_36_legendas_originais.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\03_Plantas_e_Implantacao\\referencia_pagina_36_legendas_originais.png",
+      "bytes": 1036047
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/03_Plantas_e_Implantacao/referencia_pagina_31_legendas_originais.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\03_Plantas_e_Implantacao\\referencia_pagina_31_legendas_originais.png",
+      "bytes": 988428
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/03_Plantas_e_Implantacao/planta_pavimento_tipo.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\03_Plantas_e_Implantacao\\planta_pavimento_tipo.png",
+      "bytes": 979296
+    },
+    {
+      "path": "src/assets/logo-branco-dm.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\logo-branco-dm.png",
+      "bytes": 941096
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/03_Plantas_e_Implantacao/planta_pavimento_terreo_gardens.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\03_Plantas_e_Implantacao\\planta_pavimento_terreo_gardens.png",
+      "bytes": 914826
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/Mood_Candelaria_Organizado/05_Ficha_Tecnica_e_Referencias/referencia_ficha_tecnica_e_vagas.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\Mood_Candelaria_Organizado\\05_Ficha_Tecnica_e_Referencias\\referencia_ficha_tecnica_e_vagas.png",
+      "bytes": 870155
+    },
+    {
+      "path": "src/assets/logo-azul-dm.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\logo-azul-dm.png",
+      "bytes": 781079
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/Les_Amis_Lagoa_Nova_Oeganizado/01_Capa/capa_principal_fachada.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\Les_Amis_Lagoa_Nova_Oeganizado\\01_Capa\\capa_principal_fachada.png",
+      "bytes": 764173
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/03_Plantas_e_Implantacao/planta_individual_smart_58_97m2.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\03_Plantas_e_Implantacao\\planta_individual_smart_58_97m2.png",
+      "bytes": 639304
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/03_Plantas_e_Implantacao/planta_individual_comfort_70_02m2.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\03_Plantas_e_Implantacao\\planta_individual_comfort_70_02m2.png",
+      "bytes": 568685
+    },
+    {
+      "path": "src/assets/logo-colorida-md.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\logo-colorida-md.png",
+      "bytes": 499004
+    },
+    {
+      "path": "src/assets/novobanner2.jpg",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\novobanner2.jpg",
+      "bytes": 491453
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Mirage_Organizado/05_Imagens_Ilustrativas_Diferenciais/diferencial_ponto_carro_eletrico_ilustrativo.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Pernambuco\\Mirage_Organizado\\05_Imagens_Ilustrativas_Diferenciais\\diferencial_ponto_carro_eletrico_ilustrativo.png",
+      "bytes": 394802
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/04_Imagens_Ilustrativas_Facilidades/placas_solares.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Pernambuco\\Arthur_Bruno_Schwambach_Organizado\\04_Imagens_Ilustrativas_Facilidades\\placas_solares.png",
+      "bytes": 370326
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Mirage_Organizado/05_Imagens_Ilustrativas_Diferenciais/diferencial_controle_de_acesso_ilustrativo.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Pernambuco\\Mirage_Organizado\\05_Imagens_Ilustrativas_Diferenciais\\diferencial_controle_de_acesso_ilustrativo.png",
+      "bytes": 366536
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/05_Referencias_Tecnicas/referencia_tipologias_e_metropagens.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\05_Referencias_Tecnicas\\referencia_tipologias_e_metropagens.png",
+      "bytes": 351173
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/Mood_Parque_das_Dunas_Organizado/05_Referencias_Tecnicas/referencia_tipologias_e_metropagens.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\Mood_Parque_das_Dunas_Organizado\\05_Referencias_Tecnicas\\referencia_tipologias_e_metropagens.png",
+      "bytes": 351173
+    },
+    {
+      "path": "src/assets/Empreendimentos/Rio Grande do Norte/Mood_Candelaria_Organizado/05_Ficha_Tecnica_e_Referencias/referencia_tipologias_e_metragens.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Rio Grande do Norte\\Mood_Candelaria_Organizado\\05_Ficha_Tecnica_e_Referencias\\referencia_tipologias_e_metragens.png",
+      "bytes": 347705
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Mirage_Organizado/05_Imagens_Ilustrativas_Diferenciais/diferencial_fechadura_eletronica_ilustrativo.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Pernambuco\\Mirage_Organizado\\05_Imagens_Ilustrativas_Diferenciais\\diferencial_fechadura_eletronica_ilustrativo.png",
+      "bytes": 345783
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/04_Imagens_Ilustrativas_Facilidades/fechadura_eletronica.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Pernambuco\\Arthur_Bruno_Schwambach_Organizado\\04_Imagens_Ilustrativas_Facilidades\\fechadura_eletronica.png",
+      "bytes": 341075
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Solare_Organizado/05_Referencias_Tecnicas/diferenciais_e_comodidades_do_book.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Pernambuco\\Beach_Class_Solare_Organizado\\05_Referencias_Tecnicas\\diferenciais_e_comodidades_do_book.png",
+      "bytes": 242514
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Beach_Class_Wave_Organizado/05_Ficha_Tecnica_e_Diferenciais/diferenciais_conforto_e_sustentabilidade.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Pernambuco\\Beach_Class_Wave_Organizado\\05_Ficha_Tecnica_e_Diferenciais\\diferenciais_conforto_e_sustentabilidade.png",
+      "bytes": 201922
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/04_Imagens_Ilustrativas_Facilidades/ponto_carregamento_carro_eletrico.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Pernambuco\\Arthur_Bruno_Schwambach_Organizado\\04_Imagens_Ilustrativas_Facilidades\\ponto_carregamento_carro_eletrico.png",
+      "bytes": 191296
+    },
+    {
+      "path": "src/assets/novobanner4.webp",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\novobanner4.webp",
+      "bytes": 190622
+    },
+    {
+      "path": "src/assets/novobanner5.webp",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\novobanner5.webp",
+      "bytes": 189992
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/04_Imagens_Ilustrativas_Facilidades/tomada_usb.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Pernambuco\\Arthur_Bruno_Schwambach_Organizado\\04_Imagens_Ilustrativas_Facilidades\\tomada_usb.png",
+      "bytes": 177376
+    },
+    {
+      "path": "src/assets/Empreendimentos/Pernambuco/Arthur_Bruno_Schwambach_Organizado/04_Imagens_Ilustrativas_Facilidades/reuso_agua_ilustracao.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\Empreendimentos\\Pernambuco\\Arthur_Bruno_Schwambach_Organizado\\04_Imagens_Ilustrativas_Facilidades\\reuso_agua_ilustracao.png",
+      "bytes": 141372
+    },
+    {
+      "path": "src/assets/logocomplementar2.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\logocomplementar2.png",
+      "bytes": 81177
+    },
+    {
+      "path": "src/assets/logo2vermelhobkp.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\logo2vermelhobkp.png",
+      "bytes": 52458
+    },
+    {
+      "path": "src/assets/logo-azul-dm-transparente.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\logo-azul-dm-transparente.png",
+      "bytes": 28469
+    },
+    {
+      "path": "src/assets/logo-branco-dm-transparente.png",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\logo-branco-dm-transparente.png",
+      "bytes": 20246
+    },
+    {
+      "path": "src/assets/logo-preta-md.svg",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\assets\\logo-preta-md.svg",
+      "bytes": 4935
+    },
+    {
+      "path": "src/logo.svg",
+      "absolutePath": "C:\\Users\\camila.aguiar\\Documents\\Dione\\dione-md\\src\\logo.svg",
+      "bytes": 2632
+    }
+  ],
+  "bytes": 200714596,
+  "auditWarnings": [],
+  "completedAt": "2026-10-23T23:37:12.426Z",
+  "recycledFiles": 118,
+  "removedFromProjectBytes": 200714596,
+  "verification": {
+    "remainingListedFiles": [],
+    "missingReferenceWarnings": [],
+    "remainingUnusedImages": 0
+  },
+  "note": "Os arquivos foram enviados a Lixeira do Windows. O espaco em disco continua ocupado enquanto estiverem na Lixeira."
+}

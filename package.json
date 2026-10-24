@@ -22,7 +22,7 @@
     "test": "react-scripts --max-old-space-size=8192 test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build --add"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
