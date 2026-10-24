@@ -1,3 +1,11 @@
+# Publicação no GitHub Pages
+
+As imagens dos empreendimentos são carregadas dos arquivos do próprio repositório no GitHub em produção. No desenvolvimento e nos testes, os arquivos locais continuam sendo utilizados. Essa separação permite manter a qualidade dos WebPs e deixar o build do Pages abaixo do limite de 1 GB.
+
+Antes de publicar, faça commit e push das alterações em `main` e execute `npm run deploy`. O build fixa as URLs das imagens na revisão atual do Git; por isso, mudanças nas imagens precisam estar commitadas e enviadas antes da publicação. Os vídeos, banners, ícones e imagens de compartilhamento continuam incluídos no Pages.
+
+O domínio personalizado é preservado por `public/CNAME`. O deploy substitui os arquivos da publicação anterior, evitando acumular imagens antigas. `REACT_APP_MEDIA_BASE_URL` permite configurar outra base de mídias quando necessário.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
